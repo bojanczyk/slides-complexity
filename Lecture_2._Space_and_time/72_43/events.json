@@ -1,1 +1,0 @@
-{"name":"Unique accepting configuration","id":"72:43","events":[{"type":"show","id":"51:421","name":"Without loss of generality, we can assume that the Turing machine has a unique accepting configuration.","disabled":false},{"type":"show","id":"51:422","name":"After accepting, the machine sets all cells to blank, and moves the head to the leftmost cell.","disabled":false}]}

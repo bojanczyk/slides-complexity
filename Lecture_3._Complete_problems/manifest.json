@@ -1,0 +1,87 @@
+{
+  "presentation": "Lecture 3. Complete problems",
+  "root": "1:2",
+  "slideDict": {
+    "1:2": "1_2",
+    "13:2": "13_2",
+    "13:20": "13_20",
+    "13:31": "13_31",
+    "13:55": "13_55",
+    "14:27": "14_27",
+    "14:38": "14_38",
+    "14:67": "14_67",
+    "14:73": "14_73"
+  },
+  "tree": {
+    "type": "child",
+    "name": "First slide",
+    "id": "1:2",
+    "children": [
+      {
+        "type": "child",
+        "name": "Reductions",
+        "id": "13:2",
+        "children": [
+          {
+            "type": "child",
+            "name": "Turing reductions",
+            "id": "13:20",
+            "children": [
+              {
+                "type": "child",
+                "name": "Machines with oracles",
+                "id": "13:31",
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "child",
+            "name": "Karp reductions",
+            "id": "13:55",
+            "children": [
+              {
+                "type": "child",
+                "name": "Why Karp?",
+                "id": "14:27",
+                "children": [
+                  {
+                    "type": "child",
+                    "name": "Problems for propositional formulas",
+                    "id": "14:38",
+                    "children": [
+                      {
+                        "type": "child",
+                        "name": "Propositional formulas",
+                        "id": "14:67",
+                        "children": []
+                      },
+                      {
+                        "type": "child",
+                        "name": "Formulas",
+                        "id": "14:73",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "soundDict": {
+    "13:2": {
+      "0": {
+        "file": 0
+      },
+      "1": {
+        "file": 1
+      }
+    },
+    "13:20": {},
+    "13:55": {}
+  }
+}
