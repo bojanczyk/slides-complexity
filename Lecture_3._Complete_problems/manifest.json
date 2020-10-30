@@ -21,7 +21,10 @@
     "57:90": "57_90",
     "57:137": "57_137",
     "83:22": "83_22",
-    "83:27": "83_27"
+    "83:27": "83_27",
+    "1:11": "1_11",
+    "113:6": "113_6",
+    "115:11": "115_11"
   },
   "tree": {
     "type": "child",
@@ -1022,6 +1025,177 @@
             "id": "84:109",
             "name": "Also Tower, Ackermann, etc.",
             "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "115:40",
+            "name": "Baker Gill Solovay",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "Relativisation",
+            "id": "1:11",
+            "children": [
+              {
+                "type": "show",
+                "id": "115:31",
+                "name": "PSpace = NPSpace",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "113:4",
+                "name": "Also true for NLogSpace = coNLogSpace.",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "1:16",
+                "name": "Thm. (Baker, Gill, Solovay). There are languages A and B such that",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "115:32",
+                "name": "P = NP",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "115:33",
+                "name": "P ≠ NP",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "113:8",
+                "name": "Take A to be any problem complete for PSpace, e.g. QBF.",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "113:10",
+                "name": "Both sides are equal to PSpace.",
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "Baker Gill Solovay proof 1",
+                "id": "113:6",
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "115:34",
+                    "name": "{ w ∈ a* : there is some word in A of same length as w}",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "115:35",
+                    "name": "This language is clearly in NP . We now show that it is not in P .",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "113:20",
+                    "name": "Consider some enumeration M1, M2, ... of all deterministic polynomial time Turing machines, which use an oracle over alphabet {0,1}.",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "113:21",
+                    "name": "If A ⊆ {0,1}* is an oracle, we write Mn[A] for the combination of Mn and A.",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "115:36",
+                    "name": "We define finite partial oracles",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "115:37",
+                    "name": "A partial oracle gives answers in {yes, no, ?}. Finite: finitely many yes or no answers",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "115:38",
+                    "name": "extension means that ? is replaced by yes or no",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "113:17",
+                    "name": "so that for every n and every oracle A which extends An",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "113:19",
+                    "name": "Mn[A] gives a wrong answer for Lengths[A].",
+                    "disabled": false
+                  },
+                  {
+                    "type": "child",
+                    "name": "Baker Gill Solovay proof 2",
+                    "id": "115:11",
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "115:13",
+                        "name": "Suppose that we have already defined Mn",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "115:17",
+                        "name": "Let A be an oracle that extends An with all “no” answers.",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "115:23",
+                        "name": "Let k ∈ {1, 2, ... } be such that An is undefined on all words of length k.",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "115:29",
+                        "name": "Consider the run of Mn+1[A] on the (unique) input of length k.",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "117:0",
+                        "name": "if this run accepts",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "115:39",
+                        "name": "This run will ask a certain number of queries of the form",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "115:28",
+                        "name": "If k is large enough, one of these queries is not asked, because the length of the run is polynomial in k.",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "115:30",
+                        "name": "Define An+1 so that it says “yes” on the unasked query, and is otherwise consistent with the queries in the run described above.",
+                        "disabled": false
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
@@ -1159,6 +1333,12 @@
       },
       "9": {
         "file": 9
+      },
+      "10": {
+        "file": 10
+      },
+      "11": {
+        "file": 11
       }
     },
     "13:31": {
@@ -1615,6 +1795,99 @@
       },
       "4": {
         "file": 4
+      }
+    },
+    "1:11": {
+      "0": {
+        "file": 0
+      },
+      "1": {
+        "file": 1
+      },
+      "2": {
+        "file": 2
+      },
+      "3": {
+        "file": 3
+      },
+      "4": {
+        "file": 4
+      },
+      "5": {
+        "file": 5
+      },
+      "6": {
+        "file": 6
+      },
+      "7": {
+        "file": 7
+      },
+      "8": {
+        "file": 8
+      }
+    },
+    "113:6": {
+      "0": {
+        "file": 0
+      },
+      "1": {
+        "file": 1
+      },
+      "2": {
+        "file": 2
+      },
+      "3": {
+        "file": 3
+      },
+      "4": {
+        "file": 4
+      },
+      "5": {
+        "file": 5
+      },
+      "6": {
+        "file": 6
+      },
+      "7": {
+        "file": 7
+      },
+      "8": {
+        "file": 8
+      },
+      "9": {
+        "file": 9
+      },
+      "10": {
+        "file": 10
+      }
+    },
+    "115:11": {
+      "0": {
+        "file": 0
+      },
+      "1": {
+        "file": 1
+      },
+      "2": {
+        "file": 2
+      },
+      "3": {
+        "file": 3
+      },
+      "4": {
+        "file": 4
+      },
+      "5": {
+        "file": 5
+      },
+      "6": {
+        "file": 6
+      },
+      "7": {
+        "file": 7
+      },
+      "8": {
+        "file": 8
       }
     }
   }

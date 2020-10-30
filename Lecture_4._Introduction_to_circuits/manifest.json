@@ -1,0 +1,379 @@
+{
+  "presentation": "Lecture 4. Introduction to circuits",
+  "root": "31:97",
+  "slideDict": {
+    "31:97": "31_97",
+    "30:0": "30_0",
+    "31:101": "31_101",
+    "31:434": "31_434",
+    "31:735": "31_735",
+    "31:593": "31_593",
+    "31:703": "31_703",
+    "31:857": "31_857",
+    "31:741": "31_741"
+  },
+  "tree": {
+    "type": "child",
+    "name": "Circuits",
+    "id": "31:97",
+    "children": [
+      {
+        "type": "child",
+        "name": "What is a circuit?",
+        "id": "30:0",
+        "children": [
+          {
+            "type": "show",
+            "id": "31:885",
+            "name": "x1",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "31:884",
+            "name": "it computes a function",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "31:881",
+            "name": "a gate of fan-in 3",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "31:95",
+            "name": "the size of the circuit is 11",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "31:883",
+            "name": "the depth of the circuit is 4",
+            "disabled": false
+          }
+        ]
+      },
+      {
+        "type": "show",
+        "id": "31:433",
+        "name": "Circuits can be seen as a model of parallel computation",
+        "disabled": false
+      },
+      {
+        "type": "child",
+        "name": "Matrix multiplication",
+        "id": "31:101",
+        "children": [
+          {
+            "type": "show",
+            "id": "31:889",
+            "name": "Multiplication of Boolean matrices: input: two n × n matrices A and B output: the n × n matrix AB",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "31:888",
+            "name": "Group 29",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "31:390",
+            "name": "As a function",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "31:887",
+            "name": "Group 28",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "31:432",
+            "name": "A sequence of circuits that has polynomial size and constant depth.",
+            "disabled": false
+          }
+        ]
+      },
+      {
+        "type": "child",
+        "name": "All functions computable",
+        "id": "31:434",
+        "children": [
+          {
+            "type": "show",
+            "id": "31:886",
+            "name": "Every function of type",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "31:591",
+            "name": "exponential",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "31:592",
+            "name": "linear",
+            "disabled": false
+          }
+        ]
+      },
+      {
+        "type": "show",
+        "id": "31:737",
+        "name": "Circuit complexity classes",
+        "disabled": false
+      },
+      {
+        "type": "child",
+        "name": "Circuit complexity classes",
+        "id": "31:735",
+        "children": [
+          {
+            "type": "show",
+            "id": "31:739",
+            "name": "Polynomial size circuits",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "Polynomial size circuits",
+            "id": "31:593",
+            "children": [
+              {
+                "type": "show",
+                "id": "31:901",
+                "name": "Consider a sequence of circuits",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "31:695",
+                "name": "Which languages can we get, if we assume that the circuits have polynomial size?",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "31:699",
+                "name": "We can get the language “the length of the word represents a halting Turing machine”",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "31:701",
+                "name": "and uncountably many others",
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "Uniform polynomial circuits ",
+                "id": "31:703",
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "31:902",
+                    "name": "The following conditions are equivalent for every",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "31:723",
+                    "name": "C can be computed in polynomial time",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "31:727",
+                    "name": "given n, one can compute in polynomial time a circuit that computes C on inputs of length n.",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "31:725",
+                    "name": "given n, one can compute in LogSpace a circuit that computes C on inputs of length n.",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "31:905",
+                    "name": "LogSpace ⊆ P",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "31:904",
+                    "name": "compute the circuit and run it",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "31:903",
+                    "name": "same as the proof that alternating reachability is P-complete for LogSpace reductions",
+                    "disabled": false
+                  }
+                ]
+              },
+              {
+                "type": "show",
+                "id": "31:702",
+                "name": "Can we get SAT?",
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "P/Poly",
+                "id": "31:857",
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "31:878",
+                    "name": "Machines with advice",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "31:879",
+                    "name": "a machine which is allowed one oracle query, and the query depends only on the input length",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "31:859",
+                    "name": "A polynomial time Turing machine with advice consists of :",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "31:860",
+                    "name": "1. a deterministic polynomial time Turing machine M",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "31:861",
+                    "name": "2. for each input length, an advice word of polynomial length",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "31:895",
+                    "name": "no requirement that the advice word can be computed",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "31:862",
+                    "name": "The language of such a device is:",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "31:863",
+                    "name": "{ w : M accepts w#(advice word for the length of w) }",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "31:899",
+                    "name": "Theorem. P/poly = circuits of polynomial size",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "31:897",
+                    "name": "⊇",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "31:898",
+                    "name": "⊆",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "31:876",
+                    "name": "Conjecture. NP is not contained in P/poly.",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "31:877",
+                    "name": "stronger than NP ≠ P.",
+                    "disabled": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "show",
+            "id": "31:740",
+            "name": "Polynomial size circuits of small depth",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "AC NC",
+            "id": "31:741",
+            "children": [
+              {
+                "type": "show",
+                "id": "31:743",
+                "name": "For k ∈ {0, 1, 2, ...} define:",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "31:890",
+                "name": "circuits which have polynomial size and depth at most",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "31:891",
+                "name": "as above, but also every gate has fan-in ≤ 2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "31:797",
+                "name": "$\\mathrm{NC}^k \\subseteq \\mathrm{AC}^k \\subseteq \\mathrm{NC}^{k+1}$40",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "31:894",
+                "name": "by definition",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "31:893",
+                "name": "because a gate with fan-in m can be simulated by a circuit of depth log m, which is O(log n) when m is polynomial.",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "31:892",
+                "name": "Next lecture: this inclusion is strict for k = 0",
+                "disabled": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "show",
+        "id": "31:906",
+        "name": "Next lecture: circuits of polynomial size and bounded depth (AC0), cannot recognise the language “even number of true’s”",
+        "disabled": false
+      }
+    ]
+  },
+  "soundDict": {}
+}
