@@ -1,6 +1,6 @@
 {
   "presentation": "Lecture 2. Space and time",
-  "root": "72:36",
+  "root": "72:38",
   "slideDict": {
     "72:36": "72_36",
     "68:18": "68_18",
@@ -21,7 +21,8 @@
     "128:837": "128_837",
     "132:128": "132_128",
     "128:844": "128_844",
-    "128:856": "128_856"
+    "128:856": "128_856",
+    "216:51": "NPSpace"
   },
   "tree": {
     "type": "child",
@@ -48,7 +49,7 @@
           {
             "type": "show",
             "id": "68:17",
-            "name": "Polynomial time: problems that can be solved by a Turing machine whose running time is ≤ p(n) for some polynomial p.",
+            "name": "Polynomial time: problems that can be solved by a Turing machine whose running time is \u2264 p(n) for some polynomial p.",
             "disabled": false
           },
           {
@@ -176,7 +177,7 @@
           {
             "type": "show",
             "id": "48:61",
-            "name": "For k ∈ {1, 2, ...} consider the following Turing machine N[k]:",
+            "name": "For k \u2208 {1, 2, ...} consider the following Turing machine N[k]:",
             "disabled": false
           },
           {
@@ -237,8 +238,8 @@
         "children": [
           {
             "type": "show",
-            "id": "76:348",
-            "name": "Polynomial space: problems that can be solved by a Turing machine whose space complexity is ≤ p(n) for some polynomial p.",
+            "id": "216:27",
+            "name": "Polynomial space: problems that can be solved by a Turing machine whose space complexity is \u2264 p(n) for some polynomial p.",
             "disabled": false
           },
           {
@@ -273,7 +274,7 @@
               {
                 "type": "show",
                 "id": "128:936",
-                "name": "PSpace ⊆ ExpTime",
+                "name": "PSpace \u2286 ExpTime",
                 "disabled": false
               },
               {
@@ -335,26 +336,8 @@
         "children": [
           {
             "type": "show",
-            "id": "126:50",
-            "name": "For a nondeterministic Turing machine, the recognised language is those words which admit at least one accepting computation.",
-            "disabled": false
-          },
-          {
-            "type": "show",
-            "id": "126:42",
-            "name": "A language is in NP if there is a nondeterministic Turing machine such that:",
-            "disabled": false
-          },
-          {
-            "type": "show",
-            "id": "126:49",
-            "name": "(a) the machine recognises the language, but also:",
-            "disabled": false
-          },
-          {
-            "type": "show",
-            "id": "126:48",
-            "name": "(b) there is a polynomial p such that for every word, if there is an accepting computation, then there is one with time < p(length of the word)",
+            "id": "216:73",
+            "name": "nondeterministic polynomial time",
             "disabled": false
           },
           {
@@ -370,32 +353,20 @@
               },
               {
                 "type": "show",
-                "id": "126:74",
-                "name": "all runs are short",
-                "disabled": false
-              },
-              {
-                "type": "show",
                 "id": "126:73",
                 "name": "usual definition",
                 "disabled": false
               },
               {
                 "type": "show",
-                "id": "126:76",
-                "name": "special case",
+                "id": "216:70",
+                "name": "There is a polynomial p and a deterministic Turing machine M such that",
                 "disabled": false
               },
               {
                 "type": "show",
-                "id": "126:77",
-                "name": "reject after exceeding bound",
-                "disabled": false
-              },
-              {
-                "type": "show",
-                "id": "126:75",
-                "name": "witness definition",
+                "id": "126:74",
+                "name": "all runs are short",
                 "disabled": false
               },
               {
@@ -408,6 +379,18 @@
                 "type": "show",
                 "id": "126:78",
                 "name": "witness is computation",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "126:76",
+                "name": "special case",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "126:77",
+                "name": "reject after exceeding bound",
                 "disabled": false
               }
             ]
@@ -423,62 +406,81 @@
       {
         "type": "show",
         "id": "51:439",
-        "name": "Savitch’s theorem: Nondeterministic polynomial space = deterministic polynomial space",
+        "name": "Savitch\u2019s theorem: Nondeterministic polynomial space = deterministic polynomial space",
         "disabled": false
       },
       {
         "type": "child",
-        "name": "Savitch",
-        "id": "72:44",
+        "name": "NPSpace",
+        "id": "216:51",
         "children": [
           {
             "type": "show",
-            "id": "79:71",
-            "name": "Group 42",
+            "id": "216:61",
+            "name": "Definition. Nondeterministic PSpace",
             "disabled": false
           },
           {
             "type": "show",
-            "id": "79:108",
-            "name": "Group 43",
+            "id": "216:62",
+            "name": "Equivalent definition. There is a deterministic Turing machine M and a polynomial p such that:",
             "disabled": false
           },
           {
-            "type": "show",
-            "id": "79:35",
-            "name": "Group 41",
-            "disabled": false
-          },
-          {
-            "type": "show",
-            "id": "79:303",
-            "name": "Group 46",
-            "disabled": false
-          },
-          {
-            "type": "show",
-            "id": "79:344",
-            "name": "Group 47",
-            "disabled": false
-          },
-          {
-            "type": "show",
-            "id": "79:386",
-            "name": "Group 48",
-            "disabled": false
-          },
-          {
-            "type": "show",
-            "id": "51:498",
-            "name": "To prove Savitch’s theorem, for a nondeterministic Turing machine that runs in space p(n), we run this program for: source = initial configuration target = accepting configuration n = log k × p(n) m = p(n)",
-            "disabled": false
+            "type": "child",
+            "name": "Savitch",
+            "id": "72:44",
+            "children": [
+              {
+                "type": "show",
+                "id": "79:71",
+                "name": "Group 42",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "79:108",
+                "name": "Group 43",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "79:35",
+                "name": "Group 41",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "79:303",
+                "name": "Group 46",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "79:344",
+                "name": "Group 47",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "79:386",
+                "name": "Group 48",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "51:498",
+                "name": "To prove Savitch\u2019s theorem, for a nondeterministic Turing machine that runs in space p(n), we run this program for: source = initial configuration target = accepting configuration n = log k \u00d7 p(n) m = p(n)",
+                "disabled": false
+              }
+            ]
           }
         ]
       },
       {
         "type": "show",
         "id": "51:438",
-        "name": "Sipser’s theorem: machines with finite space can be forced to halt",
+        "name": "Sipser\u2019s theorem: machines with finite space can be forced to halt",
         "disabled": false
       },
       {
@@ -513,87 +515,8 @@
           {
             "type": "show",
             "id": "51:291",
-            "name": "2. if M uses n < ∞ memory cells, then N halts and also uses n cells.",
+            "name": "2. if M uses n < \u221e memory cells, then N halts and also uses n cells.",
             "disabled": false
-          },
-          {
-            "type": "show",
-            "id": "51:367",
-            "name": "Proof.",
-            "disabled": false
-          },
-          {
-            "type": "show",
-            "id": "51:364",
-            "name": "Step 1. Compute the memory needed",
-            "disabled": false
-          },
-          {
-            "type": "show",
-            "id": "51:365",
-            "name": "Step 2. Search all configurations",
-            "disabled": false
-          },
-          {
-            "type": "child",
-            "name": "Compute the space",
-            "id": "72:42",
-            "children": [
-              {
-                "type": "show",
-                "id": "51:360",
-                "name": "Compute the memory consumption",
-                "disabled": false
-              },
-              {
-                "type": "show",
-                "id": "51:375",
-                "name": "Group 34",
-                "disabled": false
-              },
-              {
-                "type": "show",
-                "id": "79:2506",
-                "name": "Group 49",
-                "disabled": false
-              },
-              {
-                "type": "show",
-                "id": "79:2611",
-                "name": "Group 50",
-                "disabled": false
-              },
-              {
-                "type": "show",
-                "id": "79:2718",
-                "name": "Group 51",
-                "disabled": false
-              },
-              {
-                "type": "show",
-                "id": "79:2827",
-                "name": "Group 52",
-                "disabled": false
-              },
-              {
-                "type": "show",
-                "id": "79:2938",
-                "name": "Group 53",
-                "disabled": false
-              },
-              {
-                "type": "show",
-                "id": "79:3051",
-                "name": "Group 54",
-                "disabled": false
-              },
-              {
-                "type": "show",
-                "id": "79:3166",
-                "name": "Group 55",
-                "disabled": false
-              }
-            ]
           },
           {
             "type": "child",
@@ -602,14 +525,8 @@
             "children": [
               {
                 "type": "show",
-                "id": "79:3283",
-                "name": "computed bound m",
-                "disabled": false
-              },
-              {
-                "type": "show",
                 "id": "51:373",
-                "name": "Consider the graph of configurations that use memory ≤ m",
+                "name": "Consider the graph of configurations that use memory \u2264 m",
                 "disabled": false
               },
               {
@@ -623,31 +540,6 @@
                 "id": "51:415",
                 "name": "Group 37",
                 "disabled": false
-              },
-              {
-                "type": "show",
-                "id": "79:4887",
-                "name": "Group 57",
-                "disabled": false
-              },
-              {
-                "type": "child",
-                "name": "Unique accepting configuration",
-                "id": "72:43",
-                "children": [
-                  {
-                    "type": "show",
-                    "id": "51:421",
-                    "name": "Without loss of generality, we can assume that the Turing machine has a unique accepting configuration.",
-                    "disabled": false
-                  },
-                  {
-                    "type": "show",
-                    "id": "51:422",
-                    "name": "After accepting, the machine sets all cells to blank, and moves the head to the leftmost cell.",
-                    "disabled": false
-                  }
-                ]
               },
               {
                 "type": "show",
@@ -675,31 +567,110 @@
               },
               {
                 "type": "show",
+                "id": "79:4887",
+                "name": "Group 57",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "210:3597",
+                "name": "A terminal in this graph is a vertex of outdegree 0.",
+                "disabled": false
+              },
+              {
+                "type": "show",
                 "id": "51:169",
                 "name": "Solution: Start in the accepting configuration, and search the tree (dfs) for the initial configuration.",
                 "disabled": false
               },
               {
                 "type": "show",
-                "id": "51:170",
-                "name": "The component with the accepting configuration is a tree (without a cycle).",
+                "id": "210:3591",
+                "name": "Solution: Start in the accepting configuration, and search the tree (dfs) for the initial configuration.",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "210:3497",
+                "name": "If there are 0 such terminals, the machine loops in memory \u2264 m.",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "210:3592",
+                "name": "If there is 1 such terminal, we can reject, accept, or increment m.",
                 "disabled": false
               },
               {
                 "type": "child",
-                "name": "Sipser Search 2",
-                "id": "72:41",
+                "name": "Compute the space",
+                "id": "72:42",
                 "children": [
                   {
                     "type": "show",
-                    "id": "79:4715",
-                    "name": "Group 56",
+                    "id": "216:74",
+                    "name": "The algorithm",
                     "disabled": false
                   },
                   {
                     "type": "show",
-                    "id": "51:256",
-                    "name": "The simulating machine remembers in its state which neighbour it has visited in the previous step.",
+                    "id": "79:2506",
+                    "name": "Group 49",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "79:2611",
+                    "name": "Group 50",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "79:2718",
+                    "name": "Group 51",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "79:2827",
+                    "name": "Group 52",
+                    "disabled": false
+                  },
+                  {
+                    "type": "child",
+                    "name": "Sipser Search 2",
+                    "id": "72:41",
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "79:4715",
+                        "name": "Group 56",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "51:256",
+                        "name": "The simulating machine remembers in its state which neighbour it has visited in the previous step.",
+                        "disabled": false
+                      }
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "79:2938",
+                    "name": "Group 53",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "79:3051",
+                    "name": "Group 54",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "79:3166",
+                    "name": "Group 55",
                     "disabled": false
                   }
                 ]
@@ -727,14 +698,8 @@
           },
           {
             "type": "show",
-            "id": "148:0",
-            "name": "...",
-            "disabled": false
-          },
-          {
-            "type": "show",
-            "id": "148:1",
-            "name": "As far as we know: logarithmic space ⊊ nondeterministic logarithmic space",
+            "id": "216:45",
+            "name": "The work tape has size at most log(poly n)",
             "disabled": false
           },
           {
@@ -790,14 +755,44 @@
                     "disabled": false
                   }
                 ]
-              },
-              {
-                "type": "show",
-                "id": "126:577",
-                "name": "We would get this kind of bound if tried to apply Savitch’s theorem",
-                "disabled": false
               }
             ]
+          },
+          {
+            "type": "show",
+            "id": "216:46",
+            "name": "For this class it is important to separate the input and work tapes.",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "148:1",
+            "name": "L ",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "227:1",
+            "name": "NL = nondeterministic logarithmic space",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "227:4",
+            "name": "There is a nondeterministic Turing machine M and a polynomial p such that:",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "216:67",
+            "name": "Equivalent definition. There is a deterministic Turing machine M and a polynomial p such that:",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "228:27",
+            "name": "Applying the Savitch construction to a nondeterministic logspace machine gives a deterministic machine in space",
+            "disabled": false
           },
           {
             "type": "show",
@@ -890,7 +885,7 @@
                   {
                     "type": "show",
                     "id": "133:787",
-                    "name": "guesses if the vertex u is reachable via a path of at most d–1 edges. If the guess is wrong, the program will eventually fail.",
+                    "name": "guesses if the vertex u is reachable via a path of at most d\u20131 edges. If the guess is wrong, the program will eventually fail.",
                     "disabled": false
                   },
                   {
@@ -908,7 +903,7 @@
                   {
                     "type": "show",
                     "id": "128:911",
-                    "name": "if there was an incorrect “true” guess, then this will fail",
+                    "name": "if there was an incorrect \u201ctrue\u201d guess, then this will fail",
                     "disabled": false
                   },
                   {
@@ -938,7 +933,7 @@
                   {
                     "type": "show",
                     "id": "133:789",
-                    "name": "if there was an incorrect “false” guess, then this will fail",
+                    "name": "if there was an incorrect \u201cfalse\u201d guess, then this will fail",
                     "disabled": false
                   }
                 ]
@@ -982,567 +977,780 @@
   "soundDict": {
     "72:36": {
       "0": {
-        "file": 0
+        "file": "0",
+        "duration": 13.704
       },
       "1": {
-        "file": 1
+        "file": "1",
+        "duration": 4.944
       },
       "2": {
-        "file": 2
+        "file": "2",
+        "duration": 2.544
       },
       "3": {
-        "file": 3
+        "file": "3",
+        "duration": 3.216
       },
       "4": {
-        "file": 4
+        "file": "4",
+        "duration": 10.464
       },
       "5": {
-        "file": 5
+        "file": "5",
+        "duration": 25.776
       },
       "6": {
-        "file": 6
+        "file": "6",
+        "duration": 6.096
       },
       "7": {
-        "file": 7
+        "file": "7",
+        "duration": 44.496
       },
       "8": {
-        "file": 8
+        "file": "8",
+        "duration": 8.904
       },
       "9": {
-        "file": 9
+        "file": "9",
+        "duration": 16.656
       },
       "10": {
-        "file": 10
+        "file": "10",
+        "duration": 9.384
       },
       "11": {
-        "file": 11
+        "file": "11",
+        "duration": 13.776
       },
       "12": {
-        "file": 12
+        "file": "12",
+        "duration": 30.336
       },
       "13": {
-        "file": 13
+        "file": "13",
+        "duration": 17.376
       },
       "14": {
-        "file": 14
+        "file": "14",
+        "duration": 8.184
       },
       "15": {
-        "file": 15
+        "file": "15",
+        "duration": 4.896
       },
       "16": {
-        "file": 16
+        "file": "16",
+        "duration": 7.896
       },
       "17": {
-        "file": 17
+        "file": "17",
+        "duration": 2.544
       },
       "18": {
-        "file": 18
+        "file": "18",
+        "duration": 23.184
       }
     },
     "68:18": {
       "0": {
-        "file": 0
+        "file": "0",
+        "duration": 2.736
       },
       "1": {
-        "file": 1
+        "file": "1",
+        "duration": 27.096
       },
       "2": {
-        "file": 2
+        "file": "2",
+        "duration": 13.896
       },
       "3": {
-        "file": 3
+        "file": "3",
+        "duration": 1.176
       },
       "4": {
-        "file": 4
+        "file": "4",
+        "duration": 16.704
       },
       "5": {
-        "file": 5
+        "file": "5",
+        "duration": 11.616
       },
       "6": {
-        "file": 6
+        "file": "6",
+        "duration": 26.976
       },
       "7": {
-        "file": 7
+        "file": "7",
+        "duration": 22.584
       },
       "8": {
-        "file": 8
+        "file": "8",
+        "duration": 46.584
       }
     },
     "76:258": {
       "0": {
-        "file": 0
+        "file": "0",
+        "duration": 2.304
       },
       "1": {
-        "file": 1
+        "file": "1",
+        "duration": 16.704
       },
       "2": {
-        "file": 2
+        "file": "2",
+        "duration": 25.776
       },
       "3": {
-        "file": 3
+        "file": "3",
+        "duration": 3.864
       },
       "4": {
-        "file": 4
+        "file": "4",
+        "duration": 25.824
       },
       "5": {
-        "file": 5
+        "file": "5",
+        "duration": 31.224
       },
       "6": {
-        "file": 6
+        "file": "6",
+        "duration": 17.976
       },
       "7": {
-        "file": 7
+        "file": "7",
+        "duration": 27.816
       }
     },
     "72:46": {
       "0": {
-        "file": 0
+        "file": "0",
+        "duration": 13.104
       },
       "1": {
-        "file": 1
+        "file": "1",
+        "duration": 35.496
       },
       "2": {
-        "file": 2
+        "file": "2",
+        "duration": 39.336
       },
       "3": {
-        "file": 3
+        "file": "3",
+        "duration": 21.984
       },
       "4": {
-        "file": 4
+        "file": "4",
+        "duration": 8.304
       },
       "5": {
-        "file": 5
+        "file": "5",
+        "duration": 19.944
       },
       "6": {
-        "file": 6
+        "file": "6",
+        "duration": 0.936
       }
     },
     "76:322": {
       "0": {
-        "file": 0
+        "file": "0",
+        "duration": 7.176
       },
       "1": {
-        "file": 1
+        "file": "1",
+        "duration": 51.504
       },
       "2": {
-        "file": 2
+        "file": "2",
+        "duration": 46.224
       },
       "3": {
-        "file": 3
+        "file": "3",
+        "duration": 2.304
       },
       "4": {
-        "file": 4
+        "file": "4",
+        "duration": 32.856
       },
       "5": {
-        "file": 5
+        "file": "5",
+        "duration": 31.296
       },
       "6": {
-        "file": 6
+        "file": "6",
+        "duration": 2.904
       }
     },
     "126:6": {
       "0": {
-        "file": 0
+        "file": "0",
+        "duration": 27.816
       },
       "1": {
-        "file": 1
+        "file": "1",
+        "duration": 2.664
       },
       "2": {
-        "file": 2
+        "file": "2",
+        "duration": 13.296
       },
       "3": {
-        "file": 3
+        "file": "3",
+        "duration": 7.176
       },
       "4": {
-        "file": 4
+        "file": "4",
+        "duration": 12.744
       },
       "5": {
-        "file": 5
+        "file": "5",
+        "duration": 24.096
       }
     },
     "72:44": {
       "0": {
-        "file": 0
+        "file": "0",
+        "duration": 3.384
       },
       "1": {
-        "file": 1
+        "file": "1",
+        "duration": 13.296
       },
       "2": {
-        "file": 2
+        "file": "2",
+        "duration": 10.416
       },
       "3": {
-        "file": 3
+        "file": "3",
+        "duration": 36.624
       },
       "4": {
-        "file": 4
+        "file": "4",
+        "duration": 8.184
       },
       "5": {
-        "file": 5
+        "file": "5",
+        "duration": 63.024
       },
       "6": {
-        "file": 6
+        "file": "6",
+        "duration": 8.544
       },
       "7": {
-        "file": 7
+        "file": "7",
+        "duration": 36.936
       }
     },
     "72:38": {
       "0": {
-        "file": 0
+        "file": "0",
+        "duration": 1.824
       },
       "1": {
-        "file": 1
+        "file": "1",
+        "duration": 68.376
       },
       "2": {
-        "file": 2
+        "file": "2",
+        "duration": 6.624
       },
       "3": {
-        "file": 3
+        "file": "3",
+        "duration": 12.144
       },
       "4": {
-        "file": 4
+        "file": "4",
+        "duration": 6.816
       },
       "5": {
-        "file": 5
+        "file": "5",
+        "duration": 21.864
       },
       "6": {
-        "file": 6
+        "file": "6",
+        "duration": 1.896
       },
       "7": {
-        "file": 7
+        "file": "7",
+        "duration": 29.544
       },
       "8": {
-        "file": 8
+        "file": "8",
+        "duration": 4.824
       },
       "9": {
-        "file": 9
+        "file": "9",
+        "duration": 18.816
       },
       "10": {
-        "file": 10
+        "file": "10",
+        "duration": 0.864
       }
     },
     "126:575": {
       "0": {
-        "file": 0
+        "file": "0",
+        "duration": 0.576
       },
       "1": {
-        "file": 1
+        "file": "1",
+        "duration": 4.056
       },
       "2": {
-        "file": 2
+        "file": "2",
+        "duration": 15.576
       },
       "3": {
-        "file": 3
+        "file": "3",
+        "duration": 8.856
       },
       "4": {
-        "file": 4
+        "file": "4",
+        "duration": 22.344
       },
       "5": {
-        "file": 5
+        "file": "5",
+        "duration": 17.064
       },
       "6": {
-        "file": 6
+        "file": "6",
+        "duration": 3.144
       },
       "7": {
-        "file": 7
+        "file": "7",
+        "duration": 26.544
+      },
+      "8": {
+        "file": "8",
+        "duration": 27.456
+      },
+      "9": {
+        "file": "9",
+        "duration": 33.264
+      },
+      "10": {
+        "file": "10",
+        "duration": 19.464
+      },
+      "11": {
+        "file": "11",
+        "duration": 12.144
+      },
+      "12": {
+        "file": "12",
+        "duration": 7.056
       }
     },
     "72:45": {
       "0": {
-        "file": 0
+        "file": "0",
+        "duration": 23.304
       },
       "1": {
-        "file": 1
+        "file": "1",
+        "duration": 45.696
       },
       "2": {
-        "file": 2
+        "file": "2",
+        "duration": 14.016
       },
       "3": {
-        "file": 3
+        "file": "3",
+        "duration": 25.944
       },
       "4": {
-        "file": 4
+        "file": "4",
+        "duration": 80.736
       }
     },
     "128:926": {
       "0": {
-        "file": 0
+        "file": "0",
+        "duration": 1.896
       },
       "1": {
-        "file": 1
+        "file": "1",
+        "duration": 9.696
       },
       "2": {
-        "file": 2
+        "file": "2",
+        "duration": 9.984
       },
       "3": {
-        "file": 3
+        "file": "3",
+        "duration": 9.864
       },
       "4": {
-        "file": 4
+        "file": "4",
+        "duration": 31.584
       },
       "5": {
-        "file": 5
+        "file": "5",
+        "duration": 23.016
       },
       "6": {
-        "file": 6
+        "file": "6",
+        "duration": 40.416
       },
       "7": {
-        "file": 7
+        "file": "7",
+        "duration": 18.336
       },
       "8": {
-        "file": 8
+        "file": "8",
+        "duration": 10.344
       }
     },
     "126:52": {
       "0": {
-        "file": 0
+        "file": "0",
+        "duration": 9.816
       },
       "1": {
-        "file": 1
+        "file": "1",
+        "duration": 6.144
       },
       "2": {
-        "file": 2
+        "file": "2",
+        "duration": 57.576
       },
       "3": {
-        "file": 3
+        "file": "3",
+        "duration": 53.976
       },
       "4": {
-        "file": 4
+        "file": "4",
+        "duration": 24.024
       },
       "5": {
-        "file": 5
+        "file": "5",
+        "duration": 26.064
       },
       "6": {
-        "file": 6
+        "file": "6",
+        "duration": 28.656
       },
       "7": {
-        "file": 7
+        "file": "7",
+        "duration": 6.624
       },
       "8": {
-        "file": 8
+        "file": "8",
+        "duration": 22.896
       }
     },
     "72:42": {
       "0": {
-        "file": 0
+        "file": "0",
+        "duration": 1.224
       },
       "1": {
-        "file": 1
+        "file": "1",
+        "duration": 1.824
       },
       "2": {
-        "file": 2
+        "file": "2",
+        "duration": 11.184
       },
       "3": {
-        "file": 3
+        "file": "3",
+        "duration": 26.136
       },
       "4": {
-        "file": 4
+        "file": "4",
+        "duration": 11.784
       },
       "5": {
-        "file": 5
+        "file": "5",
+        "duration": 8.424
       },
       "6": {
-        "file": 6
+        "file": "6",
+        "duration": 8.376
       },
       "7": {
-        "file": 7
+        "file": "7",
+        "duration": 11.736
       },
       "8": {
-        "file": 8
+        "file": "8",
+        "duration": 17.856
       },
       "9": {
-        "file": 9
+        "file": "9",
+        "duration": 17.136
       }
     },
     "72:39": {
       "0": {
-        "file": 0
+        "file": "0",
+        "duration": 0.336
       },
       "1": {
-        "file": 1
+        "file": "1",
+        "duration": 16.176
       },
       "2": {
-        "file": 2
+        "file": "2",
+        "duration": 39.264
       },
       "3": {
-        "file": 3
+        "file": "3",
+        "duration": 10.464
       },
       "4": {
-        "file": 4
+        "file": "4",
+        "duration": 3.576
       },
       "5": {
-        "file": 5
+        "file": "5",
+        "duration": 6.744
       },
       "6": {
-        "file": 6
+        "file": "6",
+        "duration": 3.456
       },
       "7": {
-        "file": 7
+        "file": "7",
+        "duration": 2.784
       },
       "8": {
-        "file": 8
+        "file": "8",
+        "duration": 6.696
       },
       "9": {
-        "file": 9
+        "file": "9",
+        "duration": 25.056
       },
       "10": {
-        "file": 10
+        "file": "10",
+        "duration": 21.936
       },
       "11": {
-        "file": 11
+        "file": "11",
+        "duration": 16.776
       },
       "12": {
-        "file": 12
+        "file": "12",
+        "duration": 9.336
       },
       "13": {
-        "file": 13
+        "file": "13",
+        "duration": 9.216
+      },
+      "14": {
+        "file": "14",
+        "duration": 1.296
       }
     },
     "72:43": {
       "0": {
-        "file": 0
+        "file": "0",
+        "duration": 1.296
       },
       "1": {
-        "file": 1
+        "file": "1",
+        "duration": 3.864
       },
       "2": {
-        "file": 2
+        "file": "2",
+        "duration": 5.184
       }
     },
     "72:41": {
       "0": {
-        "file": 0
+        "file": "0",
+        "duration": 2.544
       },
       "1": {
-        "file": 1
+        "file": "1",
+        "duration": 40.296
       },
       "2": {
-        "file": 2
+        "file": "2",
+        "duration": 36.024
       }
     },
     "128:837": {
       "0": {
-        "file": 0
+        "file": "0",
+        "duration": 1.344
       },
       "1": {
-        "file": 1
+        "file": "1",
+        "duration": 28.536
       },
       "2": {
-        "file": 2
+        "file": "2",
+        "duration": 16.056
       },
       "3": {
-        "file": 3
+        "file": "3",
+        "duration": 7.896
       },
       "4": {
-        "file": 4
+        "file": "4",
+        "duration": 10.056
       },
       "5": {
-        "file": 5
+        "file": "5",
+        "duration": 22.464
       }
     },
     "128:844": {
       "0": {
-        "file": 0
+        "file": "0",
+        "duration": 3.864
       },
       "1": {
-        "file": 1
+        "file": "1",
+        "duration": 8.616
       },
       "2": {
-        "file": 2
+        "file": "2",
+        "duration": 5.496
       },
       "3": {
-        "file": 3
+        "file": "3",
+        "duration": 25.344
       },
       "4": {
-        "file": 4
+        "file": "4",
+        "duration": 37.416
       },
       "5": {
-        "file": 5
+        "file": "5",
+        "duration": 11.616
       },
       "6": {
-        "file": 6
+        "file": "6",
+        "duration": 13.536
       },
       "7": {
-        "file": 7
+        "file": "7",
+        "duration": 4.896
       },
       "8": {
-        "file": 8
+        "file": "8",
+        "duration": 3.984
       },
       "9": {
-        "file": 9
+        "file": "9",
+        "duration": 10.776
       },
       "10": {
-        "file": 10
+        "file": "10",
+        "duration": 13.824
       }
     },
     "132:128": {
       "0": {
-        "file": 0
+        "file": "0",
+        "duration": 11.136
       },
       "1": {
-        "file": 1
+        "file": "1",
+        "duration": 8.736
       },
       "2": {
-        "file": 2
+        "file": "2",
+        "duration": 6.816
       },
       "3": {
-        "file": 3
+        "file": "3",
+        "duration": 2.304
       },
       "4": {
-        "file": 4
+        "file": "4",
+        "duration": 12.816
       }
     },
     "128:856": {
       "0": {
-        "file": 0
+        "file": "0",
+        "duration": 7.464
       },
       "1": {
-        "file": 1
+        "file": "1",
+        "duration": 30.744
       },
       "2": {
-        "file": 2
+        "file": "2",
+        "duration": 22.584
       },
       "3": {
-        "file": 3
+        "file": "3",
+        "duration": 3.096
       },
       "4": {
-        "file": 4
+        "file": "4",
+        "duration": 11.016
       },
       "5": {
-        "file": 5
+        "file": "5",
+        "duration": 18.816
       },
       "6": {
-        "file": 6
+        "file": "6",
+        "duration": 9.576
       },
       "7": {
-        "file": 7
+        "file": "7",
+        "duration": 4.656
       },
       "8": {
-        "file": 8
+        "file": "8",
+        "duration": 32.424
       },
       "9": {
-        "file": 9
+        "file": "9",
+        "duration": 3.024
       },
       "10": {
-        "file": 10
+        "file": "10",
+        "duration": 57.624
       },
       "11": {
-        "file": 11
+        "file": "11",
+        "duration": 2.136
       },
       "12": {
-        "file": 12
+        "file": "12",
+        "duration": 19.296
       },
       "13": {
-        "file": 13
+        "file": "13",
+        "duration": 6.816
       },
       "14": {
-        "file": 14
+        "file": "14",
+        "duration": 12.096
       },
       "15": {
-        "file": 15
+        "file": "15",
+        "duration": 7.416
       },
       "16": {
-        "file": 16
+        "file": "16",
+        "duration": 71.136
+      }
+    },
+    "216:51": {
+      "0": {
+        "file": "0",
+        "duration": 5.976
+      },
+      "1": {
+        "file": "1",
+        "duration": 34.944
+      },
+      "2": {
+        "file": "2",
+        "duration": 50.616
       }
     }
   }

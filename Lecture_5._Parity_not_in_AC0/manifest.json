@@ -17,7 +17,12 @@
     "18:230": "18_230",
     "18:258": "18_258",
     "16:125": "16_125",
-    "16:253": "16_253"
+    "16:253": "16_253",
+    "144:2": "Parity_in_NC1",
+    "144:353": "Frame",
+    "151:0": "Disjunction_polynomial",
+    "150:25": "Sqrt_",
+    "151:120": "Two_thirds_probability"
   },
   "tree": {
     "type": "child",
@@ -32,9 +37,58 @@
       },
       {
         "type": "show",
-        "id": "126:2",
-        "name": "Corollary.",
+        "id": "144:335",
+        "name": "Corollary. Since parity is in NC1, it follows that AC0 \u228a NC1",
         "disabled": false
+      },
+      {
+        "type": "child",
+        "name": "Parity in NC1",
+        "id": "144:2",
+        "children": [
+          {
+            "type": "show",
+            "id": "144:258",
+            "name": "Lemma. The language Parity \u2286 {true, false}* is in NC",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "144:7",
+            "name": "polynomial size circuits of logarithmic depth",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "144:260",
+            "name": "+",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "144:116",
+            "name": "Use a balanced binary tree of xor gates.",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "144:248",
+            "name": "+",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "144:259",
+            "name": "has logarithmic depth, because the tree is balanced",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "144:8",
+            "name": "in fact, every regular language",
+            "disabled": false
+          }
+        ]
       },
       {
         "type": "show",
@@ -119,8 +173,14 @@
                   },
                   {
                     "type": "show",
-                    "id": "21:581",
-                    "name": "Proof. The polynomial",
+                    "id": "144:327",
+                    "name": "Proof. Consider the polynomial",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "144:328",
+                    "name": "It gives the function",
                     "disabled": false
                   },
                   {
@@ -196,6 +256,37 @@
           },
           {
             "type": "child",
+            "name": "Disjunction polynomial",
+            "id": "151:0",
+            "children": [
+              {
+                "type": "show",
+                "id": "153:48",
+                "name": "\\prod_{i \\in \\{1,\\ldots,n\\}} x_i - 1",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "151:79",
+                "name": "Gives 1 if all variables are \u201cfalse\u201d, otherwise 0.",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "153:46",
+                "name": "Disjunction is represented by the following polynomial of degree 2n",
+                "disabled": false
+              }
+            ]
+          },
+          {
+            "type": "show",
+            "id": "151:118",
+            "name": "degree 2",
+            "disabled": false
+          },
+          {
+            "type": "child",
             "name": "A wrong proof",
             "id": "19:795",
             "children": [
@@ -208,7 +299,7 @@
               {
                 "type": "show",
                 "id": "21:586",
-                "name": "Assume that for every n, disjunction is represented by some polynomial of degree ≤ 5.",
+                "name": "Assume that for every n, disjunction is represented by some polynomial of degree \u2264 5.",
                 "disabled": false
               },
               {
@@ -271,175 +362,33 @@
         "children": [
           {
             "type": "show",
-            "id": "16:470",
+            "id": "150:20",
             "name": "Suppose that parity is in AC0.",
             "disabled": false
           },
           {
             "type": "show",
-            "id": "21:597",
-            "name": "of degree at most",
+            "id": "150:21",
+            "name": "low degree: has degree at most",
             "disabled": false
           },
           {
-            "type": "child",
-            "name": "Approximate gates",
-            "id": "16:411",
-            "children": [
-              {
-                "type": "show",
-                "id": "21:639",
-                "name": "Define an approximate ∨ gate as follows:",
-                "disabled": false
-              },
-              {
-                "type": "show",
-                "id": "16:333",
-                "name": "can be done by a polynomial of constant degree",
-                "disabled": false
-              },
-              {
-                "type": "show",
-                "id": "19:2",
-                "name": "Consider a circuit with only ∨ and ¬ gates, and let t ∈ {1, 2, ...}.",
-                "disabled": false
-              },
-              {
-                "type": "show",
-                "id": "16:371",
-                "name": "A t-approximation of this circuit is any circuit that can obtained by:",
-                "disabled": false
-              },
-              {
-                "type": "show",
-                "id": "21:640",
-                "name": "replacing each ∨ gate",
-                "disabled": false
-              },
-              {
-                "type": "show",
-                "id": "21:641",
-                "name": "with a gadget of this form:",
-                "disabled": false
-              },
-              {
-                "type": "child",
-                "name": "Probability of approximation",
-                "id": "19:3",
-                "children": [
-                  {
-                    "type": "show",
-                    "id": "19:5",
-                    "name": "Let C be a circuit, and let t be an approximation parameter.",
-                    "disabled": false
-                  },
-                  {
-                    "type": "show",
-                    "id": "19:6",
-                    "name": "Suppose that for every gate, we randomly select the t-approximation.",
-                    "disabled": false
-                  },
-                  {
-                    "type": "show",
-                    "id": "19:7",
-                    "name": "(we randomly choose t subsets of its inputs)",
-                    "disabled": false
-                  },
-                  {
-                    "type": "show",
-                    "id": "21:642",
-                    "name": "Let u be a gate, and let",
-                    "disabled": false
-                  },
-                  {
-                    "type": "show",
-                    "id": "21:643",
-                    "name": "Prob",
-                    "disabled": false
-                  },
-                  {
-                    "type": "show",
-                    "id": "21:644",
-                    "name": "=",
-                    "disabled": false
-                  },
-                  {
-                    "type": "show",
-                    "id": "19:92",
-                    "name": "each of the t approximate gates gives a correct result with probability 1/3",
-                    "disabled": false
-                  },
-                  {
-                    "type": "child",
-                    "name": "Rows columns",
-                    "id": "19:101",
-                    "children": [
-                      {
-                        "type": "show",
-                        "id": "21:743",
-                        "name": "Therefore, for every choice of",
-                        "disabled": false
-                      },
-                      {
-                        "type": "show",
-                        "id": "21:744",
-                        "name": "Prob",
-                        "disabled": false
-                      },
-                      {
-                        "type": "show",
-                        "id": "19:228",
-                        "name": "if all rows in a matrix have average value < a, then some column has average value < a",
-                        "disabled": false
-                      },
-                      {
-                        "type": "child",
-                        "name": "Get the square root",
-                        "id": "19:230",
-                        "children": [
-                          {
-                            "type": "show",
-                            "id": "21:746",
-                            "name": "D corresponds to a polynomial of degree at most",
-                            "disabled": false
-                          },
-                          {
-                            "type": "show",
-                            "id": "21:745",
-                            "name": "degree 2",
-                            "disabled": false
-                          },
-                          {
-                            "type": "show",
-                            "id": "21:747",
-                            "name": "D gives the wrong ansser with probability at most",
-                            "disabled": false
-                          },
-                          {
-                            "type": "show",
-                            "id": "19:331",
-                            "name": "Group 8",
-                            "disabled": false
-                          },
-                          {
-                            "type": "show",
-                            "id": "19:332",
-                            "name": "Group 9",
-                            "disabled": false
-                          },
-                          {
-                            "type": "show",
-                            "id": "19:347",
-                            "name": "depth of C",
-                            "disabled": false
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
+            "type": "show",
+            "id": "150:23",
+            "name": "Prob",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "150:24",
+            "name": "represents the parity function",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "150:19",
+            "name": "Lemma 2 The conclusion of Lemma 1 cannot hold, and therefore parity \u2209 AC0.",
+            "disabled": false
           },
           {
             "type": "show",
@@ -461,39 +410,70 @@
           },
           {
             "type": "show",
-            "id": "16:627",
+            "id": "151:119",
             "name": "Without violating (*) we can:",
             "disabled": false
           },
           {
-            "type": "show",
-            "id": "21:601",
-            "name": "(1) remove squares from every monomial:",
-            "disabled": false
-          },
-          {
-            "type": "show",
-            "id": "21:612",
-            "name": "(2) reduce the degree of every monomial to",
-            "disabled": false
-          },
-          {
-            "type": "show",
-            "id": "21:613",
-            "name": "If a monomial uses more than half of the variables, then rewrite it as:",
-            "disabled": false
-          },
-          {
-            "type": "show",
-            "id": "21:614",
-            "name": "degree",
-            "disabled": false
-          },
-          {
-            "type": "show",
-            "id": "21:615",
-            "name": "degree <",
-            "disabled": false
+            "type": "child",
+            "name": "Sqrt ",
+            "id": "150:25",
+            "children": [
+              {
+                "type": "show",
+                "id": "150:28",
+                "name": "If variables are taken from {-1, 1}, then",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "150:54",
+                "name": "(x_1)^2 x_2 x_3 (x_4)^2 (x_5)^2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "150:149",
+                "name": "Group 40",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "150:98",
+                "name": " = x_2 x_3 ",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "150:110",
+                "name": "Therefore, in each monomial, each variable is used with power 0 or 1.",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "18:204",
+                "name": "If more than half the variables in a monomial use power 1, then rewrite it as:",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "150:151",
+                "name": "product of variables that have use power 0",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "150:153",
+                "name": "degree \u2264 n / 2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "150:154",
+                "name": "by Lemma 1, can be done with degree",
+                "disabled": false
+              }
+            ]
           },
           {
             "type": "child",
@@ -549,7 +529,7 @@
                       {
                         "type": "show",
                         "id": "21:631",
-                        "name": "some number that tends to 1, as n tends to ∞",
+                        "name": "some number that tends to 1, as n tends to \u221e",
                         "disabled": false
                       },
                       {
@@ -566,8 +546,14 @@
                       },
                       {
                         "type": "show",
+                        "id": "153:82",
+                        "name": "probability that a subset of {1, ..., n} has size at most",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
                         "id": "21:634",
-                        "name": "this number has a limit (as n tends to ∞), which is less than 1.",
+                        "name": "this number has a limit (as n tends to \u221e), which is less than 1.",
                         "disabled": false
                       },
                       {
@@ -600,10 +586,887 @@
                 ]
               }
             ]
+          },
+          {
+            "type": "child",
+            "name": "Approximate gates",
+            "id": "16:411",
+            "children": [
+              {
+                "type": "show",
+                "id": "21:639",
+                "name": "Define an approximate \u2228 gate as follows:",
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "Approximate disjunction",
+                "id": "144:353",
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "144:385",
+                    "name": "number of true inputs mod 3",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "144:386",
+                    "name": "true if input is \u22600, false if input is zero",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "144:384",
+                    "name": "Composing these two, we get a polynomial of degree 4",
+                    "disabled": false
+                  }
+                ]
+              },
+              {
+                "type": "show",
+                "id": "19:2",
+                "name": "Consider a circuit with only \u2228 and \u00ac gates, and let t \u2208 {1, 2, ...}.",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "16:371",
+                "name": "A t-approximation of this circuit is any circuit that can obtained by:",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "21:640",
+                "name": "replacing each \u2228 gate",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "21:641",
+                "name": "with a gadget of this form:",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "160:11",
+                "name": "polynomial of degree 4",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "160:10",
+                "name": "polynomial of degree t",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "160:9",
+                "name": "4t",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "160:28",
+                "name": "A t-approximation of this circuit is any circuit that can obtained by:",
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "Probability of approximation",
+                "id": "19:3",
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "19:6",
+                    "name": "Suppose that for every gate, we randomly select the t-approximation.",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "19:7",
+                    "name": "(we randomly choose t subsets of its inputs)",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "161:0",
+                    "name": "Claim: with high probability, the t-approximation is correct",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "21:642",
+                    "name": "Let u be a gate, and let",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "21:643",
+                    "name": "Prob",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "21:644",
+                    "name": "=",
+                    "disabled": false
+                  },
+                  {
+                    "type": "child",
+                    "name": "Two thirds probability",
+                    "id": "151:120",
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "151:216",
+                        "name": "true",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "151:218",
+                        "name": "true",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "151:220",
+                        "name": "Y = inputs which are true",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "151:219",
+                        "name": "if we randomly select a subset X of inputs for this gate, then incorrect \u201cfalse\u201d output iff |X \u2229 Y| = 0 mod 3",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "160:29",
+                        "name": "Let Y be a finite. What is the probability of selecting a subset of Y which is nonempty and has size divisible by 3?",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "151:205",
+                        "name": "probability 1/3",
+                        "disabled": false
+                      }
+                    ]
+                  },
+                  {
+                    "type": "child",
+                    "name": "Rows columns",
+                    "id": "19:101",
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "21:743",
+                        "name": "Therefore, for every choice of",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "21:744",
+                        "name": "Prob",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "19:228",
+                        "name": "if all rows in a matrix have average value < a, then some column has average value < a",
+                        "disabled": false
+                      },
+                      {
+                        "type": "child",
+                        "name": "Get the square root",
+                        "id": "19:230",
+                        "children": [
+                          {
+                            "type": "show",
+                            "id": "21:746",
+                            "name": "D corresponds to a polynomial of degree at most",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "21:747",
+                            "name": "D gives the wrong ansser with probability at most",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "19:331",
+                            "name": "Group 8",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "19:332",
+                            "name": "Group 9",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "19:347",
+                            "name": "depth of C",
+                            "disabled": false
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
     ]
   },
-  "soundDict": {}
+  "soundDict": {
+    "4:2": {
+      "0": {
+        "file": "0",
+        "duration": 9.456
+      },
+      "1": {
+        "file": "1",
+        "duration": 41.256
+      },
+      "2": {
+        "file": "2",
+        "duration": 58.824
+      },
+      "3": {
+        "file": "3",
+        "duration": 12.936
+      },
+      "4": {
+        "file": "4",
+        "duration": 14.904
+      },
+      "5": {
+        "file": "5",
+        "duration": 8.496
+      },
+      "6": {
+        "file": "6",
+        "duration": 1.104
+      },
+      "7": {
+        "file": "7",
+        "duration": 0.264
+      },
+      "8": {
+        "file": "8",
+        "duration": 6.624
+      }
+    },
+    "19:729": {
+      "0": {
+        "file": "0",
+        "duration": 1.776
+      },
+      "1": {
+        "file": "1",
+        "duration": 12.144
+      },
+      "2": {
+        "file": "2",
+        "duration": 24.864
+      },
+      "3": {
+        "file": "3",
+        "duration": 7.656
+      },
+      "4": {
+        "file": "4",
+        "duration": 15.384
+      },
+      "5": {
+        "file": "5",
+        "duration": 11.784
+      },
+      "6": {
+        "file": "6",
+        "duration": 48.336
+      },
+      "7": {
+        "file": "7",
+        "duration": 3.144
+      },
+      "8": {
+        "file": "8",
+        "duration": 16.464
+      },
+      "9": {
+        "file": "9",
+        "duration": 3.624
+      },
+      "10": {
+        "file": "10",
+        "duration": 7.944
+      },
+      "11": {
+        "file": "11",
+        "duration": 2.544
+      },
+      "12": {
+        "file": "12",
+        "duration": 6.624
+      },
+      "13": {
+        "file": "13",
+        "duration": 9.336
+      }
+    },
+    "20:67": {
+      "0": {
+        "file": "0",
+        "duration": 3.216
+      },
+      "1": {
+        "file": "1",
+        "duration": 22.584
+      },
+      "2": {
+        "file": "2",
+        "duration": 44.904
+      },
+      "3": {
+        "file": "3",
+        "duration": 1.704
+      },
+      "4": {
+        "file": "4",
+        "duration": 4.944
+      },
+      "5": {
+        "file": "5",
+        "duration": 10.896
+      },
+      "6": {
+        "file": "6",
+        "duration": 35.784
+      },
+      "7": {
+        "file": "7",
+        "duration": 1.176
+      }
+    },
+    "20:232": {
+      "0": {
+        "file": "0",
+        "duration": 2.904
+      },
+      "1": {
+        "file": "1",
+        "duration": 16.416
+      },
+      "2": {
+        "file": "2",
+        "duration": 30.624
+      },
+      "3": {
+        "file": "3",
+        "duration": 12.024
+      },
+      "4": {
+        "file": "4",
+        "duration": 31.176
+      },
+      "5": {
+        "file": "5",
+        "duration": 15.096
+      }
+    },
+    "21:404": {
+      "0": {
+        "file": "0",
+        "duration": 1.416
+      },
+      "1": {
+        "file": "1",
+        "duration": 35.016
+      },
+      "2": {
+        "file": "2",
+        "duration": 30.984
+      }
+    },
+    "144:2": {
+      "0": {
+        "file": "0",
+        "duration": 1.536
+      },
+      "1": {
+        "file": "1",
+        "duration": 7.824
+      },
+      "2": {
+        "file": "2",
+        "duration": 4.536
+      },
+      "3": {
+        "file": "3",
+        "duration": 37.344
+      },
+      "4": {
+        "file": "4",
+        "duration": 5.256
+      },
+      "5": {
+        "file": "5",
+        "duration": 11.376
+      },
+      "6": {
+        "file": "6",
+        "duration": 11.376
+      },
+      "7": {
+        "file": "7",
+        "duration": 25.176
+      }
+    },
+    "19:795": {
+      "0": {
+        "file": "0",
+        "duration": 16.416
+      },
+      "1": {
+        "file": "1",
+        "duration": 27.696
+      },
+      "2": {
+        "file": "2",
+        "duration": 11.544
+      },
+      "3": {
+        "file": "3",
+        "duration": 14.784
+      },
+      "4": {
+        "file": "4",
+        "duration": 34.824
+      },
+      "5": {
+        "file": "5",
+        "duration": 35.304
+      },
+      "6": {
+        "file": "6",
+        "duration": 27.144
+      },
+      "7": {
+        "file": "7",
+        "duration": 53.544
+      }
+    },
+    "20:4": {
+      "0": {
+        "file": "0",
+        "duration": 2.184
+      },
+      "1": {
+        "file": "1",
+        "duration": 11.016
+      },
+      "2": {
+        "file": "2",
+        "duration": 46.056
+      }
+    },
+    "16:469": {
+      "0": {
+        "file": "0",
+        "duration": 0.984
+      },
+      "1": {
+        "file": "1",
+        "duration": 11.664
+      },
+      "2": {
+        "file": "2",
+        "duration": 8.976
+      },
+      "3": {
+        "file": "3",
+        "duration": 48.936
+      },
+      "4": {
+        "file": "4",
+        "duration": 2.256
+      },
+      "5": {
+        "file": "5",
+        "duration": 20.424
+      },
+      "6": {
+        "file": "6",
+        "duration": 20.256
+      },
+      "7": {
+        "file": "7",
+        "duration": 46.704
+      },
+      "8": {
+        "file": "8",
+        "duration": 15.024
+      },
+      "9": {
+        "file": "9",
+        "duration": 36.096
+      },
+      "10": {
+        "file": "10",
+        "duration": 3.096
+      },
+      "11": {
+        "file": "11",
+        "duration": 9.264
+      },
+      "12": {
+        "file": "12",
+        "duration": 13.224
+      }
+    },
+    "16:411": {
+      "0": {
+        "file": "0",
+        "duration": 1.416
+      },
+      "1": {
+        "file": "1",
+        "duration": 80.304
+      },
+      "2": {
+        "file": "2",
+        "duration": 11.736
+      },
+      "3": {
+        "file": "3",
+        "duration": 47.856
+      },
+      "4": {
+        "file": "4",
+        "duration": 9.504
+      },
+      "5": {
+        "file": "5",
+        "duration": 7.464
+      },
+      "6": {
+        "file": "6",
+        "duration": 54.744
+      },
+      "7": {
+        "file": "7",
+        "duration": 26.184
+      },
+      "8": {
+        "file": "8",
+        "duration": 6.096
+      },
+      "9": {
+        "file": "9",
+        "duration": 17.664
+      },
+      "10": {
+        "file": "10",
+        "duration": 54.816
+      },
+      "11": {
+        "file": "11",
+        "duration": 3.456
+      }
+    },
+    "144:353": {
+      "0": {
+        "file": "0",
+        "duration": 3.384
+      },
+      "1": {
+        "file": "1",
+        "duration": 35.616
+      },
+      "2": {
+        "file": "2",
+        "duration": 27.984
+      },
+      "3": {
+        "file": "3",
+        "duration": 19.944
+      }
+    },
+    "19:3": {
+      "0": {
+        "file": "0",
+        "duration": 1.104
+      },
+      "1": {
+        "file": "1",
+        "duration": 4.704
+      },
+      "2": {
+        "file": "2",
+        "duration": 19.536
+      },
+      "3": {
+        "file": "3",
+        "duration": 11.496
+      },
+      "4": {
+        "file": "4",
+        "duration": 9.096
+      },
+      "5": {
+        "file": "5",
+        "duration": 53.016
+      },
+      "6": {
+        "file": "6",
+        "duration": 4.776
+      },
+      "7": {
+        "file": "7",
+        "duration": 1.824
+      },
+      "8": {
+        "file": "8",
+        "duration": 13.704
+      }
+    },
+    "151:0": {
+      "0": {
+        "file": "0",
+        "duration": 4.896
+      },
+      "1": {
+        "file": "1",
+        "duration": 44.784
+      },
+      "2": {
+        "file": "2",
+        "duration": 12.144
+      },
+      "3": {
+        "file": "3",
+        "duration": 15.936
+      }
+    },
+    "150:25": {
+      "0": {
+        "file": "0",
+        "duration": 44.664
+      },
+      "1": {
+        "file": "1",
+        "duration": 12.984
+      },
+      "2": {
+        "file": "2",
+        "duration": 20.856
+      },
+      "3": {
+        "file": "3",
+        "duration": 9.936
+      },
+      "4": {
+        "file": "4",
+        "duration": 8.616
+      },
+      "5": {
+        "file": "5",
+        "duration": 12.456
+      },
+      "6": {
+        "file": "6",
+        "duration": 29.856
+      },
+      "7": {
+        "file": "7",
+        "duration": 49.536
+      },
+      "8": {
+        "file": "8",
+        "duration": 11.856
+      },
+      "9": {
+        "file": "9",
+        "duration": 59.976
+      }
+    },
+    "18:230": {
+      "0": {
+        "file": "0",
+        "duration": 1.896
+      },
+      "1": {
+        "file": "1",
+        "duration": 12.384
+      },
+      "2": {
+        "file": "2",
+        "duration": 9.816
+      },
+      "3": {
+        "file": "3",
+        "duration": 8.784
+      },
+      "4": {
+        "file": "4",
+        "duration": 43.944
+      },
+      "5": {
+        "file": "5",
+        "duration": 5.496
+      }
+    },
+    "18:258": {
+      "0": {
+        "file": "0",
+        "duration": 10.416
+      },
+      "1": {
+        "file": "1",
+        "duration": 16.056
+      },
+      "2": {
+        "file": "2",
+        "duration": 7.416
+      }
+    },
+    "16:125": {
+      "0": {
+        "file": "0",
+        "duration": 1.416
+      },
+      "1": {
+        "file": "1",
+        "duration": 11.664
+      },
+      "2": {
+        "file": "2",
+        "duration": 26.376
+      },
+      "3": {
+        "file": "3",
+        "duration": 16.776
+      },
+      "4": {
+        "file": "4",
+        "duration": 14.544
+      },
+      "5": {
+        "file": "5",
+        "duration": 13.824
+      },
+      "6": {
+        "file": "6",
+        "duration": 18.216
+      },
+      "7": {
+        "file": "7",
+        "duration": 17.256
+      },
+      "8": {
+        "file": "8",
+        "duration": 8.016
+      }
+    },
+    "16:253": {
+      "0": {
+        "file": "0",
+        "duration": 4.056
+      },
+      "1": {
+        "file": "1",
+        "duration": 12.744
+      },
+      "2": {
+        "file": "2",
+        "duration": 110.064
+      }
+    },
+    "19:101": {
+      "0": {
+        "file": "0",
+        "duration": 4.176
+      },
+      "1": {
+        "file": "1",
+        "duration": 72.216
+      },
+      "2": {
+        "file": "2",
+        "duration": 38.304
+      },
+      "3": {
+        "file": "3",
+        "duration": 62.304
+      },
+      "4": {
+        "file": "4",
+        "duration": 4.056
+      }
+    },
+    "151:120": {
+      "0": {
+        "file": "0",
+        "duration": 1.584
+      },
+      "1": {
+        "file": "1",
+        "duration": 14.304
+      },
+      "2": {
+        "file": "2",
+        "duration": 23.976
+      },
+      "3": {
+        "file": "3",
+        "duration": 4.464
+      },
+      "4": {
+        "file": "4",
+        "duration": 49.296
+      },
+      "5": {
+        "file": "5",
+        "duration": 81.624
+      },
+      "6": {
+        "file": "6",
+        "duration": 44.376
+      }
+    },
+    "19:230": {
+      "0": {
+        "file": "0",
+        "duration": 21.504
+      },
+      "1": {
+        "file": "1",
+        "duration": 23.616
+      },
+      "2": {
+        "file": "2",
+        "duration": 22.416
+      },
+      "3": {
+        "file": "3",
+        "duration": 1.584
+      },
+      "4": {
+        "file": "4",
+        "duration": 0.984
+      },
+      "5": {
+        "file": "5",
+        "duration": 118.536
+      }
+    }
+  }
 }

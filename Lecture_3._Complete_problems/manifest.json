@@ -39,7 +39,7 @@
           {
             "type": "show",
             "id": "57:11",
-            "name": "Intuitive idea behind “problem A is NP hard”",
+            "name": "Intuitive idea behind \u201cproblem A is NP hard\u201d",
             "disabled": false
           },
           {
@@ -57,7 +57,7 @@
           {
             "type": "show",
             "id": "13:15",
-            "name": "Then every problem B ∈ NP can also be solved in polynomial time",
+            "name": "Then every problem B \u2208 NP can also be solved in polynomial time",
             "disabled": false
           },
           {
@@ -103,7 +103,7 @@
                   {
                     "type": "show",
                     "id": "13:26",
-                    "name": "A Turing machine with oracle A ⊆ Γ* is defined as follows.",
+                    "name": "A Turing machine with oracle A \u2286 \u0393* is defined as follows.",
                     "disabled": false
                   },
                   {
@@ -121,7 +121,7 @@
                   {
                     "type": "show",
                     "id": "13:28",
-                    "name": "The machine can execute an oracle query (in unit time). If the word on the oracle tape belongs to A, then the oracle tape is replaced by “yes”, otherwise the second tape is replaced by “no”.",
+                    "name": "The machine can execute an oracle query (in unit time). If the word on the oracle tape belongs to A, then the oracle tape is replaced by \u201cyes\u201d, otherwise the second tape is replaced by \u201cno\u201d.",
                     "disabled": false
                   }
                 ]
@@ -129,19 +129,19 @@
               {
                 "type": "show",
                 "id": "57:12",
-                "name": "B ≤ A",
+                "name": "B \u2264 A",
                 "disabled": false
               },
               {
                 "type": "show",
                 "id": "13:49",
-                "name": "Fact. If B ≤ A and A ∈ P, then B ∈ P",
+                "name": "Fact. If B \u2264 A and A \u2208 P, then B \u2208 P",
                 "disabled": false
               },
               {
                 "type": "show",
                 "id": "13:51",
-                "name": "Fact. For every problem B ∈ NP, B ≤ “NP halting problem”",
+                "name": "Fact. For every problem B \u2208 NP, B \u2264 \u201cNP halting problem\u201d",
                 "disabled": false
               },
               {
@@ -184,7 +184,7 @@
               {
                 "type": "show",
                 "id": "57:14",
-                "name": "Σ*",
+                "name": "\u03a3*",
                 "disabled": false
               },
               {
@@ -202,7 +202,7 @@
               {
                 "type": "show",
                 "id": "14:26",
-                "name": "The “NP halting problem” is complete already with respect to Karp reductions.",
+                "name": "The \u201cNP halting problem\u201d is complete already with respect to Karp reductions.",
                 "disabled": false
               },
               {
@@ -230,7 +230,7 @@
                       {
                         "type": "show",
                         "id": "57:17",
-                        "name": "Consider the following decision problems, which input a propositional formula φ",
+                        "name": "Consider the following decision problems, which input a propositional formula \u03c6",
                         "disabled": false
                       },
                       {
@@ -272,7 +272,7 @@
                       {
                         "type": "show",
                         "id": "14:72",
-                        "name": "There are polynomial (Karp) reductions in the columns, but not in the rows, assuming that coNP ≠ NP.",
+                        "name": "There are polynomial (Karp) reductions in the columns, but not in the rows, assuming that coNP \u2260 NP.",
                         "disabled": false
                       },
                       {
@@ -301,13 +301,13 @@
                           {
                             "type": "show",
                             "id": "57:6",
-                            "name": "A Karp reduction is not allowed to swap “yes” with “no”",
+                            "name": "A Karp reduction is not allowed to swap \u201cyes\u201d with \u201cno\u201d",
                             "disabled": false
                           },
                           {
                             "type": "show",
                             "id": "14:97",
-                            "name": "any other reduction would require a polynomial time function f such that φ is true for some valuation iff f (φ) is true for every valuation",
+                            "name": "any other reduction would require a polynomial time function f such that \u03c6 is true for some valuation iff f (\u03c6) is true for every valuation",
                             "disabled": false
                           },
                           {
@@ -345,7 +345,7 @@
               {
                 "type": "show",
                 "id": "57:47",
-                "name": "Definition. A language A is called NP-complete if: 1. it belongs to NP 2. every language L ∈ NP reduces to A",
+                "name": "Definition. A language A is called NP-complete if: 1. it belongs to NP 2. every language L \u2208 NP reduces to A",
                 "disabled": false
               },
               {
@@ -370,7 +370,7 @@
               {
                 "type": "show",
                 "id": "57:43",
-                "name": "We do not know if there is a language which: – is NP-complete for polynomial time reductions – is not NP-complete for LogSpace reductions",
+                "name": "We do not know if there is a language which: \u2013 is NP-complete for polynomial time reductions \u2013 is not NP-complete for LogSpace reductions",
                 "disabled": false
               },
               {
@@ -399,13 +399,13 @@
                   {
                     "type": "show",
                     "id": "57:55",
-                    "name": "Input. A Boolean formula φ, e.g. x ∨ (y ∧ ¬ x)",
+                    "name": "Input. A Boolean formula \u03c6, e.g. x \u2228 (y \u2227 \u00ac x)",
                     "disabled": false
                   },
                   {
                     "type": "show",
                     "id": "57:57",
-                    "name": "Question. Is φ true for some valuation val : variables ⟶ {true, false}?",
+                    "name": "Question. Is \u03c6 true for some valuation val : variables \u27f6 {true, false}?",
                     "disabled": false
                   },
                   {
@@ -423,13 +423,13 @@
                   {
                     "type": "show",
                     "id": "57:62",
-                    "name": "Suppose that B ⊆ Σ* is in NP, as witnessed by a machine M and a polynomial p",
+                    "name": "Suppose that B \u2286 \u03a3* is in NP, as witnessed by a machine M and a polynomial p",
                     "disabled": false
                   },
                   {
                     "type": "show",
                     "id": "83:5",
-                    "name": "Σ*",
+                    "name": "\u03a3*",
                     "disabled": false
                   },
                   {
@@ -464,25 +464,25 @@
                       {
                         "type": "show",
                         "id": "71:32",
-                        "name": "A run of time n and space m can be represented using c × n × m Boolean variables",
+                        "name": "A run of time n and space m can be represented using c \u00d7 n \u00d7 m Boolean variables",
                         "disabled": false
                       },
                       {
                         "type": "show",
                         "id": "83:1",
-                        "name": "|Q| + |Γ |",
+                        "name": "|Q| + |\u0393 |",
                         "disabled": false
                       },
                       {
                         "type": "show",
                         "id": "71:35",
-                        "name": "for each i ∈ {1, ..., n} and j ∈ {1, ..., m} and q ∈ Q there is a variable for “in time i, the head is in state q and over cell i”",
+                        "name": "for each i \u2208 {1, ..., n} and j \u2208 {1, ..., m} and q \u2208 Q there is a variable for \u201cin time i, the head is in state q and over cell i\u201d",
                         "disabled": false
                       },
                       {
                         "type": "show",
                         "id": "71:99",
-                        "name": "for each i ∈ {1, ..., n} and j ∈ {1, ..., m} and a ∈ Γ there is a variable for “in time i, letter a is tored in cell i”",
+                        "name": "for each i \u2208 {1, ..., n} and j \u2208 {1, ..., m} and a \u2208 \u0393 there is a variable for \u201cin time i, letter a is tored in cell i\u201d",
                         "disabled": false
                       },
                       {
@@ -510,7 +510,7 @@
               {
                 "type": "show",
                 "id": "83:8",
-                "name": "∃u ∃v ∀w E(u, v) ∧ E(v, w) ∧ E(u, w)",
+                "name": "\u2203u \u2203v \u2200w E(u, v) \u2227 E(v, w) \u2227 E(u, w)",
                 "disabled": false
               },
               {
@@ -522,7 +522,7 @@
               {
                 "type": "show",
                 "id": "83:9",
-                "name": "the question “is such a formula true in some graph” is undecidable",
+                "name": "the question \u201cis such a formula true in some graph\u201d is undecidable",
                 "disabled": false
               }
             ]
@@ -530,7 +530,7 @@
           {
             "type": "show",
             "id": "106:70",
-            "name": "Thm. (Ladner) If P ≠ NP, then there is a problem which is neither in P, nor NP-complete.",
+            "name": "Thm. (Ladner) If P \u2260 NP, then there is a problem which is neither in P, nor NP-complete.",
             "disabled": false
           },
           {
@@ -541,13 +541,13 @@
               {
                 "type": "show",
                 "id": "86:10",
-                "name": "Consider some NP-complete problem A ⊆ Σ*, e.g. the NP halting problem.",
+                "name": "Consider some NP-complete problem A \u2286 \u03a3*, e.g. the NP halting problem.",
                 "disabled": false
               },
               {
                 "type": "show",
                 "id": "86:2",
-                "name": "Let pad : Σ* ⟶ Γ* be an injective function such that:",
+                "name": "Let pad : \u03a3* \u27f6 \u0393* be an injective function such that:",
                 "disabled": false
               },
               {
@@ -559,25 +559,25 @@
               {
                 "type": "show",
                 "id": "106:3",
-                "name": "the inverse is a function of type Γ* ⟶ Σ* + {⊥}",
+                "name": "the inverse is a function of type \u0393* \u27f6 \u03a3* + {\u22a5}",
                 "disabled": false
               },
               {
                 "type": "show",
                 "id": "86:12",
-                "name": "Consider the language pad(A) = {pad(w) : w ∈ A}",
+                "name": "Consider the language pad(A) = {pad(w) : w \u2208 A}",
                 "disabled": false
               },
               {
                 "type": "show",
                 "id": "86:4",
-                "name": "Assuming P ≠ NP and (a) and (b), then pad(A) is not NP-complete",
+                "name": "Assuming P \u2260 NP and (a) and (b), then pad(A) is not NP-complete",
                 "disabled": false
               },
               {
                 "type": "show",
                 "id": "86:14",
-                "name": "Assuming A ∉ P, we can choose pad so that (a) and (b) and pad(A) ∉ P",
+                "name": "Assuming A \u2209 P, we can choose pad so that (a) and (b) and pad(A) \u2209 P",
                 "disabled": false
               },
               {
@@ -618,7 +618,7 @@
                   {
                     "type": "show",
                     "id": "106:30",
-                    "name": "Here is a polynomial time algorithm for A: keep on applying the size-reducing function, until either: – the error is reached (in this case, reject); or – the size is not reduced (in this case, read the answer from a list for the exceptions).",
+                    "name": "Here is a polynomial time algorithm for A: keep on applying the size-reducing function, until either: \u2013 the error is reached (in this case, reject); or \u2013 the size is not reduced (in this case, read the answer from a list for the exceptions).",
                     "disabled": false
                   }
                 ]
@@ -655,7 +655,7 @@
                   {
                     "type": "show",
                     "id": "106:50",
-                    "name": "pad(A) ∉ P.",
+                    "name": "pad(A) \u2209 P.",
                     "disabled": false
                   },
                   {
@@ -685,7 +685,7 @@
                   {
                     "type": "show",
                     "id": "86:74",
-                    "name": "find the first k ∈ {1, 2, ..., } such that for every input of length < log |w|",
+                    "name": "find the first k \u2208 {1, 2, ..., } such that for every input of length < log |w|",
                     "disabled": false
                   },
                   {
@@ -715,13 +715,13 @@
                   {
                     "type": "show",
                     "id": "98:14",
-                    "name": "1. pad(A) ∈ P",
+                    "name": "1. pad(A) \u2208 P",
                     "disabled": false
                   },
                   {
                     "type": "show",
                     "id": "98:15",
-                    "name": "2. pad ∈ P",
+                    "name": "2. pad \u2208 P",
                     "disabled": false
                   },
                   {
@@ -733,7 +733,7 @@
                   {
                     "type": "show",
                     "id": "101:55",
-                    "name": "3. A ∈ P",
+                    "name": "3. A \u2208 P",
                     "disabled": false
                   },
                   {
@@ -772,7 +772,7 @@
               {
                 "type": "show",
                 "id": "57:95",
-                "name": "∃x ∀y ∃z (x ∨ y) ∧ ¬z",
+                "name": "\u2203x \u2200y \u2203z (x \u2228 y) \u2227 \u00acz",
                 "disabled": false
               },
               {
@@ -796,19 +796,19 @@
               {
                 "type": "show",
                 "id": "71:1",
-                "name": "– a Turing machine M – an input word w – a space bound m",
+                "name": "\u2013 a Turing machine M \u2013 an input word w \u2013 a space bound m",
                 "disabled": false
               },
               {
                 "type": "show",
                 "id": "71:2",
-                "name": "we will compute in LogSpace a QBF formula φ such that",
+                "name": "we will compute in LogSpace a QBF formula \u03c6 such that",
                 "disabled": false
               },
               {
                 "type": "show",
                 "id": "71:3",
-                "name": "φ is true",
+                "name": "\u03c6 is true",
                 "disabled": false
               },
               {
@@ -820,7 +820,7 @@
               {
                 "type": "show",
                 "id": "71:5",
-                "name": "M accepts w using space ≤ m",
+                "name": "M accepts w using space \u2264 m",
                 "disabled": false
               },
               {
@@ -831,7 +831,7 @@
                   {
                     "type": "show",
                     "id": "83:12",
-                    "name": "As in Cook’s Theorem, a configuration with space m is described with cm variables.",
+                    "name": "As in Cook\u2019s Theorem, a configuration with space m is described with cm variables.",
                     "disabled": false
                   },
                   {
@@ -867,13 +867,13 @@
                   {
                     "type": "show",
                     "id": "83:13",
-                    "name": "there is a computation of M which: - begins in s - ends in t - uses memory ≤ m, - uses time ≤ 2",
+                    "name": "there is a computation of M which: - begins in s - ends in t - uses memory \u2264 m, - uses time \u2264 2",
                     "disabled": false
                   },
                   {
                     "type": "show",
                     "id": "57:756",
-                    "name": "For n = 1, we formalise Turing machines in logic, as in Cook’s Theorem.",
+                    "name": "For n = 1, we formalise Turing machines in logic, as in Cook\u2019s Theorem.",
                     "disabled": false
                   },
                   {
@@ -941,7 +941,7 @@
                   {
                     "type": "show",
                     "id": "83:44",
-                    "name": "(there is some u ∈ A and some v ∉ A)",
+                    "name": "(there is some u \u2208 A and some v \u2209 A)",
                     "disabled": false
                   },
                   {
@@ -961,13 +961,13 @@
               {
                 "type": "show",
                 "id": "84:4",
-                "name": "∧",
+                "name": "\u2227",
                 "disabled": false
               },
               {
                 "type": "show",
                 "id": "84:0",
-                "name": "If we begin in the source, does player ∨ have a winning strategy against player ∧ to reach the target?",
+                "name": "If we begin in the source, does player \u2228 have a winning strategy against player \u2227 to reach the target?",
                 "disabled": false
               },
               {
@@ -985,7 +985,7 @@
               {
                 "type": "show",
                 "id": "84:8",
-                "name": "Start with {target}, and keep on adding vertices winning for ∨, until either no new vertex is added, or the source is added.",
+                "name": "Start with {target}, and keep on adding vertices winning for \u2228, until either no new vertex is added, or the source is added.",
                 "disabled": false
               },
               {
@@ -1003,13 +1003,13 @@
               {
                 "type": "show",
                 "id": "84:1",
-                "name": "“in time i, cell j has contents a”",
+                "name": "\u201cin time i, cell j has contents a\u201d",
                 "disabled": false
               },
               {
                 "type": "show",
                 "id": "84:3",
-                "name": "In such a position, player ∨ chooses a several assumptions that were true in time i-1, and player ∧ chooses one of these assumptions.",
+                "name": "In such a position, player \u2228 chooses a several assumptions that were true in time i-1, and player \u2227 chooses one of these assumptions.",
                 "disabled": false
               }
             ]
@@ -1064,7 +1064,7 @@
               {
                 "type": "show",
                 "id": "115:33",
-                "name": "P ≠ NP",
+                "name": "P \u2260 NP",
                 "disabled": false
               },
               {
@@ -1087,7 +1087,7 @@
                   {
                     "type": "show",
                     "id": "115:34",
-                    "name": "{ w ∈ a* : there is some word in A of same length as w}",
+                    "name": "{ w \u2208 a* : there is some word in A of same length as w}",
                     "disabled": false
                   },
                   {
@@ -1105,7 +1105,7 @@
                   {
                     "type": "show",
                     "id": "113:21",
-                    "name": "If A ⊆ {0,1}* is an oracle, we write Mn[A] for the combination of Mn and A.",
+                    "name": "If A \u2286 {0,1}* is an oracle, we write Mn[A] for the combination of Mn and A.",
                     "disabled": false
                   },
                   {
@@ -1152,13 +1152,13 @@
                       {
                         "type": "show",
                         "id": "115:17",
-                        "name": "Let A be an oracle that extends An with all “no” answers.",
+                        "name": "Let A be an oracle that extends An with all \u201cno\u201d answers.",
                         "disabled": false
                       },
                       {
                         "type": "show",
                         "id": "115:23",
-                        "name": "Let k ∈ {1, 2, ... } be such that An is undefined on all words of length k.",
+                        "name": "Let k \u2208 {1, 2, ... } be such that An is undefined on all words of length k.",
                         "disabled": false
                       },
                       {
@@ -1188,7 +1188,7 @@
                       {
                         "type": "show",
                         "id": "115:30",
-                        "name": "Define An+1 so that it says “yes” on the unasked query, and is otherwise consistent with the queries in the run described above.",
+                        "name": "Define An+1 so that it says \u201cyes\u201d on the unasked query, and is otherwise consistent with the queries in the run described above.",
                         "disabled": false
                       }
                     ]
@@ -1204,690 +1204,904 @@
   "soundDict": {
     "13:2": {
       "0": {
-        "file": 0
+        "file": "0",
+        "duration": 3.144
       },
       "1": {
-        "file": 1
+        "file": "1",
+        "duration": 23.616
       },
       "2": {
-        "file": 2
+        "file": "2",
+        "duration": 33.864
       },
       "3": {
-        "file": 3
+        "file": "3",
+        "duration": 5.856
       },
       "4": {
-        "file": 4
+        "file": "4",
+        "duration": 23.856
       },
       "5": {
-        "file": 5
+        "file": "5",
+        "duration": 11.184
       },
       "6": {
-        "file": 6
+        "file": "6",
+        "duration": 25.464
       },
       "7": {
-        "file": 7
+        "file": "7",
+        "duration": 5.736
       },
       "8": {
-        "file": 8
+        "file": "8",
+        "duration": 2.016
       }
     },
     "13:20": {
       "0": {
-        "file": 0
+        "file": "0",
+        "duration": 4.896
       },
       "1": {
-        "file": 1
+        "file": "1",
+        "duration": 18.696
       },
       "2": {
-        "file": 2
+        "file": "2",
+        "duration": 26.256
       },
       "3": {
-        "file": 3
+        "file": "3",
+        "duration": 8.784
       },
       "4": {
-        "file": 4
+        "file": "4",
+        "duration": 32.256
       },
       "5": {
-        "file": 5
+        "file": "5",
+        "duration": 30.576
       },
       "6": {
-        "file": 6
+        "file": "6",
+        "duration": 24.504
       },
       "7": {
-        "file": 7
+        "file": "7",
+        "duration": 16.104
       },
       "8": {
-        "file": 8
+        "file": "8",
+        "duration": 13.296
       },
       "9": {
-        "file": 9
+        "file": "9",
+        "duration": 16.656
       }
     },
     "13:55": {
       "0": {
-        "file": 0
+        "file": "0",
+        "duration": 1.776
       },
       "1": {
-        "file": 1
+        "file": "1",
+        "duration": 4.584
       },
       "2": {
-        "file": 2
+        "file": "2",
+        "duration": 25.464
       },
       "3": {
-        "file": 3
+        "file": "3",
+        "duration": 38.064
       },
       "4": {
-        "file": 4
+        "file": "4",
+        "duration": 53.136
       },
       "5": {
-        "file": 5
+        "file": "5",
+        "duration": 5.616
       },
       "6": {
-        "file": 6
+        "file": "6",
+        "duration": 30.456
       },
       "7": {
-        "file": 7
+        "file": "7",
+        "duration": 19.584
       },
       "8": {
-        "file": 8
+        "file": "8",
+        "duration": 2.064
       }
     },
     "1:2": {
       "0": {
-        "file": 0
+        "file": "0",
+        "duration": 7.416
       },
       "1": {
-        "file": 1
+        "file": "1",
+        "duration": 16.416
       },
       "2": {
-        "file": 2
+        "file": "2",
+        "duration": 8.664
       }
     },
     "84:13": {
       "0": {
-        "file": 0
+        "file": "0",
+        "duration": 2.016
       },
       "1": {
-        "file": 1
+        "file": "1",
+        "duration": 45.024
       },
       "2": {
-        "file": 2
+        "file": "2",
+        "duration": 29.976
       },
       "3": {
-        "file": 3
+        "file": "3",
+        "duration": 20.256
       },
       "4": {
-        "file": 4
+        "file": "4",
+        "duration": 16.536
       },
       "5": {
-        "file": 5
+        "file": "5",
+        "duration": 70.704
       },
       "6": {
-        "file": 6
+        "file": "6",
+        "duration": 12.624
       },
       "7": {
-        "file": 7
+        "file": "7",
+        "duration": 4.656
       },
       "8": {
-        "file": 8
+        "file": "8",
+        "duration": 11.136
       },
       "9": {
-        "file": 9
+        "file": "9",
+        "duration": 25.344
       },
       "10": {
-        "file": 10
+        "file": "10",
+        "duration": 19.176
       },
       "11": {
-        "file": 11
+        "file": "11",
+        "duration": 25.104
       }
     },
     "13:31": {
       "0": {
-        "file": 0
+        "file": "0",
+        "duration": 4.296
       },
       "1": {
-        "file": 1
+        "file": "1",
+        "duration": 2.736
       },
       "2": {
-        "file": 2
+        "file": "2",
+        "duration": 16.944
       },
       "3": {
-        "file": 3
+        "file": "3",
+        "duration": 10.416
       },
       "4": {
-        "file": 4
+        "file": "4",
+        "duration": 11.544
       },
       "5": {
-        "file": 5
+        "file": "5",
+        "duration": 39.264
       }
     },
     "14:27": {
       "0": {
-        "file": 0
+        "file": "0",
+        "duration": 0.456
       },
       "1": {
-        "file": 1
+        "file": "1",
+        "duration": 26.136
       },
       "2": {
-        "file": 2
+        "file": "2",
+        "duration": 4.056
       }
     },
     "14:38": {
       "0": {
-        "file": 0
+        "file": "0",
+        "duration": 1.416
       },
       "1": {
-        "file": 1
+        "file": "1",
+        "duration": 29.064
       },
       "2": {
-        "file": 2
+        "file": "2",
+        "duration": 12.024
       },
       "3": {
-        "file": 3
+        "file": "3",
+        "duration": 31.176
       },
       "4": {
-        "file": 4
+        "file": "4",
+        "duration": 12.624
       },
       "5": {
-        "file": 5
+        "file": "5",
+        "duration": 20.616
       },
       "6": {
-        "file": 6
+        "file": "6",
+        "duration": 13.176
       },
       "7": {
-        "file": 7
+        "file": "7",
+        "duration": 27.384
       },
       "8": {
-        "file": 8
+        "file": "8",
+        "duration": 19.104
       },
       "9": {
-        "file": 9
+        "file": "9",
+        "duration": 36.216
       }
     },
     "14:73": {
       "0": {
-        "file": 0
+        "file": "0",
+        "duration": 5.136
       },
       "1": {
-        "file": 1
+        "file": "1",
+        "duration": 13.896
       },
       "2": {
-        "file": 2
+        "file": "2",
+        "duration": 17.544
       },
       "3": {
-        "file": 3
+        "file": "3",
+        "duration": 36.744
       },
       "4": {
-        "file": 4
+        "file": "4",
+        "duration": 24.096
       },
       "5": {
-        "file": 5
+        "file": "5",
+        "duration": 49.824
       },
       "6": {
-        "file": 6
+        "file": "6",
+        "duration": 9.816
       }
     },
     "57:45": {
       "0": {
-        "file": 0
+        "file": "0",
+        "duration": 5.256
       },
       "1": {
-        "file": 1
+        "file": "1",
+        "duration": 24.456
       },
       "2": {
-        "file": 2
+        "file": "2",
+        "duration": 8.184
       },
       "3": {
-        "file": 3
+        "file": "3",
+        "duration": 1.896
       },
       "4": {
-        "file": 4
+        "file": "4",
+        "duration": 73.344
       },
       "5": {
-        "file": 5
+        "file": "5",
+        "duration": 31.224
       },
       "6": {
-        "file": 6
+        "file": "6",
+        "duration": 6.504
       },
       "7": {
-        "file": 7
+        "file": "7",
+        "duration": 1.344
       },
       "8": {
-        "file": 8
+        "file": "8",
+        "duration": 1.944
       },
       "9": {
-        "file": 9
+        "file": "9",
+        "duration": 42.624
       },
       "10": {
-        "file": 10
+        "file": "10",
+        "duration": 45.096
       }
     },
     "86:0": {
       "0": {
-        "file": 0
+        "file": "0",
+        "duration": 8.016
       },
       "1": {
-        "file": 1
+        "file": "1",
+        "duration": 22.176
       },
       "2": {
-        "file": 2
+        "file": "2",
+        "duration": 23.904
       },
       "3": {
-        "file": 3
+        "file": "3",
+        "duration": 36.336
       },
       "4": {
-        "file": 4
+        "file": "4",
+        "duration": 39.024
       },
       "5": {
-        "file": 5
+        "file": "5",
+        "duration": 35.376
       },
       "6": {
-        "file": 6
+        "file": "6",
+        "duration": 18.984
       },
       "7": {
-        "file": 7
+        "file": "7",
+        "duration": 28.584
       },
       "8": {
-        "file": 8
+        "file": "8",
+        "duration": 41.976
       },
       "9": {
-        "file": 9
+        "file": "9",
+        "duration": 9.984
       }
     },
     "57:90": {
       "0": {
-        "file": 0
+        "file": "0",
+        "duration": 3.456
       },
       "1": {
-        "file": 1
+        "file": "1",
+        "duration": 8.856
       },
       "2": {
-        "file": 2
+        "file": "2",
+        "duration": 4.536
       },
       "3": {
-        "file": 3
+        "file": "3",
+        "duration": 37.944
       },
       "4": {
-        "file": 4
+        "file": "4",
+        "duration": 17.136
       },
       "5": {
-        "file": 5
+        "file": "5",
+        "duration": 21.384
       },
       "6": {
-        "file": 6
+        "file": "6",
+        "duration": 7.056
       },
       "7": {
-        "file": 7
+        "file": "7",
+        "duration": 12.984
       },
       "8": {
-        "file": 8
+        "file": "8",
+        "duration": 9.576
       },
       "9": {
-        "file": 9
+        "file": "9",
+        "duration": 3.696
       },
       "10": {
-        "file": 10
+        "file": "10",
+        "duration": 1.416
       },
       "11": {
-        "file": 11
+        "file": "11",
+        "duration": 20.736
       },
       "12": {
-        "file": 12
+        "file": "12",
+        "duration": 29.616
       }
     },
     "83:22": {
       "0": {
-        "file": 0
+        "file": "0",
+        "duration": 10.704
       },
       "1": {
-        "file": 1
+        "file": "1",
+        "duration": 9.864
       },
       "2": {
-        "file": 2
+        "file": "2",
+        "duration": 18.144
       },
       "3": {
-        "file": 3
+        "file": "3",
+        "duration": 3.816
       },
       "4": {
-        "file": 4
+        "file": "4",
+        "duration": 15.336
       },
       "5": {
-        "file": 5
+        "file": "5",
+        "duration": 35.376
       },
       "6": {
-        "file": 6
+        "file": "6",
+        "duration": 36.624
       },
       "7": {
-        "file": 7
+        "file": "7",
+        "duration": 2.616
       },
       "8": {
-        "file": 8
+        "file": "8",
+        "duration": 56.184
       },
       "9": {
-        "file": 9
+        "file": "9",
+        "duration": 13.584
       },
       "10": {
-        "file": 10
+        "file": "10",
+        "duration": 47.256
       },
       "11": {
-        "file": 11
+        "file": "11",
+        "duration": 15.264
       },
       "12": {
-        "file": 12
+        "file": "12",
+        "duration": 87.336
       }
     },
     "57:28": {
       "0": {
-        "file": 0
+        "file": "0",
+        "duration": 1.824
       },
       "1": {
-        "file": 1
+        "file": "1",
+        "duration": 95.976
       }
     },
     "57:53": {
       "0": {
-        "file": 0
+        "file": "0",
+        "duration": 0.096
       },
       "1": {
-        "file": 1
+        "file": "1",
+        "duration": 9.624
       },
       "2": {
-        "file": 2
+        "file": "2",
+        "duration": 13.056
       },
       "3": {
-        "file": 3
+        "file": "3",
+        "duration": 7.536
       },
       "4": {
-        "file": 4
+        "file": "4",
+        "duration": 15.504
       },
       "5": {
-        "file": 5
+        "file": "5",
+        "duration": 12.984
       },
       "6": {
-        "file": 6
+        "file": "6",
+        "duration": 22.176
       },
       "7": {
-        "file": 7
+        "file": "7",
+        "duration": 11.856
       },
       "8": {
-        "file": 8
+        "file": "8",
+        "duration": 29.424
       },
       "9": {
-        "file": 9
+        "file": "9",
+        "duration": 3.096
       },
       "10": {
-        "file": 10
+        "file": "10",
+        "duration": 14.184
       },
       "11": {
-        "file": 11
+        "file": "11",
+        "duration": 4.896
       }
     },
     "57:73": {
       "0": {
-        "file": 0
+        "file": "0",
+        "duration": 3.144
       },
       "1": {
-        "file": 1
+        "file": "1",
+        "duration": 25.176
       },
       "2": {
-        "file": 2
+        "file": "2",
+        "duration": 14.136
       },
       "3": {
-        "file": 3
+        "file": "3",
+        "duration": 10.224
       },
       "4": {
-        "file": 4
+        "file": "4",
+        "duration": 15.144
       },
       "5": {
-        "file": 5
+        "file": "5",
+        "duration": 31.656
       },
       "6": {
-        "file": 6
+        "file": "6",
+        "duration": 50.376
       },
       "7": {
-        "file": 7
+        "file": "7",
+        "duration": 36.816
       },
       "8": {
-        "file": 8
+        "file": "8",
+        "duration": 29.544
       }
     },
     "86:15": {
       "0": {
-        "file": 0
+        "file": "0",
+        "duration": 2.304
       },
       "1": {
-        "file": 1
+        "file": "1",
+        "duration": 7.704
       },
       "2": {
-        "file": 2
+        "file": "2",
+        "duration": 13.584
       },
       "3": {
-        "file": 3
+        "file": "3",
+        "duration": 38.784
       },
       "4": {
-        "file": 4
+        "file": "4",
+        "duration": 37.824
       },
       "5": {
-        "file": 5
+        "file": "5",
+        "duration": 68.784
       },
       "6": {
-        "file": 6
+        "file": "6",
+        "duration": 97.656
       }
     },
     "86:23": {
       "0": {
-        "file": 0
+        "file": "0",
+        "duration": 2.136
       },
       "1": {
-        "file": 1
+        "file": "1",
+        "duration": 5.304
       },
       "2": {
-        "file": 2
+        "file": "2",
+        "duration": 3.576
       },
       "3": {
-        "file": 3
+        "file": "3",
+        "duration": 3.984
       },
       "4": {
-        "file": 4
+        "file": "4",
+        "duration": 7.776
       },
       "5": {
-        "file": 5
+        "file": "5",
+        "duration": 11.376
       },
       "6": {
-        "file": 6
+        "file": "6",
+        "duration": 5.784
       },
       "7": {
-        "file": 7
+        "file": "7",
+        "duration": 6.264
       },
       "8": {
-        "file": 8
+        "file": "8",
+        "duration": 12.216
       },
       "9": {
-        "file": 9
+        "file": "9",
+        "duration": 34.584
       },
       "10": {
-        "file": 10
+        "file": "10",
+        "duration": 21.216
       },
       "11": {
-        "file": 11
+        "file": "11",
+        "duration": 54.744
       },
       "12": {
-        "file": 12
+        "file": "12",
+        "duration": 34.464
       },
       "13": {
-        "file": 13
+        "file": "13",
+        "duration": 102.456
       },
       "14": {
-        "file": 14
+        "file": "14",
+        "duration": 106.464
       },
       "15": {
-        "file": 15
+        "file": "15",
+        "duration": 13.896
       },
       "16": {
-        "file": 16
+        "file": "16",
+        "duration": 24.024
       },
       "17": {
-        "file": 17
+        "file": "17",
+        "duration": 68.136
       },
       "18": {
-        "file": 18
+        "file": "18",
+        "duration": 33.456
       },
       "19": {
-        "file": 19
+        "file": "19",
+        "duration": 44.136
       }
     },
     "57:137": {
       "0": {
-        "file": 0
+        "file": "0",
+        "duration": 2.904
       },
       "1": {
-        "file": 1
+        "file": "1",
+        "duration": 47.064
       },
       "2": {
-        "file": 2
+        "file": "2",
+        "duration": 3.216
       },
       "3": {
-        "file": 3
+        "file": "3",
+        "duration": 7.056
       },
       "4": {
-        "file": 4
+        "file": "4",
+        "duration": 2.664
       },
       "5": {
-        "file": 5
+        "file": "5",
+        "duration": 16.824
       },
       "6": {
-        "file": 6
+        "file": "6",
+        "duration": 2.064
       },
       "7": {
-        "file": 7
+        "file": "7",
+        "duration": 22.296
       },
       "8": {
-        "file": 8
+        "file": "8",
+        "duration": 15.504
       },
       "9": {
-        "file": 9
+        "file": "9",
+        "duration": 23.856
       },
       "10": {
-        "file": 10
+        "file": "10",
+        "duration": 14.736
       },
       "11": {
-        "file": 11
+        "file": "11",
+        "duration": 11.976
       },
       "12": {
-        "file": 12
+        "file": "12",
+        "duration": 8.616
       },
       "13": {
-        "file": 13
+        "file": "13",
+        "duration": 50.736
       }
     },
     "83:27": {
       "0": {
-        "file": 0
+        "file": "0",
+        "duration": 2.064
       },
       "1": {
-        "file": 1
+        "file": "1",
+        "duration": 6.216
       },
       "2": {
-        "file": 2
+        "file": "2",
+        "duration": 7.224
       },
       "3": {
-        "file": 3
+        "file": "3",
+        "duration": 4.536
       },
       "4": {
-        "file": 4
+        "file": "4",
+        "duration": 41.064
       }
     },
     "1:11": {
       "0": {
-        "file": 0
+        "file": "0",
+        "duration": 8.544
       },
       "1": {
-        "file": 1
+        "file": "1",
+        "duration": 3.384
       },
       "2": {
-        "file": 2
+        "file": "2",
+        "duration": 17.784
       },
       "3": {
-        "file": 3
+        "file": "3",
+        "duration": 11.064
       },
       "4": {
-        "file": 4
+        "file": "4",
+        "duration": 4.056
       },
       "5": {
-        "file": 5
+        "file": "5",
+        "duration": 13.704
       },
       "6": {
-        "file": 6
+        "file": "6",
+        "duration": 14.976
       },
       "7": {
-        "file": 7
+        "file": "7",
+        "duration": 71.256
       },
       "8": {
-        "file": 8
+        "file": "8",
+        "duration": 2.616
       }
     },
     "113:6": {
       "0": {
-        "file": 0
+        "file": "0",
+        "duration": 4.296
       },
       "1": {
-        "file": 1
+        "file": "1",
+        "duration": 19.776
       },
       "2": {
-        "file": 2
+        "file": "2",
+        "duration": 36.264
       },
       "3": {
-        "file": 3
+        "file": "3",
+        "duration": 76.056
       },
       "4": {
-        "file": 4
+        "file": "4",
+        "duration": 15.696
       },
       "5": {
-        "file": 5
+        "file": "5",
+        "duration": 7.296
       },
       "6": {
-        "file": 6
+        "file": "6",
+        "duration": 20.664
       },
       "7": {
-        "file": 7
+        "file": "7",
+        "duration": 22.464
       },
       "8": {
-        "file": 8
+        "file": "8",
+        "duration": 11.136
       },
       "9": {
-        "file": 9
+        "file": "9",
+        "duration": 65.496
       },
       "10": {
-        "file": 10
+        "file": "10",
+        "duration": 2.664
       }
     },
     "115:11": {
       "0": {
-        "file": 0
+        "file": "0",
+        "duration": 3.096
       },
       "1": {
-        "file": 1
+        "file": "1",
+        "duration": 6.864
       },
       "2": {
-        "file": 2
+        "file": "2",
+        "duration": 10.704
       },
       "3": {
-        "file": 3
+        "file": "3",
+        "duration": 42.984
       },
       "4": {
-        "file": 4
+        "file": "4",
+        "duration": 12.024
       },
       "5": {
-        "file": 5
+        "file": "5",
+        "duration": 60.096
       },
       "6": {
-        "file": 6
+        "file": "6",
+        "duration": 36.576
       },
       "7": {
-        "file": 7
+        "file": "7",
+        "duration": 19.416
       },
       "8": {
-        "file": 8
+        "file": "8",
+        "duration": 24.096
       }
     }
   }

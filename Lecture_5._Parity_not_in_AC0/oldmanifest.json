@@ -1,0 +1,609 @@
+{
+  "presentation": "Lecture 5. Parity not in AC0",
+  "root": "4:2",
+  "slideDict": {
+    "4:2": "4_2",
+    "19:729": "19_729",
+    "20:67": "20_67",
+    "20:232": "20_232",
+    "21:404": "21_404",
+    "19:795": "19_795",
+    "20:4": "20_4",
+    "16:469": "16_469",
+    "16:411": "16_411",
+    "19:3": "19_3",
+    "19:101": "19_101",
+    "19:230": "19_230",
+    "18:230": "18_230",
+    "18:258": "18_258",
+    "16:125": "16_125",
+    "16:253": "16_253"
+  },
+  "tree": {
+    "type": "child",
+    "name": "First slide",
+    "id": "4:2",
+    "children": [
+      {
+        "type": "show",
+        "id": "21:573",
+        "name": "Theorem. The parity function",
+        "disabled": false
+      },
+      {
+        "type": "show",
+        "id": "126:2",
+        "name": "Corollary.",
+        "disabled": false
+      },
+      {
+        "type": "show",
+        "id": "21:567",
+        "name": "We will use polynomials in the 3-element field",
+        "disabled": false
+      },
+      {
+        "type": "show",
+        "id": "25:42",
+        "name": "Razborow 87, Smolensky 87",
+        "disabled": false
+      },
+      {
+        "type": "child",
+        "name": "The three element field",
+        "id": "19:729",
+        "children": [
+          {
+            "type": "show",
+            "id": "21:592",
+            "name": "Consider the field",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "21:593",
+            "name": "To compute functions",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "Polynomials",
+            "id": "20:67",
+            "children": [
+              {
+                "type": "show",
+                "id": "20:108",
+                "name": "$(x_1)^2 x_3 - 5x_2  + 2(x_3)^5 x_4 (x_7)^8$40",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "21:579",
+                "name": "since we are working in 5 could be replaced by 2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "20:224",
+                "name": "=",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "20:199",
+                "name": "$(x_1)^2 x_3 + x_2  - (x_3)^2 x_4 (x_7)^2$40",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "21:577",
+                "name": "a monomial of degree 5",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "21:578",
+                "name": "a polynomial of degree 5",
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "Every function",
+                "id": "20:232",
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "21:580",
+                    "name": "Fact. Polynomials give all functions",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "21:581",
+                    "name": "Proof. The polynomial",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "21:584",
+                    "name": "the same idea works for any vector instead of (0, ... ,0)",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "21:283",
+                    "name": "By taking linear combinations of these polynomials, we can get every function.",
+                    "disabled": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "show",
+            "id": "21:591",
+            "name": "false",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "Reperesenting Boolean functions",
+            "id": "21:404",
+            "children": [
+              {
+                "type": "show",
+                "id": "21:576",
+                "name": "Definition. A Boolean function",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "21:575",
+                "name": "if the following diagram commutes:",
+                "disabled": false
+              }
+            ]
+          },
+          {
+            "type": "show",
+            "id": "21:594",
+            "name": "The parity function is represented by the polynomial",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "20:43",
+            "name": "degree n",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "21:595",
+            "name": "Negation is represented by the polynomial",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "20:44",
+            "name": "degree 1",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "21:596",
+            "name": "What about disjunction ?",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "A wrong proof",
+            "id": "19:795",
+            "children": [
+              {
+                "type": "show",
+                "id": "19:797",
+                "name": "A wrong proof which gives the right idea",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "21:586",
+                "name": "Assume that for every n, disjunction is represented by some polynomial of degree ≤ 5.",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "21:587",
+                "name": "Then every circuit of depth at most d is represented by a polynomial of degree at most 5 .",
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "Degrees get multiplied",
+                "id": "20:4",
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "21:589",
+                    "name": "When composing polynomials, degrees get multiplied",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "21:590",
+                    "name": "Therefore, if every gate in a circuit of depth d is represented by a polynomial of degree 5, then the entire circuit is represented by a polynomial of degree 5 .",
+                    "disabled": false
+                  }
+                ]
+              },
+              {
+                "type": "show",
+                "id": "21:588",
+                "name": "In particular, if parity would be in AC0, then for every n there would be a polynomial of degree at most 5 , which would agree with on all inputs from .",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "19:850",
+                "name": "This cannot happen for counting reasons.",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "19:897",
+                "name": "true: for a parameter t, one can find a polynomial of degree linear in t, which roughly represents disjunction of n arguments, in the sense that it gives wrong answers with probability exponentially small in t",
+                "disabled": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "show",
+        "id": "21:569",
+        "name": "Proof.",
+        "disabled": false
+      },
+      {
+        "type": "child",
+        "name": "If parity is in AC0, then it can be approximated ",
+        "id": "16:469",
+        "children": [
+          {
+            "type": "show",
+            "id": "16:470",
+            "name": "Suppose that parity is in AC0.",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "21:597",
+            "name": "of degree at most",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "Approximate gates",
+            "id": "16:411",
+            "children": [
+              {
+                "type": "show",
+                "id": "21:639",
+                "name": "Define an approximate ∨ gate as follows:",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "16:333",
+                "name": "can be done by a polynomial of constant degree",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "19:2",
+                "name": "Consider a circuit with only ∨ and ¬ gates, and let t ∈ {1, 2, ...}.",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "16:371",
+                "name": "A t-approximation of this circuit is any circuit that can obtained by:",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "21:640",
+                "name": "replacing each ∨ gate",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "21:641",
+                "name": "with a gadget of this form:",
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "Probability of approximation",
+                "id": "19:3",
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "19:5",
+                    "name": "Let C be a circuit, and let t be an approximation parameter.",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "19:6",
+                    "name": "Suppose that for every gate, we randomly select the t-approximation.",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "19:7",
+                    "name": "(we randomly choose t subsets of its inputs)",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "21:642",
+                    "name": "Let u be a gate, and let",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "21:643",
+                    "name": "Prob",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "21:644",
+                    "name": "=",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "19:92",
+                    "name": "each of the t approximate gates gives a correct result with probability 1/3",
+                    "disabled": false
+                  },
+                  {
+                    "type": "child",
+                    "name": "Rows columns",
+                    "id": "19:101",
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "21:743",
+                        "name": "Therefore, for every choice of",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "21:744",
+                        "name": "Prob",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "19:228",
+                        "name": "if all rows in a matrix have average value < a, then some column has average value < a",
+                        "disabled": false
+                      },
+                      {
+                        "type": "child",
+                        "name": "Get the square root",
+                        "id": "19:230",
+                        "children": [
+                          {
+                            "type": "show",
+                            "id": "21:746",
+                            "name": "D corresponds to a polynomial of degree at most",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "21:745",
+                            "name": "degree 2",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "21:747",
+                            "name": "D gives the wrong ansser with probability at most",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "19:331",
+                            "name": "Group 8",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "19:332",
+                            "name": "Group 9",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "19:347",
+                            "name": "depth of C",
+                            "disabled": false
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "show",
+            "id": "21:599",
+            "name": "Take any function",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "21:598",
+            "name": "where agrees with",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "21:600",
+            "name": "Choose a polynomial",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "16:627",
+            "name": "Without violating (*) we can:",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "21:601",
+            "name": "(1) remove squares from every monomial:",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "21:612",
+            "name": "(2) reduce the degree of every monomial to",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "21:613",
+            "name": "If a monomial uses more than half of the variables, then rewrite it as:",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "21:614",
+            "name": "degree",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "21:615",
+            "name": "degree <",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "Every function can be approximated",
+            "id": "18:230",
+            "children": [
+              {
+                "type": "show",
+                "id": "21:622",
+                "name": "We have just shown: If parity is in AC0, then there exist",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "16:29",
+                "name": "such that",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "21:623",
+                "name": "(a)",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "21:624",
+                "name": "(b) for every function",
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "This is impossible",
+                "id": "18:258",
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "18:256",
+                    "name": "Next: this is impossible, because there are more functions f than polynomials p, and hence parity is not in AC0",
+                    "disabled": false
+                  },
+                  {
+                    "type": "child",
+                    "name": "Not enough polynomials",
+                    "id": "16:125",
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "21:630",
+                        "name": "The number of functions",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "21:631",
+                        "name": "some number that tends to 1, as n tends to ∞",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "21:632",
+                        "name": "The number of polynomials",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "21:633",
+                        "name": "probablity that a subset of {1, ..., n} has size at most",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "21:634",
+                        "name": "this number has a limit (as n tends to ∞), which is less than 1.",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "21:635",
+                        "name": "for large enough n",
+                        "disabled": false
+                      },
+                      {
+                        "type": "child",
+                        "name": "Central limit Theorem",
+                        "id": "16:253",
+                        "children": [
+                          {
+                            "type": "show",
+                            "id": "21:637",
+                            "name": "The central limit theorem says that if we choose numbers independently at random, then",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "21:638",
+                            "name": "a number that is not 0",
+                            "disabled": false
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "soundDict": {}
+}

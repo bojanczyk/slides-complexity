@@ -1,0 +1,1825 @@
+{
+  "presentation": "Lecture 1. Turing machines",
+  "root": "2:2",
+  "slideDict": {
+    "2:2": "2_2",
+    "2:29": "2_29",
+    "2:31": "2_31",
+    "26:57": "26_57",
+    "26:179": "26_179",
+    "26:118": "26_118",
+    "90:1": "90_1",
+    "90:309": "90_309",
+    "33:227": "33_227",
+    "99:66": "99_66",
+    "99:76": "99_76",
+    "99:93": "99_93",
+    "99:1": "99_1",
+    "99:56": "99_56",
+    "99:42": "99_42",
+    "99:13": "99_13",
+    "372:2": "372_2",
+    "372:13": "372_13",
+    "389:0": "389_0",
+    "389:27": "389_27",
+    "423:86": "Nondeterminism_contd."
+  },
+  "tree": {
+    "type": "child",
+    "name": "first slide",
+    "id": "2:2",
+    "children": [
+      {
+        "type": "show",
+        "id": "2:27",
+        "name": "Lecture 1. Turing machines and their resources",
+        "index": 2,
+        "disabled": false
+      },
+      {
+        "type": "show",
+        "id": "2:33",
+        "name": "Introduction",
+        "index": 5,
+        "disabled": false
+      },
+      {
+        "type": "child",
+        "name": "introduction",
+        "id": "2:29",
+        "children": [
+          {
+            "type": "show",
+            "id": "2:39",
+            "name": "How much time does it take to sort a list of length n?",
+            "index": 1,
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "2:42",
+            "name": "At least O(n) and at most O(n logn)",
+            "index": 3,
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "4:6",
+            "name": "Group 1",
+            "index": 5,
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "2:45",
+            "name": "How much time does it take to check if a graph of n vertices can be 3-coloured? Each vertex gets one of 3 colours, and no edge is monochromatic.",
+            "index": 2,
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "123:1",
+            "name": "Group 29",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "2:49",
+            "name": "Maybe O(n3)? or O(n100)?",
+            "index": 6,
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "2:62",
+            "name": "If we only care about polynomial time (or slower), then Turing Machines are a good model of computation.",
+            "index": 7,
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "2:64",
+            "name": "Also true for logarithmic space.",
+            "index": 8,
+            "disabled": false
+          }
+        ]
+      },
+      {
+        "type": "show",
+        "id": "2:34",
+        "name": "T\u00f3ring machines",
+        "index": 6,
+        "disabled": false
+      },
+      {
+        "type": "child",
+        "name": "Turing machines",
+        "id": "2:31",
+        "children": [
+          {
+            "type": "show",
+            "id": "2:66",
+            "name": "A Turing machine is a model of computation. An alternative would be Java programs.",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "2:67",
+            "name": "The model is minimalistic, so that it is easier to prove theorems like: For every Turing machine M, ...",
+            "index": 2,
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "2:70",
+            "name": "Maybe Java programs would be easier for theorems like: There is a Turing machine M such that ...",
+            "index": 3,
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "26:56",
+            "name": "But Turing machines are fine for this, once you get used to them.",
+            "index": 4,
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "Definition of Turing machine",
+            "id": "26:57",
+            "children": [
+              {
+                "type": "show",
+                "id": "26:96",
+                "name": "A configuration of a Turing machine looks like this:",
+                "index": 1,
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "419:212",
+                "name": "...",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "419:213",
+                "name": "...",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "419:214",
+                "name": "a control state",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "26:110",
+                "name": "The syntax of a deterministic Turing machine consists of:",
+                "index": 2,
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "26:112",
+                "name": "\u2013 an input alphabet \u03a3 \u2013 a work alphabet \u0393, which contains \u03a3 and a blank symbol \u2013 a set of states Q with a designated initial state \u2013 a transition function of the form \u03b4 : Q \u00d7 \u0393 \u27f6 {accept, reject} + (Q \u00d7 \u0393 \u00d7 {prev, stay, next})",
+                "index": 7,
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "one step update",
+                "id": "26:179",
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "419:147",
+                    "name": "\u03b4 : Q \u00d7 \u0393 \u27f6 {accept, reject} + (Q \u00d7 \u0393 \u00d7 {prev, stay, next})",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "419:151",
+                    "name": "...",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "419:122",
+                    "name": "q",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "419:149",
+                    "name": "q",
+                    "disabled": false
+                  },
+                  {
+                    "type": "hide",
+                    "id": "419:122",
+                    "name": "q",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "419:142",
+                    "name": "p",
+                    "disabled": false
+                  },
+                  {
+                    "type": "child",
+                    "name": "Turing machine semantics",
+                    "id": "26:118",
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "419:202",
+                        "name": "Consider an input string, e.g. abaccbab \u2208 \u03a3*",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "419:205",
+                        "name": "The machine begins in the initial configuration for this string:",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "26:174",
+                        "name": "Next, the machine keeps on updating its configuration, until:",
+                        "index": 2,
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "26:176",
+                        "name": "\u2013 an accept transition is used",
+                        "index": 3,
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "93:17",
+                        "name": "\u2013 a reject transition is used, or the head falls off the tape",
+                        "index": 4,
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "93:15",
+                        "name": "\u2013 the run goes on forever, avoiding accept and reject",
+                        "index": 6,
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "419:210",
+                        "name": "A Turing machine induces a partial function M : \u03a3* \u27f6 {accept, reject}",
+                        "disabled": false
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "child",
+            "name": "Equivalent models",
+            "id": "90:1",
+            "children": [
+              {
+                "type": "show",
+                "id": "419:367",
+                "name": "Two work tapes",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "90:65",
+                "name": "Fact. For every two-tape Turing machine, there is a one-tape machine that rejects/accepts the same inputs.",
+                "index": 2,
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "419:368",
+                "name": "Two work tapes proof",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "90:128",
+                "name": "Also equivalent:",
+                "index": 4,
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "90:129",
+                "name": "Tape that is inifinite to the left and right",
+                "index": 5,
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "90:130",
+                "name": "A two-dimensional tape",
+                "index": 6,
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "90:132",
+                "name": "While programs",
+                "index": 7,
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "While programs",
+                "id": "90:309",
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "93:23",
+                    "name": "while program",
+                    "index": 4,
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "93:24",
+                    "name": "Group 18",
+                    "index": 3,
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "93:22",
+                    "name": "Group 17",
+                    "index": 6,
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "90:350",
+                    "name": "The simulating Turing machine runs in time O((running time of while program) \u00d7 polylog(biggest integer used))",
+                    "index": 2,
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "131:10",
+                    "name": "further slowdown",
+                    "disabled": false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "show",
+        "id": "93:27",
+        "name": "Decidability",
+        "index": 8,
+        "disabled": false
+      },
+      {
+        "type": "child",
+        "name": "Decidable definition",
+        "id": "33:227",
+        "children": [
+          {
+            "type": "show",
+            "id": "33:229",
+            "name": "A language L \u2286 \u03a3* is decidable if there is a Turing machine which: \u2013 accepts inputs from L \u2013 rejects inputs from outside L",
+            "index": 2,
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "33:234",
+            "name": "A language L \u2286 \u03a3* is semi-decidable if there is a Turing machine which: \u2013 accepts inputs from L \u2013 rejects or does not terminate on inputs from outside L",
+            "index": 3,
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "93:32",
+            "name": "Group 19",
+            "index": 7,
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "95:1",
+            "name": "decidable semi",
+            "index": 10,
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "95:5",
+            "name": "decidableino",
+            "index": 8,
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "93:63",
+            "name": "uncountably",
+            "index": 12,
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "95:4",
+            "name": "empty",
+            "index": 13,
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "95:2",
+            "name": "co-semi",
+            "index": 9,
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "semi and co semi",
+            "id": "99:66",
+            "children": [
+              {
+                "type": "show",
+                "id": "99:75",
+                "name": "Fact. If both L and its complement are semi-decidable, then L is decidable.",
+                "index": 1,
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "semi and co semi proof",
+                "id": "99:76",
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "99:69",
+                    "name": "If both L and its complement are semi-decidable, then there are Turing machines M and N such that:",
+                    "index": 1,
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "99:72",
+                    "name": "if w \u2208 L then: M accepts N rejects or does not terminate",
+                    "index": 2,
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "99:74",
+                    "name": "if w \u2209 L then: N accepts M rejects or does not terminate",
+                    "index": 3,
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "99:79",
+                    "name": "We can construct an always-halting machine for L as follows:",
+                    "index": 4,
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "99:80",
+                    "name": "Given an input w, compute:",
+                    "index": 5,
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "99:90",
+                    "name": "Group 22",
+                    "index": 6,
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "99:91",
+                    "name": "Group 23",
+                    "index": 8,
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "99:92",
+                    "name": "Group 24",
+                    "index": 9,
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "99:87",
+                    "name": "...",
+                    "index": 10,
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "99:89",
+                    "name": "one of them must halt",
+                    "index": 7,
+                    "disabled": false
+                  },
+                  {
+                    "type": "child",
+                    "name": "Fun fact",
+                    "id": "99:93",
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "99:109",
+                        "name": "Fun fact",
+                        "index": 6,
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "99:96",
+                        "name": "Take any undecidable language L \u2286 \u03a3*.",
+                        "index": 1,
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "99:97",
+                        "name": "Example: context-free grammars that are universal.",
+                        "index": 2,
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "99:149",
+                        "name": "unprovable",
+                        "index": 5,
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "99:110",
+                        "name": "Proof. Otherwise, \u201csearch through all proofs of PA\u201d would be a Turing machine that decides membership in L.",
+                        "index": 4,
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "99:147",
+                        "name": "Example: there is a context-free grammar, whose universality or non-universality cannot be proved",
+                        "index": 3,
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "99:146",
+                        "name": "Same argument works for ZFC (set theory).",
+                        "index": 7,
+                        "disabled": false
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "show",
+            "id": "95:3",
+            "name": "halting problem",
+            "index": 11,
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "Halting problem",
+            "id": "99:1",
+            "children": [
+              {
+                "type": "show",
+                "id": "99:12",
+                "name": "halting theorem",
+                "index": 1,
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "Representation",
+                "id": "99:56",
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "99:59",
+                    "name": "We only consider Turing machines with input alphabet {0,1}.",
+                    "index": 1,
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "99:61",
+                    "name": "Such a Turing machine is represented by a binary string with: 1. the number of letters in the work alphabet 2. the number of states (initial state is 1) 3. a list of the transitions",
+                    "index": 2,
+                    "disabled": false
+                  }
+                ]
+              },
+              {
+                "type": "child",
+                "name": "Halting problem is semi-decidable",
+                "id": "99:42",
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "99:46",
+                    "name": "The halting problem is semi-decidable",
+                    "index": 2,
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "99:45",
+                    "name": "Given an input w, we do the following.",
+                    "index": 1,
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "99:48",
+                    "name": "1. If w does not represent a Turing machine, reject",
+                    "index": 3,
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "99:49",
+                    "name": "1. Start computing :",
+                    "index": 4,
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "99:50",
+                    "name": "configuration 1 on input \u03b5",
+                    "index": 5,
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "99:51",
+                    "name": "configuration 2 on input \u03b5",
+                    "index": 6,
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "99:52",
+                    "name": "configuration 3 on input \u03b5",
+                    "index": 7,
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "99:53",
+                    "name": "configuration 4 on input \u03b5",
+                    "index": 8,
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "99:54",
+                    "name": "...",
+                    "index": 10,
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "99:55",
+                    "name": "Accept when an accept/reject configuration is seen.",
+                    "index": 9,
+                    "disabled": false
+                  }
+                ]
+              },
+              {
+                "type": "child",
+                "name": "Halting problem is undecidable",
+                "id": "99:13",
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "99:41",
+                    "name": "The halting problem is not decidable",
+                    "index": 11,
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "99:16",
+                    "name": "Suppose that there is a Turing machine M, which decides the halting problem.",
+                    "index": 1,
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "99:31",
+                    "name": "Consider the following Turing machine N, with input alphabet {0,1}.",
+                    "index": 2,
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "122:3",
+                    "name": "Group 22",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "99:23",
+                    "name": "Does w represent a Turing machine that halts on input w?",
+                    "index": 9,
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "99:36",
+                    "name": "(Question answered using M.)",
+                    "index": 3,
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "99:65",
+                    "name": "Group 21",
+                    "index": 10,
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "99:35",
+                    "name": "Does N halt on (the encoding of) N?",
+                    "index": 6,
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "99:34",
+                    "name": "If N does not halt on N, then N halts on N.",
+                    "index": 5,
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "99:32",
+                    "name": "If N halts on N, then N does not halt on N.",
+                    "index": 4,
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "99:39",
+                    "name": "A contradiction.",
+                    "index": 7,
+                    "disabled": false
+                  }
+                ]
+              },
+              {
+                "type": "child",
+                "name": "Berry",
+                "id": "372:2",
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "374:11",
+                    "name": "Berry paradox",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "372:8",
+                    "name": "Consider the smallest integer which cannot be described in ASCII string with less than 100 letters.",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "374:12",
+                    "name": "99 letters",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "374:13",
+                    "name": "what does described mean?",
+                    "disabled": false
+                  },
+                  {
+                    "type": "child",
+                    "name": "Ko\u0142mogorow",
+                    "id": "372:13",
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "372:16",
+                        "name": "For a number n \u2208 {0, 1, 2, ...}, define its Ko\u0142mogorow complexity to be the size of the smallest Turing machine which computes it.",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "374:19",
+                        "name": "computable number",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "374:18",
+                        "name": "size of machine",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "372:25",
+                        "name": "Theorem. The Ko\u0142mogorow complexity cannot be computed.",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "374:20",
+                        "name": "computable function",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "372:27",
+                        "name": "Proof. Supppose that Ko\u0142mogorow complexity can be computed by a Turing machine of size 1000.",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "374:10",
+                        "name": "There is a least number with Ko\u0142mogorow complexity at least 2000.",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "372:28",
+                        "name": "This number can be computed by a Turing machine of size < 2000.",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "374:0",
+                        "name": "because we can write a Turing machine of size < 2000, which finds the smallest number of Ko\u0142mogorow complexity at least 2000.",
+                        "disabled": false
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "show",
+        "id": "2:36",
+        "name": "Nondeterminism",
+        "index": 7,
+        "disabled": false
+      },
+      {
+        "type": "child",
+        "name": "Nondeterministic machines",
+        "id": "389:0",
+        "children": [
+          {
+            "type": "show",
+            "id": "389:4",
+            "name": "In a nondeterministic Turing machine, the transition function has type",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "422:0",
+            "name": "\u03b4 : Q \u00d7 \u0393 \u27f6 {accept, reject} + (Q \u00d7 \u0393 \u00d7 {prev, stay, next})",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "389:117",
+            "name": "for every situation, there could be several actions to take",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "389:12",
+            "name": "On a given input, a nondeterministic Turing machine can have many runs.",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "389:15",
+            "name": "Def. Nondeterministic semi-decidable",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "389:16",
+            "name": "There is a Turing machine such that w \u2208 L \u27fa \u2203 accepting run",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "389:18",
+            "name": "For inputs w \u2209 L, every run either rejects, or does not halt.",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "389:21",
+            "name": "Def. Nondeterministic decidable",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "389:22",
+            "name": "There is a Turing machine such that w \u2208 L \u27fa \u2203 accepting run and w \u2209 L \u27fa \u2203 rejecting run",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "389:24",
+            "name": "There cannot be an input which has both rejecting and accepting runs",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "389:25",
+            "name": "Thm. Deterministic semi-decidable = nondeterministic semi-decidable",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "389:26",
+            "name": "Thm. Deterministic decidable = nondeterministic decidable",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "Determinisation",
+            "id": "389:27",
+            "children": [
+              {
+                "type": "show",
+                "id": "389:34",
+                "name": "Proof for nondeterministic semi-decidable \u2286 deterministic semi-decidable.",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "389:94",
+                "name": "Do a breadth-first search in the graph of reachable configurations",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "389:30",
+                "name": "1. compute all configurations reachable in 1 step from the initial one.",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "389:31",
+                "name": "2. compute all configurations reachable in 2 steps from the initial one.",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "389:32",
+                "name": "3. compute all configurations reachable in 3 steps from the initial one.",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "389:36",
+                "name": "...",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "389:35",
+                "name": "After some time, the tape looks like this:",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "423:85",
+                "name": "p",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "389:90",
+                "name": "When an accepting configuration is found, accept.",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "389:92",
+                "name": "The same proof shows deterministic decidable = nondeterministic decidable.",
+                "disabled": false
+              }
+            ]
+          },
+          {
+            "type": "child",
+            "name": "Nondeterminism contd.",
+            "id": "423:86",
+            "children": [
+              {
+                "type": "show",
+                "id": "423:88",
+                "name": "Since nondeterministic Turing machines can be confusing, we sometimes use deterministic Turing machines with a read-only witness tape.",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "423:102",
+                "name": "M(v, w) \u2208 {accept, reject, undefined}",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "423:95",
+                "name": "Def. Nondeterministic semi-decidable",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "423:100",
+                "name": "iff",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "423:97",
+                "name": "There is a Turing machine such that w \u2208 L \u27fa \u2203 accepting run",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "423:96",
+                "name": "Def. Nondeterministic decidable",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "423:101",
+                "name": "iff",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "423:98",
+                "name": "There is a Turing machine such that w \u2208 L \u27fa \u2203 accepting run and w \u2209 L \u27fa \u2203 rejecting run",
+                "disabled": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "show",
+        "id": "389:95",
+        "name": "So far, we have discussed Turing machines which terminate in finite time.",
+        "disabled": false
+      },
+      {
+        "type": "show",
+        "id": "389:96",
+        "name": "The point of computational complexity is to consider, say, polynomial time.",
+        "disabled": false
+      }
+    ]
+  },
+  "soundDict": {
+    "2:2": {
+      "0": {
+        "file": "2_20"
+      },
+      "1": {
+        "file": "2_21"
+      },
+      "2": {
+        "file": "2_22"
+      },
+      "3": {
+        "file": "2_23"
+      },
+      "4": {
+        "file": "2_24"
+      },
+      "5": {
+        "file": "2_25"
+      },
+      "6": {
+        "file": "2_26"
+      },
+      "7": {
+        "file": 7
+      },
+      "8": {
+        "file": 8
+      },
+      "9": {
+        "file": 9
+      },
+      "10": {
+        "file": 10
+      },
+      "11": {
+        "file": 11
+      }
+    },
+    "2:29": {
+      "0": {
+        "file": "2_290"
+      },
+      "1": {
+        "file": "2_291"
+      },
+      "2": {
+        "file": "2_292"
+      },
+      "3": {
+        "file": "2_293"
+      },
+      "4": {
+        "file": "2_294"
+      },
+      "5": {
+        "file": "2_295"
+      },
+      "6": {
+        "file": "2_296"
+      },
+      "7": {
+        "file": "2_297"
+      },
+      "8": {
+        "file": "2_298"
+      }
+    },
+    "2:31": {
+      "0": {
+        "file": "2_310"
+      },
+      "1": {
+        "file": "2_311"
+      },
+      "2": {
+        "file": "2_312"
+      },
+      "3": {
+        "file": "2_313"
+      },
+      "4": {
+        "file": "2_314"
+      },
+      "5": {
+        "file": "5"
+      },
+      "6": {
+        "file": "2_316"
+      }
+    },
+    "26:57": {
+      "0": {
+        "file": "26_570"
+      },
+      "1": {
+        "file": "1"
+      },
+      "2": {
+        "file": "2"
+      },
+      "3": {
+        "file": "3"
+      },
+      "4": {
+        "file": "4"
+      },
+      "5": {
+        "file": "5"
+      },
+      "6": {
+        "file": "6"
+      },
+      "7": {
+        "file": "7"
+      },
+      "8": {
+        "file": "26_578"
+      },
+      "9": {
+        "file": "26_579"
+      },
+      "10": {
+        "file": "26_5710"
+      },
+      "11": {
+        "file": "26_5711"
+      }
+    },
+    "26:179": {
+      "0": {
+        "file": "0"
+      },
+      "1": {
+        "file": "1"
+      },
+      "2": {
+        "file": "2"
+      },
+      "3": {
+        "file": "3"
+      },
+      "4": {
+        "file": "4"
+      },
+      "5": {
+        "file": "5"
+      },
+      "6": {
+        "file": "6"
+      },
+      "7": {
+        "file": "7"
+      }
+    },
+    "26:118": {
+      "0": {
+        "file": "0"
+      },
+      "1": {
+        "file": "1"
+      },
+      "2": {
+        "file": "2"
+      },
+      "3": {
+        "file": "3"
+      },
+      "4": {
+        "file": "4"
+      },
+      "5": {
+        "file": "5"
+      },
+      "6": {
+        "file": "6"
+      },
+      "7": {
+        "file": "7"
+      }
+    },
+    "90:1": {
+      "0": {
+        "file": "0"
+      },
+      "1": {
+        "file": "1"
+      },
+      "2": {
+        "file": "2"
+      },
+      "3": {
+        "file": "3"
+      },
+      "4": {
+        "file": "4"
+      },
+      "5": {
+        "file": "5"
+      },
+      "6": {
+        "file": "6"
+      },
+      "7": {
+        "file": "90_17"
+      },
+      "8": {
+        "file": "90_18"
+      },
+      "9": {
+        "file": "90_19"
+      }
+    },
+    "90:309": {
+      "0": {
+        "file": "90_3090"
+      },
+      "1": {
+        "file": "90_3091"
+      },
+      "2": {
+        "file": "90_3092"
+      },
+      "3": {
+        "file": "90_3093"
+      },
+      "4": {
+        "file": "90_3094"
+      },
+      "5": {
+        "file": "90_3095"
+      }
+    },
+    "33:227": {
+      "0": {
+        "file": "33_2270"
+      },
+      "1": {
+        "file": "33_2271"
+      },
+      "2": {
+        "file": "33_2272"
+      },
+      "3": {
+        "file": "33_2273"
+      },
+      "4": {
+        "file": "33_2274"
+      },
+      "5": {
+        "file": "33_2275"
+      },
+      "6": {
+        "file": "33_2276"
+      },
+      "7": {
+        "file": "33_2277"
+      },
+      "8": {
+        "file": "33_2278"
+      },
+      "9": {
+        "file": "33_2279"
+      },
+      "10": {
+        "file": "33_22710"
+      },
+      "11": {
+        "file": 11
+      }
+    },
+    "99:66": {
+      "0": {
+        "file": "99_660"
+      },
+      "1": {
+        "file": "99_661"
+      },
+      "2": {
+        "file": "99_662"
+      }
+    },
+    "99:76": {
+      "0": {
+        "file": "99_760"
+      },
+      "1": {
+        "file": "99_761"
+      },
+      "2": {
+        "file": "99_762"
+      },
+      "3": {
+        "file": "99_763"
+      },
+      "4": {
+        "file": "99_764"
+      },
+      "5": {
+        "file": "99_765"
+      },
+      "6": {
+        "file": "99_766"
+      },
+      "7": {
+        "file": "99_767"
+      },
+      "8": {
+        "file": "99_768"
+      },
+      "9": {
+        "file": "99_769"
+      },
+      "10": {
+        "file": "99_7610"
+      },
+      "11": {
+        "file": "99_7611"
+      }
+    },
+    "99:93": {
+      "0": {
+        "file": "99_930"
+      },
+      "1": {
+        "file": "99_931"
+      },
+      "2": {
+        "file": "99_932"
+      },
+      "3": {
+        "file": "99_933"
+      },
+      "4": {
+        "file": "99_934"
+      },
+      "5": {
+        "file": "99_935"
+      },
+      "6": {
+        "file": "99_936"
+      },
+      "7": {
+        "file": "99_937"
+      }
+    },
+    "99:1": {
+      "0": {
+        "file": "99_10"
+      },
+      "1": {
+        "file": "99_11"
+      },
+      "2": {
+        "file": "99_12"
+      },
+      "3": {
+        "file": "99_13"
+      },
+      "4": {
+        "file": 4
+      },
+      "5": {
+        "file": 5
+      }
+    },
+    "99:56": {
+      "0": {
+        "file": "99_560"
+      },
+      "1": {
+        "file": "99_561"
+      },
+      "2": {
+        "file": "99_562"
+      }
+    },
+    "99:42": {
+      "0": {
+        "file": "99_420"
+      },
+      "1": {
+        "file": "99_421"
+      },
+      "2": {
+        "file": "99_422"
+      },
+      "3": {
+        "file": "99_423"
+      },
+      "4": {
+        "file": "99_424"
+      },
+      "5": {
+        "file": "99_425"
+      },
+      "6": {
+        "file": 6
+      },
+      "7": {
+        "file": "99_427"
+      },
+      "8": {
+        "file": "99_428"
+      },
+      "9": {
+        "file": "99_429"
+      },
+      "10": {
+        "file": "99_4210"
+      }
+    },
+    "99:13": {
+      "0": {
+        "file": "99_130"
+      },
+      "1": {
+        "file": "99_131"
+      },
+      "2": {
+        "file": "99_132"
+      },
+      "3": {
+        "file": "99_133"
+      },
+      "4": {
+        "file": "99_134"
+      },
+      "5": {
+        "file": "99_135"
+      },
+      "6": {
+        "file": "99_136"
+      },
+      "7": {
+        "file": "99_137"
+      },
+      "8": {
+        "file": "99_138"
+      },
+      "9": {
+        "file": "99_139"
+      },
+      "10": {
+        "file": "99_1310"
+      },
+      "11": {
+        "file": "99_1311"
+      }
+    },
+    "2:37": {
+      "0": {
+        "file": "2_370"
+      },
+      "1": {
+        "file": "2_371"
+      },
+      "2": {
+        "file": "2_372"
+      },
+      "3": {
+        "file": "2_373"
+      },
+      "4": {
+        "file": "2_374"
+      },
+      "5": {
+        "file": "2_375"
+      },
+      "6": {
+        "file": "2_376"
+      },
+      "7": {
+        "file": "2_377"
+      },
+      "8": {
+        "file": "2_378"
+      }
+    },
+    "114:10": {
+      "0": {
+        "file": "114_100"
+      },
+      "1": {
+        "file": "114_101"
+      },
+      "2": {
+        "file": "114_102"
+      },
+      "3": {
+        "file": "114_103"
+      },
+      "4": {
+        "file": "114_104"
+      },
+      "5": {
+        "file": "114_105"
+      },
+      "6": {
+        "file": "114_106"
+      }
+    },
+    "114:86": {
+      "0": {
+        "file": "114_860"
+      },
+      "1": {
+        "file": "114_861"
+      },
+      "2": {
+        "file": "114_862"
+      },
+      "3": {
+        "file": "114_863"
+      },
+      "4": {
+        "file": "114_864"
+      }
+    },
+    "114:2": {
+      "0": {
+        "file": "114_20"
+      },
+      "1": {
+        "file": "114_21"
+      },
+      "2": {
+        "file": "114_22"
+      },
+      "3": {
+        "file": "114_23"
+      },
+      "4": {
+        "file": "114_24"
+      },
+      "5": {
+        "file": "114_25"
+      },
+      "6": {
+        "file": "114_26"
+      }
+    },
+    "372:2": {
+      "0": {
+        "file": 0
+      },
+      "1": {
+        "file": 1
+      },
+      "2": {
+        "file": 2
+      },
+      "3": {
+        "file": 3
+      },
+      "4": {
+        "file": 4
+      },
+      "5": {
+        "file": 5
+      }
+    },
+    "372:13": {
+      "0": {
+        "file": 0
+      },
+      "1": {
+        "file": 1
+      },
+      "2": {
+        "file": 2
+      },
+      "3": {
+        "file": 3
+      },
+      "4": {
+        "file": 4
+      },
+      "5": {
+        "file": 5
+      },
+      "6": {
+        "file": 6
+      },
+      "7": {
+        "file": 7
+      },
+      "8": {
+        "file": 8
+      },
+      "9": {
+        "file": 9
+      }
+    },
+    "389:0": {
+      "0": {
+        "file": 0
+      },
+      "1": {
+        "file": "1"
+      },
+      "2": {
+        "file": "2"
+      },
+      "3": {
+        "file": "3"
+      },
+      "4": {
+        "file": "4"
+      },
+      "5": {
+        "file": 5
+      },
+      "6": {
+        "file": 6
+      },
+      "7": {
+        "file": 7
+      },
+      "8": {
+        "file": 8
+      },
+      "9": {
+        "file": 9
+      },
+      "10": {
+        "file": 10
+      },
+      "11": {
+        "file": 11
+      },
+      "12": {
+        "file": 12
+      },
+      "13": {
+        "file": "13"
+      },
+      "14": {
+        "file": "14"
+      }
+    },
+    "389:27": {
+      "0": {
+        "file": 0
+      },
+      "1": {
+        "file": 1
+      },
+      "2": {
+        "file": 2
+      },
+      "3": {
+        "file": 3
+      },
+      "4": {
+        "file": 4
+      },
+      "5": {
+        "file": 5
+      },
+      "6": {
+        "file": 6
+      },
+      "7": {
+        "file": 7
+      },
+      "8": {
+        "file": 8
+      },
+      "9": {
+        "file": 9
+      },
+      "10": {
+        "file": 10
+      }
+    },
+    "423:86": {
+      "0": {
+        "file": "0"
+      },
+      "1": {
+        "file": "1"
+      },
+      "2": {
+        "file": "2"
+      },
+      "3": {
+        "file": "3"
+      },
+      "4": {
+        "file": "4"
+      },
+      "5": {
+        "file": "5"
+      },
+      "6": {
+        "file": "6"
+      },
+      "7": {
+        "file": "7"
+      },
+      "8": {
+        "file": "8"
+      }
+    }
+  }
+}

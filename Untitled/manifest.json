@@ -1,0 +1,455 @@
+{
+  "presentation": "Untitled",
+  "root": "6:92",
+  "slideDict": {
+    "6:92": "6_92",
+    "7:32": "7_32",
+    "7:87": "7_87",
+    "20:18": "Straight_line_programs_2",
+    "20:329": "Euler",
+    "17:2": "First_slide",
+    "19:2": "Randomised_Polynomial_RP",
+    "19:15": "Formal_definition_RP",
+    "19:25": "Straight_line_programs",
+    "17:7": "Polynomial_identity_testing",
+    "36:52": "Polynomial_identity_testing_algorithm",
+    "17:320": "Schwartz-Zippel",
+    "17:415": "Schwartz-Zippel_2"
+  },
+  "tree": {
+    "type": "child",
+    "name": "First slide",
+    "id": "17:2",
+    "children": [
+      {
+        "type": "child",
+        "name": "Randomised Polynomial RP",
+        "id": "19:2",
+        "children": [
+          {
+            "type": "show",
+            "id": "19:4",
+            "name": "Randomised polynomial time (RP)",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "19:5",
+            "name": "Def. L \u2208 RP if there is a Turing machine, with access to coin flips, such that:",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "19:6",
+            "name": "1. regardless of the coin flips, it runs in polynomial time",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "19:7",
+            "name": "2. for inputs w \u2209 L the machine always rejects, regardless of the coin flips",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "19:8",
+            "name": "3. for inputs w \u2208 L the machine accepts with probability >1/2.",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "19:9",
+            "name": "if we run the machine 10 times, it will accept with probability > 1023 / 1024",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "Formal definition RP",
+            "id": "19:15",
+            "children": [
+              {
+                "type": "show",
+                "id": "19:11",
+                "name": "More formally, we have a Turing machine with: (a) a two-way read-only input tape (b) a one-way read-only witness tape over alphabet {head, tail} (c) a read-write work tape",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "19:17",
+                "name": "There is a polynomial p such that:",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "19:18",
+                "name": "1. for every input v and witness w, the running time of M(v, w) is < p(|v|)",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "19:19",
+                "name": "2. for every input v \u2209 L, M(v, w) rejects for every w",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "37:26",
+                "name": "Prob [M(v, w) accepts] \u2265 1/2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "19:24",
+                "name": "In other words, more than half of the witnesses lead to acceptance.",
+                "disabled": false
+              }
+            ]
+          },
+          {
+            "type": "child",
+            "name": "Straight line programs",
+            "id": "19:25",
+            "children": [
+              {
+                "type": "show",
+                "id": "37:27",
+                "name": "Consider a straight line program over the integers",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "37:28",
+                "name": "Question:",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "37:29",
+                "name": "In a program of length n, the numbers might use 2 bits.",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "20:12",
+                "name": "Randomised algorithm",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "20:13",
+                "name": "If the program has n lines, do the following experiment 3n times:",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "20:14",
+                "name": "Randomly choose a natural number p with 2n bits, and evaluate the program modulo p",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "20:17",
+                "name": "If in all experiments, x has value 0 (in modulo arithmetic), then say \u201czero\u201d, otherwise say \u201cnonzero\u201d.",
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "Straight line programs 2",
+                "id": "20:18",
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "20:269",
+                    "name": "The prime number theorem says that the following holds for sufficiently large n:",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "20:270",
+                    "name": "Let r be the output of the program. Since it has at most 2 bits, it has at most 2 prime divisors.",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "20:271",
+                    "name": "Therefore, assuming r \u2260 0, for each experiment the probability of \u201cnonzero\u201d is \u2265",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "20:226",
+                    "name": "Therefore, assuming r \u2260 0, the probability that all 3n experiments say \u201czero\u201d is",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "20:311",
+                    "name": "\\le (1 - \\frac {1} {3n})^{3n}  \\le 0.37",
+                    "disabled": false
+                  },
+                  {
+                    "type": "child",
+                    "name": "Euler",
+                    "id": "20:329",
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "20:391",
+                        "name": "(\\frac {n + 1} {n})^n \\quad  \\to \\quad  e",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "39:0",
+                        "name": "Group 1",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "20:477",
+                        "name": "( 1 - \\frac {1} {n+1})^n \\quad  \\to \\quad  \\frac 1 e",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "20:510",
+                        "name": "( 1 - \\frac {1} {3n})^{3n-1} \\quad  \\to \\quad  \\frac 1 e",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "20:547",
+                        "name": "( 1 - \\frac {1} {3n})^{3n} \\quad  \\to \\quad  \\frac 1 e",
+                        "disabled": false
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "child",
+            "name": "Polynomial identity testing",
+            "id": "17:7",
+            "children": [
+              {
+                "type": "show",
+                "id": "38:0",
+                "name": "We are given a program with uninitialised variables:",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "38:1",
+                "name": "This program represents a polynomial:",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "37:0",
+                "name": "Question Is this polynomial nonzero?",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "37:1",
+                "name": "Equivalently: given two programs, do they represent the same polynomial?",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "20:575",
+                "name": "Randomised algorithm",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "20:576",
+                "name": "If the program has n lines, do the following:",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "20:578",
+                "name": "Randomly choose for each variable a natural number with n bits. Evaluate the program.",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "20:577",
+                "name": "If the program describes a nonzero polynomial, then the answer will be nonzero with probability \u2265 50%.",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "36:97",
+                "name": "Evaluation can be done using the previously described randomised algorithm.",
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "Polynomial identity testing algorithm",
+                "id": "36:52",
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "38:2",
+                    "name": "The degree of the polynomial is at most and thus less than half the sample size (natural numbers with n bits).",
+                    "disabled": false
+                  },
+                  {
+                    "type": "child",
+                    "name": "Schwartz-Zippel",
+                    "id": "17:320",
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "38:4",
+                        "name": "Lemma. Consider a nonzero polynomial over the integers.",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "36:96",
+                        "name": "works for every ring",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "36:57",
+                        "name": "For every set S of integers,",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "38:3",
+                        "name": "Probability",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "37:23",
+                        "name": "Example.",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "36:93",
+                        "name": "useful when degree is smaller than sample size",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "17:411",
+                        "name": "Proof. Induction on the number of variables m",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "17:417",
+                        "name": "If m = 1, then we use the Bezout theorem, which says that a nonzero polynomial P(x) can have at most (degree of P) many zeros.",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "17:418",
+                        "name": "Having proved the lemma for m variables, we now prove it for m+1",
+                        "disabled": false
+                      },
+                      {
+                        "type": "child",
+                        "name": "Schwartz-Zippel 2",
+                        "id": "17:415",
+                        "children": [
+                          {
+                            "type": "show",
+                            "id": "38:5",
+                            "name": "Consider a nonzero polynomial with m+1 variables",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "38:6",
+                            "name": "The i-th coefficient is a polynomial",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "38:7",
+                            "name": "assignments of variables",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "20:912",
+                            "name": "probability of picking a blue row is",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "38:8",
+                            "name": "degree of",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "20:949",
+                            "name": "in every red row, dark area has probability",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "38:9",
+                            "name": "n",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "38:10",
+                            "name": "n + degree of",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "38:11",
+                            "name": "degree of P",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "36:43",
+                            "name": "what we wanted to prove \u27f6",
+                            "disabled": false
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "soundDict": {
+    "17:2": {
+      "0": {
+        "file": "0",
+        "duration": 1.104
+      }
+    },
+    "19:2": {
+      "0": {
+        "file": "0",
+        "duration": 1.896
+      },
+      "1": {
+        "file": "1",
+        "duration": 1.056
+      }
+    }
+  }
+}
