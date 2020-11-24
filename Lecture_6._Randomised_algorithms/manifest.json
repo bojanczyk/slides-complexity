@@ -14,7 +14,432 @@
     "17:320": "Schwartz-Zippel",
     "17:415": "Schwartz-Zippel_2"
   },
-  "soundDict": {},
+  "soundDict": {
+    "45:2": {
+      "8": {
+        "file": "8",
+        "duration": 24.936
+      },
+      "0": {
+        "file": "0",
+        "duration": 1.296
+      },
+      "1": {
+        "file": "1",
+        "duration": 1.704
+      },
+      "2": {
+        "file": "2",
+        "duration": 13.176
+      },
+      "3": {
+        "file": "3",
+        "duration": 35.496
+      },
+      "4": {
+        "file": "4",
+        "duration": 18.936
+      },
+      "5": {
+        "file": "5",
+        "duration": 23.256
+      },
+      "6": {
+        "file": "6",
+        "duration": 43.296
+      },
+      "7": {
+        "file": "7",
+        "duration": 16.176
+      },
+      "9": {
+        "file": "9",
+        "duration": 76.104
+      },
+      "10": {
+        "file": "10",
+        "duration": 8.976
+      },
+      "11": {
+        "file": "11",
+        "duration": 27.216
+      },
+      "12": {
+        "file": "12",
+        "duration": 41.616
+      }
+    },
+    "20:18": {
+      "5": {
+        "file": "5",
+        "duration": 25.944
+      },
+      "0": {
+        "file": "0",
+        "duration": 10.656
+      },
+      "1": {
+        "file": "1",
+        "duration": 85.704
+      },
+      "2": {
+        "file": "2",
+        "duration": 97.824
+      },
+      "3": {
+        "file": "3",
+        "duration": 42.144
+      },
+      "4": {
+        "file": "4",
+        "duration": 18.384
+      },
+      "6": {
+        "file": "6",
+        "duration": 14.784
+      }
+    },
+    "19:2": {
+      "3": {
+        "file": "3",
+        "duration": 19.296
+      },
+      "5": {
+        "file": "5",
+        "duration": 14.544
+      },
+      "0": {
+        "file": "0",
+        "duration": 4.056
+      },
+      "1": {
+        "file": "1",
+        "duration": 2.424
+      },
+      "2": {
+        "file": "2",
+        "duration": 11.256
+      },
+      "4": {
+        "file": "4",
+        "duration": 12.024
+      },
+      "6": {
+        "file": "6",
+        "duration": 38.784
+      },
+      "7": {
+        "file": "7",
+        "duration": 12.456
+      },
+      "8": {
+        "file": "8",
+        "duration": 7.056
+      },
+      "9": {
+        "file": "9",
+        "duration": 3.264
+      },
+      "10": {
+        "file": "10",
+        "duration": 11.736
+      },
+      "11": {
+        "file": "11",
+        "duration": 14.424
+      },
+      "12": {
+        "file": "12",
+        "duration": 17.016
+      },
+      "13": {
+        "file": "13",
+        "duration": 9.264
+      }
+    },
+    "17:2": {
+      "0": {
+        "file": "0",
+        "duration": 6.144
+      },
+      "1": {
+        "file": "1",
+        "duration": 1.224
+      },
+      "1": {
+        "file": "1",
+        "duration": 0.336
+      }
+    },
+    "19:15": {
+      "1": {
+        "file": "1",
+        "duration": 37.776
+      },
+      "2": {
+        "file": "2",
+        "duration": 6.696
+      },
+      "5": {
+        "file": "5",
+        "duration": 35.736
+      },
+      "0": {
+        "file": "0",
+        "duration": 3.216
+      },
+      "3": {
+        "file": "3",
+        "duration": 18.504
+      },
+      "4": {
+        "file": "4",
+        "duration": 13.344
+      },
+      "6": {
+        "file": "6",
+        "duration": 8.256
+      }
+    },
+    "45:33": {
+      "4": {
+        "file": "4",
+        "duration": 42.384
+      },
+      "0": {
+        "file": "0",
+        "duration": 1.656
+      },
+      "1": {
+        "file": "1",
+        "duration": 19.584
+      },
+      "2": {
+        "file": "2",
+        "duration": 25.776
+      },
+      "3": {
+        "file": "3",
+        "duration": 24.864
+      }
+    },
+    "19:25": {
+      "0": {
+        "file": "0",
+        "duration": 2.544
+      },
+      "1": {
+        "file": "1",
+        "duration": 30.504
+      },
+      "2": {
+        "file": "2",
+        "duration": 24.864
+      },
+      "3": {
+        "file": "3",
+        "duration": 45.576
+      },
+      "4": {
+        "file": "4",
+        "duration": 5.736
+      },
+      "5": {
+        "file": "5",
+        "duration": 12.216
+      },
+      "6": {
+        "file": "6",
+        "duration": 17.616
+      },
+      "7": {
+        "file": "7",
+        "duration": 68.496
+      },
+      "8": {
+        "file": "8",
+        "duration": 2.376
+      }
+    },
+    "20:329": {
+      "0": {
+        "file": "0",
+        "duration": 8.064
+      },
+      "1": {
+        "file": "1",
+        "duration": 9.696
+      },
+      "2": {
+        "file": "2",
+        "duration": 8.136
+      },
+      "3": {
+        "file": "3",
+        "duration": 7.296
+      },
+      "4": {
+        "file": "4",
+        "duration": 14.136
+      },
+      "5": {
+        "file": "5",
+        "duration": 63.096
+      }
+    },
+    "17:7": {
+      "0": {
+        "file": "0",
+        "duration": 2.976
+      },
+      "1": {
+        "file": "1",
+        "duration": 13.896
+      },
+      "2": {
+        "file": "2",
+        "duration": 43.896
+      },
+      "3": {
+        "file": "3",
+        "duration": 32.136
+      },
+      "4": {
+        "file": "4",
+        "duration": 32.664
+      },
+      "5": {
+        "file": "5",
+        "duration": 7.176
+      },
+      "6": {
+        "file": "6",
+        "duration": 9.816
+      },
+      "7": {
+        "file": "7",
+        "duration": 27.984
+      },
+      "8": {
+        "file": "8",
+        "duration": 100.056
+      },
+      "9": {
+        "file": "9",
+        "duration": 2.256
+      },
+      "10": {
+        "file": "10",
+        "duration": 13.536
+      }
+    },
+    "36:52": {
+      "0": {
+        "file": "0",
+        "duration": 4.056
+      },
+      "1": {
+        "file": "1",
+        "duration": 81.144
+      },
+      "2": {
+        "file": "2",
+        "duration": 39.744
+      }
+    },
+    "17:320": {
+      "0": {
+        "file": "0",
+        "duration": 1.176
+      },
+      "1": {
+        "file": "1",
+        "duration": 8.496
+      },
+      "2": {
+        "file": "2",
+        "duration": 9.696
+      },
+      "3": {
+        "file": "3",
+        "duration": 6.264
+      },
+      "4": {
+        "file": "4",
+        "duration": 21.504
+      },
+      "5": {
+        "file": "5",
+        "duration": 32.136
+      },
+      "6": {
+        "file": "6",
+        "duration": 11.736
+      },
+      "7": {
+        "file": "7",
+        "duration": 13.824
+      },
+      "8": {
+        "file": "8",
+        "duration": 29.064
+      },
+      "9": {
+        "file": "9",
+        "duration": 12.576
+      },
+      "10": {
+        "file": "10",
+        "duration": 22.416
+      }
+    },
+    "17:415": {
+      "0": {
+        "file": "0",
+        "duration": 2.016
+      },
+      "1": {
+        "file": "1",
+        "duration": 33.576
+      },
+      "2": {
+        "file": "2",
+        "duration": 15.864
+      },
+      "3": {
+        "file": "3",
+        "duration": 68.904
+      },
+      "4": {
+        "file": "4",
+        "duration": 13.704
+      },
+      "5": {
+        "file": "5",
+        "duration": 27.816
+      },
+      "6": {
+        "file": "6",
+        "duration": 66.696
+      },
+      "7": {
+        "file": "7",
+        "duration": 26.616
+      },
+      "8": {
+        "file": "8",
+        "duration": 28.656
+      },
+      "9": {
+        "file": "9",
+        "duration": 37.824
+      },
+      "10": {
+        "file": "10",
+        "duration": 2.256
+      }
+    }
+  },
   "tree": {
     "type": "child",
     "name": "First slide",
@@ -208,14 +633,14 @@
               },
               {
                 "type": "show",
-                "id": "45:28",
-                "name": "this is not true for Carmichael primes, which are composite numbers that are similar to primes",
+                "id": "45:30",
+                "name": "If Carmichael primes did not exist, the Fermat test would prove Composite \u2208 RP",
                 "disabled": false
               },
               {
                 "type": "show",
-                "id": "45:30",
-                "name": "If Carmichael primes did not exist, the Fermat test would prove Composite \u2208 RP",
+                "id": "45:28",
+                "name": "this is not true for Carmichael primes, which are composite numbers that are similar to primes",
                 "disabled": false
               },
               {
@@ -351,138 +776,199 @@
           },
           {
             "type": "child",
-            "name": "Polynomial identity testing algorithm",
-            "id": "36:52",
+            "name": "Polynomial identity testing",
+            "id": "17:7",
             "children": [
               {
                 "type": "show",
-                "id": "38:2",
-                "name": "The degree of the polynomial is at most and thus less than half the sample size (natural numbers with n bits).",
+                "id": "38:0",
+                "name": "We are given a program with uninitialised variables:",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "38:1",
+                "name": "This program represents a polynomial:",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "37:0",
+                "name": "Question Is this polynomial nonzero?",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "37:1",
+                "name": "Equivalently: given two programs, do they represent the same polynomial?",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "20:575",
+                "name": "Randomised algorithm",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "20:576",
+                "name": "If the program has n lines, do the following:",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "20:578",
+                "name": "Randomly choose for each variable a natural number with n bits. Evaluate the program.",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "20:577",
+                "name": "If the program describes a nonzero polynomial, then the answer will be nonzero with probability \u2265 50%.",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "36:97",
+                "name": "Evaluation can be done using the previously described randomised algorithm.",
                 "disabled": false
               },
               {
                 "type": "child",
-                "name": "Schwartz-Zippel",
-                "id": "17:320",
+                "name": "Polynomial identity testing algorithm",
+                "id": "36:52",
                 "children": [
                   {
                     "type": "show",
-                    "id": "38:4",
-                    "name": "Lemma. Consider a nonzero polynomial over the integers.",
-                    "disabled": false
-                  },
-                  {
-                    "type": "show",
-                    "id": "36:96",
-                    "name": "works for every ring",
-                    "disabled": false
-                  },
-                  {
-                    "type": "show",
-                    "id": "36:57",
-                    "name": "For every set S of integers,",
-                    "disabled": false
-                  },
-                  {
-                    "type": "show",
-                    "id": "38:3",
-                    "name": "Probability",
-                    "disabled": false
-                  },
-                  {
-                    "type": "show",
-                    "id": "37:23",
-                    "name": "Example.",
-                    "disabled": false
-                  },
-                  {
-                    "type": "show",
-                    "id": "36:93",
-                    "name": "useful when degree is smaller than sample size",
-                    "disabled": false
-                  },
-                  {
-                    "type": "show",
-                    "id": "17:411",
-                    "name": "Proof. Induction on the number of variables m",
-                    "disabled": false
-                  },
-                  {
-                    "type": "show",
-                    "id": "17:417",
-                    "name": "If m = 1, then we use the Bezout theorem, which says that a nonzero polynomial P(x) can have at most (degree of P) many zeros.",
-                    "disabled": false
-                  },
-                  {
-                    "type": "show",
-                    "id": "17:418",
-                    "name": "Having proved the lemma for m variables, we now prove it for m+1",
+                    "id": "38:2",
+                    "name": "The degree of the polynomial is at most and thus less than half the sample size (natural numbers with n bits).",
                     "disabled": false
                   },
                   {
                     "type": "child",
-                    "name": "Schwartz-Zippel 2",
-                    "id": "17:415",
+                    "name": "Schwartz-Zippel",
+                    "id": "17:320",
                     "children": [
                       {
                         "type": "show",
-                        "id": "38:5",
-                        "name": "Consider a nonzero polynomial with m+1 variables",
+                        "id": "38:4",
+                        "name": "Lemma. Consider a nonzero polynomial over the integers.",
                         "disabled": false
                       },
                       {
                         "type": "show",
-                        "id": "38:6",
-                        "name": "The i-th coefficient is a polynomial",
+                        "id": "36:96",
+                        "name": "works for every ring",
                         "disabled": false
                       },
                       {
                         "type": "show",
-                        "id": "38:7",
-                        "name": "assignments of variables",
+                        "id": "36:57",
+                        "name": "For every set S of integers,",
                         "disabled": false
                       },
                       {
                         "type": "show",
-                        "id": "20:912",
-                        "name": "probability of picking a blue row is",
+                        "id": "38:3",
+                        "name": "Probability",
                         "disabled": false
                       },
                       {
                         "type": "show",
-                        "id": "38:8",
-                        "name": "degree of",
+                        "id": "37:23",
+                        "name": "Example.",
                         "disabled": false
                       },
                       {
                         "type": "show",
-                        "id": "20:949",
-                        "name": "in every red row, dark area has probability",
+                        "id": "36:93",
+                        "name": "useful when degree is smaller than sample size",
                         "disabled": false
                       },
                       {
                         "type": "show",
-                        "id": "38:9",
-                        "name": "n",
+                        "id": "17:411",
+                        "name": "Proof. Induction on the number of variables m",
                         "disabled": false
                       },
                       {
                         "type": "show",
-                        "id": "38:10",
-                        "name": "n + degree of",
+                        "id": "17:417",
+                        "name": "If m = 1, then we use the Bezout theorem, which says that a nonzero polynomial P(x) can have at most (degree of P) many zeros.",
                         "disabled": false
                       },
                       {
                         "type": "show",
-                        "id": "38:11",
-                        "name": "degree of P",
+                        "id": "17:418",
+                        "name": "Having proved the lemma for m variables, we now prove it for m+1",
                         "disabled": false
                       },
                       {
-                        "type": "show",
-                        "id": "36:43",
-                        "name": "what we wanted to prove \u27f6",
-                        "disabled": false
+                        "type": "child",
+                        "name": "Schwartz-Zippel 2",
+                        "id": "17:415",
+                        "children": [
+                          {
+                            "type": "show",
+                            "id": "38:5",
+                            "name": "Consider a nonzero polynomial with m+1 variables",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "38:6",
+                            "name": "The i-th coefficient is a polynomial",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "38:7",
+                            "name": "assignments of variables",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "20:912",
+                            "name": "probability of picking a blue row is",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "38:8",
+                            "name": "degree of",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "20:949",
+                            "name": "in every red row, dark area has probability",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "38:9",
+                            "name": "n",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "38:10",
+                            "name": "n + degree of",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "38:11",
+                            "name": "degree of P",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "36:43",
+                            "name": "what we wanted to prove \u27f6",
+                            "disabled": false
+                          }
+                        ]
                       }
                     ]
                   }
