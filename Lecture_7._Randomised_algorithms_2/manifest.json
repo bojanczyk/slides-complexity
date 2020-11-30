@@ -1,0 +1,416 @@
+{
+  "presentation": "Lecture 7. Randomised algorithms 2",
+  "slideDict": {
+    "1:10": "First_slide",
+    "1:176": "Derandomisation",
+    "1:251": "exptected_size",
+    "1:245": "Two_ways_of_derandomising",
+    "3:0": "Tree_of_tosses",
+    "3:76": "Pairwise_independent",
+    "9:0": "Adleman_1",
+    "10:34": "Adleman_2",
+    "10:62": "Adleman_3",
+    "10:187": "Adleman_4"
+  },
+  "soundDict": {},
+  "tree": {
+    "type": "child",
+    "name": "First slide",
+    "id": "1:10",
+    "children": [
+      {
+        "type": "child",
+        "name": "Derandomisation",
+        "id": "1:176",
+        "children": [
+          {
+            "type": "show",
+            "id": "6:4",
+            "name": "Given a graph, find a cut of maximal size?",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "1:179",
+            "name": "The following problem is NP-complete: given a graph and k, decide is there a cut of size \u2265 k.",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "6:5",
+            "name": "Randomised approximation algorithm",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "1:241",
+            "name": "Choose the partition randomly For each vertex, independently flip a coin to decide which part of the partition contains it.",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "1:242",
+            "name": "With probability 1/2, an edge is counted to the size of the cut. Hence, the expected value of \u201csize of the cut\u201d is 1/2 over the number of edges.",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "exptected size",
+            "id": "1:251",
+            "children": [
+              {
+                "type": "show",
+                "id": "6:6",
+                "name": "What is the probability of getting a cut of size \u2265 m?",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "6:7",
+                "name": "expected size",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "2:1694",
+                "name": "\\frac {|E|} 2 \\quad \\le \\quad  (m-1) \\cdot (1 - \\text{probability}[\\text{cut has size\n  $\\ge m$}]) + \n|E| \\cdot \\text{probability}[\\text{cut has size  $ \\ge m$}] \n",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "2:1768",
+                "name": "\\frac {|E|} 2 \\quad \\le \\quad  (m-1) + (|E| - m +1) \\cdot \\text{probability}[\\text{cut has size  $ \\ge m$}] \n",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "2:1818",
+                "name": "\\frac { \\frac{|E|} 2 - m +1 }\n{|E| - m +1} \\quad \\le \\quad   \\text{probability}[\\text{cut has size  $ \\ge m$}] \n",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "6:23",
+                "name": "For m = half the edges, we get:",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "6:24",
+                "name": "if we try m times, we get probability > \u00bd , because",
+                "disabled": false
+              }
+            ]
+          },
+          {
+            "type": "child",
+            "name": "Two ways of derandomising",
+            "id": "1:245",
+            "children": [
+              {
+                "type": "show",
+                "id": "1:247",
+                "name": "We derandomise this algorithm, getting a deterministic polynomial time algorithm, which always produces a partition that cuts \u2265 half the edges.",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "6:0",
+                "name": "Result: a deterministic, polynomial time, approximation algorithm for max-cut, with approximation factor 2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "6:2",
+                "name": "Method 1. Conditional expectation",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "6:3",
+                "name": "Method 2. Pairwise independent variables",
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "Tree of tosses",
+                "id": "3:0",
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "6:25",
+                    "name": "\u03b5",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "3:60",
+                    "name": "What is the expected value for the cut size, in a vertex of this tree?",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "3:61",
+                    "name": "Probability ranges over coins that have not been tossed yet",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "6:29",
+                    "name": "Group 7",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "6:28",
+                    "name": "A. edge that will surely be cut",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "6:27",
+                    "name": "B. edge that will surely not be cut",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "6:26",
+                    "name": "C. edge that may or may not be cut",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "3:74",
+                    "name": "number of edges of type A + half of number of edges of type C",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "3:73",
+                    "name": "Algorithm: start in the root, and each time move to a child with best expected value.",
+                    "disabled": false
+                  }
+                ]
+              },
+              {
+                "type": "child",
+                "name": "Pairwise independent",
+                "id": "3:76",
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "5:0",
+                    "name": "The expected value of half the edges was because for every edge e:",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "5:2",
+                    "name": "Probability [exactly one endpoint of e is chosen] = \u00bd",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "5:3",
+                    "name": "Hence, each edge corresponds \u00bd to the expected cut size.",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "5:4",
+                    "name": "E(X+Y) = EX + EY",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "5:5",
+                    "name": "even when X and Y are not independent",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "6:31",
+                    "name": "Randomised algorithm that uses log n bits",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "5:23",
+                    "name": "and hence can be derandomised using brute force",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "5:7",
+                    "name": "Represent each vertex v as a sequence of log n bits.",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "5:8",
+                    "name": "Toss a coin log n times, giving another bit sequence r.",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "6:32",
+                    "name": "The cut is chosen as follows:",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "5:14",
+                    "name": "For every 2 different vertices, the two corresponding events are independent.",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "6:30",
+                    "name": "0",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "5:15",
+                    "name": "(but not for 3 vertices)",
+                    "disabled": false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "child",
+        "name": "Adleman 1",
+        "id": "9:0",
+        "children": [
+          {
+            "type": "show",
+            "id": "10:191",
+            "name": "Theorem. Adleman 1978 BPP \u2286 P/poly",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "9:5",
+            "name": "P/poly = a polynomial time algorithm, which is allowed an advice string for every input length.",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "10:181",
+            "name": "In a BPP algorithm, we can make the probability of error exponentially small, while preserving polynomial running time (and coin tosses).",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "10:182",
+            "name": "For small enough error probability, there will be a sequence of coin tosses which gives a right answer of all inputs of length n.",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "10:185",
+            "name": "advice string",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "Adleman 2",
+            "id": "10:34",
+            "children": [
+              {
+                "type": "show",
+                "id": "10:186",
+                "name": "For input of length n, run the original algorithm m times and take a majority vote.",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "10:192",
+                "name": "all such sequences of coin tosses",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "10:195",
+                "name": "all such sequences of coin tosses",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "10:193",
+                "name": "coin tosses that lead to a wrong answer when the input is w",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "10:194",
+                "name": "coin tosses that lead to a wrong answer when the input is v",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "10:60",
+                "name": "and therefore the sum of balls cannot cover the whole space.",
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "Adleman 3",
+                "id": "10:62",
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "10:178",
+                    "name": "When discussing amplification of error for BPP, we showed that if the algorithm makes an error with probability p < 0.5, then running it m times and taking a majority vote gives an error with probability",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "10:179",
+                    "name": "If we choose",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "10:180",
+                    "name": "Then the error probability drops to <",
+                    "disabled": false
+                  }
+                ]
+              },
+              {
+                "type": "show",
+                "id": "10:61",
+                "name": "Conclusion. There is a constant c such for every n, there exists a sequence of cn coin tosses which gives a correct answer for all inputs of length n, under the algorithm \u201crun the orignal algorithm cn times, and take a majority vote\u201d.",
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "Adleman 4",
+                "id": "10:187",
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "10:189",
+                    "name": "For inputs of length, the advice string is this sequence of coin tosses.",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "10:190",
+                    "name": "Using this advice string instead of coin tosses, we are guaranteed to get a correct answer for all inputs of length n.",
+                    "disabled": false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

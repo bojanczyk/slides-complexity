@@ -12,7 +12,13 @@
     "17:7": "Polynomial_identity_testing",
     "36:52": "Polynomial_identity_testing_algorithm",
     "17:320": "Schwartz-Zippel",
-    "17:415": "Schwartz-Zippel_2"
+    "17:415": "Schwartz-Zippel_2",
+    "110:1": "Perfect_matchings",
+    "112:7": "Determinant",
+    "112:143": "Determinant_random",
+    "99:0": "PP",
+    "115:0": "BPP",
+    "124:0": "Chernoff-like"
   },
   "soundDict": {
     "45:2": {
@@ -154,7 +160,15 @@
       },
       "13": {
         "file": "13",
-        "duration": 9.264
+        "duration": 6.384
+      },
+      "14": {
+        "file": "14",
+        "duration": 2.856
+      },
+      "15": {
+        "file": "15",
+        "duration": 8.064
       }
     },
     "17:2": {
@@ -164,11 +178,39 @@
       },
       "1": {
         "file": "1",
-        "duration": 1.224
+        "duration": 2.064
       },
-      "1": {
-        "file": "1",
-        "duration": 0.336
+      "2": {
+        "file": "2",
+        "duration": 17.496
+      },
+      "3": {
+        "file": "3",
+        "duration": 38.064
+      },
+      "4": {
+        "file": "4",
+        "duration": 25.056
+      },
+      "5": {
+        "file": "5",
+        "duration": 1.824
+      },
+      "6": {
+        "file": "6",
+        "duration": 48.936
+      },
+      "7": {
+        "file": "7",
+        "duration": 13.536
+      },
+      "8": {
+        "file": "8",
+        "duration": 35.904
+      },
+      "9": {
+        "file": "9",
+        "duration": 38.544
       }
     },
     "19:15": {
@@ -437,6 +479,230 @@
       "10": {
         "file": "10",
         "duration": 2.256
+      }
+    },
+    "110:1": {
+      "0": {
+        "file": "0",
+        "duration": 1.536
+      },
+      "1": {
+        "file": "1",
+        "duration": 15.744
+      },
+      "2": {
+        "file": "2",
+        "duration": 27.504
+      },
+      "3": {
+        "file": "3",
+        "duration": 7.944
+      },
+      "4": {
+        "file": "4",
+        "duration": 12.696
+      },
+      "5": {
+        "file": "5",
+        "duration": 16.176
+      },
+      "6": {
+        "file": "6",
+        "duration": 53.184
+      },
+      "7": {
+        "file": "7",
+        "duration": 71.136
+      },
+      "8": {
+        "file": "8",
+        "duration": 0.744
+      },
+      "9": {
+        "file": "9",
+        "duration": 0.384
+      }
+    },
+    "112:7": {
+      "0": {
+        "file": "0",
+        "duration": 2.136
+      },
+      "1": {
+        "file": "1",
+        "duration": 107.616
+      },
+      "2": {
+        "file": "2",
+        "duration": 12.384
+      },
+      "3": {
+        "file": "3",
+        "duration": 6.264
+      },
+      "4": {
+        "file": "4",
+        "duration": 37.656
+      },
+      "5": {
+        "file": "5",
+        "duration": 22.056
+      },
+      "6": {
+        "file": "6",
+        "duration": 0.336
+      }
+    },
+    "112:143": {
+      "0": {
+        "file": "0",
+        "duration": 5.064
+      },
+      "1": {
+        "file": "1",
+        "duration": 20.304
+      },
+      "2": {
+        "file": "2",
+        "duration": 34.176
+      },
+      "3": {
+        "file": "3",
+        "duration": 171.504
+      },
+      "4": {
+        "file": "4",
+        "duration": 2.664
+      }
+    },
+    "99:0": {
+      "0": {
+        "file": "0",
+        "duration": 1.704
+      },
+      "1": {
+        "file": "1",
+        "duration": 3.144
+      },
+      "2": {
+        "file": "2",
+        "duration": 3.816
+      },
+      "3": {
+        "file": "3",
+        "duration": 0.504
+      },
+      "4": {
+        "file": "4",
+        "duration": 0.456
+      },
+      "5": {
+        "file": "5",
+        "duration": 33.624
+      },
+      "6": {
+        "file": "6",
+        "duration": 30.984
+      },
+      "7": {
+        "file": "7",
+        "duration": 17.904
+      },
+      "8": {
+        "file": "8",
+        "duration": 23.976
+      },
+      "9": {
+        "file": "9",
+        "duration": 4.296
+      },
+      "10": {
+        "file": "10",
+        "duration": 9.384
+      },
+      "11": {
+        "file": "11",
+        "duration": 17.544
+      },
+      "12": {
+        "file": "12",
+        "duration": 70.416
+      }
+    },
+    "115:0": {
+      "0": {
+        "file": "0",
+        "duration": 8.376
+      },
+      "1": {
+        "file": "1",
+        "duration": 24.576
+      },
+      "2": {
+        "file": "2",
+        "duration": 67.416
+      },
+      "3": {
+        "file": "3",
+        "duration": 53.616
+      },
+      "4": {
+        "file": "4",
+        "duration": 13.056
+      },
+      "5": {
+        "file": "5",
+        "duration": 26.784
+      },
+      "6": {
+        "file": "6",
+        "duration": 26.256
+      },
+      "7": {
+        "file": "7",
+        "duration": 15.744
+      }
+    },
+    "124:0": {
+      "0": {
+        "file": "0",
+        "duration": 1.416
+      },
+      "1": {
+        "file": "1",
+        "duration": 8.376
+      },
+      "2": {
+        "file": "2",
+        "duration": 9.624
+      },
+      "3": {
+        "file": "3",
+        "duration": 25.056
+      },
+      "4": {
+        "file": "4",
+        "duration": 1.536
+      },
+      "5": {
+        "file": "5",
+        "duration": 73.824
+      },
+      "6": {
+        "file": "6",
+        "duration": 42.696
+      },
+      "7": {
+        "file": "7",
+        "duration": 32.976
+      },
+      "8": {
+        "file": "8",
+        "duration": 46.464
+      },
+      "9": {
+        "file": "9",
+        "duration": 69.384
       }
     }
   },
@@ -975,8 +1241,356 @@
                 ]
               }
             ]
+          },
+          {
+            "type": "show",
+            "id": "110:0",
+            "name": "Perfect matching",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "Perfect matchings",
+            "id": "110:1",
+            "children": [
+              {
+                "type": "show",
+                "id": "112:170",
+                "name": "Consider a bipartite graph.",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "112:168",
+                "name": "a perfect matching is a subset M of the edges, such that every vertex is incident to exactly one edge in M",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "110:3",
+                "name": "Problem. Does an unidrected graph have a perfect matching?",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "110:36",
+                "name": "This problem is in P, but we show an RP algorithm.",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "110:38",
+                "name": "Consider the incidence matrix of a graph, with edges replaced by variables.",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "112:171",
+                "name": "x11",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "112:5",
+                "name": "Vector 15",
+                "disabled": false
+              },
+              {
+                "type": "hide",
+                "id": "112:5",
+                "name": "Vector 15",
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "Determinant",
+                "id": "112:7",
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "112:173",
+                    "name": "The determinant of this matrix is",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "112:174",
+                    "name": "each \u03c0 is a candidate for a perfect matching",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "112:175",
+                    "name": "the candidate is actually a matching if this product is nonzero",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "112:141",
+                    "name": "Corollary. The graph has a perfect matching if and only if the determinant, viewed as a polynomial (with at most n2 variables), is nonzero.",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "112:149",
+                    "name": "This polynomial can be described by a program as in polynomial identity testing, but we use another way.",
+                    "disabled": false
+                  },
+                  {
+                    "type": "child",
+                    "name": "Determinant random",
+                    "id": "112:143",
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "112:145",
+                        "name": "We can check if this polynomial is nonzero by using a random valuation.",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "112:146",
+                        "name": "Since the polynomial has degree n, choosing independently at random number in {1,..,2n} for each variable will give us a nonzero value with probability \u2265 1/2.",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "112:147",
+                        "name": "Once the values for the variables have been chosen, the value of the polynomial is the same as the determinant of some matrix.",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "112:148",
+                        "name": "The determinant can be computed in polynomial time.",
+                        "disabled": false
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ]
+      },
+      {
+        "type": "show",
+        "id": "115:2",
+        "name": "w \u2208 L: prob > \u00bd w \u2209 L: prob = 0",
+        "disabled": false
+      },
+      {
+        "type": "show",
+        "id": "115:3",
+        "name": "w \u2208 L: prob > \u00bd w \u2209 L: prob \u2264 \u00bd",
+        "disabled": false
+      },
+      {
+        "type": "child",
+        "name": "PP",
+        "id": "99:0",
+        "children": [
+          {
+            "type": "show",
+            "id": "99:3",
+            "name": "Randomised polynomial time (RP)",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "99:4",
+            "name": "Def. L \u2208 RP if there is a Turing machine, with access to coin flips, such that:",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "99:5",
+            "name": "1. regardless of the coin flips, it runs in polynomial time",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "99:6",
+            "name": "2. for inputs w \u2209 L the machine always rejects, regardless of the coin flips",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "99:7",
+            "name": "3. for inputs w \u2208 L the machine accepts with probability >1/2.",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "124:327",
+            "name": "the problem is that there this can be exponentially close to 1/2",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "99:8",
+            "name": "Example. Here is a PP algorithm that solves Sat (and hence proves NP \u2286 PP).",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "99:10",
+            "name": "Given a Boolean formula with n variables do the following experiment.",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "99:11",
+            "name": "Toss a coin.",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "99:12",
+            "name": "If \u201chead\u201d, then accept.",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "99:13",
+            "name": "Otherwise, randomly select a valuation, and accept if it is satisfying.",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "99:14",
+            "name": "If the formula is unsatisfiable, probability of success is 1/2, otherwise it is > 1/2.",
+            "disabled": false
+          }
+        ]
+      },
+      {
+        "type": "show",
+        "id": "114:8",
+        "name": "contains NP",
+        "disabled": false
+      },
+      {
+        "type": "show",
+        "id": "115:6",
+        "name": "w \u2208 L: prob > \u00bd w \u2209 L: prob \u2264 \u00bc",
+        "disabled": false
+      },
+      {
+        "type": "show",
+        "id": "115:7",
+        "name": "\u2286",
+        "disabled": false
+      },
+      {
+        "type": "child",
+        "name": "BPP",
+        "id": "115:0",
+        "children": [
+          {
+            "type": "show",
+            "id": "124:318",
+            "name": "w \u2208 L: accepts with prob > 0.5 w \u2209 L: accepts with prob \u2264 0.3",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "124:319",
+            "name": "w \u2208 L: accepts with prob > 0.1 + 0.9*0.5 = 0.55 w \u2209 L: accepts with prob \u2264 0.1 + 0.9*0.3 = 0.27",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "124:320",
+            "name": "w \u2208 L: accepts with prob > 0.99 w \u2209 L: accepts with prob \u2264 0.01",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "Chernoff-like",
+            "id": "124:0",
+            "children": [
+              {
+                "type": "show",
+                "id": "124:2",
+                "name": "Run many times an experiment, which succeeds with probability 0.6",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "124:300",
+                "name": "or some other p > 0.5",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "124:3",
+                "name": "What is the probability of the majority not being \u201csuccess\u201d?",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "124:312",
+                "name": "Answer: exponentially small.",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "124:321",
+                "name": "probability of getting exactly i success in 2n tries",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "124:323",
+                "name": "some subsets of {1,..., 2n}",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "124:324",
+                "name": "\u2265",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "124:325",
+                "name": "\u2265",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "124:326",
+                "name": "If, instead of 0.6 we had some other probability p > 0.5, then instead of 0.96 we would have 4p(1-p)",
+                "disabled": false
+              }
+            ]
+          },
+          {
+            "type": "show",
+            "id": "115:12",
+            "name": "the argument works for any numbers p > q",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "115:13",
+            "name": "these numbers could even depend on the input size n, as long as they differ by 1/n.",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "115:15",
+            "name": "or some other polynomial",
+            "disabled": false
+          }
+        ]
+      },
+      {
+        "type": "show",
+        "id": "115:5",
+        "name": "could be equal to P",
+        "disabled": false
       }
     ]
   }
