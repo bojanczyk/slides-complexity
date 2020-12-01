@@ -1,0 +1,428 @@
+{
+  "presentation": "Lecture 8. Fine grained complexity",
+  "slideDict": {
+    "1:2": "First_slide",
+    "1:8": "OVC",
+    "5:3": "SETH_implies_OVC",
+    "7:26": "SETH_implies_OVC_part_2",
+    "7:399": "SETH",
+    "16:93": "Real_SETH",
+    "16:146": "NFA_evaluation",
+    "16:165": "Proof_for_NFA",
+    "16:200": "String_for_list_of__vectors",
+    "16:202": "Automaton_for_list_of_vectors"
+  },
+  "soundDict": {},
+  "tree": {
+    "type": "child",
+    "name": "First slide",
+    "id": "1:2",
+    "children": [
+      {
+        "type": "show",
+        "id": "17:9",
+        "name": "Can we prove that some problem needs quadratic time? the model is not Turing machines",
+        "disabled": false
+      },
+      {
+        "type": "show",
+        "id": "17:10",
+        "name": "Subject to some conjectures, yes.",
+        "disabled": false
+      },
+      {
+        "type": "show",
+        "id": "16:144",
+        "name": "The naive quadratic algorithm for NFA evaluation is optimal",
+        "disabled": false
+      },
+      {
+        "type": "show",
+        "id": "16:131",
+        "name": "The naive exponential algorithm for satisfiability is optimal",
+        "disabled": false
+      },
+      {
+        "type": "show",
+        "id": "1:7",
+        "name": "The naive quadratic algorithm for orthogonal vectors is optimal",
+        "disabled": false
+      },
+      {
+        "type": "show",
+        "id": "17:11",
+        "name": "\u27f9",
+        "disabled": false
+      },
+      {
+        "type": "child",
+        "name": "OVC",
+        "id": "1:8",
+        "children": [
+          {
+            "type": "show",
+            "id": "17:12",
+            "name": "Input. A list of n bit vectors of dimension d.",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "17:13",
+            "name": "1",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "17:14",
+            "name": "vectors are orthogonal if for every coordinate, at least one of the vectors has 0",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "17:15",
+            "name": "The naive algorithm is: check each vector pair for orthogonality.",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "17:16",
+            "name": "Or maybe: each vector, compare it to the set of vectors seen.",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "3:1",
+            "name": "Orthogonal vectors conjecture: There is no algorithm that works in time",
+            "disabled": false
+          }
+        ]
+      },
+      {
+        "type": "child",
+        "name": "SETH",
+        "id": "7:399",
+        "children": [
+          {
+            "type": "show",
+            "id": "17:17",
+            "name": "Can we solve satisfiability faster than ?",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "7:402",
+            "name": "(x1 \u2228 \u00acx2 \u2228 x3) \u2227 ( \u00acx3 \u2228 \u00acx4 \u2228 x5) \u2227 (\u00acx1 \u2228 \u00acx4 \u2228 x6) \u2227 (x2 \u2228 x3 \u2228 \u00acx6)",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "16:116",
+            "name": "we care mainly about instances in CNF (conjunctive normal form)",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "17:18",
+            "name": "Exponential Time Hypothesis There is some 0 < \u03bb \u2264 1 such that SAT cannot be solved faster than",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "16:117",
+            "name": "Running time is quadratically slower than time",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "17:19",
+            "name": "Strong Exponential Time Hypothesis",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "Real SETH",
+            "id": "16:93",
+            "children": [
+              {
+                "type": "show",
+                "id": "17:20",
+                "name": "This Lecture\u2019s Strong Exponential Time Hypothesis",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "17:21",
+                "name": "Genuine Strong Exponential Time Hypothesis",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "16:105",
+                "name": "\u27f9",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "16:112",
+                "name": "We will prove This Lecture\u2019s SETH implies something, and the same will hold for Genuine SETH.",
+                "disabled": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "child",
+        "name": "SETH implies OVC",
+        "id": "5:3",
+        "children": [
+          {
+            "type": "show",
+            "id": "17:22",
+            "name": "Consider an instance of CNF-SAT, with n variables.",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "SETH implies OVC part 2",
+            "id": "7:26",
+            "children": [
+              {
+                "type": "show",
+                "id": "5:33",
+                "name": "(x1 \u2228 \u00acx2 \u2228 x3) \u2227 ( \u00acx3 \u2228 \u00acx4 \u2228 x5) \u2227 (\u00acx1 \u2228 \u00acx4 \u2228 x6) \u2227 (x2 \u2228 x3 \u2228 \u00acx6)",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "17:27",
+                "name": "Partition variables into two halves:",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "17:31",
+                "name": "x1 = true x2 = false x3 = false",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "17:32",
+                "name": "x4 = false x5 = true x6 = false",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "17:33",
+                "name": "0",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "7:36",
+                "name": "The formula is true under the combined valuation iff The two vectors are orthogonal (true = 0 and false = 1)",
+                "disabled": false
+              }
+            ]
+          },
+          {
+            "type": "show",
+            "id": "5:9",
+            "name": "We have created an equivalent instance of orthognal vectors with:",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "17:23",
+            "name": "Dimension",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "17:24",
+            "name": "Number of vectors",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "7:361",
+            "name": "= 2 \\sqrt {2^n}",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "17:25",
+            "name": "If the Orthogonal Vectors Conjecture would be false, then we could solve this instance in time:",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "17:26",
+            "name": "which is faster than",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "7:369",
+            "name": "and thus the Strong Exponential Time Hypothesis would fail.",
+            "disabled": false
+          }
+        ]
+      },
+      {
+        "type": "child",
+        "name": "NFA evaluation",
+        "id": "16:146",
+        "children": [
+          {
+            "type": "show",
+            "id": "16:149",
+            "name": "Input. A nondeterministic finite automaton (NFA) and an input word. Question. Does the automaton accept the word?",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "16:150",
+            "name": "Naive algorithm: compute states reachable from initial one",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "16:326",
+            "name": "c",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "16:325",
+            "name": "Ellipse 3",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "16:344",
+            "name": "Group 14",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "16:345",
+            "name": "Group 15",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "16:346",
+            "name": "Group 16",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "16:347",
+            "name": "Group 17",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "16:348",
+            "name": "Group 18",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "16:349",
+            "name": "Group 19",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "17:35",
+            "name": "Running time: (size of NFA) \u00d7 (length of input word)",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "17:34",
+            "name": "Theorem. Suppose that we could evaluate automata in time",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "16:164",
+            "name": "Then there would be a subquadratic algortihm for orthogonal vectors, thus violating OVC.",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "Proof for NFA",
+            "id": "16:165",
+            "children": [
+              {
+                "type": "show",
+                "id": "17:37",
+                "name": "Proof. A set of vectors V contains some orthogonal pair iff",
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "String for list of  vectors",
+                "id": "16:200",
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "17:41",
+                    "name": "We represent a list of vectors as a string",
+                    "disabled": false
+                  }
+                ]
+              },
+              {
+                "type": "child",
+                "name": "Automaton for list of vectors",
+                "id": "16:202",
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "17:42",
+                    "name": "For every vector v, we write an automaton that recognises the language: \u201clists of vectors that contain at least one vector orthogonal to v\u201d",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "16:404",
+                    "name": "The automaton for a set of vectors V is the disjoint sum (language union) of the corresponding automata",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "16:405",
+                    "name": "\u201clists of vectors that contain at least one vector orthogonal to some v \u2208 V\u201d",
+                    "disabled": false
+                  }
+                ]
+              },
+              {
+                "type": "show",
+                "id": "17:38",
+                "name": "both of these have size: (number of vectors) \u00d7 dimension",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "17:39",
+                "name": "If the assumption of the theorem were true, then we could check if V contains an orthogonal pair in time",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "17:40",
+                "name": "=",
+                "disabled": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
