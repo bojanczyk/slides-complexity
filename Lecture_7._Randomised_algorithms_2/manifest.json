@@ -10,7 +10,10 @@
     "9:0": "Adleman_1",
     "10:34": "Adleman_2",
     "10:62": "Adleman_3",
-    "10:187": "Adleman_4"
+    "10:187": "Adleman_4",
+    "17:0": "BPP_3D_P",
+    "17:5": "Pseudorandom_generator",
+    "17:29": "Apply_pseudo-random"
   },
   "soundDict": {},
   "tree": {
@@ -18,6 +21,301 @@
     "name": "First slide",
     "id": "1:10",
     "children": [
+      {
+        "type": "show",
+        "id": "17:58",
+        "name": "BPP \u228a P/Poly",
+        "disabled": false
+      },
+      {
+        "type": "show",
+        "id": "17:59",
+        "name": "If pseudo-random generators exist, then BPP = P",
+        "disabled": false
+      },
+      {
+        "type": "show",
+        "id": "17:60",
+        "name": "Derandomisation techniques",
+        "disabled": false
+      },
+      {
+        "type": "child",
+        "name": "Adleman 1",
+        "id": "9:0",
+        "children": [
+          {
+            "type": "show",
+            "id": "10:191",
+            "name": "Theorem. Adleman 1978 BPP \u2286 P/poly",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "9:5",
+            "name": "P/poly = a polynomial time algorithm, which is allowed an advice string for every input length.",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "10:181",
+            "name": "In a BPP algorithm, we can make the probability of error exponentially small, while preserving polynomial running time (and coin tosses).",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "10:182",
+            "name": "For small enough error probability, there will be a sequence of coin tosses which gives a right answer of all inputs of length n.",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "10:185",
+            "name": "advice string",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "Adleman 2",
+            "id": "10:34",
+            "children": [
+              {
+                "type": "show",
+                "id": "10:186",
+                "name": "For input of length n, run the original algorithm m times and take a majority vote.",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "10:192",
+                "name": "all such sequences of coin tosses",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "10:195",
+                "name": "all such sequences of coin tosses",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "10:193",
+                "name": "coin tosses that lead to a wrong answer when the input is w",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "10:194",
+                "name": "coin tosses that lead to a wrong answer when the input is v",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "10:60",
+                "name": "and therefore the sum of balls cannot cover the whole space.",
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "Adleman 3",
+                "id": "10:62",
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "10:178",
+                    "name": "When discussing amplification of error for BPP, we showed that if the algorithm makes an error with probability p < 0.5, then running it m times and taking a majority vote gives an error with probability",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "10:179",
+                    "name": "If we choose",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "10:180",
+                    "name": "Then the error probability drops to <",
+                    "disabled": false
+                  }
+                ]
+              },
+              {
+                "type": "show",
+                "id": "10:61",
+                "name": "Conclusion. There is a constant c such for every n, there exists a sequence of cn coin tosses which gives a correct answer for all inputs of length n, under the algorithm \u201crun the orignal algorithm cn times, and take a majority vote\u201d.",
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "Adleman 4",
+                "id": "10:187",
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "10:189",
+                    "name": "For inputs of length, the advice string is this sequence of coin tosses.",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "10:190",
+                    "name": "Using this advice string instead of coin tosses, we are guaranteed to get a correct answer for all inputs of length n.",
+                    "disabled": false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "child",
+        "name": "BPP = P",
+        "id": "17:0",
+        "children": [
+          {
+            "type": "show",
+            "id": "17:4",
+            "name": "Theorem. If a pseudo-random generator G exists, then BPP = P.",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "Pseudorandom generator",
+            "id": "17:5",
+            "children": [
+              {
+                "type": "show",
+                "id": "17:51",
+                "name": "Pseudo-random generator",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "17:7",
+                "name": "Suppose that there is a function G which:",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "17:8",
+                "name": "inputs: a number n and a seed of log(n) bits",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "17:9",
+                "name": "outputs: n bits",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "17:10",
+                "name": "with the following properties",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "17:11",
+                "name": "1. the running time is polynomial in n",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "17:12",
+                "name": "2. if n is large enough, and D is a circuit of size n3, then following probabilities differ by < 0.1:",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "17:53",
+                "name": "Probability[D accepts G(s)]",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "17:54",
+                "name": "Probability[D accepts r]",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "17:52",
+                "name": "this polynomial could be > n3",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "17:50",
+                "name": "The same results would be obtained with: - n100 instead of n3, and - 0.4999 instead of 0.1.",
+                "disabled": false
+              }
+            ]
+          },
+          {
+            "type": "show",
+            "id": "17:22",
+            "name": "Proof. Consider a language L \u2208 BPP, as witnessed by a machine M such that: - the running time is a polynomial p(n) - inputs w \u2208 L accepted with probability > 0.7 - inputs w \u2209 L are accepted with probability < 0.3",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "17:39",
+            "name": "Polynomial time algorithm for L: Given an input w of length n, enumerate through all seeds s of length log(p(n)), and check which ones satisfy",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "17:42",
+            "name": "Claim. For large enough n: - if w \u2208 L, then > 0.6 of seeds will satisfy (*) - if w \u2209 L, then < 0.4 of seeds will satisfy (*)",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "17:41",
+            "name": "(*) M accepts w using random bits G(s)",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "Apply pseudo-random",
+            "id": "17:29",
+            "children": [
+              {
+                "type": "show",
+                "id": "17:56",
+                "name": "For an input word w of length n, consider the following function D:",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "17:27",
+                "name": "This function is computed by a circuit of size quadratic in p(n)",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "17:57",
+                "name": "By assumption on G, if n is large enough, then following differ by < 0.1",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "17:44",
+                "name": "> 0.7 for w \u2208 L < 0.3 for w \u2209 L",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "17:45",
+                "name": "> 0.6 for w \u2208 L < 0.4 for w \u2209 L",
+                "disabled": false
+              }
+            ]
+          }
+        ]
+      },
       {
         "type": "child",
         "name": "Derandomisation",
@@ -273,136 +571,6 @@
                     "type": "show",
                     "id": "5:15",
                     "name": "(but not for 3 vertices)",
-                    "disabled": false
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "type": "child",
-        "name": "Adleman 1",
-        "id": "9:0",
-        "children": [
-          {
-            "type": "show",
-            "id": "10:191",
-            "name": "Theorem. Adleman 1978 BPP \u2286 P/poly",
-            "disabled": false
-          },
-          {
-            "type": "show",
-            "id": "9:5",
-            "name": "P/poly = a polynomial time algorithm, which is allowed an advice string for every input length.",
-            "disabled": false
-          },
-          {
-            "type": "show",
-            "id": "10:181",
-            "name": "In a BPP algorithm, we can make the probability of error exponentially small, while preserving polynomial running time (and coin tosses).",
-            "disabled": false
-          },
-          {
-            "type": "show",
-            "id": "10:182",
-            "name": "For small enough error probability, there will be a sequence of coin tosses which gives a right answer of all inputs of length n.",
-            "disabled": false
-          },
-          {
-            "type": "show",
-            "id": "10:185",
-            "name": "advice string",
-            "disabled": false
-          },
-          {
-            "type": "child",
-            "name": "Adleman 2",
-            "id": "10:34",
-            "children": [
-              {
-                "type": "show",
-                "id": "10:186",
-                "name": "For input of length n, run the original algorithm m times and take a majority vote.",
-                "disabled": false
-              },
-              {
-                "type": "show",
-                "id": "10:192",
-                "name": "all such sequences of coin tosses",
-                "disabled": false
-              },
-              {
-                "type": "show",
-                "id": "10:195",
-                "name": "all such sequences of coin tosses",
-                "disabled": false
-              },
-              {
-                "type": "show",
-                "id": "10:193",
-                "name": "coin tosses that lead to a wrong answer when the input is w",
-                "disabled": false
-              },
-              {
-                "type": "show",
-                "id": "10:194",
-                "name": "coin tosses that lead to a wrong answer when the input is v",
-                "disabled": false
-              },
-              {
-                "type": "show",
-                "id": "10:60",
-                "name": "and therefore the sum of balls cannot cover the whole space.",
-                "disabled": false
-              },
-              {
-                "type": "child",
-                "name": "Adleman 3",
-                "id": "10:62",
-                "children": [
-                  {
-                    "type": "show",
-                    "id": "10:178",
-                    "name": "When discussing amplification of error for BPP, we showed that if the algorithm makes an error with probability p < 0.5, then running it m times and taking a majority vote gives an error with probability",
-                    "disabled": false
-                  },
-                  {
-                    "type": "show",
-                    "id": "10:179",
-                    "name": "If we choose",
-                    "disabled": false
-                  },
-                  {
-                    "type": "show",
-                    "id": "10:180",
-                    "name": "Then the error probability drops to <",
-                    "disabled": false
-                  }
-                ]
-              },
-              {
-                "type": "show",
-                "id": "10:61",
-                "name": "Conclusion. There is a constant c such for every n, there exists a sequence of cn coin tosses which gives a correct answer for all inputs of length n, under the algorithm \u201crun the orignal algorithm cn times, and take a majority vote\u201d.",
-                "disabled": false
-              },
-              {
-                "type": "child",
-                "name": "Adleman 4",
-                "id": "10:187",
-                "children": [
-                  {
-                    "type": "show",
-                    "id": "10:189",
-                    "name": "For inputs of length, the advice string is this sequence of coin tosses.",
-                    "disabled": false
-                  },
-                  {
-                    "type": "show",
-                    "id": "10:190",
-                    "name": "Using this advice string instead of coin tosses, we are guaranteed to get a correct answer for all inputs of length n.",
                     "disabled": false
                   }
                 ]
