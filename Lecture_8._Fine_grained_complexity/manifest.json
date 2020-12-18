@@ -17,7 +17,254 @@
     "67:2": "3-CNF-SAT",
     "67:203": "from_SAT_to_3-CNF-SAT"
   },
-  "soundDict": {},
+  "soundDict": {
+    "1:2": {
+      "0": {
+        "file": "0",
+        "duration": 11.544
+      },
+      "1": {
+        "file": "1",
+        "duration": 9.816
+      },
+      "2": {
+        "file": "2",
+        "duration": 43.464
+      },
+      "3": {
+        "file": "3",
+        "duration": 15.864
+      },
+      "4": {
+        "file": "4",
+        "duration": 16.296
+      },
+      "5": {
+        "file": "5",
+        "duration": 44.496
+      }
+    },
+    "67:2": {
+      "0": {
+        "file": "0",
+        "duration": 5.136
+      },
+      "1": {
+        "file": "1",
+        "duration": 21.144
+      },
+      "2": {
+        "file": "2",
+        "duration": 28.176
+      },
+      "3": {
+        "file": "3",
+        "duration": 21.336
+      },
+      "4": {
+        "file": "4",
+        "duration": 2.256
+      },
+      "5": {
+        "file": "5",
+        "duration": 10.536
+      },
+      "6": {
+        "file": "6",
+        "duration": 16.344
+      },
+      "7": {
+        "file": "7",
+        "duration": 89.736
+      },
+      "8": {
+        "file": "8",
+        "duration": 48.336
+      },
+      "9": {
+        "file": "9",
+        "duration": 29.184
+      },
+      "10": {
+        "file": "10",
+        "duration": 1.536
+      }
+    },
+    "67:203": {
+      "0": {
+        "file": "0",
+        "duration": 12.576
+      },
+      "1": {
+        "file": "1",
+        "duration": 23.136
+      },
+      "2": {
+        "file": "2",
+        "duration": 71.664
+      },
+      "3": {
+        "file": "3",
+        "duration": 13.104
+      },
+      "4": {
+        "file": "4",
+        "duration": 23.976
+      }
+    },
+    "7:399": {
+      "0": {
+        "file": "0",
+        "duration": 6.984
+      },
+      "1": {
+        "file": "1",
+        "duration": 35.496
+      },
+      "2": {
+        "file": "2",
+        "duration": 21.624
+      },
+      "3": {
+        "file": "3",
+        "duration": 60.936
+      },
+      "4": {
+        "file": "4",
+        "duration": 11.736
+      },
+      "5": {
+        "file": "5",
+        "duration": 10.104
+      },
+      "6": {
+        "file": "6",
+        "duration": 5.904
+      },
+      "7": {
+        "file": "7",
+        "duration": 56.784
+      }
+    },
+    "29:0": {
+      "0": {
+        "file": "0",
+        "duration": 11.016
+      },
+      "1": {
+        "file": "1",
+        "duration": 35.904
+      },
+      "2": {
+        "file": "2",
+        "duration": 71.424
+      },
+      "3": {
+        "file": "3",
+        "duration": 42.456
+      },
+      "4": {
+        "file": "4",
+        "duration": 23.496
+      },
+      "5": {
+        "file": "5",
+        "duration": 14.424
+      },
+      "6": {
+        "file": "6",
+        "duration": 21.816
+      },
+      "7": {
+        "file": "7",
+        "duration": 42.336
+      },
+      "8": {
+        "file": "8",
+        "duration": 48.384
+      },
+      "9": {
+        "file": "9",
+        "duration": 5.256
+      },
+      "10": {
+        "file": "10",
+        "duration": 46.416
+      },
+      "11": {
+        "file": "11",
+        "duration": 37.704
+      }
+    },
+    "31:27": {
+      "0": {
+        "file": "0",
+        "duration": 4.104
+      },
+      "1": {
+        "file": "1",
+        "duration": 9.216
+      },
+      "2": {
+        "file": "2",
+        "duration": 6.984
+      },
+      "3": {
+        "file": "3",
+        "duration": 5.976
+      },
+      "4": {
+        "file": "4",
+        "duration": 32.016
+      },
+      "5": {
+        "file": "5",
+        "duration": 23.136
+      },
+      "6": {
+        "file": "6",
+        "duration": 15.936
+      },
+      "7": {
+        "file": "7",
+        "duration": 12.984
+      },
+      "8": {
+        "file": "8",
+        "duration": 47.184
+      },
+      "9": {
+        "file": "9",
+        "duration": 5.136
+      },
+      "10": {
+        "file": "10",
+        "duration": 11.616
+      },
+      "11": {
+        "file": "11",
+        "duration": 62.256
+      }
+    },
+    "32:29": {
+      "0": {
+        "file": "0",
+        "duration": 1.896
+      },
+      "1": {
+        "file": "1",
+        "duration": 42.744
+      },
+      "2": {
+        "file": "2",
+        "duration": 19.416
+      },
+      "3": {
+        "file": "3",
+        "duration": 45.096
+      }
+    }
+  },
   "tree": {
     "type": "child",
     "name": "First slide",

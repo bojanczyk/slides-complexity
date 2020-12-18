@@ -15,7 +15,474 @@
     "17:5": "Pseudorandom_generator",
     "17:29": "Apply_pseudo-random"
   },
-  "soundDict": {},
+  "soundDict": {
+    "1:10": {
+      "0": {
+        "file": "0",
+        "duration": 6.336
+      },
+      "1": {
+        "file": "1",
+        "duration": 22.416
+      },
+      "2": {
+        "file": "2",
+        "duration": 15.696
+      },
+      "3": {
+        "file": "3",
+        "duration": 10.416
+      },
+      "4": {
+        "file": "4",
+        "duration": 33.264
+      },
+      "5": {
+        "file": "5",
+        "duration": 19.704
+      },
+      "6": {
+        "file": "6",
+        "duration": 3.024
+      }
+    },
+    "9:0": {
+      "0": {
+        "file": "0",
+        "duration": 0.384
+      },
+      "1": {
+        "file": "1",
+        "duration": 9.936
+      },
+      "2": {
+        "file": "2",
+        "duration": 89.016
+      },
+      "3": {
+        "file": "3",
+        "duration": 21.336
+      },
+      "4": {
+        "file": "4",
+        "duration": 15.936
+      },
+      "5": {
+        "file": "5",
+        "duration": 30.096
+      },
+      "6": {
+        "file": "6",
+        "duration": 19.656
+      },
+      "7": {
+        "file": "7",
+        "duration": 3.936
+      },
+      "8": {
+        "file": "8",
+        "duration": 1.224
+      }
+    },
+    "10:34": {
+      "0": {
+        "file": "0",
+        "duration": 1.584
+      },
+      "1": {
+        "file": "1",
+        "duration": 21.624
+      },
+      "2": {
+        "file": "2",
+        "duration": 32.904
+      },
+      "3": {
+        "file": "3",
+        "duration": 7.656
+      },
+      "4": {
+        "file": "4",
+        "duration": 25.416
+      },
+      "5": {
+        "file": "5",
+        "duration": 6.936
+      },
+      "6": {
+        "file": "6",
+        "duration": 57.984
+      },
+      "7": {
+        "file": "7",
+        "duration": 12.144
+      },
+      "8": {
+        "file": "8",
+        "duration": 47.544
+      },
+      "9": {
+        "file": "9",
+        "duration": 0.936
+      }
+    },
+    "10:62": {
+      "0": {
+        "file": "0",
+        "duration": 1.824
+      },
+      "1": {
+        "file": "1",
+        "duration": 32.784
+      },
+      "2": {
+        "file": "2",
+        "duration": 22.584
+      },
+      "3": {
+        "file": "3",
+        "duration": 32.256
+      }
+    },
+    "10:187": {
+      "0": {
+        "file": "0",
+        "duration": 1.344
+      },
+      "1": {
+        "file": "1",
+        "duration": 5.256
+      },
+      "2": {
+        "file": "2",
+        "duration": 1.104
+      }
+    },
+    "17:0": {
+      "0": {
+        "file": "0",
+        "duration": 0.864
+      },
+      "1": {
+        "file": "1",
+        "duration": 21.216
+      },
+      "2": {
+        "file": "2",
+        "duration": 15.384
+      },
+      "3": {
+        "file": "3",
+        "duration": 50.016
+      },
+      "4": {
+        "file": "4",
+        "duration": 73.296
+      },
+      "5": {
+        "file": "5",
+        "duration": 8.304
+      },
+      "6": {
+        "file": "6",
+        "duration": 52.464
+      },
+      "7": {
+        "file": "7",
+        "duration": 41.136
+      }
+    },
+    "17:5": {
+      "0": {
+        "file": "0",
+        "duration": 5.904
+      },
+      "1": {
+        "file": "1",
+        "duration": 3.024
+      },
+      "2": {
+        "file": "2",
+        "duration": 2.856
+      },
+      "3": {
+        "file": "3",
+        "duration": 16.944
+      },
+      "4": {
+        "file": "4",
+        "duration": 14.616
+      },
+      "5": {
+        "file": "5",
+        "duration": 4.536
+      },
+      "6": {
+        "file": "6",
+        "duration": 11.376
+      },
+      "7": {
+        "file": "7",
+        "duration": 38.616
+      },
+      "8": {
+        "file": "8",
+        "duration": 5.184
+      },
+      "9": {
+        "file": "9",
+        "duration": 86.784
+      },
+      "10": {
+        "file": "10",
+        "duration": 49.104
+      },
+      "11": {
+        "file": "11",
+        "duration": 47.376
+      }
+    },
+    "17:29": {
+      "0": {
+        "file": "0",
+        "duration": 1.344
+      },
+      "1": {
+        "file": "1",
+        "duration": 22.416
+      },
+      "2": {
+        "file": "2",
+        "duration": 42.504
+      },
+      "3": {
+        "file": "3",
+        "duration": 50.424
+      },
+      "4": {
+        "file": "4",
+        "duration": 11.784
+      },
+      "5": {
+        "file": "5",
+        "duration": 12.576
+      }
+    },
+    "1:176": {
+      "0": {
+        "file": "0",
+        "duration": 1.896
+      },
+      "1": {
+        "file": "1",
+        "duration": 31.656
+      },
+      "2": {
+        "file": "2",
+        "duration": 19.224
+      },
+      "3": {
+        "file": "3",
+        "duration": 34.896
+      },
+      "4": {
+        "file": "4",
+        "duration": 29.616
+      },
+      "5": {
+        "file": "5",
+        "duration": 61.464
+      },
+      "6": {
+        "file": "6",
+        "duration": 29.184
+      },
+      "7": {
+        "file": "7",
+        "duration": 8.784
+      }
+    },
+    "1:251": {
+      "0": {
+        "file": "0",
+        "duration": 14.856
+      },
+      "1": {
+        "file": "1",
+        "duration": 11.424
+      },
+      "2": {
+        "file": "2",
+        "duration": 20.856
+      },
+      "3": {
+        "file": "3",
+        "duration": 2.664
+      },
+      "4": {
+        "file": "4",
+        "duration": 33.384
+      },
+      "5": {
+        "file": "5",
+        "duration": 11.184
+      },
+      "6": {
+        "file": "6",
+        "duration": 12.144
+      },
+      "7": {
+        "file": "7",
+        "duration": 1.296
+      },
+      "8": {
+        "file": "8",
+        "duration": 14.256
+      },
+      "9": {
+        "file": "9",
+        "duration": 12.504
+      },
+      "10": {
+        "file": "10",
+        "duration": 43.584
+      },
+      "11": {
+        "file": "11",
+        "duration": 48.624
+      }
+    },
+    "1:245": {
+      "0": {
+        "file": "0",
+        "duration": 31.344
+      },
+      "1": {
+        "file": "1",
+        "duration": 4.584
+      },
+      "2": {
+        "file": "2",
+        "duration": 24.984
+      },
+      "3": {
+        "file": "3",
+        "duration": 8.016
+      },
+      "4": {
+        "file": "4",
+        "duration": 18.696
+      },
+      "5": {
+        "file": "5",
+        "duration": 17.064
+      },
+      "6": {
+        "file": "6",
+        "duration": 15.984
+      }
+    },
+    "3:0": {
+      "0": {
+        "file": "0",
+        "duration": 1.656
+      },
+      "1": {
+        "file": "1",
+        "duration": 47.016
+      },
+      "2": {
+        "file": "2",
+        "duration": 20.304
+      },
+      "3": {
+        "file": "3",
+        "duration": 20.976
+      },
+      "4": {
+        "file": "4",
+        "duration": 34.944
+      },
+      "5": {
+        "file": "5",
+        "duration": 36.816
+      },
+      "6": {
+        "file": "6",
+        "duration": 4.296
+      },
+      "7": {
+        "file": "7",
+        "duration": 22.104
+      },
+      "8": {
+        "file": "8",
+        "duration": 39.096
+      },
+      "9": {
+        "file": "9",
+        "duration": 70.104
+      }
+    },
+    "3:76": {
+      "0": {
+        "file": "0",
+        "duration": 2.424
+      },
+      "1": {
+        "file": "1",
+        "duration": 7.824
+      },
+      "2": {
+        "file": "2",
+        "duration": 6.504
+      },
+      "3": {
+        "file": "3",
+        "duration": 5.016
+      },
+      "4": {
+        "file": "4",
+        "duration": 31.896
+      },
+      "5": {
+        "file": "5",
+        "duration": 13.656
+      },
+      "6": {
+        "file": "6",
+        "duration": 44.856
+      },
+      "7": {
+        "file": "7",
+        "duration": 34.896
+      },
+      "8": {
+        "file": "8",
+        "duration": 8.616
+      },
+      "9": {
+        "file": "9",
+        "duration": 20.136
+      },
+      "10": {
+        "file": "10",
+        "duration": 29.256
+      },
+      "11": {
+        "file": "11",
+        "duration": 17.424
+      },
+      "12": {
+        "file": "12",
+        "duration": 73.704
+      },
+      "13": {
+        "file": "13",
+        "duration": 46.464
+      }
+    }
+  },
   "tree": {
     "type": "child",
     "name": "First slide",
@@ -46,14 +513,26 @@
         "children": [
           {
             "type": "show",
-            "id": "10:191",
+            "id": "9:2",
             "name": "Theorem. Adleman 1978 BPP \u2286 P/poly",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "40:7",
+            "name": "BPP definition",
             "disabled": false
           },
           {
             "type": "show",
             "id": "9:5",
             "name": "P/poly = a polynomial time algorithm, which is allowed an advice string for every input length.",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "9:3",
+            "name": "equivalent to (nonuniform) circuits of polynomial size",
             "disabled": false
           },
           {
@@ -267,14 +746,14 @@
           },
           {
             "type": "show",
-            "id": "17:42",
-            "name": "Claim. For large enough n: - if w \u2208 L, then > 0.6 of seeds will satisfy (*) - if w \u2209 L, then < 0.4 of seeds will satisfy (*)",
+            "id": "17:41",
+            "name": "(*) M accepts w using random bits G(s)",
             "disabled": false
           },
           {
             "type": "show",
-            "id": "17:41",
-            "name": "(*) M accepts w using random bits G(s)",
+            "id": "17:42",
+            "name": "Claim. For large enough n: - if w \u2208 L, then > 0.6 of seeds will satisfy (*) - if w \u2209 L, then < 0.4 of seeds will satisfy (*)",
             "disabled": false
           },
           {
@@ -364,19 +843,43 @@
               },
               {
                 "type": "show",
+                "id": "40:184",
+                "name": "expected size",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "40:912",
+                "name": "\u2264",
+                "disabled": false
+              },
+              {
+                "type": "show",
                 "id": "6:7",
                 "name": "expected size",
                 "disabled": false
               },
               {
                 "type": "show",
-                "id": "2:1694",
-                "name": "\\frac {|E|} 2 \\quad \\le \\quad  (m-1) \\cdot (1 - \\text{probability}[\\text{cut has size\n  $\\ge m$}]) + \n|E| \\cdot \\text{probability}[\\text{cut has size  $ \\ge m$}] \n",
+                "id": "40:982",
+                "name": "(m-1) \\cdot (1 - \\text{probability}[\\text{cut has size\n  $\\ge m$}]) + \n|E| \\cdot \\text{probability}[\\text{cut has size  $ \\ge m$}] =\n",
                 "disabled": false
               },
               {
                 "type": "show",
-                "id": "2:1768",
+                "id": "40:1100",
+                "name": "(m-1) + (|E| - m +1) \\cdot \\text{probability}\n[\\text{cut has size  $ \\ge m$}] \n",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "40:1143",
+                "name": "Summing up:",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "40:612",
                 "name": "\\frac {|E|} 2 \\quad \\le \\quad  (m-1) + (|E| - m +1) \\cdot \\text{probability}[\\text{cut has size  $ \\ge m$}] \n",
                 "disabled": false
               },
