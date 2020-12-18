@@ -42,6 +42,18 @@
       "5": {
         "file": "5",
         "duration": 44.496
+      },
+      "6": {
+        "file": "6",
+        "duration": 34.656
+      },
+      "7": {
+        "file": "7",
+        "duration": 12.504
+      },
+      "8": {
+        "file": "8",
+        "duration": 35.976
       }
     },
     "67:2": {
@@ -262,6 +274,254 @@
       "3": {
         "file": "3",
         "duration": 45.096
+      }
+    },
+    "1:8": {
+      "0": {
+        "file": "0",
+        "duration": 7.416
+      },
+      "1": {
+        "file": "1",
+        "duration": 24.696
+      },
+      "2": {
+        "file": "2",
+        "duration": 15.984
+      },
+      "3": {
+        "file": "3",
+        "duration": 78.936
+      },
+      "4": {
+        "file": "4",
+        "duration": 29.784
+      },
+      "5": {
+        "file": "5",
+        "duration": 52.584
+      },
+      "6": {
+        "file": "6",
+        "duration": 29.904
+      }
+    },
+    "5:3": {
+      "0": {
+        "file": "0",
+        "duration": 14.664
+      },
+      "1": {
+        "file": "1",
+        "duration": 1.824
+      },
+      "2": {
+        "file": "2",
+        "duration": 26.376
+      },
+      "3": {
+        "file": "3",
+        "duration": 6.576
+      },
+      "4": {
+        "file": "4",
+        "duration": 1.584
+      },
+      "5": {
+        "file": "5",
+        "duration": 3.024
+      },
+      "6": {
+        "file": "6",
+        "duration": 15.264
+      },
+      "7": {
+        "file": "7",
+        "duration": 19.416
+      },
+      "8": {
+        "file": "8",
+        "duration": 27.624
+      },
+      "9": {
+        "file": "9",
+        "duration": 15.456
+      },
+      "10": {
+        "file": "10",
+        "duration": 14.016
+      }
+    },
+    "16:93": {
+      "0": {
+        "file": "0",
+        "duration": 9.744
+      },
+      "1": {
+        "file": "1",
+        "duration": 34.464
+      },
+      "2": {
+        "file": "2",
+        "duration": 38.976
+      },
+      "3": {
+        "file": "3",
+        "duration": 46.536
+      },
+      "4": {
+        "file": "4",
+        "duration": 8.976
+      }
+    },
+    "7:26": {
+      "0": {
+        "file": "0",
+        "duration": 2.496
+      },
+      "1": {
+        "file": "1",
+        "duration": 4.704
+      },
+      "2": {
+        "file": "2",
+        "duration": 40.464
+      },
+      "3": {
+        "file": "3",
+        "duration": 99.576
+      },
+      "4": {
+        "file": "4",
+        "duration": 31.944
+      },
+      "5": {
+        "file": "5",
+        "duration": 92.496
+      },
+      "6": {
+        "file": "6",
+        "duration": 15.024
+      }
+    },
+    "16:146": {
+      "0": {
+        "file": "0",
+        "duration": 2.976
+      },
+      "1": {
+        "file": "1",
+        "duration": 8.904
+      },
+      "2": {
+        "file": "2",
+        "duration": 7.896
+      },
+      "3": {
+        "file": "3",
+        "duration": 55.536
+      },
+      "4": {
+        "file": "4",
+        "duration": 6.816
+      },
+      "5": {
+        "file": "5",
+        "duration": 2.064
+      },
+      "6": {
+        "file": "6",
+        "duration": 1.584
+      },
+      "7": {
+        "file": "7",
+        "duration": 1.104
+      },
+      "8": {
+        "file": "8",
+        "duration": 0.984
+      },
+      "9": {
+        "file": "9",
+        "duration": 0.696
+      },
+      "10": {
+        "file": "10",
+        "duration": 10.704
+      },
+      "11": {
+        "file": "11",
+        "duration": 21.816
+      },
+      "12": {
+        "file": "12",
+        "duration": 35.256
+      },
+      "13": {
+        "file": "13",
+        "duration": 23.016
+      },
+      "14": {
+        "file": "14",
+        "duration": 15.696
+      }
+    },
+    "16:165": {
+      "0": {
+        "file": "0",
+        "duration": 4.224
+      },
+      "1": {
+        "file": "1",
+        "duration": 48.696
+      },
+      "2": {
+        "file": "2",
+        "duration": 1.704
+      },
+      "3": {
+        "file": "3",
+        "duration": 14.976
+      },
+      "4": {
+        "file": "4",
+        "duration": 10.296
+      },
+      "5": {
+        "file": "5",
+        "duration": 32.184
+      },
+      "6": {
+        "file": "6",
+        "duration": 22.224
+      }
+    },
+    "16:200": {
+      "0": {
+        "file": "0",
+        "duration": 4.656
+      },
+      "1": {
+        "file": "1",
+        "duration": 10.536
+      }
+    },
+    "16:202": {
+      "0": {
+        "file": "0",
+        "duration": 2.904
+      },
+      "1": {
+        "file": "1",
+        "duration": 72.576
+      },
+      "2": {
+        "file": "2",
+        "duration": 43.776
+      },
+      "3": {
+        "file": "3",
+        "duration": 15.984
       }
     }
   },
@@ -631,12 +891,6 @@
         "id": "5:3",
         "children": [
           {
-            "type": "show",
-            "id": "17:22",
-            "name": "Consider an instance of CNF-SAT, with n variables.",
-            "disabled": false
-          },
-          {
             "type": "child",
             "name": "Real SETH",
             "id": "16:93",
@@ -666,6 +920,12 @@
                 "disabled": false
               }
             ]
+          },
+          {
+            "type": "show",
+            "id": "17:22",
+            "name": "Consider an instance of CNF-SAT, with n variables.",
+            "disabled": false
           },
           {
             "type": "child",
@@ -730,8 +990,8 @@
           },
           {
             "type": "show",
-            "id": "7:361",
-            "name": "= 2 \\sqrt {2^n}",
+            "id": "104:28",
+            "name": "= \\sqrt {2^n}",
             "disabled": false
           },
           {
