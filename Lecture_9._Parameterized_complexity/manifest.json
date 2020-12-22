@@ -15,7 +15,10 @@
     "15:18": "Treewidthx",
     "15:290": "A_tree_decomposition",
     "21:0": "Bodlaender",
-    "21:226": "Use_tree_decomposition"
+    "21:226": "Use_tree_decomposition",
+    "25:2": "FPT_reductions",
+    "25:17": "From_Turing_to_clique",
+    "26:128": "From_Turing_to_clique_2"
   },
   "soundDict": {},
   "tree": {
@@ -489,134 +492,6 @@
                 ]
               },
               {
-                "type": "show",
-                "id": "21:332",
-                "name": "This is an example of an XP algorithm.",
-                "disabled": false
-              },
-              {
-                "type": "show",
-                "id": "13:27",
-                "name": "Between these, there are other complexity classes of parameterised problems.",
-                "disabled": false
-              },
-              {
-                "type": "child",
-                "name": "Clique",
-                "id": "13:31",
-                "children": [
-                  {
-                    "type": "show",
-                    "id": "21:295",
-                    "name": "Problem 1. Given a graph, does it contain a clique of size k?",
-                    "disabled": false
-                  },
-                  {
-                    "type": "show",
-                    "id": "13:52",
-                    "name": "Conjecture: Problem 1 is not in FPT",
-                    "disabled": false
-                  },
-                  {
-                    "type": "show",
-                    "id": "21:296",
-                    "name": "Problem 2. Given k nondeterministic automata, is there some word accepted by all of them?",
-                    "disabled": false
-                  },
-                  {
-                    "type": "show",
-                    "id": "13:53",
-                    "name": "Lemma: If Problem 2 is FPT, then so is Problem 1.",
-                    "disabled": false
-                  },
-                  {
-                    "type": "child",
-                    "name": "From k-clique to automata",
-                    "id": "13:54",
-                    "children": [
-                      {
-                        "type": "show",
-                        "id": "13:56",
-                        "name": "Given a graph, we want to know if it contains a clique of size k.",
-                        "disabled": false
-                      },
-                      {
-                        "type": "show",
-                        "id": "15:5",
-                        "name": "We define k automata over the alphabet of vertices as follows.",
-                        "disabled": false
-                      },
-                      {
-                        "type": "show",
-                        "id": "13:58",
-                        "name": "For i \u2208 {1, ..., k}, the i-th automaton recognises the language",
-                        "disabled": false
-                      },
-                      {
-                        "type": "show",
-                        "id": "21:294",
-                        "name": "Sequences of k vertices, such that the i-th letter is connected by an edge to all other letters",
-                        "disabled": false
-                      },
-                      {
-                        "type": "show",
-                        "id": "21:293",
-                        "name": "This automaton checks if vertex v is on position i, and the remaining positions are neighbours of v",
-                        "disabled": false
-                      },
-                      {
-                        "type": "show",
-                        "id": "15:8",
-                        "name": "The graph contains a k-clique iff there is some word accepted by all k automata.",
-                        "disabled": false
-                      },
-                      {
-                        "type": "show",
-                        "id": "15:9",
-                        "name": "If there would be an FPT algorithm for interesection of k automata, then the same would be true for k-clique.",
-                        "disabled": false
-                      }
-                    ]
-                  },
-                  {
-                    "type": "show",
-                    "id": "21:297",
-                    "name": "An FPT reduction is a function from instances of Problem 1 to instances of Problem 2",
-                    "disabled": false
-                  },
-                  {
-                    "type": "show",
-                    "id": "13:50",
-                    "name": "It is designed so that if Problem 2 is in FPT, then so is Problem 1",
-                    "disabled": false
-                  },
-                  {
-                    "type": "show",
-                    "id": "13:45",
-                    "name": "(a) output parameter: depends (computably) on input parameter",
-                    "disabled": false
-                  },
-                  {
-                    "type": "show",
-                    "id": "13:51",
-                    "name": "(output parameter does not depend on instance)",
-                    "disabled": false
-                  },
-                  {
-                    "type": "show",
-                    "id": "13:46",
-                    "name": "(b) output size: FPT in terms of input size",
-                    "disabled": false
-                  },
-                  {
-                    "type": "show",
-                    "id": "13:47",
-                    "name": "(c) time to compute output: FPT",
-                    "disabled": false
-                  }
-                ]
-              },
-              {
                 "type": "child",
                 "name": "Treewidth",
                 "id": "15:10",
@@ -912,6 +787,317 @@
                     "id": "21:282",
                     "name": "Theorem. Courcelle This proof works for every problem that can be formalised in monadic second-order logic.",
                     "disabled": false
+                  }
+                ]
+              },
+              {
+                "type": "show",
+                "id": "21:332",
+                "name": "This is an example of an XP algorithm.",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "13:27",
+                "name": "Between these, there are other complexity classes of parameterised problems.",
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "Clique",
+                "id": "13:31",
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "21:295",
+                    "name": "Problem 1. Given a graph, does it contain a clique of size k?",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "13:52",
+                    "name": "Conjecture: Problem 1 is not in FPT",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "21:296",
+                    "name": "Problem 2. Given k nondeterministic automata, is there some word accepted by all of them?",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "13:53",
+                    "name": "Lemma: If Problem 2 is FPT, then so is Problem 1.",
+                    "disabled": false
+                  },
+                  {
+                    "type": "child",
+                    "name": "From k-clique to automata",
+                    "id": "13:54",
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "13:56",
+                        "name": "Given a graph, we want to know if it contains a clique of size k.",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "27:36",
+                        "name": "We will define a Turing machine of size O(vertices3) such that:",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "27:37",
+                        "name": "The graph has a clique of size k",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "27:38",
+                        "name": "iff",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "27:39",
+                        "name": "The Turing machine has an accepting computation of length \u2264 k3",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "15:5",
+                        "name": "We define k automata over the alphabet of vertices as follows.",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "27:7",
+                        "name": "for every i < j \u2208 {1,.., k}, the i-th and j-th letters in the input word describe an edge in the graph",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "27:5",
+                        "name": "time k3",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "28:21",
+                        "name": "If there would be an FPT algorithm for interesection of k automata, then the same would be true for k-clique.",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "28:10",
+                        "name": "\u27f9",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "28:22",
+                        "name": "If there would be an FPT algorithm for interesection of k automata, then the same would be true for k-clique.",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "27:41",
+                        "name": "If there would be an FPT algorithm for interesection of k automata, then the same would be true for k-clique.",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "28:11",
+                        "name": "If there would be an FPT algorithm for interesection of k automata, then the same would be true for k-clique.",
+                        "disabled": false
+                      }
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "21:297",
+                    "name": "An FPT reduction is a function from instances of Problem 1 to instances of Problem 2",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "13:50",
+                    "name": "It is designed so that if Problem 2 is in FPT, then so is Problem 1",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "13:45",
+                    "name": "(a) output parameter: depends (computably) on input parameter",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "13:51",
+                    "name": "(output parameter does not depend on instance)",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "13:46",
+                    "name": "(b) output size: FPT in terms of input size",
+                    "disabled": false
+                  },
+                  {
+                    "type": "child",
+                    "name": "FPT reductions",
+                    "id": "25:2",
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "28:12",
+                        "name": "Examples of FPT reductions",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "28:24",
+                        "name": "Does a graph contain a clique of size k?",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "25:12",
+                        "name": "Arrow 5",
+                        "disabled": false
+                      },
+                      {
+                        "type": "child",
+                        "name": "From Turing to clique",
+                        "id": "25:17",
+                        "children": [
+                          {
+                            "type": "show",
+                            "id": "25:19",
+                            "name": "Suppose that we want to know if a nondeterministic Turing machine M has an accepting computation of length k.",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "28:29",
+                            "name": "problem is equally hard for deterministic",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "28:28",
+                            "name": "p",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "26:119",
+                            "name": "The existence of such a computation can be rephrased as the existence of a a clique of size (k \u2013 2) \u00d7 (k \u2013 1) inside a graph of size poly(M)",
+                            "disabled": false
+                          },
+                          {
+                            "type": "child",
+                            "name": "From Turing to clique 2",
+                            "id": "26:128",
+                            "children": [
+                              {
+                                "type": "show",
+                                "id": "28:30",
+                                "name": "?",
+                                "disabled": false
+                              },
+                              {
+                                "type": "show",
+                                "id": "26:696",
+                                "name": "1. the window is consistent with the transition relation of the Turing machine",
+                                "disabled": false
+                              },
+                              {
+                                "type": "show",
+                                "id": "26:697",
+                                "name": "2. if the window covers top-left corner, then the initial state is used there",
+                                "disabled": false
+                              },
+                              {
+                                "type": "show",
+                                "id": "26:698",
+                                "name": "3. if the window covers a state in the last line, then that state is accepting",
+                                "disabled": false
+                              },
+                              {
+                                "type": "show",
+                                "id": "28:2",
+                                "name": "Graph of windows: vertices are windows, and an edge connects two windows if they are consistent (agree on the overlap).",
+                                "disabled": false
+                              },
+                              {
+                                "type": "show",
+                                "id": "28:6",
+                                "name": "consistent",
+                                "disabled": false
+                              },
+                              {
+                                "type": "show",
+                                "id": "28:31",
+                                "name": "not consistent",
+                                "disabled": false
+                              },
+                              {
+                                "type": "show",
+                                "id": "26:700",
+                                "name": "There is an accepting computation of length k iff The graph of windows contains a clique of size (k \u2013 2) \u00d7 (k \u2013 1)",
+                                "disabled": false
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "show",
+                        "id": "28:25",
+                        "name": "Does a graph have a vertex cover of size k?",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "28:18",
+                        "name": "FPT",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "28:26",
+                        "name": "Does a graph of treewidth k contain a Hamiltonian path?",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "28:17",
+                        "name": "W[1]",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "25:7",
+                        "name": "Does a circuit accept some input with exactly k ones?",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "28:27",
+                        "name": "Variables of the circuit are vertices",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "28:19",
+                        "name": "W[P]",
+                        "disabled": false
+                      }
+                    ]
                   }
                 ]
               }
