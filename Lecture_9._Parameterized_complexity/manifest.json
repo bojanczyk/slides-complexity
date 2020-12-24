@@ -18,9 +18,835 @@
     "21:226": "Use_tree_decomposition",
     "25:2": "FPT_reductions",
     "25:17": "From_Turing_to_clique",
-    "26:128": "From_Turing_to_clique_2"
+    "26:128": "From_Turing_to_clique_2",
+    "34:1": "Noncomputable"
   },
-  "soundDict": {},
+  "soundDict": {
+    "1:2": {
+      "0": {
+        "file": "0",
+        "duration": 6.936
+      },
+      "1": {
+        "file": "1",
+        "duration": 19.104
+      },
+      "2": {
+        "file": "2",
+        "duration": 33.216
+      },
+      "3": {
+        "file": "3",
+        "duration": 9.816
+      },
+      "4": {
+        "file": "4",
+        "duration": 37.224
+      },
+      "5": {
+        "file": "5",
+        "duration": 3.984
+      }
+    },
+    "1:6": {
+      "0": {
+        "file": "0",
+        "duration": 1.464
+      },
+      "1": {
+        "file": "1",
+        "duration": 34.824
+      },
+      "2": {
+        "file": "2",
+        "duration": 30.696
+      },
+      "3": {
+        "file": "3",
+        "duration": 15.264
+      },
+      "4": {
+        "file": "4",
+        "duration": 21.696
+      },
+      "5": {
+        "file": "5",
+        "duration": 2.376
+      }
+    },
+    "2:0": {
+      "0": {
+        "file": "0",
+        "duration": 2.976
+      },
+      "1": {
+        "file": "1",
+        "duration": 19.224
+      },
+      "2": {
+        "file": "2",
+        "duration": 9.936
+      },
+      "3": {
+        "file": "3",
+        "duration": 15.456
+      }
+    },
+    "7:96": {
+      "0": {
+        "file": "0",
+        "duration": 1.776
+      },
+      "1": {
+        "file": "1",
+        "duration": 17.016
+      },
+      "2": {
+        "file": "2",
+        "duration": 14.376
+      },
+      "3": {
+        "file": "3",
+        "duration": 1.656
+      },
+      "4": {
+        "file": "4",
+        "duration": 0.984
+      },
+      "5": {
+        "file": "5",
+        "duration": 14.976
+      },
+      "6": {
+        "file": "6",
+        "duration": 36.624
+      },
+      "7": {
+        "file": "7",
+        "duration": 1.536
+      },
+      "8": {
+        "file": "8",
+        "duration": 3.984
+      },
+      "9": {
+        "file": "9",
+        "duration": 0.576
+      },
+      "10": {
+        "file": "10",
+        "duration": 0.384
+      },
+      "11": {
+        "file": "11",
+        "duration": 15.624
+      },
+      "12": {
+        "file": "12",
+        "duration": 5.184
+      },
+      "13": {
+        "file": "13",
+        "duration": 9.864
+      },
+      "14": {
+        "file": "14",
+        "duration": 97.704
+      },
+      "15": {
+        "file": "15",
+        "duration": 3.744
+      },
+      "16": {
+        "file": "16",
+        "duration": 35.736
+      },
+      "17": {
+        "file": "17",
+        "duration": 2.016
+      },
+      "18": {
+        "file": "18",
+        "duration": 10.464
+      },
+      "19": {
+        "file": "19",
+        "duration": 10.464
+      },
+      "20": {
+        "file": "20",
+        "duration": 17.376
+      },
+      "21": {
+        "file": "21",
+        "duration": 30.744
+      },
+      "22": {
+        "file": "22",
+        "duration": 14.304
+      }
+    },
+    "11:18": {
+      "0": {
+        "file": "0",
+        "duration": 1.344
+      },
+      "1": {
+        "file": "1",
+        "duration": 35.544
+      },
+      "2": {
+        "file": "2",
+        "duration": 24.816
+      },
+      "3": {
+        "file": "3",
+        "duration": 15.696
+      },
+      "4": {
+        "file": "4",
+        "duration": 50.256
+      },
+      "5": {
+        "file": "5",
+        "duration": 4.776
+      },
+      "6": {
+        "file": "6",
+        "duration": 14.976
+      },
+      "7": {
+        "file": "7",
+        "duration": 15.864
+      },
+      "8": {
+        "file": "8",
+        "duration": 28.176
+      },
+      "9": {
+        "file": "9",
+        "duration": 5.544
+      },
+      "10": {
+        "file": "10",
+        "duration": 23.184
+      },
+      "11": {
+        "file": "11",
+        "duration": 22.464
+      },
+      "12": {
+        "file": "12",
+        "duration": 21.384
+      },
+      "13": {
+        "file": "13",
+        "duration": 2.976
+      }
+    },
+    "11:25": {
+      "0": {
+        "file": "0",
+        "duration": 2.376
+      },
+      "1": {
+        "file": "1",
+        "duration": 1.536
+      },
+      "2": {
+        "file": "2",
+        "duration": 9.264
+      },
+      "3": {
+        "file": "3",
+        "duration": 28.224
+      },
+      "4": {
+        "file": "4",
+        "duration": 8.736
+      },
+      "5": {
+        "file": "5",
+        "duration": 0.936
+      },
+      "6": {
+        "file": "6",
+        "duration": 0.936
+      },
+      "7": {
+        "file": "7",
+        "duration": 24.024
+      },
+      "8": {
+        "file": "8",
+        "duration": 21.096
+      },
+      "9": {
+        "file": "9",
+        "duration": 26.976
+      },
+      "10": {
+        "file": "10",
+        "duration": 31.296
+      },
+      "11": {
+        "file": "11",
+        "duration": 14.016
+      },
+      "12": {
+        "file": "12",
+        "duration": 17.016
+      },
+      "13": {
+        "file": "13",
+        "duration": 8.784
+      },
+      "14": {
+        "file": "14",
+        "duration": 62.664
+      }
+    },
+    "11:203": {
+      "0": {
+        "file": "0",
+        "duration": 5.064
+      },
+      "1": {
+        "file": "1",
+        "duration": 6.816
+      },
+      "2": {
+        "file": "2",
+        "duration": 45.144
+      },
+      "3": {
+        "file": "3",
+        "duration": 58.824
+      },
+      "4": {
+        "file": "4",
+        "duration": 0.504
+      },
+      "5": {
+        "file": "5",
+        "duration": 0.576
+      },
+      "6": {
+        "file": "6",
+        "duration": 19.656
+      },
+      "7": {
+        "file": "7",
+        "duration": 28.776
+      },
+      "8": {
+        "file": "8",
+        "duration": 40.704
+      }
+    },
+    "11:160": {
+      "0": {
+        "file": "0",
+        "duration": 2.976
+      },
+      "1": {
+        "file": "1",
+        "duration": 34.296
+      },
+      "2": {
+        "file": "2",
+        "duration": 43.104
+      },
+      "3": {
+        "file": "3",
+        "duration": 24.096
+      },
+      "4": {
+        "file": "4",
+        "duration": 52.776
+      },
+      "5": {
+        "file": "5",
+        "duration": 12.336
+      },
+      "6": {
+        "file": "6",
+        "duration": 22.344
+      },
+      "7": {
+        "file": "7",
+        "duration": 36.384
+      },
+      "8": {
+        "file": "8",
+        "duration": 21.696
+      },
+      "9": {
+        "file": "9",
+        "duration": 15.456
+      },
+      "10": {
+        "file": "10",
+        "duration": 23.016
+      },
+      "11": {
+        "file": "11",
+        "duration": 6.936
+      },
+      "12": {
+        "file": "12",
+        "duration": 59.544
+      },
+      "13": {
+        "file": "13",
+        "duration": 1.896
+      }
+    },
+    "15:10": {
+      "0": {
+        "file": "0",
+        "duration": 8.064
+      },
+      "1": {
+        "file": "1",
+        "duration": 11.184
+      },
+      "2": {
+        "file": "2",
+        "duration": 8.376
+      },
+      "3": {
+        "file": "3",
+        "duration": 3.384
+      },
+      "4": {
+        "file": "4",
+        "duration": 8.256
+      },
+      "5": {
+        "file": "5",
+        "duration": 12.384
+      },
+      "6": {
+        "file": "6",
+        "duration": 17.016
+      },
+      "7": {
+        "file": "7",
+        "duration": 16.896
+      },
+      "8": {
+        "file": "8",
+        "duration": 19.824
+      },
+      "9": {
+        "file": "9",
+        "duration": 11.304
+      },
+      "10": {
+        "file": "10",
+        "duration": 18.984
+      },
+      "11": {
+        "file": "11",
+        "duration": 15.264
+      },
+      "12": {
+        "file": "12",
+        "duration": 32.184
+      },
+      "13": {
+        "file": "13",
+        "duration": 56.304
+      }
+    },
+    "15:18": {
+      "0": {
+        "file": "0",
+        "duration": 14.616
+      },
+      "1": {
+        "file": "1",
+        "duration": 4.464
+      },
+      "2": {
+        "file": "2",
+        "duration": 4.584
+      },
+      "3": {
+        "file": "3",
+        "duration": 21.096
+      },
+      "5": {
+        "file": "5",
+        "duration": 22.416
+      },
+      "6": {
+        "file": "6",
+        "duration": 15.264
+      },
+      "7": {
+        "file": "7",
+        "duration": 9.624
+      },
+      "8": {
+        "file": "8",
+        "duration": 40.824
+      },
+      "9": {
+        "file": "9",
+        "duration": 42.096
+      },
+      "10": {
+        "file": "10",
+        "duration": 73.344
+      }
+    },
+    "15:290": {
+      "0": {
+        "file": "0",
+        "duration": 3.144
+      },
+      "1": {
+        "file": "1",
+        "duration": 11.616
+      },
+      "2": {
+        "file": "2",
+        "duration": 11.544
+      },
+      "3": {
+        "file": "3",
+        "duration": 6.984
+      },
+      "4": {
+        "file": "4",
+        "duration": 16.704
+      },
+      "5": {
+        "file": "5",
+        "duration": 19.296
+      },
+      "6": {
+        "file": "6",
+        "duration": 9.624
+      },
+      "7": {
+        "file": "7",
+        "duration": 12.624
+      },
+      "8": {
+        "file": "8",
+        "duration": 3.264
+      },
+      "9": {
+        "file": "9",
+        "duration": 10.056
+      },
+      "10": {
+        "file": "10",
+        "duration": 7.584
+      },
+      "11": {
+        "file": "11",
+        "duration": 11.904
+      },
+      "12": {
+        "file": "12",
+        "duration": 13.176
+      },
+      "13": {
+        "file": "13",
+        "duration": 77.424
+      }
+    },
+    "21:0": {
+      "0": {
+        "file": "0",
+        "duration": 3.504
+      },
+      "1": {
+        "file": "1",
+        "duration": 39.336
+      },
+      "2": {
+        "file": "2",
+        "duration": 1.416
+      },
+      "3": {
+        "file": "3",
+        "duration": 62.976
+      }
+    },
+    "21:226": {
+      "0": {
+        "file": "0",
+        "duration": 2.136
+      },
+      "1": {
+        "file": "1",
+        "duration": 31.224
+      },
+      "2": {
+        "file": "2",
+        "duration": 9.504
+      },
+      "3": {
+        "file": "3",
+        "duration": 40.344
+      },
+      "4": {
+        "file": "4",
+        "duration": 38.736
+      },
+      "5": {
+        "file": "5",
+        "duration": 21.456
+      },
+      "6": {
+        "file": "6",
+        "duration": 45.216
+      },
+      "7": {
+        "file": "7",
+        "duration": 64.656
+      },
+      "8": {
+        "file": "8",
+        "duration": 15.936
+      },
+      "9": {
+        "file": "9",
+        "duration": 51.264
+      },
+      "10": {
+        "file": "10",
+        "duration": 58.056
+      }
+    },
+    "13:31": {
+      "0": {
+        "file": "0",
+        "duration": 1.704
+      },
+      "1": {
+        "file": "1",
+        "duration": 16.704
+      },
+      "2": {
+        "file": "2",
+        "duration": 34.416
+      },
+      "3": {
+        "file": "3",
+        "duration": 32.424
+      },
+      "4": {
+        "file": "4",
+        "duration": 22.656
+      },
+      "5": {
+        "file": "5",
+        "duration": 3.456
+      },
+      "6": {
+        "file": "6",
+        "duration": 16.056
+      },
+      "7": {
+        "file": "7",
+        "duration": 15.024
+      },
+      "8": {
+        "file": "8",
+        "duration": 21.744
+      },
+      "9": {
+        "file": "9",
+        "duration": 13.296
+      },
+      "10": {
+        "file": "10",
+        "duration": 40.056
+      },
+      "11": {
+        "file": "11",
+        "duration": 8.496
+      }
+    },
+    "13:54": {
+      "0": {
+        "file": "0",
+        "duration": 3.096
+      },
+      "1": {
+        "file": "1",
+        "duration": 4.824
+      },
+      "2": {
+        "file": "2",
+        "duration": 18.816
+      },
+      "3": {
+        "file": "3",
+        "duration": 3.384
+      },
+      "4": {
+        "file": "4",
+        "duration": 1.296
+      },
+      "5": {
+        "file": "5",
+        "duration": 13.944
+      },
+      "6": {
+        "file": "6",
+        "duration": 21.864
+      },
+      "7": {
+        "file": "7",
+        "duration": 23.376
+      },
+      "8": {
+        "file": "8",
+        "duration": 8.856
+      },
+      "9": {
+        "file": "9",
+        "duration": 21.624
+      },
+      "10": {
+        "file": "10",
+        "duration": 5.256
+      },
+      "11": {
+        "file": "11",
+        "duration": 20.184
+      },
+      "12": {
+        "file": "12",
+        "duration": 2.664
+      },
+      "13": {
+        "file": "13",
+        "duration": 3.744
+      }
+    },
+    "25:2": {
+      "0": {
+        "file": "0",
+        "duration": 2.784
+      },
+      "1": {
+        "file": "1",
+        "duration": 1.536
+      },
+      "2": {
+        "file": "2",
+        "duration": 10.464
+      },
+      "3": {
+        "file": "3",
+        "duration": 13.416
+      },
+      "4": {
+        "file": "4",
+        "duration": 10.056
+      },
+      "5": {
+        "file": "5",
+        "duration": 23.856
+      },
+      "6": {
+        "file": "6",
+        "duration": 7.656
+      },
+      "7": {
+        "file": "7",
+        "duration": 59.016
+      },
+      "8": {
+        "file": "8",
+        "duration": 23.064
+      },
+      "9": {
+        "file": "9",
+        "duration": 16.104
+      },
+      "10": {
+        "file": "10",
+        "duration": 55.224
+      },
+      "11": {
+        "file": "11",
+        "duration": 41.304
+      }
+    },
+    "25:17": {
+      "0": {
+        "file": "0",
+        "duration": 5.976
+      },
+      "1": {
+        "file": "1",
+        "duration": 50.856
+      },
+      "2": {
+        "file": "2",
+        "duration": 4.536
+      },
+      "3": {
+        "file": "3",
+        "duration": 43.056
+      },
+      "4": {
+        "file": "4",
+        "duration": 39.984
+      },
+      "5": {
+        "file": "5",
+        "duration": 14.136
+      }
+    },
+    "26:128": {
+      "0": {
+        "file": "0",
+        "duration": 2.136
+      },
+      "1": {
+        "file": "1",
+        "duration": 47.064
+      },
+      "2": {
+        "file": "2",
+        "duration": 36.696
+      },
+      "3": {
+        "file": "3",
+        "duration": 14.856
+      },
+      "4": {
+        "file": "4",
+        "duration": 14.904
+      },
+      "5": {
+        "file": "5",
+        "duration": 24.384
+      },
+      "6": {
+        "file": "6",
+        "duration": 18.744
+      },
+      "7": {
+        "file": "7",
+        "duration": 15.936
+      },
+      "8": {
+        "file": "8",
+        "duration": 78.384
+      }
+    }
+  },
   "tree": {
     "type": "child",
     "name": "First slide",
@@ -315,6 +1141,18 @@
                   },
                   {
                     "type": "show",
+                    "id": "44:1",
+                    "name": "If all neighbours of v are decided, make v \u201cyes\u201d if it has some \u201cno\u201d neighbour, and \u201cno\u201d otherwise. Try the next v.",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "44:3",
+                    "name": "If all neighbours of v are decided, make v \u201cyes\u201d if it has some \u201cno\u201d neighbour, and \u201cno\u201d otherwise. Try the next v.",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
                     "id": "11:49",
                     "name": "Succeed if one of the following succeds:",
                     "disabled": false
@@ -419,6 +1257,12 @@
                   },
                   {
                     "type": "show",
+                    "id": "34:0",
+                    "name": "formally: L \u2286 \u03a3* \u00d7 {1, 2, ...}",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
                     "id": "21:298",
                     "name": "Can a graph with n vertices be coloured by k colours?",
                     "disabled": false
@@ -439,12 +1283,6 @@
                     "type": "show",
                     "id": "21:301",
                     "name": "Does a graph of size n contain a clique of size \u2264 k?",
-                    "disabled": false
-                  },
-                  {
-                    "type": "show",
-                    "id": "21:302",
-                    "name": "Many graph problems, e.g. 3-colourability.",
                     "disabled": false
                   },
                   {
@@ -481,12 +1319,6 @@
                     "type": "show",
                     "id": "21:304",
                     "name": "no**",
-                    "disabled": false
-                  },
-                  {
-                    "type": "show",
-                    "id": "11:197",
-                    "name": "yes",
                     "disabled": false
                   }
                 ]
@@ -676,6 +1508,12 @@
                     "type": "show",
                     "id": "21:284",
                     "name": "Theorem. 3-colourability can be solved in time",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "50:0",
+                    "name": "also linear in number of edges",
                     "disabled": false
                   },
                   {
