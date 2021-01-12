@@ -1,17 +1,12 @@
 {
-  "presentation": "Untitled",
+  "presentation": "probowanie",
   "slideDict": {
-    "0:3": "Frame",
-    "1:15": "Cezara",
-    "1:153": "Permutacja",
-    "2:6": "Enigma",
-    "8:0": "Framex",
-    "1:2": "Framexx"
+    "1:2": "Frame"
   },
   "soundDict": {},
   "tree": {
     "type": "child",
-    "name": "Frame",
+    "name": "pierwszy",
     "id": "1:2",
     "children": [
       {
