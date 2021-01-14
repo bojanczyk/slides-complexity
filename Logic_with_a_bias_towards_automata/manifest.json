@@ -1,19 +1,7 @@
 {
-  "presentation": "Untitled",
+  "presentation": "Logic with a bias towards automata",
   "slideDict": {
-    "0:3": "Frame",
-    "1:15": "Cezara",
-    "1:153": "Permutacja",
-    "2:6": "Enigma",
-    "8:0": "Framex",
-    "1:2": "Framexx",
-    "111:0": "monadic_second_order_logic",
-    "111:17": "weak_mso",
-    "111:19": "BC3BCchi_mso",
-    "111:21": "Rabin_mso",
-    "111:23": "Shelah_mso",
     "102:2": "First_slide",
-    "108:22": "Satisfiability",
     "108:29": "M_fixed_CF86_input",
     "108:58": "two_element_structure_fo",
     "108:60": "arithmetic",
@@ -22,14 +10,19 @@
     "108:62": "Presburger_arithmetic",
     "109:472": "projection_is_E28883",
     "109:675": "second_order_logic",
+    "111:0": "monadic_second_order_logic",
+    "111:17": "weak_mso",
     "113:13": "weak_mso_automata",
     "113:116": "triples_of_sets_as_finite_words",
     "113:203": "weak_mso_automata_proof",
     "116:29": "mso_history",
     "119:29": "Ehrenfeucht_and_Vaught",
     "119:59": "Automatic_Presburger",
+    "111:19": "BC3BCchi_mso",
     "120:4": "BC3BCchi_automata",
+    "111:21": "Rabin_mso",
     "120:154": "Rabin_tree",
+    "111:23": "Shelah_mso",
     "120:237": "Q_theory"
   },
   "soundDict": {},
@@ -40,7 +33,7 @@
     "children": [
       {
         "type": "show",
-        "id": "108:11",
+        "id": "121:7",
         "name": "Two decision problems for logics",
         "disabled": false
       },
@@ -60,6 +53,36 @@
         "type": "show",
         "id": "108:26",
         "name": "M fixed, \u03c6 input",
+        "disabled": false
+      },
+      {
+        "type": "show",
+        "id": "108:27",
+        "name": "M input, \u03c6 input",
+        "disabled": false
+      },
+      {
+        "type": "show",
+        "id": "108:28",
+        "name": "M input, \u03c6 fixed",
+        "disabled": false
+      },
+      {
+        "type": "show",
+        "id": "121:3",
+        "name": "Part 1.",
+        "disabled": false
+      },
+      {
+        "type": "show",
+        "id": "121:4",
+        "name": "Part 2.",
+        "disabled": false
+      },
+      {
+        "type": "show",
+        "id": "121:5",
+        "name": "Part 3.",
         "disabled": false
       },
       {
@@ -911,18 +934,6 @@
             ]
           }
         ]
-      },
-      {
-        "type": "show",
-        "id": "108:27",
-        "name": "M input, \u03c6 input",
-        "disabled": false
-      },
-      {
-        "type": "show",
-        "id": "108:28",
-        "name": "M input, \u03c6 fixed",
-        "disabled": false
       }
     ]
   }
