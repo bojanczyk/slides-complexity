@@ -15,9 +15,574 @@
     "140:299": "A_tree_decomposition",
     "140:499": "Courcelle_Seese",
     "140:505": "Courcelle_proof",
-    "140:728": "Restricted_syntax"
+    "140:728": "Restricted_syntax",
+    "176:2": "monoids_to_automata",
+    "176:49": "automata_to_monoids"
   },
-  "soundDict": {},
+  "soundDict": {
+    "102:2": {
+      "0": {
+        "file": "0",
+        "duration": 28.224
+      },
+      "1": {
+        "file": "1",
+        "duration": 9.384
+      },
+      "2": {
+        "file": "2",
+        "duration": 46.464
+      }
+    },
+    "136:0": {
+      "0": {
+        "file": "0",
+        "duration": 5.664
+      },
+      "1": {
+        "file": "1",
+        "duration": 3.576
+      },
+      "2": {
+        "file": "2",
+        "duration": 4.944
+      },
+      "3": {
+        "file": "3",
+        "duration": 31.776
+      },
+      "4": {
+        "file": "4",
+        "duration": 4.704
+      },
+      "5": {
+        "file": "5",
+        "duration": 13.536
+      },
+      "6": {
+        "file": "6",
+        "duration": 22.176
+      },
+      "7": {
+        "file": "7",
+        "duration": 14.664
+      },
+      "8": {
+        "file": "8",
+        "duration": 17.976
+      },
+      "9": {
+        "file": "9",
+        "duration": 23.016
+      },
+      "10": {
+        "file": "10",
+        "duration": 37.584
+      },
+      "11": {
+        "file": "11",
+        "duration": 17.064
+      }
+    },
+    "136:4": {
+      "0": {
+        "file": "0",
+        "duration": 2.256
+      },
+      "1": {
+        "file": "1",
+        "duration": 19.296
+      },
+      "2": {
+        "file": "2",
+        "duration": 4.056
+      },
+      "3": {
+        "file": "3",
+        "duration": 14.784
+      },
+      "4": {
+        "file": "4",
+        "duration": 11.136
+      },
+      "5": {
+        "file": "5",
+        "duration": 34.704
+      },
+      "6": {
+        "file": "6",
+        "duration": 77.976
+      },
+      "7": {
+        "file": "7",
+        "duration": 67.056
+      },
+      "8": {
+        "file": "8",
+        "duration": 17.736
+      }
+    },
+    "136:16": {
+      "0": {
+        "file": "0",
+        "duration": 2.856
+      },
+      "1": {
+        "file": "1",
+        "duration": 32.376
+      },
+      "2": {
+        "file": "2",
+        "duration": 48.624
+      },
+      "3": {
+        "file": "3",
+        "duration": 34.896
+      },
+      "4": {
+        "file": "4",
+        "duration": 27.144
+      },
+      "5": {
+        "file": "5",
+        "duration": 15.696
+      },
+      "6": {
+        "file": "6",
+        "duration": 13.536
+      },
+      "7": {
+        "file": "7",
+        "duration": 15.096
+      },
+      "8": {
+        "file": "8",
+        "duration": 36.264
+      },
+      "9": {
+        "file": "9",
+        "duration": 17.544
+      },
+      "10": {
+        "file": "10",
+        "duration": 18.456
+      },
+      "11": {
+        "file": "11",
+        "duration": 12.504
+      }
+    },
+    "136:43": {
+      "0": {
+        "file": "0",
+        "duration": 1.944
+      },
+      "1": {
+        "file": "1",
+        "duration": 6.504
+      },
+      "2": {
+        "file": "2",
+        "duration": 16.416
+      },
+      "3": {
+        "file": "3",
+        "duration": 2.256
+      },
+      "4": {
+        "file": "4",
+        "duration": 8.064
+      },
+      "5": {
+        "file": "5",
+        "duration": 25.104
+      },
+      "6": {
+        "file": "6",
+        "duration": 29.064
+      },
+      "7": {
+        "file": "7",
+        "duration": 26.256
+      },
+      "8": {
+        "file": "8",
+        "duration": 33.336
+      }
+    },
+    "137:15": {
+      "0": {
+        "file": "0",
+        "duration": 4.584
+      },
+      "1": {
+        "file": "1",
+        "duration": 31.776
+      },
+      "2": {
+        "file": "2",
+        "duration": 31.704
+      },
+      "3": {
+        "file": "3",
+        "duration": 68.904
+      },
+      "4": {
+        "file": "4",
+        "duration": 55.464
+      }
+    },
+    "136:90": {
+      "0": {
+        "file": "0",
+        "duration": 0.816
+      },
+      "1": {
+        "file": "1",
+        "duration": 41.064
+      },
+      "2": {
+        "file": "2",
+        "duration": 84.336
+      },
+      "3": {
+        "file": "3",
+        "duration": 18.864
+      },
+      "4": {
+        "file": "4",
+        "duration": 10.656
+      },
+      "5": {
+        "file": "5",
+        "duration": 4.224
+      }
+    },
+    "176:2": {
+      "0": {
+        "file": "0",
+        "duration": 3.816
+      },
+      "1": {
+        "file": "1",
+        "duration": 4.824
+      },
+      "2": {
+        "file": "2",
+        "duration": 33.096
+      },
+      "3": {
+        "file": "3",
+        "duration": 7.704
+      },
+      "4": {
+        "file": "4",
+        "duration": 2.616
+      },
+      "5": {
+        "file": "5",
+        "duration": 2.976
+      },
+      "6": {
+        "file": "6",
+        "duration": 10.776
+      },
+      "7": {
+        "file": "7",
+        "duration": 22.704
+      },
+      "8": {
+        "file": "8",
+        "duration": 86.664
+      }
+    },
+    "176:49": {
+      "0": {
+        "file": "0",
+        "duration": 2.616
+      },
+      "1": {
+        "file": "1",
+        "duration": 5.184
+      },
+      "2": {
+        "file": "2",
+        "duration": 47.136
+      },
+      "3": {
+        "file": "3",
+        "duration": 9.576
+      },
+      "4": {
+        "file": "4",
+        "duration": 13.704
+      },
+      "5": {
+        "file": "5",
+        "duration": 19.296
+      }
+    },
+    "137:6": {
+      "0": {
+        "file": "0",
+        "duration": 1.464
+      },
+      "1": {
+        "file": "1",
+        "duration": 23.016
+      },
+      "2": {
+        "file": "2",
+        "duration": 49.056
+      },
+      "3": {
+        "file": "3",
+        "duration": 22.056
+      },
+      "4": {
+        "file": "4",
+        "duration": 74.376
+      },
+      "5": {
+        "file": "5",
+        "duration": 76.104
+      },
+      "6": {
+        "file": "6",
+        "duration": 116.544
+      }
+    },
+    "136:18": {
+      "0": {
+        "file": "0",
+        "duration": 1.656
+      },
+      "1": {
+        "file": "1",
+        "duration": 34.944
+      },
+      "2": {
+        "file": "2",
+        "duration": 18.816
+      },
+      "3": {
+        "file": "3",
+        "duration": 18.744
+      },
+      "4": {
+        "file": "4",
+        "duration": 53.256
+      },
+      "5": {
+        "file": "5",
+        "duration": 6.456
+      },
+      "6": {
+        "file": "6",
+        "duration": 68.184
+      }
+    },
+    "140:66": {
+      "0": {
+        "file": "0",
+        "duration": 1.344
+      },
+      "1": {
+        "file": "1",
+        "duration": 35.424
+      },
+      "2": {
+        "file": "2",
+        "duration": 36.936
+      },
+      "3": {
+        "file": "3",
+        "duration": 22.536
+      }
+    },
+    "140:156": {
+      "0": {
+        "file": "0",
+        "duration": 16.224
+      },
+      "1": {
+        "file": "1",
+        "duration": 18.816
+      },
+      "2": {
+        "file": "2",
+        "duration": 11.496
+      },
+      "3": {
+        "file": "3",
+        "duration": 29.904
+      },
+      "4": {
+        "file": "4",
+        "duration": 2.736
+      },
+      "5": {
+        "file": "5",
+        "duration": 20.256
+      },
+      "6": {
+        "file": "6",
+        "duration": 13.296
+      },
+      "7": {
+        "file": "7",
+        "duration": 15.336
+      },
+      "8": {
+        "file": "8",
+        "duration": 13.704
+      },
+      "9": {
+        "file": "9",
+        "duration": 59.616
+      },
+      "10": {
+        "file": "10",
+        "duration": 21.144
+      }
+    },
+    "140:299": {
+      "0": {
+        "file": "0",
+        "duration": 4.464
+      },
+      "1": {
+        "file": "1",
+        "duration": 10.536
+      },
+      "2": {
+        "file": "2",
+        "duration": 8.784
+      },
+      "3": {
+        "file": "3",
+        "duration": 8.496
+      },
+      "4": {
+        "file": "4",
+        "duration": 9.456
+      },
+      "5": {
+        "file": "5",
+        "duration": 18.264
+      },
+      "6": {
+        "file": "6",
+        "duration": 14.424
+      },
+      "7": {
+        "file": "7",
+        "duration": 2.856
+      },
+      "8": {
+        "file": "8",
+        "duration": 4.224
+      },
+      "9": {
+        "file": "9",
+        "duration": 8.016
+      },
+      "10": {
+        "file": "10",
+        "duration": 3.864
+      },
+      "11": {
+        "file": "11",
+        "duration": 3.336
+      },
+      "12": {
+        "file": "12",
+        "duration": 6.264
+      },
+      "13": {
+        "file": "13",
+        "duration": 10.344
+      }
+    },
+    "140:499": {
+      "0": {
+        "file": "0",
+        "duration": 1.296
+      },
+      "1": {
+        "file": "1",
+        "duration": 21.936
+      },
+      "2": {
+        "file": "2",
+        "duration": 20.856
+      },
+      "3": {
+        "file": "3",
+        "duration": 62.424
+      },
+      "4": {
+        "file": "4",
+        "duration": 53.976
+      },
+      "5": {
+        "file": "5",
+        "duration": 32.736
+      }
+    },
+    "140:505": {
+      "0": {
+        "file": "0",
+        "duration": 2.424
+      },
+      "1": {
+        "file": "1",
+        "duration": 44.184
+      },
+      "2": {
+        "file": "2",
+        "duration": 8.784
+      },
+      "3": {
+        "file": "3",
+        "duration": 56.424
+      },
+      "4": {
+        "file": "4",
+        "duration": 36.984
+      }
+    },
+    "140:728": {
+      "0": {
+        "file": "0",
+        "duration": 3.024
+      },
+      "1": {
+        "file": "1",
+        "duration": 40.104
+      },
+      "2": {
+        "file": "2",
+        "duration": 58.824
+      },
+      "3": {
+        "file": "3",
+        "duration": 71.784
+      },
+      "4": {
+        "file": "4",
+        "duration": 60.336
+      },
+      "5": {
+        "file": "5",
+        "duration": 49.656
+      },
+      "6": {
+        "file": "6",
+        "duration": 87.864
+      }
+    }
+  },
   "tree": {
     "type": "child",
     "name": "First slide",
@@ -26,7 +591,7 @@
       {
         "type": "show",
         "id": "140:748",
-        "name": "Rectangle 84",
+        "name": "lecture 3",
         "disabled": false
       },
       {
@@ -282,20 +847,100 @@
                     "disabled": false
                   },
                   {
-                    "type": "show",
-                    "id": "137:0",
-                    "name": "Automata to monoids If a language is recognized by a deterministic automaton with states Q, then it is recognized by the monoid of all functions f : Q \u27f6 Q",
-                    "disabled": false
-                  },
-                  {
-                    "type": "show",
-                    "id": "137:1",
-                    "name": "Monoids to automata If a language is recognized by a monoid M, then it is recognized by a deterministic automaton with states M and initial state \u03b5.",
-                    "disabled": false
+                    "type": "child",
+                    "name": "monoids to automata",
+                    "id": "176:2",
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "176:4",
+                        "name": "Consider a language that is recognized by a finite monoid",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "176:47",
+                        "name": "\u03a3*",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "176:19",
+                        "name": "The same language is recognized by a deterministic finite automaton:",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "176:20",
+                        "name": "\u2013 states: M",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "176:21",
+                        "name": "\u2013 initial state: \u03b5 \u2208 M",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "176:22",
+                        "name": "\u2013 transition function (m, a) \u21a6 m\u2219h(a)",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "176:23",
+                        "name": "\u2013 accepting states: same as in monoid",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "176:48",
+                        "name": "After reading a word abcde, the automaton is in state",
+                        "disabled": false
+                      }
+                    ]
                   },
                   {
                     "type": "child",
-                    "name": "Monoid advertising",
+                    "name": "automata to monoids",
+                    "id": "176:49",
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "176:51",
+                        "name": "Consider a language that is recognized by a deterministic finite automaton with states Q.",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "176:63",
+                        "name": "Consider the function",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "176:60",
+                        "name": "This is a homomorphism into a finite monoid.",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "176:61",
+                        "name": "The accepting set is state transformations, which map the initial state to some accepting state.",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "176:62",
+                        "name": "Also works for nondeterministic automata, except that we use the monoid of binary relations on Q.",
+                        "disabled": false
+                      }
+                    ]
+                  },
+                  {
+                    "type": "child",
+                    "name": "Monoid advantages",
                     "id": "137:6",
                     "children": [
                       {
