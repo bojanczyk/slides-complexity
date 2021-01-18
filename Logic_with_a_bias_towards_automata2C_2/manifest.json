@@ -1,0 +1,654 @@
+{
+  "presentation": "Logic with a bias towards automata, 2",
+  "slideDict": {
+    "102:2": "First_slide",
+    "136:0": "Satisfiability",
+    "136:4": "Entsheidungsproblem",
+    "136:16": "Finite_words",
+    "136:43": "From_automata_to_mso",
+    "136:90": "Monoids",
+    "137:6": "Monoid_advertising",
+    "137:15": "Beyond_finite_words",
+    "136:18": "Treelike_graphs",
+    "140:66": "Grids_and_treelike",
+    "140:156": "Treewidth_definition",
+    "140:299": "A_tree_decomposition",
+    "140:499": "Courcelle_Seese",
+    "140:505": "Courcelle_proof",
+    "140:728": "Restricted_syntax"
+  },
+  "soundDict": {},
+  "tree": {
+    "type": "child",
+    "name": "First slide",
+    "id": "102:2",
+    "children": [
+      {
+        "type": "show",
+        "id": "140:748",
+        "name": "Rectangle 84",
+        "disabled": false
+      },
+      {
+        "type": "child",
+        "name": "Satisfiability",
+        "id": "136:0",
+        "children": [
+          {
+            "type": "show",
+            "id": "136:3",
+            "name": "which models?",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "136:2",
+            "name": "what logic?",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "136:9",
+            "name": "All models and first-order logic: Entscheidungsproblem",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "Entsheidungsproblem",
+            "id": "136:4",
+            "children": [
+              {
+                "type": "show",
+                "id": "138:164",
+                "name": "Group 16",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "136:7",
+                "name": "Decide if a sentence of first-order logic is true [Hilbert & Ackermann 1928]",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "138:166",
+                "name": "The Entscheidungsproblem is undecidable [Church 1936, Turing 1936]",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "138:155",
+                "name": "A. true means \u201ctrue in all models, including infinite ones\u201d",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "138:156",
+                "name": "B. true means \u201ctrue in all finite models\u201d [Trakhtenbrot 1950]",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "140:751",
+                "name": "p",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "138:154",
+                "name": "Therefore, \u03c6 is true in some finite model if and only if the machine halts.",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "138:157",
+                "name": "Similar to B.",
+                "disabled": false
+              }
+            ]
+          },
+          {
+            "type": "show",
+            "id": "140:749",
+            "name": "axis 1: restrict the models",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "140:750",
+            "name": "axis 2: restrict the logic",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "136:10",
+            "name": "Words and trees",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "Finite words",
+            "id": "136:16",
+            "children": [
+              {
+                "type": "show",
+                "id": "140:763",
+                "name": "A finite word w \u2208 \u03a3* can be viewed as a model",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "140:764",
+                "name": "With such models, we can use logic to define languages of finite words.",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "140:765",
+                "name": "For a language L \u2286 \u03a3*, the following conditions are equivalent:",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "140:766",
+                "name": "because regular languages are closed under \u2228 \u2227 \u00ac \u2203",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "136:40",
+                "name": "Arrow 7",
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "From automata to mso",
+                "id": "136:43",
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "136:46",
+                    "name": "Every regular language L \u2286 \u03a3* can be defined in MSO.",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "136:85",
+                    "name": "Suppose that L is recognized by an automaton with n transitions.",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "136:86",
+                    "name": "The following MSO formula describes words that have an accepting run:",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "140:771",
+                    "name": "\u2203X1 ... \u2203Xn",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "140:772",
+                    "name": "\u2200x x \u2208 Xi \u2227 x \u2209 Xj",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "140:773",
+                    "name": "\u2200x first(x) \u27f9 x \u2208 Xi",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "140:774",
+                    "name": "\u2200x \u2200y (x + 1 = y) \u27f9 x \u2208 Xi \u2227 y \u2208 Xj",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "140:775",
+                    "name": "\u2200x last(x) \u27f9 x \u2208 Xi",
+                    "disabled": false
+                  }
+                ]
+              },
+              {
+                "type": "show",
+                "id": "137:14",
+                "name": "Theorem. [B\u00fcchi, Elgot, Trakhtenbrot 1958] The following problem is decidable: input: MSO sentence using x < y and {a(x)}a \u2208 \u03a3 question: is it true in some w \u2208 \u03a3*?",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "137:17",
+                "name": "Because the MSO \u2192 automata translation is computable",
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "Beyond finite words",
+                "id": "137:15",
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "137:18",
+                    "name": "This also works for \u03c9-words [B\u00fcchi] and infinite trees [Rabin].",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "137:161",
+                    "name": "Here, there are blurred lines between satisfiability and model checking.",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "140:769",
+                    "name": "iff",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "140:770",
+                    "name": "iff",
+                    "disabled": false
+                  }
+                ]
+              },
+              {
+                "type": "show",
+                "id": "140:768",
+                "name": "recognized by a finite monoid",
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "Monoids",
+                "id": "136:90",
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "140:776",
+                    "name": "A monoid is: (M, \u00b7, \u03b5)",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "140:777",
+                    "name": "A language L \u2286 \u03a3* is recognized by a finite monoid M if there is monoid homomorphism",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "137:0",
+                    "name": "Automata to monoids If a language is recognized by a deterministic automaton with states Q, then it is recognized by the monoid of all functions f : Q \u27f6 Q",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "137:1",
+                    "name": "Monoids to automata If a language is recognized by a monoid M, then it is recognized by a deterministic automaton with states M and initial state \u03b5.",
+                    "disabled": false
+                  },
+                  {
+                    "type": "child",
+                    "name": "Monoid advertising",
+                    "id": "137:6",
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "137:8",
+                        "name": "Monoids have more structure and theory than automata.",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "137:9",
+                        "name": "1. Powerful decomposition results for finite monoids Superior to automata concepts like \u201cstrongly connected component\u201d",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "137:12",
+                        "name": "Example: factorization forests",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "137:10",
+                        "name": "2. Natural subclasses of finite monoids Examples: groups, commutative monoids",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "137:13",
+                        "name": "Sch\u00fctzenberger, McNaughton and Papert: group-free monoids recognize exactly the first-order definable languages",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "137:11",
+                        "name": "3. Beyond finite words, sometimes monoids generalize better than automata \u201cGraph monoids\u201d are a thing, \u201cgraph automata\u201d not so much.",
+                        "disabled": false
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "show",
+            "id": "138:172",
+            "name": "Treewidth",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "Treelike graphs",
+            "id": "136:18",
+            "children": [
+              {
+                "type": "show",
+                "id": "140:756",
+                "name": "We can also view a graph as a model. The underlying set is the disjoint union of vertices and edges, and there is one relation incident (v, e).",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "137:265",
+                "name": "alternative choice: underlying set is vertices only, and there is relation edge(v, w)",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "137:263",
+                "name": "Already for first-order logic, the satisfiability problem is undecidable: input: a first-order sentence using the incident relation question: is it true in some graph?",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "137:264",
+                "name": "undecidable also if we ask for finite graphs",
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "Grids and treelike",
+                "id": "140:66",
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "140:757",
+                    "name": "The graphs that witness undecidability look like this:",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "140:758",
+                    "name": "What about graphs that look like this:",
+                    "disabled": false
+                  },
+                  {
+                    "type": "child",
+                    "name": "Treewidth definition",
+                    "id": "140:156",
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "140:158",
+                        "name": "A graph with ports is a graph with distinguished distinguished vertices.",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "140:269",
+                        "name": "ports",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "140:157",
+                        "name": "Definition. A graph has treewidth k \u2208 {1,2, ...} if it can be constructed using the following operations, so that in every moment at most k+1 ports are used.",
+                        "disabled": false
+                      },
+                      {
+                        "type": "hide",
+                        "id": "140:269",
+                        "name": "ports",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "140:159",
+                        "name": "Constant",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "140:171",
+                        "name": "Forget",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "140:189",
+                        "name": "Output: the chosen port is no longer a port",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "140:235",
+                        "name": "Fuse",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "140:205",
+                        "name": "Output: the disjoint union, except that pairs from the bijection are fused",
+                        "disabled": false
+                      },
+                      {
+                        "type": "child",
+                        "name": "A tree decomposition",
+                        "id": "140:299",
+                        "children": [
+                          {
+                            "type": "show",
+                            "id": "140:495",
+                            "name": "The 8-cycle has treewidth 2, because it can be constructed using 3 ports.",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "140:300",
+                            "name": "Group 39",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "140:334",
+                            "name": "Group 40",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "140:308",
+                            "name": "Group 41",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "140:320",
+                            "name": "Group 43",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "140:343",
+                            "name": "Group 44",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "140:314",
+                            "name": "Group 45",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "140:368",
+                            "name": "Group 46",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "140:354",
+                            "name": "Group 47",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "140:383",
+                            "name": "Group 48",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "140:456",
+                            "name": "Group 49",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "140:476",
+                            "name": "Group 50",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "140:496",
+                            "name": "All cycles have treewidth 2.",
+                            "disabled": false
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "child",
+                "name": "Courcelle Seese",
+                "id": "140:499",
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "140:501",
+                    "name": "Theorem. [Courcelle] The following problem is decidable: input: an MSO sentence \u03c6 and k \u2208 {1, 2, ..} question: is \u03c6 true in some graph of treewidth at most k?",
+                    "disabled": false
+                  },
+                  {
+                    "type": "child",
+                    "name": "Courcelle proof",
+                    "id": "140:505",
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "140:760",
+                        "name": "A width k tree decomposition can be seen as a finite tree",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "140:727",
+                        "name": "Using MSO, one can interpret the graph in the tree decomposition:",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "140:761",
+                        "name": "width k tree decompositions",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "140:762",
+                        "name": "\u03c6 is true in some graph of treewidth k",
+                        "disabled": false
+                      }
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "140:503",
+                    "name": "A deep theorem of Robertson and Seymour says that if a graph has large treewidth, then it contains a large grid as a minor.",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "140:504",
+                    "name": "MSO can find that minor, and use it to describe a computation of a Turing machine. Hence:",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "140:502",
+                    "name": "Theorem. [Seese] If C is a class of graphs of unbouned treewidth, then the following problem is undecidable: input: an MSO sentence \u03c6 question: is \u03c6 true in some graph from C?",
+                    "disabled": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "child",
+            "name": "Restricted syntax",
+            "id": "140:728",
+            "children": [
+              {
+                "type": "show",
+                "id": "140:735",
+                "name": "I will not talk much about fragments of first-order logic, for which satisfiability over all models is decidable, such as:",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "140:753",
+                "name": "\u2203* formulas",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "140:752",
+                "name": "Also: \u2203*\u2200* [Bernays Sch\u00f6nfinkel 1928], \u2203*\u2200 \u2203* [Ackermann 1928], ...",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "140:754",
+                "name": "Two-variable first-order logic [Mortimer 1975]",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "140:747",
+                "name": "Robustly decidable using counting methods forthcoming book [Pratt-Hartmann]",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "140:755",
+                "name": "The guarded fragment [Andr\u00e9ka, van Benthem, N\u00e9meti 1998]",
+                "disabled": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

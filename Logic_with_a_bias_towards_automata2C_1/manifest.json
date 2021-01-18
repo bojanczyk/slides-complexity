@@ -1,0 +1,1753 @@
+{
+  "presentation": "Logic with a bias towards automata, 1",
+  "slideDict": {
+    "102:2": "First_slide",
+    "136:0": "Satisfiability",
+    "136:4": "Entsheidungsproblem",
+    "136:16": "Finite_words",
+    "136:43": "From_automata_to_mso",
+    "136:90": "Monoids",
+    "137:6": "Monoid_advertising",
+    "137:15": "Beyond_finite_words",
+    "136:18": "Treelike_graphs",
+    "108:29": "M_fixed_CF86_input",
+    "108:58": "two_element_structure_fo",
+    "108:60": "arithmetic",
+    "109:132": "arithmetic_proof_sketch",
+    "108:64": "Tarski_arithmetic",
+    "108:62": "Presburger_arithmetic",
+    "109:472": "projection_is_E28883",
+    "109:675": "second_order_logic",
+    "111:0": "monadic_second_order_logic",
+    "111:17": "weak_mso",
+    "113:13": "weak_mso_automata",
+    "113:116": "triples_of_sets_as_finite_words",
+    "113:203": "weak_mso_automata_proof",
+    "116:29": "mso_history",
+    "119:29": "Ehrenfeucht_and_Vaught",
+    "119:59": "Automatic_Presburger",
+    "111:19": "BC3BCchi_mso",
+    "120:4": "BC3BCchi_automata",
+    "111:21": "Rabin_mso",
+    "120:154": "Rabin_tree",
+    "111:23": "Shelah_mso",
+    "120:237": "Q_theory",
+    "204:2": "parity_tree_automata"
+  },
+  "soundDict": {
+    "102:2": {
+      "0": {
+        "file": "0",
+        "duration": 15.336
+      },
+      "1": {
+        "file": "1",
+        "duration": 17.856
+      },
+      "2": {
+        "file": "2",
+        "duration": 59.064
+      },
+      "3": {
+        "file": "3",
+        "duration": 7.656
+      },
+      "4": {
+        "file": "4",
+        "duration": 24.864
+      },
+      "5": {
+        "file": "5",
+        "duration": 9.744
+      },
+      "6": {
+        "file": "6",
+        "duration": 24.024
+      },
+      "7": {
+        "file": "7",
+        "duration": 17.544
+      },
+      "8": {
+        "file": "8",
+        "duration": 3.264
+      },
+      "9": {
+        "file": "9",
+        "duration": 20.856
+      },
+      "10": {
+        "file": "10",
+        "duration": 29.496
+      }
+    },
+    "108:29": {
+      "0": {
+        "file": "0",
+        "duration": 1.584
+      },
+      "1": {
+        "file": "1",
+        "duration": 48.144
+      },
+      "2": {
+        "file": "2",
+        "duration": 55.536
+      },
+      "3": {
+        "file": "3",
+        "duration": 36.576
+      },
+      "4": {
+        "file": "4",
+        "duration": 11.376
+      },
+      "5": {
+        "file": "5",
+        "duration": 19.104
+      },
+      "6": {
+        "file": "6",
+        "duration": 22.704
+      },
+      "7": {
+        "file": "7",
+        "duration": 24.624
+      },
+      "8": {
+        "file": "8",
+        "duration": 15.744
+      },
+      "9": {
+        "file": "9",
+        "duration": 17.904
+      },
+      "10": {
+        "file": "10",
+        "duration": 55.344
+      },
+      "11": {
+        "file": "11",
+        "duration": 31.104
+      },
+      "12": {
+        "file": "12",
+        "duration": 8.544
+      },
+      "13": {
+        "file": "13",
+        "duration": 29.736
+      },
+      "14": {
+        "file": "14",
+        "duration": 2.784
+      }
+    },
+    "108:58": {
+      "0": {
+        "file": "0",
+        "duration": 0.456
+      },
+      "1": {
+        "file": "1",
+        "duration": 8.736
+      },
+      "2": {
+        "file": "2",
+        "duration": 13.464
+      },
+      "3": {
+        "file": "3",
+        "duration": 63.936
+      },
+      "4": {
+        "file": "4",
+        "duration": 17.736
+      },
+      "5": {
+        "file": "5",
+        "duration": 9.624
+      },
+      "6": {
+        "file": "6",
+        "duration": 48.744
+      }
+    },
+    "108:60": {
+      "0": {
+        "file": "0",
+        "duration": 3.144
+      },
+      "1": {
+        "file": "1",
+        "duration": 15.696
+      },
+      "2": {
+        "file": "2",
+        "duration": 8.016
+      },
+      "3": {
+        "file": "3",
+        "duration": 14.856
+      },
+      "4": {
+        "file": "4",
+        "duration": 87.624
+      },
+      "5": {
+        "file": "5",
+        "duration": 48.336
+      },
+      "6": {
+        "file": "6",
+        "duration": 71.736
+      }
+    },
+    "109:132": {
+      "0": {
+        "file": "0",
+        "duration": 2.064
+      },
+      "1": {
+        "file": "1",
+        "duration": 39.864
+      },
+      "2": {
+        "file": "2",
+        "duration": 54.144
+      },
+      "3": {
+        "file": "3",
+        "duration": 37.296
+      },
+      "4": {
+        "file": "4",
+        "duration": 11.976
+      }
+    },
+    "108:64": {
+      "0": {
+        "file": "0",
+        "duration": 1.896
+      },
+      "1": {
+        "file": "1",
+        "duration": 18.024
+      },
+      "2": {
+        "file": "2",
+        "duration": 8.016
+      },
+      "3": {
+        "file": "3",
+        "duration": 83.856
+      },
+      "4": {
+        "file": "4",
+        "duration": 36.744
+      },
+      "5": {
+        "file": "5",
+        "duration": 124.536
+      },
+      "6": {
+        "file": "6",
+        "duration": 106.896
+      },
+      "7": {
+        "file": "7",
+        "duration": 0.456
+      }
+    },
+    "108:62": {
+      "0": {
+        "file": "0",
+        "duration": 2.016
+      },
+      "1": {
+        "file": "1",
+        "duration": 9.864
+      },
+      "2": {
+        "file": "2",
+        "duration": 107.736
+      },
+      "3": {
+        "file": "3",
+        "duration": 88.776
+      },
+      "4": {
+        "file": "4",
+        "duration": 31.584
+      },
+      "5": {
+        "file": "5",
+        "duration": 42.744
+      },
+      "6": {
+        "file": "6",
+        "duration": 3.336
+      },
+      "7": {
+        "file": "7",
+        "duration": 14.136
+      }
+    },
+    "109:472": {
+      "0": {
+        "file": "0",
+        "duration": 4.104
+      },
+      "1": {
+        "file": "1",
+        "duration": 17.376
+      },
+      "2": {
+        "file": "2",
+        "duration": 68.424
+      }
+    },
+    "109:675": {
+      "0": {
+        "file": "0",
+        "duration": 4.464
+      },
+      "1": {
+        "file": "1",
+        "duration": 48.624
+      },
+      "2": {
+        "file": "2",
+        "duration": 25.104
+      },
+      "3": {
+        "file": "3",
+        "duration": 59.616
+      },
+      "4": {
+        "file": "4",
+        "duration": 77.376
+      }
+    },
+    "111:0": {
+      "0": {
+        "file": "0",
+        "duration": 18.264
+      },
+      "1": {
+        "file": "1",
+        "duration": 117.504
+      },
+      "2": {
+        "file": "2",
+        "duration": 37.464
+      },
+      "3": {
+        "file": "3",
+        "duration": 29.064
+      },
+      "4": {
+        "file": "4",
+        "duration": 21.144
+      },
+      "5": {
+        "file": "5",
+        "duration": 10.416
+      },
+      "6": {
+        "file": "6",
+        "duration": 12.576
+      },
+      "7": {
+        "file": "7",
+        "duration": 19.536
+      },
+      "8": {
+        "file": "8",
+        "duration": 12.696
+      },
+      "9": {
+        "file": "9",
+        "duration": 11.856
+      },
+      "10": {
+        "file": "10",
+        "duration": 7.824
+      },
+      "11": {
+        "file": "11",
+        "duration": 13.536
+      }
+    },
+    "111:17": {
+      "0": {
+        "file": "0",
+        "duration": 3.024
+      },
+      "1": {
+        "file": "1",
+        "duration": 15.144
+      },
+      "2": {
+        "file": "2",
+        "duration": 105.144
+      },
+      "3": {
+        "file": "3",
+        "duration": 22.344
+      },
+      "4": {
+        "file": "4",
+        "duration": 2.976
+      },
+      "5": {
+        "file": "5",
+        "duration": 11.304
+      }
+    },
+    "113:13": {
+      "0": {
+        "file": "0",
+        "duration": 1.464
+      },
+      "1": {
+        "file": "1",
+        "duration": 48.144
+      },
+      "2": {
+        "file": "2",
+        "duration": 7.056
+      },
+      "3": {
+        "file": "3",
+        "duration": 4.584
+      },
+      "4": {
+        "file": "4",
+        "duration": 22.344
+      },
+      "5": {
+        "file": "5",
+        "duration": 12.456
+      },
+      "6": {
+        "file": "6",
+        "duration": 26.784
+      },
+      "7": {
+        "file": "7",
+        "duration": 33.816
+      }
+    },
+    "113:116": {
+      "0": {
+        "file": "0",
+        "duration": 1.824
+      },
+      "1": {
+        "file": "1",
+        "duration": 77.424
+      }
+    },
+    "113:203": {
+      "0": {
+        "file": "0",
+        "duration": 1.944
+      },
+      "1": {
+        "file": "1",
+        "duration": 3.096
+      },
+      "2": {
+        "file": "2",
+        "duration": 105.744
+      },
+      "3": {
+        "file": "3",
+        "duration": 12.216
+      },
+      "4": {
+        "file": "4",
+        "duration": 11.544
+      },
+      "5": {
+        "file": "5",
+        "duration": 62.616
+      },
+      "6": {
+        "file": "6",
+        "duration": 24.336
+      },
+      "7": {
+        "file": "7",
+        "duration": 8.904
+      },
+      "8": {
+        "file": "8",
+        "duration": 40.416
+      }
+    },
+    "116:29": {
+      "0": {
+        "file": "0",
+        "duration": 17.544
+      },
+      "1": {
+        "file": "1",
+        "duration": 8.976
+      },
+      "2": {
+        "file": "2",
+        "duration": 33.504
+      },
+      "3": {
+        "file": "3",
+        "duration": 31.464
+      },
+      "4": {
+        "file": "4",
+        "duration": 35.976
+      },
+      "5": {
+        "file": "5",
+        "duration": 19.224
+      },
+      "6": {
+        "file": "6",
+        "duration": 14.904
+      },
+      "7": {
+        "file": "7",
+        "duration": 22.056
+      },
+      "8": {
+        "file": "8",
+        "duration": 23.664
+      },
+      "9": {
+        "file": "9",
+        "duration": 20.976
+      }
+    },
+    "119:29": {
+      "0": {
+        "file": "0",
+        "duration": 2.616
+      },
+      "1": {
+        "file": "1",
+        "duration": 12.744
+      },
+      "2": {
+        "file": "2",
+        "duration": 12.816
+      },
+      "3": {
+        "file": "3",
+        "duration": 22.536
+      },
+      "4": {
+        "file": "4",
+        "duration": 50.904
+      },
+      "5": {
+        "file": "5",
+        "duration": 14.424
+      },
+      "6": {
+        "file": "6",
+        "duration": 26.856
+      },
+      "7": {
+        "file": "7",
+        "duration": 46.104
+      }
+    },
+    "119:59": {
+      "0": {
+        "file": "0",
+        "duration": 1.536
+      },
+      "1": {
+        "file": "1",
+        "duration": 25.656
+      },
+      "2": {
+        "file": "2",
+        "duration": 44.184
+      },
+      "3": {
+        "file": "3",
+        "duration": 42.264
+      },
+      "4": {
+        "file": "4",
+        "duration": 30.144
+      },
+      "5": {
+        "file": "5",
+        "duration": 59.736
+      },
+      "6": {
+        "file": "6",
+        "duration": 185.544
+      }
+    },
+    "111:19": {
+      "0": {
+        "file": "0",
+        "duration": 3.216
+      },
+      "1": {
+        "file": "1",
+        "duration": 16.224
+      },
+      "2": {
+        "file": "2",
+        "duration": 46.296
+      },
+      "3": {
+        "file": "3",
+        "duration": 12.504
+      },
+      "4": {
+        "file": "4",
+        "duration": 49.704
+      },
+      "5": {
+        "file": "5",
+        "duration": 8.376
+      },
+      "6": {
+        "file": "6",
+        "duration": 1.704
+      }
+    },
+    "120:4": {
+      "0": {
+        "file": "0",
+        "duration": 16.176
+      },
+      "1": {
+        "file": "1",
+        "duration": 5.256
+      },
+      "2": {
+        "file": "2",
+        "duration": 42.936
+      },
+      "3": {
+        "file": "3",
+        "duration": 49.224
+      },
+      "4": {
+        "file": "4",
+        "duration": 21.696
+      },
+      "5": {
+        "file": "5",
+        "duration": 80.016
+      }
+    },
+    "111:21": {
+      "0": {
+        "file": "0",
+        "duration": 13.944
+      },
+      "1": {
+        "file": "1",
+        "duration": 10.944
+      },
+      "2": {
+        "file": "2",
+        "duration": 6.984
+      },
+      "3": {
+        "file": "3",
+        "duration": 21.744
+      },
+      "4": {
+        "file": "4",
+        "duration": 5.064
+      },
+      "5": {
+        "file": "5",
+        "duration": 18.624
+      },
+      "6": {
+        "file": "6",
+        "duration": 60.696
+      },
+      "7": {
+        "file": "7",
+        "duration": 25.584
+      },
+      "8": {
+        "file": "8",
+        "duration": 14.904
+      },
+      "9": {
+        "file": "9",
+        "duration": 4.104
+      },
+      "10": {
+        "file": "10",
+        "duration": 68.256
+      },
+      "11": {
+        "file": "11",
+        "duration": 7.704
+      }
+    },
+    "120:154": {
+      "0": {
+        "file": "0",
+        "duration": 9.096
+      },
+      "1": {
+        "file": "1",
+        "duration": 112.704
+      }
+    },
+    "204:2": {
+      "0": {
+        "file": "0",
+        "duration": 5.496
+      },
+      "1": {
+        "file": "1",
+        "duration": 3.864
+      },
+      "2": {
+        "file": "2",
+        "duration": 9.144
+      },
+      "3": {
+        "file": "3",
+        "duration": 43.296
+      },
+      "4": {
+        "file": "4",
+        "duration": 19.416
+      },
+      "5": {
+        "file": "5",
+        "duration": 19.344
+      },
+      "6": {
+        "file": "6",
+        "duration": 50.616
+      }
+    },
+    "111:23": {
+      "0": {
+        "file": "0",
+        "duration": 2.976
+      },
+      "1": {
+        "file": "1",
+        "duration": 34.656
+      },
+      "2": {
+        "file": "2",
+        "duration": 3.864
+      },
+      "3": {
+        "file": "3",
+        "duration": 21.024
+      },
+      "4": {
+        "file": "4",
+        "duration": 26.544
+      },
+      "5": {
+        "file": "5",
+        "duration": 18.936
+      },
+      "6": {
+        "file": "6",
+        "duration": 31.824
+      },
+      "7": {
+        "file": "7",
+        "duration": 64.296
+      },
+      "8": {
+        "file": "8",
+        "duration": 7.344
+      },
+      "9": {
+        "file": "9",
+        "duration": 12.864
+      }
+    },
+    "120:237": {
+      "0": {
+        "file": "0",
+        "duration": 5.496
+      },
+      "1": {
+        "file": "1",
+        "duration": 68.304
+      },
+      "2": {
+        "file": "2",
+        "duration": 54.024
+      }
+    }
+  },
+  "tree": {
+    "type": "child",
+    "name": "First slide",
+    "id": "102:2",
+    "children": [
+      {
+        "type": "show",
+        "id": "121:7",
+        "name": "Two decision problems for logics",
+        "disabled": false
+      },
+      {
+        "type": "show",
+        "id": "120:308",
+        "name": "Satisfiability is \u03c6 true in some model?",
+        "disabled": false
+      },
+      {
+        "type": "show",
+        "id": "120:309",
+        "name": "Model checking is \u03c6 true in some model M?",
+        "disabled": false
+      },
+      {
+        "type": "show",
+        "id": "108:26",
+        "name": "M fixed, \u03c6 input",
+        "disabled": false
+      },
+      {
+        "type": "show",
+        "id": "108:27",
+        "name": "M input, \u03c6 input",
+        "disabled": false
+      },
+      {
+        "type": "show",
+        "id": "108:28",
+        "name": "M input, \u03c6 fixed",
+        "disabled": false
+      },
+      {
+        "type": "show",
+        "id": "121:3",
+        "name": "Part 1.",
+        "disabled": false
+      },
+      {
+        "type": "show",
+        "id": "121:4",
+        "name": "Part 2.",
+        "disabled": false
+      },
+      {
+        "type": "show",
+        "id": "121:5",
+        "name": "Part 3.",
+        "disabled": false
+      },
+      {
+        "type": "child",
+        "name": "M fixed \u03c6 input",
+        "id": "108:29",
+        "children": [
+          {
+            "type": "show",
+            "id": "120:311",
+            "name": "First-order logic",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "120:312",
+            "name": "For which structures M is the following problem decidable: Given a sentence of first-order logic \u03c6, is \u03c6 is true in M?",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "120:313",
+            "name": "({0, 1})",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "two element structure fo",
+            "id": "108:58",
+            "children": [
+              {
+                "type": "show",
+                "id": "108:81",
+                "name": "What can a first-order sentence say in {0,1} ?",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "108:80",
+                "name": "{0, 1} \u22a8 \u2203x \u2200y x = y",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "120:320",
+                "name": "This is enough to encode QBF (quantified Boolean formulas)",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "120:322",
+                "name": "Theorem. For every finite M, its first-order theory is PSpace complete.",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "108:87",
+                "name": "Hardness is already for {0,1} with equality only.",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "120:321",
+                "name": "Membership is witnessed by the naive algorithm",
+                "disabled": false
+              }
+            ]
+          },
+          {
+            "type": "show",
+            "id": "120:314",
+            "name": "(\u2115, +, \u00d7)",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "120:316",
+            "name": "(\u211d, +, \u00d7)",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "120:317",
+            "name": "(\u2115, +)",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "arithmetic",
+            "id": "108:60",
+            "children": [
+              {
+                "type": "show",
+                "id": "108:92",
+                "name": "Theorem. The first-order theory of (\u2115, +, \u00d7) is undecidable.",
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "arithmetic proof sketch",
+                "id": "109:132",
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "120:326",
+                    "name": "Proof sketch. We can use numbers to represent lists of numbers.",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "108:151",
+                    "name": "First-order logic can define operations such as head, or concatenation.",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "108:152",
+                    "name": "A list can represent a computation of a Turing machine.",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "109:0",
+                    "name": "Using the list operations, one can formalize in first-order logic the statement \u201cthere exists an accepting computation\u201d.",
+                    "disabled": false
+                  }
+                ]
+              },
+              {
+                "type": "show",
+                "id": "109:135",
+                "name": "In fact, undecidability holds already for \u2203* formulas:",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "120:323",
+                "name": "Theorem. [DPLM] Hilbert\u2019s 10-th problem is undecidable: Input. a polynomial Question.",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "120:324",
+                "name": "There is a polynonial P such that x is a prime number iff",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "120:325",
+                "name": "There is a polynomial P such that",
+                "disabled": false
+              }
+            ]
+          },
+          {
+            "type": "child",
+            "name": "Tarski arithmetic",
+            "id": "108:64",
+            "children": [
+              {
+                "type": "show",
+                "id": "109:136",
+                "name": "Theorem. [Tarski 1929] The first-order theory of (\u211d, +, \u00d7) is decidable.",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "109:257",
+                "name": "Tarski\u2019s proof used quantifier elimination:",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "109:206",
+                "name": "Main lemma. For every first-order formula \u03c6(x1, ... xn), one can compute an equivalent quantifier-free formula in (\u211d, +, \u00d7, \u2013, \u2264, 0, 1, )",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "109:207",
+                "name": "Applying the main lemma to a formula without free variables, we compute an equivalent formula like (1 \u2013 1 = 0 \u2228 0 > 1), whose truth can be easily decided.",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "120:331",
+                "name": "Example 1",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "120:328",
+                "name": "This is because quantifier-free formulas are Boolean combinations of polynomial inequalities.",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "120:330",
+                "name": "Hence there is no formula for \u201cx is a natural number\u201d.",
+                "disabled": false
+              }
+            ]
+          },
+          {
+            "type": "child",
+            "name": "Presburger arithmetic",
+            "id": "108:62",
+            "children": [
+              {
+                "type": "show",
+                "id": "109:363",
+                "name": "Theorem. [Presburger 1929] The first-order theory of (\u2115, +) is decidable.",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "120:332",
+                "name": "Main lemma. For every first-order formula \u03c6(x1, ... xn), the defined subset of \u2115\u207f is semilinear, i.e it is a finite union of linear sets:",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "120:333",
+                "name": "Proof. The base case is the formula",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "120:334",
+                "name": "Semilinear sets are closed under union, projection, and complementation.",
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "projection is \u2203",
+                "id": "109:472",
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "120:336",
+                    "name": "Consider a formula",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "120:337",
+                    "name": "The quantified formula",
+                    "disabled": false
+                  }
+                ]
+              },
+              {
+                "type": "show",
+                "id": "120:335",
+                "name": "technical",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "109:420",
+                "name": "We will later see an alternative decidability proof, using automata.",
+                "disabled": false
+              }
+            ]
+          },
+          {
+            "type": "show",
+            "id": "120:318",
+            "name": "Second-order logic",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "second order logic",
+            "id": "109:675",
+            "children": [
+              {
+                "type": "show",
+                "id": "120:338",
+                "name": "In second-order logic, we can write formulas like:",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "110:4",
+                "name": "Theorem. For every structure M: 1. if M is finite, then its second-order theory is PSpace complete. 2. if M is infinite, then its second-order theory is undecidable.",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "110:6",
+                "name": "Proof. 1. PSpace hardness is inherited from first-order logic, PSpace membership uses the naive algorithm.",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "120:339",
+                "name": "2. Undecidability is witnessed by formulas of the form:",
+                "disabled": false
+              }
+            ]
+          },
+          {
+            "type": "show",
+            "id": "120:319",
+            "name": "Monadic second-order logic",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "monadic second order logic",
+            "id": "111:0",
+            "children": [
+              {
+                "type": "show",
+                "id": "120:340",
+                "name": "Example. The MSO theory of (\u2115, =) is decidable. Every formula is equivalent to a quantifier-free formula using X(x), |X| = n and |\u2115 - X| = n.",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "120:345",
+                "name": "Question. [Tarski] Is the MSO theory of (\u2115, \u2264) decidable?",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "121:2",
+                "name": "Robinson\u2019s paper shows that the MSO theory of (\u2115, \u2264, 2x) is undecidable.",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "111:13",
+                "name": "The weak MSO theory of (\u2115, \u2264) is decidable",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "111:14",
+                "name": "The MSO theory of (\u2115, \u2264) is decidable",
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "weak mso",
+                "id": "111:17",
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "113:3",
+                    "name": "Weak MSO has the same syntax as MSO, but set quantification is restricted to finite sets.",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "120:346",
+                    "name": "\u2203X \u2200x x \u2208 X",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "113:11",
+                    "name": "Theorem. [BEEVT] The weak MSO theory of (\u2115, \u2264) is decidable.",
+                    "disabled": false
+                  },
+                  {
+                    "type": "child",
+                    "name": "weak mso automata",
+                    "id": "113:13",
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "113:15",
+                        "name": "Consider a formula \u03c6(x, Y, Z ) of weak MSO. How do we represent the semantics of \u03c6, which is a set of triples (number, finite set of numbers, finite set of numbers)?",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "113:91",
+                        "name": "A quantifier-free formula?",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "113:93",
+                        "name": "A semilinear set?",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "113:94",
+                        "name": "An automaton!",
+                        "disabled": false
+                      },
+                      {
+                        "type": "child",
+                        "name": "triples of sets as finite words",
+                        "id": "113:116",
+                        "children": [
+                          {
+                            "type": "show",
+                            "id": "120:365",
+                            "name": "2",
+                            "disabled": false
+                          }
+                        ]
+                      },
+                      {
+                        "type": "show",
+                        "id": "120:347",
+                        "name": "Lemma. For every formula of weak MSO, one can compute a finite automaton that recognizes the corresponding set of words",
+                        "disabled": false
+                      },
+                      {
+                        "type": "child",
+                        "name": "weak mso automata proof",
+                        "id": "113:203",
+                        "children": [
+                          {
+                            "type": "show",
+                            "id": "113:205",
+                            "name": "Proof. Induction on formula size.",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "120:350",
+                            "name": "For the atomic formulas",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "113:275",
+                            "name": "For \u2228 and \u00ac, we use closure of regular languages under union and complementation.",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "113:276",
+                            "name": "For \u2203, we use closure of regular languages under projection:",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "113:278",
+                            "name": "If L \u2286 (\u03a3 \u00d7 \u0393)* is regular, then so is its projection \u03c0(L) \u2286 \u03a3*.",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "113:279",
+                            "name": "deterministic automata",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "113:280",
+                            "name": "nondeterministic automata, or regular expressions",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "120:351",
+                            "name": "If the formula alternates n times between complementation and projection, then determinization is applied n times, resulting in an n-fold exponential automaton.",
+                            "disabled": false
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "child",
+                    "name": "mso history",
+                    "id": "116:29",
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "119:25",
+                        "name": "Trakhtenbrot 1958",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "119:17",
+                        "name": "image 2",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "118:2",
+                        "name": "B\u00fcchi and Elgot 1958",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "120:354",
+                        "name": "Group 14",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "120:352",
+                        "name": "Group 13",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "120:353",
+                        "name": "Ehrenfeucht and Vaught \u2264 1958",
+                        "disabled": false
+                      },
+                      {
+                        "type": "child",
+                        "name": "Ehrenfeucht and Vaught",
+                        "id": "119:29",
+                        "children": [
+                          {
+                            "type": "show",
+                            "id": "119:52",
+                            "name": "For a description of this history, see W. Thomas, SIGLOG 2019",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "119:32",
+                            "name": "We can use ordinals to represents numbers and finite sets of numbers",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "120:373",
+                            "name": "\u03c95 represents the number 5",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "119:35",
+                            "name": "\u03c95 + \u03c92 + 1 represents the set {0, 2, 5}",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "119:46",
+                            "name": "not the same as 1 + \u03c92 + \u03c95 = \u03c95",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "119:49",
+                            "name": "Under this representation, membership x \u2208 X and order can be defined in first-order logic using ordinal addition \u03b1 + \u03b2",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "120:374",
+                            "name": "Only ordinals \u03b1 < \u03c9 are needed, and (\u03c9 , <, +) has decidable first-order theory [Ehrenfeucht 1957 +]",
+                            "disabled": false
+                          }
+                        ]
+                      },
+                      {
+                        "type": "show",
+                        "id": "119:12",
+                        "name": "Group 6",
+                        "disabled": false
+                      },
+                      {
+                        "type": "child",
+                        "name": "Automatic Presburger",
+                        "id": "119:59",
+                        "children": [
+                          {
+                            "type": "show",
+                            "id": "120:355",
+                            "name": "Represent a number as a finite set, namely its binary expansion",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "120:356",
+                            "name": "Under this representation, there is a WMSO formula for x + y = z",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "119:133",
+                            "name": "Corollary For every formula \u03c6(x1, ... xn) of Presburger arithmetic, the corresponding n-ary relation on binary expansions is definable in WMSO (equivalently, can be recognized by a finite automaton).",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "119:180",
+                            "name": "The corollary would still be true if we added \u201cx is a power of 2\u201d",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "119:181",
+                            "name": "or \u201cx is the smallest power of 2 that divides both y and z\u201d",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "119:182",
+                            "name": "(\u2124, +) is an example of an automatic group [Thurston, Epstein, ... 1980\u2019s], or more generally an automatic structure [Nerode, Khoussainov 1994]",
+                            "disabled": false
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "child",
+                "name": "B\u00fcchi mso",
+                "id": "111:19",
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "120:1",
+                    "name": "Theorem. [B\u00fcchi 1962] The MSO theory of (\u2115, \u2264) is decidable.",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "120:357",
+                    "name": "The proof is the same as for weak MSO, except that now we need to generalize automata from finite word to infinite words.",
+                    "disabled": false
+                  },
+                  {
+                    "type": "child",
+                    "name": "B\u00fcchi automata",
+                    "id": "120:4",
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "120:6",
+                        "name": "Nondeterministic B\u00fcchi automata",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "120:358",
+                        "name": "Syntax: same as for nondeterministic finite automata.",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "120:150",
+                        "name": "Semantics: an \u03c9-word is accepted if an accepting state appears \u221e often",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "120:359",
+                        "name": "When viewed an automaton on finite words, the language is {a, b}*",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "120:360",
+                        "name": "When viewed a B\u00fcchi automaton, the language is {a, b}*a",
+                        "disabled": false
+                      }
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "120:151",
+                    "name": "B\u00fcchi automata do not determinize, but they are still closed under: 1. union and intersection 2. projection 3. complementation",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "120:152",
+                    "name": "B\u00fcchi\u2019s proof for item 3 used the Ramsey theorem",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "120:229",
+                    "name": "For more on B\u00fcchi automata, see Orna\u2019s talk",
+                    "disabled": false
+                  }
+                ]
+              },
+              {
+                "type": "show",
+                "id": "111:15",
+                "name": "The MSO theory of ({0,1}*, \u2264) is decidable",
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "Rabin mso",
+                "id": "111:21",
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "120:153",
+                    "name": "Theorem. [Rabin 1969] The MSO theory of ({0,1}*, \u2264) is decidable.",
+                    "disabled": false
+                  },
+                  {
+                    "type": "child",
+                    "name": "Rabin tree",
+                    "id": "120:154",
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "120:363",
+                        "name": "This is the tree of bit-strings, ordered by the prefix relation.",
+                        "disabled": false
+                      }
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "120:208",
+                    "name": "A modern proof:",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "120:209",
+                    "name": "nondeterministic parity tree automata",
+                    "disabled": false
+                  },
+                  {
+                    "type": "child",
+                    "name": "parity tree automata",
+                    "id": "204:2",
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "204:18",
+                        "name": "Tree automata",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "204:33",
+                        "name": "A transition in a word automaton looks like this:",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "204:20",
+                        "name": "A transition in a tree automaton looks like this:",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "204:21",
+                        "name": "Parity condition",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "204:22",
+                        "name": "Instead of an accepting subset F \u2286 Q, there is parity ranking function Q \u2192 {0, 1, ...}",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "204:23",
+                        "name": "A run is accepting if for every branch in the tree, the rank seen infinitely often is even.",
+                        "disabled": false
+                      }
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "120:221",
+                    "name": "closed under: union, intersection and projection",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "120:210",
+                    "name": "alternating parity tree automata",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "120:220",
+                    "name": "closed under: union, intersection and complementation",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "120:361",
+                    "name": "special case",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "120:362",
+                    "name": "uses: 1. determinization for \u03c9-automata 2. finite memory strategies for games",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "120:230",
+                    "name": "For more on tree automata, see Orna\u2019s talk",
+                    "disabled": false
+                  }
+                ]
+              },
+              {
+                "type": "show",
+                "id": "111:16",
+                "name": "The MSO theory of (\u211d, \u2264) is undecidable",
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "Shelah mso",
+                "id": "111:23",
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "120:225",
+                    "name": "(\u211d, \u2264) and (\u211a, \u2264) have the same first-order theories, but different MSO theories.",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "120:226",
+                    "name": "because both are dense linear orders without endpoints",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "120:228",
+                    "name": "\u201cevery set has a least upper bound\u201d",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "120:224",
+                    "name": "Theorem. [Shelah 1975] The MSO theory of (\u211d, \u2264) is decidable (assuming CH).",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "120:232",
+                    "name": "A difficult proof, which manages to represent arithmetic on integers using order in the real numbers",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "120:233",
+                    "name": "Counterpoint 1. Every MSO formula \u03c6(x) is equivalent to either \u201ctrue\u201d or \u201cfalse\u201d.",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "120:234",
+                    "name": "Because every x, x\u2019 \u2208 \u211d can be mapped to each other using an order-preserving bijection of (\u211d, \u2264)",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "120:235",
+                    "name": "Counterpoint 2. The MSO theory of (\u211a, \u2264) is decidable.",
+                    "disabled": false
+                  },
+                  {
+                    "type": "child",
+                    "name": "Q theory",
+                    "id": "120:237",
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "120:364",
+                        "name": "\u03b5",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "120:306",
+                        "name": "This is a countable dense linear order without endpoints, and hence it is isomorphic to (\u211a, \u2264).",
+                        "disabled": false
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
