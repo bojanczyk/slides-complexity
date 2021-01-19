@@ -1,0 +1,802 @@
+{
+  "presentation": "Logic with a bias towards automata, 3",
+  "slideDict": {
+    "301:3": "Fixed_formula",
+    "301:54": "First-order_graph_properties",
+    "301:105": "Second-order_graph_properties",
+    "301:144": "Courcelle_theorem",
+    "102:2": "First_slide",
+    "301:147": "Automata_courcelle",
+    "301:176": "Tree_automata",
+    "301:181": "Tree_automata_def",
+    "301:268": "Fo_on_bounded_degree",
+    "301:271": "Gaifman",
+    "309:125": "Local_sentences",
+    "301:315": "Bounded_degree_proof",
+    "310:99": "Nowhere_dense",
+    "310:113": "Definition_of_nowhere_dense",
+    "310:283": "model_checking_nowhere_dense",
+    "310:103": "twin-width",
+    "310:466": "twin-width_definition"
+  },
+  "soundDict": {},
+  "tree": {
+    "type": "child",
+    "name": "First slide",
+    "id": "102:2",
+    "children": [
+      {
+        "type": "show",
+        "id": "301:2",
+        "name": "Rectangle 1",
+        "disabled": false
+      },
+      {
+        "type": "child",
+        "name": "Fixed formula",
+        "id": "301:3",
+        "children": [
+          {
+            "type": "show",
+            "id": "301:5",
+            "name": "Many classical algorithmic problems can be formalized in logic",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "First-order graph properties",
+            "id": "301:54",
+            "children": [
+              {
+                "type": "show",
+                "id": "301:56",
+                "name": "First-order logic",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "311:12",
+                "name": "Independent set of size k:",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "311:13",
+                "name": "Dominating set of size k:",
+                "disabled": false
+              }
+            ]
+          },
+          {
+            "type": "child",
+            "name": "Second-order graph properties",
+            "id": "301:105",
+            "children": [
+              {
+                "type": "show",
+                "id": "301:107",
+                "name": "Monadic second-order logic",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "301:109",
+                "name": "3-colourability",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "301:133",
+                "name": "There exist 3 sets of vertices, such that:",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "301:129",
+                "name": "b. no edge has both endpoints in the same set",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "301:134",
+                "name": "a. every vertex belongs to some set",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "301:130",
+                "name": "Hamiltonian path",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "301:131",
+                "name": "There exists a set F of edges such that:",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "301:135",
+                "name": "a. every vertex is incident to exactly two edges from F",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "301:136",
+                "name": "b. for every proper subset G \u2286 F, some vertex is incident to exactly 1 edge from G",
+                "disabled": false
+              }
+            ]
+          },
+          {
+            "type": "show",
+            "id": "301:137",
+            "name": "Hence the value of theorems such as these:",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "301:138",
+            "name": "Theorem. [Seese 1996] For every sentence \u03c6 of first-order logic and d \u2208 {1, 2, ..}, the following problem can be solved in linear time: input: graph of degree d question: does it satisfy \u03c6?",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "301:141",
+            "name": "Corollary. For every k and d, there is a linear time algorithm for dominating set of size k on graphs of degree at most d.",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "301:140",
+            "name": "Theorem. [Courcelle 1990] For every sentence \u03c6 of MSO and k \u2208 {1, 2, ..}, the following problem can be solved in linear time: input: graph of treewidth k question: does it satisfy \u03c6?",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "301:142",
+            "name": "Corollary. For every k, there is a linear time algorithm for Hamiltonian path on graphs of treewidth at most k.",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "301:143",
+            "name": "Algorithmic meta-theorems",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "Courcelle theorem",
+            "id": "301:144",
+            "children": [
+              {
+                "type": "show",
+                "id": "301:149",
+                "name": "Follows immediately from these two results:",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "301:150",
+                "name": "Theorem. [Bodlaender] For every k \u2208 {1, 2, ...}, the following problem can be solved in linear time: input: a graph output: a tree decomposition of width k, or \u201cno\u201d if there is no such tree decomposition.",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "301:152",
+                "name": "A hard algorithm.",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "301:153",
+                "name": "Robertson and Seymour give a simple cubic algorithm.",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "301:151",
+                "name": "Lemma. For every k \u2208 {1, 2, ...} and MSO sentence \u03c6, the following problem can be solved in linear time: input: a tree decomposition of width k output: does the underlying graph satisfy \u03c6?",
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "Automata courcelle",
+                "id": "301:147",
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "301:173",
+                    "name": "An MSO formula can be evaluated directly on a tree decomposition:",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "301:158",
+                    "name": "width k tree decompositions",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "311:5",
+                    "name": "Therefore it remains to show that a fixed MSO formula on trees can be evaluated in linear time: f (formula)\u00b7(size of tree)",
+                    "disabled": false
+                  },
+                  {
+                    "type": "child",
+                    "name": "Tree automata",
+                    "id": "301:176",
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "301:178",
+                        "name": "Theorem. Thatcher and Wright 1968] For finite trees, MSO and tree automata define the same languages.",
+                        "disabled": false
+                      },
+                      {
+                        "type": "child",
+                        "name": "Tree automata def",
+                        "id": "301:181",
+                        "children": [
+                          {
+                            "type": "show",
+                            "id": "301:183",
+                            "name": "Formally, we consider finite trees over a ranked alphabet:",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "311:7",
+                            "name": "c",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "301:204",
+                            "name": "a is a letter of rank 2",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "301:205",
+                            "name": "b is a letter of rank 1",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "301:206",
+                            "name": "c is a letter of rank 0",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "311:11",
+                            "name": "A deterministic bottom-up automaton assigns to each tree node a state, using a transition function",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "311:9",
+                            "name": "p",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "311:10",
+                            "name": "p",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "301:213",
+                            "name": "r",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "301:214",
+                            "name": "q",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "301:216",
+                            "name": "p",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "301:265",
+                            "name": "Languages recognized by these automata are closed under union, complementation and projection.",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "301:266",
+                            "name": "because there nondeterministic bottom-up tree automata are equivalent to deterministic ones",
+                            "disabled": false
+                          }
+                        ]
+                      },
+                      {
+                        "type": "show",
+                        "id": "301:180",
+                        "name": "Proof. Same as for finite words (B\u00fcchi, Elgot, Trakhtenbrot)",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "301:267",
+                        "name": "Since deterministic bottom-up tree automata can be evaluated in linear time, the result follows.",
+                        "disabled": false
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "show",
+                "id": "301:155",
+                "name": "A variant of this theorem is true for rankwidth (aka cliquewidth)",
+                "disabled": false
+              }
+            ]
+          },
+          {
+            "type": "child",
+            "name": "Fo on bounded degree",
+            "id": "301:268",
+            "children": [
+              {
+                "type": "show",
+                "id": "301:270",
+                "name": "The main tool for this, and other similar results, is Gaifman\u2019s theorem about the locality of first-order logic",
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "Gaifman",
+                "id": "301:271",
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "301:273",
+                    "name": "Theorem. [Gaifman 1982] Every sentence \u03c6 of first-order logic on graphs is equivalent to a Boolean combination of basic local sentences:",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "311:17",
+                    "name": "a basic local sentence",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "311:14",
+                    "name": "a number k \u2208 {0, 1, ...}",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "311:15",
+                    "name": "a number r \u2208 {0, 1, ...} called the radius",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "311:16",
+                    "name": "a first-order formula \u03c6(x) which is r-local",
+                    "disabled": false
+                  },
+                  {
+                    "type": "child",
+                    "name": "Local sentences",
+                    "id": "309:125",
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "309:129",
+                        "name": "Group 2",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "311:20",
+                        "name": "The r-neighbourhood of a vertex v in a graph is the vertices that can be reached from v using at most r edges",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "311:19",
+                        "name": "A formula \u03c6(v) is r-local if it depends only on the r-neighbourhood of v:",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "309:254",
+                        "name": "A syntactic characterization: all quantifiers are relativized to the r-neighbourhood of v.",
+                        "disabled": false
+                      }
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "310:38",
+                    "name": "The theorem is effective, although with non-elementary complexity.",
+                    "disabled": false
+                  }
+                ]
+              },
+              {
+                "type": "show",
+                "id": "301:317",
+                "name": "Proof.",
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "Bounded degree proof",
+                "id": "301:315",
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "311:21",
+                    "name": "Thanks to Gaifman\u2019s theorem, it is enough to show that for every basic local sentence",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "311:22",
+                    "name": "For every vertex x, we can check \u03c6(x) in constant time.",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "310:82",
+                    "name": "Algorithm for k = 2.",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "310:83",
+                    "name": "For every vertex x\u2081, check if it satisfies \u03c6(x\u2081)",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "310:84",
+                    "name": "After finding the first candidate for x\u2081, find some other x\u2082 which satisfies \u03c6(x\u2082) and has distance > r from x\u2081",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "310:85",
+                    "name": "This greedy algorithm can give a false negative.",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "311:25",
+                    "name": "vertex x\u2081 found by algorithm",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "311:24",
+                    "name": "vertices x\u2081 and x\u2082 needed to satisfy basic local sentence",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "310:94",
+                    "name": "The false negative can only happen if the basic local sentence is witnessed by a pair of vertices at distance \u2264 2r.",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "310:96",
+                    "name": "Such pairs can be found in linear time.",
+                    "disabled": false
+                  }
+                ]
+              },
+              {
+                "type": "show",
+                "id": "310:98",
+                "name": "There are far-reaching generalizations of this result, beyond bounded degree.",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "311:30",
+                "name": "nowhere dense",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "311:31",
+                "name": "twinwidth",
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "Nowhere dense",
+                "id": "310:99",
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "311:4",
+                    "name": "Nowhere dense classes",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "310:110",
+                    "name": "Let C be any of the following graph classes:",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "310:106",
+                    "name": "graphs of degree at most 5",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "310:107",
+                    "name": "graphs of treewidth at most 5",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "310:108",
+                    "name": "planar graphs",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "310:109",
+                    "name": "graphs that avoid the 5-clique as a minor",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "310:105",
+                    "name": "For every first-order sentence \u03c6, there is a linear time algorithm for: input: a graph from C question: does it satisfy \u03c6?",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "310:111",
+                    "name": "All of the above are examples of nowhere dense graph classes.",
+                    "disabled": false
+                  },
+                  {
+                    "type": "child",
+                    "name": "Definition of nowhere dense",
+                    "id": "310:113",
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "310:277",
+                        "name": "Consider a radius r \u2208 {0, 1, ...} and two graphs:",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "311:27",
+                        "name": "H",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "311:28",
+                        "name": "G",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "310:236",
+                        "name": "We say that H is an r-minor of G if one can associate to each vertex of H a subset of vertices in G such that:",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "311:29",
+                        "name": "Group 12",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "310:237",
+                        "name": "1. all subsets are pairwise disjoint and have radius at most r",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "310:238",
+                        "name": "2. if two vertices in H are connected by an edge, then the same is true for the associated subsets in G",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "310:240",
+                        "name": "Definition. [Nesetril and Ossona de Mendez 2011] A class of graphs C is nowhere dense if for every radius r \u2208 {0, 1, ...}, not all graphs are r-minors of C.",
+                        "disabled": false
+                      }
+                    ]
+                  },
+                  {
+                    "type": "child",
+                    "name": "model checking nowhere dense",
+                    "id": "310:283",
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "310:280",
+                        "name": "Let C be a class of graphs closed under subgraphs.",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "310:302",
+                        "name": "Nowhere dense: model checking almost linear",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "311:26",
+                        "name": "Theorem. [Grohe, Kreutzer, Siebertz 2014] If C is nowhere dense and closed under subgraphs, then for every first-order sentence \u03c6, the model checking problem",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "310:301",
+                        "name": "Not nowhere dense: model checking hard",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "310:281",
+                        "name": "If C is not nowhere dense, then for some radius r \u2208 {1, 2, ...} the class every graph as an r-minor.",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "310:288",
+                        "name": "A first-order formula can interpret an r-minor in the bigger graph, and hence, model checking on C is a hard as model checking on the class of all graphs.",
+                        "disabled": false
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "child",
+                "name": "twin-width",
+                "id": "310:103",
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "311:3",
+                    "name": "Bounded twinwidth",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "310:468",
+                    "name": "First-order model checking is linear time on graph classes such as:",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "310:469",
+                    "name": "complements of planar graphs",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "310:471",
+                    "name": "complements of graphs of treewidth at most 5",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "310:470",
+                    "name": "graphs of cliquewidth at most 5",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "310:472",
+                    "name": "These classes are not nowhere dense (and not closed under subgraphs).",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "310:473",
+                    "name": "These are class of bounded twinwidth.",
+                    "disabled": false
+                  },
+                  {
+                    "type": "child",
+                    "name": "twin-width definition",
+                    "id": "310:466",
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "310:454",
+                        "name": "Consider a graph, with a partition of its vertices",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "311:34",
+                        "name": "A",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "310:464",
+                        "name": "Two blocks are consistent if they are connected in the same way:",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "310:457",
+                        "name": "Blocks A and B are consistent, because \u2200a \u2208 A \u2200b \u2208 B edge(a, b)",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "310:462",
+                        "name": "Blocks B and C are consistent, because \u2200b \u2208 B \u2200c \u2208 C \u00ac edge(b, c)",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "310:463",
+                        "name": "Blocks A and C are inconsistent",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "310:458",
+                        "name": "Definition [Bonnet, Kim, Thomass\u00e9, Watrigant 2020] A graph has twinwidth k \u2208 {0, 1, 2, ...} if there is a sequence of partitions P1, ..., Pn on its vertices such that;",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "310:459",
+                        "name": "a) P1 has singleton blocks, Pn partition has one block",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "310:460",
+                        "name": "b) for every i \u2208 {1, ..., n \u2013 1}, Pi+1 is obtained from Pi by merging two blocks",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "310:465",
+                        "name": "c) for every i \u2208 {1, ..., n} and every block A \u2208 Pi, at most k blocks of Pi are inconsistent with A.",
+                        "disabled": false
+                      }
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "311:33",
+                    "name": "Theorem. [Bonnet, Kim, Thomass\u00e9, Watrigant 2020] For every k \u2208 {0, 1, 2, ...} and first-order \u03c6, there is a linear time algorithm for:",
+                    "disabled": false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
