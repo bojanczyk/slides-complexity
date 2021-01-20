@@ -17,9 +17,702 @@
     "310:113": "Definition_of_nowhere_dense",
     "310:283": "model_checking_nowhere_dense",
     "310:103": "twin-width",
-    "310:466": "twin-width_definition"
+    "310:466": "twin-width_definition",
+    "318:0": "examples_of_nowhere_dense_classes",
+    "318:7": "examples_of_twin-width"
   },
-  "soundDict": {},
+  "soundDict": {
+    "102:2": {
+      "0": {
+        "file": "0",
+        "duration": 7.056
+      },
+      "1": {
+        "file": "1",
+        "duration": 19.584
+      },
+      "2": {
+        "file": "2",
+        "duration": 10.944
+      }
+    },
+    "301:3": {
+      "0": {
+        "file": "0",
+        "duration": 1.536
+      },
+      "1": {
+        "file": "1",
+        "duration": 20.256
+      },
+      "2": {
+        "file": "2",
+        "duration": 13.296
+      },
+      "3": {
+        "file": "3",
+        "duration": 21.216
+      },
+      "4": {
+        "file": "4",
+        "duration": 16.536
+      },
+      "5": {
+        "file": "5",
+        "duration": 50.664
+      },
+      "6": {
+        "file": "6",
+        "duration": 22.344
+      },
+      "7": {
+        "file": "7",
+        "duration": 27.384
+      },
+      "8": {
+        "file": "8",
+        "duration": 46.296
+      },
+      "9": {
+        "file": "9",
+        "duration": 39.816
+      },
+      "10": {
+        "file": "10",
+        "duration": 30.936
+      },
+      "11": {
+        "file": "11",
+        "duration": 20.376
+      }
+    },
+    "301:54": {
+      "0": {
+        "file": "0",
+        "duration": 1.344
+      },
+      "1": {
+        "file": "1",
+        "duration": 8.136
+      },
+      "2": {
+        "file": "2",
+        "duration": 20.856
+      },
+      "3": {
+        "file": "3",
+        "duration": 37.344
+      },
+      "4": {
+        "file": "4",
+        "duration": 27.816
+      },
+      "5": {
+        "file": "5",
+        "duration": 34.176
+      },
+      "6": {
+        "file": "6",
+        "duration": 26.664
+      },
+      "7": {
+        "file": "7",
+        "duration": 39.096
+      },
+      "8": {
+        "file": "8",
+        "duration": 48.864
+      }
+    },
+    "301:105": {
+      "0": {
+        "file": "0",
+        "duration": 7.344
+      },
+      "1": {
+        "file": "1",
+        "duration": 7.896
+      },
+      "2": {
+        "file": "2",
+        "duration": 2.184
+      },
+      "3": {
+        "file": "3",
+        "duration": 10.824
+      },
+      "4": {
+        "file": "4",
+        "duration": 5.424
+      },
+      "5": {
+        "file": "5",
+        "duration": 45.096
+      },
+      "6": {
+        "file": "6",
+        "duration": 9.744
+      },
+      "7": {
+        "file": "7",
+        "duration": 29.856
+      },
+      "8": {
+        "file": "8",
+        "duration": 5.136
+      },
+      "9": {
+        "file": "9",
+        "duration": 38.136
+      }
+    },
+    "301:144": {
+      "0": {
+        "file": "0",
+        "duration": 1.704
+      },
+      "1": {
+        "file": "1",
+        "duration": 4.584
+      },
+      "2": {
+        "file": "2",
+        "duration": 31.296
+      },
+      "3": {
+        "file": "3",
+        "duration": 7.704
+      },
+      "4": {
+        "file": "4",
+        "duration": 51.624
+      },
+      "5": {
+        "file": "5",
+        "duration": 43.656
+      },
+      "6": {
+        "file": "6",
+        "duration": 3.936
+      },
+      "7": {
+        "file": "7",
+        "duration": 49.704
+      }
+    },
+    "301:147": {
+      "0": {
+        "file": "0",
+        "duration": 1.944
+      },
+      "1": {
+        "file": "1",
+        "duration": 4.824
+      },
+      "2": {
+        "file": "2",
+        "duration": 72.744
+      },
+      "3": {
+        "file": "3",
+        "duration": 26.736
+      },
+      "4": {
+        "file": "4",
+        "duration": 9.504
+      }
+    },
+    "301:176": {
+      "0": {
+        "file": "0",
+        "duration": 8.064
+      },
+      "1": {
+        "file": "1",
+        "duration": 11.616
+      },
+      "2": {
+        "file": "2",
+        "duration": 3.264
+      },
+      "3": {
+        "file": "3",
+        "duration": 26.616
+      },
+      "4": {
+        "file": "4",
+        "duration": 14.304
+      }
+    },
+    "301:181": {
+      "0": {
+        "file": "0",
+        "duration": 6.624
+      },
+      "1": {
+        "file": "1",
+        "duration": 4.224
+      },
+      "2": {
+        "file": "2",
+        "duration": 8.424
+      },
+      "3": {
+        "file": "3",
+        "duration": 5.856
+      },
+      "4": {
+        "file": "4",
+        "duration": 8.256
+      },
+      "5": {
+        "file": "5",
+        "duration": 4.536
+      },
+      "6": {
+        "file": "6",
+        "duration": 36.696
+      },
+      "7": {
+        "file": "7",
+        "duration": 5.736
+      },
+      "8": {
+        "file": "8",
+        "duration": 0.984
+      },
+      "9": {
+        "file": "9",
+        "duration": 0.384
+      },
+      "10": {
+        "file": "10",
+        "duration": 0.576
+      },
+      "11": {
+        "file": "11",
+        "duration": 21.624
+      },
+      "12": {
+        "file": "12",
+        "duration": 32.496
+      },
+      "13": {
+        "file": "13",
+        "duration": 2.304
+      }
+    },
+    "301:268": {
+      "0": {
+        "file": "0",
+        "duration": 0.216
+      },
+      "1": {
+        "file": "1",
+        "duration": 18.336
+      },
+      "2": {
+        "file": "2",
+        "duration": 13.464
+      },
+      "3": {
+        "file": "3",
+        "duration": 2.184
+      },
+      "4": {
+        "file": "4",
+        "duration": 40.704
+      },
+      "5": {
+        "file": "5",
+        "duration": 17.064
+      },
+      "6": {
+        "file": "6",
+        "duration": 12.744
+      },
+      "7": {
+        "file": "7",
+        "duration": 11.784
+      },
+      "8": {
+        "file": "8",
+        "duration": 9.456
+      },
+      "9": {
+        "file": "9",
+        "duration": 49.776
+      }
+    },
+    "301:271": {
+      "0": {
+        "file": "0",
+        "duration": 1.536
+      },
+      "1": {
+        "file": "1",
+        "duration": 11.784
+      },
+      "2": {
+        "file": "2",
+        "duration": 4.416
+      },
+      "3": {
+        "file": "3",
+        "duration": 5.304
+      },
+      "4": {
+        "file": "4",
+        "duration": 8.256
+      },
+      "5": {
+        "file": "5",
+        "duration": 18.696
+      },
+      "6": {
+        "file": "6",
+        "duration": 13.776
+      },
+      "7": {
+        "file": "7",
+        "duration": 22.536
+      }
+    },
+    "309:125": {
+      "0": {
+        "file": "0",
+        "duration": 3.096
+      },
+      "1": {
+        "file": "1",
+        "duration": 9.744
+      },
+      "2": {
+        "file": "2",
+        "duration": 17.304
+      },
+      "3": {
+        "file": "3",
+        "duration": 23.016
+      },
+      "4": {
+        "file": "4",
+        "duration": 33.144
+      }
+    },
+    "301:315": {
+      "0": {
+        "file": "0",
+        "duration": 1.536
+      },
+      "1": {
+        "file": "1",
+        "duration": 23.064
+      },
+      "2": {
+        "file": "2",
+        "duration": 76.416
+      },
+      "3": {
+        "file": "3",
+        "duration": 16.416
+      },
+      "4": {
+        "file": "4",
+        "duration": 16.584
+      },
+      "5": {
+        "file": "5",
+        "duration": 23.136
+      },
+      "6": {
+        "file": "6",
+        "duration": 19.704
+      },
+      "7": {
+        "file": "7",
+        "duration": 18.336
+      },
+      "8": {
+        "file": "8",
+        "duration": 43.704
+      },
+      "9": {
+        "file": "9",
+        "duration": 29.184
+      },
+      "10": {
+        "file": "10",
+        "duration": 25.584
+      }
+    },
+    "310:99": {
+      "0": {
+        "file": "0",
+        "duration": 3.816
+      },
+      "1": {
+        "file": "1",
+        "duration": 1.176
+      },
+      "2": {
+        "file": "2",
+        "duration": 2.904
+      },
+      "3": {
+        "file": "3",
+        "duration": 5.496
+      },
+      "4": {
+        "file": "4",
+        "duration": 20.424
+      },
+      "5": {
+        "file": "5",
+        "duration": 6.984
+      },
+      "6": {
+        "file": "6",
+        "duration": 12.456
+      },
+      "7": {
+        "file": "7",
+        "duration": 26.184
+      },
+      "8": {
+        "file": "8",
+        "duration": 15.864
+      },
+      "9": {
+        "file": "9",
+        "duration": 16.896
+      },
+      "10": {
+        "file": "10",
+        "duration": 2.976
+      }
+    },
+    "310:113": {
+      "0": {
+        "file": "0",
+        "duration": 6.384
+      },
+      "1": {
+        "file": "1",
+        "duration": 9.744
+      },
+      "2": {
+        "file": "2",
+        "duration": 8.616
+      },
+      "3": {
+        "file": "3",
+        "duration": 2.496
+      },
+      "4": {
+        "file": "4",
+        "duration": 11.544
+      },
+      "5": {
+        "file": "5",
+        "duration": 6.624
+      },
+      "6": {
+        "file": "6",
+        "duration": 15.504
+      },
+      "7": {
+        "file": "7",
+        "duration": 79.824
+      },
+      "8": {
+        "file": "8",
+        "duration": 31.584
+      },
+      "9": {
+        "file": "9",
+        "duration": 10.584
+      }
+    },
+    "318:0": {
+      "0": {
+        "file": "0",
+        "duration": 8.664
+      },
+      "1": {
+        "file": "1",
+        "duration": 40.944
+      },
+      "2": {
+        "file": "2",
+        "duration": 41.424
+      }
+    },
+    "310:283": {
+      "0": {
+        "file": "0",
+        "duration": 0.336
+      },
+      "1": {
+        "file": "1",
+        "duration": 6.216
+      },
+      "2": {
+        "file": "2",
+        "duration": 82.944
+      },
+      "3": {
+        "file": "3",
+        "duration": 43.584
+      },
+      "4": {
+        "file": "4",
+        "duration": 67.776
+      },
+      "5": {
+        "file": "5",
+        "duration": 56.064
+      }
+    },
+    "310:103": {
+      "0": {
+        "file": "0",
+        "duration": 1.536
+      },
+      "1": {
+        "file": "1",
+        "duration": 1.704
+      },
+      "2": {
+        "file": "2",
+        "duration": 12.216
+      },
+      "3": {
+        "file": "3",
+        "duration": 32.184
+      },
+      "4": {
+        "file": "4",
+        "duration": 37.056
+      },
+      "5": {
+        "file": "5",
+        "duration": 19.704
+      },
+      "6": {
+        "file": "6",
+        "duration": 33.384
+      },
+      "7": {
+        "file": "7",
+        "duration": 17.424
+      },
+      "8": {
+        "file": "8",
+        "duration": 2.544
+      },
+      "9": {
+        "file": "9",
+        "duration": 56.256
+      }
+    },
+    "310:466": {
+      "0": {
+        "file": "0",
+        "duration": 2.184
+      },
+      "1": {
+        "file": "1",
+        "duration": 6.576
+      },
+      "2": {
+        "file": "2",
+        "duration": 7.704
+      },
+      "3": {
+        "file": "3",
+        "duration": 6.576
+      },
+      "4": {
+        "file": "4",
+        "duration": 13.704
+      },
+      "5": {
+        "file": "5",
+        "duration": 11.544
+      },
+      "6": {
+        "file": "6",
+        "duration": 10.584
+      },
+      "7": {
+        "file": "7",
+        "duration": 19.944
+      },
+      "8": {
+        "file": "8",
+        "duration": 13.944
+      },
+      "9": {
+        "file": "9",
+        "duration": 7.656
+      },
+      "10": {
+        "file": "10",
+        "duration": 54.576
+      },
+      "11": {
+        "file": "11",
+        "duration": 7.584
+      }
+    },
+    "318:7": {
+      "0": {
+        "file": "0",
+        "duration": 1.296
+      },
+      "1": {
+        "file": "1",
+        "duration": 5.064
+      },
+      "2": {
+        "file": "2",
+        "duration": 6.696
+      },
+      "3": {
+        "file": "3",
+        "duration": 12.984
+      },
+      "4": {
+        "file": "4",
+        "duration": 17.496
+      },
+      "5": {
+        "file": "5",
+        "duration": 1.056
+      },
+      "6": {
+        "file": "6",
+        "duration": 0.864
+      },
+      "7": {
+        "file": "7",
+        "duration": 1.056
+      },
+      "8": {
+        "file": "8",
+        "duration": 22.104
+      },
+      "9": {
+        "file": "9",
+        "duration": 35.424
+      },
+      "10": {
+        "file": "10",
+        "duration": 64.656
+      }
+    }
+  },
   "tree": {
     "type": "child",
     "name": "First slide",
@@ -63,6 +756,36 @@
                 "type": "show",
                 "id": "311:13",
                 "name": "Dominating set of size k:",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "317:127",
+                "name": "Maybe for every first-order sentence \u03c6, there is a linear time algorithm which recognizes graphs where \u03c6 is true?",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "317:128",
+                "name": "The naive algorithm is polynomial, but the degree of the polynomial depends on \u03c6.",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "317:123",
+                "name": "Can be solved in linear time for every k:",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "317:124",
+                "name": "2k O(graph size)",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "317:129",
+                "name": "Conjecture: cannot be solved in time",
                 "disabled": false
               }
             ]
@@ -623,6 +1346,25 @@
                         "id": "310:240",
                         "name": "Definition. [Nesetril and Ossona de Mendez 2011] A class of graphs C is nowhere dense if for every radius r \u2208 {0, 1, ...}, not all graphs are r-minors of C.",
                         "disabled": false
+                      },
+                      {
+                        "type": "child",
+                        "name": "examples of nowhere dense classes",
+                        "id": "318:0",
+                        "children": [
+                          {
+                            "type": "show",
+                            "id": "318:2",
+                            "name": "Example 1. If C has bounded degree, then it is nowhere dense. An r-minor of a graph with degree at most d has degree at most dr +1",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "318:3",
+                            "name": "Example 2. If C has bounded treewidth, then it is nowhere dense. An r-minor of a graph of treewidth k cannot be a (k+1)-clique",
+                            "disabled": false
+                          }
+                        ]
                       }
                     ]
                   },
@@ -631,12 +1373,6 @@
                     "name": "model checking nowhere dense",
                     "id": "310:283",
                     "children": [
-                      {
-                        "type": "show",
-                        "id": "310:280",
-                        "name": "Let C be a class of graphs closed under subgraphs.",
-                        "disabled": false
-                      },
                       {
                         "type": "show",
                         "id": "310:302",
@@ -651,7 +1387,7 @@
                       },
                       {
                         "type": "show",
-                        "id": "310:301",
+                        "id": "318:6",
                         "name": "Not nowhere dense: model checking hard",
                         "disabled": false
                       },
@@ -782,6 +1518,73 @@
                         "id": "310:465",
                         "name": "c) for every i \u2208 {1, ..., n} and every block A \u2208 Pi, at most k blocks of Pi are inconsistent with A.",
                         "disabled": false
+                      },
+                      {
+                        "type": "child",
+                        "name": "examples of twin-width",
+                        "id": "318:7",
+                        "children": [
+                          {
+                            "type": "show",
+                            "id": "318:9",
+                            "name": "Example 1. Every clique has twinwidth 1.",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "318:58",
+                            "name": "Group 13",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "318:65",
+                            "name": "Group 14",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "318:66",
+                            "name": "Rectangle 2",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "318:67",
+                            "name": "Rectangle 3",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "318:68",
+                            "name": "Rectangle 4",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "318:69",
+                            "name": "Rectangle 5",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "318:70",
+                            "name": "Rectangle 6",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "318:71",
+                            "name": "Example 2. If a graph has twinwidth k, then the same is true for its complement.",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "318:78",
+                            "name": "bounded cliquewidth",
+                            "disabled": false
+                          }
+                        ]
                       }
                     ]
                   },
