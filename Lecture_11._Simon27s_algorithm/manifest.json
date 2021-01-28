@@ -1,0 +1,905 @@
+{
+  "presentation": "Lecture 11. Simon's algorithm",
+  "slideDict": {
+    "1:8": "First_slide",
+    "1:15": "testing_n_bits",
+    "2:47": "Simon27s_algorithm",
+    "10:103": "oracle_separation",
+    "8:331": "Simon_overview",
+    "2:158": "The_algorithm",
+    "2:923": "Hadamard_on_zero_bits",
+    "2:1140": "Multiply_vector",
+    "11:9": "eerase_rubbish",
+    "2:1610": "Hadamard_more_exactly",
+    "7:432": "algorithm_test_result",
+    "8:406": "sample_from_vector_space",
+    "10:16": "recover_from_basis"
+  },
+  "soundDict": {
+    "1:8": {
+      "0": {
+        "file": "0"
+      },
+      "1": {
+        "file": "1"
+      },
+      "2": {
+        "file": "2"
+      },
+      "3": {
+        "file": "3"
+      },
+      "4": {
+        "file": "4"
+      }
+    },
+    "1:15": {
+      "0": {
+        "file": "0"
+      },
+      "1": {
+        "file": "1"
+      },
+      "2": {
+        "file": "2"
+      },
+      "3": {
+        "file": "3"
+      },
+      "4": {
+        "file": "4"
+      },
+      "5": {
+        "file": "5"
+      },
+      "6": {
+        "file": "6"
+      }
+    },
+    "2:47": {
+      "0": {
+        "file": "0"
+      },
+      "1": {
+        "file": "1"
+      },
+      "2": {
+        "file": "2"
+      },
+      "3": {
+        "file": "3"
+      },
+      "4": {
+        "file": "4"
+      },
+      "5": {
+        "file": "5"
+      },
+      "6": {
+        "file": "6"
+      }
+    },
+    "10:103": {
+      "0": {
+        "file": "0"
+      },
+      "1": {
+        "file": "1"
+      },
+      "2": {
+        "file": "2"
+      },
+      "3": {
+        "file": "3"
+      },
+      "4": {
+        "file": "4"
+      }
+    },
+    "8:331": {
+      "0": {
+        "file": "0"
+      },
+      "1": {
+        "file": "1"
+      },
+      "2": {
+        "file": "2"
+      },
+      "3": {
+        "file": "3"
+      },
+      "4": {
+        "file": "4"
+      },
+      "5": {
+        "file": "5"
+      },
+      "6": {
+        "file": "6"
+      },
+      "7": {
+        "file": "7"
+      }
+    },
+    "2:158": {
+      "0": {
+        "file": "0"
+      },
+      "1": {
+        "file": "1"
+      },
+      "2": {
+        "file": "2"
+      },
+      "3": {
+        "file": "3"
+      },
+      "4": {
+        "file": "4"
+      },
+      "5": {
+        "file": "5"
+      },
+      "6": {
+        "file": "6"
+      },
+      "7": {
+        "file": "7"
+      },
+      "8": {
+        "file": "8"
+      },
+      "9": {
+        "file": "9"
+      },
+      "10": {
+        "file": "10"
+      },
+      "11": {
+        "file": "11"
+      },
+      "12": {
+        "file": "12"
+      },
+      "13": {
+        "file": "13"
+      },
+      "14": {
+        "file": "14"
+      },
+      "15": {
+        "file": "15"
+      }
+    },
+    "2:923": {
+      "0": {
+        "file": "0"
+      },
+      "1": {
+        "file": "1"
+      },
+      "2": {
+        "file": "2"
+      },
+      "3": {
+        "file": "3"
+      },
+      "4": {
+        "file": "4"
+      }
+    },
+    "2:1140": {
+      "0": {
+        "file": "0"
+      },
+      "1": {
+        "file": "1"
+      },
+      "2": {
+        "file": "2"
+      },
+      "3": {
+        "file": "3"
+      },
+      "4": {
+        "file": "4"
+      },
+      "5": {
+        "file": "5"
+      }
+    },
+    "11:9": {
+      "0": {
+        "file": "0"
+      },
+      "1": {
+        "file": "1"
+      },
+      "2": {
+        "file": "2"
+      },
+      "3": {
+        "file": "3"
+      },
+      "4": {
+        "file": "4"
+      },
+      "5": {
+        "file": "5"
+      },
+      "6": {
+        "file": "6"
+      },
+      "7": {
+        "file": "7"
+      },
+      "8": {
+        "file": "8"
+      },
+      "9": {
+        "file": "9"
+      },
+      "10": {
+        "file": "10"
+      },
+      "11": {
+        "file": "11"
+      }
+    },
+    "2:1610": {
+      "0": {
+        "file": "0"
+      },
+      "1": {
+        "file": "1"
+      },
+      "2": {
+        "file": "2"
+      },
+      "3": {
+        "file": "3"
+      },
+      "4": {
+        "file": "4"
+      }
+    },
+    "7:432": {
+      "0": {
+        "file": "0"
+      },
+      "1": {
+        "file": "1"
+      },
+      "2": {
+        "file": "2"
+      },
+      "3": {
+        "file": "3"
+      },
+      "4": {
+        "file": "4"
+      },
+      "5": {
+        "file": "5"
+      },
+      "6": {
+        "file": "6"
+      },
+      "7": {
+        "file": "7"
+      },
+      "8": {
+        "file": "8"
+      },
+      "9": {
+        "file": "9"
+      },
+      "10": {
+        "file": "10"
+      },
+      "11": {
+        "file": "11"
+      },
+      "12": {
+        "file": "12"
+      }
+    },
+    "8:406": {
+      "0": {
+        "file": "0"
+      },
+      "1": {
+        "file": "1"
+      },
+      "2": {
+        "file": "2"
+      },
+      "3": {
+        "file": "3"
+      },
+      "4": {
+        "file": "4"
+      },
+      "5": {
+        "file": "5"
+      },
+      "6": {
+        "file": "6"
+      },
+      "7": {
+        "file": "7"
+      }
+    },
+    "10:16": {
+      "0": {
+        "file": "0"
+      },
+      "1": {
+        "file": "1"
+      },
+      "2": {
+        "file": "2"
+      },
+      "3": {
+        "file": "3"
+      },
+      "4": {
+        "file": "4"
+      }
+    }
+  },
+  "tree": {
+    "type": "child",
+    "name": "First slide",
+    "id": "1:8",
+    "children": [
+      {
+        "type": "show",
+        "id": "1:13",
+        "name": "The most famous BQP algorithm is Shor\u2019s algorithm: input: a natural number, in binary output: its decomposition into primes",
+        "disabled": false
+      },
+      {
+        "type": "child",
+        "name": "testing n bits",
+        "id": "1:15",
+        "children": [
+          {
+            "type": "show",
+            "id": "2:42",
+            "name": "So far, we have defined BQP algorithms with yes/no outputs.",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "2:43",
+            "name": "One can also consider BQP algorithms that output k > 1 bits.",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "6:4",
+            "name": "Suppose that a quantum circuit with n qubits has computed a vector",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "6:5",
+            "name": "This vector has to be unitary, which means",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "6:6",
+            "name": "If we test the first k bits, then we get output y \u2208 {0,1}k with probability",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "2:45",
+            "name": "A function f: {0, 1}n \u27f6 {0, 1}k is computed by a circuit if for every input w \u2208 {0, 1}n , if we run the circuit on [w\u27e9 and measure the first k bits, then the probability of output f (w) is > 0.6.",
+            "disabled": false
+          }
+        ]
+      },
+      {
+        "type": "show",
+        "id": "1:17",
+        "name": "We discuss Simon\u2019s algorithm, an earlier and simpler quantum algorithm.",
+        "disabled": false
+      },
+      {
+        "type": "child",
+        "name": "Simon's algorithm",
+        "id": "2:47",
+        "children": [
+          {
+            "type": "show",
+            "id": "2:49",
+            "name": "input: a classical circuit C which defines a function f : {0, 1}n \u27f6 {0, 1}",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "11:311",
+            "name": "promise: there is some a \u2208 {0, 1}n such that",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "2:155",
+            "name": "output: a",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "2:156",
+            "name": "Theorem. There is a polynomial quantum algorithm such that if the input function satisfies the promise, then the output of the algorithm is correct, i.e. it is a with probability > 0.6.",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "oracle separation",
+            "id": "10:103",
+            "children": [
+              {
+                "type": "show",
+                "id": "10:106",
+                "name": "If the function f : {0, 1}n \u27f6 {0, 1} is given as a black box, then a randomized polynomial time algorithm cannot find two inputs with the same output.",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "11:312",
+                "name": "Intuition: suppose that we have chosen polynomially many, say n5, inputs independently at random. The probability that some two inputs give the same output is at most",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "11:2",
+                "name": "A randomized polynomial algorithm does not need to sample independently, so the real argument is more inolved.",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "11:8",
+                "name": "Nevertheless, using the black box model and Simon\u2019s algorithm one can show for some oracle A.",
+                "disabled": false
+              }
+            ]
+          },
+          {
+            "type": "child",
+            "name": "Simon overview",
+            "id": "8:331",
+            "children": [
+              {
+                "type": "child",
+                "name": "The algorithm",
+                "id": "2:158",
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "11:314",
+                    "name": "the input is the circuit padded with some ancillas",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "11:315",
+                    "name": "move 2n ancillas to the beginning",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "2:918",
+                    "name": "apply Hadamard to first n bits",
+                    "disabled": false
+                  },
+                  {
+                    "type": "child",
+                    "name": "Hadamard on zero bits",
+                    "id": "2:923",
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "11:338",
+                        "name": "Hadamard does this",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "11:339",
+                        "name": "If we apply it to a basis vector with only 0 bits:",
+                        "disabled": false
+                      },
+                      {
+                        "type": "child",
+                        "name": "Multiply vector",
+                        "id": "2:1140",
+                        "children": [
+                          {
+                            "type": "show",
+                            "id": "2:1252",
+                            "name": "Concatenating vectors",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "11:334",
+                            "name": "Consider an n-qubit vector:",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "11:335",
+                            "name": "And a k-qubit vector:",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "11:336",
+                            "name": "Their concatenation is the (n+k)-qubit vector:",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "11:337",
+                            "name": "Concatenation is linear on both coordinates:",
+                            "disabled": false
+                          }
+                        ]
+                      },
+                      {
+                        "type": "show",
+                        "id": "11:340",
+                        "name": "Then the output is",
+                        "disabled": false
+                      }
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "7:101",
+                    "name": "\\frac 1 {\\sqrt 2^{n}} \\sum_{x \\in \\{0,1\\}^n} [x 0^n C \\bar 0\\rangle",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "2:919",
+                    "name": "compute the value of the circuit and erase the rubbish",
+                    "disabled": false
+                  },
+                  {
+                    "type": "child",
+                    "name": "eerase rubbish",
+                    "id": "11:9",
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "11:325",
+                        "name": "Consider a function which is computed by a classical circuit with m gates.",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "11:326",
+                        "name": "m bits of rubbish, namely the values of all intermiediate gates in the classical circuit.",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "11:32",
+                        "name": "How do we get rid of the rubbish?",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "11:100",
+                        "name": "[x 0^\\ell 0^m \\rangle ",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "11:109",
+                        "name": "run the quantum version Q of the circuit",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "11:243",
+                        "name": "[x 0^\\ell r(x) \\rangle ",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "11:128",
+                        "name": "copy the values of the output gates",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "11:229",
+                        "name": "[x f(x) r(x) \\rangle ",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "11:287",
+                        "name": "a",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "11:181",
+                        "name": "run the reverse of Q",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "11:193",
+                        "name": "[x f(x) 0^m \\rangle ",
+                        "disabled": false
+                      }
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "7:127",
+                    "name": "\\frac 1 {\\sqrt 2^n} \\sum_{x \\in \\{0,1\\}^n}\n [x f(x) C \\bar 0 \\rangle",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "11:316",
+                    "name": "=",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "3:227",
+                    "name": "apply Hadamard to first n bits",
+                    "disabled": false
+                  },
+                  {
+                    "type": "child",
+                    "name": "Hadamard more exactly",
+                    "id": "2:1610",
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "2:1869",
+                        "name": "Hadamard for nonzero inputs",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "11:328",
+                        "name": "Hadamard does this",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "11:329",
+                        "name": "If we apply it to a basis vector which has some 1 bits:",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "11:330",
+                        "name": "where is the number of coordinates where both x and y are 1.",
+                        "disabled": false
+                      }
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "7:1471",
+                    "name": "\\frac 1 {2^{n+1}}  \\sum_{\\substack {x \\in \\{0,1\\}\n^n \\\\ y \\in  \\{0,1\\}^n}} ((-1)^{x \\odot y} + (-1)^{(x \\oplus a) \n\\odot y} ) [y f(x) C \\bar 0\\rangle",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "11:317",
+                    "name": "we get with probability:",
+                    "disabled": false
+                  },
+                  {
+                    "type": "child",
+                    "name": "algorithm test result",
+                    "id": "7:432",
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "11:318",
+                        "name": "Suppose that the vector is",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "11:321",
+                        "name": "Group 49",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "8:295",
+                        "name": "\\alpha_{x,y}",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "8:251",
+                        "name": "= (-1)^{x \\odot y} + (-1)^{x \\odot y + a \\odot y} ",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "8:274",
+                        "name": "= (-1)^{x \\odot y}(1 + (-1)^{a \\odot y} )",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "8:304",
+                        "name": "= \\begin{cases} \n\\pm 2 & \\text{if $a \\odot y$ is even}\\\\\n0 & \\text{otherwise}\n\\end{cases}",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "11:322",
+                        "name": "If we test the first n bits, then the probability of output is:",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "11:323",
+                        "name": "If then this coefficient is",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "7:1001",
+                        "name": "= \\frac {2p_{x,y}} {2^{n+1}}\n",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "7:1315",
+                        "name": "= \\begin{cases}\n \\pm \\frac 1 \n{2^{n-1}} & \\text{if $y \\odot a$ is even}\\\\\n0 & \\text{otherwise}\n\\end{cases}\n",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "11:324",
+                        "name": "Hence the probability is",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "7:1440",
+                        "name": "= \\begin{cases}\n \\frac{1}{2^{n-1}} &\n\\text{if  $y \\odot a$ is even} \\\\\n0 & \\text{otherwise} \n\\end{cases}",
+                        "disabled": false
+                      }
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "7:1150",
+                    "name": "\\begin{cases}\n \\frac{1}{2^{n-1}} &\n\\text{if  $y \\odot a$ is even} \\\\\n0 & \\text{otherwise} \n\\end{cases}",
+                    "disabled": false
+                  }
+                ]
+              },
+              {
+                "type": "show",
+                "id": "11:313",
+                "name": "Using this circuit, we can sample uniformly at random from the set",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "8:405",
+                "name": "This set is a vector space of dimension n \u2013 1, and hence doing O(n) samples gives a basis with probability > 0.6.",
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "sample from vector space",
+                "id": "8:406",
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "10:0",
+                    "name": "We sample vectors from the vector space 2n.",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "10:10",
+                    "name": "What is the expected number of samples needed to get n independent vectors?",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "10:11",
+                    "name": "If we the already sampled vectors span a proper subspace of 2n, then the probability of sampling a new vector which increases the subspace is \u2265 \u00bd.",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "8:431",
+                    "name": "The expected number of samples needed to increase the spanned subspace is \u2264 2.",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "10:13",
+                    "name": "The expected number of samples needed to span the entire space is \u2264 2n.",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "10:14",
+                    "name": "If we sample 6n vectors, then we span the entire space with probability > 0.6.",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "10:15",
+                    "name": "otherwise the expected number would be at least 0.4 \u00d7 6n > 2n",
+                    "disabled": false
+                  }
+                ]
+              },
+              {
+                "type": "show",
+                "id": "8:408",
+                "name": "Using the basis, we can recover a in polynomial time.",
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "recover from basis",
+                "id": "10:16",
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "11:333",
+                    "name": "Suppose that we have a basis for the set",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "11:332",
+                    "name": "For i \u2208 {1, ..., n}, consider the vector",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "11:331",
+                    "name": "This vector belongs to Y if and only if the i-th bit of a is 0.",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "10:100",
+                    "name": "Hence we can compute a in polynomial time.",
+                    "disabled": false
+                  }
+                ]
+              },
+              {
+                "type": "show",
+                "id": "10:101",
+                "name": "This description of Simon\u2019s algorithm runs a quantum circuit O(n) times, and does some post-computation on the tested results. We can however put all of this into a single execution of the quantum circuit, with a single test at the end.",
+                "disabled": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
