@@ -1,0 +1,935 @@
+{
+  "presentation": "Spotlight 2021",
+  "root": "2:0",
+  "slideDict": {
+    "2:0": "First_slide",
+    "3:3": "Mealy_machines",
+    "3:100": "flip-flop",
+    "3:321": "Proof_of_KR_1",
+    "3:195": "Kroh-Rhodes",
+    "3:457": "regular_functions",
+    "3:486": "primes*___E2_8A_86_regular",
+    "3:543": "precomposition_with_reversible",
+    "3:545": "precomposition_with_flip-flop",
+    "3:751": "regular__E2_8A_86_primes*",
+    "3:849": "Polyregular_functions",
+    "3:865": "for_transducers",
+    "3:867": "mso_interpretations",
+    "4:61": "primes*__E2_8A_86_polyregular",
+    "4:63": "polyregular__E2_8A_86_primes*",
+    "4:124": "Conclusions"
+  },
+  "tree": {
+    "type": "child",
+    "name": "First slide",
+    "id": "2:0",
+    "merged": false,
+    "children": [
+      {
+        "type": "show",
+        "id": "3:842",
+        "name": "one-way letter-to-letter deterministic transducers",
+        "merged": false,
+        "children": [],
+        "disabled": false
+      },
+      {
+        "type": "show",
+        "id": "3:843",
+        "name": "a class of string-to-string transducers of linear size increase",
+        "merged": false,
+        "children": [],
+        "disabled": false
+      },
+      {
+        "type": "show",
+        "id": "3:844",
+        "name": "a class of string-to-string transducers of polynomial size increase",
+        "merged": false,
+        "children": [],
+        "disabled": false
+      },
+      {
+        "type": "child",
+        "name": "Mealy machines",
+        "id": "3:3",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "3:835",
+            "name": "A deterministic finite automaton with output letters on transitions, and no accepting states.",
+            "merged": false,
+            "children": [],
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "3:836",
+            "name": "Theorem. [Krohn Rhodes 1962] Every Mealy machine f admits a decomposition",
+            "merged": false,
+            "children": [],
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "flip-flop",
+            "id": "3:100",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "3:102",
+                "name": "A flip-flop machine is parametrised by a partition of the input alphabet Σ into three kinds of letters: neutral, yes, no",
+                "merged": false,
+                "children": [],
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "3:838",
+                "name": "The input word is copied, and each letter is extended with one bit of information: was the most recent non-neutral letter yes or no?",
+                "merged": false,
+                "children": [],
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "3:837",
+                "name": "Can be computed by a two state Mealy machine which is not reversible.",
+                "merged": false,
+                "children": [],
+                "disabled": false
+              }
+            ]
+          },
+          {
+            "type": "child",
+            "name": "Kroh-Rhodes",
+            "id": "3:195",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "3:839",
+                "name": "Lemma. If f admits a decomposition into primes, then the same is true for map(f ):",
+                "merged": false,
+                "children": [],
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "3:319",
+                "name": "Proof of the Krohn Rhodes theorem.",
+                "merged": false,
+                "children": [],
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "Proof of KR 1",
+                "id": "3:321",
+                "merged": false,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "3:323",
+                    "name": "Induction on (a) number of states; (b) size of input alphabet.",
+                    "merged": false,
+                    "children": [],
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "3:324",
+                    "name": "Induction basis. If there is one state, the machine is reversible.",
+                    "merged": false,
+                    "children": [],
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "3:325",
+                    "name": "Induction step. If the machine is reversible, there is nothing to do. Otherwise, some input letter letter a induces a non-reversible state transformation Qa ⊊ Q",
+                    "merged": false,
+                    "children": [],
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "3:424",
+                    "name": "a1",
+                    "merged": false,
+                    "children": [],
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "3:452",
+                    "name": "State transformation for infix that begins in position i and ends in position j.",
+                    "merged": false,
+                    "children": [],
+                    "disabled": false
+                  },
+                  {
+                    "type": "hide",
+                    "id": "3:452",
+                    "name": "State transformation for infix that begins in position i and ends in position j.",
+                    "merged": false,
+                    "children": [],
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "3:425",
+                    "name": "δ0..1",
+                    "merged": false,
+                    "children": [],
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "3:429",
+                    "name": "Compute the state transformations for blocks in (Σ - {a})* This is done using map, and the induction assumption on a smaller alphabet.",
+                    "merged": true,
+                    "children": [],
+                    "disabled": false
+                  },
+                  {
+                    "type": "hide",
+                    "id": "3:429",
+                    "name": "Compute the state transformations for blocks in (Σ - {a})* This is done using map, and the induction assumption on a smaller alphabet.",
+                    "merged": false,
+                    "children": [],
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "3:426",
+                    "name": "δ0..3",
+                    "merged": false,
+                    "children": [],
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "3:431",
+                    "name": "Compute the state transformations for blocks in (Σ - {a})*a This is done by looking at red positions, and their predecessors.",
+                    "merged": true,
+                    "children": [],
+                    "disabled": false
+                  },
+                  {
+                    "type": "hide",
+                    "id": "3:431",
+                    "name": "Compute the state transformations for blocks in (Σ - {a})*a This is done by looking at red positions, and their predecessors.",
+                    "merged": false,
+                    "children": [],
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "3:427",
+                    "name": "δ0..3",
+                    "merged": false,
+                    "children": [],
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "3:432",
+                    "name": "Compute the state transformations for prefixes ending in a This is using the induction assumption on fewer states.",
+                    "merged": true,
+                    "children": [],
+                    "disabled": false
+                  },
+                  {
+                    "type": "hide",
+                    "id": "3:432",
+                    "name": "Compute the state transformations for prefixes ending in a This is using the induction assumption on fewer states.",
+                    "merged": false,
+                    "children": [],
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "3:428",
+                    "name": "q1",
+                    "merged": false,
+                    "children": [],
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "3:433",
+                    "name": "Compute the state in every position. This is done using the labels in the position, and the most recent red position.",
+                    "merged": true,
+                    "children": [],
+                    "disabled": false
+                  },
+                  {
+                    "type": "hide",
+                    "id": "3:433",
+                    "name": "Compute the state in every position. This is done using the labels in the position, and the most recent red position.",
+                    "merged": false,
+                    "children": [],
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "3:434",
+                    "name": "Once the state and input letter are known, the output letter is produced using a one-state transducer.",
+                    "merged": false,
+                    "children": [],
+                    "disabled": false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "child",
+        "name": "regular functions",
+        "id": "3:457",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "3:459",
+            "name": "Some equivalent definitions of regular functions:",
+            "merged": false,
+            "children": [],
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "3:460",
+            "name": "Deterministic 2-way transducers Shepherdson 1959",
+            "merged": false,
+            "children": [],
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "3:462",
+            "name": "MSO transductions Engelfriet, Hogeboom 2001",
+            "merged": false,
+            "children": [],
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "3:461",
+            "name": "Streaming string transducers Alur, Černý 2011",
+            "merged": false,
+            "children": [],
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "3:474",
+            "name": "Regular expressions",
+            "merged": false,
+            "children": [],
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "4:144",
+            "name": "Regular list functions B., Daviaud, Krishna 2019",
+            "merged": false,
+            "children": [],
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "3:845",
+            "name": "Theorem. A function is regular if and only if it is a composition of finitely many prime functions, which are: Mealy machines, map reverse and map duplicate.",
+            "merged": false,
+            "children": [],
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "3:846",
+            "name": "primes* ⊆ regular",
+            "merged": false,
+            "children": [],
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "primes*  ⊆ regular",
+            "id": "3:486",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "3:833",
+                "name": "2-dfa are closed under pre-composition with one prime function",
+                "merged": false,
+                "children": [],
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "3:541",
+                "name": "Case 1. Reversible",
+                "merged": false,
+                "children": [],
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "3:542",
+                "name": "Case 2. Flip-flop",
+                "merged": false,
+                "children": [],
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "3:745",
+                "name": "Case 3. Map reverse and map duplicate",
+                "merged": false,
+                "children": [],
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "precomposition with reversible",
+                "id": "3:543",
+                "merged": false,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "3:601",
+                    "name": "input",
+                    "merged": false,
+                    "children": [],
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "3:831",
+                    "name": "reversible Mealy machine",
+                    "merged": false,
+                    "children": [],
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "3:832",
+                    "name": "two-way deterministic transducer",
+                    "merged": false,
+                    "children": [],
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "3:609",
+                    "name": "We can go directly from input to output, by keeping the state of the reversible Mealy machine in memory.",
+                    "merged": false,
+                    "children": [],
+                    "disabled": false
+                  }
+                ]
+              },
+              {
+                "type": "child",
+                "name": "precomposition with flip-flop",
+                "id": "3:545",
+                "merged": false,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "3:651",
+                    "name": "input",
+                    "merged": false,
+                    "children": [],
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "3:829",
+                    "name": "flip-flop",
+                    "merged": false,
+                    "children": [],
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "3:830",
+                    "name": "two-way deterministic transducer",
+                    "merged": false,
+                    "children": [],
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "3:744",
+                    "name": "We can go directly from input to output, by keeping the yes/no bit in memory. This bit is updated with a little trip whenever a non-neutral letter is crossed.",
+                    "merged": false,
+                    "children": [],
+                    "disabled": false
+                  }
+                ]
+              },
+              {
+                "type": "show",
+                "id": "3:834",
+                "name": "which is a classical result of Hopcroft and Ullman with a nontrivial proof",
+                "merged": false,
+                "children": [],
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "3:746",
+                "name": "Similar to case 2.",
+                "merged": false,
+                "children": [],
+                "disabled": false
+              }
+            ]
+          },
+          {
+            "type": "child",
+            "name": "regular ⊆ primes*",
+            "id": "3:751",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "3:753",
+                "name": "Step 1. primes* can compute factorisation forests. Because factorisation forests can be computed by unambiguous automata with output, which are compositions of Mealy and reverse Mealy",
+                "merged": false,
+                "children": [],
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "3:826",
+                "name": "Step 2. In the presence of a factorisation forest, the behaviour of a 2-dfa reduces to patterns like:",
+                "merged": false,
+                "children": [],
+                "disabled": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "child",
+        "name": "Polyregular functions",
+        "id": "3:849",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "3:851",
+            "name": "Some equivalent definitions of regular functions:",
+            "merged": false,
+            "children": [],
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "3:852",
+            "name": "Deterministic 2-way transducers Shepherdson 1959",
+            "merged": false,
+            "children": [],
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "3:855",
+            "name": "for transducers",
+            "merged": false,
+            "children": [],
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "for transducers",
+            "id": "3:865",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "3:869",
+                "name": "A for transducer",
+                "merged": false,
+                "children": [],
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "4:15",
+                "name": "1 321 54321 7654321",
+                "merged": false,
+                "children": [],
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "4:16",
+                "name": "var b = false for x in first..last b = not b if b for y in last..first if (y ≤ x) if a(y) output a if b(y) output b",
+                "merged": false,
+                "children": [],
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "4:17",
+                "name": "If a for transducer has k nested loops, its output size is O(nk )",
+                "merged": false,
+                "children": [],
+                "disabled": false
+              }
+            ]
+          },
+          {
+            "type": "show",
+            "id": "3:853",
+            "name": "A fragment of λ calculus",
+            "merged": false,
+            "children": [],
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "3:854",
+            "name": "mso interpretations",
+            "merged": false,
+            "children": [],
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "mso interpretations",
+            "id": "3:867",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "4:29",
+                "name": "An MSO interpretation",
+                "merged": false,
+                "children": [],
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "4:30",
+                "name": "1 321 54321 7654321",
+                "merged": false,
+                "children": [],
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "4:34",
+                "name": "In this example, the dimension is k = 2 (quadratic)",
+                "merged": false,
+                "children": [],
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "4:154",
+                "name": "Positions of the output string are pairs (x₁, x₂) which satisfy",
+                "merged": false,
+                "children": [],
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "4:47",
+                "name": "in general, any MSO formula with k arguments",
+                "merged": false,
+                "children": [],
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "4:155",
+                "name": "in general, any MSO formula with 2k arguments which defines a total order",
+                "merged": false,
+                "children": [],
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "4:156",
+                "name": "Positions of the output string with label a are pairs (x₁, x₂) which satisfy",
+                "merged": false,
+                "children": [],
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "4:54",
+                "name": "Important: no stack discipline restriction!",
+                "merged": false,
+                "children": [],
+                "disabled": false
+              }
+            ]
+          },
+          {
+            "type": "show",
+            "id": "4:56",
+            "name": "Theorem. Lhote 2020 Regular = polyregular ∧ linear size increase",
+            "merged": false,
+            "children": [],
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "3:857",
+            "name": "Theorem. A function is regular if and only if it is a composition of finitely many prime functions, which are: Mealy machines, map reverse and map duplicate.",
+            "merged": false,
+            "children": [],
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "4:153",
+            "name": "primes* ⊆ polyregular",
+            "merged": false,
+            "children": [],
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "primes* ⊆ polyregular",
+            "id": "4:61",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "4:104",
+                "name": "We use for transducers. These clearly compute all primes.",
+                "merged": false,
+                "children": [],
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "4:122",
+                "name": "They are also closed under composition.",
+                "merged": false,
+                "children": [],
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "4:157",
+                "name": "for x in first..last for y in last..first for-free code",
+                "merged": false,
+                "children": [],
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "4:158",
+                "name": "for u in first..last for v in last..first for w in last..first for-free code",
+                "merged": false,
+                "children": [],
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "4:121",
+                "name": "The for transducer for the composition is:",
+                "merged": false,
+                "children": [],
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "4:159",
+                "name": "for ux in first..last for uy in last..first",
+                "merged": false,
+                "children": [],
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "4:160",
+                "name": "for vx in last..first for vy in first..last",
+                "merged": false,
+                "children": [],
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "4:161",
+                "name": "for wx in last..first for wy in first..last",
+                "merged": false,
+                "children": [],
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "4:118",
+                "name": "for-free code",
+                "merged": false,
+                "children": [],
+                "disabled": false
+              }
+            ]
+          },
+          {
+            "type": "child",
+            "name": "polyregular ⊆ primes*",
+            "id": "4:63",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "4:65",
+                "name": "for transducers ⊆ regular ◦ square*",
+                "merged": false,
+                "children": [],
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "4:162",
+                "name": "Suppose that the for transducer has two loops:",
+                "merged": false,
+                "children": [],
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "4:163",
+                "name": "If the input word is 1234, the output can be computed by a 2-DFA running on:",
+                "merged": false,
+                "children": [],
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "4:164",
+                "name": "for x in last..first for y in last..first for z in last..first",
+                "merged": false,
+                "children": [],
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "4:165",
+                "name": "If the input word is 1234, the output can be computed by a 2-DFA running on:",
+                "merged": false,
+                "children": [],
+                "disabled": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "child",
+        "name": "Conclusions",
+        "id": "4:124",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "4:143",
+            "name": "Perspectives",
+            "merged": false,
+            "children": [],
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "4:127",
+            "name": "What if we disallow some prime functions?",
+            "merged": false,
+            "children": [],
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "4:128",
+            "name": "First-order fragments = reversible Mealy with > 1 state",
+            "merged": false,
+            "children": [],
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "4:136",
+            "name": "In fact, the first-order fragments seem to be the more fundamental notion, and the theorems about them are the more general ones.",
+            "merged": false,
+            "children": [],
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "4:134",
+            "name": "A weaker form of squaring",
+            "merged": false,
+            "children": [],
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "4:137",
+            "name": "Disallow the underlines: 1234 ↦ 1234 1234 1234 1234 Recent work of Nguyễn (Tito) and Pradic.",
+            "merged": false,
+            "children": [],
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "4:138",
+            "name": "Infinite alphabets",
+            "merged": false,
+            "children": [],
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "4:139",
+            "name": "See the talk by Rafał Stefański",
+            "merged": false,
+            "children": [],
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "4:140",
+            "name": "Trees",
+            "merged": false,
+            "children": [],
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "4:141",
+            "name": "There is no Krohn-Rhodes theorem for tree automata.",
+            "merged": false,
+            "children": [],
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "4:142",
+            "name": "A tree version of regular list functions is given by B. and Doumane 2020.",
+            "merged": false,
+            "children": [],
+            "disabled": false
+          }
+        ]
+      }
+    ]
+  },
+  "soundDict": {}
+}
