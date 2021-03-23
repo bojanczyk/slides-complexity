@@ -68,7 +68,7 @@
           {
             "type": "show",
             "id": "31:889",
-            "name": "Multiplication of Boolean matrices: input: two n \u00d7 n matrices A and B output: the n \u00d7 n matrix AB",
+            "name": "Multiplication of Boolean matrices: input: two n × n matrices A and B output: the n × n matrix AB",
             "disabled": false
           },
           {
@@ -147,7 +147,7 @@
               {
                 "type": "show",
                 "id": "145:54",
-                "name": "To recognise a language L \u2286 {true, false}*, we can use as sequence of circuits",
+                "name": "To recognise a language L ⊆ {true, false}*, we can use as sequence of circuits",
                 "disabled": false
               },
               {
@@ -218,7 +218,7 @@
                   {
                     "type": "show",
                     "id": "31:905",
-                    "name": "LogSpace \u2286 P",
+                    "name": "LogSpace ⊆ P",
                     "disabled": false
                   },
                   {
@@ -297,13 +297,13 @@
                   {
                     "type": "show",
                     "id": "31:897",
-                    "name": "\u2287",
+                    "name": "⊇",
                     "disabled": false
                   },
                   {
                     "type": "show",
                     "id": "31:898",
-                    "name": "\u2286",
+                    "name": "⊆",
                     "disabled": false
                   },
                   {
@@ -315,7 +315,7 @@
                   {
                     "type": "show",
                     "id": "31:877",
-                    "name": "stronger than NP \u2260 P.",
+                    "name": "stronger than NP ≠ P.",
                     "disabled": false
                   }
                 ]
@@ -336,7 +336,7 @@
               {
                 "type": "show",
                 "id": "31:743",
-                "name": "For k \u2208 {0, 1, 2, ...} define:",
+                "name": "For k ∈ {0, 1, 2, ...} define:",
                 "disabled": false
               },
               {
@@ -348,7 +348,7 @@
               {
                 "type": "show",
                 "id": "31:891",
-                "name": "as above, but also every gate has fan-in \u2264 2",
+                "name": "as above, but also every gate has fan-in ≤ 2",
                 "disabled": false
               },
               {
@@ -382,7 +382,7 @@
       {
         "type": "show",
         "id": "31:906",
-        "name": "Next lecture: circuits of polynomial size and bounded depth (AC0), cannot recognise the language \u201ceven number of true\u2019s\u201d",
+        "name": "Next lecture: circuits of polynomial size and bounded depth (AC0), cannot recognise the language “even number of true’s”",
         "disabled": false
       }
     ]
@@ -682,5 +682,6 @@
         "duration": 55.344
       }
     }
-  }
+  },
+  "version": 0.8
 }

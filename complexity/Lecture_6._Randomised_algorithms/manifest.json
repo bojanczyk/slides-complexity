@@ -22,10 +22,6 @@
   },
   "soundDict": {
     "45:2": {
-      "8": {
-        "file": "8",
-        "duration": 24.936
-      },
       "0": {
         "file": "0",
         "duration": 1.296
@@ -58,6 +54,10 @@
         "file": "7",
         "duration": 16.176
       },
+      "8": {
+        "file": "8",
+        "duration": 24.936
+      },
       "9": {
         "file": "9",
         "duration": 76.104
@@ -76,10 +76,6 @@
       }
     },
     "20:18": {
-      "5": {
-        "file": "5",
-        "duration": 25.944
-      },
       "0": {
         "file": "0",
         "duration": 10.656
@@ -100,20 +96,16 @@
         "file": "4",
         "duration": 18.384
       },
+      "5": {
+        "file": "5",
+        "duration": 25.944
+      },
       "6": {
         "file": "6",
         "duration": 14.784
       }
     },
     "19:2": {
-      "3": {
-        "file": "3",
-        "duration": 19.296
-      },
-      "5": {
-        "file": "5",
-        "duration": 14.544
-      },
       "0": {
         "file": "0",
         "duration": 4.056
@@ -126,9 +118,17 @@
         "file": "2",
         "duration": 11.256
       },
+      "3": {
+        "file": "3",
+        "duration": 19.296
+      },
       "4": {
         "file": "4",
         "duration": 12.024
+      },
+      "5": {
+        "file": "5",
+        "duration": 14.544
       },
       "6": {
         "file": "6",
@@ -214,6 +214,10 @@
       }
     },
     "19:15": {
+      "0": {
+        "file": "0",
+        "duration": 3.216
+      },
       "1": {
         "file": "1",
         "duration": 37.776
@@ -221,14 +225,6 @@
       "2": {
         "file": "2",
         "duration": 6.696
-      },
-      "5": {
-        "file": "5",
-        "duration": 35.736
-      },
-      "0": {
-        "file": "0",
-        "duration": 3.216
       },
       "3": {
         "file": "3",
@@ -238,16 +234,16 @@
         "file": "4",
         "duration": 13.344
       },
+      "5": {
+        "file": "5",
+        "duration": 35.736
+      },
       "6": {
         "file": "6",
         "duration": 8.256
       }
     },
     "45:33": {
-      "4": {
-        "file": "4",
-        "duration": 42.384
-      },
       "0": {
         "file": "0",
         "duration": 1.656
@@ -263,6 +259,10 @@
       "3": {
         "file": "3",
         "duration": 24.864
+      },
+      "4": {
+        "file": "4",
+        "duration": 42.384
       }
     },
     "19:25": {
@@ -725,7 +725,7 @@
           {
             "type": "show",
             "id": "19:5",
-            "name": "Def. L \u2208 RP if there is a Turing machine, with access to coin flips, such that:",
+            "name": "Def. L ∈ RP if there is a Turing machine, with access to coin flips, such that:",
             "disabled": false
           },
           {
@@ -737,13 +737,13 @@
           {
             "type": "show",
             "id": "19:7",
-            "name": "2. for inputs w \u2209 L the machine always rejects, regardless of the coin flips",
+            "name": "2. for inputs w ∉ L the machine always rejects, regardless of the coin flips",
             "disabled": false
           },
           {
             "type": "show",
             "id": "19:8",
-            "name": "3. for inputs w \u2208 L the machine accepts with probability >1/2.",
+            "name": "3. for inputs w ∈ L the machine accepts with probability >1/2.",
             "disabled": false
           },
           {
@@ -778,13 +778,13 @@
               {
                 "type": "show",
                 "id": "19:19",
-                "name": "2. for every input v \u2209 L, M(v, w) rejects for every w",
+                "name": "2. for every input v ∉ L, M(v, w) rejects for every w",
                 "disabled": false
               },
               {
                 "type": "show",
                 "id": "37:26",
-                "name": "Prob [M(v, w) accepts] \u2265 1/2",
+                "name": "Prob [M(v, w) accepts] ≥ 1/2",
                 "disabled": false
               },
               {
@@ -851,7 +851,7 @@
               {
                 "type": "show",
                 "id": "45:23",
-                "name": "Answer \u201cprime\u201d if the result is 1, otherwise answer \u201ccomposite\u201d.",
+                "name": "Answer “prime” if the result is 1, otherwise answer “composite”.",
                 "disabled": false
               },
               {
@@ -888,19 +888,19 @@
               {
                 "type": "show",
                 "id": "45:25",
-                "name": "By Fermat\u2019s Little Theorem, if n is prime, then the answer is always \u201cprime\u201d.",
+                "name": "By Fermat’s Little Theorem, if n is prime, then the answer is always “prime”.",
                 "disabled": false
               },
               {
                 "type": "show",
                 "id": "45:26",
-                "name": "If n is composite, then the probability of getting a \u201ccomposite\u201d answer is \u2265 1/2.",
+                "name": "If n is composite, then the probability of getting a “composite” answer is ≥ 1/2.",
                 "disabled": false
               },
               {
                 "type": "show",
                 "id": "45:30",
-                "name": "If Carmichael primes did not exist, the Fermat test would prove Composite \u2208 RP",
+                "name": "If Carmichael primes did not exist, the Fermat test would prove Composite ∈ RP",
                 "disabled": false
               },
               {
@@ -961,7 +961,7 @@
               {
                 "type": "show",
                 "id": "20:17",
-                "name": "If in all experiments, x has value 0 (in modulo arithmetic), then say \u201czero\u201d, otherwise say \u201cnonzero\u201d.",
+                "name": "If in all experiments, x has value 0 (in modulo arithmetic), then say “zero”, otherwise say “nonzero”.",
                 "disabled": false
               },
               {
@@ -984,13 +984,13 @@
                   {
                     "type": "show",
                     "id": "20:271",
-                    "name": "Therefore, assuming r \u2260 0, for each experiment the probability of \u201cnonzero\u201d is \u2265",
+                    "name": "Therefore, assuming r ≠ 0, for each experiment the probability of “nonzero” is ≥",
                     "disabled": false
                   },
                   {
                     "type": "show",
                     "id": "20:226",
-                    "name": "Therefore, assuming r \u2260 0, the probability that all 3n experiments say \u201czero\u201d is",
+                    "name": "Therefore, assuming r ≠ 0, the probability that all 3n experiments say “zero” is",
                     "disabled": false
                   },
                   {
@@ -1090,7 +1090,7 @@
               {
                 "type": "show",
                 "id": "20:577",
-                "name": "If the program describes a nonzero polynomial, then the answer will be nonzero with probability \u2265 50%.",
+                "name": "If the program describes a nonzero polynomial, then the answer will be nonzero with probability ≥ 50%.",
                 "disabled": false
               },
               {
@@ -1231,7 +1231,7 @@
                           {
                             "type": "show",
                             "id": "36:43",
-                            "name": "what we wanted to prove \u27f6",
+                            "name": "what we wanted to prove ⟶",
                             "disabled": false
                           }
                         ]
@@ -1315,7 +1315,7 @@
                   {
                     "type": "show",
                     "id": "112:174",
-                    "name": "each \u03c0 is a candidate for a perfect matching",
+                    "name": "each π is a candidate for a perfect matching",
                     "disabled": false
                   },
                   {
@@ -1350,7 +1350,7 @@
                       {
                         "type": "show",
                         "id": "112:146",
-                        "name": "Since the polynomial has degree n, choosing independently at random number in {1,..,2n} for each variable will give us a nonzero value with probability \u2265 1/2.",
+                        "name": "Since the polynomial has degree n, choosing independently at random number in {1,..,2n} for each variable will give us a nonzero value with probability ≥ 1/2.",
                         "disabled": false
                       },
                       {
@@ -1376,13 +1376,13 @@
       {
         "type": "show",
         "id": "115:2",
-        "name": "w \u2208 L: prob > \u00bd w \u2209 L: prob = 0",
+        "name": "w ∈ L: prob > ½ w ∉ L: prob = 0",
         "disabled": false
       },
       {
         "type": "show",
         "id": "115:3",
-        "name": "w \u2208 L: prob > \u00bd w \u2209 L: prob \u2264 \u00bd",
+        "name": "w ∈ L: prob > ½ w ∉ L: prob ≤ ½",
         "disabled": false
       },
       {
@@ -1399,7 +1399,7 @@
           {
             "type": "show",
             "id": "99:4",
-            "name": "Def. L \u2208 RP if there is a Turing machine, with access to coin flips, such that:",
+            "name": "Def. L ∈ RP if there is a Turing machine, with access to coin flips, such that:",
             "disabled": false
           },
           {
@@ -1411,13 +1411,13 @@
           {
             "type": "show",
             "id": "99:6",
-            "name": "2. for inputs w \u2209 L the machine always rejects, regardless of the coin flips",
+            "name": "2. for inputs w ∉ L the machine always rejects, regardless of the coin flips",
             "disabled": false
           },
           {
             "type": "show",
             "id": "99:7",
-            "name": "3. for inputs w \u2208 L the machine accepts with probability >1/2.",
+            "name": "3. for inputs w ∈ L the machine accepts with probability >1/2.",
             "disabled": false
           },
           {
@@ -1429,7 +1429,7 @@
           {
             "type": "show",
             "id": "99:8",
-            "name": "Example. Here is a PP algorithm that solves Sat (and hence proves NP \u2286 PP).",
+            "name": "Example. Here is a PP algorithm that solves Sat (and hence proves NP ⊆ PP).",
             "disabled": false
           },
           {
@@ -1447,7 +1447,7 @@
           {
             "type": "show",
             "id": "99:12",
-            "name": "If \u201chead\u201d, then accept.",
+            "name": "If “head”, then accept.",
             "disabled": false
           },
           {
@@ -1473,13 +1473,13 @@
       {
         "type": "show",
         "id": "115:6",
-        "name": "w \u2208 L: prob > \u00bd w \u2209 L: prob \u2264 \u00bc",
+        "name": "w ∈ L: prob > ½ w ∉ L: prob ≤ ¼",
         "disabled": false
       },
       {
         "type": "show",
         "id": "115:7",
-        "name": "\u2286",
+        "name": "⊆",
         "disabled": false
       },
       {
@@ -1490,19 +1490,19 @@
           {
             "type": "show",
             "id": "124:318",
-            "name": "w \u2208 L: accepts with prob > 0.5 w \u2209 L: accepts with prob \u2264 0.3",
+            "name": "w ∈ L: accepts with prob > 0.5 w ∉ L: accepts with prob ≤ 0.3",
             "disabled": false
           },
           {
             "type": "show",
             "id": "124:319",
-            "name": "w \u2208 L: accepts with prob > 0.1 + 0.9*0.5 = 0.55 w \u2209 L: accepts with prob \u2264 0.1 + 0.9*0.3 = 0.27",
+            "name": "w ∈ L: accepts with prob > 0.1 + 0.9*0.5 = 0.55 w ∉ L: accepts with prob ≤ 0.1 + 0.9*0.3 = 0.27",
             "disabled": false
           },
           {
             "type": "show",
             "id": "124:320",
-            "name": "w \u2208 L: accepts with prob > 0.99 w \u2209 L: accepts with prob \u2264 0.01",
+            "name": "w ∈ L: accepts with prob > 0.99 w ∉ L: accepts with prob ≤ 0.01",
             "disabled": false
           },
           {
@@ -1525,7 +1525,7 @@
               {
                 "type": "show",
                 "id": "124:3",
-                "name": "What is the probability of the majority not being \u201csuccess\u201d?",
+                "name": "What is the probability of the majority not being “success”?",
                 "disabled": false
               },
               {
@@ -1549,13 +1549,13 @@
               {
                 "type": "show",
                 "id": "124:324",
-                "name": "\u2265",
+                "name": "≥",
                 "disabled": false
               },
               {
                 "type": "show",
                 "id": "124:325",
-                "name": "\u2265",
+                "name": "≥",
                 "disabled": false
               },
               {
@@ -1593,5 +1593,6 @@
         "disabled": false
       }
     ]
-  }
+  },
+  "version": 0.8
 }

@@ -108,7 +108,7 @@
       {
         "type": "show",
         "id": "2:34",
-        "name": "T\u00f3ring machines",
+        "name": "Tóring machines",
         "index": 6,
         "disabled": false
       },
@@ -184,7 +184,7 @@
               {
                 "type": "show",
                 "id": "26:112",
-                "name": "\u2013 an input alphabet \u03a3 \u2013 a work alphabet \u0393, which contains \u03a3 and a blank symbol \u2013 a set of states Q with a designated initial state \u2013 a transition function of the form \u03b4 : Q \u00d7 \u0393 \u27f6 {accept, reject} + (Q \u00d7 \u0393 \u00d7 {prev, stay, next})",
+                "name": "– an input alphabet Σ – a work alphabet Γ, which contains Σ and a blank symbol – a set of states Q with a designated initial state – a transition function of the form δ : Q × Γ ⟶ {accept, reject} + (Q × Γ × {prev, stay, next})",
                 "index": 7,
                 "disabled": false
               },
@@ -196,7 +196,7 @@
                   {
                     "type": "show",
                     "id": "419:147",
-                    "name": "\u03b4 : Q \u00d7 \u0393 \u27f6 {accept, reject} + (Q \u00d7 \u0393 \u00d7 {prev, stay, next})",
+                    "name": "δ : Q × Γ ⟶ {accept, reject} + (Q × Γ × {prev, stay, next})",
                     "disabled": false
                   },
                   {
@@ -237,7 +237,7 @@
                       {
                         "type": "show",
                         "id": "419:202",
-                        "name": "Consider an input string, e.g. abaccbab \u2208 \u03a3*",
+                        "name": "Consider an input string, e.g. abaccbab ∈ Σ*",
                         "disabled": false
                       },
                       {
@@ -256,28 +256,28 @@
                       {
                         "type": "show",
                         "id": "26:176",
-                        "name": "\u2013 an accept transition is used",
+                        "name": "– an accept transition is used",
                         "index": 3,
                         "disabled": false
                       },
                       {
                         "type": "show",
                         "id": "93:17",
-                        "name": "\u2013 a reject transition is used, or the head falls off the tape",
+                        "name": "– a reject transition is used, or the head falls off the tape",
                         "index": 4,
                         "disabled": false
                       },
                       {
                         "type": "show",
                         "id": "93:15",
-                        "name": "\u2013 the run goes on forever, avoiding accept and reject",
+                        "name": "– the run goes on forever, avoiding accept and reject",
                         "index": 6,
                         "disabled": false
                       },
                       {
                         "type": "show",
                         "id": "419:210",
-                        "name": "A Turing machine induces a partial function M : \u03a3* \u27f6 {accept, reject}",
+                        "name": "A Turing machine induces a partial function M : Σ* ⟶ {accept, reject}",
                         "disabled": false
                       }
                     ]
@@ -367,7 +367,7 @@
                   {
                     "type": "show",
                     "id": "90:350",
-                    "name": "The simulating Turing machine runs in time O((running time of while program) \u00d7 polylog(biggest integer used))",
+                    "name": "The simulating Turing machine runs in time O((running time of while program) × polylog(biggest integer used))",
                     "index": 2,
                     "disabled": false
                   },
@@ -398,14 +398,14 @@
           {
             "type": "show",
             "id": "33:229",
-            "name": "A language L \u2286 \u03a3* is decidable if there is a Turing machine which: \u2013 accepts inputs from L \u2013 rejects inputs from outside L",
+            "name": "A language L ⊆ Σ* is decidable if there is a Turing machine which: – accepts inputs from L – rejects inputs from outside L",
             "index": 2,
             "disabled": false
           },
           {
             "type": "show",
             "id": "33:234",
-            "name": "A language L \u2286 \u03a3* is semi-decidable if there is a Turing machine which: \u2013 accepts inputs from L \u2013 rejects or does not terminate on inputs from outside L",
+            "name": "A language L ⊆ Σ* is semi-decidable if there is a Turing machine which: – accepts inputs from L – rejects or does not terminate on inputs from outside L",
             "index": 3,
             "disabled": false
           },
@@ -478,14 +478,14 @@
                   {
                     "type": "show",
                     "id": "99:72",
-                    "name": "if w \u2208 L then: M accepts N rejects or does not terminate",
+                    "name": "if w ∈ L then: M accepts N rejects or does not terminate",
                     "index": 2,
                     "disabled": false
                   },
                   {
                     "type": "show",
                     "id": "99:74",
-                    "name": "if w \u2209 L then: N accepts M rejects or does not terminate",
+                    "name": "if w ∉ L then: N accepts M rejects or does not terminate",
                     "index": 3,
                     "disabled": false
                   },
@@ -553,7 +553,7 @@
                       {
                         "type": "show",
                         "id": "99:96",
-                        "name": "Take any undecidable language L \u2286 \u03a3*.",
+                        "name": "Take any undecidable language L ⊆ Σ*.",
                         "index": 1,
                         "disabled": false
                       },
@@ -574,7 +574,7 @@
                       {
                         "type": "show",
                         "id": "99:110",
-                        "name": "Proof. Otherwise, \u201csearch through all proofs of PA\u201d would be a Turing machine that decides membership in L.",
+                        "name": "Proof. Otherwise, “search through all proofs of PA” would be a Turing machine that decides membership in L.",
                         "index": 4,
                         "disabled": false
                       },
@@ -674,28 +674,28 @@
                   {
                     "type": "show",
                     "id": "99:50",
-                    "name": "configuration 1 on input \u03b5",
+                    "name": "configuration 1 on input ε",
                     "index": 5,
                     "disabled": false
                   },
                   {
                     "type": "show",
                     "id": "99:51",
-                    "name": "configuration 2 on input \u03b5",
+                    "name": "configuration 2 on input ε",
                     "index": 6,
                     "disabled": false
                   },
                   {
                     "type": "show",
                     "id": "99:52",
-                    "name": "configuration 3 on input \u03b5",
+                    "name": "configuration 3 on input ε",
                     "index": 7,
                     "disabled": false
                   },
                   {
                     "type": "show",
                     "id": "99:53",
-                    "name": "configuration 4 on input \u03b5",
+                    "name": "configuration 4 on input ε",
                     "index": 8,
                     "disabled": false
                   },
@@ -829,13 +829,13 @@
                   },
                   {
                     "type": "child",
-                    "name": "Ko\u0142mogorow",
+                    "name": "Kołmogorow",
                     "id": "372:13",
                     "children": [
                       {
                         "type": "show",
                         "id": "372:16",
-                        "name": "For a number n \u2208 {0, 1, 2, ...}, define its Ko\u0142mogorow complexity to be the size of the smallest Turing machine which computes it.",
+                        "name": "For a number n ∈ {0, 1, 2, ...}, define its Kołmogorow complexity to be the size of the smallest Turing machine which computes it.",
                         "disabled": false
                       },
                       {
@@ -853,7 +853,7 @@
                       {
                         "type": "show",
                         "id": "372:25",
-                        "name": "Theorem. The Ko\u0142mogorow complexity cannot be computed.",
+                        "name": "Theorem. The Kołmogorow complexity cannot be computed.",
                         "disabled": false
                       },
                       {
@@ -865,13 +865,13 @@
                       {
                         "type": "show",
                         "id": "372:27",
-                        "name": "Proof. Supppose that Ko\u0142mogorow complexity can be computed by a Turing machine of size 1000.",
+                        "name": "Proof. Supppose that Kołmogorow complexity can be computed by a Turing machine of size 1000.",
                         "disabled": false
                       },
                       {
                         "type": "show",
                         "id": "374:10",
-                        "name": "There is a least number with Ko\u0142mogorow complexity at least 2000.",
+                        "name": "There is a least number with Kołmogorow complexity at least 2000.",
                         "disabled": false
                       },
                       {
@@ -883,7 +883,7 @@
                       {
                         "type": "show",
                         "id": "374:0",
-                        "name": "because we can write a Turing machine of size < 2000, which finds the smallest number of Ko\u0142mogorow complexity at least 2000.",
+                        "name": "because we can write a Turing machine of size < 2000, which finds the smallest number of Kołmogorow complexity at least 2000.",
                         "disabled": false
                       }
                     ]
@@ -915,7 +915,7 @@
           {
             "type": "show",
             "id": "422:0",
-            "name": "\u03b4 : Q \u00d7 \u0393 \u27f6 {accept, reject} + (Q \u00d7 \u0393 \u00d7 {prev, stay, next})",
+            "name": "δ : Q × Γ ⟶ {accept, reject} + (Q × Γ × {prev, stay, next})",
             "disabled": false
           },
           {
@@ -939,13 +939,13 @@
           {
             "type": "show",
             "id": "389:16",
-            "name": "There is a Turing machine such that w \u2208 L \u27fa \u2203 accepting run",
+            "name": "There is a Turing machine such that w ∈ L ⟺ ∃ accepting run",
             "disabled": false
           },
           {
             "type": "show",
             "id": "389:18",
-            "name": "For inputs w \u2209 L, every run either rejects, or does not halt.",
+            "name": "For inputs w ∉ L, every run either rejects, or does not halt.",
             "disabled": false
           },
           {
@@ -957,7 +957,7 @@
           {
             "type": "show",
             "id": "389:22",
-            "name": "There is a Turing machine such that w \u2208 L \u27fa \u2203 accepting run and w \u2209 L \u27fa \u2203 rejecting run",
+            "name": "There is a Turing machine such that w ∈ L ⟺ ∃ accepting run and w ∉ L ⟺ ∃ rejecting run",
             "disabled": false
           },
           {
@@ -986,7 +986,7 @@
               {
                 "type": "show",
                 "id": "389:34",
-                "name": "Proof for nondeterministic semi-decidable \u2286 deterministic semi-decidable.",
+                "name": "Proof for nondeterministic semi-decidable ⊆ deterministic semi-decidable.",
                 "disabled": false
               },
               {
@@ -1059,7 +1059,7 @@
               {
                 "type": "show",
                 "id": "423:102",
-                "name": "M(v, w) \u2208 {accept, reject, undefined}",
+                "name": "M(v, w) ∈ {accept, reject, undefined}",
                 "disabled": false
               },
               {
@@ -1077,7 +1077,7 @@
               {
                 "type": "show",
                 "id": "423:97",
-                "name": "There is a Turing machine such that w \u2208 L \u27fa \u2203 accepting run",
+                "name": "There is a Turing machine such that w ∈ L ⟺ ∃ accepting run",
                 "disabled": false
               },
               {
@@ -1095,7 +1095,7 @@
               {
                 "type": "show",
                 "id": "423:98",
-                "name": "There is a Turing machine such that w \u2208 L \u27fa \u2203 accepting run and w \u2209 L \u27fa \u2203 rejecting run",
+                "name": "There is a Turing machine such that w ∈ L ⟺ ∃ accepting run and w ∉ L ⟺ ∃ rejecting run",
                 "disabled": false
               }
             ]
@@ -2011,5 +2011,6 @@
         "duration": 53.184
       }
     }
-  }
+  },
+  "version": 0.8
 }

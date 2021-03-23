@@ -15,7 +15,10 @@
 <body>
 	<!-- <img id='help-panel' src="img/help.svg"> -->
 
-	<div id='upper-panel'>
+	<div id='loader-text'>
+		Loading slides...
+	</div>
+	<div id='upper-panel' style='opacity:0'>
 		<div id="sketch-panel" class="noselect tool-panel">
 			<i id="sketch-red" class="material-icons selected">edit</i>
 			<i id="sketch-blue" class="material-icons">edit</i>
@@ -25,7 +28,11 @@
 
 		<!-- the left panel, which rolls out, and has information about the slides -->
 		<div id="left-panel">
-			<i id="close-panel" class="material-icons">close</i>
+			<!-- <i id="close-panel" class="material-icons">close</i> -->
+			<div id="made-using-slajdomat">
+				<p id="logo-line">Slajdomat</p>
+				<p id="logo-second-line">zooming slides with Figma</p>
+			</div>
 			<div id='slide-stack-container'>
 				<div id="slide-stack" class="slide-stack">
 				</div>
@@ -48,9 +55,10 @@
 		</div>
 	</div>
 	<!-- contains the timeline slider, the current time, and the buttons for next/previous/play -->
-	<div id="progress-panel">
+	<div id="progress-panel" style='opacity:0'>
 		<!-- the page counter in the lower right corner -->
 		<div id="progress-controls">
+			<i id="open-menu" class="material-icons">menu</i>
 			<i id="prev-event" class="material-icons">navigate_before</i>
 			<i id="play-button" class="material-icons ">play_arrow</i>
 			<i id="next-event" class="material-icons">navigate_next</i>

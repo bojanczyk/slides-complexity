@@ -807,7 +807,7 @@
           {
             "type": "show",
             "id": "1:16",
-            "name": "Recall that a language L \u2286 \u03a3* is in the class BPP iff there is a randomised algorithm A such that:",
+            "name": "Recall that a language L ⊆ Σ* is in the class BPP iff there is a randomised algorithm A such that:",
             "disabled": false
           },
           {
@@ -850,7 +850,7 @@
           {
             "type": "show",
             "id": "1:17",
-            "name": "Theorem. A language L \u2286 {0,1}* is in the class BPP iff there is a family of probabilistic circuits {Cn}n such that",
+            "name": "Theorem. A language L ⊆ {0,1}* is in the class BPP iff there is a family of probabilistic circuits {Cn}n such that",
             "disabled": false
           },
           {
@@ -873,7 +873,7 @@
               {
                 "type": "show",
                 "id": "1:230",
-                "name": "The inclusion circuits \u2286 BPP is immediate, so we focus on the converse inclusion.",
+                "name": "The inclusion circuits ⊆ BPP is immediate, so we focus on the converse inclusion.",
                 "disabled": false
               },
               {
@@ -891,7 +891,7 @@
               {
                 "type": "show",
                 "id": "60:88",
-                "name": "for every cell of the grid, its contents can be represented by log(states \u00d7 alphabet) bits",
+                "name": "for every cell of the grid, its contents can be represented by log(states × alphabet) bits",
                 "disabled": false
               },
               {
@@ -1025,7 +1025,7 @@
                   {
                     "type": "show",
                     "id": "1:1294",
-                    "name": "A probability distribution corresponds to a vector that is stochastic: \u2013 all coefficients are \u2265 0 \u2013 the sum of coefficients is 1",
+                    "name": "A probability distribution corresponds to a vector that is stochastic: – all coefficients are ≥ 0 – the sum of coefficients is 1",
                     "disabled": false
                   }
                 ]
@@ -1039,7 +1039,7 @@
               {
                 "type": "show",
                 "id": "60:93",
-                "name": "(a) instead of probability distributions, we have \u201cquantum distributions\u201d",
+                "name": "(a) instead of probability distributions, we have “quantum distributions”",
                 "disabled": false
               },
               {
@@ -1057,7 +1057,7 @@
               {
                 "type": "show",
                 "id": "1:1120",
-                "name": "(b) the gates are reversible linear maps that preserve \u201cquantum distributions\u201d",
+                "name": "(b) the gates are reversible linear maps that preserve “quantum distributions”",
                 "disabled": false
               }
             ]
@@ -1313,7 +1313,7 @@
                   {
                     "type": "show",
                     "id": "60:507",
-                    "name": "Multiplying a matrix M by a vector v \u2208 gives the output:",
+                    "name": "Multiplying a matrix M by a vector v ∈ gives the output:",
                     "disabled": false
                   },
                   {
@@ -1337,7 +1337,7 @@
                   {
                     "type": "show",
                     "id": "76:83",
-                    "name": "choose columns x \u2260 y which have nozero inner product, and consider the input vector v that has 1 on coordinates x and y, and 0 otherwise.",
+                    "name": "choose columns x ≠ y which have nozero inner product, and consider the input vector v that has 1 on coordinates x and y, and 0 otherwise.",
                     "disabled": false
                   },
                   {
@@ -1430,7 +1430,7 @@
                       {
                         "type": "show",
                         "id": "71:420",
-                        "name": "The Toffoli gate is a 3-qubit gate that simulates \u2227 reversibly",
+                        "name": "The Toffoli gate is a 3-qubit gate that simulates ∧ reversibly",
                         "disabled": false
                       },
                       {
@@ -1562,7 +1562,7 @@
                   {
                     "type": "show",
                     "id": "66:4",
-                    "name": "Suppose that we have an n-qubit circuit, and a ditinguished qubit i \u2208 {1, ..., n}",
+                    "name": "Suppose that we have an n-qubit circuit, and a ditinguished qubit i ∈ {1, ..., n}",
                     "disabled": false
                   },
                   {
@@ -1619,18 +1619,18 @@
               {
                 "type": "show",
                 "id": "71:563",
-                "name": "(b) if w \u2208 {0, 1}* has length n, then",
+                "name": "(b) if w ∈ {0, 1}* has length n, then",
                 "disabled": false
               },
               {
                 "type": "show",
                 "id": "70:250",
-                "name": "Theorem. BPP \u2286 BQP",
+                "name": "Theorem. BPP ⊆ BQP",
                 "disabled": false
               },
               {
                 "type": "child",
-                "name": "BPP \u2286 BQP",
+                "name": "BPP ⊆ BQP",
                 "id": "1:1281",
                 "children": [
                   {
@@ -1677,7 +1677,7 @@
                       {
                         "type": "show",
                         "id": "71:260",
-                        "name": "the uniform proability distribution on {0, 1}\u207f where each basis vector has norm 1/2\u207f .",
+                        "name": "the uniform proability distribution on {0, 1}ⁿ where each basis vector has norm 1/2ⁿ .",
                         "disabled": false
                       }
                     ]
@@ -1707,5 +1707,6 @@
         ]
       }
     ]
-  }
+  },
+  "version": 0.8
 }

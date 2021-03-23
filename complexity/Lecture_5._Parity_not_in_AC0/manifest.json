@@ -38,7 +38,7 @@
       {
         "type": "show",
         "id": "144:335",
-        "name": "Corollary. Since parity is in NC1, it follows that AC0 \u228a NC1",
+        "name": "Corollary. Since parity is in NC1, it follows that AC0 ⊊ NC1",
         "disabled": false
       },
       {
@@ -49,7 +49,7 @@
           {
             "type": "show",
             "id": "144:258",
-            "name": "Lemma. The language Parity \u2286 {true, false}* is in NC",
+            "name": "Lemma. The language Parity ⊆ {true, false}* is in NC",
             "disabled": false
           },
           {
@@ -268,7 +268,7 @@
               {
                 "type": "show",
                 "id": "151:79",
-                "name": "Gives 1 if all variables are \u201cfalse\u201d, otherwise 0.",
+                "name": "Gives 1 if all variables are “false”, otherwise 0.",
                 "disabled": false
               },
               {
@@ -299,7 +299,7 @@
               {
                 "type": "show",
                 "id": "21:586",
-                "name": "Assume that for every n, disjunction is represented by some polynomial of degree \u2264 5.",
+                "name": "Assume that for every n, disjunction is represented by some polynomial of degree ≤ 5.",
                 "disabled": false
               },
               {
@@ -387,7 +387,7 @@
           {
             "type": "show",
             "id": "150:19",
-            "name": "Lemma 2 The conclusion of Lemma 1 cannot hold, and therefore parity \u2209 AC0.",
+            "name": "Lemma 2 The conclusion of Lemma 1 cannot hold, and therefore parity ∉ AC0.",
             "disabled": false
           },
           {
@@ -464,7 +464,7 @@
               {
                 "type": "show",
                 "id": "150:153",
-                "name": "degree \u2264 n / 2",
+                "name": "degree ≤ n / 2",
                 "disabled": false
               },
               {
@@ -529,7 +529,7 @@
                       {
                         "type": "show",
                         "id": "21:631",
-                        "name": "some number that tends to 1, as n tends to \u221e",
+                        "name": "some number that tends to 1, as n tends to ∞",
                         "disabled": false
                       },
                       {
@@ -553,7 +553,7 @@
                       {
                         "type": "show",
                         "id": "21:634",
-                        "name": "this number has a limit (as n tends to \u221e), which is less than 1.",
+                        "name": "this number has a limit (as n tends to ∞), which is less than 1.",
                         "disabled": false
                       },
                       {
@@ -595,7 +595,7 @@
               {
                 "type": "show",
                 "id": "21:639",
-                "name": "Define an approximate \u2228 gate as follows:",
+                "name": "Define an approximate ∨ gate as follows:",
                 "disabled": false
               },
               {
@@ -612,7 +612,7 @@
                   {
                     "type": "show",
                     "id": "144:386",
-                    "name": "true if input is \u22600, false if input is zero",
+                    "name": "true if input is ≠0, false if input is zero",
                     "disabled": false
                   },
                   {
@@ -626,7 +626,7 @@
               {
                 "type": "show",
                 "id": "19:2",
-                "name": "Consider a circuit with only \u2228 and \u00ac gates, and let t \u2208 {1, 2, ...}.",
+                "name": "Consider a circuit with only ∨ and ¬ gates, and let t ∈ {1, 2, ...}.",
                 "disabled": false
               },
               {
@@ -638,7 +638,7 @@
               {
                 "type": "show",
                 "id": "21:640",
-                "name": "replacing each \u2228 gate",
+                "name": "replacing each ∨ gate",
                 "disabled": false
               },
               {
@@ -738,7 +738,7 @@
                       {
                         "type": "show",
                         "id": "151:219",
-                        "name": "if we randomly select a subset X of inputs for this gate, then incorrect \u201cfalse\u201d output iff |X \u2229 Y| = 0 mod 3",
+                        "name": "if we randomly select a subset X of inputs for this gate, then incorrect “false” output iff |X ∩ Y| = 0 mod 3",
                         "disabled": false
                       },
                       {
@@ -1468,5 +1468,6 @@
         "duration": 118.536
       }
     }
-  }
+  },
+  "version": 0.8
 }

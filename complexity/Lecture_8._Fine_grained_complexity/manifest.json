@@ -544,7 +544,7 @@
           {
             "type": "show",
             "id": "88:5",
-            "name": "(x1 \u2228 \u00acx2 \u2228 x3) \u2227 ( \u00acx3 \u2228 \u00acx4 \u2228 x5) \u2227 (\u00acx1 \u2228 \u00acx4 \u2228 x6) \u2227 (x2 \u2228 x3 \u2228 \u00acx6)",
+            "name": "(x1 ∨ ¬x2 ∨ x3) ∧ ( ¬x3 ∨ ¬x4 ∨ x5) ∧ (¬x1 ∨ ¬x4 ∨ x6) ∧ (x2 ∨ x3 ∨ ¬x6)",
             "disabled": false
           },
           {
@@ -579,7 +579,7 @@
               {
                 "type": "show",
                 "id": "67:202",
-                "name": "if the subformula is , then we use the same idea, and \u2228 is treated using DeMorgan\u2019s laws.",
+                "name": "if the subformula is , then we use the same idea, and ∨ is treated using DeMorgan’s laws.",
                 "disabled": false
               },
               {
@@ -599,7 +599,7 @@
           {
             "type": "show",
             "id": "81:3",
-            "name": "SAT solvers in this year\u2019s SAT competition take 15 minutes to solve 3-CNF-SAT instances with millions of clauses.",
+            "name": "SAT solvers in this year’s SAT competition take 15 minutes to solve 3-CNF-SAT instances with millions of clauses.",
             "disabled": false
           },
           {
@@ -622,7 +622,7 @@
               {
                 "type": "show",
                 "id": "17:18",
-                "name": "Exponential Time Hypothesis There is some 0 < \u03bb \u2264 1 such that SAT cannot be solved faster than",
+                "name": "Exponential Time Hypothesis There is some 0 < λ ≤ 1 such that SAT cannot be solved faster than",
                 "disabled": false
               },
               {
@@ -633,7 +633,7 @@
                   {
                     "type": "show",
                     "id": "88:14",
-                    "name": "for every \u03bb > 0 3-CNF-SAT can be solved in time",
+                    "name": "for every λ > 0 3-CNF-SAT can be solved in time",
                     "disabled": false
                   },
                   {
@@ -645,37 +645,37 @@
                   {
                     "type": "show",
                     "id": "88:13",
-                    "name": "for every \u03bb > 0 3-CNF-SAT can be solved in time",
+                    "name": "for every λ > 0 3-CNF-SAT can be solved in time",
                     "disabled": false
                   },
                   {
                     "type": "show",
                     "id": "88:12",
-                    "name": "for every \u03bb > 0 SAT can be solved in time",
+                    "name": "for every λ > 0 SAT can be solved in time",
                     "disabled": false
                   },
                   {
                     "type": "show",
                     "id": "31:32",
-                    "name": "\u27f9",
+                    "name": "⟹",
                     "disabled": false
                   },
                   {
                     "type": "show",
                     "id": "31:33",
-                    "name": "\u27f9",
+                    "name": "⟹",
                     "disabled": false
                   },
                   {
                     "type": "show",
                     "id": "88:16",
-                    "name": "\u27f9",
+                    "name": "⟹",
                     "disabled": false
                   },
                   {
                     "type": "show",
                     "id": "31:39",
-                    "name": "\u27f9",
+                    "name": "⟹",
                     "disabled": false
                   },
                   {
@@ -692,7 +692,7 @@
                       {
                         "type": "show",
                         "id": "88:20",
-                        "name": "To show: for every \u03bb > 0, we can solve 3-CNF-SAT in time",
+                        "name": "To show: for every λ > 0, we can solve 3-CNF-SAT in time",
                         "disabled": false
                       },
                       {
@@ -703,19 +703,19 @@
                           {
                             "type": "show",
                             "id": "88:27",
-                            "name": "Sparsification For every \u03b5 > 0, given a 3-CNF formula \u03c6 one can compute a set \u03a6 of 3-CNF-formulas such that:",
+                            "name": "Sparsification For every ε > 0, given a 3-CNF formula φ one can compute a set Φ of 3-CNF-formulas such that:",
                             "disabled": false
                           },
                           {
                             "type": "show",
                             "id": "31:48",
-                            "name": "- \u03c6 is satisfiabile if and only if at least one formula from \u03a6 is satisfiable",
+                            "name": "- φ is satisfiabile if and only if at least one formula from Φ is satisfiable",
                             "disabled": false
                           },
                           {
                             "type": "show",
                             "id": "88:28",
-                            "name": "- every formula from \u03a6 has size at most C(\u03b5) \u00d7 (number of variables in \u03c6)",
+                            "name": "- every formula from Φ has size at most C(ε) × (number of variables in φ)",
                             "disabled": false
                           }
                         ]
@@ -723,19 +723,19 @@
                       {
                         "type": "show",
                         "id": "31:57",
-                        "name": "Proof. Let \u03bb > 0 and choose some small \u03b4 (see below).",
+                        "name": "Proof. Let λ > 0 and choose some small δ (see below).",
                         "disabled": false
                       },
                       {
                         "type": "show",
                         "id": "32:49",
-                        "name": "Given a 3-CNF formula \u03c6, use the Sparsification Lemma for \u03bb/2, yielding \u03a6.",
+                        "name": "Given a 3-CNF formula φ, use the Sparsification Lemma for λ/2, yielding Φ.",
                         "disabled": false
                       },
                       {
                         "type": "show",
                         "id": "32:37",
-                        "name": "Using the assumption for \u03b4, we check if some formula from \u03a6 is satisfiable in time:",
+                        "name": "Using the assumption for δ, we check if some formula from Φ is satisfiable in time:",
                         "disabled": false
                       },
                       {
@@ -747,25 +747,25 @@
                       {
                         "type": "show",
                         "id": "88:22",
-                        "name": "number of formulas in \u03a6",
+                        "name": "number of formulas in Φ",
                         "disabled": false
                       },
                       {
                         "type": "show",
                         "id": "88:25",
-                        "name": "size of each formula in \u03a6",
+                        "name": "size of each formula in Φ",
                         "disabled": false
                       },
                       {
                         "type": "show",
                         "id": "88:24",
-                        "name": "time to compute satisfiability, from assumption for \u03b4",
+                        "name": "time to compute satisfiability, from assumption for δ",
                         "disabled": false
                       },
                       {
                         "type": "show",
                         "id": "88:26",
-                        "name": "If \u03b4 is small enough, then \u03bb/2 + \u03b4C(\u03bb) < \u03bb, and the running time is at most:",
+                        "name": "If δ is small enough, then λ/2 + δC(λ) < λ, and the running time is at most:",
                         "disabled": false
                       }
                     ]
@@ -904,19 +904,19 @@
               {
                 "type": "show",
                 "id": "17:20",
-                "name": "This Lecture\u2019s Strong Exponential Time Hypothesis",
+                "name": "This Lecture’s Strong Exponential Time Hypothesis",
                 "disabled": false
               },
               {
                 "type": "show",
                 "id": "16:105",
-                "name": "\u27f9",
+                "name": "⟹",
                 "disabled": false
               },
               {
                 "type": "show",
                 "id": "16:112",
-                "name": "We will prove This Lecture\u2019s SETH implies something, and the same will hold for Genuine SETH.",
+                "name": "We will prove This Lecture’s SETH implies something, and the same will hold for Genuine SETH.",
                 "disabled": false
               }
             ]
@@ -935,7 +935,7 @@
               {
                 "type": "show",
                 "id": "5:33",
-                "name": "(x1 \u2228 \u00acx2 \u2228 x3) \u2227 ( \u00acx3 \u2228 \u00acx4 \u2228 x5) \u2227 (\u00acx1 \u2228 \u00acx4 \u2228 x6) \u2227 (x2 \u2228 x3 \u2228 \u00acx6)",
+                "name": "(x1 ∨ ¬x2 ∨ x3) ∧ ( ¬x3 ∨ ¬x4 ∨ x5) ∧ (¬x1 ∨ ¬x4 ∨ x6) ∧ (x2 ∨ x3 ∨ ¬x6)",
                 "disabled": false
               },
               {
@@ -1082,7 +1082,7 @@
           {
             "type": "show",
             "id": "17:35",
-            "name": "Running time: (size of NFA) \u00d7 (length of input word)",
+            "name": "Running time: (size of NFA) × (length of input word)",
             "disabled": false
           },
           {
@@ -1129,7 +1129,7 @@
                   {
                     "type": "show",
                     "id": "17:42",
-                    "name": "For every vector v, we write an automaton that recognises the language: \u201clists of vectors that contain at least one vector orthogonal to v\u201d",
+                    "name": "For every vector v, we write an automaton that recognises the language: “lists of vectors that contain at least one vector orthogonal to v”",
                     "disabled": false
                   },
                   {
@@ -1141,7 +1141,7 @@
                   {
                     "type": "show",
                     "id": "16:405",
-                    "name": "\u201clists of vectors that contain at least one vector orthogonal to some v \u2208 V\u201d",
+                    "name": "“lists of vectors that contain at least one vector orthogonal to some v ∈ V”",
                     "disabled": false
                   }
                 ]
@@ -1149,7 +1149,7 @@
               {
                 "type": "show",
                 "id": "17:38",
-                "name": "both of these have size: (number of vectors) \u00d7 dimension",
+                "name": "both of these have size: (number of vectors) × dimension",
                 "disabled": false
               },
               {
@@ -1169,5 +1169,6 @@
         ]
       }
     ]
-  }
+  },
+  "version": 0.8
 }

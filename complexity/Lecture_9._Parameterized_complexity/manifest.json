@@ -890,7 +890,7 @@
           {
             "type": "show",
             "id": "1:58",
-            "name": "The following problem is NP-complete: Input. A graph and a number k. Question. Is there a vertex cover of size \u2264 k?",
+            "name": "The following problem is NP-complete: Input. A graph and a number k. Question. Is there a vertex cover of size ≤ k?",
             "disabled": false
           },
           {
@@ -918,7 +918,7 @@
                   {
                     "type": "show",
                     "id": "7:91",
-                    "name": "\u00aca",
+                    "name": "¬a",
                     "disabled": false
                   },
                   {
@@ -978,7 +978,7 @@
                   {
                     "type": "show",
                     "id": "11:9",
-                    "name": "\u27f9",
+                    "name": "⟹",
                     "disabled": false
                   },
                   {
@@ -1014,7 +1014,7 @@
                   {
                     "type": "show",
                     "id": "11:8",
-                    "name": "\u27f9",
+                    "name": "⟹",
                     "disabled": false
                   },
                   {
@@ -1065,7 +1065,7 @@
               {
                 "type": "show",
                 "id": "21:329",
-                "name": "Algorithm 1. Search all subsets of size \u2264 k",
+                "name": "Algorithm 1. Search all subsets of size ≤ k",
                 "disabled": false
               },
               {
@@ -1130,7 +1130,7 @@
                   {
                     "type": "show",
                     "id": "11:150",
-                    "name": "If k vertices are \u201cyes\u201d then stop.",
+                    "name": "If k vertices are “yes” then stop.",
                     "disabled": false
                   },
                   {
@@ -1142,13 +1142,13 @@
                   {
                     "type": "show",
                     "id": "44:1",
-                    "name": "If all neighbours of v are decided, make v \u201cyes\u201d if it has some \u201cno\u201d neighbour, and \u201cno\u201d otherwise. Try the next v.",
+                    "name": "If all neighbours of v are decided, make v “yes” if it has some “no” neighbour, and “no” otherwise. Try the next v.",
                     "disabled": false
                   },
                   {
                     "type": "show",
                     "id": "44:3",
-                    "name": "If all neighbours of v are decided, make v \u201cyes\u201d if it has some \u201cno\u201d neighbour, and \u201cno\u201d otherwise. Try the next v.",
+                    "name": "If all neighbours of v are decided, make v “yes” if it has some “no” neighbour, and “no” otherwise. Try the next v.",
                     "disabled": false
                   },
                   {
@@ -1160,13 +1160,13 @@
                   {
                     "type": "show",
                     "id": "11:81",
-                    "name": "1. set v to \u201cyes\u201d, and recurse",
+                    "name": "1. set v to “yes”, and recurse",
                     "disabled": false
                   },
                   {
                     "type": "show",
                     "id": "11:82",
-                    "name": "2. set v to \u201cno\u201d, set all of its undecided neighbours to \u201cyes\u201d, and recurse",
+                    "name": "2. set v to “no”, set all of its undecided neighbours to “yes”, and recurse",
                     "disabled": false
                   },
                   {
@@ -1227,7 +1227,7 @@
                   {
                     "type": "show",
                     "id": "11:216",
-                    "name": "Proof. Our reduction from 3-CNF-SAT to vertex cover created an instance where both the number of vertices and cover size are \u2264 2(number of clauses).",
+                    "name": "Proof. Our reduction from 3-CNF-SAT to vertex cover created an instance where both the number of vertices and cover size are ≤ 2(number of clauses).",
                     "disabled": false
                   },
                   {
@@ -1258,7 +1258,7 @@
                   {
                     "type": "show",
                     "id": "34:0",
-                    "name": "formally: L \u2286 \u03a3* \u00d7 {1, 2, ...}",
+                    "name": "formally: L ⊆ Σ* × {1, 2, ...}",
                     "disabled": false
                   },
                   {
@@ -1276,13 +1276,13 @@
                   {
                     "type": "show",
                     "id": "21:300",
-                    "name": "Does a graph of size n have a vertex cover of size \u2264 k?",
+                    "name": "Does a graph of size n have a vertex cover of size ≤ k?",
                     "disabled": false
                   },
                   {
                     "type": "show",
                     "id": "21:301",
-                    "name": "Does a graph of size n contain a clique of size \u2264 k?",
+                    "name": "Does a graph of size n contain a clique of size ≤ k?",
                     "disabled": false
                   },
                   {
@@ -1378,7 +1378,7 @@
                       {
                         "type": "show",
                         "id": "15:20",
-                        "name": "Definition. A graph has treewidth k \u2208 {1,2, ...} if it can be constructed using the following operations, so that in every moment at most k+1 ports are used.",
+                        "name": "Definition. A graph has treewidth k ∈ {1,2, ...} if it can be constructed using the following operations, so that in every moment at most k+1 ports are used.",
                         "disabled": false
                       },
                       {
@@ -1530,7 +1530,7 @@
                       {
                         "type": "show",
                         "id": "21:285",
-                        "name": "Theorem. Bodlander Given k \u2208 {1, 2, ...} and a graph, one can compute a width k tree decomposition, or say that one does not exist, in time",
+                        "name": "Theorem. Bodlander Given k ∈ {1, 2, ...} and a graph, one can compute a width k tree decomposition, or say that one does not exist, in time",
                         "disabled": false
                       },
                       {
@@ -1542,7 +1542,7 @@
                       {
                         "type": "show",
                         "id": "21:222",
-                        "name": "for graphs of treewidth k, number of edges \u2264 (k+1)2 \u00d7 (number of vertices)",
+                        "name": "for graphs of treewidth k, number of edges ≤ (k+1)2 × (number of vertices)",
                         "disabled": false
                       }
                     ]
@@ -1701,7 +1701,7 @@
                       {
                         "type": "show",
                         "id": "27:39",
-                        "name": "The Turing machine has an accepting computation of length \u2264 k3",
+                        "name": "The Turing machine has an accepting computation of length ≤ k3",
                         "disabled": false
                       },
                       {
@@ -1713,7 +1713,7 @@
                       {
                         "type": "show",
                         "id": "27:7",
-                        "name": "for every i < j \u2208 {1,.., k}, the i-th and j-th letters in the input word describe an edge in the graph",
+                        "name": "for every i < j ∈ {1,.., k}, the i-th and j-th letters in the input word describe an edge in the graph",
                         "disabled": false
                       },
                       {
@@ -1731,7 +1731,7 @@
                       {
                         "type": "show",
                         "id": "28:10",
-                        "name": "\u27f9",
+                        "name": "⟹",
                         "disabled": false
                       },
                       {
@@ -1833,7 +1833,7 @@
                           {
                             "type": "show",
                             "id": "26:119",
-                            "name": "The existence of such a computation can be rephrased as the existence of a a clique of size (k \u2013 2) \u00d7 (k \u2013 1) inside a graph of size poly(M)",
+                            "name": "The existence of such a computation can be rephrased as the existence of a a clique of size (k – 2) × (k – 1) inside a graph of size poly(M)",
                             "disabled": false
                           },
                           {
@@ -1886,7 +1886,7 @@
                               {
                                 "type": "show",
                                 "id": "26:700",
-                                "name": "There is an accepting computation of length k iff The graph of windows contains a clique of size (k \u2013 2) \u00d7 (k \u2013 1)",
+                                "name": "There is an accepting computation of length k iff The graph of windows contains a clique of size (k – 2) × (k – 1)",
                                 "disabled": false
                               }
                             ]
@@ -1944,5 +1944,6 @@
         ]
       }
     ]
-  }
+  },
+  "version": 0.8
 }

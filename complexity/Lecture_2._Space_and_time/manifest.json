@@ -49,7 +49,7 @@
           {
             "type": "show",
             "id": "68:17",
-            "name": "Polynomial time: problems that can be solved by a Turing machine whose running time is \u2264 p(n) for some polynomial p.",
+            "name": "Polynomial time: problems that can be solved by a Turing machine whose running time is ≤ p(n) for some polynomial p.",
             "disabled": false
           },
           {
@@ -177,7 +177,7 @@
           {
             "type": "show",
             "id": "48:61",
-            "name": "For k \u2208 {1, 2, ...} consider the following Turing machine N[k]:",
+            "name": "For k ∈ {1, 2, ...} consider the following Turing machine N[k]:",
             "disabled": false
           },
           {
@@ -239,7 +239,7 @@
           {
             "type": "show",
             "id": "216:27",
-            "name": "Polynomial space: problems that can be solved by a Turing machine whose space complexity is \u2264 p(n) for some polynomial p.",
+            "name": "Polynomial space: problems that can be solved by a Turing machine whose space complexity is ≤ p(n) for some polynomial p.",
             "disabled": false
           },
           {
@@ -274,7 +274,7 @@
               {
                 "type": "show",
                 "id": "128:936",
-                "name": "PSpace \u2286 ExpTime",
+                "name": "PSpace ⊆ ExpTime",
                 "disabled": false
               },
               {
@@ -406,7 +406,7 @@
       {
         "type": "show",
         "id": "51:439",
-        "name": "Savitch\u2019s theorem: Nondeterministic polynomial space = deterministic polynomial space",
+        "name": "Savitch’s theorem: Nondeterministic polynomial space = deterministic polynomial space",
         "disabled": false
       },
       {
@@ -470,7 +470,7 @@
               {
                 "type": "show",
                 "id": "51:498",
-                "name": "To prove Savitch\u2019s theorem, for a nondeterministic Turing machine that runs in space p(n), we run this program for: source = initial configuration target = accepting configuration n = log k \u00d7 p(n) m = p(n)",
+                "name": "To prove Savitch’s theorem, for a nondeterministic Turing machine that runs in space p(n), we run this program for: source = initial configuration target = accepting configuration n = log k × p(n) m = p(n)",
                 "disabled": false
               }
             ]
@@ -480,7 +480,7 @@
       {
         "type": "show",
         "id": "51:438",
-        "name": "Sipser\u2019s theorem: machines with finite space can be forced to halt",
+        "name": "Sipser’s theorem: machines with finite space can be forced to halt",
         "disabled": false
       },
       {
@@ -515,7 +515,7 @@
           {
             "type": "show",
             "id": "51:291",
-            "name": "2. if M uses n < \u221e memory cells, then N halts and also uses n cells.",
+            "name": "2. if M uses n < ∞ memory cells, then N halts and also uses n cells.",
             "disabled": false
           },
           {
@@ -526,7 +526,7 @@
               {
                 "type": "show",
                 "id": "51:373",
-                "name": "Consider the graph of configurations that use memory \u2264 m",
+                "name": "Consider the graph of configurations that use memory ≤ m",
                 "disabled": false
               },
               {
@@ -592,7 +592,7 @@
               {
                 "type": "show",
                 "id": "210:3497",
-                "name": "If there are 0 such terminals, the machine loops in memory \u2264 m.",
+                "name": "If there are 0 such terminals, the machine loops in memory ≤ m.",
                 "disabled": false
               },
               {
@@ -885,7 +885,7 @@
                   {
                     "type": "show",
                     "id": "133:787",
-                    "name": "guesses if the vertex u is reachable via a path of at most d\u20131 edges. If the guess is wrong, the program will eventually fail.",
+                    "name": "guesses if the vertex u is reachable via a path of at most d–1 edges. If the guess is wrong, the program will eventually fail.",
                     "disabled": false
                   },
                   {
@@ -903,7 +903,7 @@
                   {
                     "type": "show",
                     "id": "128:911",
-                    "name": "if there was an incorrect \u201ctrue\u201d guess, then this will fail",
+                    "name": "if there was an incorrect “true” guess, then this will fail",
                     "disabled": false
                   },
                   {
@@ -933,7 +933,7 @@
                   {
                     "type": "show",
                     "id": "133:789",
-                    "name": "if there was an incorrect \u201cfalse\u201d guess, then this will fail",
+                    "name": "if there was an incorrect “false” guess, then this will fail",
                     "disabled": false
                   }
                 ]
@@ -1754,12 +1754,9 @@
       },
       "3": {
         "file": "3",
-        "duration": 0.336
-      },
-      "3": {
-        "file": "3",
         "duration": 0.384
       }
     }
-  }
+  },
+  "version": 0.8
 }

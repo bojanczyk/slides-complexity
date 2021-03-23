@@ -459,7 +459,7 @@
       {
         "type": "show",
         "id": "1:13",
-        "name": "The most famous BQP algorithm is Shor\u2019s algorithm: input: a natural number, in binary output: its decomposition into primes",
+        "name": "The most famous BQP algorithm is Shor’s algorithm: input: a natural number, in binary output: its decomposition into primes",
         "disabled": false
       },
       {
@@ -494,13 +494,13 @@
           {
             "type": "show",
             "id": "6:6",
-            "name": "If we test the first k bits, then we get output y \u2208 {0,1}k with probability",
+            "name": "If we test the first k bits, then we get output y ∈ {0,1}k with probability",
             "disabled": false
           },
           {
             "type": "show",
             "id": "2:45",
-            "name": "A function f: {0, 1}n \u27f6 {0, 1}k is computed by a circuit if for every input w \u2208 {0, 1}n , if we run the circuit on [w\u27e9 and measure the first k bits, then the probability of output f (w) is > 0.6.",
+            "name": "A function f: {0, 1}n ⟶ {0, 1}k is computed by a circuit if for every input w ∈ {0, 1}n , if we run the circuit on [w⟩ and measure the first k bits, then the probability of output f (w) is > 0.6.",
             "disabled": false
           }
         ]
@@ -508,7 +508,7 @@
       {
         "type": "show",
         "id": "1:17",
-        "name": "We discuss Simon\u2019s algorithm, an earlier and simpler quantum algorithm.",
+        "name": "We discuss Simon’s algorithm, an earlier and simpler quantum algorithm.",
         "disabled": false
       },
       {
@@ -519,13 +519,13 @@
           {
             "type": "show",
             "id": "2:49",
-            "name": "input: a classical circuit C which defines a function f : {0, 1}n \u27f6 {0, 1}",
+            "name": "input: a classical circuit C which defines a function f : {0, 1}n ⟶ {0, 1}",
             "disabled": false
           },
           {
             "type": "show",
             "id": "11:311",
-            "name": "promise: there is some a \u2208 {0, 1}n such that",
+            "name": "promise: there is some a ∈ {0, 1}n such that",
             "disabled": false
           },
           {
@@ -548,7 +548,7 @@
               {
                 "type": "show",
                 "id": "10:106",
-                "name": "If the function f : {0, 1}n \u27f6 {0, 1} is given as a black box, then a randomized polynomial time algorithm cannot find two inputs with the same output.",
+                "name": "If the function f : {0, 1}n ⟶ {0, 1} is given as a black box, then a randomized polynomial time algorithm cannot find two inputs with the same output.",
                 "disabled": false
               },
               {
@@ -566,7 +566,7 @@
               {
                 "type": "show",
                 "id": "11:8",
-                "name": "Nevertheless, using the black box model and Simon\u2019s algorithm one can show for some oracle A.",
+                "name": "Nevertheless, using the black box model and Simon’s algorithm one can show for some oracle A.",
                 "disabled": false
               }
             ]
@@ -903,7 +903,7 @@
               {
                 "type": "show",
                 "id": "8:405",
-                "name": "This set is a vector space of dimension n \u2013 1, and hence doing O(n) samples gives a basis with probability > 0.6.",
+                "name": "This set is a vector space of dimension n – 1, and hence doing O(n) samples gives a basis with probability > 0.6.",
                 "disabled": false
               },
               {
@@ -926,19 +926,19 @@
                   {
                     "type": "show",
                     "id": "10:11",
-                    "name": "If we the already sampled vectors span a proper subspace of 2n, then the probability of sampling a new vector which increases the subspace is \u2265 \u00bd.",
+                    "name": "If we the already sampled vectors span a proper subspace of 2n, then the probability of sampling a new vector which increases the subspace is ≥ ½.",
                     "disabled": false
                   },
                   {
                     "type": "show",
                     "id": "8:431",
-                    "name": "The expected number of samples needed to increase the spanned subspace is \u2264 2.",
+                    "name": "The expected number of samples needed to increase the spanned subspace is ≤ 2.",
                     "disabled": false
                   },
                   {
                     "type": "show",
                     "id": "10:13",
-                    "name": "The expected number of samples needed to span the entire space is \u2264 2n.",
+                    "name": "The expected number of samples needed to span the entire space is ≤ 2n.",
                     "disabled": false
                   },
                   {
@@ -950,7 +950,7 @@
                   {
                     "type": "show",
                     "id": "10:15",
-                    "name": "otherwise the expected number would be at least 0.4 \u00d7 6n > 2n",
+                    "name": "otherwise the expected number would be at least 0.4 × 6n > 2n",
                     "disabled": false
                   }
                 ]
@@ -975,7 +975,7 @@
                   {
                     "type": "show",
                     "id": "11:332",
-                    "name": "For i \u2208 {1, ..., n}, consider the vector",
+                    "name": "For i ∈ {1, ..., n}, consider the vector",
                     "disabled": false
                   },
                   {
@@ -995,7 +995,7 @@
               {
                 "type": "show",
                 "id": "10:101",
-                "name": "This description of Simon\u2019s algorithm runs a quantum circuit O(n) times, and does some post-computation on the tested results. We can however put all of this into a single execution of the quantum circuit, with a single test at the end.",
+                "name": "This description of Simon’s algorithm runs a quantum circuit O(n) times, and does some post-computation on the tested results. We can however put all of this into a single execution of the quantum circuit, with a single test at the end.",
                 "disabled": false
               }
             ]
@@ -1003,5 +1003,6 @@
         ]
       }
     ]
-  }
+  },
+  "version": 0.8
 }

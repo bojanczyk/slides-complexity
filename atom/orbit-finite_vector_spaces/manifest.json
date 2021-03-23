@@ -27,7 +27,7 @@
       {
         "type": "show",
         "id": "3:7",
-        "name": "Weighted automata of finite dimension [Sch\u00fctzenberger 1961]",
+        "name": "Weighted automata of finite dimension [Schützenberger 1961]",
         "disabled": false
       },
       {
@@ -81,12 +81,12 @@
           {
             "type": "show",
             "id": "3:116",
-            "name": "Theorem. [Sch\u00fctzenberger 1961] The following problems are in P: (a) equivalence of two weighted automata; (b) zeroness of a single weighted automaton.",
+            "name": "Theorem. [Schützenberger 1961] The following problems are in P: (a) equivalence of two weighted automata; (b) zeroness of a single weighted automaton.",
             "disabled": false
           },
           {
             "type": "child",
-            "name": "Sch\u00fctzenberger algorithm",
+            "name": "Schützenberger algorithm",
             "id": "4:10",
             "children": [
               {
@@ -98,13 +98,13 @@
               {
                 "type": "show",
                 "id": "6:29",
-                "name": "3 is the sum of weights of runs that end in q (using weights for \u03b4 and I, but not for F)",
+                "name": "3 is the sum of weights of runs that end in q (using weights for δ and I, but not for F)",
                 "disabled": false
               },
               {
                 "type": "show",
                 "id": "4:17",
-                "name": "Consider a chain of subspaces V\u2081 \u2286 V\u2082 \u2286 V\u2083 \u2286 ... \u2286 \ud835\udd3dn where Vi is linear combinations of state vectors for input words of length at most i.",
+                "name": "Consider a chain of subspaces V₁ ⊆ V₂ ⊆ V₃ ⊆ ... ⊆ 𝔽n where Vi is linear combinations of state vectors for input words of length at most i.",
                 "disabled": false
               },
               {
@@ -116,7 +116,7 @@
               {
                 "type": "show",
                 "id": "4:15",
-                "name": "The output of the automaton is obtained by applying a linear map f : \ud835\udd3dn \u2192 \ud835\udd3d to the corresponding state vector, and therefore the automaton is zero if and only if all elements of the chain are mapped by f to zero.",
+                "name": "The output of the automaton is obtained by applying a linear map f : 𝔽n → 𝔽 to the corresponding state vector, and therefore the automaton is zero if and only if all elements of the chain are mapped by f to zero.",
                 "disabled": false
               }
             ]
@@ -143,7 +143,7 @@
           {
             "type": "show",
             "id": "6:31",
-            "name": "the atoms \ud835\udd38 are either (\u2115, =) or (\u211a, <)",
+            "name": "the atoms 𝔸 are either (ℕ, =) or (ℚ, <)",
             "disabled": false
           },
           {
@@ -167,19 +167,19 @@
           {
             "type": "show",
             "id": "6:34",
-            "name": "Finitely many states have nonzero initial weight, and for every q \u2208 Q and a \u2208 \u03a3 there are finitely many p \u2208 Q with \u03b4(q, a, p) \u2260 0.",
+            "name": "Finitely many states have nonzero initial weight, and for every q ∈ Q and a ∈ Σ there are finitely many p ∈ Q with δ(q, a, p) ≠ 0.",
             "disabled": false
           },
           {
             "type": "show",
             "id": "5:3",
-            "name": "(for nondeterministic automata, this is called \u201cnot guessing atoms\u201d)",
+            "name": "(for nondeterministic automata, this is called “not guessing atoms”)",
             "disabled": false
           },
           {
             "type": "show",
             "id": "5:4",
-            "name": "The recognized \u201clanguage\u201d is an equivariant function L : \u03a3* \u2192 \ud835\udd3d.",
+            "name": "The recognized “language” is an equivariant function L : Σ* → 𝔽.",
             "disabled": false
           },
           {
@@ -239,7 +239,7 @@
               {
                 "type": "show",
                 "id": "6:43",
-                "name": "finite linear combinations of vectors corresponding to words of length \u2264 i",
+                "name": "finite linear combinations of vectors corresponding to words of length ≤ i",
                 "disabled": false
               },
               {
@@ -268,7 +268,7 @@
                   {
                     "type": "show",
                     "id": "5:92",
-                    "name": "Example 1. Consider the equality atoms \ud835\udd38, and the vector space Lin\ud835\udd38",
+                    "name": "Example 1. Consider the equality atoms 𝔸, and the vector space Lin𝔸",
                     "disabled": false
                   },
                   {
@@ -286,13 +286,13 @@
                   {
                     "type": "show",
                     "id": "5:100",
-                    "name": "2. the full space Lin\ud835\udd38",
+                    "name": "2. the full space Lin𝔸",
                     "disabled": false
                   },
                   {
                     "type": "show",
                     "id": "5:101",
-                    "name": "1. the sub-space spanned by {a \u2013 b : a, b \u2208 \ud835\udd38}",
+                    "name": "1. the sub-space spanned by {a – b : a, b ∈ 𝔸}",
                     "disabled": false
                   },
                   {
@@ -304,7 +304,7 @@
                   {
                     "type": "show",
                     "id": "5:104",
-                    "name": "Example 2. Consider the equality atoms \ud835\udd38, and the vector space Lin\ud835\udd382",
+                    "name": "Example 2. Consider the equality atoms 𝔸, and the vector space Lin𝔸2",
                     "disabled": false
                   },
                   {
@@ -359,19 +359,19 @@
                   {
                     "type": "show",
                     "id": "5:136",
-                    "name": "The subspace of Lin\ud835\udd38 spanned by {a \u2013 b : a, b \u2208 \ud835\udd38} does not have an equivariant basis.",
+                    "name": "The subspace of Lin𝔸 spanned by {a – b : a, b ∈ 𝔸} does not have an equivariant basis.",
                     "disabled": false
                   },
                   {
                     "type": "show",
                     "id": "5:138",
-                    "name": "It has a finitely supported basis, namely {a\u2080 \u2013 b : b \u2208 \ud835\udd38 \u2013 {a\u2080}}.",
+                    "name": "It has a finitely supported basis, namely {a₀ – b : b ∈ 𝔸 – {a₀}}.",
                     "disabled": false
                   },
                   {
                     "type": "show",
                     "id": "5:140",
-                    "name": "There is a subspace of Lin\ud835\udd382 which does not have any finitely supported basis.",
+                    "name": "There is a subspace of Lin𝔸2 which does not have any finitely supported basis.",
                     "disabled": false
                   },
                   {
@@ -383,7 +383,7 @@
                   {
                     "type": "show",
                     "id": "5:144",
-                    "name": "Theorem. Assume that the atoms are either (\u2115, =) or (\u211a, <).",
+                    "name": "Theorem. Assume that the atoms are either (ℕ, =) or (ℚ, <).",
                     "disabled": false
                   },
                   {
@@ -395,13 +395,13 @@
                   {
                     "type": "show",
                     "id": "5:146",
-                    "name": "1. Cartesian products V \u2295 W",
+                    "name": "1. Cartesian products V ⊕ W",
                     "disabled": false
                   },
                   {
                     "type": "show",
                     "id": "5:147",
-                    "name": "2. tensor products V \u2297 W",
+                    "name": "2. tensor products V ⊗ W",
                     "disabled": false
                   },
                   {
@@ -450,7 +450,7 @@
                   {
                     "type": "show",
                     "id": "6:6",
-                    "name": "Theorem. Assume that the atoms are either (\u2115, =) or (\u211a, <).",
+                    "name": "Theorem. Assume that the atoms are either (ℕ, =) or (ℚ, <).",
                     "disabled": false
                   },
                   {
@@ -462,7 +462,7 @@
                   {
                     "type": "show",
                     "id": "6:44",
-                    "name": "same as the vector space finitely supported linear maps of type LinP \u2192 \ud835\udd3d",
+                    "name": "same as the vector space finitely supported linear maps of type LinP → 𝔽",
                     "disabled": false
                   },
                   {
@@ -490,5 +490,6 @@
         ]
       }
     ]
-  }
+  },
+  "version": 0.8
 }

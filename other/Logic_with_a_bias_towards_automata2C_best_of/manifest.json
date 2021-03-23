@@ -109,31 +109,31 @@
       {
         "type": "show",
         "id": "120:308",
-        "name": "Satisfiability is \u03c6 true in some model?",
+        "name": "Satisfiability is φ true in some model?",
         "disabled": false
       },
       {
         "type": "show",
         "id": "120:309",
-        "name": "Model checking is \u03c6 true in some model M?",
+        "name": "Model checking is φ true in some model M?",
         "disabled": false
       },
       {
         "type": "show",
         "id": "108:26",
-        "name": "M fixed, \u03c6 input",
+        "name": "M fixed, φ input",
         "disabled": false
       },
       {
         "type": "show",
         "id": "108:27",
-        "name": "M input, \u03c6 input",
+        "name": "M input, φ input",
         "disabled": false
       },
       {
         "type": "show",
         "id": "108:28",
-        "name": "M input, \u03c6 fixed",
+        "name": "M input, φ fixed",
         "disabled": false
       },
       {
@@ -156,7 +156,7 @@
       },
       {
         "type": "child",
-        "name": "M fixed \u03c6 input",
+        "name": "M fixed φ input",
         "id": "108:29",
         "children": [
           {
@@ -168,7 +168,7 @@
           {
             "type": "show",
             "id": "120:312",
-            "name": "For which structures M is the following problem decidable: Given a sentence of first-order logic \u03c6, is \u03c6 is true in M?",
+            "name": "For which structures M is the following problem decidable: Given a sentence of first-order logic φ, is φ is true in M?",
             "disabled": false
           },
           {
@@ -186,37 +186,37 @@
           {
             "type": "show",
             "id": "120:314",
-            "name": "(\u2115, +, \u00d7)",
+            "name": "(ℕ, +, ×)",
             "disabled": false
           },
           {
             "type": "show",
             "id": "301:16",
-            "name": "Undecidable: for every Turing machine, one can write a formula that says: \u201cthere exists a halting run\u201d",
+            "name": "Undecidable: for every Turing machine, one can write a formula that says: “there exists a halting run”",
             "disabled": false
           },
           {
             "type": "show",
             "id": "120:316",
-            "name": "(\u211d, +, \u00d7)",
+            "name": "(ℝ, +, ×)",
             "disabled": false
           },
           {
             "type": "show",
             "id": "301:17",
-            "name": "Decidable: for every formula \u03c6(x1, .., xn,) one can compute an equivalent Boolean combination of polynomial inequalities like x12x2 \u2013 3x2x34 + 2 > 0",
+            "name": "Decidable: for every formula φ(x1, .., xn,) one can compute an equivalent Boolean combination of polynomial inequalities like x12x2 – 3x2x34 + 2 > 0",
             "disabled": false
           },
           {
             "type": "show",
             "id": "120:317",
-            "name": "(\u2115, +)",
+            "name": "(ℕ, +)",
             "disabled": false
           },
           {
             "type": "show",
             "id": "301:101",
-            "name": "Decidable: for every formula \u03c6(x1, .., xn,) one can compute an equivalent semilinear set",
+            "name": "Decidable: for every formula φ(x1, .., xn,) one can compute an equivalent semilinear set",
             "disabled": false
           },
           {
@@ -251,13 +251,13 @@
               {
                 "type": "show",
                 "id": "302:839",
-                "name": "For (\u2115, =), the MSO theory reduces to the first-order theory",
+                "name": "For (ℕ, =), the MSO theory reduces to the first-order theory",
                 "disabled": false
               },
               {
                 "type": "show",
                 "id": "111:13",
-                "name": "The weak MSO theory of (\u2115, \u2264) is decidable",
+                "name": "The weak MSO theory of (ℕ, ≤) is decidable",
                 "disabled": false
               },
               {
@@ -274,13 +274,13 @@
                   {
                     "type": "show",
                     "id": "120:346",
-                    "name": "\u2203X \u2200x x \u2208 X",
+                    "name": "∃X ∀x x ∈ X",
                     "disabled": false
                   },
                   {
                     "type": "show",
                     "id": "113:11",
-                    "name": "Theorem. [BEEVT] The weak MSO theory of (\u2115, \u2264) is decidable.",
+                    "name": "Theorem. [BEEVT] The weak MSO theory of (ℕ, ≤) is decidable.",
                     "disabled": false
                   },
                   {
@@ -291,7 +291,7 @@
                       {
                         "type": "show",
                         "id": "113:15",
-                        "name": "Consider a formula \u03c6(x, Y, Z ) of weak MSO. How do we represent the semantics of \u03c6, which is a set of triples (number, finite set of numbers, finite set of numbers)?",
+                        "name": "Consider a formula φ(x, Y, Z ) of weak MSO. How do we represent the semantics of φ, which is a set of triples (number, finite set of numbers, finite set of numbers)?",
                         "disabled": false
                       },
                       {
@@ -351,13 +351,13 @@
                           {
                             "type": "show",
                             "id": "113:275",
-                            "name": "For \u2228 and \u00ac, we use closure of regular languages under union and complementation.",
+                            "name": "For ∨ and ¬, we use closure of regular languages under union and complementation.",
                             "disabled": false
                           },
                           {
                             "type": "show",
                             "id": "113:276",
-                            "name": "For \u2203, we use closure of regular languages under projection:",
+                            "name": "For ∃, we use closure of regular languages under projection:",
                             "disabled": false
                           },
                           {
@@ -368,7 +368,7 @@
                               {
                                 "type": "show",
                                 "id": "302:961",
-                                "name": "Consider a formula \u03c6(x1, ..., xn) which defines",
+                                "name": "Consider a formula φ(x1, ..., xn) which defines",
                                 "disabled": false
                               },
                               {
@@ -380,7 +380,7 @@
                               {
                                 "type": "show",
                                 "id": "302:966",
-                                "name": "a word in L\u2019 is obtained by taking a word from L and erasing the last coordinate",
+                                "name": "a word in L’ is obtained by taking a word from L and erasing the last coordinate",
                                 "disabled": false
                               },
                               {
@@ -433,7 +433,7 @@
                       {
                         "type": "show",
                         "id": "118:2",
-                        "name": "B\u00fcchi and Elgot 1958",
+                        "name": "Büchi and Elgot 1958",
                         "disabled": false
                       },
                       {
@@ -474,25 +474,25 @@
                           {
                             "type": "show",
                             "id": "119:133",
-                            "name": "Corollary For every formula \u03c6(x1, ... xn) of Presburger arithmetic, the corresponding n-ary relation on binary expansions is definable in WMSO (equivalently, can be recognized by a finite automaton).",
+                            "name": "Corollary For every formula φ(x1, ... xn) of Presburger arithmetic, the corresponding n-ary relation on binary expansions is definable in WMSO (equivalently, can be recognized by a finite automaton).",
                             "disabled": false
                           },
                           {
                             "type": "show",
                             "id": "119:180",
-                            "name": "The corollary would still be true if we added \u201cx is a power of 2\u201d",
+                            "name": "The corollary would still be true if we added “x is a power of 2”",
                             "disabled": false
                           },
                           {
                             "type": "show",
                             "id": "119:181",
-                            "name": "or \u201cx is the smallest power of 2 that divides both y and z\u201d",
+                            "name": "or “x is the smallest power of 2 that divides both y and z”",
                             "disabled": false
                           },
                           {
                             "type": "show",
                             "id": "119:182",
-                            "name": "(\u2124, +) is an example of an automatic group [Thurston, Epstein, ... 1980\u2019s], or more generally an automatic structure [Nerode, Khoussainov 1994]",
+                            "name": "(ℤ, +) is an example of an automatic group [Thurston, Epstein, ... 1980’s], or more generally an automatic structure [Nerode, Khoussainov 1994]",
                             "disabled": false
                           }
                         ]
@@ -504,13 +504,13 @@
               {
                 "type": "show",
                 "id": "111:14",
-                "name": "The MSO theory of (\u2115, \u2264) is decidable",
+                "name": "The MSO theory of (ℕ, ≤) is decidable",
                 "disabled": false
               },
               {
                 "type": "show",
                 "id": "111:15",
-                "name": "The MSO theory of ({0,1}*, \u2264) is decidable",
+                "name": "The MSO theory of ({0,1}*, ≤) is decidable",
                 "disabled": false
               },
               {
@@ -522,7 +522,7 @@
               {
                 "type": "show",
                 "id": "111:16",
-                "name": "The MSO theory of (\u211d, \u2264) is undecidable",
+                "name": "The MSO theory of (ℝ, ≤) is undecidable",
                 "disabled": false
               },
               {
@@ -590,7 +590,7 @@
               {
                 "type": "show",
                 "id": "301:222",
-                "name": "A finite word w \u2208 \u03a3* can be viewed as a model",
+                "name": "A finite word w ∈ Σ* can be viewed as a model",
                 "disabled": false
               },
               {
@@ -602,31 +602,31 @@
               {
                 "type": "show",
                 "id": "301:232",
-                "name": "For a language L \u2286 \u03a3*, the following conditions are equivalent:",
+                "name": "For a language L ⊆ Σ*, the following conditions are equivalent:",
                 "disabled": false
               },
               {
                 "type": "show",
                 "id": "301:241",
-                "name": "because regular languages are closed under \u2228 \u2227 \u00ac \u2203",
+                "name": "because regular languages are closed under ∨ ∧ ¬ ∃",
                 "disabled": false
               },
               {
                 "type": "show",
                 "id": "302:890",
-                "name": "\u201cautomaton A has an accepting run\u201d can be written in MSO",
+                "name": "“automaton A has an accepting run” can be written in MSO",
                 "disabled": false
               },
               {
                 "type": "show",
                 "id": "301:245",
-                "name": "Theorem. [B\u00fcchi, Elgot, Trakhtenbrot 1958] The following problem is decidable: input: MSO sentence using x < y and {a(x)}a \u2208 \u03a3 question: is it true in some w \u2208 \u03a3*?",
+                "name": "Theorem. [Büchi, Elgot, Trakhtenbrot 1958] The following problem is decidable: input: MSO sentence using x < y and {a(x)}a ∈ Σ question: is it true in some w ∈ Σ*?",
                 "disabled": false
               },
               {
                 "type": "show",
                 "id": "301:246",
-                "name": "Because the MSO \u2192 automata translation is computable",
+                "name": "Because the MSO → automata translation is computable",
                 "disabled": false
               },
               {
@@ -643,7 +643,7 @@
                   {
                     "type": "show",
                     "id": "302:970",
-                    "name": "The equivalence of MSO and automata holds also for other objects, such as: \u2013 \u03c9-words [B\u00fcchi 1962] \u2013 finite trees [Thatcher and Wright 1968] \u2013 infinite trees [Rabin 1969]",
+                    "name": "The equivalence of MSO and automata holds also for other objects, such as: – ω-words [Büchi 1962] – finite trees [Thatcher and Wright 1968] – infinite trees [Rabin 1969]",
                     "disabled": false
                   },
                   {
@@ -728,7 +728,7 @@
                       {
                         "type": "show",
                         "id": "301:540",
-                        "name": "Definition. A graph has treewidth k \u2208 {1,2, ...} if it can be constructed using the following operations, so that in every moment at most k+1 ports are used.",
+                        "name": "Definition. A graph has treewidth k ∈ {1,2, ...} if it can be constructed using the following operations, so that in every moment at most k+1 ports are used.",
                         "disabled": false
                       },
                       {
@@ -864,7 +864,7 @@
                   {
                     "type": "show",
                     "id": "301:881",
-                    "name": "Theorem. [Courcelle] The following problem is decidable: input: an MSO sentence \u03c6 and k \u2208 {1, 2, ..} question: is \u03c6 true in some graph of treewidth at most k?",
+                    "name": "Theorem. [Courcelle] The following problem is decidable: input: an MSO sentence φ and k ∈ {1, 2, ..} question: is φ true in some graph of treewidth at most k?",
                     "disabled": false
                   },
                   {
@@ -900,7 +900,7 @@
                   {
                     "type": "show",
                     "id": "301:882",
-                    "name": "Theorem. [Seese] If C is a class of graphs of unbouned treewidth, then the following problem is undecidable: input: an MSO sentence \u03c6 question: is \u03c6 true in some graph from C?",
+                    "name": "Theorem. [Seese] If C is a class of graphs of unbouned treewidth, then the following problem is undecidable: input: an MSO sentence φ question: is φ true in some graph from C?",
                     "disabled": false
                   }
                 ]
@@ -946,13 +946,13 @@
               {
                 "type": "show",
                 "id": "302:89",
-                "name": "Maybe for every first-order sentence \u03c6, there is a linear time algorithm which recognizes graphs where \u03c6 is true?",
+                "name": "Maybe for every first-order sentence φ, there is a linear time algorithm which recognizes graphs where φ is true?",
                 "disabled": false
               },
               {
                 "type": "show",
                 "id": "302:90",
-                "name": "The naive algorithm is polynomial, but the degree of the polynomial depends on \u03c6.",
+                "name": "The naive algorithm is polynomial, but the degree of the polynomial depends on φ.",
                 "disabled": false
               },
               {
@@ -1025,7 +1025,7 @@
               {
                 "type": "show",
                 "id": "302:100",
-                "name": "b. for every proper subset G \u2286 F, some vertex is incident to exactly 1 edge from G",
+                "name": "b. for every proper subset G ⊆ F, some vertex is incident to exactly 1 edge from G",
                 "disabled": false
               }
             ]
@@ -1039,7 +1039,7 @@
           {
             "type": "show",
             "id": "302:18",
-            "name": "Theorem. [Seese 1996] For every sentence \u03c6 of first-order logic and d \u2208 {1, 2, ..}, the following problem can be solved in linear time: input: graph of degree d question: does it satisfy \u03c6?",
+            "name": "Theorem. [Seese 1996] For every sentence φ of first-order logic and d ∈ {1, 2, ..}, the following problem can be solved in linear time: input: graph of degree d question: does it satisfy φ?",
             "disabled": false
           },
           {
@@ -1051,7 +1051,7 @@
           {
             "type": "show",
             "id": "302:19",
-            "name": "Theorem. [Courcelle 1990] For every sentence \u03c6 of MSO and k \u2208 {1, 2, ..}, the following problem can be solved in linear time: input: graph of treewidth k question: does it satisfy \u03c6?",
+            "name": "Theorem. [Courcelle 1990] For every sentence φ of MSO and k ∈ {1, 2, ..}, the following problem can be solved in linear time: input: graph of treewidth k question: does it satisfy φ?",
             "disabled": false
           },
           {
@@ -1080,7 +1080,7 @@
               {
                 "type": "show",
                 "id": "302:104",
-                "name": "Theorem. [Bodlaender] For every k \u2208 {1, 2, ...}, the following problem can be solved in linear time: input: a graph output: a tree decomposition of width k, or \u201cno\u201d if there is no such tree decomposition.",
+                "name": "Theorem. [Bodlaender] For every k ∈ {1, 2, ...}, the following problem can be solved in linear time: input: a graph output: a tree decomposition of width k, or “no” if there is no such tree decomposition.",
                 "disabled": false
               },
               {
@@ -1098,7 +1098,7 @@
               {
                 "type": "show",
                 "id": "302:105",
-                "name": "Lemma. For every k \u2208 {1, 2, ...} and MSO sentence \u03c6, the following problem can be solved in linear time: input: a tree decomposition of width k output: does the underlying graph satisfy \u03c6?",
+                "name": "Lemma. For every k ∈ {1, 2, ...} and MSO sentence φ, the following problem can be solved in linear time: input: a tree decomposition of width k output: does the underlying graph satisfy φ?",
                 "disabled": false
               },
               {
@@ -1117,7 +1117,7 @@
               {
                 "type": "show",
                 "id": "302:198",
-                "name": "The main tool for this, and other similar results, is Gaifman\u2019s theorem about the locality of first-order logic",
+                "name": "The main tool for this, and other similar results, is Gaifman’s theorem about the locality of first-order logic",
                 "disabled": false
               },
               {
@@ -1128,7 +1128,7 @@
                   {
                     "type": "show",
                     "id": "302:208",
-                    "name": "Theorem. [Gaifman 1982] Every sentence \u03c6 of first-order logic on graphs is equivalent to a Boolean combination of basic local sentences:",
+                    "name": "Theorem. [Gaifman 1982] Every sentence φ of first-order logic on graphs is equivalent to a Boolean combination of basic local sentences:",
                     "disabled": false
                   },
                   {
@@ -1140,19 +1140,19 @@
                   {
                     "type": "show",
                     "id": "302:259",
-                    "name": "a number k \u2208 {0, 1, ...}",
+                    "name": "a number k ∈ {0, 1, ...}",
                     "disabled": false
                   },
                   {
                     "type": "show",
                     "id": "302:256",
-                    "name": "a number r \u2208 {0, 1, ...} called the radius",
+                    "name": "a number r ∈ {0, 1, ...} called the radius",
                     "disabled": false
                   },
                   {
                     "type": "show",
                     "id": "302:253",
-                    "name": "a first-order formula \u03c6(x) which is r-local",
+                    "name": "a first-order formula φ(x) which is r-local",
                     "disabled": false
                   },
                   {
@@ -1177,13 +1177,13 @@
                   {
                     "type": "show",
                     "id": "302:263",
-                    "name": "Thanks to Gaifman\u2019s theorem, it is enough to show that for every basic local sentence",
+                    "name": "Thanks to Gaifman’s theorem, it is enough to show that for every basic local sentence",
                     "disabled": false
                   },
                   {
                     "type": "show",
                     "id": "302:436",
-                    "name": "For every vertex x, we can check \u03c6(x) in constant time.",
+                    "name": "For every vertex x, we can check φ(x) in constant time.",
                     "disabled": false
                   }
                 ]
@@ -1250,7 +1250,7 @@
                   {
                     "type": "show",
                     "id": "302:569",
-                    "name": "For every first-order sentence \u03c6, there is a linear time algorithm for: input: a graph from C question: does it satisfy \u03c6?",
+                    "name": "For every first-order sentence φ, there is a linear time algorithm for: input: a graph from C question: does it satisfy φ?",
                     "disabled": false
                   },
                   {
@@ -1267,7 +1267,7 @@
                       {
                         "type": "show",
                         "id": "302:601",
-                        "name": "Consider a radius r \u2208 {0, 1, ...} and two graphs:",
+                        "name": "Consider a radius r ∈ {0, 1, ...} and two graphs:",
                         "disabled": false
                       },
                       {
@@ -1309,7 +1309,7 @@
                       {
                         "type": "show",
                         "id": "302:600",
-                        "name": "Definition. [Nesetril and Ossona de Mendez 2011] A class of graphs C is nowhere dense if for every radius r \u2208 {0, 1, ...}, not all graphs are r-minors of C.",
+                        "name": "Definition. [Nesetril and Ossona de Mendez 2011] A class of graphs C is nowhere dense if for every radius r ∈ {0, 1, ...}, not all graphs are r-minors of C.",
                         "disabled": false
                       },
                       {
@@ -1347,7 +1347,7 @@
                       {
                         "type": "show",
                         "id": "302:736",
-                        "name": "Theorem. [Grohe, Kreutzer, Siebertz 2014] If C is nowhere dense and closed under subgraphs, then for every first-order sentence \u03c6, the model checking problem",
+                        "name": "Theorem. [Grohe, Kreutzer, Siebertz 2014] If C is nowhere dense and closed under subgraphs, then for every first-order sentence φ, the model checking problem",
                         "disabled": false
                       },
                       {
@@ -1359,7 +1359,7 @@
                       {
                         "type": "show",
                         "id": "302:734",
-                        "name": "If C is not nowhere dense, then for some radius r \u2208 {1, 2, ...} the class every graph as an r-minor.",
+                        "name": "If C is not nowhere dense, then for some radius r ∈ {1, 2, ...} the class every graph as an r-minor.",
                         "disabled": false
                       }
                     ]
@@ -1433,13 +1433,13 @@
                       {
                         "type": "show",
                         "id": "302:783",
-                        "name": "Blocks A and B are consistent, because \u2200a \u2208 A \u2200b \u2208 B edge(a, b)",
+                        "name": "Blocks A and B are consistent, because ∀a ∈ A ∀b ∈ B edge(a, b)",
                         "disabled": false
                       },
                       {
                         "type": "show",
                         "id": "302:784",
-                        "name": "Blocks B and C are consistent, because \u2200b \u2208 B \u2200c \u2208 C \u00ac edge(b, c)",
+                        "name": "Blocks B and C are consistent, because ∀b ∈ B ∀c ∈ C ¬ edge(b, c)",
                         "disabled": false
                       },
                       {
@@ -1451,7 +1451,7 @@
                       {
                         "type": "show",
                         "id": "302:786",
-                        "name": "Definition [Bonnet, Kim, Thomass\u00e9, Watrigant 2020] A graph has twinwidth k \u2208 {0, 1, 2, ...} if there is a sequence of partitions P1, ..., Pn on its vertices such that;",
+                        "name": "Definition [Bonnet, Kim, Thomassé, Watrigant 2020] A graph has twinwidth k ∈ {0, 1, 2, ...} if there is a sequence of partitions P1, ..., Pn on its vertices such that;",
                         "disabled": false
                       },
                       {
@@ -1463,13 +1463,13 @@
                       {
                         "type": "show",
                         "id": "302:788",
-                        "name": "b) for every i \u2208 {1, ..., n \u2013 1}, Pi+1 is obtained from Pi by merging two blocks",
+                        "name": "b) for every i ∈ {1, ..., n – 1}, Pi+1 is obtained from Pi by merging two blocks",
                         "disabled": false
                       },
                       {
                         "type": "show",
                         "id": "302:789",
-                        "name": "c) for every i \u2208 {1, ..., n} and every block A \u2208 Pi, at most k blocks of Pi are inconsistent with A.",
+                        "name": "c) for every i ∈ {1, ..., n} and every block A ∈ Pi, at most k blocks of Pi are inconsistent with A.",
                         "disabled": false
                       },
                       {
@@ -1544,7 +1544,7 @@
                   {
                     "type": "show",
                     "id": "302:587",
-                    "name": "Theorem. [Bonnet, Kim, Thomass\u00e9, Watrigant 2020] For every k \u2208 {0, 1, 2, ...} and first-order \u03c6, there is a linear time algorithm for:",
+                    "name": "Theorem. [Bonnet, Kim, Thomassé, Watrigant 2020] For every k ∈ {0, 1, 2, ...} and first-order φ, there is a linear time algorithm for:",
                     "disabled": false
                   }
                 ]
@@ -1554,5 +1554,6 @@
         ]
       }
     ]
-  }
+  },
+  "version": 0.8
 }

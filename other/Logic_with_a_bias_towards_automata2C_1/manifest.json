@@ -810,31 +810,31 @@
       {
         "type": "show",
         "id": "120:308",
-        "name": "Satisfiability is \u03c6 true in some model?",
+        "name": "Satisfiability is φ true in some model?",
         "disabled": false
       },
       {
         "type": "show",
         "id": "120:309",
-        "name": "Model checking is \u03c6 true in some model M?",
+        "name": "Model checking is φ true in some model M?",
         "disabled": false
       },
       {
         "type": "show",
         "id": "108:26",
-        "name": "M fixed, \u03c6 input",
+        "name": "M fixed, φ input",
         "disabled": false
       },
       {
         "type": "show",
         "id": "108:27",
-        "name": "M input, \u03c6 input",
+        "name": "M input, φ input",
         "disabled": false
       },
       {
         "type": "show",
         "id": "108:28",
-        "name": "M input, \u03c6 fixed",
+        "name": "M input, φ fixed",
         "disabled": false
       },
       {
@@ -857,7 +857,7 @@
       },
       {
         "type": "child",
-        "name": "M fixed \u03c6 input",
+        "name": "M fixed φ input",
         "id": "108:29",
         "children": [
           {
@@ -869,7 +869,7 @@
           {
             "type": "show",
             "id": "120:312",
-            "name": "For which structures M is the following problem decidable: Given a sentence of first-order logic \u03c6, is \u03c6 is true in M?",
+            "name": "For which structures M is the following problem decidable: Given a sentence of first-order logic φ, is φ is true in M?",
             "disabled": false
           },
           {
@@ -892,7 +892,7 @@
               {
                 "type": "show",
                 "id": "108:80",
-                "name": "{0, 1} \u22a8 \u2203x \u2200y x = y",
+                "name": "{0, 1} ⊨ ∃x ∀y x = y",
                 "disabled": false
               },
               {
@@ -924,19 +924,19 @@
           {
             "type": "show",
             "id": "120:314",
-            "name": "(\u2115, +, \u00d7)",
+            "name": "(ℕ, +, ×)",
             "disabled": false
           },
           {
             "type": "show",
             "id": "120:316",
-            "name": "(\u211d, +, \u00d7)",
+            "name": "(ℝ, +, ×)",
             "disabled": false
           },
           {
             "type": "show",
             "id": "120:317",
-            "name": "(\u2115, +)",
+            "name": "(ℕ, +)",
             "disabled": false
           },
           {
@@ -947,7 +947,7 @@
               {
                 "type": "show",
                 "id": "108:92",
-                "name": "Theorem. The first-order theory of (\u2115, +, \u00d7) is undecidable.",
+                "name": "Theorem. The first-order theory of (ℕ, +, ×) is undecidable.",
                 "disabled": false
               },
               {
@@ -976,7 +976,7 @@
                   {
                     "type": "show",
                     "id": "109:0",
-                    "name": "Using the list operations, one can formalize in first-order logic the statement \u201cthere exists an accepting computation\u201d.",
+                    "name": "Using the list operations, one can formalize in first-order logic the statement “there exists an accepting computation”.",
                     "disabled": false
                   }
                 ]
@@ -984,13 +984,13 @@
               {
                 "type": "show",
                 "id": "109:135",
-                "name": "In fact, undecidability holds already for \u2203* formulas:",
+                "name": "In fact, undecidability holds already for ∃* formulas:",
                 "disabled": false
               },
               {
                 "type": "show",
                 "id": "120:323",
-                "name": "Theorem. [DPLM] Hilbert\u2019s 10-th problem is undecidable: Input. a polynomial Question.",
+                "name": "Theorem. [DPLM] Hilbert’s 10-th problem is undecidable: Input. a polynomial Question.",
                 "disabled": false
               },
               {
@@ -1015,25 +1015,25 @@
               {
                 "type": "show",
                 "id": "109:136",
-                "name": "Theorem. [Tarski 1929] The first-order theory of (\u211d, +, \u00d7) is decidable.",
+                "name": "Theorem. [Tarski 1929] The first-order theory of (ℝ, +, ×) is decidable.",
                 "disabled": false
               },
               {
                 "type": "show",
                 "id": "109:257",
-                "name": "Tarski\u2019s proof used quantifier elimination:",
+                "name": "Tarski’s proof used quantifier elimination:",
                 "disabled": false
               },
               {
                 "type": "show",
                 "id": "109:206",
-                "name": "Main lemma. For every first-order formula \u03c6(x1, ... xn), one can compute an equivalent quantifier-free formula in (\u211d, +, \u00d7, \u2013, \u2264, 0, 1, )",
+                "name": "Main lemma. For every first-order formula φ(x1, ... xn), one can compute an equivalent quantifier-free formula in (ℝ, +, ×, –, ≤, 0, 1, )",
                 "disabled": false
               },
               {
                 "type": "show",
                 "id": "109:207",
-                "name": "Applying the main lemma to a formula without free variables, we compute an equivalent formula like (1 \u2013 1 = 0 \u2228 0 > 1), whose truth can be easily decided.",
+                "name": "Applying the main lemma to a formula without free variables, we compute an equivalent formula like (1 – 1 = 0 ∨ 0 > 1), whose truth can be easily decided.",
                 "disabled": false
               },
               {
@@ -1051,7 +1051,7 @@
               {
                 "type": "show",
                 "id": "120:330",
-                "name": "Hence there is no formula for \u201cx is a natural number\u201d.",
+                "name": "Hence there is no formula for “x is a natural number”.",
                 "disabled": false
               }
             ]
@@ -1064,13 +1064,13 @@
               {
                 "type": "show",
                 "id": "109:363",
-                "name": "Theorem. [Presburger 1929] The first-order theory of (\u2115, +) is decidable.",
+                "name": "Theorem. [Presburger 1929] The first-order theory of (ℕ, +) is decidable.",
                 "disabled": false
               },
               {
                 "type": "show",
                 "id": "120:332",
-                "name": "Main lemma. For every first-order formula \u03c6(x1, ... xn), the defined subset of \u2115\u207f is semilinear, i.e it is a finite union of linear sets:",
+                "name": "Main lemma. For every first-order formula φ(x1, ... xn), the defined subset of ℕⁿ is semilinear, i.e it is a finite union of linear sets:",
                 "disabled": false
               },
               {
@@ -1087,7 +1087,7 @@
               },
               {
                 "type": "child",
-                "name": "projection is \u2203",
+                "name": "projection is ∃",
                 "id": "109:472",
                 "children": [
                   {
@@ -1169,31 +1169,31 @@
               {
                 "type": "show",
                 "id": "120:340",
-                "name": "Example. The MSO theory of (\u2115, =) is decidable. Every formula is equivalent to a quantifier-free formula using X(x), |X| = n and |\u2115 - X| = n.",
+                "name": "Example. The MSO theory of (ℕ, =) is decidable. Every formula is equivalent to a quantifier-free formula using X(x), |X| = n and |ℕ - X| = n.",
                 "disabled": false
               },
               {
                 "type": "show",
                 "id": "120:345",
-                "name": "Question. [Tarski] Is the MSO theory of (\u2115, \u2264) decidable?",
+                "name": "Question. [Tarski] Is the MSO theory of (ℕ, ≤) decidable?",
                 "disabled": false
               },
               {
                 "type": "show",
                 "id": "121:2",
-                "name": "Robinson\u2019s paper shows that the MSO theory of (\u2115, \u2264, 2x) is undecidable.",
+                "name": "Robinson’s paper shows that the MSO theory of (ℕ, ≤, 2x) is undecidable.",
                 "disabled": false
               },
               {
                 "type": "show",
                 "id": "111:13",
-                "name": "The weak MSO theory of (\u2115, \u2264) is decidable",
+                "name": "The weak MSO theory of (ℕ, ≤) is decidable",
                 "disabled": false
               },
               {
                 "type": "show",
                 "id": "111:14",
-                "name": "The MSO theory of (\u2115, \u2264) is decidable",
+                "name": "The MSO theory of (ℕ, ≤) is decidable",
                 "disabled": false
               },
               {
@@ -1210,13 +1210,13 @@
                   {
                     "type": "show",
                     "id": "120:346",
-                    "name": "\u2203X \u2200x x \u2208 X",
+                    "name": "∃X ∀x x ∈ X",
                     "disabled": false
                   },
                   {
                     "type": "show",
                     "id": "113:11",
-                    "name": "Theorem. [BEEVT] The weak MSO theory of (\u2115, \u2264) is decidable.",
+                    "name": "Theorem. [BEEVT] The weak MSO theory of (ℕ, ≤) is decidable.",
                     "disabled": false
                   },
                   {
@@ -1227,7 +1227,7 @@
                       {
                         "type": "show",
                         "id": "113:15",
-                        "name": "Consider a formula \u03c6(x, Y, Z ) of weak MSO. How do we represent the semantics of \u03c6, which is a set of triples (number, finite set of numbers, finite set of numbers)?",
+                        "name": "Consider a formula φ(x, Y, Z ) of weak MSO. How do we represent the semantics of φ, which is a set of triples (number, finite set of numbers, finite set of numbers)?",
                         "disabled": false
                       },
                       {
@@ -1287,19 +1287,19 @@
                           {
                             "type": "show",
                             "id": "113:275",
-                            "name": "For \u2228 and \u00ac, we use closure of regular languages under union and complementation.",
+                            "name": "For ∨ and ¬, we use closure of regular languages under union and complementation.",
                             "disabled": false
                           },
                           {
                             "type": "show",
                             "id": "113:276",
-                            "name": "For \u2203, we use closure of regular languages under projection:",
+                            "name": "For ∃, we use closure of regular languages under projection:",
                             "disabled": false
                           },
                           {
                             "type": "show",
                             "id": "113:278",
-                            "name": "If L \u2286 (\u03a3 \u00d7 \u0393)* is regular, then so is its projection \u03c0(L) \u2286 \u03a3*.",
+                            "name": "If L ⊆ (Σ × Γ)* is regular, then so is its projection π(L) ⊆ Σ*.",
                             "disabled": false
                           },
                           {
@@ -1344,7 +1344,7 @@
                       {
                         "type": "show",
                         "id": "118:2",
-                        "name": "B\u00fcchi and Elgot 1958",
+                        "name": "Büchi and Elgot 1958",
                         "disabled": false
                       },
                       {
@@ -1362,7 +1362,7 @@
                       {
                         "type": "show",
                         "id": "120:353",
-                        "name": "Ehrenfeucht and Vaught \u2264 1958",
+                        "name": "Ehrenfeucht and Vaught ≤ 1958",
                         "disabled": false
                       },
                       {
@@ -1385,31 +1385,31 @@
                           {
                             "type": "show",
                             "id": "120:373",
-                            "name": "\u03c95 represents the number 5",
+                            "name": "ω5 represents the number 5",
                             "disabled": false
                           },
                           {
                             "type": "show",
                             "id": "119:35",
-                            "name": "\u03c95 + \u03c92 + 1 represents the set {0, 2, 5}",
+                            "name": "ω5 + ω2 + 1 represents the set {0, 2, 5}",
                             "disabled": false
                           },
                           {
                             "type": "show",
                             "id": "119:46",
-                            "name": "not the same as 1 + \u03c92 + \u03c95 = \u03c95",
+                            "name": "not the same as 1 + ω2 + ω5 = ω5",
                             "disabled": false
                           },
                           {
                             "type": "show",
                             "id": "119:49",
-                            "name": "Under this representation, membership x \u2208 X and order can be defined in first-order logic using ordinal addition \u03b1 + \u03b2",
+                            "name": "Under this representation, membership x ∈ X and order can be defined in first-order logic using ordinal addition α + β",
                             "disabled": false
                           },
                           {
                             "type": "show",
                             "id": "120:374",
-                            "name": "Only ordinals \u03b1 < \u03c9 are needed, and (\u03c9 , <, +) has decidable first-order theory [Ehrenfeucht 1957 +]",
+                            "name": "Only ordinals α < ω are needed, and (ω , <, +) has decidable first-order theory [Ehrenfeucht 1957 +]",
                             "disabled": false
                           }
                         ]
@@ -1440,25 +1440,25 @@
                           {
                             "type": "show",
                             "id": "119:133",
-                            "name": "Corollary For every formula \u03c6(x1, ... xn) of Presburger arithmetic, the corresponding n-ary relation on binary expansions is definable in WMSO (equivalently, can be recognized by a finite automaton).",
+                            "name": "Corollary For every formula φ(x1, ... xn) of Presburger arithmetic, the corresponding n-ary relation on binary expansions is definable in WMSO (equivalently, can be recognized by a finite automaton).",
                             "disabled": false
                           },
                           {
                             "type": "show",
                             "id": "119:180",
-                            "name": "The corollary would still be true if we added \u201cx is a power of 2\u201d",
+                            "name": "The corollary would still be true if we added “x is a power of 2”",
                             "disabled": false
                           },
                           {
                             "type": "show",
                             "id": "119:181",
-                            "name": "or \u201cx is the smallest power of 2 that divides both y and z\u201d",
+                            "name": "or “x is the smallest power of 2 that divides both y and z”",
                             "disabled": false
                           },
                           {
                             "type": "show",
                             "id": "119:182",
-                            "name": "(\u2124, +) is an example of an automatic group [Thurston, Epstein, ... 1980\u2019s], or more generally an automatic structure [Nerode, Khoussainov 1994]",
+                            "name": "(ℤ, +) is an example of an automatic group [Thurston, Epstein, ... 1980’s], or more generally an automatic structure [Nerode, Khoussainov 1994]",
                             "disabled": false
                           }
                         ]
@@ -1469,13 +1469,13 @@
               },
               {
                 "type": "child",
-                "name": "B\u00fcchi mso",
+                "name": "Büchi mso",
                 "id": "111:19",
                 "children": [
                   {
                     "type": "show",
                     "id": "120:1",
-                    "name": "Theorem. [B\u00fcchi 1962] The MSO theory of (\u2115, \u2264) is decidable.",
+                    "name": "Theorem. [Büchi 1962] The MSO theory of (ℕ, ≤) is decidable.",
                     "disabled": false
                   },
                   {
@@ -1486,13 +1486,13 @@
                   },
                   {
                     "type": "child",
-                    "name": "B\u00fcchi automata",
+                    "name": "Büchi automata",
                     "id": "120:4",
                     "children": [
                       {
                         "type": "show",
                         "id": "120:6",
-                        "name": "Nondeterministic B\u00fcchi automata",
+                        "name": "Nondeterministic Büchi automata",
                         "disabled": false
                       },
                       {
@@ -1504,7 +1504,7 @@
                       {
                         "type": "show",
                         "id": "120:150",
-                        "name": "Semantics: an \u03c9-word is accepted if an accepting state appears \u221e often",
+                        "name": "Semantics: an ω-word is accepted if an accepting state appears ∞ often",
                         "disabled": false
                       },
                       {
@@ -1516,7 +1516,7 @@
                       {
                         "type": "show",
                         "id": "120:360",
-                        "name": "When viewed a B\u00fcchi automaton, the language is {a, b}*a",
+                        "name": "When viewed a Büchi automaton, the language is {a, b}*a",
                         "disabled": false
                       }
                     ]
@@ -1524,19 +1524,19 @@
                   {
                     "type": "show",
                     "id": "120:151",
-                    "name": "B\u00fcchi automata do not determinize, but they are still closed under: 1. union and intersection 2. projection 3. complementation",
+                    "name": "Büchi automata do not determinize, but they are still closed under: 1. union and intersection 2. projection 3. complementation",
                     "disabled": false
                   },
                   {
                     "type": "show",
                     "id": "120:152",
-                    "name": "B\u00fcchi\u2019s proof for item 3 used the Ramsey theorem",
+                    "name": "Büchi’s proof for item 3 used the Ramsey theorem",
                     "disabled": false
                   },
                   {
                     "type": "show",
                     "id": "120:229",
-                    "name": "For more on B\u00fcchi automata, see Orna\u2019s talk",
+                    "name": "For more on Büchi automata, see Orna’s talk",
                     "disabled": false
                   }
                 ]
@@ -1544,7 +1544,7 @@
               {
                 "type": "show",
                 "id": "111:15",
-                "name": "The MSO theory of ({0,1}*, \u2264) is decidable",
+                "name": "The MSO theory of ({0,1}*, ≤) is decidable",
                 "disabled": false
               },
               {
@@ -1555,7 +1555,7 @@
                   {
                     "type": "show",
                     "id": "120:153",
-                    "name": "Theorem. [Rabin 1969] The MSO theory of ({0,1}*, \u2264) is decidable.",
+                    "name": "Theorem. [Rabin 1969] The MSO theory of ({0,1}*, ≤) is decidable.",
                     "disabled": false
                   },
                   {
@@ -1615,7 +1615,7 @@
                       {
                         "type": "show",
                         "id": "204:22",
-                        "name": "Instead of an accepting subset F \u2286 Q, there is parity ranking function Q \u2192 {0, 1, ...}",
+                        "name": "Instead of an accepting subset F ⊆ Q, there is parity ranking function Q → {0, 1, ...}",
                         "disabled": false
                       },
                       {
@@ -1653,13 +1653,13 @@
                   {
                     "type": "show",
                     "id": "120:362",
-                    "name": "uses: 1. determinization for \u03c9-automata 2. finite memory strategies for games",
+                    "name": "uses: 1. determinization for ω-automata 2. finite memory strategies for games",
                     "disabled": false
                   },
                   {
                     "type": "show",
                     "id": "120:230",
-                    "name": "For more on tree automata, see Orna\u2019s talk",
+                    "name": "For more on tree automata, see Orna’s talk",
                     "disabled": false
                   }
                 ]
@@ -1667,7 +1667,7 @@
               {
                 "type": "show",
                 "id": "111:16",
-                "name": "The MSO theory of (\u211d, \u2264) is undecidable",
+                "name": "The MSO theory of (ℝ, ≤) is undecidable",
                 "disabled": false
               },
               {
@@ -1678,7 +1678,7 @@
                   {
                     "type": "show",
                     "id": "120:225",
-                    "name": "(\u211d, \u2264) and (\u211a, \u2264) have the same first-order theories, but different MSO theories.",
+                    "name": "(ℝ, ≤) and (ℚ, ≤) have the same first-order theories, but different MSO theories.",
                     "disabled": false
                   },
                   {
@@ -1690,13 +1690,13 @@
                   {
                     "type": "show",
                     "id": "120:228",
-                    "name": "\u201cevery set has a least upper bound\u201d",
+                    "name": "“every set has a least upper bound”",
                     "disabled": false
                   },
                   {
                     "type": "show",
                     "id": "120:224",
-                    "name": "Theorem. [Shelah 1975] The MSO theory of (\u211d, \u2264) is decidable (assuming CH).",
+                    "name": "Theorem. [Shelah 1975] The MSO theory of (ℝ, ≤) is decidable (assuming CH).",
                     "disabled": false
                   },
                   {
@@ -1708,19 +1708,19 @@
                   {
                     "type": "show",
                     "id": "120:233",
-                    "name": "Counterpoint 1. Every MSO formula \u03c6(x) is equivalent to either \u201ctrue\u201d or \u201cfalse\u201d.",
+                    "name": "Counterpoint 1. Every MSO formula φ(x) is equivalent to either “true” or “false”.",
                     "disabled": false
                   },
                   {
                     "type": "show",
                     "id": "120:234",
-                    "name": "Because every x, x\u2019 \u2208 \u211d can be mapped to each other using an order-preserving bijection of (\u211d, \u2264)",
+                    "name": "Because every x, x’ ∈ ℝ can be mapped to each other using an order-preserving bijection of (ℝ, ≤)",
                     "disabled": false
                   },
                   {
                     "type": "show",
                     "id": "120:235",
-                    "name": "Counterpoint 2. The MSO theory of (\u211a, \u2264) is decidable.",
+                    "name": "Counterpoint 2. The MSO theory of (ℚ, ≤) is decidable.",
                     "disabled": false
                   },
                   {
@@ -1731,13 +1731,13 @@
                       {
                         "type": "show",
                         "id": "120:364",
-                        "name": "\u03b5",
+                        "name": "ε",
                         "disabled": false
                       },
                       {
                         "type": "show",
                         "id": "120:306",
-                        "name": "This is a countable dense linear order without endpoints, and hence it is isomorphic to (\u211a, \u2264).",
+                        "name": "This is a countable dense linear order without endpoints, and hence it is isomorphic to (ℚ, ≤).",
                         "disabled": false
                       }
                     ]
@@ -1749,5 +1749,6 @@
         ]
       }
     ]
-  }
+  },
+  "version": 0.8
 }

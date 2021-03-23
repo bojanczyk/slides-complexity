@@ -491,7 +491,7 @@
       {
         "type": "show",
         "id": "17:58",
-        "name": "BPP \u228a P/Poly",
+        "name": "BPP ⊊ P/Poly",
         "disabled": false
       },
       {
@@ -514,7 +514,7 @@
           {
             "type": "show",
             "id": "9:2",
-            "name": "Theorem. Adleman 1978 BPP \u2286 P/poly",
+            "name": "Theorem. Adleman 1978 BPP ⊆ P/poly",
             "disabled": false
           },
           {
@@ -622,7 +622,7 @@
               {
                 "type": "show",
                 "id": "10:61",
-                "name": "Conclusion. There is a constant c such for every n, there exists a sequence of cn coin tosses which gives a correct answer for all inputs of length n, under the algorithm \u201crun the orignal algorithm cn times, and take a majority vote\u201d.",
+                "name": "Conclusion. There is a constant c such for every n, there exists a sequence of cn coin tosses which gives a correct answer for all inputs of length n, under the algorithm “run the orignal algorithm cn times, and take a majority vote”.",
                 "disabled": false
               },
               {
@@ -735,7 +735,7 @@
           {
             "type": "show",
             "id": "17:22",
-            "name": "Proof. Consider a language L \u2208 BPP, as witnessed by a machine M such that: - the running time is a polynomial p(n) - inputs w \u2208 L accepted with probability > 0.7 - inputs w \u2209 L are accepted with probability < 0.3",
+            "name": "Proof. Consider a language L ∈ BPP, as witnessed by a machine M such that: - the running time is a polynomial p(n) - inputs w ∈ L accepted with probability > 0.7 - inputs w ∉ L are accepted with probability < 0.3",
             "disabled": false
           },
           {
@@ -753,7 +753,7 @@
           {
             "type": "show",
             "id": "17:42",
-            "name": "Claim. For large enough n: - if w \u2208 L, then > 0.6 of seeds will satisfy (*) - if w \u2209 L, then < 0.4 of seeds will satisfy (*)",
+            "name": "Claim. For large enough n: - if w ∈ L, then > 0.6 of seeds will satisfy (*) - if w ∉ L, then < 0.4 of seeds will satisfy (*)",
             "disabled": false
           },
           {
@@ -782,13 +782,13 @@
               {
                 "type": "show",
                 "id": "17:44",
-                "name": "> 0.7 for w \u2208 L < 0.3 for w \u2209 L",
+                "name": "> 0.7 for w ∈ L < 0.3 for w ∉ L",
                 "disabled": false
               },
               {
                 "type": "show",
                 "id": "17:45",
-                "name": "> 0.6 for w \u2208 L < 0.4 for w \u2209 L",
+                "name": "> 0.6 for w ∈ L < 0.4 for w ∉ L",
                 "disabled": false
               }
             ]
@@ -809,7 +809,7 @@
           {
             "type": "show",
             "id": "1:179",
-            "name": "The following problem is NP-complete: given a graph and k, decide is there a cut of size \u2265 k.",
+            "name": "The following problem is NP-complete: given a graph and k, decide is there a cut of size ≥ k.",
             "disabled": false
           },
           {
@@ -827,7 +827,7 @@
           {
             "type": "show",
             "id": "1:242",
-            "name": "With probability 1/2, an edge is counted to the size of the cut. Hence, the expected value of \u201csize of the cut\u201d is 1/2 over the number of edges.",
+            "name": "With probability 1/2, an edge is counted to the size of the cut. Hence, the expected value of “size of the cut” is 1/2 over the number of edges.",
             "disabled": false
           },
           {
@@ -838,7 +838,7 @@
               {
                 "type": "show",
                 "id": "6:6",
-                "name": "What is the probability of getting a cut of size \u2265 m?",
+                "name": "What is the probability of getting a cut of size ≥ m?",
                 "disabled": false
               },
               {
@@ -850,7 +850,7 @@
               {
                 "type": "show",
                 "id": "40:912",
-                "name": "\u2264",
+                "name": "≤",
                 "disabled": false
               },
               {
@@ -898,7 +898,7 @@
               {
                 "type": "show",
                 "id": "6:24",
-                "name": "if we try m times, we get probability > \u00bd , because",
+                "name": "if we try m times, we get probability > ½ , because",
                 "disabled": false
               }
             ]
@@ -911,7 +911,7 @@
               {
                 "type": "show",
                 "id": "1:247",
-                "name": "We derandomise this algorithm, getting a deterministic polynomial time algorithm, which always produces a partition that cuts \u2265 half the edges.",
+                "name": "We derandomise this algorithm, getting a deterministic polynomial time algorithm, which always produces a partition that cuts ≥ half the edges.",
                 "disabled": false
               },
               {
@@ -940,7 +940,7 @@
                   {
                     "type": "show",
                     "id": "6:25",
-                    "name": "\u03b5",
+                    "name": "ε",
                     "disabled": false
                   },
                   {
@@ -1007,13 +1007,13 @@
                   {
                     "type": "show",
                     "id": "5:2",
-                    "name": "Probability [exactly one endpoint of e is chosen] = \u00bd",
+                    "name": "Probability [exactly one endpoint of e is chosen] = ½",
                     "disabled": false
                   },
                   {
                     "type": "show",
                     "id": "5:3",
-                    "name": "Hence, each edge corresponds \u00bd to the expected cut size.",
+                    "name": "Hence, each edge corresponds ½ to the expected cut size.",
                     "disabled": false
                   },
                   {
@@ -1083,5 +1083,6 @@
         ]
       }
     ]
-  }
+  },
+  "version": 0.8
 }

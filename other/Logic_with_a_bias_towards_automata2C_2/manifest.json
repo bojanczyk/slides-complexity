@@ -643,13 +643,13 @@
               {
                 "type": "show",
                 "id": "138:155",
-                "name": "A. true means \u201ctrue in all models, including infinite ones\u201d",
+                "name": "A. true means “true in all models, including infinite ones”",
                 "disabled": false
               },
               {
                 "type": "show",
                 "id": "138:156",
-                "name": "B. true means \u201ctrue in all finite models\u201d [Trakhtenbrot 1950]",
+                "name": "B. true means “true in all finite models” [Trakhtenbrot 1950]",
                 "disabled": false
               },
               {
@@ -661,7 +661,7 @@
               {
                 "type": "show",
                 "id": "138:154",
-                "name": "Therefore, \u03c6 is true in some finite model if and only if the machine halts.",
+                "name": "Therefore, φ is true in some finite model if and only if the machine halts.",
                 "disabled": false
               },
               {
@@ -698,7 +698,7 @@
               {
                 "type": "show",
                 "id": "140:763",
-                "name": "A finite word w \u2208 \u03a3* can be viewed as a model",
+                "name": "A finite word w ∈ Σ* can be viewed as a model",
                 "disabled": false
               },
               {
@@ -710,13 +710,13 @@
               {
                 "type": "show",
                 "id": "140:765",
-                "name": "For a language L \u2286 \u03a3*, the following conditions are equivalent:",
+                "name": "For a language L ⊆ Σ*, the following conditions are equivalent:",
                 "disabled": false
               },
               {
                 "type": "show",
                 "id": "140:766",
-                "name": "because regular languages are closed under \u2228 \u2227 \u00ac \u2203",
+                "name": "because regular languages are closed under ∨ ∧ ¬ ∃",
                 "disabled": false
               },
               {
@@ -733,7 +733,7 @@
                   {
                     "type": "show",
                     "id": "136:46",
-                    "name": "Every regular language L \u2286 \u03a3* can be defined in MSO.",
+                    "name": "Every regular language L ⊆ Σ* can be defined in MSO.",
                     "disabled": false
                   },
                   {
@@ -751,31 +751,31 @@
                   {
                     "type": "show",
                     "id": "140:771",
-                    "name": "\u2203X1 ... \u2203Xn",
+                    "name": "∃X1 ... ∃Xn",
                     "disabled": false
                   },
                   {
                     "type": "show",
                     "id": "140:772",
-                    "name": "\u2200x x \u2208 Xi \u2227 x \u2209 Xj",
+                    "name": "∀x x ∈ Xi ∧ x ∉ Xj",
                     "disabled": false
                   },
                   {
                     "type": "show",
                     "id": "140:773",
-                    "name": "\u2200x first(x) \u27f9 x \u2208 Xi",
+                    "name": "∀x first(x) ⟹ x ∈ Xi",
                     "disabled": false
                   },
                   {
                     "type": "show",
                     "id": "140:774",
-                    "name": "\u2200x \u2200y (x + 1 = y) \u27f9 x \u2208 Xi \u2227 y \u2208 Xj",
+                    "name": "∀x ∀y (x + 1 = y) ⟹ x ∈ Xi ∧ y ∈ Xj",
                     "disabled": false
                   },
                   {
                     "type": "show",
                     "id": "140:775",
-                    "name": "\u2200x last(x) \u27f9 x \u2208 Xi",
+                    "name": "∀x last(x) ⟹ x ∈ Xi",
                     "disabled": false
                   }
                 ]
@@ -783,13 +783,13 @@
               {
                 "type": "show",
                 "id": "137:14",
-                "name": "Theorem. [B\u00fcchi, Elgot, Trakhtenbrot 1958] The following problem is decidable: input: MSO sentence using x < y and {a(x)}a \u2208 \u03a3 question: is it true in some w \u2208 \u03a3*?",
+                "name": "Theorem. [Büchi, Elgot, Trakhtenbrot 1958] The following problem is decidable: input: MSO sentence using x < y and {a(x)}a ∈ Σ question: is it true in some w ∈ Σ*?",
                 "disabled": false
               },
               {
                 "type": "show",
                 "id": "137:17",
-                "name": "Because the MSO \u2192 automata translation is computable",
+                "name": "Because the MSO → automata translation is computable",
                 "disabled": false
               },
               {
@@ -800,7 +800,7 @@
                   {
                     "type": "show",
                     "id": "137:18",
-                    "name": "This also works for \u03c9-words [B\u00fcchi] and infinite trees [Rabin].",
+                    "name": "This also works for ω-words [Büchi] and infinite trees [Rabin].",
                     "disabled": false
                   },
                   {
@@ -837,13 +837,13 @@
                   {
                     "type": "show",
                     "id": "140:776",
-                    "name": "A monoid is: (M, \u00b7, \u03b5)",
+                    "name": "A monoid is: (M, ·, ε)",
                     "disabled": false
                   },
                   {
                     "type": "show",
                     "id": "140:777",
-                    "name": "A language L \u2286 \u03a3* is recognized by a finite monoid M if there is monoid homomorphism",
+                    "name": "A language L ⊆ Σ* is recognized by a finite monoid M if there is monoid homomorphism",
                     "disabled": false
                   },
                   {
@@ -860,7 +860,7 @@
                       {
                         "type": "show",
                         "id": "176:47",
-                        "name": "\u03a3*",
+                        "name": "Σ*",
                         "disabled": false
                       },
                       {
@@ -872,25 +872,25 @@
                       {
                         "type": "show",
                         "id": "176:20",
-                        "name": "\u2013 states: M",
+                        "name": "– states: M",
                         "disabled": false
                       },
                       {
                         "type": "show",
                         "id": "176:21",
-                        "name": "\u2013 initial state: \u03b5 \u2208 M",
+                        "name": "– initial state: ε ∈ M",
                         "disabled": false
                       },
                       {
                         "type": "show",
                         "id": "176:22",
-                        "name": "\u2013 transition function (m, a) \u21a6 m\u2219h(a)",
+                        "name": "– transition function (m, a) ↦ m∙h(a)",
                         "disabled": false
                       },
                       {
                         "type": "show",
                         "id": "176:23",
-                        "name": "\u2013 accepting states: same as in monoid",
+                        "name": "– accepting states: same as in monoid",
                         "disabled": false
                       },
                       {
@@ -952,7 +952,7 @@
                       {
                         "type": "show",
                         "id": "137:9",
-                        "name": "1. Powerful decomposition results for finite monoids Superior to automata concepts like \u201cstrongly connected component\u201d",
+                        "name": "1. Powerful decomposition results for finite monoids Superior to automata concepts like “strongly connected component”",
                         "disabled": false
                       },
                       {
@@ -970,13 +970,13 @@
                       {
                         "type": "show",
                         "id": "137:13",
-                        "name": "Sch\u00fctzenberger, McNaughton and Papert: group-free monoids recognize exactly the first-order definable languages",
+                        "name": "Schützenberger, McNaughton and Papert: group-free monoids recognize exactly the first-order definable languages",
                         "disabled": false
                       },
                       {
                         "type": "show",
                         "id": "137:11",
-                        "name": "3. Beyond finite words, sometimes monoids generalize better than automata \u201cGraph monoids\u201d are a thing, \u201cgraph automata\u201d not so much.",
+                        "name": "3. Beyond finite words, sometimes monoids generalize better than automata “Graph monoids” are a thing, “graph automata” not so much.",
                         "disabled": false
                       }
                     ]
@@ -1057,7 +1057,7 @@
                       {
                         "type": "show",
                         "id": "140:157",
-                        "name": "Definition. A graph has treewidth k \u2208 {1,2, ...} if it can be constructed using the following operations, so that in every moment at most k+1 ports are used.",
+                        "name": "Definition. A graph has treewidth k ∈ {1,2, ...} if it can be constructed using the following operations, so that in every moment at most k+1 ports are used.",
                         "disabled": false
                       },
                       {
@@ -1193,7 +1193,7 @@
                   {
                     "type": "show",
                     "id": "140:501",
-                    "name": "Theorem. [Courcelle] The following problem is decidable: input: an MSO sentence \u03c6 and k \u2208 {1, 2, ..} question: is \u03c6 true in some graph of treewidth at most k?",
+                    "name": "Theorem. [Courcelle] The following problem is decidable: input: an MSO sentence φ and k ∈ {1, 2, ..} question: is φ true in some graph of treewidth at most k?",
                     "disabled": false
                   },
                   {
@@ -1222,7 +1222,7 @@
                       {
                         "type": "show",
                         "id": "140:762",
-                        "name": "\u03c6 is true in some graph of treewidth k",
+                        "name": "φ is true in some graph of treewidth k",
                         "disabled": false
                       }
                     ]
@@ -1242,7 +1242,7 @@
                   {
                     "type": "show",
                     "id": "140:502",
-                    "name": "Theorem. [Seese] If C is a class of graphs of unbouned treewidth, then the following problem is undecidable: input: an MSO sentence \u03c6 question: is \u03c6 true in some graph from C?",
+                    "name": "Theorem. [Seese] If C is a class of graphs of unbouned treewidth, then the following problem is undecidable: input: an MSO sentence φ question: is φ true in some graph from C?",
                     "disabled": false
                   }
                 ]
@@ -1263,13 +1263,13 @@
               {
                 "type": "show",
                 "id": "140:753",
-                "name": "\u2203* formulas",
+                "name": "∃* formulas",
                 "disabled": false
               },
               {
                 "type": "show",
                 "id": "140:752",
-                "name": "Also: \u2203*\u2200* [Bernays Sch\u00f6nfinkel 1928], \u2203*\u2200 \u2203* [Ackermann 1928], ...",
+                "name": "Also: ∃*∀* [Bernays Schönfinkel 1928], ∃*∀ ∃* [Ackermann 1928], ...",
                 "disabled": false
               },
               {
@@ -1287,7 +1287,7 @@
               {
                 "type": "show",
                 "id": "140:755",
-                "name": "The guarded fragment [Andr\u00e9ka, van Benthem, N\u00e9meti 1998]",
+                "name": "The guarded fragment [Andréka, van Benthem, Németi 1998]",
                 "disabled": false
               }
             ]
@@ -1295,5 +1295,6 @@
         ]
       }
     ]
-  }
+  },
+  "version": 0.8
 }

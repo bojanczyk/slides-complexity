@@ -761,13 +761,13 @@
               {
                 "type": "show",
                 "id": "317:127",
-                "name": "Maybe for every first-order sentence \u03c6, there is a linear time algorithm which recognizes graphs where \u03c6 is true?",
+                "name": "Maybe for every first-order sentence φ, there is a linear time algorithm which recognizes graphs where φ is true?",
                 "disabled": false
               },
               {
                 "type": "show",
                 "id": "317:128",
-                "name": "The naive algorithm is polynomial, but the degree of the polynomial depends on \u03c6.",
+                "name": "The naive algorithm is polynomial, but the degree of the polynomial depends on φ.",
                 "disabled": false
               },
               {
@@ -846,7 +846,7 @@
               {
                 "type": "show",
                 "id": "301:136",
-                "name": "b. for every proper subset G \u2286 F, some vertex is incident to exactly 1 edge from G",
+                "name": "b. for every proper subset G ⊆ F, some vertex is incident to exactly 1 edge from G",
                 "disabled": false
               }
             ]
@@ -860,7 +860,7 @@
           {
             "type": "show",
             "id": "301:138",
-            "name": "Theorem. [Seese 1996] For every sentence \u03c6 of first-order logic and d \u2208 {1, 2, ..}, the following problem can be solved in linear time: input: graph of degree d question: does it satisfy \u03c6?",
+            "name": "Theorem. [Seese 1996] For every sentence φ of first-order logic and d ∈ {1, 2, ..}, the following problem can be solved in linear time: input: graph of degree d question: does it satisfy φ?",
             "disabled": false
           },
           {
@@ -872,7 +872,7 @@
           {
             "type": "show",
             "id": "301:140",
-            "name": "Theorem. [Courcelle 1990] For every sentence \u03c6 of MSO and k \u2208 {1, 2, ..}, the following problem can be solved in linear time: input: graph of treewidth k question: does it satisfy \u03c6?",
+            "name": "Theorem. [Courcelle 1990] For every sentence φ of MSO and k ∈ {1, 2, ..}, the following problem can be solved in linear time: input: graph of treewidth k question: does it satisfy φ?",
             "disabled": false
           },
           {
@@ -901,7 +901,7 @@
               {
                 "type": "show",
                 "id": "301:150",
-                "name": "Theorem. [Bodlaender] For every k \u2208 {1, 2, ...}, the following problem can be solved in linear time: input: a graph output: a tree decomposition of width k, or \u201cno\u201d if there is no such tree decomposition.",
+                "name": "Theorem. [Bodlaender] For every k ∈ {1, 2, ...}, the following problem can be solved in linear time: input: a graph output: a tree decomposition of width k, or “no” if there is no such tree decomposition.",
                 "disabled": false
               },
               {
@@ -919,7 +919,7 @@
               {
                 "type": "show",
                 "id": "301:151",
-                "name": "Lemma. For every k \u2208 {1, 2, ...} and MSO sentence \u03c6, the following problem can be solved in linear time: input: a tree decomposition of width k output: does the underlying graph satisfy \u03c6?",
+                "name": "Lemma. For every k ∈ {1, 2, ...} and MSO sentence φ, the following problem can be solved in linear time: input: a tree decomposition of width k output: does the underlying graph satisfy φ?",
                 "disabled": false
               },
               {
@@ -942,7 +942,7 @@
                   {
                     "type": "show",
                     "id": "311:5",
-                    "name": "Therefore it remains to show that a fixed MSO formula on trees can be evaluated in linear time: f (formula)\u00b7(size of tree)",
+                    "name": "Therefore it remains to show that a fixed MSO formula on trees can be evaluated in linear time: f (formula)·(size of tree)",
                     "disabled": false
                   },
                   {
@@ -1044,7 +1044,7 @@
                       {
                         "type": "show",
                         "id": "301:180",
-                        "name": "Proof. Same as for finite words (B\u00fcchi, Elgot, Trakhtenbrot)",
+                        "name": "Proof. Same as for finite words (Büchi, Elgot, Trakhtenbrot)",
                         "disabled": false
                       },
                       {
@@ -1073,7 +1073,7 @@
               {
                 "type": "show",
                 "id": "301:270",
-                "name": "The main tool for this, and other similar results, is Gaifman\u2019s theorem about the locality of first-order logic",
+                "name": "The main tool for this, and other similar results, is Gaifman’s theorem about the locality of first-order logic",
                 "disabled": false
               },
               {
@@ -1084,7 +1084,7 @@
                   {
                     "type": "show",
                     "id": "301:273",
-                    "name": "Theorem. [Gaifman 1982] Every sentence \u03c6 of first-order logic on graphs is equivalent to a Boolean combination of basic local sentences:",
+                    "name": "Theorem. [Gaifman 1982] Every sentence φ of first-order logic on graphs is equivalent to a Boolean combination of basic local sentences:",
                     "disabled": false
                   },
                   {
@@ -1096,19 +1096,19 @@
                   {
                     "type": "show",
                     "id": "311:14",
-                    "name": "a number k \u2208 {0, 1, ...}",
+                    "name": "a number k ∈ {0, 1, ...}",
                     "disabled": false
                   },
                   {
                     "type": "show",
                     "id": "311:15",
-                    "name": "a number r \u2208 {0, 1, ...} called the radius",
+                    "name": "a number r ∈ {0, 1, ...} called the radius",
                     "disabled": false
                   },
                   {
                     "type": "show",
                     "id": "311:16",
-                    "name": "a first-order formula \u03c6(x) which is r-local",
+                    "name": "a first-order formula φ(x) which is r-local",
                     "disabled": false
                   },
                   {
@@ -1131,7 +1131,7 @@
                       {
                         "type": "show",
                         "id": "311:19",
-                        "name": "A formula \u03c6(v) is r-local if it depends only on the r-neighbourhood of v:",
+                        "name": "A formula φ(v) is r-local if it depends only on the r-neighbourhood of v:",
                         "disabled": false
                       },
                       {
@@ -1164,13 +1164,13 @@
                   {
                     "type": "show",
                     "id": "311:21",
-                    "name": "Thanks to Gaifman\u2019s theorem, it is enough to show that for every basic local sentence",
+                    "name": "Thanks to Gaifman’s theorem, it is enough to show that for every basic local sentence",
                     "disabled": false
                   },
                   {
                     "type": "show",
                     "id": "311:22",
-                    "name": "For every vertex x, we can check \u03c6(x) in constant time.",
+                    "name": "For every vertex x, we can check φ(x) in constant time.",
                     "disabled": false
                   },
                   {
@@ -1182,13 +1182,13 @@
                   {
                     "type": "show",
                     "id": "310:83",
-                    "name": "For every vertex x\u2081, check if it satisfies \u03c6(x\u2081)",
+                    "name": "For every vertex x₁, check if it satisfies φ(x₁)",
                     "disabled": false
                   },
                   {
                     "type": "show",
                     "id": "310:84",
-                    "name": "After finding the first candidate for x\u2081, find some other x\u2082 which satisfies \u03c6(x\u2082) and has distance > r from x\u2081",
+                    "name": "After finding the first candidate for x₁, find some other x₂ which satisfies φ(x₂) and has distance > r from x₁",
                     "disabled": false
                   },
                   {
@@ -1200,19 +1200,19 @@
                   {
                     "type": "show",
                     "id": "311:25",
-                    "name": "vertex x\u2081 found by algorithm",
+                    "name": "vertex x₁ found by algorithm",
                     "disabled": false
                   },
                   {
                     "type": "show",
                     "id": "311:24",
-                    "name": "vertices x\u2081 and x\u2082 needed to satisfy basic local sentence",
+                    "name": "vertices x₁ and x₂ needed to satisfy basic local sentence",
                     "disabled": false
                   },
                   {
                     "type": "show",
                     "id": "310:94",
-                    "name": "The false negative can only happen if the basic local sentence is witnessed by a pair of vertices at distance \u2264 2r.",
+                    "name": "The false negative can only happen if the basic local sentence is witnessed by a pair of vertices at distance ≤ 2r.",
                     "disabled": false
                   },
                   {
@@ -1285,7 +1285,7 @@
                   {
                     "type": "show",
                     "id": "310:105",
-                    "name": "For every first-order sentence \u03c6, there is a linear time algorithm for: input: a graph from C question: does it satisfy \u03c6?",
+                    "name": "For every first-order sentence φ, there is a linear time algorithm for: input: a graph from C question: does it satisfy φ?",
                     "disabled": false
                   },
                   {
@@ -1302,7 +1302,7 @@
                       {
                         "type": "show",
                         "id": "310:277",
-                        "name": "Consider a radius r \u2208 {0, 1, ...} and two graphs:",
+                        "name": "Consider a radius r ∈ {0, 1, ...} and two graphs:",
                         "disabled": false
                       },
                       {
@@ -1344,7 +1344,7 @@
                       {
                         "type": "show",
                         "id": "310:240",
-                        "name": "Definition. [Nesetril and Ossona de Mendez 2011] A class of graphs C is nowhere dense if for every radius r \u2208 {0, 1, ...}, not all graphs are r-minors of C.",
+                        "name": "Definition. [Nesetril and Ossona de Mendez 2011] A class of graphs C is nowhere dense if for every radius r ∈ {0, 1, ...}, not all graphs are r-minors of C.",
                         "disabled": false
                       },
                       {
@@ -1382,7 +1382,7 @@
                       {
                         "type": "show",
                         "id": "311:26",
-                        "name": "Theorem. [Grohe, Kreutzer, Siebertz 2014] If C is nowhere dense and closed under subgraphs, then for every first-order sentence \u03c6, the model checking problem",
+                        "name": "Theorem. [Grohe, Kreutzer, Siebertz 2014] If C is nowhere dense and closed under subgraphs, then for every first-order sentence φ, the model checking problem",
                         "disabled": false
                       },
                       {
@@ -1394,7 +1394,7 @@
                       {
                         "type": "show",
                         "id": "310:281",
-                        "name": "If C is not nowhere dense, then for some radius r \u2208 {1, 2, ...} the class every graph as an r-minor.",
+                        "name": "If C is not nowhere dense, then for some radius r ∈ {1, 2, ...} the class every graph as an r-minor.",
                         "disabled": false
                       },
                       {
@@ -1480,13 +1480,13 @@
                       {
                         "type": "show",
                         "id": "310:457",
-                        "name": "Blocks A and B are consistent, because \u2200a \u2208 A \u2200b \u2208 B edge(a, b)",
+                        "name": "Blocks A and B are consistent, because ∀a ∈ A ∀b ∈ B edge(a, b)",
                         "disabled": false
                       },
                       {
                         "type": "show",
                         "id": "310:462",
-                        "name": "Blocks B and C are consistent, because \u2200b \u2208 B \u2200c \u2208 C \u00ac edge(b, c)",
+                        "name": "Blocks B and C are consistent, because ∀b ∈ B ∀c ∈ C ¬ edge(b, c)",
                         "disabled": false
                       },
                       {
@@ -1498,7 +1498,7 @@
                       {
                         "type": "show",
                         "id": "310:458",
-                        "name": "Definition [Bonnet, Kim, Thomass\u00e9, Watrigant 2020] A graph has twinwidth k \u2208 {0, 1, 2, ...} if there is a sequence of partitions P1, ..., Pn on its vertices such that;",
+                        "name": "Definition [Bonnet, Kim, Thomassé, Watrigant 2020] A graph has twinwidth k ∈ {0, 1, 2, ...} if there is a sequence of partitions P1, ..., Pn on its vertices such that;",
                         "disabled": false
                       },
                       {
@@ -1510,13 +1510,13 @@
                       {
                         "type": "show",
                         "id": "310:460",
-                        "name": "b) for every i \u2208 {1, ..., n \u2013 1}, Pi+1 is obtained from Pi by merging two blocks",
+                        "name": "b) for every i ∈ {1, ..., n – 1}, Pi+1 is obtained from Pi by merging two blocks",
                         "disabled": false
                       },
                       {
                         "type": "show",
                         "id": "310:465",
-                        "name": "c) for every i \u2208 {1, ..., n} and every block A \u2208 Pi, at most k blocks of Pi are inconsistent with A.",
+                        "name": "c) for every i ∈ {1, ..., n} and every block A ∈ Pi, at most k blocks of Pi are inconsistent with A.",
                         "disabled": false
                       },
                       {
@@ -1591,7 +1591,7 @@
                   {
                     "type": "show",
                     "id": "311:33",
-                    "name": "Theorem. [Bonnet, Kim, Thomass\u00e9, Watrigant 2020] For every k \u2208 {0, 1, 2, ...} and first-order \u03c6, there is a linear time algorithm for:",
+                    "name": "Theorem. [Bonnet, Kim, Thomassé, Watrigant 2020] For every k ∈ {0, 1, 2, ...} and first-order φ, there is a linear time algorithm for:",
                     "disabled": false
                   }
                 ]
@@ -1601,5 +1601,6 @@
         ]
       }
     ]
-  }
+  },
+  "version": 0.8
 }
