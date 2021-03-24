@@ -1,12 +1,13 @@
 {
+  "version": 0.81,
   "presentation": "Spotlight 2021",
   "root": "2:0",
   "slideDict": {
     "2:0": "First_slide",
     "3:3": "Mealy_machines",
     "3:100": "flip-flop",
-    "3:321": "Proof_of_KR_1",
     "3:195": "Kroh-Rhodes",
+    "3:321": "Proof_of_KR_1",
     "3:457": "regular_functions",
     "3:486": "primes*___E2_8A_86_regular",
     "3:543": "precomposition_with_reversible",
@@ -931,45 +932,5 @@
       }
     ]
   },
-  "soundDict": {
-    "2:0": {
-      "0": {
-        "file": "0",
-        "duration": 2.064
-      },
-      "1": {
-        "file": "1",
-        "duration": 1.344
-      },
-      "2": {
-        "file": "2",
-        "duration": 1.536
-      },
-      "3": {
-        "file": "3",
-        "duration": 1.584
-      }
-    },
-    "3:3": {
-      "0": {
-        "file": "0",
-        "duration": 2.184
-      },
-      "1": {
-        "file": "1",
-        "duration": 0.936
-      },
-      "2": {
-        "file": "2",
-        "duration": 1.416
-      }
-    },
-    "3:100": {
-      "0": {
-        "file": "0",
-        "duration": 1.344
-      }
-    }
-  },
-  "version": 0.81
+  "soundDict": {}
 }
