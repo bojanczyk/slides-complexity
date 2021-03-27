@@ -808,7 +808,8 @@
         "disabled": false,
         "keywords": [
           "Two decision problems for logics"
-        ]
+        ],
+        "children": []
       },
       {
         "type": "show",
@@ -817,7 +818,8 @@
         "disabled": false,
         "keywords": [
           "Satisfiability is φ true in some model?"
-        ]
+        ],
+        "children": []
       },
       {
         "type": "show",
@@ -826,7 +828,8 @@
         "disabled": false,
         "keywords": [
           "Model checking is φ true in some model M?"
-        ]
+        ],
+        "children": []
       },
       {
         "type": "show",
@@ -835,7 +838,8 @@
         "disabled": false,
         "keywords": [
           "M fixed, φ input"
-        ]
+        ],
+        "children": []
       },
       {
         "type": "show",
@@ -844,7 +848,8 @@
         "disabled": false,
         "keywords": [
           "M input, φ input"
-        ]
+        ],
+        "children": []
       },
       {
         "type": "show",
@@ -853,7 +858,8 @@
         "disabled": false,
         "keywords": [
           "M input, φ fixed"
-        ]
+        ],
+        "children": []
       },
       {
         "type": "show",
@@ -862,7 +868,8 @@
         "disabled": false,
         "keywords": [
           "Part 1."
-        ]
+        ],
+        "children": []
       },
       {
         "type": "show",
@@ -871,7 +878,8 @@
         "disabled": false,
         "keywords": [
           "Part 2."
-        ]
+        ],
+        "children": []
       },
       {
         "type": "show",
@@ -880,7 +888,8 @@
         "disabled": false,
         "keywords": [
           "Part 3."
-        ]
+        ],
+        "children": []
       },
       {
         "type": "child",
@@ -894,7 +903,8 @@
             "disabled": false,
             "keywords": [
               "First-order logic"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -903,7 +913,8 @@
             "disabled": false,
             "keywords": [
               "For which structures M is the following problem decidable: Given a sentence of first-order logic φ, is φ is true in M?"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -912,7 +923,8 @@
             "disabled": false,
             "keywords": [
               "({0, 1})"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "child",
@@ -926,7 +938,8 @@
                 "disabled": false,
                 "keywords": [
                   "What can a first-order sentence say in {0,1} ?"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -935,7 +948,8 @@
                 "disabled": false,
                 "keywords": [
                   "{0, 1} ⊨ ∃x ∀y x = y"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -944,7 +958,8 @@
                 "disabled": false,
                 "keywords": [
                   "This is enough to encode QBF (quantified Boolean formulas)"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -953,7 +968,8 @@
                 "disabled": false,
                 "keywords": [
                   "Theorem. For every finite M, its first-order theory is PSpace complete."
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -962,7 +978,8 @@
                 "disabled": false,
                 "keywords": [
                   "Hardness is already for {0,1} with equality only."
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -971,7 +988,8 @@
                 "disabled": false,
                 "keywords": [
                   "Membership is witnessed by the naive algorithm"
-                ]
+                ],
+                "children": []
               }
             ],
             "keywords": [
@@ -985,7 +1003,8 @@
             "disabled": false,
             "keywords": [
               "(ℕ, +, ×)"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -994,7 +1013,8 @@
             "disabled": false,
             "keywords": [
               "(ℝ, +, ×)"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -1003,7 +1023,8 @@
             "disabled": false,
             "keywords": [
               "(ℕ, +)"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "child",
@@ -1017,7 +1038,8 @@
                 "disabled": false,
                 "keywords": [
                   "Theorem. The first-order theory of (ℕ, +, ×) is undecidable."
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "child",
@@ -1031,7 +1053,8 @@
                     "disabled": false,
                     "keywords": [
                       "Proof sketch. We can use numbers to represent lists of numbers."
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1040,7 +1063,8 @@
                     "disabled": false,
                     "keywords": [
                       "First-order logic can define operations such as head, or concatenation."
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1049,7 +1073,8 @@
                     "disabled": false,
                     "keywords": [
                       "A list can represent a computation of a Turing machine."
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1058,7 +1083,8 @@
                     "disabled": false,
                     "keywords": [
                       "Using the list operations, one can formalize in first-order logic the statement “there exists an accepting computation”."
-                    ]
+                    ],
+                    "children": []
                   }
                 ],
                 "keywords": [
@@ -1072,7 +1098,8 @@
                 "disabled": false,
                 "keywords": [
                   "In fact, undecidability holds already for ∃* formulas:"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1081,7 +1108,8 @@
                 "disabled": false,
                 "keywords": [
                   "Theorem. [DPLM] Hilbert’s 10-th problem is undecidable: Input. a polynomial Question."
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1090,7 +1118,8 @@
                 "disabled": false,
                 "keywords": [
                   "There is a polynonial P such that x is a prime number iff"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1099,7 +1128,8 @@
                 "disabled": false,
                 "keywords": [
                   "There is a polynomial P such that"
-                ]
+                ],
+                "children": []
               }
             ],
             "keywords": [
@@ -1118,7 +1148,8 @@
                 "disabled": false,
                 "keywords": [
                   "Theorem. [Tarski 1929] The first-order theory of (ℝ, +, ×) is decidable."
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1127,7 +1158,8 @@
                 "disabled": false,
                 "keywords": [
                   "Tarski’s proof used quantifier elimination:"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1136,7 +1168,8 @@
                 "disabled": false,
                 "keywords": [
                   "Main lemma. For every first-order formula φ(x1, ... xn), one can compute an equivalent quantifier-free formula in (ℝ, +, ×, –, ≤, 0, 1, )"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1145,7 +1178,8 @@
                 "disabled": false,
                 "keywords": [
                   "Applying the main lemma to a formula without free variables, we compute an equivalent formula like (1 – 1 = 0 ∨ 0 > 1), whose truth can be easily decided."
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1154,7 +1188,8 @@
                 "disabled": false,
                 "keywords": [
                   "Example 1"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1163,7 +1198,8 @@
                 "disabled": false,
                 "keywords": [
                   "This is because quantifier-free formulas are Boolean combinations of polynomial inequalities."
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1172,7 +1208,8 @@
                 "disabled": false,
                 "keywords": [
                   "Hence there is no formula for “x is a natural number”."
-                ]
+                ],
+                "children": []
               }
             ],
             "keywords": [
@@ -1191,7 +1228,8 @@
                 "disabled": false,
                 "keywords": [
                   "Theorem. [Presburger 1929] The first-order theory of (ℕ, +) is decidable."
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1200,7 +1238,8 @@
                 "disabled": false,
                 "keywords": [
                   "Main lemma. For every first-order formula φ(x1, ... xn), the defined subset of ℕⁿ is semilinear, i.e it is a finite union of linear sets:"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1209,7 +1248,8 @@
                 "disabled": false,
                 "keywords": [
                   "Proof. The base case is the formula"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1218,7 +1258,8 @@
                 "disabled": false,
                 "keywords": [
                   "Semilinear sets are closed under union, projection, and complementation."
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "child",
@@ -1232,7 +1273,8 @@
                     "disabled": false,
                     "keywords": [
                       "Consider a formula"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1241,7 +1283,8 @@
                     "disabled": false,
                     "keywords": [
                       "The quantified formula"
-                    ]
+                    ],
+                    "children": []
                   }
                 ],
                 "keywords": [
@@ -1255,7 +1298,8 @@
                 "disabled": false,
                 "keywords": [
                   "technical"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1264,7 +1308,8 @@
                 "disabled": false,
                 "keywords": [
                   "We will later see an alternative decidability proof, using automata."
-                ]
+                ],
+                "children": []
               }
             ],
             "keywords": [
@@ -1278,7 +1323,8 @@
             "disabled": false,
             "keywords": [
               "Second-order logic"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "child",
@@ -1292,7 +1338,8 @@
                 "disabled": false,
                 "keywords": [
                   "In second-order logic, we can write formulas like:"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1301,7 +1348,8 @@
                 "disabled": false,
                 "keywords": [
                   "Theorem. For every structure M: 1. if M is finite, then its second-order theory is PSpace complete. 2. if M is infinite, then its second-order theory is undecidable."
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1310,7 +1358,8 @@
                 "disabled": false,
                 "keywords": [
                   "Proof. 1. PSpace hardness is inherited from first-order logic, PSpace membership uses the naive algorithm."
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1319,7 +1368,8 @@
                 "disabled": false,
                 "keywords": [
                   "2. Undecidability is witnessed by formulas of the form:"
-                ]
+                ],
+                "children": []
               }
             ],
             "keywords": [
@@ -1333,7 +1383,8 @@
             "disabled": false,
             "keywords": [
               "Monadic second-order logic"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "child",
@@ -1347,7 +1398,8 @@
                 "disabled": false,
                 "keywords": [
                   "Example. The MSO theory of (ℕ, =) is decidable. Every formula is equivalent to a quantifier-free formula using X(x), |X| = n and |ℕ - X| = n."
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1356,7 +1408,8 @@
                 "disabled": false,
                 "keywords": [
                   "Question. [Tarski] Is the MSO theory of (ℕ, ≤) decidable?"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1365,7 +1418,8 @@
                 "disabled": false,
                 "keywords": [
                   "Robinson’s paper shows that the MSO theory of (ℕ, ≤, 2x) is undecidable."
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1374,7 +1428,8 @@
                 "disabled": false,
                 "keywords": [
                   "The weak MSO theory of (ℕ, ≤) is decidable"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1383,7 +1438,8 @@
                 "disabled": false,
                 "keywords": [
                   "The MSO theory of (ℕ, ≤) is decidable"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "child",
@@ -1397,7 +1453,8 @@
                     "disabled": false,
                     "keywords": [
                       "Weak MSO has the same syntax as MSO, but set quantification is restricted to finite sets."
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1406,7 +1463,8 @@
                     "disabled": false,
                     "keywords": [
                       "∃X ∀x x ∈ X"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1415,7 +1473,8 @@
                     "disabled": false,
                     "keywords": [
                       "Theorem. [BEEVT] The weak MSO theory of (ℕ, ≤) is decidable."
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "child",
@@ -1429,7 +1488,8 @@
                         "disabled": false,
                         "keywords": [
                           "Consider a formula φ(x, Y, Z ) of weak MSO. How do we represent the semantics of φ, which is a set of triples (number, finite set of numbers, finite set of numbers)?"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1438,7 +1498,8 @@
                         "disabled": false,
                         "keywords": [
                           "A quantifier-free formula?"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1447,7 +1508,8 @@
                         "disabled": false,
                         "keywords": [
                           "A semilinear set?"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1456,7 +1518,8 @@
                         "disabled": false,
                         "keywords": [
                           "An automaton!"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "child",
@@ -1470,7 +1533,8 @@
                             "disabled": false,
                             "keywords": [
                               "2"
-                            ]
+                            ],
+                            "children": []
                           }
                         ],
                         "keywords": [
@@ -1484,7 +1548,8 @@
                         "disabled": false,
                         "keywords": [
                           "Lemma. For every formula of weak MSO, one can compute a finite automaton that recognizes the corresponding set of words"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "child",
@@ -1498,7 +1563,8 @@
                             "disabled": false,
                             "keywords": [
                               "Proof. Induction on formula size."
-                            ]
+                            ],
+                            "children": []
                           },
                           {
                             "type": "show",
@@ -1507,7 +1573,8 @@
                             "disabled": false,
                             "keywords": [
                               "For the atomic formulas"
-                            ]
+                            ],
+                            "children": []
                           },
                           {
                             "type": "show",
@@ -1516,7 +1583,8 @@
                             "disabled": false,
                             "keywords": [
                               "For ∨ and ¬, we use closure of regular languages under union and complementation."
-                            ]
+                            ],
+                            "children": []
                           },
                           {
                             "type": "show",
@@ -1525,7 +1593,8 @@
                             "disabled": false,
                             "keywords": [
                               "For ∃, we use closure of regular languages under projection:"
-                            ]
+                            ],
+                            "children": []
                           },
                           {
                             "type": "show",
@@ -1534,7 +1603,8 @@
                             "disabled": false,
                             "keywords": [
                               "If L ⊆ (Σ × Γ)* is regular, then so is its projection π(L) ⊆ Σ*."
-                            ]
+                            ],
+                            "children": []
                           },
                           {
                             "type": "show",
@@ -1543,7 +1613,8 @@
                             "disabled": false,
                             "keywords": [
                               "deterministic automata"
-                            ]
+                            ],
+                            "children": []
                           },
                           {
                             "type": "show",
@@ -1552,7 +1623,8 @@
                             "disabled": false,
                             "keywords": [
                               "nondeterministic automata, or regular expressions"
-                            ]
+                            ],
+                            "children": []
                           },
                           {
                             "type": "show",
@@ -1561,7 +1633,8 @@
                             "disabled": false,
                             "keywords": [
                               "If the formula alternates n times between complementation and projection, then determinization is applied n times, resulting in an n-fold exponential automaton."
-                            ]
+                            ],
+                            "children": []
                           }
                         ],
                         "keywords": [
@@ -1585,7 +1658,8 @@
                         "disabled": false,
                         "keywords": [
                           "Trakhtenbrot 1958"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1594,7 +1668,8 @@
                         "disabled": false,
                         "keywords": [
                           "image 2"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1603,7 +1678,8 @@
                         "disabled": false,
                         "keywords": [
                           "Büchi and Elgot 1958"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1612,7 +1688,8 @@
                         "disabled": false,
                         "keywords": [
                           "Group 14"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1621,7 +1698,8 @@
                         "disabled": false,
                         "keywords": [
                           "Group 13"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1630,7 +1708,8 @@
                         "disabled": false,
                         "keywords": [
                           "Ehrenfeucht and Vaught ≤ 1958"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "child",
@@ -1644,7 +1723,8 @@
                             "disabled": false,
                             "keywords": [
                               "For a description of this history, see W. Thomas, SIGLOG 2019"
-                            ]
+                            ],
+                            "children": []
                           },
                           {
                             "type": "show",
@@ -1653,7 +1733,8 @@
                             "disabled": false,
                             "keywords": [
                               "We can use ordinals to represents numbers and finite sets of numbers"
-                            ]
+                            ],
+                            "children": []
                           },
                           {
                             "type": "show",
@@ -1662,7 +1743,8 @@
                             "disabled": false,
                             "keywords": [
                               "ω5 represents the number 5"
-                            ]
+                            ],
+                            "children": []
                           },
                           {
                             "type": "show",
@@ -1671,7 +1753,8 @@
                             "disabled": false,
                             "keywords": [
                               "ω5 + ω2 + 1 represents the set {0, 2, 5}"
-                            ]
+                            ],
+                            "children": []
                           },
                           {
                             "type": "show",
@@ -1680,7 +1763,8 @@
                             "disabled": false,
                             "keywords": [
                               "not the same as 1 + ω2 + ω5 = ω5"
-                            ]
+                            ],
+                            "children": []
                           },
                           {
                             "type": "show",
@@ -1689,7 +1773,8 @@
                             "disabled": false,
                             "keywords": [
                               "Under this representation, membership x ∈ X and order can be defined in first-order logic using ordinal addition α + β"
-                            ]
+                            ],
+                            "children": []
                           },
                           {
                             "type": "show",
@@ -1698,7 +1783,8 @@
                             "disabled": false,
                             "keywords": [
                               "Only ordinals α < ω are needed, and (ω , <, +) has decidable first-order theory [Ehrenfeucht 1957 +]"
-                            ]
+                            ],
+                            "children": []
                           }
                         ],
                         "keywords": [
@@ -1712,7 +1798,8 @@
                         "disabled": false,
                         "keywords": [
                           "Group 6"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "child",
@@ -1726,7 +1813,8 @@
                             "disabled": false,
                             "keywords": [
                               "Represent a number as a finite set, namely its binary expansion"
-                            ]
+                            ],
+                            "children": []
                           },
                           {
                             "type": "show",
@@ -1735,7 +1823,8 @@
                             "disabled": false,
                             "keywords": [
                               "Under this representation, there is a WMSO formula for x + y = z"
-                            ]
+                            ],
+                            "children": []
                           },
                           {
                             "type": "show",
@@ -1744,7 +1833,8 @@
                             "disabled": false,
                             "keywords": [
                               "Corollary For every formula φ(x1, ... xn) of Presburger arithmetic, the corresponding n-ary relation on binary expansions is definable in WMSO (equivalently, can be recognized by a finite automaton)."
-                            ]
+                            ],
+                            "children": []
                           },
                           {
                             "type": "show",
@@ -1753,7 +1843,8 @@
                             "disabled": false,
                             "keywords": [
                               "The corollary would still be true if we added “x is a power of 2”"
-                            ]
+                            ],
+                            "children": []
                           },
                           {
                             "type": "show",
@@ -1762,7 +1853,8 @@
                             "disabled": false,
                             "keywords": [
                               "or “x is the smallest power of 2 that divides both y and z”"
-                            ]
+                            ],
+                            "children": []
                           },
                           {
                             "type": "show",
@@ -1771,7 +1863,8 @@
                             "disabled": false,
                             "keywords": [
                               "(ℤ, +) is an example of an automatic group [Thurston, Epstein, ... 1980’s], or more generally an automatic structure [Nerode, Khoussainov 1994]"
-                            ]
+                            ],
+                            "children": []
                           }
                         ],
                         "keywords": [
@@ -1800,7 +1893,8 @@
                     "disabled": false,
                     "keywords": [
                       "Theorem. [Büchi 1962] The MSO theory of (ℕ, ≤) is decidable."
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1809,7 +1903,8 @@
                     "disabled": false,
                     "keywords": [
                       "The proof is the same as for weak MSO, except that now we need to generalize automata from finite word to infinite words."
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "child",
@@ -1823,7 +1918,8 @@
                         "disabled": false,
                         "keywords": [
                           "Nondeterministic Büchi automata"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1832,7 +1928,8 @@
                         "disabled": false,
                         "keywords": [
                           "Syntax: same as for nondeterministic finite automata."
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1841,7 +1938,8 @@
                         "disabled": false,
                         "keywords": [
                           "Semantics: an ω-word is accepted if an accepting state appears ∞ often"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1850,7 +1948,8 @@
                         "disabled": false,
                         "keywords": [
                           "When viewed an automaton on finite words, the language is {a, b}*"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1859,7 +1958,8 @@
                         "disabled": false,
                         "keywords": [
                           "When viewed a Büchi automaton, the language is {a, b}*a"
-                        ]
+                        ],
+                        "children": []
                       }
                     ],
                     "keywords": [
@@ -1873,7 +1973,8 @@
                     "disabled": false,
                     "keywords": [
                       "Büchi automata do not determinize, but they are still closed under: 1. union and intersection 2. projection 3. complementation"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1882,7 +1983,8 @@
                     "disabled": false,
                     "keywords": [
                       "Büchi’s proof for item 3 used the Ramsey theorem"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1891,7 +1993,8 @@
                     "disabled": false,
                     "keywords": [
                       "For more on Büchi automata, see Orna’s talk"
-                    ]
+                    ],
+                    "children": []
                   }
                 ],
                 "keywords": [
@@ -1905,7 +2008,8 @@
                 "disabled": false,
                 "keywords": [
                   "The MSO theory of ({0,1}*, ≤) is decidable"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "child",
@@ -1919,7 +2023,8 @@
                     "disabled": false,
                     "keywords": [
                       "Theorem. [Rabin 1969] The MSO theory of ({0,1}*, ≤) is decidable."
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "child",
@@ -1933,7 +2038,8 @@
                         "disabled": false,
                         "keywords": [
                           "This is the tree of bit-strings, ordered by the prefix relation."
-                        ]
+                        ],
+                        "children": []
                       }
                     ],
                     "keywords": [
@@ -1947,7 +2053,8 @@
                     "disabled": false,
                     "keywords": [
                       "A modern proof:"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1956,7 +2063,8 @@
                     "disabled": false,
                     "keywords": [
                       "nondeterministic parity tree automata"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "child",
@@ -1970,7 +2078,8 @@
                         "disabled": false,
                         "keywords": [
                           "Tree automata"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1979,7 +2088,8 @@
                         "disabled": false,
                         "keywords": [
                           "A transition in a word automaton looks like this:"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1988,7 +2098,8 @@
                         "disabled": false,
                         "keywords": [
                           "A transition in a tree automaton looks like this:"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1997,7 +2108,8 @@
                         "disabled": false,
                         "keywords": [
                           "Parity condition"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -2006,7 +2118,8 @@
                         "disabled": false,
                         "keywords": [
                           "Instead of an accepting subset F ⊆ Q, there is parity ranking function Q → {0, 1, ...}"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -2015,7 +2128,8 @@
                         "disabled": false,
                         "keywords": [
                           "A run is accepting if for every branch in the tree, the rank seen infinitely often is even."
-                        ]
+                        ],
+                        "children": []
                       }
                     ],
                     "keywords": [
@@ -2029,7 +2143,8 @@
                     "disabled": false,
                     "keywords": [
                       "closed under: union, intersection and projection"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -2038,7 +2153,8 @@
                     "disabled": false,
                     "keywords": [
                       "alternating parity tree automata"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -2047,7 +2163,8 @@
                     "disabled": false,
                     "keywords": [
                       "closed under: union, intersection and complementation"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -2056,7 +2173,8 @@
                     "disabled": false,
                     "keywords": [
                       "special case"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -2065,7 +2183,8 @@
                     "disabled": false,
                     "keywords": [
                       "uses: 1. determinization for ω-automata 2. finite memory strategies for games"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -2074,7 +2193,8 @@
                     "disabled": false,
                     "keywords": [
                       "For more on tree automata, see Orna’s talk"
-                    ]
+                    ],
+                    "children": []
                   }
                 ],
                 "keywords": [
@@ -2088,7 +2208,8 @@
                 "disabled": false,
                 "keywords": [
                   "The MSO theory of (ℝ, ≤) is undecidable"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "child",
@@ -2102,7 +2223,8 @@
                     "disabled": false,
                     "keywords": [
                       "(ℝ, ≤) and (ℚ, ≤) have the same first-order theories, but different MSO theories."
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -2111,7 +2233,8 @@
                     "disabled": false,
                     "keywords": [
                       "because both are dense linear orders without endpoints"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -2120,7 +2243,8 @@
                     "disabled": false,
                     "keywords": [
                       "“every set has a least upper bound”"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -2129,7 +2253,8 @@
                     "disabled": false,
                     "keywords": [
                       "Theorem. [Shelah 1975] The MSO theory of (ℝ, ≤) is decidable (assuming CH)."
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -2138,7 +2263,8 @@
                     "disabled": false,
                     "keywords": [
                       "A difficult proof, which manages to represent arithmetic on integers using order in the real numbers"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -2147,7 +2273,8 @@
                     "disabled": false,
                     "keywords": [
                       "Counterpoint 1. Every MSO formula φ(x) is equivalent to either “true” or “false”."
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -2156,7 +2283,8 @@
                     "disabled": false,
                     "keywords": [
                       "Because every x, x’ ∈ ℝ can be mapped to each other using an order-preserving bijection of (ℝ, ≤)"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -2165,7 +2293,8 @@
                     "disabled": false,
                     "keywords": [
                       "Counterpoint 2. The MSO theory of (ℚ, ≤) is decidable."
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "child",
@@ -2179,7 +2308,8 @@
                         "disabled": false,
                         "keywords": [
                           "ε"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -2188,7 +2318,8 @@
                         "disabled": false,
                         "keywords": [
                           "This is a countable dense linear order without endpoints, and hence it is isomorphic to (ℚ, ≤)."
-                        ]
+                        ],
+                        "children": []
                       }
                     ],
                     "keywords": [
@@ -2215,5 +2346,5 @@
       "First slide"
     ]
   },
-  "version": 0.84
+  "version": 0.85
 }

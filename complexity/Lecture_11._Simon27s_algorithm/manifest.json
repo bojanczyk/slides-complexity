@@ -463,7 +463,8 @@
         "disabled": false,
         "keywords": [
           "The most famous BQP algorithm is Shor’s algorithm: input: a natural number, in binary output: its decomposition into primes"
-        ]
+        ],
+        "children": []
       },
       {
         "type": "child",
@@ -477,7 +478,8 @@
             "disabled": false,
             "keywords": [
               "So far, we have defined BQP algorithms with yes/no outputs."
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -486,7 +488,8 @@
             "disabled": false,
             "keywords": [
               "One can also consider BQP algorithms that output k > 1 bits."
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -495,7 +498,8 @@
             "disabled": false,
             "keywords": [
               "Suppose that a quantum circuit with n qubits has computed a vector"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -504,7 +508,8 @@
             "disabled": false,
             "keywords": [
               "This vector has to be unitary, which means"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -513,7 +518,8 @@
             "disabled": false,
             "keywords": [
               "If we test the first k bits, then we get output y ∈ {0,1}k with probability"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -522,7 +528,8 @@
             "disabled": false,
             "keywords": [
               "A function f: {0, 1}n ⟶ {0, 1}k is computed by a circuit if for every input w ∈ {0, 1}n , if we run the circuit on [w⟩ and measure the first k bits, then the probability of output f (w) is > 0.6."
-            ]
+            ],
+            "children": []
           }
         ],
         "keywords": [
@@ -536,7 +543,8 @@
         "disabled": false,
         "keywords": [
           "We discuss Simon’s algorithm, an earlier and simpler quantum algorithm."
-        ]
+        ],
+        "children": []
       },
       {
         "type": "child",
@@ -550,7 +558,8 @@
             "disabled": false,
             "keywords": [
               "input: a classical circuit C which defines a function f : {0, 1}n ⟶ {0, 1}"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -559,7 +568,8 @@
             "disabled": false,
             "keywords": [
               "promise: there is some a ∈ {0, 1}n such that"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -568,7 +578,8 @@
             "disabled": false,
             "keywords": [
               "output: a"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -577,7 +588,8 @@
             "disabled": false,
             "keywords": [
               "Theorem. There is a polynomial quantum algorithm such that if the input function satisfies the promise, then the output of the algorithm is correct, i.e. it is a with probability > 0.6."
-            ]
+            ],
+            "children": []
           },
           {
             "type": "child",
@@ -591,7 +603,8 @@
                 "disabled": false,
                 "keywords": [
                   "If the function f : {0, 1}n ⟶ {0, 1} is given as a black box, then a randomized polynomial time algorithm cannot find two inputs with the same output."
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -600,7 +613,8 @@
                 "disabled": false,
                 "keywords": [
                   "Intuition: suppose that we have chosen polynomially many, say n5, inputs independently at random. The probability that some two inputs give the same output is at most"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -609,7 +623,8 @@
                 "disabled": false,
                 "keywords": [
                   "A randomized polynomial algorithm does not need to sample independently, so the real argument is more inolved."
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -618,7 +633,8 @@
                 "disabled": false,
                 "keywords": [
                   "Nevertheless, using the black box model and Simon’s algorithm one can show for some oracle A."
-                ]
+                ],
+                "children": []
               }
             ],
             "keywords": [
@@ -642,7 +658,8 @@
                     "disabled": false,
                     "keywords": [
                       "the input is the circuit padded with some ancillas"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -651,7 +668,8 @@
                     "disabled": false,
                     "keywords": [
                       "move 2n ancillas to the beginning"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -660,7 +678,8 @@
                     "disabled": false,
                     "keywords": [
                       "apply Hadamard to first n bits"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "child",
@@ -674,7 +693,8 @@
                         "disabled": false,
                         "keywords": [
                           "Hadamard does this"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -683,7 +703,8 @@
                         "disabled": false,
                         "keywords": [
                           "If we apply it to a basis vector with only 0 bits:"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "child",
@@ -697,7 +718,8 @@
                             "disabled": false,
                             "keywords": [
                               "Concatenating vectors"
-                            ]
+                            ],
+                            "children": []
                           },
                           {
                             "type": "show",
@@ -706,7 +728,8 @@
                             "disabled": false,
                             "keywords": [
                               "Consider an n-qubit vector:"
-                            ]
+                            ],
+                            "children": []
                           },
                           {
                             "type": "show",
@@ -715,7 +738,8 @@
                             "disabled": false,
                             "keywords": [
                               "And a k-qubit vector:"
-                            ]
+                            ],
+                            "children": []
                           },
                           {
                             "type": "show",
@@ -724,7 +748,8 @@
                             "disabled": false,
                             "keywords": [
                               "Their concatenation is the (n+k)-qubit vector:"
-                            ]
+                            ],
+                            "children": []
                           },
                           {
                             "type": "show",
@@ -733,7 +758,8 @@
                             "disabled": false,
                             "keywords": [
                               "Concatenation is linear on both coordinates:"
-                            ]
+                            ],
+                            "children": []
                           }
                         ],
                         "keywords": [
@@ -747,7 +773,8 @@
                         "disabled": false,
                         "keywords": [
                           "Then the output is"
-                        ]
+                        ],
+                        "children": []
                       }
                     ],
                     "keywords": [
@@ -761,7 +788,8 @@
                     "disabled": false,
                     "keywords": [
                       "\\frac 1 {\\sqrt 2^{n}} \\sum_{x \\in \\{0,1\\}^n} [x 0^n C \\bar 0\\rangle"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -770,7 +798,8 @@
                     "disabled": false,
                     "keywords": [
                       "compute the value of the circuit and erase the rubbish"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "child",
@@ -784,7 +813,8 @@
                         "disabled": false,
                         "keywords": [
                           "Consider a function which is computed by a classical circuit with m gates."
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -793,7 +823,8 @@
                         "disabled": false,
                         "keywords": [
                           "m bits of rubbish, namely the values of all intermiediate gates in the classical circuit."
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -802,7 +833,8 @@
                         "disabled": false,
                         "keywords": [
                           "How do we get rid of the rubbish?"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -811,7 +843,8 @@
                         "disabled": false,
                         "keywords": [
                           "[x 0^\\ell 0^m \\rangle "
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -820,7 +853,8 @@
                         "disabled": false,
                         "keywords": [
                           "run the quantum version Q of the circuit"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -829,7 +863,8 @@
                         "disabled": false,
                         "keywords": [
                           "[x 0^\\ell r(x) \\rangle "
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -838,7 +873,8 @@
                         "disabled": false,
                         "keywords": [
                           "copy the values of the output gates"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -847,7 +883,8 @@
                         "disabled": false,
                         "keywords": [
                           "[x f(x) r(x) \\rangle "
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -856,7 +893,8 @@
                         "disabled": false,
                         "keywords": [
                           "a"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -865,7 +903,8 @@
                         "disabled": false,
                         "keywords": [
                           "run the reverse of Q"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -874,7 +913,8 @@
                         "disabled": false,
                         "keywords": [
                           "[x f(x) 0^m \\rangle "
-                        ]
+                        ],
+                        "children": []
                       }
                     ],
                     "keywords": [
@@ -888,7 +928,8 @@
                     "disabled": false,
                     "keywords": [
                       "\\frac 1 {\\sqrt 2^n} \\sum_{x \\in \\{0,1\\}^n}\n [x f(x) C \\bar 0 \\rangle"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -897,7 +938,8 @@
                     "disabled": false,
                     "keywords": [
                       "="
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -906,7 +948,8 @@
                     "disabled": false,
                     "keywords": [
                       "apply Hadamard to first n bits"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "child",
@@ -920,7 +963,8 @@
                         "disabled": false,
                         "keywords": [
                           "Hadamard for nonzero inputs"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -929,7 +973,8 @@
                         "disabled": false,
                         "keywords": [
                           "Hadamard does this"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -938,7 +983,8 @@
                         "disabled": false,
                         "keywords": [
                           "If we apply it to a basis vector which has some 1 bits:"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -947,7 +993,8 @@
                         "disabled": false,
                         "keywords": [
                           "where is the number of coordinates where both x and y are 1."
-                        ]
+                        ],
+                        "children": []
                       }
                     ],
                     "keywords": [
@@ -961,7 +1008,8 @@
                     "disabled": false,
                     "keywords": [
                       "\\frac 1 {2^{n+1}}  \\sum_{\\substack {x \\in \\{0,1\\}\n^n \\\\ y \\in  \\{0,1\\}^n}} ((-1)^{x \\odot y} + (-1)^{(x \\oplus a) \n\\odot y} ) [y f(x) C \\bar 0\\rangle"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -970,7 +1018,8 @@
                     "disabled": false,
                     "keywords": [
                       "we get with probability:"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "child",
@@ -984,7 +1033,8 @@
                         "disabled": false,
                         "keywords": [
                           "Suppose that the vector is"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -993,7 +1043,8 @@
                         "disabled": false,
                         "keywords": [
                           "Group 49"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1002,7 +1053,8 @@
                         "disabled": false,
                         "keywords": [
                           "\\alpha_{x,y}"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1011,7 +1063,8 @@
                         "disabled": false,
                         "keywords": [
                           "= (-1)^{x \\odot y} + (-1)^{x \\odot y + a \\odot y} "
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1020,7 +1073,8 @@
                         "disabled": false,
                         "keywords": [
                           "= (-1)^{x \\odot y}(1 + (-1)^{a \\odot y} )"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1029,7 +1083,8 @@
                         "disabled": false,
                         "keywords": [
                           "= \\begin{cases} \n\\pm 2 & \\text{if $a \\odot y$ is even}\\\\\n0 & \\text{otherwise}\n\\end{cases}"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1038,7 +1093,8 @@
                         "disabled": false,
                         "keywords": [
                           "If we test the first n bits, then the probability of output is:"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1047,7 +1103,8 @@
                         "disabled": false,
                         "keywords": [
                           "If then this coefficient is"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1056,7 +1113,8 @@
                         "disabled": false,
                         "keywords": [
                           "= \\frac {2p_{x,y}} {2^{n+1}}\n"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1065,7 +1123,8 @@
                         "disabled": false,
                         "keywords": [
                           "= \\begin{cases}\n \\pm \\frac 1 \n{2^{n-1}} & \\text{if $y \\odot a$ is even}\\\\\n0 & \\text{otherwise}\n\\end{cases}\n"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1074,7 +1133,8 @@
                         "disabled": false,
                         "keywords": [
                           "Hence the probability is"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1083,7 +1143,8 @@
                         "disabled": false,
                         "keywords": [
                           "= \\begin{cases}\n \\frac{1}{2^{n-1}} &\n\\text{if  $y \\odot a$ is even} \\\\\n0 & \\text{otherwise} \n\\end{cases}"
-                        ]
+                        ],
+                        "children": []
                       }
                     ],
                     "keywords": [
@@ -1097,7 +1158,8 @@
                     "disabled": false,
                     "keywords": [
                       "\\begin{cases}\n \\frac{1}{2^{n-1}} &\n\\text{if  $y \\odot a$ is even} \\\\\n0 & \\text{otherwise} \n\\end{cases}"
-                    ]
+                    ],
+                    "children": []
                   }
                 ],
                 "keywords": [
@@ -1111,7 +1173,8 @@
                 "disabled": false,
                 "keywords": [
                   "Using this circuit, we can sample uniformly at random from the set"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1120,7 +1183,8 @@
                 "disabled": false,
                 "keywords": [
                   "This set is a vector space of dimension n – 1, and hence doing O(n) samples gives a basis with probability > 0.6."
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "child",
@@ -1134,7 +1198,8 @@
                     "disabled": false,
                     "keywords": [
                       "We sample vectors from the vector space 2n."
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1143,7 +1208,8 @@
                     "disabled": false,
                     "keywords": [
                       "What is the expected number of samples needed to get n independent vectors?"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1152,7 +1218,8 @@
                     "disabled": false,
                     "keywords": [
                       "If we the already sampled vectors span a proper subspace of 2n, then the probability of sampling a new vector which increases the subspace is ≥ ½."
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1161,7 +1228,8 @@
                     "disabled": false,
                     "keywords": [
                       "The expected number of samples needed to increase the spanned subspace is ≤ 2."
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1170,7 +1238,8 @@
                     "disabled": false,
                     "keywords": [
                       "The expected number of samples needed to span the entire space is ≤ 2n."
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1179,7 +1248,8 @@
                     "disabled": false,
                     "keywords": [
                       "If we sample 6n vectors, then we span the entire space with probability > 0.6."
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1188,7 +1258,8 @@
                     "disabled": false,
                     "keywords": [
                       "otherwise the expected number would be at least 0.4 × 6n > 2n"
-                    ]
+                    ],
+                    "children": []
                   }
                 ],
                 "keywords": [
@@ -1202,7 +1273,8 @@
                 "disabled": false,
                 "keywords": [
                   "Using the basis, we can recover a in polynomial time."
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "child",
@@ -1216,7 +1288,8 @@
                     "disabled": false,
                     "keywords": [
                       "Suppose that we have a basis for the set"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1225,7 +1298,8 @@
                     "disabled": false,
                     "keywords": [
                       "For i ∈ {1, ..., n}, consider the vector"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1234,7 +1308,8 @@
                     "disabled": false,
                     "keywords": [
                       "This vector belongs to Y if and only if the i-th bit of a is 0."
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1243,7 +1318,8 @@
                     "disabled": false,
                     "keywords": [
                       "Hence we can compute a in polynomial time."
-                    ]
+                    ],
+                    "children": []
                   }
                 ],
                 "keywords": [
@@ -1257,7 +1333,8 @@
                 "disabled": false,
                 "keywords": [
                   "This description of Simon’s algorithm runs a quantum circuit O(n) times, and does some post-computation on the tested results. We can however put all of this into a single execution of the quantum circuit, with a single test at the end."
-                ]
+                ],
+                "children": []
               }
             ],
             "keywords": [
@@ -1274,5 +1351,5 @@
       "First slide"
     ]
   },
-  "version": 0.84
+  "version": 0.85
 }

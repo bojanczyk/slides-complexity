@@ -542,7 +542,8 @@
             "disabled": false,
             "keywords": [
               "How hard is SAT?"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -551,7 +552,8 @@
             "disabled": false,
             "keywords": [
               "(x1 ∨ ¬x2 ∨ x3) ∧ ( ¬x3 ∨ ¬x4 ∨ x5) ∧ (¬x1 ∨ ¬x4 ∨ x6) ∧ (x2 ∨ x3 ∨ ¬x6)"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -560,7 +562,8 @@
             "disabled": false,
             "keywords": [
               "a disjunction is called a clause, and in 3-CNF clauses have size 3"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -569,7 +572,8 @@
             "disabled": false,
             "keywords": [
               "3-CNF-SAT is also NP-complete."
-            ]
+            ],
+            "children": []
           },
           {
             "type": "child",
@@ -583,7 +587,8 @@
                 "disabled": false,
                 "keywords": [
                   "For every subformula we create a new variable, and write clauses which ensure that these variables have the same values as the subformulas"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -592,7 +597,8 @@
                 "disabled": false,
                 "keywords": [
                   "if the subformula is"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -601,7 +607,8 @@
                 "disabled": false,
                 "keywords": [
                   "if the subformula is , then we use the same idea, and ∨ is treated using DeMorgan’s laws."
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -610,7 +617,8 @@
                 "disabled": false,
                 "keywords": [
                   "The conversion from SAT to 3-CNF-SAT is linear."
-                ]
+                ],
+                "children": []
               }
             ],
             "keywords": [
@@ -624,7 +632,8 @@
             "disabled": false,
             "keywords": [
               "Enormous engineering progress"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -633,7 +642,8 @@
             "disabled": false,
             "keywords": [
               "SAT solvers in this year’s SAT competition take 15 minutes to solve 3-CNF-SAT instances with millions of clauses."
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -642,7 +652,8 @@
             "disabled": false,
             "keywords": [
               "3-CNF-SAT can be solved in time"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -651,7 +662,8 @@
             "disabled": false,
             "keywords": [
               "0.001(number of variables)"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "child",
@@ -665,7 +677,8 @@
                 "disabled": false,
                 "keywords": [
                   "Exponential Time Hypothesis There is some 0 < λ ≤ 1 such that SAT cannot be solved faster than"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "child",
@@ -679,7 +692,8 @@
                     "disabled": false,
                     "keywords": [
                       "for every λ > 0 3-CNF-SAT can be solved in time"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -688,7 +702,8 @@
                     "disabled": false,
                     "keywords": [
                       "maybe sat"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -697,7 +712,8 @@
                     "disabled": false,
                     "keywords": [
                       "for every λ > 0 3-CNF-SAT can be solved in time"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -706,7 +722,8 @@
                     "disabled": false,
                     "keywords": [
                       "for every λ > 0 SAT can be solved in time"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -715,7 +732,8 @@
                     "disabled": false,
                     "keywords": [
                       "⟹"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -724,7 +742,8 @@
                     "disabled": false,
                     "keywords": [
                       "⟹"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -733,7 +752,8 @@
                     "disabled": false,
                     "keywords": [
                       "⟹"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -742,7 +762,8 @@
                     "disabled": false,
                     "keywords": [
                       "⟹"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "child",
@@ -756,7 +777,8 @@
                         "disabled": false,
                         "keywords": [
                           "Assume"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -765,7 +787,8 @@
                         "disabled": false,
                         "keywords": [
                           "To show: for every λ > 0, we can solve 3-CNF-SAT in time"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "child",
@@ -779,7 +802,8 @@
                             "disabled": false,
                             "keywords": [
                               "Sparsification For every ε > 0, given a 3-CNF formula φ one can compute a set Φ of 3-CNF-formulas such that:"
-                            ]
+                            ],
+                            "children": []
                           },
                           {
                             "type": "show",
@@ -788,7 +812,8 @@
                             "disabled": false,
                             "keywords": [
                               "- φ is satisfiabile if and only if at least one formula from Φ is satisfiable"
-                            ]
+                            ],
+                            "children": []
                           },
                           {
                             "type": "show",
@@ -797,7 +822,8 @@
                             "disabled": false,
                             "keywords": [
                               "- every formula from Φ has size at most C(ε) × (number of variables in φ)"
-                            ]
+                            ],
+                            "children": []
                           }
                         ],
                         "keywords": [
@@ -811,7 +837,8 @@
                         "disabled": false,
                         "keywords": [
                           "Proof. Let λ > 0 and choose some small δ (see below)."
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -820,7 +847,8 @@
                         "disabled": false,
                         "keywords": [
                           "Given a 3-CNF formula φ, use the Sparsification Lemma for λ/2, yielding Φ."
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -829,7 +857,8 @@
                         "disabled": false,
                         "keywords": [
                           "Using the assumption for δ, we check if some formula from Φ is satisfiable in time:"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -838,7 +867,8 @@
                         "disabled": false,
                         "keywords": [
                           "Formula size"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -847,7 +877,8 @@
                         "disabled": false,
                         "keywords": [
                           "number of formulas in Φ"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -856,7 +887,8 @@
                         "disabled": false,
                         "keywords": [
                           "size of each formula in Φ"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -865,7 +897,8 @@
                         "disabled": false,
                         "keywords": [
                           "time to compute satisfiability, from assumption for δ"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -874,7 +907,8 @@
                         "disabled": false,
                         "keywords": [
                           "If δ is small enough, then λ/2 + δC(λ) < λ, and the running time is at most:"
-                        ]
+                        ],
+                        "children": []
                       }
                     ],
                     "keywords": [
@@ -888,7 +922,8 @@
                     "disabled": false,
                     "keywords": [
                       "ETH says that none of these are true"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -897,7 +932,8 @@
                     "disabled": false,
                     "keywords": [
                       "any number k > 2 could be used"
-                    ]
+                    ],
+                    "children": []
                   }
                 ],
                 "keywords": [
@@ -911,7 +947,8 @@
                 "disabled": false,
                 "keywords": [
                   "4-CNF-SAT can be solved in time"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -920,7 +957,8 @@
                 "disabled": false,
                 "keywords": [
                   "5-CNF-SAT can be solved in time"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -929,7 +967,8 @@
                 "disabled": false,
                 "keywords": [
                   "5-CNF-SAT can be solved in time"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -938,7 +977,8 @@
                 "disabled": false,
                 "keywords": [
                   "Paturi, Pudlak, Saks and Zane 2005"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -947,7 +987,8 @@
                 "disabled": false,
                 "keywords": [
                   "Strong Exponential Time Hypothesis"
-                ]
+                ],
+                "children": []
               }
             ],
             "keywords": [
@@ -966,7 +1007,8 @@
         "disabled": false,
         "keywords": [
           "Use conjectured exponential lower bounds for SAT can be used for polynomial lower bounds on other problems"
-        ]
+        ],
+        "children": []
       },
       {
         "type": "show",
@@ -975,7 +1017,8 @@
         "disabled": false,
         "keywords": [
           "The naive exponential algorithm for satisfiability is optimal"
-        ]
+        ],
+        "children": []
       },
       {
         "type": "show",
@@ -984,7 +1027,8 @@
         "disabled": false,
         "keywords": [
           "The naive quadratic algorithm for orthogonal vectors is optimal"
-        ]
+        ],
+        "children": []
       },
       {
         "type": "show",
@@ -993,7 +1037,8 @@
         "disabled": false,
         "keywords": [
           "The naive quadratic algorithm for NFA evaluation is optimal"
-        ]
+        ],
+        "children": []
       },
       {
         "type": "child",
@@ -1007,7 +1052,8 @@
             "disabled": false,
             "keywords": [
               "Input. A list of n bit vectors of dimension d."
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -1016,7 +1062,8 @@
             "disabled": false,
             "keywords": [
               "1"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -1025,7 +1072,8 @@
             "disabled": false,
             "keywords": [
               "vectors are orthogonal if for every coordinate, at least one of the vectors has 0"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -1034,7 +1082,8 @@
             "disabled": false,
             "keywords": [
               "The naive algorithm is: check each vector pair for orthogonality."
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -1043,7 +1092,8 @@
             "disabled": false,
             "keywords": [
               "Or maybe: each vector, compare it to the set of vectors seen."
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -1052,7 +1102,8 @@
             "disabled": false,
             "keywords": [
               "Orthogonal vectors conjecture: There is no algorithm that works in time"
-            ]
+            ],
+            "children": []
           }
         ],
         "keywords": [
@@ -1076,7 +1127,8 @@
                 "disabled": false,
                 "keywords": [
                   "Strong Exponential Time Hypothesis"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1085,7 +1137,8 @@
                 "disabled": false,
                 "keywords": [
                   "This Lecture’s Strong Exponential Time Hypothesis"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1094,7 +1147,8 @@
                 "disabled": false,
                 "keywords": [
                   "⟹"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1103,7 +1157,8 @@
                 "disabled": false,
                 "keywords": [
                   "We will prove This Lecture’s SETH implies something, and the same will hold for Genuine SETH."
-                ]
+                ],
+                "children": []
               }
             ],
             "keywords": [
@@ -1117,7 +1172,8 @@
             "disabled": false,
             "keywords": [
               "Consider an instance of CNF-SAT, with n variables."
-            ]
+            ],
+            "children": []
           },
           {
             "type": "child",
@@ -1131,7 +1187,8 @@
                 "disabled": false,
                 "keywords": [
                   "(x1 ∨ ¬x2 ∨ x3) ∧ ( ¬x3 ∨ ¬x4 ∨ x5) ∧ (¬x1 ∨ ¬x4 ∨ x6) ∧ (x2 ∨ x3 ∨ ¬x6)"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1140,7 +1197,8 @@
                 "disabled": false,
                 "keywords": [
                   "Partition variables into two halves:"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1149,7 +1207,8 @@
                 "disabled": false,
                 "keywords": [
                   "x1 = true x2 = false x3 = false"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1158,7 +1217,8 @@
                 "disabled": false,
                 "keywords": [
                   "x4 = false x5 = true x6 = false"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1167,7 +1227,8 @@
                 "disabled": false,
                 "keywords": [
                   "0"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1176,7 +1237,8 @@
                 "disabled": false,
                 "keywords": [
                   "The formula is true under the combined valuation iff The two vectors are orthogonal (true = 0 and false = 1)"
-                ]
+                ],
+                "children": []
               }
             ],
             "keywords": [
@@ -1190,7 +1252,8 @@
             "disabled": false,
             "keywords": [
               "We have created an equivalent instance of orthognal vectors with:"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -1199,7 +1262,8 @@
             "disabled": false,
             "keywords": [
               "Dimension"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -1208,7 +1272,8 @@
             "disabled": false,
             "keywords": [
               "Number of vectors"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -1217,7 +1282,8 @@
             "disabled": false,
             "keywords": [
               "= \\sqrt {2^n}"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -1226,7 +1292,8 @@
             "disabled": false,
             "keywords": [
               "If the Orthogonal Vectors Conjecture would be false, then we could solve this instance in time:"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -1235,7 +1302,8 @@
             "disabled": false,
             "keywords": [
               "which is faster than"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -1244,7 +1312,8 @@
             "disabled": false,
             "keywords": [
               "and thus the Strong Exponential Time Hypothesis would fail."
-            ]
+            ],
+            "children": []
           }
         ],
         "keywords": [
@@ -1263,7 +1332,8 @@
             "disabled": false,
             "keywords": [
               "Input. A nondeterministic finite automaton (NFA) and an input word. Question. Does the automaton accept the word?"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -1272,7 +1342,8 @@
             "disabled": false,
             "keywords": [
               "Naive algorithm: compute states reachable from initial one"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -1281,7 +1352,8 @@
             "disabled": false,
             "keywords": [
               "c"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -1290,7 +1362,8 @@
             "disabled": false,
             "keywords": [
               "Ellipse 3"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -1299,7 +1372,8 @@
             "disabled": false,
             "keywords": [
               "Group 14"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -1308,7 +1382,8 @@
             "disabled": false,
             "keywords": [
               "Group 15"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -1317,7 +1392,8 @@
             "disabled": false,
             "keywords": [
               "Group 16"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -1326,7 +1402,8 @@
             "disabled": false,
             "keywords": [
               "Group 17"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -1335,7 +1412,8 @@
             "disabled": false,
             "keywords": [
               "Group 18"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -1344,7 +1422,8 @@
             "disabled": false,
             "keywords": [
               "Group 19"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -1353,7 +1432,8 @@
             "disabled": false,
             "keywords": [
               "Running time: (size of NFA) × (length of input word)"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -1362,7 +1442,8 @@
             "disabled": false,
             "keywords": [
               "Theorem. Suppose that we could evaluate automata in time"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -1371,7 +1452,8 @@
             "disabled": false,
             "keywords": [
               "Then there would be a subquadratic algortihm for orthogonal vectors, thus violating OVC."
-            ]
+            ],
+            "children": []
           },
           {
             "type": "child",
@@ -1385,7 +1467,8 @@
                 "disabled": false,
                 "keywords": [
                   "Proof. A set of vectors V contains some orthogonal pair iff"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "child",
@@ -1399,7 +1482,8 @@
                     "disabled": false,
                     "keywords": [
                       "We represent a list of vectors as a string"
-                    ]
+                    ],
+                    "children": []
                   }
                 ],
                 "keywords": [
@@ -1418,7 +1502,8 @@
                     "disabled": false,
                     "keywords": [
                       "For every vector v, we write an automaton that recognises the language: “lists of vectors that contain at least one vector orthogonal to v”"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1427,7 +1512,8 @@
                     "disabled": false,
                     "keywords": [
                       "The automaton for a set of vectors V is the disjoint sum (language union) of the corresponding automata"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1436,7 +1522,8 @@
                     "disabled": false,
                     "keywords": [
                       "“lists of vectors that contain at least one vector orthogonal to some v ∈ V”"
-                    ]
+                    ],
+                    "children": []
                   }
                 ],
                 "keywords": [
@@ -1450,7 +1537,8 @@
                 "disabled": false,
                 "keywords": [
                   "both of these have size: (number of vectors) × dimension"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1459,7 +1547,8 @@
                 "disabled": false,
                 "keywords": [
                   "If the assumption of the theorem were true, then we could check if V contains an orthogonal pair in time"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1468,7 +1557,8 @@
                 "disabled": false,
                 "keywords": [
                   "="
-                ]
+                ],
+                "children": []
               }
             ],
             "keywords": [
@@ -1485,5 +1575,5 @@
       "First slide"
     ]
   },
-  "version": 0.84
+  "version": 0.85
 }

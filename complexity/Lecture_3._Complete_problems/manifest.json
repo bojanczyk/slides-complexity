@@ -43,7 +43,8 @@
             "disabled": false,
             "keywords": [
               "Intuitive idea behind “problem A is NP hard”"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -52,7 +53,8 @@
             "disabled": false,
             "keywords": [
               "{ m#w#t :"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -61,7 +63,8 @@
             "disabled": false,
             "keywords": [
               "Suppose that you could solve problem A in polynomial time."
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -70,7 +73,8 @@
             "disabled": false,
             "keywords": [
               "Then every problem B ∈ NP can also be solved in polynomial time"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -79,7 +83,8 @@
             "disabled": false,
             "keywords": [
               "There is a reduction from B to A, which preserves polynomial time."
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -88,7 +93,8 @@
             "disabled": false,
             "keywords": [
               "this can mean several things"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "child",
@@ -102,7 +108,8 @@
                 "disabled": false,
                 "keywords": [
                   "Deterministic polynomial time Turing reduction"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -111,7 +118,8 @@
                 "disabled": false,
                 "keywords": [
                   "Idea. Problem B can be solved by a deterministic polynomial time Turing machine, which is allowed to ask oracle queries to problem A."
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "child",
@@ -125,7 +133,8 @@
                     "disabled": false,
                     "keywords": [
                       "Machines with oracles"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -134,7 +143,8 @@
                     "disabled": false,
                     "keywords": [
                       "A Turing machine with oracle A ⊆ Γ* is defined as follows."
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -143,7 +153,8 @@
                     "disabled": false,
                     "keywords": [
                       "maybe deterministic or nondeterministic"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -152,7 +163,8 @@
                     "disabled": false,
                     "keywords": [
                       "The machine has two tapes, input tape and oracle tape. Initially, the input tape contains the input word and the oracle tape is empty."
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -161,7 +173,8 @@
                     "disabled": false,
                     "keywords": [
                       "The machine can execute an oracle query (in unit time). If the word on the oracle tape belongs to A, then the oracle tape is replaced by “yes”, otherwise the second tape is replaced by “no”."
-                    ]
+                    ],
+                    "children": []
                   }
                 ],
                 "keywords": [
@@ -175,7 +188,8 @@
                 "disabled": false,
                 "keywords": [
                   "B ≤ A"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -184,7 +198,8 @@
                 "disabled": false,
                 "keywords": [
                   "Fact. If B ≤ A and A ∈ P, then B ∈ P"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -193,7 +208,8 @@
                 "disabled": false,
                 "keywords": [
                   "Fact. For every problem B ∈ NP, B ≤ “NP halting problem”"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -202,7 +218,8 @@
                 "disabled": false,
                 "keywords": [
                   "Therefore, if the NP halting problem is in P, then P = NP."
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -211,7 +228,8 @@
                 "disabled": false,
                 "keywords": [
                   "Attention: this is not the usual notion of reduction for NP-completeness"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -220,7 +238,8 @@
                 "disabled": false,
                 "keywords": [
                   "Also makes sense for exponential time, or logarithmic space, etc."
-                ]
+                ],
+                "children": []
               }
             ],
             "keywords": [
@@ -239,7 +258,8 @@
                 "disabled": false,
                 "keywords": [
                   "Deterministic polynomial time Karp reduction"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -248,7 +268,8 @@
                 "disabled": false,
                 "keywords": [
                   "Idea. Problem B can be solved by a deterministic polynomial time Turing machine, which is allowed to ask one oracle query to A, at the end of its computation, and respond with the oracle answer."
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -257,7 +278,8 @@
                 "disabled": false,
                 "keywords": [
                   "Σ*"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -266,7 +288,8 @@
                 "disabled": false,
                 "keywords": [
                   "we call this a polynomial time reduction"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -275,7 +298,8 @@
                 "disabled": false,
                 "keywords": [
                   "If there is a Karp reduction, then there is a Turing reduction."
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -284,7 +308,8 @@
                 "disabled": false,
                 "keywords": [
                   "The “NP halting problem” is complete already with respect to Karp reductions."
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -293,7 +318,8 @@
                 "disabled": false,
                 "keywords": [
                   "Why?"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "child",
@@ -307,7 +333,8 @@
                     "disabled": false,
                     "keywords": [
                       "Karp reduction can distinguish problems that are interreducible with respect to Turing reductions."
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "child",
@@ -321,7 +348,8 @@
                         "disabled": false,
                         "keywords": [
                           "Consider the following decision problems, which input a propositional formula φ"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -330,7 +358,8 @@
                         "disabled": false,
                         "keywords": [
                           "true for some valuation"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -339,7 +368,8 @@
                         "disabled": false,
                         "keywords": [
                           "NP"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -348,7 +378,8 @@
                         "disabled": false,
                         "keywords": [
                           "false for all valuations"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -357,7 +388,8 @@
                         "disabled": false,
                         "keywords": [
                           "coNP"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -366,7 +398,8 @@
                         "disabled": false,
                         "keywords": [
                           "Tautology"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -375,7 +408,8 @@
                         "disabled": false,
                         "keywords": [
                           "false for some valuation"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -384,7 +418,8 @@
                         "disabled": false,
                         "keywords": [
                           "There are polynomial (Karp) reductions in the columns, but not in the rows, assuming that coNP ≠ NP."
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "child",
@@ -398,7 +433,8 @@
                             "disabled": false,
                             "keywords": [
                               "formulas"
-                            ]
+                            ],
+                            "children": []
                           },
                           {
                             "type": "show",
@@ -407,7 +443,8 @@
                             "disabled": false,
                             "keywords": [
                               "negation"
-                            ]
+                            ],
+                            "children": []
                           },
                           {
                             "type": "show",
@@ -416,7 +453,8 @@
                             "disabled": false,
                             "keywords": [
                               "negation"
-                            ]
+                            ],
+                            "children": []
                           },
                           {
                             "type": "show",
@@ -425,7 +463,8 @@
                             "disabled": false,
                             "keywords": [
                               "A Karp reduction is not allowed to swap “yes” with “no”"
-                            ]
+                            ],
+                            "children": []
                           },
                           {
                             "type": "show",
@@ -434,7 +473,8 @@
                             "disabled": false,
                             "keywords": [
                               "any other reduction would require a polynomial time function f such that φ is true for some valuation iff f (φ) is true for every valuation"
-                            ]
+                            ],
+                            "children": []
                           },
                           {
                             "type": "show",
@@ -443,7 +483,8 @@
                             "disabled": false,
                             "keywords": [
                               "unlikely"
-                            ]
+                            ],
+                            "children": []
                           }
                         ],
                         "keywords": [
@@ -482,7 +523,8 @@
             "disabled": false,
             "keywords": [
               "PSpace"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "child",
@@ -496,7 +538,8 @@
                 "disabled": false,
                 "keywords": [
                   "Definition. A language A is called NP-complete if: 1. it belongs to NP 2. every language L ∈ NP reduces to A"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -505,7 +548,8 @@
                 "disabled": false,
                 "keywords": [
                   "Karp deterministic LogSpace reduction"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "child",
@@ -519,7 +563,8 @@
                     "disabled": false,
                     "keywords": [
                       "We mainly use (Karp) reductions computable in LogSpace"
-                    ]
+                    ],
+                    "children": []
                   }
                 ],
                 "keywords": [
@@ -533,7 +578,8 @@
                 "disabled": false,
                 "keywords": [
                   "We do not know if there is a language which: – is NP-complete for polynomial time reductions – is not NP-complete for LogSpace reductions"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -542,7 +588,8 @@
                 "disabled": false,
                 "keywords": [
                   "Example 1. The NP halting problem"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -551,7 +598,8 @@
                 "disabled": false,
                 "keywords": [
                   "Example 2. Satisfiability for Boolean formulas"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "child",
@@ -565,7 +613,8 @@
                     "disabled": false,
                     "keywords": [
                       "Theorem. (Cook) The following problem is NP complete (for LogSpace reductions)."
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -574,7 +623,8 @@
                     "disabled": false,
                     "keywords": [
                       "Input. A Boolean formula φ, e.g. x ∨ (y ∧ ¬ x)"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -583,7 +633,8 @@
                     "disabled": false,
                     "keywords": [
                       "Question. Is φ true for some valuation val : variables ⟶ {true, false}?"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -592,7 +643,8 @@
                     "disabled": false,
                     "keywords": [
                       "Proof. The problem is clearly in NP: a nondeterministic machine can guess the satisfying valuation."
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -601,7 +653,8 @@
                     "disabled": false,
                     "keywords": [
                       "Let us now prove NP-hardness, i.e. every other problem in NP reduces to SAT."
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -610,7 +663,8 @@
                     "disabled": false,
                     "keywords": [
                       "Suppose that B ⊆ Σ* is in NP, as witnessed by a machine M and a polynomial p"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -619,7 +673,8 @@
                     "disabled": false,
                     "keywords": [
                       "Σ*"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -628,7 +683,8 @@
                     "disabled": false,
                     "keywords": [
                       "the machine M has an accepting run on w of length < p(|w|)"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -637,7 +693,8 @@
                     "disabled": false,
                     "keywords": [
                       "iff"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -646,7 +703,8 @@
                     "disabled": false,
                     "keywords": [
                       "the formula f (w) is true for some valuation"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "child",
@@ -660,7 +718,8 @@
                         "disabled": false,
                         "keywords": [
                           "r"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -669,7 +728,8 @@
                         "disabled": false,
                         "keywords": [
                           "A run of time n and space m can be represented using c × n × m Boolean variables"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -678,7 +738,8 @@
                         "disabled": false,
                         "keywords": [
                           "|Q| + |Γ |"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -687,7 +748,8 @@
                         "disabled": false,
                         "keywords": [
                           "for each i ∈ {1, ..., n} and j ∈ {1, ..., m} and q ∈ Q there is a variable for “in time i, the head is in state q and over cell i”"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -696,7 +758,8 @@
                         "disabled": false,
                         "keywords": [
                           "for each i ∈ {1, ..., n} and j ∈ {1, ..., m} and a ∈ Γ there is a variable for “in time i, letter a is tored in cell i”"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -705,7 +768,8 @@
                         "disabled": false,
                         "keywords": [
                           "One can compute a Boolean formula"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -714,7 +778,8 @@
                         "disabled": false,
                         "keywords": [
                           "For an input word w, the formula f (w) says that"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -723,7 +788,8 @@
                         "disabled": false,
                         "keywords": [
                           "n = m = p(|w|)"
-                        ]
+                        ],
+                        "children": []
                       }
                     ],
                     "keywords": [
@@ -742,7 +808,8 @@
                 "disabled": false,
                 "keywords": [
                   "∃u ∃v ∀w E(u, v) ∧ E(v, w) ∧ E(u, w)"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -751,7 +818,8 @@
                 "disabled": false,
                 "keywords": [
                   "one could consider formulas of first-order logic on graphs"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -760,7 +828,8 @@
                 "disabled": false,
                 "keywords": [
                   "the question “is such a formula true in some graph” is undecidable"
-                ]
+                ],
+                "children": []
               }
             ],
             "keywords": [
@@ -774,7 +843,8 @@
             "disabled": false,
             "keywords": [
               "Thm. (Ladner) If P ≠ NP, then there is a problem which is neither in P, nor NP-complete."
-            ]
+            ],
+            "children": []
           },
           {
             "type": "child",
@@ -788,7 +858,8 @@
                 "disabled": false,
                 "keywords": [
                   "Consider some NP-complete problem A ⊆ Σ*, e.g. the NP halting problem."
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -797,7 +868,8 @@
                 "disabled": false,
                 "keywords": [
                   "Let pad : Σ* ⟶ Γ* be an injective function such that:"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -806,7 +878,8 @@
                 "disabled": false,
                 "keywords": [
                   "(a) the output size of pad grows faster than every polynomial (b) it can be inverted in polynomial time"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -815,7 +888,8 @@
                 "disabled": false,
                 "keywords": [
                   "the inverse is a function of type Γ* ⟶ Σ* + {⊥}"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -824,7 +898,8 @@
                 "disabled": false,
                 "keywords": [
                   "Consider the language pad(A) = {pad(w) : w ∈ A}"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -833,7 +908,8 @@
                 "disabled": false,
                 "keywords": [
                   "Assuming P ≠ NP and (a) and (b), then pad(A) is not NP-complete"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -842,7 +918,8 @@
                 "disabled": false,
                 "keywords": [
                   "Assuming A ∉ P, we can choose pad so that (a) and (b) and pad(A) ∉ P"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "child",
@@ -856,7 +933,8 @@
                     "disabled": false,
                     "keywords": [
                       "Toward a contradiction, assume pad(A) is NP-complete. Then there is a reduction"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -865,7 +943,8 @@
                     "disabled": false,
                     "keywords": [
                       "even for polynomial time reductions"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -874,7 +953,8 @@
                     "disabled": false,
                     "keywords": [
                       "pad(A)"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -883,7 +963,8 @@
                     "disabled": false,
                     "keywords": [
                       "A"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -892,7 +973,8 @@
                     "disabled": false,
                     "keywords": [
                       "Since pad grows faster than any polynomial, this composition reduces the size (up to finitely many exceptions)"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -901,7 +983,8 @@
                     "disabled": false,
                     "keywords": [
                       "Here is a polynomial time algorithm for A: keep on applying the size-reducing function, until either: – the error is reached (in this case, reject); or – the size is not reduced (in this case, read the answer from a list for the exceptions)."
-                    ]
+                    ],
+                    "children": []
                   }
                 ],
                 "keywords": [
@@ -920,7 +1003,8 @@
                     "disabled": false,
                     "keywords": [
                       "Here is a padding function such that:"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -929,7 +1013,8 @@
                     "disabled": false,
                     "keywords": [
                       "pad can be inverted in P"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -938,7 +1023,8 @@
                     "disabled": false,
                     "keywords": [
                       "pad grows faster than every polynomial"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -947,7 +1033,8 @@
                     "disabled": false,
                     "keywords": [
                       "ensures that pad(A) is not NP-complete"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -956,7 +1043,8 @@
                     "disabled": false,
                     "keywords": [
                       "pad(A) ∉ P."
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -965,7 +1053,8 @@
                     "disabled": false,
                     "keywords": [
                       "function pad(w)"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -974,7 +1063,8 @@
                     "disabled": false,
                     "keywords": [
                       "output w"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -983,7 +1073,8 @@
                     "disabled": false,
                     "keywords": [
                       "do the following, outputting # in each computation step"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -992,7 +1083,8 @@
                     "disabled": false,
                     "keywords": [
                       "ensures that pad can be computed in time linear in output size"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1001,7 +1093,8 @@
                     "disabled": false,
                     "keywords": [
                       "find the first k ∈ {1, 2, ..., } such that for every input of length < log |w|"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1010,7 +1103,8 @@
                     "disabled": false,
                     "keywords": [
                       "Mk agrees with the language pad(A)"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1019,7 +1113,8 @@
                     "disabled": false,
                     "keywords": [
                       "the definition is not circular, because we use pad for smaller instances"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1028,7 +1123,8 @@
                     "disabled": false,
                     "keywords": [
                       "because pad can be computed in time polyomial in the output size"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1037,7 +1133,8 @@
                     "disabled": false,
                     "keywords": [
                       "If k is bounded for all inputs w, then"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1046,7 +1143,8 @@
                     "disabled": false,
                     "keywords": [
                       "1. pad(A) ∈ P"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1055,7 +1153,8 @@
                     "disabled": false,
                     "keywords": [
                       "2. pad ∈ P"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1064,7 +1163,8 @@
                     "disabled": false,
                     "keywords": [
                       "computing pad requires testing membership in A for inputs logarithmic length, which can be done in P."
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1073,7 +1173,8 @@
                     "disabled": false,
                     "keywords": [
                       "3. A ∈ P"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1082,7 +1183,8 @@
                     "disabled": false,
                     "keywords": [
                       "otherwise k is bounded"
-                    ]
+                    ],
+                    "children": []
                   }
                 ],
                 "keywords": [
@@ -1101,7 +1203,8 @@
             "disabled": false,
             "keywords": [
               "The problem from the proof is artificial. More natural candidates include factoring and graph isomorphism."
-            ]
+            ],
+            "children": []
           },
           {
             "type": "child",
@@ -1115,7 +1218,8 @@
                 "disabled": false,
                 "keywords": [
                   "Theorem. The following problem, called QBF, is complete for PSpace"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1124,7 +1228,8 @@
                 "disabled": false,
                 "keywords": [
                   "Input. A quantified Boolean formula with no free variables"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1133,7 +1238,8 @@
                 "disabled": false,
                 "keywords": [
                   "∃x ∀y ∃z (x ∨ y) ∧ ¬z"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1142,7 +1248,8 @@
                 "disabled": false,
                 "keywords": [
                   "Question. Is the formula true?"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1151,7 +1258,8 @@
                 "disabled": false,
                 "keywords": [
                   "Proof. Clearly QBF is in PSpace."
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1160,7 +1268,8 @@
                 "disabled": false,
                 "keywords": [
                   "To show PSpace hardness, for"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1169,7 +1278,8 @@
                 "disabled": false,
                 "keywords": [
                   "– a Turing machine M – an input word w – a space bound m"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1178,7 +1288,8 @@
                 "disabled": false,
                 "keywords": [
                   "we will compute in LogSpace a QBF formula φ such that"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1187,7 +1298,8 @@
                 "disabled": false,
                 "keywords": [
                   "φ is true"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1196,7 +1308,8 @@
                 "disabled": false,
                 "keywords": [
                   "iff"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1205,7 +1318,8 @@
                 "disabled": false,
                 "keywords": [
                   "M accepts w using space ≤ m"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "child",
@@ -1219,7 +1333,8 @@
                     "disabled": false,
                     "keywords": [
                       "As in Cook’s Theorem, a configuration with space m is described with cm variables."
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1228,7 +1343,8 @@
                     "disabled": false,
                     "keywords": [
                       "time"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1237,7 +1353,8 @@
                     "disabled": false,
                     "keywords": [
                       "space"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1246,7 +1363,8 @@
                     "disabled": false,
                     "keywords": [
                       "logspace"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1255,7 +1373,8 @@
                     "disabled": false,
                     "keywords": [
                       "represents a configuration s"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1264,7 +1383,8 @@
                     "disabled": false,
                     "keywords": [
                       "iff"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1273,7 +1393,8 @@
                     "disabled": false,
                     "keywords": [
                       "there is a computation of M which: - begins in s - ends in t - uses memory ≤ m, - uses time ≤ 2"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1282,7 +1403,8 @@
                     "disabled": false,
                     "keywords": [
                       "For n = 1, we formalise Turing machines in logic, as in Cook’s Theorem."
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1291,7 +1413,8 @@
                     "disabled": false,
                     "keywords": [
                       "For n > 1, we use induction"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1300,7 +1423,8 @@
                     "disabled": false,
                     "keywords": [
                       "Problem: this formula has size exponential in n"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1309,7 +1433,8 @@
                     "disabled": false,
                     "keywords": [
                       "Solution: use quantifiers to avoid writing the formula twice"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1318,7 +1443,8 @@
                     "disabled": false,
                     "keywords": [
                       "$\\exists \\bar x \\ \\forall \\bar y\\ \\forall \\bar z\\  $40"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1327,7 +1453,8 @@
                     "disabled": false,
                     "keywords": [
                       "$((\\bar y = \\bar s \\land \\bar z = \\bar x) \\lor\n(\\bar y = \\bar x \\land \\bar z = \\bar t)) \\quad \n\\Rightarrow \\quad  \\varphi_{n-1,m}(\\bar y, \\bar z)$40"
-                    ]
+                    ],
+                    "children": []
                   }
                 ],
                 "keywords": [
@@ -1351,7 +1478,8 @@
                 "disabled": false,
                 "keywords": [
                   "There are also complete problems for P, under LogSpace reductions."
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "child",
@@ -1365,7 +1493,8 @@
                     "disabled": false,
                     "keywords": [
                       "Unlike for NP, it does not make sense to consider P reductions for P."
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1374,7 +1503,8 @@
                     "disabled": false,
                     "keywords": [
                       "Every nontrivial language A is P hard for P reductions."
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1383,7 +1513,8 @@
                     "disabled": false,
                     "keywords": [
                       "(there is some u ∈ A and some v ∉ A)"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1392,7 +1523,8 @@
                     "disabled": false,
                     "keywords": [
                       "A"
-                    ]
+                    ],
+                    "children": []
                   }
                 ],
                 "keywords": [
@@ -1406,7 +1538,8 @@
                 "disabled": false,
                 "keywords": [
                   "Example alternating reachability"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1415,7 +1548,8 @@
                 "disabled": false,
                 "keywords": [
                   "∧"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1424,7 +1558,8 @@
                 "disabled": false,
                 "keywords": [
                   "If we begin in the source, does player ∨ have a winning strategy against player ∧ to reach the target?"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1433,7 +1568,8 @@
                 "disabled": false,
                 "keywords": [
                   "non-alternating reachability is in nondeterministic LogSpace"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1442,7 +1578,8 @@
                 "disabled": false,
                 "keywords": [
                   "Membership in P"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1451,7 +1588,8 @@
                 "disabled": false,
                 "keywords": [
                   "Start with {target}, and keep on adding vertices winning for ∨, until either no new vertex is added, or the source is added."
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1460,7 +1598,8 @@
                 "disabled": false,
                 "keywords": [
                   "Hardness for P"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1469,7 +1608,8 @@
                 "disabled": false,
                 "keywords": [
                   "For a deterministic Turing machine, an input word w, and a bound n for time and space, we can compute in LogSpace the graph of a game where positions are statements of the form:"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1478,7 +1618,8 @@
                 "disabled": false,
                 "keywords": [
                   "“in time i, cell j has contents a”"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1487,7 +1628,8 @@
                 "disabled": false,
                 "keywords": [
                   "In such a position, player ∨ chooses a several assumptions that were true in time i-1, and player ∧ chooses one of these assumptions."
-                ]
+                ],
+                "children": []
               }
             ],
             "keywords": [
@@ -1501,7 +1643,8 @@
             "disabled": false,
             "keywords": [
               "There are also problems that are complete for ExpTime, 2ExpTime, etc."
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -1510,7 +1653,8 @@
             "disabled": false,
             "keywords": [
               "Also Tower, Ackermann, etc."
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -1519,7 +1663,8 @@
             "disabled": false,
             "keywords": [
               "Baker Gill Solovay"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "child",
@@ -1533,7 +1678,8 @@
                 "disabled": false,
                 "keywords": [
                   "PSpace = NPSpace"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1542,7 +1688,8 @@
                 "disabled": false,
                 "keywords": [
                   "Also true for NLogSpace = coNLogSpace."
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1551,7 +1698,8 @@
                 "disabled": false,
                 "keywords": [
                   "Thm. (Baker, Gill, Solovay). There are languages A and B such that"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1560,7 +1708,8 @@
                 "disabled": false,
                 "keywords": [
                   "P = NP"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1569,7 +1718,8 @@
                 "disabled": false,
                 "keywords": [
                   "P ≠ NP"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1578,7 +1728,8 @@
                 "disabled": false,
                 "keywords": [
                   "Take A to be any problem complete for PSpace, e.g. QBF."
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1587,7 +1738,8 @@
                 "disabled": false,
                 "keywords": [
                   "Both sides are equal to PSpace."
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "child",
@@ -1601,7 +1753,8 @@
                     "disabled": false,
                     "keywords": [
                       "{ w ∈ a* : there is some word in A of same length as w}"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1610,7 +1763,8 @@
                     "disabled": false,
                     "keywords": [
                       "This language is clearly in NP . We now show that it is not in P ."
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1619,7 +1773,8 @@
                     "disabled": false,
                     "keywords": [
                       "Consider some enumeration M1, M2, ... of all deterministic polynomial time Turing machines, which use an oracle over alphabet {0,1}."
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1628,7 +1783,8 @@
                     "disabled": false,
                     "keywords": [
                       "If A ⊆ {0,1}* is an oracle, we write Mn[A] for the combination of Mn and A."
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1637,7 +1793,8 @@
                     "disabled": false,
                     "keywords": [
                       "We define finite partial oracles"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1646,7 +1803,8 @@
                     "disabled": false,
                     "keywords": [
                       "A partial oracle gives answers in {yes, no, ?}. Finite: finitely many yes or no answers"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1655,7 +1813,8 @@
                     "disabled": false,
                     "keywords": [
                       "extension means that ? is replaced by yes or no"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1664,7 +1823,8 @@
                     "disabled": false,
                     "keywords": [
                       "so that for every n and every oracle A which extends An"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1673,7 +1833,8 @@
                     "disabled": false,
                     "keywords": [
                       "Mn[A] gives a wrong answer for Lengths[A]."
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "child",
@@ -1687,7 +1848,8 @@
                         "disabled": false,
                         "keywords": [
                           "Suppose that we have already defined Mn"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1696,7 +1858,8 @@
                         "disabled": false,
                         "keywords": [
                           "Let A be an oracle that extends An with all “no” answers."
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1705,7 +1868,8 @@
                         "disabled": false,
                         "keywords": [
                           "Let k ∈ {1, 2, ... } be such that An is undefined on all words of length k."
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1714,7 +1878,8 @@
                         "disabled": false,
                         "keywords": [
                           "Consider the run of Mn+1[A] on the (unique) input of length k."
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1723,7 +1888,8 @@
                         "disabled": false,
                         "keywords": [
                           "if this run accepts"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1732,7 +1898,8 @@
                         "disabled": false,
                         "keywords": [
                           "This run will ask a certain number of queries of the form"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1741,7 +1908,8 @@
                         "disabled": false,
                         "keywords": [
                           "If k is large enough, one of these queries is not asked, because the length of the run is polynomial in k."
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1750,7 +1918,8 @@
                         "disabled": false,
                         "keywords": [
                           "Define An+1 so that it says “yes” on the unasked query, and is otherwise consistent with the queries in the run described above."
-                        ]
+                        ],
+                        "children": []
                       }
                     ],
                     "keywords": [
@@ -2681,5 +2850,5 @@
       }
     }
   },
-  "version": 0.84
+  "version": 0.85
 }

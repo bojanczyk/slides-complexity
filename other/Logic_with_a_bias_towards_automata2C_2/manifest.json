@@ -595,7 +595,8 @@
         "disabled": false,
         "keywords": [
           "lecture 3"
-        ]
+        ],
+        "children": []
       },
       {
         "type": "child",
@@ -609,7 +610,8 @@
             "disabled": false,
             "keywords": [
               "which models?"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -618,7 +620,8 @@
             "disabled": false,
             "keywords": [
               "what logic?"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -627,7 +630,8 @@
             "disabled": false,
             "keywords": [
               "All models and first-order logic: Entscheidungsproblem"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "child",
@@ -641,7 +645,8 @@
                 "disabled": false,
                 "keywords": [
                   "Group 16"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -650,7 +655,8 @@
                 "disabled": false,
                 "keywords": [
                   "Decide if a sentence of first-order logic is true [Hilbert & Ackermann 1928]"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -659,7 +665,8 @@
                 "disabled": false,
                 "keywords": [
                   "The Entscheidungsproblem is undecidable [Church 1936, Turing 1936]"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -668,7 +675,8 @@
                 "disabled": false,
                 "keywords": [
                   "A. true means “true in all models, including infinite ones”"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -677,7 +685,8 @@
                 "disabled": false,
                 "keywords": [
                   "B. true means “true in all finite models” [Trakhtenbrot 1950]"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -686,7 +695,8 @@
                 "disabled": false,
                 "keywords": [
                   "p"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -695,7 +705,8 @@
                 "disabled": false,
                 "keywords": [
                   "Therefore, φ is true in some finite model if and only if the machine halts."
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -704,7 +715,8 @@
                 "disabled": false,
                 "keywords": [
                   "Similar to B."
-                ]
+                ],
+                "children": []
               }
             ],
             "keywords": [
@@ -718,7 +730,8 @@
             "disabled": false,
             "keywords": [
               "axis 1: restrict the models"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -727,7 +740,8 @@
             "disabled": false,
             "keywords": [
               "axis 2: restrict the logic"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -736,7 +750,8 @@
             "disabled": false,
             "keywords": [
               "Words and trees"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "child",
@@ -750,7 +765,8 @@
                 "disabled": false,
                 "keywords": [
                   "A finite word w ∈ Σ* can be viewed as a model"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -759,7 +775,8 @@
                 "disabled": false,
                 "keywords": [
                   "With such models, we can use logic to define languages of finite words."
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -768,7 +785,8 @@
                 "disabled": false,
                 "keywords": [
                   "For a language L ⊆ Σ*, the following conditions are equivalent:"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -777,7 +795,8 @@
                 "disabled": false,
                 "keywords": [
                   "because regular languages are closed under ∨ ∧ ¬ ∃"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -786,7 +805,8 @@
                 "disabled": false,
                 "keywords": [
                   "Arrow 7"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "child",
@@ -800,7 +820,8 @@
                     "disabled": false,
                     "keywords": [
                       "Every regular language L ⊆ Σ* can be defined in MSO."
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -809,7 +830,8 @@
                     "disabled": false,
                     "keywords": [
                       "Suppose that L is recognized by an automaton with n transitions."
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -818,7 +840,8 @@
                     "disabled": false,
                     "keywords": [
                       "The following MSO formula describes words that have an accepting run:"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -827,7 +850,8 @@
                     "disabled": false,
                     "keywords": [
                       "∃X1 ... ∃Xn"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -836,7 +860,8 @@
                     "disabled": false,
                     "keywords": [
                       "∀x x ∈ Xi ∧ x ∉ Xj"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -845,7 +870,8 @@
                     "disabled": false,
                     "keywords": [
                       "∀x first(x) ⟹ x ∈ Xi"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -854,7 +880,8 @@
                     "disabled": false,
                     "keywords": [
                       "∀x ∀y (x + 1 = y) ⟹ x ∈ Xi ∧ y ∈ Xj"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -863,7 +890,8 @@
                     "disabled": false,
                     "keywords": [
                       "∀x last(x) ⟹ x ∈ Xi"
-                    ]
+                    ],
+                    "children": []
                   }
                 ],
                 "keywords": [
@@ -877,7 +905,8 @@
                 "disabled": false,
                 "keywords": [
                   "Theorem. [Büchi, Elgot, Trakhtenbrot 1958] The following problem is decidable: input: MSO sentence using x < y and {a(x)}a ∈ Σ question: is it true in some w ∈ Σ*?"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -886,7 +915,8 @@
                 "disabled": false,
                 "keywords": [
                   "Because the MSO → automata translation is computable"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "child",
@@ -900,7 +930,8 @@
                     "disabled": false,
                     "keywords": [
                       "This also works for ω-words [Büchi] and infinite trees [Rabin]."
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -909,7 +940,8 @@
                     "disabled": false,
                     "keywords": [
                       "Here, there are blurred lines between satisfiability and model checking."
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -918,7 +950,8 @@
                     "disabled": false,
                     "keywords": [
                       "iff"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -927,7 +960,8 @@
                     "disabled": false,
                     "keywords": [
                       "iff"
-                    ]
+                    ],
+                    "children": []
                   }
                 ],
                 "keywords": [
@@ -941,7 +975,8 @@
                 "disabled": false,
                 "keywords": [
                   "recognized by a finite monoid"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "child",
@@ -955,7 +990,8 @@
                     "disabled": false,
                     "keywords": [
                       "A monoid is: (M, ·, ε)"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -964,7 +1000,8 @@
                     "disabled": false,
                     "keywords": [
                       "A language L ⊆ Σ* is recognized by a finite monoid M if there is monoid homomorphism"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "child",
@@ -978,7 +1015,8 @@
                         "disabled": false,
                         "keywords": [
                           "Consider a language that is recognized by a finite monoid"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -987,7 +1025,8 @@
                         "disabled": false,
                         "keywords": [
                           "Σ*"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -996,7 +1035,8 @@
                         "disabled": false,
                         "keywords": [
                           "The same language is recognized by a deterministic finite automaton:"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1005,7 +1045,8 @@
                         "disabled": false,
                         "keywords": [
                           "– states: M"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1014,7 +1055,8 @@
                         "disabled": false,
                         "keywords": [
                           "– initial state: ε ∈ M"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1023,7 +1065,8 @@
                         "disabled": false,
                         "keywords": [
                           "– transition function (m, a) ↦ m∙h(a)"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1032,7 +1075,8 @@
                         "disabled": false,
                         "keywords": [
                           "– accepting states: same as in monoid"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1041,7 +1085,8 @@
                         "disabled": false,
                         "keywords": [
                           "After reading a word abcde, the automaton is in state"
-                        ]
+                        ],
+                        "children": []
                       }
                     ],
                     "keywords": [
@@ -1060,7 +1105,8 @@
                         "disabled": false,
                         "keywords": [
                           "Consider a language that is recognized by a deterministic finite automaton with states Q."
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1069,7 +1115,8 @@
                         "disabled": false,
                         "keywords": [
                           "Consider the function"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1078,7 +1125,8 @@
                         "disabled": false,
                         "keywords": [
                           "This is a homomorphism into a finite monoid."
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1087,7 +1135,8 @@
                         "disabled": false,
                         "keywords": [
                           "The accepting set is state transformations, which map the initial state to some accepting state."
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1096,7 +1145,8 @@
                         "disabled": false,
                         "keywords": [
                           "Also works for nondeterministic automata, except that we use the monoid of binary relations on Q."
-                        ]
+                        ],
+                        "children": []
                       }
                     ],
                     "keywords": [
@@ -1115,7 +1165,8 @@
                         "disabled": false,
                         "keywords": [
                           "Monoids have more structure and theory than automata."
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1124,7 +1175,8 @@
                         "disabled": false,
                         "keywords": [
                           "1. Powerful decomposition results for finite monoids Superior to automata concepts like “strongly connected component”"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1133,7 +1185,8 @@
                         "disabled": false,
                         "keywords": [
                           "Example: factorization forests"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1142,7 +1195,8 @@
                         "disabled": false,
                         "keywords": [
                           "2. Natural subclasses of finite monoids Examples: groups, commutative monoids"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1151,7 +1205,8 @@
                         "disabled": false,
                         "keywords": [
                           "Schützenberger, McNaughton and Papert: group-free monoids recognize exactly the first-order definable languages"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1160,7 +1215,8 @@
                         "disabled": false,
                         "keywords": [
                           "3. Beyond finite words, sometimes monoids generalize better than automata “Graph monoids” are a thing, “graph automata” not so much."
-                        ]
+                        ],
+                        "children": []
                       }
                     ],
                     "keywords": [
@@ -1184,7 +1240,8 @@
             "disabled": false,
             "keywords": [
               "Treewidth"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "child",
@@ -1198,7 +1255,8 @@
                 "disabled": false,
                 "keywords": [
                   "We can also view a graph as a model. The underlying set is the disjoint union of vertices and edges, and there is one relation incident (v, e)."
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1207,7 +1265,8 @@
                 "disabled": false,
                 "keywords": [
                   "alternative choice: underlying set is vertices only, and there is relation edge(v, w)"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1216,7 +1275,8 @@
                 "disabled": false,
                 "keywords": [
                   "Already for first-order logic, the satisfiability problem is undecidable: input: a first-order sentence using the incident relation question: is it true in some graph?"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1225,7 +1285,8 @@
                 "disabled": false,
                 "keywords": [
                   "undecidable also if we ask for finite graphs"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "child",
@@ -1239,7 +1300,8 @@
                     "disabled": false,
                     "keywords": [
                       "The graphs that witness undecidability look like this:"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1248,7 +1310,8 @@
                     "disabled": false,
                     "keywords": [
                       "What about graphs that look like this:"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "child",
@@ -1262,7 +1325,8 @@
                         "disabled": false,
                         "keywords": [
                           "A graph with ports is a graph with distinguished distinguished vertices."
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1271,7 +1335,8 @@
                         "disabled": false,
                         "keywords": [
                           "ports"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1280,7 +1345,8 @@
                         "disabled": false,
                         "keywords": [
                           "Definition. A graph has treewidth k ∈ {1,2, ...} if it can be constructed using the following operations, so that in every moment at most k+1 ports are used."
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "hide",
@@ -1289,7 +1355,8 @@
                         "disabled": false,
                         "keywords": [
                           "ports"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1298,7 +1365,8 @@
                         "disabled": false,
                         "keywords": [
                           "Constant"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1307,7 +1375,8 @@
                         "disabled": false,
                         "keywords": [
                           "Forget"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1316,7 +1385,8 @@
                         "disabled": false,
                         "keywords": [
                           "Output: the chosen port is no longer a port"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1325,7 +1395,8 @@
                         "disabled": false,
                         "keywords": [
                           "Fuse"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1334,7 +1405,8 @@
                         "disabled": false,
                         "keywords": [
                           "Output: the disjoint union, except that pairs from the bijection are fused"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "child",
@@ -1348,7 +1420,8 @@
                             "disabled": false,
                             "keywords": [
                               "The 8-cycle has treewidth 2, because it can be constructed using 3 ports."
-                            ]
+                            ],
+                            "children": []
                           },
                           {
                             "type": "show",
@@ -1357,7 +1430,8 @@
                             "disabled": false,
                             "keywords": [
                               "Group 39"
-                            ]
+                            ],
+                            "children": []
                           },
                           {
                             "type": "show",
@@ -1366,7 +1440,8 @@
                             "disabled": false,
                             "keywords": [
                               "Group 40"
-                            ]
+                            ],
+                            "children": []
                           },
                           {
                             "type": "show",
@@ -1375,7 +1450,8 @@
                             "disabled": false,
                             "keywords": [
                               "Group 41"
-                            ]
+                            ],
+                            "children": []
                           },
                           {
                             "type": "show",
@@ -1384,7 +1460,8 @@
                             "disabled": false,
                             "keywords": [
                               "Group 43"
-                            ]
+                            ],
+                            "children": []
                           },
                           {
                             "type": "show",
@@ -1393,7 +1470,8 @@
                             "disabled": false,
                             "keywords": [
                               "Group 44"
-                            ]
+                            ],
+                            "children": []
                           },
                           {
                             "type": "show",
@@ -1402,7 +1480,8 @@
                             "disabled": false,
                             "keywords": [
                               "Group 45"
-                            ]
+                            ],
+                            "children": []
                           },
                           {
                             "type": "show",
@@ -1411,7 +1490,8 @@
                             "disabled": false,
                             "keywords": [
                               "Group 46"
-                            ]
+                            ],
+                            "children": []
                           },
                           {
                             "type": "show",
@@ -1420,7 +1500,8 @@
                             "disabled": false,
                             "keywords": [
                               "Group 47"
-                            ]
+                            ],
+                            "children": []
                           },
                           {
                             "type": "show",
@@ -1429,7 +1510,8 @@
                             "disabled": false,
                             "keywords": [
                               "Group 48"
-                            ]
+                            ],
+                            "children": []
                           },
                           {
                             "type": "show",
@@ -1438,7 +1520,8 @@
                             "disabled": false,
                             "keywords": [
                               "Group 49"
-                            ]
+                            ],
+                            "children": []
                           },
                           {
                             "type": "show",
@@ -1447,7 +1530,8 @@
                             "disabled": false,
                             "keywords": [
                               "Group 50"
-                            ]
+                            ],
+                            "children": []
                           },
                           {
                             "type": "show",
@@ -1456,7 +1540,8 @@
                             "disabled": false,
                             "keywords": [
                               "All cycles have treewidth 2."
-                            ]
+                            ],
+                            "children": []
                           }
                         ],
                         "keywords": [
@@ -1485,7 +1570,8 @@
                     "disabled": false,
                     "keywords": [
                       "Theorem. [Courcelle] The following problem is decidable: input: an MSO sentence φ and k ∈ {1, 2, ..} question: is φ true in some graph of treewidth at most k?"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "child",
@@ -1499,7 +1585,8 @@
                         "disabled": false,
                         "keywords": [
                           "A width k tree decomposition can be seen as a finite tree"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1508,7 +1595,8 @@
                         "disabled": false,
                         "keywords": [
                           "Using MSO, one can interpret the graph in the tree decomposition:"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1517,7 +1605,8 @@
                         "disabled": false,
                         "keywords": [
                           "width k tree decompositions"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1526,7 +1615,8 @@
                         "disabled": false,
                         "keywords": [
                           "φ is true in some graph of treewidth k"
-                        ]
+                        ],
+                        "children": []
                       }
                     ],
                     "keywords": [
@@ -1540,7 +1630,8 @@
                     "disabled": false,
                     "keywords": [
                       "A deep theorem of Robertson and Seymour says that if a graph has large treewidth, then it contains a large grid as a minor."
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1549,7 +1640,8 @@
                     "disabled": false,
                     "keywords": [
                       "MSO can find that minor, and use it to describe a computation of a Turing machine. Hence:"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1558,7 +1650,8 @@
                     "disabled": false,
                     "keywords": [
                       "Theorem. [Seese] If C is a class of graphs of unbouned treewidth, then the following problem is undecidable: input: an MSO sentence φ question: is φ true in some graph from C?"
-                    ]
+                    ],
+                    "children": []
                   }
                 ],
                 "keywords": [
@@ -1582,7 +1675,8 @@
                 "disabled": false,
                 "keywords": [
                   "I will not talk much about fragments of first-order logic, for which satisfiability over all models is decidable, such as:"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1591,7 +1685,8 @@
                 "disabled": false,
                 "keywords": [
                   "∃* formulas"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1600,7 +1695,8 @@
                 "disabled": false,
                 "keywords": [
                   "Also: ∃*∀* [Bernays Schönfinkel 1928], ∃*∀ ∃* [Ackermann 1928], ..."
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1609,7 +1705,8 @@
                 "disabled": false,
                 "keywords": [
                   "Two-variable first-order logic [Mortimer 1975]"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1618,7 +1715,8 @@
                 "disabled": false,
                 "keywords": [
                   "Robustly decidable using counting methods forthcoming book [Pratt-Hartmann]"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1627,7 +1725,8 @@
                 "disabled": false,
                 "keywords": [
                   "The guarded fragment [Andréka, van Benthem, Németi 1998]"
-                ]
+                ],
+                "children": []
               }
             ],
             "keywords": [
@@ -1644,5 +1743,5 @@
       "First slide"
     ]
   },
-  "version": 0.84
+  "version": 0.85
 }

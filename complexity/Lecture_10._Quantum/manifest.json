@@ -794,7 +794,8 @@
         "disabled": false,
         "keywords": [
           "BPP via probabilistic circuits"
-        ]
+        ],
+        "children": []
       },
       {
         "type": "show",
@@ -803,7 +804,8 @@
         "disabled": false,
         "keywords": [
           "BQP via quantum circuits"
-        ]
+        ],
+        "children": []
       },
       {
         "type": "child",
@@ -817,7 +819,8 @@
             "disabled": false,
             "keywords": [
               "Recall that a language L ⊆ Σ* is in the class BPP iff there is a randomised algorithm A such that:"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -826,7 +829,8 @@
             "disabled": false,
             "keywords": [
               "1. the running time of A is polynomial in input size, regardless of coin tosses"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -835,7 +839,8 @@
             "disabled": false,
             "keywords": [
               "Prob [A(w) = L(w)] > 0.6"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -844,7 +849,8 @@
             "disabled": false,
             "keywords": [
               "To prepare for the quantum variant BQP, we use circuits to describe BPP."
-            ]
+            ],
+            "children": []
           },
           {
             "type": "child",
@@ -858,7 +864,8 @@
                 "disabled": false,
                 "keywords": [
                   "x1"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -867,7 +874,8 @@
                 "disabled": false,
                 "keywords": [
                   "it computes a function"
-                ]
+                ],
+                "children": []
               }
             ],
             "keywords": [
@@ -881,7 +889,8 @@
             "disabled": false,
             "keywords": [
               "Theorem. A language L ⊆ {0,1}* is in the class BPP iff there is a family of probabilistic circuits {Cn}n such that"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -890,7 +899,8 @@
             "disabled": false,
             "keywords": [
               "1. the circuit Cn has n input gates, one output gate, and can be computed by a deterministic algorithm in time poly(n);"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -899,7 +909,8 @@
             "disabled": false,
             "keywords": [
               "2. for every word input w of length n,"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "child",
@@ -913,7 +924,8 @@
                 "disabled": false,
                 "keywords": [
                   "The inclusion circuits ⊆ BPP is immediate, so we focus on the converse inclusion."
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -922,7 +934,8 @@
                 "disabled": false,
                 "keywords": [
                   "Consider a BPP algorithm, which is implemented by a Turing machine that runs in time p(n) and uses a coin tape."
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -931,7 +944,8 @@
                 "disabled": false,
                 "keywords": [
                   "p"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -940,7 +954,8 @@
                 "disabled": false,
                 "keywords": [
                   "for every cell of the grid, its contents can be represented by log(states × alphabet) bits"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -949,7 +964,8 @@
                 "disabled": false,
                 "keywords": [
                   "The n-th circuit computes the cells of the computation (in chronological order), and then says if the accepting state is seen."
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -958,7 +974,8 @@
                 "disabled": false,
                 "keywords": [
                   "When the machine reads from the coin tape, a coin gate is used in the circuit."
-                ]
+                ],
+                "children": []
               }
             ],
             "keywords": [
@@ -982,7 +999,8 @@
             "disabled": false,
             "keywords": [
               "The idea is behind quantum computation is that we allow probabilities which are complex numbers."
-            ]
+            ],
+            "children": []
           },
           {
             "type": "show",
@@ -991,7 +1009,8 @@
             "disabled": false,
             "keywords": [
               "The double slit experiment"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "child",
@@ -1005,7 +1024,8 @@
                 "disabled": false,
                 "keywords": [
                   "Feynman: Nobody understands quantum mechanics"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1014,7 +1034,8 @@
                 "disabled": false,
                 "keywords": [
                   "Consider a system which has two possible states: [0> and [1>"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1023,7 +1044,8 @@
                 "disabled": false,
                 "keywords": [
                   "Quantum physics says that it is ok to have a state like 0.6[0> + 0.8i[1>"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1032,7 +1054,8 @@
                 "disabled": false,
                 "keywords": [
                   "Quantum physics says that it is ok to have a state like 0.6[0> + 0.8i[1>"
-                ]
+                ],
+                "children": []
               }
             ],
             "keywords": [
@@ -1046,7 +1069,8 @@
             "disabled": false,
             "keywords": [
               "An intuitive description"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "child",
@@ -1060,7 +1084,8 @@
                 "disabled": false,
                 "keywords": [
                   "Consider a probabilistic circuit:"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1069,7 +1094,8 @@
                 "disabled": false,
                 "keywords": [
                   "x1"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1078,7 +1104,8 @@
                 "disabled": false,
                 "keywords": [
                   "This circuit has layers, and each gate has fan-in at most 2."
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1087,7 +1114,8 @@
                 "disabled": false,
                 "keywords": [
                   "These assumptions can be ensured with polynomial overhead."
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1096,7 +1124,8 @@
                 "disabled": false,
                 "keywords": [
                   "Every layer of this circuit, and also the entire circuit, can be seen as a transformation on probability distributions:"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "child",
@@ -1110,7 +1139,8 @@
                     "disabled": false,
                     "keywords": [
                       "A probability distribution on {0,1}n can be seen as a vector:"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1119,7 +1149,8 @@
                     "disabled": false,
                     "keywords": [
                       "0.2 [010\\rangle + 0.5[011\\rangle + 0.3[111\\rangle"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1128,7 +1159,8 @@
                     "disabled": false,
                     "keywords": [
                       "a basis vector, the number of such basis vectors is 2"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1137,7 +1169,8 @@
                     "disabled": false,
                     "keywords": [
                       "A probability distribution corresponds to a vector that is stochastic: – all coefficients are ≥ 0 – the sum of coefficients is 1"
-                    ]
+                    ],
+                    "children": []
                   }
                 ],
                 "keywords": [
@@ -1151,7 +1184,8 @@
                 "disabled": false,
                 "keywords": [
                   "A quantum circuit works in the same way, except that:"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1160,7 +1194,8 @@
                 "disabled": false,
                 "keywords": [
                   "(a) instead of probability distributions, we have “quantum distributions”"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1169,7 +1204,8 @@
                 "disabled": false,
                 "keywords": [
                   "0.6 i  [010\\rangle\n + 0.8  [011\\rangle"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1178,7 +1214,8 @@
                 "disabled": false,
                 "keywords": [
                   "0.6^2 + 0.8^2 = 1"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1187,7 +1224,8 @@
                 "disabled": false,
                 "keywords": [
                   "(b) the gates are reversible linear maps that preserve “quantum distributions”"
-                ]
+                ],
+                "children": []
               }
             ],
             "keywords": [
@@ -1201,7 +1239,8 @@
             "disabled": false,
             "keywords": [
               "Some linear algebra"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "child",
@@ -1215,7 +1254,8 @@
                 "disabled": false,
                 "keywords": [
                   "Linear algebra basics"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1224,7 +1264,8 @@
                 "disabled": false,
                 "keywords": [
                   "We work with vector spaces over the complex numbers."
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "child",
@@ -1238,7 +1279,8 @@
                     "disabled": false,
                     "keywords": [
                       "Complex numbers"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1247,7 +1289,8 @@
                     "disabled": false,
                     "keywords": [
                       "A complex number is a number of the form"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1256,7 +1299,8 @@
                     "disabled": false,
                     "keywords": [
                       "The conjugate of a complex number is"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1265,7 +1309,8 @@
                     "disabled": false,
                     "keywords": [
                       "The norm of a complex number is"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1274,7 +1319,8 @@
                     "disabled": false,
                     "keywords": [
                       "Complex vectors"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1283,7 +1329,8 @@
                     "disabled": false,
                     "keywords": [
                       "A complex vector in is described by 2n real numbers."
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1292,7 +1339,8 @@
                     "disabled": false,
                     "keywords": [
                       "The inner product of two complex vectors is"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1301,7 +1349,8 @@
                     "disabled": false,
                     "keywords": [
                       "The norm of a complex vector is its inner product with itself:"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1310,7 +1359,8 @@
                     "disabled": false,
                     "keywords": [
                       "A complex vector with norm 1 is called unitary."
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1319,7 +1369,8 @@
                     "disabled": false,
                     "keywords": [
                       "like a stochastic vector, but we allow negative (or complex) coefficients, and we use the Euclidean norm"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1328,7 +1379,8 @@
                     "disabled": false,
                     "keywords": [
                       "Two complex vectors are called orthogonal if their innner product is 0."
-                    ]
+                    ],
+                    "children": []
                   }
                 ],
                 "keywords": [
@@ -1342,7 +1394,8 @@
                 "disabled": false,
                 "keywords": [
                   "think: X = {0, 1}n"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1351,7 +1404,8 @@
                 "disabled": false,
                 "keywords": [
                   "Instead of stochastic vectors and stochastic transformations, we have unitary vectors and unitary transformations"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1360,7 +1414,8 @@
                 "disabled": false,
                 "keywords": [
                   "Fact. The following conditions are equivalent for a linear map"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1369,7 +1424,8 @@
                 "disabled": false,
                 "keywords": [
                   "1. the input has the same norm as the output"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1378,7 +1434,8 @@
                 "disabled": false,
                 "keywords": [
                   "2. if the input has norm 1, then the output output has norm 1"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1387,7 +1444,8 @@
                 "disabled": false,
                 "keywords": [
                   "3. the columns of the corresponding matrix are an orthonormal basis"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1396,7 +1454,8 @@
                 "disabled": false,
                 "keywords": [
                   "4. the inverse of the corresponding matrix is its conjugate transpose."
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1405,7 +1464,8 @@
                 "disabled": false,
                 "keywords": [
                   "5. the rows of the corresponding matrix are an orthonormal basis"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1414,7 +1474,8 @@
                 "disabled": false,
                 "keywords": [
                   "Such linear maps (or matrices) are called unitary"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "child",
@@ -1428,7 +1489,8 @@
                     "disabled": false,
                     "keywords": [
                       "3. the columns of the corresponding matrix are an orthonormal basis"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1437,7 +1499,8 @@
                     "disabled": false,
                     "keywords": [
                       "A set of vectors is orthonormal if the vectors are unitary and pairwise orthogonal."
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "child",
@@ -1451,7 +1514,8 @@
                         "disabled": false,
                         "keywords": [
                           "2"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1460,7 +1524,8 @@
                         "disabled": false,
                         "keywords": [
                           "If we multiply these two matrices, then the output matrix will store in cell (x, y) the inner product < row x of M, row y of M>"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1469,7 +1534,8 @@
                         "disabled": false,
                         "keywords": [
                           "The output is the identity matrix iff rows are orthonormal"
-                        ]
+                        ],
+                        "children": []
                       }
                     ],
                     "keywords": [
@@ -1483,7 +1549,8 @@
                     "disabled": false,
                     "keywords": [
                       "Hence, the following conditions are equivalent:"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1492,7 +1559,8 @@
                     "disabled": false,
                     "keywords": [
                       "the rows of M are an orthonormal basis"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1501,7 +1569,8 @@
                     "disabled": false,
                     "keywords": [
                       "M \\overline{M^{\\mathsf T}} = I"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1510,7 +1579,8 @@
                     "disabled": false,
                     "keywords": [
                       "apply conjugate transpose the previous equality"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1519,7 +1589,8 @@
                     "disabled": false,
                     "keywords": [
                       "the columns of M are an orthonormal basis"
-                    ]
+                    ],
+                    "children": []
                   }
                 ],
                 "keywords": [
@@ -1538,7 +1609,8 @@
                     "disabled": false,
                     "keywords": [
                       "1. the input has the same norm as the output"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "child",
@@ -1552,7 +1624,8 @@
                         "disabled": false,
                         "keywords": [
                           "a"
-                        ]
+                        ],
+                        "children": []
                       }
                     ],
                     "keywords": [
@@ -1566,7 +1639,8 @@
                     "disabled": false,
                     "keywords": [
                       "Multiplying a matrix M by a vector v ∈ gives the output:"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1575,7 +1649,8 @@
                     "disabled": false,
                     "keywords": [
                       "The norm of M(v), i.e. its inner product with itself, is:"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1584,7 +1659,8 @@
                     "disabled": false,
                     "keywords": [
                       "If the columns are orthonormal, then the output norm is the input norm."
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1593,7 +1669,8 @@
                     "disabled": false,
                     "keywords": [
                       "Conversely, if the columns are not orthonormal, then:"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1602,7 +1679,8 @@
                     "disabled": false,
                     "keywords": [
                       "choose columns x ≠ y which have nozero inner product, and consider the input vector v that has 1 on coordinates x and y, and 0 otherwise."
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1611,7 +1689,8 @@
                     "disabled": false,
                     "keywords": [
                       "output norm = input norm + <column x, column y>"
-                    ]
+                    ],
+                    "children": []
                   }
                 ],
                 "keywords": [
@@ -1630,7 +1709,8 @@
             "disabled": false,
             "keywords": [
               "Quantum circuits"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "child",
@@ -1644,7 +1724,8 @@
                 "disabled": false,
                 "keywords": [
                   "Definition of quantum circuits"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1653,7 +1734,8 @@
                 "disabled": false,
                 "keywords": [
                   "A quantum circuit with n qubits is a sequence of quantum gates."
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "child",
@@ -1667,7 +1749,8 @@
                     "disabled": false,
                     "keywords": [
                       "Definition: An k-qubit gate is any unitary linear map"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "child",
@@ -1681,7 +1764,8 @@
                         "disabled": false,
                         "keywords": [
                           "The not gate is a 1-qubit gate"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1690,7 +1774,8 @@
                         "disabled": false,
                         "keywords": [
                           "The corresponding matrix is"
-                        ]
+                        ],
+                        "children": []
                       }
                     ],
                     "keywords": [
@@ -1709,7 +1794,8 @@
                         "disabled": false,
                         "keywords": [
                           "The swap gate is a 2-qubit gate"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1718,7 +1804,8 @@
                         "disabled": false,
                         "keywords": [
                           "The corresponding matrix is"
-                        ]
+                        ],
+                        "children": []
                       }
                     ],
                     "keywords": [
@@ -1737,7 +1824,8 @@
                         "disabled": false,
                         "keywords": [
                           "The Toffoli gate is a 3-qubit gate that simulates ∧ reversibly"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1746,7 +1834,8 @@
                         "disabled": false,
                         "keywords": [
                           "Toffoli simulates classical Boolean circuits"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "child",
@@ -1760,7 +1849,8 @@
                             "disabled": false,
                             "keywords": [
                               "We can simulate every classical Boolean circuit using gates:"
-                            ]
+                            ],
+                            "children": []
                           },
                           {
                             "type": "show",
@@ -1769,7 +1859,8 @@
                             "disabled": false,
                             "keywords": [
                               "a"
-                            ]
+                            ],
+                            "children": []
                           },
                           {
                             "type": "show",
@@ -1778,7 +1869,8 @@
                             "disabled": false,
                             "keywords": [
                               "a"
-                            ]
+                            ],
+                            "children": []
                           },
                           {
                             "type": "show",
@@ -1787,7 +1879,8 @@
                             "disabled": false,
                             "keywords": [
                               "a"
-                            ]
+                            ],
+                            "children": []
                           },
                           {
                             "type": "show",
@@ -1796,7 +1889,8 @@
                             "disabled": false,
                             "keywords": [
                               "x1"
-                            ]
+                            ],
+                            "children": []
                           },
                           {
                             "type": "show",
@@ -1805,7 +1899,8 @@
                             "disabled": false,
                             "keywords": [
                               "y1"
-                            ]
+                            ],
+                            "children": []
                           },
                           {
                             "type": "show",
@@ -1814,7 +1909,8 @@
                             "disabled": false,
                             "keywords": [
                               "If the input vector is , then the output vector is"
-                            ]
+                            ],
+                            "children": []
                           }
                         ],
                         "keywords": [
@@ -1838,7 +1934,8 @@
                         "disabled": false,
                         "keywords": [
                           "H"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1847,7 +1944,8 @@
                         "disabled": false,
                         "keywords": [
                           "For every basis vector, the output of the Hadamard gate satisfies:"
-                        ]
+                        ],
+                        "children": []
                       }
                     ],
                     "keywords": [
@@ -1861,7 +1959,8 @@
                     "disabled": false,
                     "keywords": [
                       "How do we put gates together?"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "child",
@@ -1875,7 +1974,8 @@
                         "disabled": false,
                         "keywords": [
                           "x1"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1884,7 +1984,8 @@
                         "disabled": false,
                         "keywords": [
                           "The action of the k-qubit gate is extend to the n-qubit circuit:"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -1893,7 +1994,8 @@
                         "disabled": false,
                         "keywords": [
                           "H"
-                        ]
+                        ],
+                        "children": []
                       }
                     ],
                     "keywords": [
@@ -1912,7 +2014,8 @@
                 "disabled": false,
                 "keywords": [
                   "Such a circuit computes a unitary linear map"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -1921,7 +2024,8 @@
                 "disabled": false,
                 "keywords": [
                   "We can use observation to get a function of type"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "child",
@@ -1935,7 +2039,8 @@
                     "disabled": false,
                     "keywords": [
                       "Suppose that we have an n-qubit circuit, and a ditinguished qubit i ∈ {1, ..., n}"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1944,7 +2049,8 @@
                     "disabled": false,
                     "keywords": [
                       "1. we view an input word as a complext vector"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1953,7 +2059,8 @@
                     "disabled": false,
                     "keywords": [
                       "2. we apply the circuit, and get an output complex vector"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -1962,7 +2069,8 @@
                     "disabled": false,
                     "keywords": [
                       "3. the output is the probability that v has 1 on the i-th bit:"
-                    ]
+                    ],
+                    "children": []
                   }
                 ],
                 "keywords": [
@@ -1981,7 +2089,8 @@
             "disabled": false,
             "keywords": [
               "Definition of BQP"
-            ]
+            ],
+            "children": []
           },
           {
             "type": "child",
@@ -1995,7 +2104,8 @@
                 "disabled": false,
                 "keywords": [
                   "all circuits are over some common finite set of gates"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -2004,7 +2114,8 @@
                 "disabled": false,
                 "keywords": [
                   "such that:"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -2013,7 +2124,8 @@
                 "disabled": false,
                 "keywords": [
                   "the extra qubits are ancillas that will be initialized to 0"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -2022,7 +2134,8 @@
                 "disabled": false,
                 "keywords": [
                   "(b) if w ∈ {0, 1}* has length n, then"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "show",
@@ -2031,7 +2144,8 @@
                 "disabled": false,
                 "keywords": [
                   "Theorem. BPP ⊆ BQP"
-                ]
+                ],
+                "children": []
               },
               {
                 "type": "child",
@@ -2045,7 +2159,8 @@
                     "disabled": false,
                     "keywords": [
                       "We have already seen how to simulate a classical circuit with n inputs and l gates:"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -2054,7 +2169,8 @@
                     "disabled": false,
                     "keywords": [
                       "To simulate probabilistic circuitc, we need to generate random bits."
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "child",
@@ -2068,7 +2184,8 @@
                         "disabled": false,
                         "keywords": [
                           "H"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -2077,7 +2194,8 @@
                         "disabled": false,
                         "keywords": [
                           "\\sqrt{1/2} \\cdot ([00 \\rangle + [10\\rangle)"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -2086,7 +2204,8 @@
                         "disabled": false,
                         "keywords": [
                           "\\underbrace{\\sqrt{1/2}\\cdot\n \\sqrt{1/2}}_{1/2} \\cdot \n([00 \\rangle + [10\\rangle + [01 \\rangle + [11\\rangle)"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -2095,7 +2214,8 @@
                         "disabled": false,
                         "keywords": [
                           "For a circuit with n Hadamard gates, we have"
-                        ]
+                        ],
+                        "children": []
                       },
                       {
                         "type": "show",
@@ -2104,7 +2224,8 @@
                         "disabled": false,
                         "keywords": [
                           "the uniform proability distribution on {0, 1}ⁿ where each basis vector has norm 1/2ⁿ ."
-                        ]
+                        ],
+                        "children": []
                       }
                     ],
                     "keywords": [
@@ -2118,7 +2239,8 @@
                     "disabled": false,
                     "keywords": [
                       "Suppose that the probabilistic circuit uses:"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -2127,7 +2249,8 @@
                     "disabled": false,
                     "keywords": [
                       "We can create a quantum circuit such that"
-                    ]
+                    ],
+                    "children": []
                   },
                   {
                     "type": "show",
@@ -2136,7 +2259,8 @@
                     "disabled": false,
                     "keywords": [
                       "We then test the probability that the output vector has 1 on the bit corresponding to the output gate of the circuit."
-                    ]
+                    ],
+                    "children": []
                   }
                 ],
                 "keywords": [
@@ -2158,5 +2282,5 @@
       "First slide"
     ]
   },
-  "version": 0.84
+  "version": 0.85
 }
