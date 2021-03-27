@@ -805,55 +805,82 @@
         "type": "show",
         "id": "121:7",
         "name": "Two decision problems for logics",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "Two decision problems for logics"
+        ]
       },
       {
         "type": "show",
         "id": "120:308",
         "name": "Satisfiability is φ true in some model?",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "Satisfiability is φ true in some model?"
+        ]
       },
       {
         "type": "show",
         "id": "120:309",
         "name": "Model checking is φ true in some model M?",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "Model checking is φ true in some model M?"
+        ]
       },
       {
         "type": "show",
         "id": "108:26",
         "name": "M fixed, φ input",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "M fixed, φ input"
+        ]
       },
       {
         "type": "show",
         "id": "108:27",
         "name": "M input, φ input",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "M input, φ input"
+        ]
       },
       {
         "type": "show",
         "id": "108:28",
         "name": "M input, φ fixed",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "M input, φ fixed"
+        ]
       },
       {
         "type": "show",
         "id": "121:3",
         "name": "Part 1.",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "Part 1."
+        ]
       },
       {
         "type": "show",
         "id": "121:4",
         "name": "Part 2.",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "Part 2."
+        ]
       },
       {
         "type": "show",
         "id": "121:5",
         "name": "Part 3.",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "Part 3."
+        ]
       },
       {
         "type": "child",
@@ -864,19 +891,28 @@
             "type": "show",
             "id": "120:311",
             "name": "First-order logic",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "First-order logic"
+            ]
           },
           {
             "type": "show",
             "id": "120:312",
             "name": "For which structures M is the following problem decidable: Given a sentence of first-order logic φ, is φ is true in M?",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "For which structures M is the following problem decidable: Given a sentence of first-order logic φ, is φ is true in M?"
+            ]
           },
           {
             "type": "show",
             "id": "120:313",
             "name": "({0, 1})",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "({0, 1})"
+            ]
           },
           {
             "type": "child",
@@ -887,57 +923,87 @@
                 "type": "show",
                 "id": "108:81",
                 "name": "What can a first-order sentence say in {0,1} ?",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "What can a first-order sentence say in {0,1} ?"
+                ]
               },
               {
                 "type": "show",
                 "id": "108:80",
                 "name": "{0, 1} ⊨ ∃x ∀y x = y",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "{0, 1} ⊨ ∃x ∀y x = y"
+                ]
               },
               {
                 "type": "show",
                 "id": "120:320",
                 "name": "This is enough to encode QBF (quantified Boolean formulas)",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "This is enough to encode QBF (quantified Boolean formulas)"
+                ]
               },
               {
                 "type": "show",
                 "id": "120:322",
                 "name": "Theorem. For every finite M, its first-order theory is PSpace complete.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Theorem. For every finite M, its first-order theory is PSpace complete."
+                ]
               },
               {
                 "type": "show",
                 "id": "108:87",
                 "name": "Hardness is already for {0,1} with equality only.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Hardness is already for {0,1} with equality only."
+                ]
               },
               {
                 "type": "show",
                 "id": "120:321",
                 "name": "Membership is witnessed by the naive algorithm",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Membership is witnessed by the naive algorithm"
+                ]
               }
+            ],
+            "keywords": [
+              "two element structure fo"
             ]
           },
           {
             "type": "show",
             "id": "120:314",
             "name": "(ℕ, +, ×)",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "(ℕ, +, ×)"
+            ]
           },
           {
             "type": "show",
             "id": "120:316",
             "name": "(ℝ, +, ×)",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "(ℝ, +, ×)"
+            ]
           },
           {
             "type": "show",
             "id": "120:317",
             "name": "(ℕ, +)",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "(ℕ, +)"
+            ]
           },
           {
             "type": "child",
@@ -948,7 +1014,10 @@
                 "type": "show",
                 "id": "108:92",
                 "name": "Theorem. The first-order theory of (ℕ, +, ×) is undecidable.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Theorem. The first-order theory of (ℕ, +, ×) is undecidable."
+                ]
               },
               {
                 "type": "child",
@@ -959,52 +1028,82 @@
                     "type": "show",
                     "id": "120:326",
                     "name": "Proof sketch. We can use numbers to represent lists of numbers.",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Proof sketch. We can use numbers to represent lists of numbers."
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "108:151",
                     "name": "First-order logic can define operations such as head, or concatenation.",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "First-order logic can define operations such as head, or concatenation."
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "108:152",
                     "name": "A list can represent a computation of a Turing machine.",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "A list can represent a computation of a Turing machine."
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "109:0",
                     "name": "Using the list operations, one can formalize in first-order logic the statement “there exists an accepting computation”.",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Using the list operations, one can formalize in first-order logic the statement “there exists an accepting computation”."
+                    ]
                   }
+                ],
+                "keywords": [
+                  "arithmetic proof sketch"
                 ]
               },
               {
                 "type": "show",
                 "id": "109:135",
                 "name": "In fact, undecidability holds already for ∃* formulas:",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "In fact, undecidability holds already for ∃* formulas:"
+                ]
               },
               {
                 "type": "show",
                 "id": "120:323",
                 "name": "Theorem. [DPLM] Hilbert’s 10-th problem is undecidable: Input. a polynomial Question.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Theorem. [DPLM] Hilbert’s 10-th problem is undecidable: Input. a polynomial Question."
+                ]
               },
               {
                 "type": "show",
                 "id": "120:324",
                 "name": "There is a polynonial P such that x is a prime number iff",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "There is a polynonial P such that x is a prime number iff"
+                ]
               },
               {
                 "type": "show",
                 "id": "120:325",
                 "name": "There is a polynomial P such that",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "There is a polynomial P such that"
+                ]
               }
+            ],
+            "keywords": [
+              "arithmetic"
             ]
           },
           {
@@ -1016,44 +1115,68 @@
                 "type": "show",
                 "id": "109:136",
                 "name": "Theorem. [Tarski 1929] The first-order theory of (ℝ, +, ×) is decidable.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Theorem. [Tarski 1929] The first-order theory of (ℝ, +, ×) is decidable."
+                ]
               },
               {
                 "type": "show",
                 "id": "109:257",
                 "name": "Tarski’s proof used quantifier elimination:",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Tarski’s proof used quantifier elimination:"
+                ]
               },
               {
                 "type": "show",
                 "id": "109:206",
                 "name": "Main lemma. For every first-order formula φ(x1, ... xn), one can compute an equivalent quantifier-free formula in (ℝ, +, ×, –, ≤, 0, 1, )",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Main lemma. For every first-order formula φ(x1, ... xn), one can compute an equivalent quantifier-free formula in (ℝ, +, ×, –, ≤, 0, 1, )"
+                ]
               },
               {
                 "type": "show",
                 "id": "109:207",
                 "name": "Applying the main lemma to a formula without free variables, we compute an equivalent formula like (1 – 1 = 0 ∨ 0 > 1), whose truth can be easily decided.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Applying the main lemma to a formula without free variables, we compute an equivalent formula like (1 – 1 = 0 ∨ 0 > 1), whose truth can be easily decided."
+                ]
               },
               {
                 "type": "show",
                 "id": "120:331",
                 "name": "Example 1",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Example 1"
+                ]
               },
               {
                 "type": "show",
                 "id": "120:328",
                 "name": "This is because quantifier-free formulas are Boolean combinations of polynomial inequalities.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "This is because quantifier-free formulas are Boolean combinations of polynomial inequalities."
+                ]
               },
               {
                 "type": "show",
                 "id": "120:330",
                 "name": "Hence there is no formula for “x is a natural number”.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Hence there is no formula for “x is a natural number”."
+                ]
               }
+            ],
+            "keywords": [
+              "Tarski arithmetic"
             ]
           },
           {
@@ -1065,25 +1188,37 @@
                 "type": "show",
                 "id": "109:363",
                 "name": "Theorem. [Presburger 1929] The first-order theory of (ℕ, +) is decidable.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Theorem. [Presburger 1929] The first-order theory of (ℕ, +) is decidable."
+                ]
               },
               {
                 "type": "show",
                 "id": "120:332",
                 "name": "Main lemma. For every first-order formula φ(x1, ... xn), the defined subset of ℕⁿ is semilinear, i.e it is a finite union of linear sets:",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Main lemma. For every first-order formula φ(x1, ... xn), the defined subset of ℕⁿ is semilinear, i.e it is a finite union of linear sets:"
+                ]
               },
               {
                 "type": "show",
                 "id": "120:333",
                 "name": "Proof. The base case is the formula",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Proof. The base case is the formula"
+                ]
               },
               {
                 "type": "show",
                 "id": "120:334",
                 "name": "Semilinear sets are closed under union, projection, and complementation.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Semilinear sets are closed under union, projection, and complementation."
+                ]
               },
               {
                 "type": "child",
@@ -1094,35 +1229,56 @@
                     "type": "show",
                     "id": "120:336",
                     "name": "Consider a formula",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Consider a formula"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "120:337",
                     "name": "The quantified formula",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "The quantified formula"
+                    ]
                   }
+                ],
+                "keywords": [
+                  "projection is ∃"
                 ]
               },
               {
                 "type": "show",
                 "id": "120:335",
                 "name": "technical",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "technical"
+                ]
               },
               {
                 "type": "show",
                 "id": "109:420",
                 "name": "We will later see an alternative decidability proof, using automata.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "We will later see an alternative decidability proof, using automata."
+                ]
               }
+            ],
+            "keywords": [
+              "Presburger arithmetic"
             ]
           },
           {
             "type": "show",
             "id": "120:318",
             "name": "Second-order logic",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Second-order logic"
+            ]
           },
           {
             "type": "child",
@@ -1133,33 +1289,51 @@
                 "type": "show",
                 "id": "120:338",
                 "name": "In second-order logic, we can write formulas like:",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "In second-order logic, we can write formulas like:"
+                ]
               },
               {
                 "type": "show",
                 "id": "110:4",
                 "name": "Theorem. For every structure M: 1. if M is finite, then its second-order theory is PSpace complete. 2. if M is infinite, then its second-order theory is undecidable.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Theorem. For every structure M: 1. if M is finite, then its second-order theory is PSpace complete. 2. if M is infinite, then its second-order theory is undecidable."
+                ]
               },
               {
                 "type": "show",
                 "id": "110:6",
                 "name": "Proof. 1. PSpace hardness is inherited from first-order logic, PSpace membership uses the naive algorithm.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Proof. 1. PSpace hardness is inherited from first-order logic, PSpace membership uses the naive algorithm."
+                ]
               },
               {
                 "type": "show",
                 "id": "120:339",
                 "name": "2. Undecidability is witnessed by formulas of the form:",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "2. Undecidability is witnessed by formulas of the form:"
+                ]
               }
+            ],
+            "keywords": [
+              "second order logic"
             ]
           },
           {
             "type": "show",
             "id": "120:319",
             "name": "Monadic second-order logic",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Monadic second-order logic"
+            ]
           },
           {
             "type": "child",
@@ -1170,31 +1344,46 @@
                 "type": "show",
                 "id": "120:340",
                 "name": "Example. The MSO theory of (ℕ, =) is decidable. Every formula is equivalent to a quantifier-free formula using X(x), |X| = n and |ℕ - X| = n.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Example. The MSO theory of (ℕ, =) is decidable. Every formula is equivalent to a quantifier-free formula using X(x), |X| = n and |ℕ - X| = n."
+                ]
               },
               {
                 "type": "show",
                 "id": "120:345",
                 "name": "Question. [Tarski] Is the MSO theory of (ℕ, ≤) decidable?",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Question. [Tarski] Is the MSO theory of (ℕ, ≤) decidable?"
+                ]
               },
               {
                 "type": "show",
                 "id": "121:2",
                 "name": "Robinson’s paper shows that the MSO theory of (ℕ, ≤, 2x) is undecidable.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Robinson’s paper shows that the MSO theory of (ℕ, ≤, 2x) is undecidable."
+                ]
               },
               {
                 "type": "show",
                 "id": "111:13",
                 "name": "The weak MSO theory of (ℕ, ≤) is decidable",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "The weak MSO theory of (ℕ, ≤) is decidable"
+                ]
               },
               {
                 "type": "show",
                 "id": "111:14",
                 "name": "The MSO theory of (ℕ, ≤) is decidable",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "The MSO theory of (ℕ, ≤) is decidable"
+                ]
               },
               {
                 "type": "child",
@@ -1205,19 +1394,28 @@
                     "type": "show",
                     "id": "113:3",
                     "name": "Weak MSO has the same syntax as MSO, but set quantification is restricted to finite sets.",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Weak MSO has the same syntax as MSO, but set quantification is restricted to finite sets."
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "120:346",
                     "name": "∃X ∀x x ∈ X",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "∃X ∀x x ∈ X"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "113:11",
                     "name": "Theorem. [BEEVT] The weak MSO theory of (ℕ, ≤) is decidable.",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Theorem. [BEEVT] The weak MSO theory of (ℕ, ≤) is decidable."
+                    ]
                   },
                   {
                     "type": "child",
@@ -1228,25 +1426,37 @@
                         "type": "show",
                         "id": "113:15",
                         "name": "Consider a formula φ(x, Y, Z ) of weak MSO. How do we represent the semantics of φ, which is a set of triples (number, finite set of numbers, finite set of numbers)?",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Consider a formula φ(x, Y, Z ) of weak MSO. How do we represent the semantics of φ, which is a set of triples (number, finite set of numbers, finite set of numbers)?"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "113:91",
                         "name": "A quantifier-free formula?",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "A quantifier-free formula?"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "113:93",
                         "name": "A semilinear set?",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "A semilinear set?"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "113:94",
                         "name": "An automaton!",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "An automaton!"
+                        ]
                       },
                       {
                         "type": "child",
@@ -1257,15 +1467,24 @@
                             "type": "show",
                             "id": "120:365",
                             "name": "2",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "2"
+                            ]
                           }
+                        ],
+                        "keywords": [
+                          "triples of sets as finite words"
                         ]
                       },
                       {
                         "type": "show",
                         "id": "120:347",
                         "name": "Lemma. For every formula of weak MSO, one can compute a finite automaton that recognizes the corresponding set of words",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Lemma. For every formula of weak MSO, one can compute a finite automaton that recognizes the corresponding set of words"
+                        ]
                       },
                       {
                         "type": "child",
@@ -1276,52 +1495,82 @@
                             "type": "show",
                             "id": "113:205",
                             "name": "Proof. Induction on formula size.",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "Proof. Induction on formula size."
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "120:350",
                             "name": "For the atomic formulas",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "For the atomic formulas"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "113:275",
                             "name": "For ∨ and ¬, we use closure of regular languages under union and complementation.",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "For ∨ and ¬, we use closure of regular languages under union and complementation."
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "113:276",
                             "name": "For ∃, we use closure of regular languages under projection:",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "For ∃, we use closure of regular languages under projection:"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "113:278",
                             "name": "If L ⊆ (Σ × Γ)* is regular, then so is its projection π(L) ⊆ Σ*.",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "If L ⊆ (Σ × Γ)* is regular, then so is its projection π(L) ⊆ Σ*."
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "113:279",
                             "name": "deterministic automata",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "deterministic automata"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "113:280",
                             "name": "nondeterministic automata, or regular expressions",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "nondeterministic automata, or regular expressions"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "120:351",
                             "name": "If the formula alternates n times between complementation and projection, then determinization is applied n times, resulting in an n-fold exponential automaton.",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "If the formula alternates n times between complementation and projection, then determinization is applied n times, resulting in an n-fold exponential automaton."
+                            ]
                           }
+                        ],
+                        "keywords": [
+                          "weak mso automata proof"
                         ]
                       }
+                    ],
+                    "keywords": [
+                      "weak mso automata"
                     ]
                   },
                   {
@@ -1333,37 +1582,55 @@
                         "type": "show",
                         "id": "119:25",
                         "name": "Trakhtenbrot 1958",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Trakhtenbrot 1958"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "119:17",
                         "name": "image 2",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "image 2"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "118:2",
                         "name": "Büchi and Elgot 1958",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Büchi and Elgot 1958"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "120:354",
                         "name": "Group 14",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Group 14"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "120:352",
                         "name": "Group 13",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Group 13"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "120:353",
                         "name": "Ehrenfeucht and Vaught ≤ 1958",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Ehrenfeucht and Vaught ≤ 1958"
+                        ]
                       },
                       {
                         "type": "child",
@@ -1374,51 +1641,78 @@
                             "type": "show",
                             "id": "119:52",
                             "name": "For a description of this history, see W. Thomas, SIGLOG 2019",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "For a description of this history, see W. Thomas, SIGLOG 2019"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "119:32",
                             "name": "We can use ordinals to represents numbers and finite sets of numbers",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "We can use ordinals to represents numbers and finite sets of numbers"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "120:373",
                             "name": "ω5 represents the number 5",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "ω5 represents the number 5"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "119:35",
                             "name": "ω5 + ω2 + 1 represents the set {0, 2, 5}",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "ω5 + ω2 + 1 represents the set {0, 2, 5}"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "119:46",
                             "name": "not the same as 1 + ω2 + ω5 = ω5",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "not the same as 1 + ω2 + ω5 = ω5"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "119:49",
                             "name": "Under this representation, membership x ∈ X and order can be defined in first-order logic using ordinal addition α + β",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "Under this representation, membership x ∈ X and order can be defined in first-order logic using ordinal addition α + β"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "120:374",
                             "name": "Only ordinals α < ω are needed, and (ω , <, +) has decidable first-order theory [Ehrenfeucht 1957 +]",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "Only ordinals α < ω are needed, and (ω , <, +) has decidable first-order theory [Ehrenfeucht 1957 +]"
+                            ]
                           }
+                        ],
+                        "keywords": [
+                          "Ehrenfeucht and Vaught"
                         ]
                       },
                       {
                         "type": "show",
                         "id": "119:12",
                         "name": "Group 6",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Group 6"
+                        ]
                       },
                       {
                         "type": "child",
@@ -1429,42 +1723,69 @@
                             "type": "show",
                             "id": "120:355",
                             "name": "Represent a number as a finite set, namely its binary expansion",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "Represent a number as a finite set, namely its binary expansion"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "120:356",
                             "name": "Under this representation, there is a WMSO formula for x + y = z",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "Under this representation, there is a WMSO formula for x + y = z"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "119:133",
                             "name": "Corollary For every formula φ(x1, ... xn) of Presburger arithmetic, the corresponding n-ary relation on binary expansions is definable in WMSO (equivalently, can be recognized by a finite automaton).",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "Corollary For every formula φ(x1, ... xn) of Presburger arithmetic, the corresponding n-ary relation on binary expansions is definable in WMSO (equivalently, can be recognized by a finite automaton)."
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "119:180",
                             "name": "The corollary would still be true if we added “x is a power of 2”",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "The corollary would still be true if we added “x is a power of 2”"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "119:181",
                             "name": "or “x is the smallest power of 2 that divides both y and z”",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "or “x is the smallest power of 2 that divides both y and z”"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "119:182",
                             "name": "(ℤ, +) is an example of an automatic group [Thurston, Epstein, ... 1980’s], or more generally an automatic structure [Nerode, Khoussainov 1994]",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "(ℤ, +) is an example of an automatic group [Thurston, Epstein, ... 1980’s], or more generally an automatic structure [Nerode, Khoussainov 1994]"
+                            ]
                           }
+                        ],
+                        "keywords": [
+                          "Automatic Presburger"
                         ]
                       }
+                    ],
+                    "keywords": [
+                      "mso history"
                     ]
                   }
+                ],
+                "keywords": [
+                  "weak mso"
                 ]
               },
               {
@@ -1476,13 +1797,19 @@
                     "type": "show",
                     "id": "120:1",
                     "name": "Theorem. [Büchi 1962] The MSO theory of (ℕ, ≤) is decidable.",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Theorem. [Büchi 1962] The MSO theory of (ℕ, ≤) is decidable."
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "120:357",
                     "name": "The proof is the same as for weak MSO, except that now we need to generalize automata from finite word to infinite words.",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "The proof is the same as for weak MSO, except that now we need to generalize automata from finite word to infinite words."
+                    ]
                   },
                   {
                     "type": "child",
@@ -1493,59 +1820,92 @@
                         "type": "show",
                         "id": "120:6",
                         "name": "Nondeterministic Büchi automata",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Nondeterministic Büchi automata"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "120:358",
                         "name": "Syntax: same as for nondeterministic finite automata.",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Syntax: same as for nondeterministic finite automata."
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "120:150",
                         "name": "Semantics: an ω-word is accepted if an accepting state appears ∞ often",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Semantics: an ω-word is accepted if an accepting state appears ∞ often"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "120:359",
                         "name": "When viewed an automaton on finite words, the language is {a, b}*",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "When viewed an automaton on finite words, the language is {a, b}*"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "120:360",
                         "name": "When viewed a Büchi automaton, the language is {a, b}*a",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "When viewed a Büchi automaton, the language is {a, b}*a"
+                        ]
                       }
+                    ],
+                    "keywords": [
+                      "Büchi automata"
                     ]
                   },
                   {
                     "type": "show",
                     "id": "120:151",
                     "name": "Büchi automata do not determinize, but they are still closed under: 1. union and intersection 2. projection 3. complementation",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Büchi automata do not determinize, but they are still closed under: 1. union and intersection 2. projection 3. complementation"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "120:152",
                     "name": "Büchi’s proof for item 3 used the Ramsey theorem",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Büchi’s proof for item 3 used the Ramsey theorem"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "120:229",
                     "name": "For more on Büchi automata, see Orna’s talk",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "For more on Büchi automata, see Orna’s talk"
+                    ]
                   }
+                ],
+                "keywords": [
+                  "Büchi mso"
                 ]
               },
               {
                 "type": "show",
                 "id": "111:15",
                 "name": "The MSO theory of ({0,1}*, ≤) is decidable",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "The MSO theory of ({0,1}*, ≤) is decidable"
+                ]
               },
               {
                 "type": "child",
@@ -1556,7 +1916,10 @@
                     "type": "show",
                     "id": "120:153",
                     "name": "Theorem. [Rabin 1969] The MSO theory of ({0,1}*, ≤) is decidable.",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Theorem. [Rabin 1969] The MSO theory of ({0,1}*, ≤) is decidable."
+                    ]
                   },
                   {
                     "type": "child",
@@ -1567,21 +1930,33 @@
                         "type": "show",
                         "id": "120:363",
                         "name": "This is the tree of bit-strings, ordered by the prefix relation.",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "This is the tree of bit-strings, ordered by the prefix relation."
+                        ]
                       }
+                    ],
+                    "keywords": [
+                      "Rabin tree"
                     ]
                   },
                   {
                     "type": "show",
                     "id": "120:208",
                     "name": "A modern proof:",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "A modern proof:"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "120:209",
                     "name": "nondeterministic parity tree automata",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "nondeterministic parity tree automata"
+                    ]
                   },
                   {
                     "type": "child",
@@ -1592,83 +1967,128 @@
                         "type": "show",
                         "id": "204:18",
                         "name": "Tree automata",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Tree automata"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "204:33",
                         "name": "A transition in a word automaton looks like this:",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "A transition in a word automaton looks like this:"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "204:20",
                         "name": "A transition in a tree automaton looks like this:",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "A transition in a tree automaton looks like this:"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "204:21",
                         "name": "Parity condition",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Parity condition"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "204:22",
                         "name": "Instead of an accepting subset F ⊆ Q, there is parity ranking function Q → {0, 1, ...}",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Instead of an accepting subset F ⊆ Q, there is parity ranking function Q → {0, 1, ...}"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "204:23",
                         "name": "A run is accepting if for every branch in the tree, the rank seen infinitely often is even.",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "A run is accepting if for every branch in the tree, the rank seen infinitely often is even."
+                        ]
                       }
+                    ],
+                    "keywords": [
+                      "parity tree automata"
                     ]
                   },
                   {
                     "type": "show",
                     "id": "120:221",
                     "name": "closed under: union, intersection and projection",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "closed under: union, intersection and projection"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "120:210",
                     "name": "alternating parity tree automata",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "alternating parity tree automata"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "120:220",
                     "name": "closed under: union, intersection and complementation",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "closed under: union, intersection and complementation"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "120:361",
                     "name": "special case",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "special case"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "120:362",
                     "name": "uses: 1. determinization for ω-automata 2. finite memory strategies for games",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "uses: 1. determinization for ω-automata 2. finite memory strategies for games"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "120:230",
                     "name": "For more on tree automata, see Orna’s talk",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "For more on tree automata, see Orna’s talk"
+                    ]
                   }
+                ],
+                "keywords": [
+                  "Rabin mso"
                 ]
               },
               {
                 "type": "show",
                 "id": "111:16",
                 "name": "The MSO theory of (ℝ, ≤) is undecidable",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "The MSO theory of (ℝ, ≤) is undecidable"
+                ]
               },
               {
                 "type": "child",
@@ -1679,49 +2099,73 @@
                     "type": "show",
                     "id": "120:225",
                     "name": "(ℝ, ≤) and (ℚ, ≤) have the same first-order theories, but different MSO theories.",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "(ℝ, ≤) and (ℚ, ≤) have the same first-order theories, but different MSO theories."
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "120:226",
                     "name": "because both are dense linear orders without endpoints",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "because both are dense linear orders without endpoints"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "120:228",
                     "name": "“every set has a least upper bound”",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "“every set has a least upper bound”"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "120:224",
                     "name": "Theorem. [Shelah 1975] The MSO theory of (ℝ, ≤) is decidable (assuming CH).",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Theorem. [Shelah 1975] The MSO theory of (ℝ, ≤) is decidable (assuming CH)."
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "120:232",
                     "name": "A difficult proof, which manages to represent arithmetic on integers using order in the real numbers",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "A difficult proof, which manages to represent arithmetic on integers using order in the real numbers"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "120:233",
                     "name": "Counterpoint 1. Every MSO formula φ(x) is equivalent to either “true” or “false”.",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Counterpoint 1. Every MSO formula φ(x) is equivalent to either “true” or “false”."
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "120:234",
                     "name": "Because every x, x’ ∈ ℝ can be mapped to each other using an order-preserving bijection of (ℝ, ≤)",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Because every x, x’ ∈ ℝ can be mapped to each other using an order-preserving bijection of (ℝ, ≤)"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "120:235",
                     "name": "Counterpoint 2. The MSO theory of (ℚ, ≤) is decidable.",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Counterpoint 2. The MSO theory of (ℚ, ≤) is decidable."
+                    ]
                   },
                   {
                     "type": "child",
@@ -1732,23 +2176,44 @@
                         "type": "show",
                         "id": "120:364",
                         "name": "ε",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "ε"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "120:306",
                         "name": "This is a countable dense linear order without endpoints, and hence it is isomorphic to (ℚ, ≤).",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "This is a countable dense linear order without endpoints, and hence it is isomorphic to (ℚ, ≤)."
+                        ]
                       }
+                    ],
+                    "keywords": [
+                      "Q theory"
                     ]
                   }
+                ],
+                "keywords": [
+                  "Shelah mso"
                 ]
               }
+            ],
+            "keywords": [
+              "monadic second order logic"
             ]
           }
+        ],
+        "keywords": [
+          "M fixed φ input"
         ]
       }
+    ],
+    "keywords": [
+      "First slide"
     ]
   },
-  "version": 0.82
+  "version": 0.84
 }

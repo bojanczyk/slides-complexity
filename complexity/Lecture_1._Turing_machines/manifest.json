@@ -34,14 +34,20 @@
         "id": "2:27",
         "name": "Lecture 1. Turing machines and their resources",
         "index": 2,
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "Lecture 1. Turing machines and their resources"
+        ]
       },
       {
         "type": "show",
         "id": "2:33",
         "name": "Introduction",
         "index": 5,
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "Introduction"
+        ]
       },
       {
         "type": "child",
@@ -53,56 +59,83 @@
             "id": "2:39",
             "name": "How much time does it take to sort a list of length n?",
             "index": 1,
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "How much time does it take to sort a list of length n?"
+            ]
           },
           {
             "type": "show",
             "id": "2:42",
             "name": "At least O(n) and at most O(n logn)",
             "index": 3,
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "At least O(n) and at most O(n logn)"
+            ]
           },
           {
             "type": "show",
             "id": "4:6",
             "name": "Group 1",
             "index": 5,
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Group 1"
+            ]
           },
           {
             "type": "show",
             "id": "2:45",
             "name": "How much time does it take to check if a graph of n vertices can be 3-coloured? Each vertex gets one of 3 colours, and no edge is monochromatic.",
             "index": 2,
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "How much time does it take to check if a graph of n vertices can be 3-coloured? Each vertex gets one of 3 colours, and no edge is monochromatic."
+            ]
           },
           {
             "type": "show",
             "id": "123:1",
             "name": "Group 29",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Group 29"
+            ]
           },
           {
             "type": "show",
             "id": "2:49",
             "name": "Maybe O(n3)? or O(n100)?",
             "index": 6,
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Maybe O(n3)? or O(n100)?"
+            ]
           },
           {
             "type": "show",
             "id": "2:62",
             "name": "If we only care about polynomial time (or slower), then Turing Machines are a good model of computation.",
             "index": 7,
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "If we only care about polynomial time (or slower), then Turing Machines are a good model of computation."
+            ]
           },
           {
             "type": "show",
             "id": "2:64",
             "name": "Also true for logarithmic space.",
             "index": 8,
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Also true for logarithmic space."
+            ]
           }
+        ],
+        "keywords": [
+          "introduction"
         ]
       },
       {
@@ -110,7 +143,10 @@
         "id": "2:34",
         "name": "Tóring machines",
         "index": 6,
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "Tóring machines"
+        ]
       },
       {
         "type": "child",
@@ -121,28 +157,40 @@
             "type": "show",
             "id": "2:66",
             "name": "A Turing machine is a model of computation. An alternative would be Java programs.",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "A Turing machine is a model of computation. An alternative would be Java programs."
+            ]
           },
           {
             "type": "show",
             "id": "2:67",
             "name": "The model is minimalistic, so that it is easier to prove theorems like: For every Turing machine M, ...",
             "index": 2,
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "The model is minimalistic, so that it is easier to prove theorems like: For every Turing machine M, ..."
+            ]
           },
           {
             "type": "show",
             "id": "2:70",
             "name": "Maybe Java programs would be easier for theorems like: There is a Turing machine M such that ...",
             "index": 3,
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Maybe Java programs would be easier for theorems like: There is a Turing machine M such that ..."
+            ]
           },
           {
             "type": "show",
             "id": "26:56",
             "name": "But Turing machines are fine for this, once you get used to them.",
             "index": 4,
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "But Turing machines are fine for this, once you get used to them."
+            ]
           },
           {
             "type": "child",
@@ -154,39 +202,57 @@
                 "id": "26:96",
                 "name": "A configuration of a Turing machine looks like this:",
                 "index": 1,
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "A configuration of a Turing machine looks like this:"
+                ]
               },
               {
                 "type": "show",
                 "id": "419:212",
                 "name": "...",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "..."
+                ]
               },
               {
                 "type": "show",
                 "id": "419:213",
                 "name": "...",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "..."
+                ]
               },
               {
                 "type": "show",
                 "id": "419:214",
                 "name": "a control state",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "a control state"
+                ]
               },
               {
                 "type": "show",
                 "id": "26:110",
                 "name": "The syntax of a deterministic Turing machine consists of:",
                 "index": 2,
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "The syntax of a deterministic Turing machine consists of:"
+                ]
               },
               {
                 "type": "show",
                 "id": "26:112",
                 "name": "– an input alphabet Σ – a work alphabet Γ, which contains Σ and a blank symbol – a set of states Q with a designated initial state – a transition function of the form δ : Q × Γ ⟶ {accept, reject} + (Q × Γ × {prev, stay, next})",
                 "index": 7,
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "– an input alphabet Σ – a work alphabet Γ, which contains Σ and a blank symbol – a set of states Q with a designated initial state – a transition function of the form δ : Q × Γ ⟶ {accept, reject} + (Q × Γ × {prev, stay, next})"
+                ]
               },
               {
                 "type": "child",
@@ -197,37 +263,55 @@
                     "type": "show",
                     "id": "419:147",
                     "name": "δ : Q × Γ ⟶ {accept, reject} + (Q × Γ × {prev, stay, next})",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "δ : Q × Γ ⟶ {accept, reject} + (Q × Γ × {prev, stay, next})"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "419:151",
                     "name": "...",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "..."
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "419:122",
                     "name": "q",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "q"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "419:149",
                     "name": "q",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "q"
+                    ]
                   },
                   {
                     "type": "hide",
                     "id": "419:122",
                     "name": "q",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "q"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "419:142",
                     "name": "p",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "p"
+                    ]
                   },
                   {
                     "type": "child",
@@ -238,52 +322,82 @@
                         "type": "show",
                         "id": "419:202",
                         "name": "Consider an input string, e.g. abaccbab ∈ Σ*",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Consider an input string, e.g. abaccbab ∈ Σ*"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "419:205",
                         "name": "The machine begins in the initial configuration for this string:",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "The machine begins in the initial configuration for this string:"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "26:174",
                         "name": "Next, the machine keeps on updating its configuration, until:",
                         "index": 2,
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Next, the machine keeps on updating its configuration, until:"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "26:176",
                         "name": "– an accept transition is used",
                         "index": 3,
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "– an accept transition is used"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "93:17",
                         "name": "– a reject transition is used, or the head falls off the tape",
                         "index": 4,
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "– a reject transition is used, or the head falls off the tape"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "93:15",
                         "name": "– the run goes on forever, avoiding accept and reject",
                         "index": 6,
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "– the run goes on forever, avoiding accept and reject"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "419:210",
                         "name": "A Turing machine induces a partial function M : Σ* ⟶ {accept, reject}",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "A Turing machine induces a partial function M : Σ* ⟶ {accept, reject}"
+                        ]
                       }
+                    ],
+                    "keywords": [
+                      "Turing machine semantics"
                     ]
                   }
+                ],
+                "keywords": [
+                  "one step update"
                 ]
               }
+            ],
+            "keywords": [
+              "Definition of Turing machine"
             ]
           },
           {
@@ -295,48 +409,69 @@
                 "type": "show",
                 "id": "419:367",
                 "name": "Two work tapes",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Two work tapes"
+                ]
               },
               {
                 "type": "show",
                 "id": "90:65",
                 "name": "Fact. For every two-tape Turing machine, there is a one-tape machine that rejects/accepts the same inputs.",
                 "index": 2,
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Fact. For every two-tape Turing machine, there is a one-tape machine that rejects/accepts the same inputs."
+                ]
               },
               {
                 "type": "show",
                 "id": "419:368",
                 "name": "Two work tapes proof",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Two work tapes proof"
+                ]
               },
               {
                 "type": "show",
                 "id": "90:128",
                 "name": "Also equivalent:",
                 "index": 4,
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Also equivalent:"
+                ]
               },
               {
                 "type": "show",
                 "id": "90:129",
                 "name": "Tape that is inifinite to the left and right",
                 "index": 5,
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Tape that is inifinite to the left and right"
+                ]
               },
               {
                 "type": "show",
                 "id": "90:130",
                 "name": "A two-dimensional tape",
                 "index": 6,
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "A two-dimensional tape"
+                ]
               },
               {
                 "type": "show",
                 "id": "90:132",
                 "name": "While programs",
                 "index": 7,
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "While programs"
+                ]
               },
               {
                 "type": "child",
@@ -348,39 +483,63 @@
                     "id": "93:23",
                     "name": "while program",
                     "index": 4,
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "while program"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "93:24",
                     "name": "Group 18",
                     "index": 3,
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Group 18"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "93:22",
                     "name": "Group 17",
                     "index": 6,
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Group 17"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "90:350",
                     "name": "The simulating Turing machine runs in time O((running time of while program) × polylog(biggest integer used))",
                     "index": 2,
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "The simulating Turing machine runs in time O((running time of while program) × polylog(biggest integer used))"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "131:10",
                     "name": "further slowdown",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "further slowdown"
+                    ]
                   }
+                ],
+                "keywords": [
+                  "While programs"
                 ]
               }
+            ],
+            "keywords": [
+              "Equivalent models"
             ]
           }
+        ],
+        "keywords": [
+          "Turing machines"
         ]
       },
       {
@@ -388,7 +547,10 @@
         "id": "93:27",
         "name": "Decidability",
         "index": 8,
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "Decidability"
+        ]
       },
       {
         "type": "child",
@@ -400,56 +562,80 @@
             "id": "33:229",
             "name": "A language L ⊆ Σ* is decidable if there is a Turing machine which: – accepts inputs from L – rejects inputs from outside L",
             "index": 2,
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "A language L ⊆ Σ* is decidable if there is a Turing machine which: – accepts inputs from L – rejects inputs from outside L"
+            ]
           },
           {
             "type": "show",
             "id": "33:234",
             "name": "A language L ⊆ Σ* is semi-decidable if there is a Turing machine which: – accepts inputs from L – rejects or does not terminate on inputs from outside L",
             "index": 3,
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "A language L ⊆ Σ* is semi-decidable if there is a Turing machine which: – accepts inputs from L – rejects or does not terminate on inputs from outside L"
+            ]
           },
           {
             "type": "show",
             "id": "93:32",
             "name": "Group 19",
             "index": 7,
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Group 19"
+            ]
           },
           {
             "type": "show",
             "id": "95:1",
             "name": "decidable semi",
             "index": 10,
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "decidable semi"
+            ]
           },
           {
             "type": "show",
             "id": "95:5",
             "name": "decidableino",
             "index": 8,
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "decidableino"
+            ]
           },
           {
             "type": "show",
             "id": "93:63",
             "name": "uncountably",
             "index": 12,
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "uncountably"
+            ]
           },
           {
             "type": "show",
             "id": "95:4",
             "name": "empty",
             "index": 13,
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "empty"
+            ]
           },
           {
             "type": "show",
             "id": "95:2",
             "name": "co-semi",
             "index": 9,
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "co-semi"
+            ]
           },
           {
             "type": "child",
@@ -461,7 +647,10 @@
                 "id": "99:75",
                 "name": "Fact. If both L and its complement are semi-decidable, then L is decidable.",
                 "index": 1,
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Fact. If both L and its complement are semi-decidable, then L is decidable."
+                ]
               },
               {
                 "type": "child",
@@ -473,70 +662,100 @@
                     "id": "99:69",
                     "name": "If both L and its complement are semi-decidable, then there are Turing machines M and N such that:",
                     "index": 1,
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "If both L and its complement are semi-decidable, then there are Turing machines M and N such that:"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "99:72",
                     "name": "if w ∈ L then: M accepts N rejects or does not terminate",
                     "index": 2,
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "if w ∈ L then: M accepts N rejects or does not terminate"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "99:74",
                     "name": "if w ∉ L then: N accepts M rejects or does not terminate",
                     "index": 3,
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "if w ∉ L then: N accepts M rejects or does not terminate"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "99:79",
                     "name": "We can construct an always-halting machine for L as follows:",
                     "index": 4,
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "We can construct an always-halting machine for L as follows:"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "99:80",
                     "name": "Given an input w, compute:",
                     "index": 5,
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Given an input w, compute:"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "99:90",
                     "name": "Group 22",
                     "index": 6,
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Group 22"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "99:91",
                     "name": "Group 23",
                     "index": 8,
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Group 23"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "99:92",
                     "name": "Group 24",
                     "index": 9,
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Group 24"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "99:87",
                     "name": "...",
                     "index": 10,
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "..."
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "99:89",
                     "name": "one of them must halt",
                     "index": 7,
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "one of them must halt"
+                    ]
                   },
                   {
                     "type": "child",
@@ -548,54 +767,84 @@
                         "id": "99:109",
                         "name": "Fun fact",
                         "index": 6,
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Fun fact"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "99:96",
                         "name": "Take any undecidable language L ⊆ Σ*.",
                         "index": 1,
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Take any undecidable language L ⊆ Σ*."
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "99:97",
                         "name": "Example: context-free grammars that are universal.",
                         "index": 2,
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Example: context-free grammars that are universal."
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "99:149",
                         "name": "unprovable",
                         "index": 5,
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "unprovable"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "99:110",
                         "name": "Proof. Otherwise, “search through all proofs of PA” would be a Turing machine that decides membership in L.",
                         "index": 4,
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Proof. Otherwise, “search through all proofs of PA” would be a Turing machine that decides membership in L."
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "99:147",
                         "name": "Example: there is a context-free grammar, whose universality or non-universality cannot be proved",
                         "index": 3,
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Example: there is a context-free grammar, whose universality or non-universality cannot be proved"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "99:146",
                         "name": "Same argument works for ZFC (set theory).",
                         "index": 7,
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Same argument works for ZFC (set theory)."
+                        ]
                       }
+                    ],
+                    "keywords": [
+                      "Fun fact"
                     ]
                   }
+                ],
+                "keywords": [
+                  "semi and co semi proof"
                 ]
               }
+            ],
+            "keywords": [
+              "semi and co semi"
             ]
           },
           {
@@ -603,7 +852,10 @@
             "id": "95:3",
             "name": "halting problem",
             "index": 11,
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "halting problem"
+            ]
           },
           {
             "type": "child",
@@ -615,7 +867,10 @@
                 "id": "99:12",
                 "name": "halting theorem",
                 "index": 1,
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "halting theorem"
+                ]
               },
               {
                 "type": "child",
@@ -627,15 +882,24 @@
                     "id": "99:59",
                     "name": "We only consider Turing machines with input alphabet {0,1}.",
                     "index": 1,
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "We only consider Turing machines with input alphabet {0,1}."
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "99:61",
                     "name": "Such a Turing machine is represented by a binary string with: 1. the number of letters in the work alphabet 2. the number of states (initial state is 1) 3. a list of the transitions",
                     "index": 2,
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Such a Turing machine is represented by a binary string with: 1. the number of letters in the work alphabet 2. the number of states (initial state is 1) 3. a list of the transitions"
+                    ]
                   }
+                ],
+                "keywords": [
+                  "Representation"
                 ]
               },
               {
@@ -648,71 +912,104 @@
                     "id": "99:46",
                     "name": "The halting problem is semi-decidable",
                     "index": 2,
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "The halting problem is semi-decidable"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "99:45",
                     "name": "Given an input w, we do the following.",
                     "index": 1,
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Given an input w, we do the following."
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "99:48",
                     "name": "1. If w does not represent a Turing machine, reject",
                     "index": 3,
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "1. If w does not represent a Turing machine, reject"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "99:49",
                     "name": "1. Start computing :",
                     "index": 4,
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "1. Start computing :"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "99:50",
                     "name": "configuration 1 on input ε",
                     "index": 5,
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "configuration 1 on input ε"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "99:51",
                     "name": "configuration 2 on input ε",
                     "index": 6,
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "configuration 2 on input ε"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "99:52",
                     "name": "configuration 3 on input ε",
                     "index": 7,
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "configuration 3 on input ε"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "99:53",
                     "name": "configuration 4 on input ε",
                     "index": 8,
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "configuration 4 on input ε"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "99:54",
                     "name": "...",
                     "index": 10,
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "..."
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "99:55",
                     "name": "Accept when an accept/reject configuration is seen.",
                     "index": 9,
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Accept when an accept/reject configuration is seen."
+                    ]
                   }
+                ],
+                "keywords": [
+                  "Halting problem is semi-decidable"
                 ]
               },
               {
@@ -725,77 +1022,113 @@
                     "id": "99:41",
                     "name": "The halting problem is not decidable",
                     "index": 11,
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "The halting problem is not decidable"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "99:16",
                     "name": "Suppose that there is a Turing machine M, which decides the halting problem.",
                     "index": 1,
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Suppose that there is a Turing machine M, which decides the halting problem."
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "99:31",
                     "name": "Consider the following Turing machine N, with input alphabet {0,1}.",
                     "index": 2,
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Consider the following Turing machine N, with input alphabet {0,1}."
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "122:3",
                     "name": "Group 22",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Group 22"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "99:23",
                     "name": "Does w represent a Turing machine that halts on input w?",
                     "index": 9,
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Does w represent a Turing machine that halts on input w?"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "99:36",
                     "name": "(Question answered using M.)",
                     "index": 3,
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "(Question answered using M.)"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "99:65",
                     "name": "Group 21",
                     "index": 10,
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Group 21"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "99:35",
                     "name": "Does N halt on (the encoding of) N?",
                     "index": 6,
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Does N halt on (the encoding of) N?"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "99:34",
                     "name": "If N does not halt on N, then N halts on N.",
                     "index": 5,
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "If N does not halt on N, then N halts on N."
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "99:32",
                     "name": "If N halts on N, then N does not halt on N.",
                     "index": 4,
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "If N halts on N, then N does not halt on N."
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "99:39",
                     "name": "A contradiction.",
                     "index": 7,
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "A contradiction."
+                    ]
                   }
+                ],
+                "keywords": [
+                  "Halting problem is undecidable"
                 ]
               },
               {
@@ -807,25 +1140,37 @@
                     "type": "show",
                     "id": "374:11",
                     "name": "Berry paradox",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Berry paradox"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "372:8",
                     "name": "Consider the smallest integer which cannot be described in ASCII string with less than 100 letters.",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Consider the smallest integer which cannot be described in ASCII string with less than 100 letters."
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "374:12",
                     "name": "99 letters",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "99 letters"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "374:13",
                     "name": "what does described mean?",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "what does described mean?"
+                    ]
                   },
                   {
                     "type": "child",
@@ -836,62 +1181,101 @@
                         "type": "show",
                         "id": "372:16",
                         "name": "For a number n ∈ {0, 1, 2, ...}, define its Kołmogorow complexity to be the size of the smallest Turing machine which computes it.",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "For a number n ∈ {0, 1, 2, ...}, define its Kołmogorow complexity to be the size of the smallest Turing machine which computes it."
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "374:19",
                         "name": "computable number",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "computable number"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "374:18",
                         "name": "size of machine",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "size of machine"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "372:25",
                         "name": "Theorem. The Kołmogorow complexity cannot be computed.",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Theorem. The Kołmogorow complexity cannot be computed."
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "374:20",
                         "name": "computable function",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "computable function"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "372:27",
                         "name": "Proof. Supppose that Kołmogorow complexity can be computed by a Turing machine of size 1000.",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Proof. Supppose that Kołmogorow complexity can be computed by a Turing machine of size 1000."
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "374:10",
                         "name": "There is a least number with Kołmogorow complexity at least 2000.",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "There is a least number with Kołmogorow complexity at least 2000."
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "372:28",
                         "name": "This number can be computed by a Turing machine of size < 2000.",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "This number can be computed by a Turing machine of size < 2000."
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "374:0",
                         "name": "because we can write a Turing machine of size < 2000, which finds the smallest number of Kołmogorow complexity at least 2000.",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "because we can write a Turing machine of size < 2000, which finds the smallest number of Kołmogorow complexity at least 2000."
+                        ]
                       }
+                    ],
+                    "keywords": [
+                      "Kołmogorow"
                     ]
                   }
+                ],
+                "keywords": [
+                  "Berry"
                 ]
               }
+            ],
+            "keywords": [
+              "Halting problem"
             ]
           }
+        ],
+        "keywords": [
+          "Decidable definition"
         ]
       },
       {
@@ -899,7 +1283,10 @@
         "id": "2:36",
         "name": "Nondeterminism",
         "index": 7,
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "Nondeterminism"
+        ]
       },
       {
         "type": "child",
@@ -910,73 +1297,109 @@
             "type": "show",
             "id": "389:4",
             "name": "In a nondeterministic Turing machine, the transition function has type",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "In a nondeterministic Turing machine, the transition function has type"
+            ]
           },
           {
             "type": "show",
             "id": "422:0",
             "name": "δ : Q × Γ ⟶ {accept, reject} + (Q × Γ × {prev, stay, next})",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "δ : Q × Γ ⟶ {accept, reject} + (Q × Γ × {prev, stay, next})"
+            ]
           },
           {
             "type": "show",
             "id": "389:117",
             "name": "for every situation, there could be several actions to take",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "for every situation, there could be several actions to take"
+            ]
           },
           {
             "type": "show",
             "id": "389:12",
             "name": "On a given input, a nondeterministic Turing machine can have many runs.",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "On a given input, a nondeterministic Turing machine can have many runs."
+            ]
           },
           {
             "type": "show",
             "id": "389:15",
             "name": "Def. Nondeterministic semi-decidable",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Def. Nondeterministic semi-decidable"
+            ]
           },
           {
             "type": "show",
             "id": "389:16",
             "name": "There is a Turing machine such that w ∈ L ⟺ ∃ accepting run",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "There is a Turing machine such that w ∈ L ⟺ ∃ accepting run"
+            ]
           },
           {
             "type": "show",
             "id": "389:18",
             "name": "For inputs w ∉ L, every run either rejects, or does not halt.",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "For inputs w ∉ L, every run either rejects, or does not halt."
+            ]
           },
           {
             "type": "show",
             "id": "389:21",
             "name": "Def. Nondeterministic decidable",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Def. Nondeterministic decidable"
+            ]
           },
           {
             "type": "show",
             "id": "389:22",
             "name": "There is a Turing machine such that w ∈ L ⟺ ∃ accepting run and w ∉ L ⟺ ∃ rejecting run",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "There is a Turing machine such that w ∈ L ⟺ ∃ accepting run and w ∉ L ⟺ ∃ rejecting run"
+            ]
           },
           {
             "type": "show",
             "id": "389:24",
             "name": "There cannot be an input which has both rejecting and accepting runs",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "There cannot be an input which has both rejecting and accepting runs"
+            ]
           },
           {
             "type": "show",
             "id": "389:25",
             "name": "Thm. Deterministic semi-decidable = nondeterministic semi-decidable",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Thm. Deterministic semi-decidable = nondeterministic semi-decidable"
+            ]
           },
           {
             "type": "show",
             "id": "389:26",
             "name": "Thm. Deterministic decidable = nondeterministic decidable",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Thm. Deterministic decidable = nondeterministic decidable"
+            ]
           },
           {
             "type": "child",
@@ -987,62 +1410,95 @@
                 "type": "show",
                 "id": "389:34",
                 "name": "Proof for nondeterministic semi-decidable ⊆ deterministic semi-decidable.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Proof for nondeterministic semi-decidable ⊆ deterministic semi-decidable."
+                ]
               },
               {
                 "type": "show",
                 "id": "389:94",
                 "name": "Do a breadth-first search in the graph of reachable configurations",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Do a breadth-first search in the graph of reachable configurations"
+                ]
               },
               {
                 "type": "show",
                 "id": "389:30",
                 "name": "1. compute all configurations reachable in 1 step from the initial one.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "1. compute all configurations reachable in 1 step from the initial one."
+                ]
               },
               {
                 "type": "show",
                 "id": "389:31",
                 "name": "2. compute all configurations reachable in 2 steps from the initial one.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "2. compute all configurations reachable in 2 steps from the initial one."
+                ]
               },
               {
                 "type": "show",
                 "id": "389:32",
                 "name": "3. compute all configurations reachable in 3 steps from the initial one.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "3. compute all configurations reachable in 3 steps from the initial one."
+                ]
               },
               {
                 "type": "show",
                 "id": "389:36",
                 "name": "...",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "..."
+                ]
               },
               {
                 "type": "show",
                 "id": "389:35",
                 "name": "After some time, the tape looks like this:",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "After some time, the tape looks like this:"
+                ]
               },
               {
                 "type": "show",
                 "id": "423:85",
                 "name": "p",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "p"
+                ]
               },
               {
                 "type": "show",
                 "id": "389:90",
                 "name": "When an accepting configuration is found, accept.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "When an accepting configuration is found, accept."
+                ]
               },
               {
                 "type": "show",
                 "id": "389:92",
                 "name": "The same proof shows deterministic decidable = nondeterministic decidable.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "The same proof shows deterministic decidable = nondeterministic decidable."
+                ]
               }
+            ],
+            "keywords": [
+              "Determinisation"
             ]
           },
           {
@@ -1054,66 +1510,105 @@
                 "type": "show",
                 "id": "423:88",
                 "name": "Since nondeterministic Turing machines can be confusing, we sometimes use deterministic Turing machines with a read-only witness tape.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Since nondeterministic Turing machines can be confusing, we sometimes use deterministic Turing machines with a read-only witness tape."
+                ]
               },
               {
                 "type": "show",
                 "id": "423:102",
                 "name": "M(v, w) ∈ {accept, reject, undefined}",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "M(v, w) ∈ {accept, reject, undefined}"
+                ]
               },
               {
                 "type": "show",
                 "id": "423:95",
                 "name": "Def. Nondeterministic semi-decidable",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Def. Nondeterministic semi-decidable"
+                ]
               },
               {
                 "type": "show",
                 "id": "423:100",
                 "name": "iff",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "iff"
+                ]
               },
               {
                 "type": "show",
                 "id": "423:97",
                 "name": "There is a Turing machine such that w ∈ L ⟺ ∃ accepting run",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "There is a Turing machine such that w ∈ L ⟺ ∃ accepting run"
+                ]
               },
               {
                 "type": "show",
                 "id": "423:96",
                 "name": "Def. Nondeterministic decidable",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Def. Nondeterministic decidable"
+                ]
               },
               {
                 "type": "show",
                 "id": "423:101",
                 "name": "iff",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "iff"
+                ]
               },
               {
                 "type": "show",
                 "id": "423:98",
                 "name": "There is a Turing machine such that w ∈ L ⟺ ∃ accepting run and w ∉ L ⟺ ∃ rejecting run",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "There is a Turing machine such that w ∈ L ⟺ ∃ accepting run and w ∉ L ⟺ ∃ rejecting run"
+                ]
               }
+            ],
+            "keywords": [
+              "Nondeterminism contd."
             ]
           }
+        ],
+        "keywords": [
+          "Nondeterministic machines"
         ]
       },
       {
         "type": "show",
         "id": "389:95",
         "name": "So far, we have discussed Turing machines which terminate in finite time.",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "So far, we have discussed Turing machines which terminate in finite time."
+        ]
       },
       {
         "type": "show",
         "id": "389:96",
         "name": "The point of computational complexity is to consider, say, polynomial time.",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "The point of computational complexity is to consider, say, polynomial time."
+        ]
       }
+    ],
+    "keywords": [
+      "first slide"
     ]
   },
   "soundDict": {
@@ -2012,5 +2507,5 @@
       }
     }
   },
-  "version": 0.81
+  "version": 0.84
 }

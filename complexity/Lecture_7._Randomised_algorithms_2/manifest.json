@@ -492,19 +492,28 @@
         "type": "show",
         "id": "17:58",
         "name": "BPP ⊊ P/Poly",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "BPP ⊊ P/Poly"
+        ]
       },
       {
         "type": "show",
         "id": "17:59",
         "name": "If pseudo-random generators exist, then BPP = P",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "If pseudo-random generators exist, then BPP = P"
+        ]
       },
       {
         "type": "show",
         "id": "17:60",
         "name": "Derandomisation techniques",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "Derandomisation techniques"
+        ]
       },
       {
         "type": "child",
@@ -515,43 +524,64 @@
             "type": "show",
             "id": "9:2",
             "name": "Theorem. Adleman 1978 BPP ⊆ P/poly",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Theorem. Adleman 1978 BPP ⊆ P/poly"
+            ]
           },
           {
             "type": "show",
             "id": "40:7",
             "name": "BPP definition",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "BPP definition"
+            ]
           },
           {
             "type": "show",
             "id": "9:5",
             "name": "P/poly = a polynomial time algorithm, which is allowed an advice string for every input length.",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "P/poly = a polynomial time algorithm, which is allowed an advice string for every input length."
+            ]
           },
           {
             "type": "show",
             "id": "9:3",
             "name": "equivalent to (nonuniform) circuits of polynomial size",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "equivalent to (nonuniform) circuits of polynomial size"
+            ]
           },
           {
             "type": "show",
             "id": "10:181",
             "name": "In a BPP algorithm, we can make the probability of error exponentially small, while preserving polynomial running time (and coin tosses).",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "In a BPP algorithm, we can make the probability of error exponentially small, while preserving polynomial running time (and coin tosses)."
+            ]
           },
           {
             "type": "show",
             "id": "10:182",
             "name": "For small enough error probability, there will be a sequence of coin tosses which gives a right answer of all inputs of length n.",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "For small enough error probability, there will be a sequence of coin tosses which gives a right answer of all inputs of length n."
+            ]
           },
           {
             "type": "show",
             "id": "10:185",
             "name": "advice string",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "advice string"
+            ]
           },
           {
             "type": "child",
@@ -562,37 +592,55 @@
                 "type": "show",
                 "id": "10:186",
                 "name": "For input of length n, run the original algorithm m times and take a majority vote.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "For input of length n, run the original algorithm m times and take a majority vote."
+                ]
               },
               {
                 "type": "show",
                 "id": "10:192",
                 "name": "all such sequences of coin tosses",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "all such sequences of coin tosses"
+                ]
               },
               {
                 "type": "show",
                 "id": "10:195",
                 "name": "all such sequences of coin tosses",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "all such sequences of coin tosses"
+                ]
               },
               {
                 "type": "show",
                 "id": "10:193",
                 "name": "coin tosses that lead to a wrong answer when the input is w",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "coin tosses that lead to a wrong answer when the input is w"
+                ]
               },
               {
                 "type": "show",
                 "id": "10:194",
                 "name": "coin tosses that lead to a wrong answer when the input is v",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "coin tosses that lead to a wrong answer when the input is v"
+                ]
               },
               {
                 "type": "show",
                 "id": "10:60",
                 "name": "and therefore the sum of balls cannot cover the whole space.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "and therefore the sum of balls cannot cover the whole space."
+                ]
               },
               {
                 "type": "child",
@@ -603,27 +651,42 @@
                     "type": "show",
                     "id": "10:178",
                     "name": "When discussing amplification of error for BPP, we showed that if the algorithm makes an error with probability p < 0.5, then running it m times and taking a majority vote gives an error with probability",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "When discussing amplification of error for BPP, we showed that if the algorithm makes an error with probability p < 0.5, then running it m times and taking a majority vote gives an error with probability"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "10:179",
                     "name": "If we choose",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "If we choose"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "10:180",
                     "name": "Then the error probability drops to <",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Then the error probability drops to <"
+                    ]
                   }
+                ],
+                "keywords": [
+                  "Adleman 3"
                 ]
               },
               {
                 "type": "show",
                 "id": "10:61",
                 "name": "Conclusion. There is a constant c such for every n, there exists a sequence of cn coin tosses which gives a correct answer for all inputs of length n, under the algorithm “run the orignal algorithm cn times, and take a majority vote”.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Conclusion. There is a constant c such for every n, there exists a sequence of cn coin tosses which gives a correct answer for all inputs of length n, under the algorithm “run the orignal algorithm cn times, and take a majority vote”."
+                ]
               },
               {
                 "type": "child",
@@ -634,18 +697,33 @@
                     "type": "show",
                     "id": "10:189",
                     "name": "For inputs of length, the advice string is this sequence of coin tosses.",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "For inputs of length, the advice string is this sequence of coin tosses."
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "10:190",
                     "name": "Using this advice string instead of coin tosses, we are guaranteed to get a correct answer for all inputs of length n.",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Using this advice string instead of coin tosses, we are guaranteed to get a correct answer for all inputs of length n."
+                    ]
                   }
+                ],
+                "keywords": [
+                  "Adleman 4"
                 ]
               }
+            ],
+            "keywords": [
+              "Adleman 2"
             ]
           }
+        ],
+        "keywords": [
+          "Adleman 1"
         ]
       },
       {
@@ -657,7 +735,10 @@
             "type": "show",
             "id": "17:4",
             "name": "Theorem. If a pseudo-random generator G exists, then BPP = P.",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Theorem. If a pseudo-random generator G exists, then BPP = P."
+            ]
           },
           {
             "type": "child",
@@ -668,93 +749,141 @@
                 "type": "show",
                 "id": "17:51",
                 "name": "Pseudo-random generator",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Pseudo-random generator"
+                ]
               },
               {
                 "type": "show",
                 "id": "17:7",
                 "name": "Suppose that there is a function G which:",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Suppose that there is a function G which:"
+                ]
               },
               {
                 "type": "show",
                 "id": "17:8",
                 "name": "inputs: a number n and a seed of log(n) bits",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "inputs: a number n and a seed of log(n) bits"
+                ]
               },
               {
                 "type": "show",
                 "id": "17:9",
                 "name": "outputs: n bits",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "outputs: n bits"
+                ]
               },
               {
                 "type": "show",
                 "id": "17:10",
                 "name": "with the following properties",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "with the following properties"
+                ]
               },
               {
                 "type": "show",
                 "id": "17:11",
                 "name": "1. the running time is polynomial in n",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "1. the running time is polynomial in n"
+                ]
               },
               {
                 "type": "show",
                 "id": "17:12",
                 "name": "2. if n is large enough, and D is a circuit of size n3, then following probabilities differ by < 0.1:",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "2. if n is large enough, and D is a circuit of size n3, then following probabilities differ by < 0.1:"
+                ]
               },
               {
                 "type": "show",
                 "id": "17:53",
                 "name": "Probability[D accepts G(s)]",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Probability[D accepts G(s)]"
+                ]
               },
               {
                 "type": "show",
                 "id": "17:54",
                 "name": "Probability[D accepts r]",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Probability[D accepts r]"
+                ]
               },
               {
                 "type": "show",
                 "id": "17:52",
                 "name": "this polynomial could be > n3",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "this polynomial could be > n3"
+                ]
               },
               {
                 "type": "show",
                 "id": "17:50",
                 "name": "The same results would be obtained with: - n100 instead of n3, and - 0.4999 instead of 0.1.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "The same results would be obtained with: - n100 instead of n3, and - 0.4999 instead of 0.1."
+                ]
               }
+            ],
+            "keywords": [
+              "Pseudorandom generator"
             ]
           },
           {
             "type": "show",
             "id": "17:22",
             "name": "Proof. Consider a language L ∈ BPP, as witnessed by a machine M such that: - the running time is a polynomial p(n) - inputs w ∈ L accepted with probability > 0.7 - inputs w ∉ L are accepted with probability < 0.3",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Proof. Consider a language L ∈ BPP, as witnessed by a machine M such that: - the running time is a polynomial p(n) - inputs w ∈ L accepted with probability > 0.7 - inputs w ∉ L are accepted with probability < 0.3"
+            ]
           },
           {
             "type": "show",
             "id": "17:39",
             "name": "Polynomial time algorithm for L: Given an input w of length n, enumerate through all seeds s of length log(p(n)), and check which ones satisfy",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Polynomial time algorithm for L: Given an input w of length n, enumerate through all seeds s of length log(p(n)), and check which ones satisfy"
+            ]
           },
           {
             "type": "show",
             "id": "17:41",
             "name": "(*) M accepts w using random bits G(s)",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "(*) M accepts w using random bits G(s)"
+            ]
           },
           {
             "type": "show",
             "id": "17:42",
             "name": "Claim. For large enough n: - if w ∈ L, then > 0.6 of seeds will satisfy (*) - if w ∉ L, then < 0.4 of seeds will satisfy (*)",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Claim. For large enough n: - if w ∈ L, then > 0.6 of seeds will satisfy (*) - if w ∉ L, then < 0.4 of seeds will satisfy (*)"
+            ]
           },
           {
             "type": "child",
@@ -765,34 +894,55 @@
                 "type": "show",
                 "id": "17:56",
                 "name": "For an input word w of length n, consider the following function D:",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "For an input word w of length n, consider the following function D:"
+                ]
               },
               {
                 "type": "show",
                 "id": "17:27",
                 "name": "This function is computed by a circuit of size quadratic in p(n)",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "This function is computed by a circuit of size quadratic in p(n)"
+                ]
               },
               {
                 "type": "show",
                 "id": "17:57",
                 "name": "By assumption on G, if n is large enough, then following differ by < 0.1",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "By assumption on G, if n is large enough, then following differ by < 0.1"
+                ]
               },
               {
                 "type": "show",
                 "id": "17:44",
                 "name": "> 0.7 for w ∈ L < 0.3 for w ∉ L",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "> 0.7 for w ∈ L < 0.3 for w ∉ L"
+                ]
               },
               {
                 "type": "show",
                 "id": "17:45",
                 "name": "> 0.6 for w ∈ L < 0.4 for w ∉ L",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "> 0.6 for w ∈ L < 0.4 for w ∉ L"
+                ]
               }
+            ],
+            "keywords": [
+              "Apply pseudo-random"
             ]
           }
+        ],
+        "keywords": [
+          "BPP = P"
         ]
       },
       {
@@ -804,31 +954,46 @@
             "type": "show",
             "id": "6:4",
             "name": "Given a graph, find a cut of maximal size?",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Given a graph, find a cut of maximal size?"
+            ]
           },
           {
             "type": "show",
             "id": "1:179",
             "name": "The following problem is NP-complete: given a graph and k, decide is there a cut of size ≥ k.",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "The following problem is NP-complete: given a graph and k, decide is there a cut of size ≥ k."
+            ]
           },
           {
             "type": "show",
             "id": "6:5",
             "name": "Randomised approximation algorithm",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Randomised approximation algorithm"
+            ]
           },
           {
             "type": "show",
             "id": "1:241",
             "name": "Choose the partition randomly For each vertex, independently flip a coin to decide which part of the partition contains it.",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Choose the partition randomly For each vertex, independently flip a coin to decide which part of the partition contains it."
+            ]
           },
           {
             "type": "show",
             "id": "1:242",
             "name": "With probability 1/2, an edge is counted to the size of the cut. Hence, the expected value of “size of the cut” is 1/2 over the number of edges.",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "With probability 1/2, an edge is counted to the size of the cut. Hence, the expected value of “size of the cut” is 1/2 over the number of edges."
+            ]
           },
           {
             "type": "child",
@@ -839,68 +1004,104 @@
                 "type": "show",
                 "id": "6:6",
                 "name": "What is the probability of getting a cut of size ≥ m?",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "What is the probability of getting a cut of size ≥ m?"
+                ]
               },
               {
                 "type": "show",
                 "id": "40:184",
                 "name": "expected size",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "expected size"
+                ]
               },
               {
                 "type": "show",
                 "id": "40:912",
                 "name": "≤",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "≤"
+                ]
               },
               {
                 "type": "show",
                 "id": "6:7",
                 "name": "expected size",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "expected size"
+                ]
               },
               {
                 "type": "show",
                 "id": "40:982",
                 "name": "(m-1) \\cdot (1 - \\text{probability}[\\text{cut has size\n  $\\ge m$}]) + \n|E| \\cdot \\text{probability}[\\text{cut has size  $ \\ge m$}] =\n",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "(m-1) \\cdot (1 - \\text{probability}[\\text{cut has size\n  $\\ge m$}]) + \n|E| \\cdot \\text{probability}[\\text{cut has size  $ \\ge m$}] =\n"
+                ]
               },
               {
                 "type": "show",
                 "id": "40:1100",
                 "name": "(m-1) + (|E| - m +1) \\cdot \\text{probability}\n[\\text{cut has size  $ \\ge m$}] \n",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "(m-1) + (|E| - m +1) \\cdot \\text{probability}\n[\\text{cut has size  $ \\ge m$}] \n"
+                ]
               },
               {
                 "type": "show",
                 "id": "40:1143",
                 "name": "Summing up:",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Summing up:"
+                ]
               },
               {
                 "type": "show",
                 "id": "40:612",
                 "name": "\\frac {|E|} 2 \\quad \\le \\quad  (m-1) + (|E| - m +1) \\cdot \\text{probability}[\\text{cut has size  $ \\ge m$}] \n",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "\\frac {|E|} 2 \\quad \\le \\quad  (m-1) + (|E| - m +1) \\cdot \\text{probability}[\\text{cut has size  $ \\ge m$}] \n"
+                ]
               },
               {
                 "type": "show",
                 "id": "2:1818",
                 "name": "\\frac { \\frac{|E|} 2 - m +1 }\n{|E| - m +1} \\quad \\le \\quad   \\text{probability}[\\text{cut has size  $ \\ge m$}] \n",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "\\frac { \\frac{|E|} 2 - m +1 }\n{|E| - m +1} \\quad \\le \\quad   \\text{probability}[\\text{cut has size  $ \\ge m$}] \n"
+                ]
               },
               {
                 "type": "show",
                 "id": "6:23",
                 "name": "For m = half the edges, we get:",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "For m = half the edges, we get:"
+                ]
               },
               {
                 "type": "show",
                 "id": "6:24",
                 "name": "if we try m times, we get probability > ½ , because",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "if we try m times, we get probability > ½ , because"
+                ]
               }
+            ],
+            "keywords": [
+              "exptected size"
             ]
           },
           {
@@ -912,25 +1113,37 @@
                 "type": "show",
                 "id": "1:247",
                 "name": "We derandomise this algorithm, getting a deterministic polynomial time algorithm, which always produces a partition that cuts ≥ half the edges.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "We derandomise this algorithm, getting a deterministic polynomial time algorithm, which always produces a partition that cuts ≥ half the edges."
+                ]
               },
               {
                 "type": "show",
                 "id": "6:0",
                 "name": "Result: a deterministic, polynomial time, approximation algorithm for max-cut, with approximation factor 2",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Result: a deterministic, polynomial time, approximation algorithm for max-cut, with approximation factor 2"
+                ]
               },
               {
                 "type": "show",
                 "id": "6:2",
                 "name": "Method 1. Conditional expectation",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Method 1. Conditional expectation"
+                ]
               },
               {
                 "type": "show",
                 "id": "6:3",
                 "name": "Method 2. Pairwise independent variables",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Method 2. Pairwise independent variables"
+                ]
               },
               {
                 "type": "child",
@@ -941,56 +1154,86 @@
                     "type": "show",
                     "id": "6:25",
                     "name": "ε",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "ε"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "3:60",
                     "name": "What is the expected value for the cut size, in a vertex of this tree?",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "What is the expected value for the cut size, in a vertex of this tree?"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "3:61",
                     "name": "Probability ranges over coins that have not been tossed yet",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Probability ranges over coins that have not been tossed yet"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "6:29",
                     "name": "Group 7",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Group 7"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "6:28",
                     "name": "A. edge that will surely be cut",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "A. edge that will surely be cut"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "6:27",
                     "name": "B. edge that will surely not be cut",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "B. edge that will surely not be cut"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "6:26",
                     "name": "C. edge that may or may not be cut",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "C. edge that may or may not be cut"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "3:74",
                     "name": "number of edges of type A + half of number of edges of type C",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "number of edges of type A + half of number of edges of type C"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "3:73",
                     "name": "Algorithm: start in the root, and each time move to a child with best expected value.",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Algorithm: start in the root, and each time move to a child with best expected value."
+                    ]
                   }
+                ],
+                "keywords": [
+                  "Tree of tosses"
                 ]
               },
               {
@@ -1002,87 +1245,138 @@
                     "type": "show",
                     "id": "5:0",
                     "name": "The expected value of half the edges was because for every edge e:",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "The expected value of half the edges was because for every edge e:"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "5:2",
                     "name": "Probability [exactly one endpoint of e is chosen] = ½",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Probability [exactly one endpoint of e is chosen] = ½"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "5:3",
                     "name": "Hence, each edge corresponds ½ to the expected cut size.",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Hence, each edge corresponds ½ to the expected cut size."
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "5:4",
                     "name": "E(X+Y) = EX + EY",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "E(X+Y) = EX + EY"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "5:5",
                     "name": "even when X and Y are not independent",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "even when X and Y are not independent"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "6:31",
                     "name": "Randomised algorithm that uses log n bits",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Randomised algorithm that uses log n bits"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "5:23",
                     "name": "and hence can be derandomised using brute force",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "and hence can be derandomised using brute force"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "5:7",
                     "name": "Represent each vertex v as a sequence of log n bits.",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Represent each vertex v as a sequence of log n bits."
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "5:8",
                     "name": "Toss a coin log n times, giving another bit sequence r.",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Toss a coin log n times, giving another bit sequence r."
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "6:32",
                     "name": "The cut is chosen as follows:",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "The cut is chosen as follows:"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "5:14",
                     "name": "For every 2 different vertices, the two corresponding events are independent.",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "For every 2 different vertices, the two corresponding events are independent."
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "6:30",
                     "name": "0",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "0"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "5:15",
                     "name": "(but not for 3 vertices)",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "(but not for 3 vertices)"
+                    ]
                   }
+                ],
+                "keywords": [
+                  "Pairwise independent"
                 ]
               }
+            ],
+            "keywords": [
+              "Two ways of derandomising"
             ]
           }
+        ],
+        "keywords": [
+          "Derandomisation"
         ]
       }
+    ],
+    "keywords": [
+      "First slide"
     ]
   },
-  "version": 0.81
+  "version": 0.84
 }

@@ -44,115 +44,172 @@
         "type": "show",
         "id": "121:7",
         "name": "Two decision problems for logics",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "Two decision problems for logics"
+        ]
       },
       {
         "type": "show",
         "id": "302:899",
         "name": "Boolean formulas and their satisfiability",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "Boolean formulas and their satisfiability"
+        ]
       },
       {
         "type": "show",
         "id": "302:900",
         "name": "Intuitionistic logic",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "Intuitionistic logic"
+        ]
       },
       {
         "type": "show",
         "id": "302:901",
         "name": "Coq",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "Coq"
+        ]
       },
       {
         "type": "show",
         "id": "302:902",
         "name": "Proof theory",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "Proof theory"
+        ]
       },
       {
         "type": "show",
         "id": "302:903",
         "name": "LTL",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "LTL"
+        ]
       },
       {
         "type": "hide",
         "id": "302:899",
         "name": "Boolean formulas and their satisfiability",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "Boolean formulas and their satisfiability"
+        ]
       },
       {
         "type": "hide",
         "id": "302:900",
         "name": "Intuitionistic logic",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "Intuitionistic logic"
+        ]
       },
       {
         "type": "hide",
         "id": "302:901",
         "name": "Coq",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "Coq"
+        ]
       },
       {
         "type": "hide",
         "id": "302:902",
         "name": "Proof theory",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "Proof theory"
+        ]
       },
       {
         "type": "hide",
         "id": "302:903",
         "name": "LTL",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "LTL"
+        ]
       },
       {
         "type": "show",
         "id": "120:308",
         "name": "Satisfiability is φ true in some model?",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "Satisfiability is φ true in some model?"
+        ]
       },
       {
         "type": "show",
         "id": "120:309",
         "name": "Model checking is φ true in some model M?",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "Model checking is φ true in some model M?"
+        ]
       },
       {
         "type": "show",
         "id": "108:26",
         "name": "M fixed, φ input",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "M fixed, φ input"
+        ]
       },
       {
         "type": "show",
         "id": "108:27",
         "name": "M input, φ input",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "M input, φ input"
+        ]
       },
       {
         "type": "show",
         "id": "108:28",
         "name": "M input, φ fixed",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "M input, φ fixed"
+        ]
       },
       {
         "type": "show",
         "id": "121:3",
         "name": "Part 1.",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "Part 1."
+        ]
       },
       {
         "type": "show",
         "id": "121:4",
         "name": "Part 2.",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "Part 2."
+        ]
       },
       {
         "type": "show",
         "id": "121:5",
         "name": "Part 3.",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "Part 3."
+        ]
       },
       {
         "type": "child",
@@ -163,85 +220,127 @@
             "type": "show",
             "id": "120:311",
             "name": "First-order logic",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "First-order logic"
+            ]
           },
           {
             "type": "show",
             "id": "120:312",
             "name": "For which structures M is the following problem decidable: Given a sentence of first-order logic φ, is φ is true in M?",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "For which structures M is the following problem decidable: Given a sentence of first-order logic φ, is φ is true in M?"
+            ]
           },
           {
             "type": "show",
             "id": "120:313",
             "name": "({0, 1})",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "({0, 1})"
+            ]
           },
           {
             "type": "show",
             "id": "301:15",
             "name": "For every finite structure with at least two elements, its first-order theory is PSpace complete",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "For every finite structure with at least two elements, its first-order theory is PSpace complete"
+            ]
           },
           {
             "type": "show",
             "id": "120:314",
             "name": "(ℕ, +, ×)",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "(ℕ, +, ×)"
+            ]
           },
           {
             "type": "show",
             "id": "301:16",
             "name": "Undecidable: for every Turing machine, one can write a formula that says: “there exists a halting run”",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Undecidable: for every Turing machine, one can write a formula that says: “there exists a halting run”"
+            ]
           },
           {
             "type": "show",
             "id": "120:316",
             "name": "(ℝ, +, ×)",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "(ℝ, +, ×)"
+            ]
           },
           {
             "type": "show",
             "id": "301:17",
             "name": "Decidable: for every formula φ(x1, .., xn,) one can compute an equivalent Boolean combination of polynomial inequalities like x12x2 – 3x2x34 + 2 > 0",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Decidable: for every formula φ(x1, .., xn,) one can compute an equivalent Boolean combination of polynomial inequalities like x12x2 – 3x2x34 + 2 > 0"
+            ]
           },
           {
             "type": "show",
             "id": "120:317",
             "name": "(ℕ, +)",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "(ℕ, +)"
+            ]
           },
           {
             "type": "show",
             "id": "301:101",
             "name": "Decidable: for every formula φ(x1, .., xn,) one can compute an equivalent semilinear set",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Decidable: for every formula φ(x1, .., xn,) one can compute an equivalent semilinear set"
+            ]
           },
           {
             "type": "show",
             "id": "120:318",
             "name": "Second-order logic",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Second-order logic"
+            ]
           },
           {
             "type": "show",
             "id": "301:103",
             "name": "PSpace complete for all finite structures, undecidable for all infinite structures.",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "PSpace complete for all finite structures, undecidable for all infinite structures."
+            ]
           },
           {
             "type": "show",
             "id": "120:319",
             "name": "Monadic second-order logic",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Monadic second-order logic"
+            ]
           },
           {
             "type": "show",
             "id": "303:2",
             "name": "Star 1",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Star 1"
+            ]
           },
           {
             "type": "child",
@@ -252,13 +351,19 @@
                 "type": "show",
                 "id": "302:839",
                 "name": "For (ℕ, =), the MSO theory reduces to the first-order theory",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "For (ℕ, =), the MSO theory reduces to the first-order theory"
+                ]
               },
               {
                 "type": "show",
                 "id": "111:13",
                 "name": "The weak MSO theory of (ℕ, ≤) is decidable",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "The weak MSO theory of (ℕ, ≤) is decidable"
+                ]
               },
               {
                 "type": "child",
@@ -269,19 +374,28 @@
                     "type": "show",
                     "id": "113:3",
                     "name": "Weak MSO has the same syntax as MSO, but set quantification is restricted to finite sets.",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Weak MSO has the same syntax as MSO, but set quantification is restricted to finite sets."
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "120:346",
                     "name": "∃X ∀x x ∈ X",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "∃X ∀x x ∈ X"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "113:11",
                     "name": "Theorem. [BEEVT] The weak MSO theory of (ℕ, ≤) is decidable.",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Theorem. [BEEVT] The weak MSO theory of (ℕ, ≤) is decidable."
+                    ]
                   },
                   {
                     "type": "child",
@@ -292,25 +406,37 @@
                         "type": "show",
                         "id": "113:15",
                         "name": "Consider a formula φ(x, Y, Z ) of weak MSO. How do we represent the semantics of φ, which is a set of triples (number, finite set of numbers, finite set of numbers)?",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Consider a formula φ(x, Y, Z ) of weak MSO. How do we represent the semantics of φ, which is a set of triples (number, finite set of numbers, finite set of numbers)?"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "113:91",
                         "name": "A quantifier-free formula?",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "A quantifier-free formula?"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "113:93",
                         "name": "A semilinear set?",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "A semilinear set?"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "113:94",
                         "name": "An automaton!",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "An automaton!"
+                        ]
                       },
                       {
                         "type": "child",
@@ -321,15 +447,24 @@
                             "type": "show",
                             "id": "120:365",
                             "name": "2",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "2"
+                            ]
                           }
+                        ],
+                        "keywords": [
+                          "triples of sets as finite words"
                         ]
                       },
                       {
                         "type": "show",
                         "id": "120:347",
                         "name": "Lemma. For every formula of weak MSO, one can compute a finite automaton that recognizes the corresponding set of words",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Lemma. For every formula of weak MSO, one can compute a finite automaton that recognizes the corresponding set of words"
+                        ]
                       },
                       {
                         "type": "child",
@@ -340,25 +475,37 @@
                             "type": "show",
                             "id": "113:205",
                             "name": "Proof. Induction on formula size.",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "Proof. Induction on formula size."
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "120:350",
                             "name": "For the atomic formulas",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "For the atomic formulas"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "113:275",
                             "name": "For ∨ and ¬, we use closure of regular languages under union and complementation.",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "For ∨ and ¬, we use closure of regular languages under union and complementation."
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "113:276",
                             "name": "For ∃, we use closure of regular languages under projection:",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "For ∃, we use closure of regular languages under projection:"
+                            ]
                           },
                           {
                             "type": "child",
@@ -369,48 +516,78 @@
                                 "type": "show",
                                 "id": "302:961",
                                 "name": "Consider a formula φ(x1, ..., xn) which defines",
-                                "disabled": false
+                                "disabled": false,
+                                "keywords": [
+                                  "Consider a formula φ(x1, ..., xn) which defines"
+                                ]
                               },
                               {
                                 "type": "show",
                                 "id": "302:964",
                                 "name": "a word in L",
-                                "disabled": false
+                                "disabled": false,
+                                "keywords": [
+                                  "a word in L"
+                                ]
                               },
                               {
                                 "type": "show",
                                 "id": "302:966",
                                 "name": "a word in L’ is obtained by taking a word from L and erasing the last coordinate",
-                                "disabled": false
+                                "disabled": false,
+                                "keywords": [
+                                  "a word in L’ is obtained by taking a word from L and erasing the last coordinate"
+                                ]
                               },
                               {
                                 "type": "show",
                                 "id": "302:960",
                                 "name": "Regular languages are closed under projections",
-                                "disabled": false
+                                "disabled": false,
+                                "keywords": [
+                                  "Regular languages are closed under projections"
+                                ]
                               }
+                            ],
+                            "keywords": [
+                              "explain projection"
                             ]
                           },
                           {
                             "type": "show",
                             "id": "113:279",
                             "name": "deterministic automata",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "deterministic automata"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "113:280",
                             "name": "nondeterministic automata, or regular expressions",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "nondeterministic automata, or regular expressions"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "120:351",
                             "name": "If the formula alternates n times between complementation and projection, then determinization is applied n times, resulting in an n-fold exponential automaton.",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "If the formula alternates n times between complementation and projection, then determinization is applied n times, resulting in an n-fold exponential automaton."
+                            ]
                           }
+                        ],
+                        "keywords": [
+                          "weak mso automata proof"
                         ]
                       }
+                    ],
+                    "keywords": [
+                      "weak mso automata"
                     ]
                   },
                   {
@@ -422,37 +599,55 @@
                         "type": "show",
                         "id": "119:25",
                         "name": "Trakhtenbrot 1958",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Trakhtenbrot 1958"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "119:17",
                         "name": "image 2",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "image 2"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "118:2",
                         "name": "Büchi and Elgot 1958",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Büchi and Elgot 1958"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "120:354",
                         "name": "Group 14",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Group 14"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "120:352",
                         "name": "Group 13",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Group 13"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "119:12",
                         "name": "Group 6",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Group 6"
+                        ]
                       },
                       {
                         "type": "child",
@@ -463,76 +658,124 @@
                             "type": "show",
                             "id": "120:355",
                             "name": "Represent a number as a finite set, namely its binary expansion",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "Represent a number as a finite set, namely its binary expansion"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "120:356",
                             "name": "Under this representation, there is a WMSO formula for x + y = z",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "Under this representation, there is a WMSO formula for x + y = z"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "119:133",
                             "name": "Corollary For every formula φ(x1, ... xn) of Presburger arithmetic, the corresponding n-ary relation on binary expansions is definable in WMSO (equivalently, can be recognized by a finite automaton).",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "Corollary For every formula φ(x1, ... xn) of Presburger arithmetic, the corresponding n-ary relation on binary expansions is definable in WMSO (equivalently, can be recognized by a finite automaton)."
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "119:180",
                             "name": "The corollary would still be true if we added “x is a power of 2”",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "The corollary would still be true if we added “x is a power of 2”"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "119:181",
                             "name": "or “x is the smallest power of 2 that divides both y and z”",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "or “x is the smallest power of 2 that divides both y and z”"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "119:182",
                             "name": "(ℤ, +) is an example of an automatic group [Thurston, Epstein, ... 1980’s], or more generally an automatic structure [Nerode, Khoussainov 1994]",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "(ℤ, +) is an example of an automatic group [Thurston, Epstein, ... 1980’s], or more generally an automatic structure [Nerode, Khoussainov 1994]"
+                            ]
                           }
+                        ],
+                        "keywords": [
+                          "Automatic Presburger"
                         ]
                       }
+                    ],
+                    "keywords": [
+                      "mso history"
                     ]
                   }
+                ],
+                "keywords": [
+                  "weak mso"
                 ]
               },
               {
                 "type": "show",
                 "id": "111:14",
                 "name": "The MSO theory of (ℕ, ≤) is decidable",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "The MSO theory of (ℕ, ≤) is decidable"
+                ]
               },
               {
                 "type": "show",
                 "id": "111:15",
                 "name": "The MSO theory of ({0,1}*, ≤) is decidable",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "The MSO theory of ({0,1}*, ≤) is decidable"
+                ]
               },
               {
                 "type": "show",
                 "id": "301:104",
                 "name": "using automata for infinite words and trees",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "using automata for infinite words and trees"
+                ]
               },
               {
                 "type": "show",
                 "id": "111:16",
                 "name": "The MSO theory of (ℝ, ≤) is undecidable",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "The MSO theory of (ℝ, ≤) is undecidable"
+                ]
               },
               {
                 "type": "show",
                 "id": "302:840",
                 "name": "using madness",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "using madness"
+                ]
               }
+            ],
+            "keywords": [
+              "monadic second order logic"
             ]
           }
+        ],
+        "keywords": [
+          "M fixed φ input"
         ]
       },
       {
@@ -544,43 +787,64 @@
             "type": "show",
             "id": "301:118",
             "name": "what logic?",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "what logic?"
+            ]
           },
           {
             "type": "show",
             "id": "301:119",
             "name": "which models?",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "which models?"
+            ]
           },
           {
             "type": "show",
             "id": "302:842",
             "name": "All models and first-order logic: Entscheidungsproblem",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "All models and first-order logic: Entscheidungsproblem"
+            ]
           },
           {
             "type": "show",
             "id": "301:126",
             "name": "axis 1: restrict the models",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "axis 1: restrict the models"
+            ]
           },
           {
             "type": "show",
             "id": "301:129",
             "name": "axis 2: restrict the logic",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "axis 2: restrict the logic"
+            ]
           },
           {
             "type": "show",
             "id": "301:122",
             "name": "Words and trees",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Words and trees"
+            ]
           },
           {
             "type": "show",
             "id": "301:123",
             "name": "Treewidth",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Treewidth"
+            ]
           },
           {
             "type": "child",
@@ -591,49 +855,73 @@
                 "type": "show",
                 "id": "301:222",
                 "name": "A finite word w ∈ Σ* can be viewed as a model",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "A finite word w ∈ Σ* can be viewed as a model"
+                ]
               },
               {
                 "type": "show",
                 "id": "301:226",
                 "name": "With such models, we can use logic to define languages of finite words.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "With such models, we can use logic to define languages of finite words."
+                ]
               },
               {
                 "type": "show",
                 "id": "301:232",
                 "name": "For a language L ⊆ Σ*, the following conditions are equivalent:",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "For a language L ⊆ Σ*, the following conditions are equivalent:"
+                ]
               },
               {
                 "type": "show",
                 "id": "301:241",
                 "name": "because regular languages are closed under ∨ ∧ ¬ ∃",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "because regular languages are closed under ∨ ∧ ¬ ∃"
+                ]
               },
               {
                 "type": "show",
                 "id": "302:890",
                 "name": "“automaton A has an accepting run” can be written in MSO",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "“automaton A has an accepting run” can be written in MSO"
+                ]
               },
               {
                 "type": "show",
                 "id": "301:245",
                 "name": "Theorem. [Büchi, Elgot, Trakhtenbrot 1958] The following problem is decidable: input: MSO sentence using x < y and {a(x)}a ∈ Σ question: is it true in some w ∈ Σ*?",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Theorem. [Büchi, Elgot, Trakhtenbrot 1958] The following problem is decidable: input: MSO sentence using x < y and {a(x)}a ∈ Σ question: is it true in some w ∈ Σ*?"
+                ]
               },
               {
                 "type": "show",
                 "id": "301:246",
                 "name": "Because the MSO → automata translation is computable",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Because the MSO → automata translation is computable"
+                ]
               },
               {
                 "type": "show",
                 "id": "301:237",
                 "name": "recognized by a finite monoid",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "recognized by a finite monoid"
+                ]
               },
               {
                 "type": "child",
@@ -644,28 +932,46 @@
                     "type": "show",
                     "id": "302:970",
                     "name": "The equivalence of MSO and automata holds also for other objects, such as: – ω-words [Büchi 1962] – finite trees [Thatcher and Wright 1968] – infinite trees [Rabin 1969]",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "The equivalence of MSO and automata holds also for other objects, such as: – ω-words [Büchi 1962] – finite trees [Thatcher and Wright 1968] – infinite trees [Rabin 1969]"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "302:1043",
                     "name": "Automata for finite trees",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Automata for finite trees"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "302:1039",
                     "name": "transition",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "transition"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "302:1040",
                     "name": "transition",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "transition"
+                    ]
                   }
+                ],
+                "keywords": [
+                  "other kinds of automata"
                 ]
               }
+            ],
+            "keywords": [
+              "Finite words"
             ]
           },
           {
@@ -677,19 +983,28 @@
                 "type": "show",
                 "id": "301:251",
                 "name": "We can also view a graph as a model. The underlying set is the disjoint union of vertices and edges, and there is one relation incident (v, e).",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "We can also view a graph as a model. The underlying set is the disjoint union of vertices and edges, and there is one relation incident (v, e)."
+                ]
               },
               {
                 "type": "show",
                 "id": "301:250",
                 "name": "alternative choice: underlying set is vertices only, and there is relation edge(v, w)",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "alternative choice: underlying set is vertices only, and there is relation edge(v, w)"
+                ]
               },
               {
                 "type": "show",
                 "id": "301:248",
                 "name": "Already for first-order logic, the satisfiability problem is undecidable: input: a first-order sentence using the incident relation question: is it true in some graph?",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Already for first-order logic, the satisfiability problem is undecidable: input: a first-order sentence using the incident relation question: is it true in some graph?"
+                ]
               },
               {
                 "type": "child",
@@ -700,13 +1015,19 @@
                     "type": "show",
                     "id": "301:406",
                     "name": "The graphs that witness undecidability look like this:",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "The graphs that witness undecidability look like this:"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "301:457",
                     "name": "What about graphs that look like this:",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "What about graphs that look like this:"
+                    ]
                   },
                   {
                     "type": "child",
@@ -717,55 +1038,82 @@
                         "type": "show",
                         "id": "301:541",
                         "name": "A graph with ports is a graph with distinguished distinguished vertices.",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "A graph with ports is a graph with distinguished distinguished vertices."
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "301:651",
                         "name": "ports",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "ports"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "301:540",
                         "name": "Definition. A graph has treewidth k ∈ {1,2, ...} if it can be constructed using the following operations, so that in every moment at most k+1 ports are used.",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Definition. A graph has treewidth k ∈ {1,2, ...} if it can be constructed using the following operations, so that in every moment at most k+1 ports are used."
+                        ]
                       },
                       {
                         "type": "hide",
                         "id": "301:651",
                         "name": "ports",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "ports"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "301:542",
                         "name": "Constant",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Constant"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "301:554",
                         "name": "Forget",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Forget"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "301:572",
                         "name": "Output: the chosen port is no longer a port",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Output: the chosen port is no longer a port"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "301:618",
                         "name": "Fuse",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Fuse"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "301:588",
                         "name": "Output: the disjoint union, except that pairs from the bijection are fused",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Output: the disjoint union, except that pairs from the bijection are fused"
+                        ]
                       },
                       {
                         "type": "child",
@@ -776,84 +1124,132 @@
                             "type": "show",
                             "id": "301:878",
                             "name": "The 8-cycle has treewidth 2, because it can be constructed using 3 ports.",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "The 8-cycle has treewidth 2, because it can be constructed using 3 ports."
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "301:683",
                             "name": "Group 39",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "Group 39"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "301:717",
                             "name": "Group 40",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "Group 40"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "301:691",
                             "name": "Group 41",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "Group 41"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "301:703",
                             "name": "Group 43",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "Group 43"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "301:726",
                             "name": "Group 44",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "Group 44"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "301:697",
                             "name": "Group 45",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "Group 45"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "301:751",
                             "name": "Group 46",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "Group 46"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "301:737",
                             "name": "Group 47",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "Group 47"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "301:766",
                             "name": "Group 48",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "Group 48"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "301:839",
                             "name": "Group 49",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "Group 49"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "301:859",
                             "name": "Group 50",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "Group 50"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "301:879",
                             "name": "All cycles have treewidth 2.",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "All cycles have treewidth 2."
+                            ]
                           }
+                        ],
+                        "keywords": [
+                          "A tree decomposition"
                         ]
                       }
+                    ],
+                    "keywords": [
+                      "Treewidth definition"
                     ]
                   }
+                ],
+                "keywords": [
+                  "Grids and treelike"
                 ]
               },
               {
@@ -865,48 +1261,78 @@
                     "type": "show",
                     "id": "301:881",
                     "name": "Theorem. [Courcelle] The following problem is decidable: input: an MSO sentence φ and k ∈ {1, 2, ..} question: is φ true in some graph of treewidth at most k?",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Theorem. [Courcelle] The following problem is decidable: input: an MSO sentence φ and k ∈ {1, 2, ..} question: is φ true in some graph of treewidth at most k?"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "302:850",
                     "name": "satisfiability of MSO on graphs of treewidth k",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "satisfiability of MSO on graphs of treewidth k"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "302:858",
                     "name": "satisfiability of MSO on trees",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "satisfiability of MSO on trees"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "302:859",
                     "name": "emptiness for tree automata",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "emptiness for tree automata"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "301:883",
                     "name": "A deep theorem of Robertson and Seymour says that if a graph has large treewidth, then it contains a large grid as a minor.",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "A deep theorem of Robertson and Seymour says that if a graph has large treewidth, then it contains a large grid as a minor."
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "301:884",
                     "name": "MSO can find that minor, and use it to describe a computation of a Turing machine. Hence:",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "MSO can find that minor, and use it to describe a computation of a Turing machine. Hence:"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "301:882",
                     "name": "Theorem. [Seese] If C is a class of graphs of unbouned treewidth, then the following problem is undecidable: input: an MSO sentence φ question: is φ true in some graph from C?",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Theorem. [Seese] If C is a class of graphs of unbouned treewidth, then the following problem is undecidable: input: an MSO sentence φ question: is φ true in some graph from C?"
+                    ]
                   }
+                ],
+                "keywords": [
+                  "Courcelle Seese"
                 ]
               }
+            ],
+            "keywords": [
+              "Treelike graphs"
             ]
           }
+        ],
+        "keywords": [
+          "Satisfiability"
         ]
       },
       {
@@ -918,7 +1344,10 @@
             "type": "show",
             "id": "302:14",
             "name": "Many classical algorithmic problems can be formalized in logic",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Many classical algorithmic problems can be formalized in logic"
+            ]
           },
           {
             "type": "child",
@@ -929,44 +1358,68 @@
                 "type": "show",
                 "id": "302:24",
                 "name": "First-order logic",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "First-order logic"
+                ]
               },
               {
                 "type": "show",
                 "id": "302:25",
                 "name": "Independent set of size k:",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Independent set of size k:"
+                ]
               },
               {
                 "type": "show",
                 "id": "302:49",
                 "name": "Dominating set of size k:",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Dominating set of size k:"
+                ]
               },
               {
                 "type": "show",
                 "id": "302:89",
                 "name": "Maybe for every first-order sentence φ, there is a linear time algorithm which recognizes graphs where φ is true?",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Maybe for every first-order sentence φ, there is a linear time algorithm which recognizes graphs where φ is true?"
+                ]
               },
               {
                 "type": "show",
                 "id": "302:90",
                 "name": "The naive algorithm is polynomial, but the degree of the polynomial depends on φ.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "The naive algorithm is polynomial, but the degree of the polynomial depends on φ."
+                ]
               },
               {
                 "type": "show",
                 "id": "302:879",
                 "name": "Can be solved in linear time for every k:",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Can be solved in linear time for every k:"
+                ]
               },
               {
                 "type": "show",
                 "id": "302:86",
                 "name": "Conjecture: cannot be solved in time",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Conjecture: cannot be solved in time"
+                ]
               }
+            ],
+            "keywords": [
+              "First-order graph properties"
             ]
           },
           {
@@ -978,93 +1431,141 @@
                 "type": "show",
                 "id": "302:92",
                 "name": "Monadic second-order logic",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Monadic second-order logic"
+                ]
               },
               {
                 "type": "show",
                 "id": "302:93",
                 "name": "3-colourability",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "3-colourability"
+                ]
               },
               {
                 "type": "show",
                 "id": "302:98",
                 "name": "There exist 3 sets of vertices, such that:",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "There exist 3 sets of vertices, such that:"
+                ]
               },
               {
                 "type": "show",
                 "id": "302:95",
                 "name": "b. no edge has both endpoints in the same set",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "b. no edge has both endpoints in the same set"
+                ]
               },
               {
                 "type": "show",
                 "id": "302:99",
                 "name": "a. every vertex belongs to some set",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "a. every vertex belongs to some set"
+                ]
               },
               {
                 "type": "show",
                 "id": "302:94",
                 "name": "Hamiltonian path",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Hamiltonian path"
+                ]
               },
               {
                 "type": "show",
                 "id": "302:96",
                 "name": "There exists a set F of edges such that:",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "There exists a set F of edges such that:"
+                ]
               },
               {
                 "type": "show",
                 "id": "302:97",
                 "name": "a. every vertex is incident to exactly two edges from F",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "a. every vertex is incident to exactly two edges from F"
+                ]
               },
               {
                 "type": "show",
                 "id": "302:100",
                 "name": "b. for every proper subset G ⊆ F, some vertex is incident to exactly 1 edge from G",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "b. for every proper subset G ⊆ F, some vertex is incident to exactly 1 edge from G"
+                ]
               }
+            ],
+            "keywords": [
+              "Second-order graph properties"
             ]
           },
           {
             "type": "show",
             "id": "302:17",
             "name": "Hence the value of theorems such as these:",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Hence the value of theorems such as these:"
+            ]
           },
           {
             "type": "show",
             "id": "302:18",
             "name": "Theorem. [Seese 1996] For every sentence φ of first-order logic and d ∈ {1, 2, ..}, the following problem can be solved in linear time: input: graph of degree d question: does it satisfy φ?",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Theorem. [Seese 1996] For every sentence φ of first-order logic and d ∈ {1, 2, ..}, the following problem can be solved in linear time: input: graph of degree d question: does it satisfy φ?"
+            ]
           },
           {
             "type": "show",
             "id": "302:20",
             "name": "Corollary. For every k and d, there is a linear time algorithm for dominating set of size k on graphs of degree at most d.",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Corollary. For every k and d, there is a linear time algorithm for dominating set of size k on graphs of degree at most d."
+            ]
           },
           {
             "type": "show",
             "id": "302:19",
             "name": "Theorem. [Courcelle 1990] For every sentence φ of MSO and k ∈ {1, 2, ..}, the following problem can be solved in linear time: input: graph of treewidth k question: does it satisfy φ?",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Theorem. [Courcelle 1990] For every sentence φ of MSO and k ∈ {1, 2, ..}, the following problem can be solved in linear time: input: graph of treewidth k question: does it satisfy φ?"
+            ]
           },
           {
             "type": "show",
             "id": "302:21",
             "name": "Corollary. For every k, there is a linear time algorithm for Hamiltonian path on graphs of treewidth at most k.",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Corollary. For every k, there is a linear time algorithm for Hamiltonian path on graphs of treewidth at most k."
+            ]
           },
           {
             "type": "show",
             "id": "302:22",
             "name": "Algorithmic meta-theorems",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Algorithmic meta-theorems"
+            ]
           },
           {
             "type": "child",
@@ -1075,38 +1576,59 @@
                 "type": "show",
                 "id": "302:103",
                 "name": "Follows immediately from these two results:",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Follows immediately from these two results:"
+                ]
               },
               {
                 "type": "show",
                 "id": "302:104",
                 "name": "Theorem. [Bodlaender] For every k ∈ {1, 2, ...}, the following problem can be solved in linear time: input: a graph output: a tree decomposition of width k, or “no” if there is no such tree decomposition.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Theorem. [Bodlaender] For every k ∈ {1, 2, ...}, the following problem can be solved in linear time: input: a graph output: a tree decomposition of width k, or “no” if there is no such tree decomposition."
+                ]
               },
               {
                 "type": "show",
                 "id": "302:106",
                 "name": "A hard algorithm.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "A hard algorithm."
+                ]
               },
               {
                 "type": "show",
                 "id": "302:107",
                 "name": "Robertson and Seymour give a simple cubic algorithm.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Robertson and Seymour give a simple cubic algorithm."
+                ]
               },
               {
                 "type": "show",
                 "id": "302:105",
                 "name": "Lemma. For every k ∈ {1, 2, ...} and MSO sentence φ, the following problem can be solved in linear time: input: a tree decomposition of width k output: does the underlying graph satisfy φ?",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Lemma. For every k ∈ {1, 2, ...} and MSO sentence φ, the following problem can be solved in linear time: input: a tree decomposition of width k output: does the underlying graph satisfy φ?"
+                ]
               },
               {
                 "type": "show",
                 "id": "302:108",
                 "name": "A variant of this theorem is true for rankwidth (aka cliquewidth)",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "A variant of this theorem is true for rankwidth (aka cliquewidth)"
+                ]
               }
+            ],
+            "keywords": [
+              "Courcelle theorem"
             ]
           },
           {
@@ -1118,7 +1640,10 @@
                 "type": "show",
                 "id": "302:198",
                 "name": "The main tool for this, and other similar results, is Gaifman’s theorem about the locality of first-order logic",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "The main tool for this, and other similar results, is Gaifman’s theorem about the locality of first-order logic"
+                ]
               },
               {
                 "type": "child",
@@ -1129,45 +1654,69 @@
                     "type": "show",
                     "id": "302:208",
                     "name": "Theorem. [Gaifman 1982] Every sentence φ of first-order logic on graphs is equivalent to a Boolean combination of basic local sentences:",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Theorem. [Gaifman 1982] Every sentence φ of first-order logic on graphs is equivalent to a Boolean combination of basic local sentences:"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "302:211",
                     "name": "a basic local sentence",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "a basic local sentence"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "302:259",
                     "name": "a number k ∈ {0, 1, ...}",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "a number k ∈ {0, 1, ...}"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "302:256",
                     "name": "a number r ∈ {0, 1, ...} called the radius",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "a number r ∈ {0, 1, ...} called the radius"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "302:253",
                     "name": "a first-order formula φ(x) which is r-local",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "a first-order formula φ(x) which is r-local"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "302:209",
                     "name": "The theorem is effective, although with non-elementary complexity.",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "The theorem is effective, although with non-elementary complexity."
+                    ]
                   }
+                ],
+                "keywords": [
+                  "Gaifman"
                 ]
               },
               {
                 "type": "show",
                 "id": "302:204",
                 "name": "Proof.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Proof."
+                ]
               },
               {
                 "type": "child",
@@ -1178,33 +1727,51 @@
                     "type": "show",
                     "id": "302:263",
                     "name": "Thanks to Gaifman’s theorem, it is enough to show that for every basic local sentence",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Thanks to Gaifman’s theorem, it is enough to show that for every basic local sentence"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "302:436",
                     "name": "For every vertex x, we can check φ(x) in constant time.",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "For every vertex x, we can check φ(x) in constant time."
+                    ]
                   }
+                ],
+                "keywords": [
+                  "Bounded degree proof"
                 ]
               },
               {
                 "type": "show",
                 "id": "302:199",
                 "name": "There are far-reaching generalizations of this result, beyond bounded degree.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "There are far-reaching generalizations of this result, beyond bounded degree."
+                ]
               },
               {
                 "type": "show",
                 "id": "302:200",
                 "name": "nowhere dense",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "nowhere dense"
+                ]
               },
               {
                 "type": "show",
                 "id": "302:201",
                 "name": "twinwidth",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "twinwidth"
+                ]
               },
               {
                 "type": "child",
@@ -1215,49 +1782,73 @@
                     "type": "show",
                     "id": "302:578",
                     "name": "Nowhere dense classes",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Nowhere dense classes"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "302:575",
                     "name": "Let C be any of the following graph classes:",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Let C be any of the following graph classes:"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "302:571",
                     "name": "graphs of degree at most 5",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "graphs of degree at most 5"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "302:572",
                     "name": "graphs of treewidth at most 5",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "graphs of treewidth at most 5"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "302:573",
                     "name": "planar graphs",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "planar graphs"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "302:574",
                     "name": "graphs that avoid the 5-clique as a minor",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "graphs that avoid the 5-clique as a minor"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "302:569",
                     "name": "For every first-order sentence φ, there is a linear time algorithm for: input: a graph from C question: does it satisfy φ?",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "For every first-order sentence φ, there is a linear time algorithm for: input: a graph from C question: does it satisfy φ?"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "302:570",
                     "name": "All of the above are examples of nowhere dense graph classes.",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "All of the above are examples of nowhere dense graph classes."
+                    ]
                   },
                   {
                     "type": "child",
@@ -1268,49 +1859,73 @@
                         "type": "show",
                         "id": "302:601",
                         "name": "Consider a radius r ∈ {0, 1, ...} and two graphs:",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Consider a radius r ∈ {0, 1, ...} and two graphs:"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "302:602",
                         "name": "H",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "H"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "302:615",
                         "name": "G",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "G"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "302:597",
                         "name": "We say that H is an r-minor of G if one can associate to each vertex of H a subset of vertices in G such that:",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "We say that H is an r-minor of G if one can associate to each vertex of H a subset of vertices in G such that:"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "302:592",
                         "name": "Group 12",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Group 12"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "302:598",
                         "name": "1. all subsets are pairwise disjoint and have radius at most r",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "1. all subsets are pairwise disjoint and have radius at most r"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "302:599",
                         "name": "2. if two vertices in H are connected by an edge, then the same is true for the associated subsets in G",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "2. if two vertices in H are connected by an edge, then the same is true for the associated subsets in G"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "302:600",
                         "name": "Definition. [Nesetril and Ossona de Mendez 2011] A class of graphs C is nowhere dense if for every radius r ∈ {0, 1, ...}, not all graphs are r-minors of C.",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Definition. [Nesetril and Ossona de Mendez 2011] A class of graphs C is nowhere dense if for every radius r ∈ {0, 1, ...}, not all graphs are r-minors of C."
+                        ]
                       },
                       {
                         "type": "child",
@@ -1321,16 +1936,28 @@
                             "type": "show",
                             "id": "302:792",
                             "name": "Example 1. If C has bounded degree, then it is nowhere dense. An r-minor of a graph with degree at most d has degree at most dr +1",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "Example 1. If C has bounded degree, then it is nowhere dense. An r-minor of a graph with degree at most d has degree at most dr +1"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "302:793",
                             "name": "Example 2. If C has bounded treewidth, then it is nowhere dense. An r-minor of a graph of treewidth k cannot be a (k+1)-clique",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "Example 2. If C has bounded treewidth, then it is nowhere dense. An r-minor of a graph of treewidth k cannot be a (k+1)-clique"
+                            ]
                           }
+                        ],
+                        "keywords": [
+                          "examples of nowhere dense classes"
                         ]
                       }
+                    ],
+                    "keywords": [
+                      "Definition of nowhere dense"
                     ]
                   },
                   {
@@ -1342,28 +1969,46 @@
                         "type": "show",
                         "id": "302:749",
                         "name": "Nowhere dense: model checking almost linear",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Nowhere dense: model checking almost linear"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "302:736",
                         "name": "Theorem. [Grohe, Kreutzer, Siebertz 2014] If C is nowhere dense and closed under subgraphs, then for every first-order sentence φ, the model checking problem",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Theorem. [Grohe, Kreutzer, Siebertz 2014] If C is nowhere dense and closed under subgraphs, then for every first-order sentence φ, the model checking problem"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "302:750",
                         "name": "Not nowhere dense: model checking hard",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Not nowhere dense: model checking hard"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "302:734",
                         "name": "If C is not nowhere dense, then for some radius r ∈ {1, 2, ...} the class every graph as an r-minor.",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "If C is not nowhere dense, then for some radius r ∈ {1, 2, ...} the class every graph as an r-minor."
+                        ]
                       }
+                    ],
+                    "keywords": [
+                      "model checking nowhere dense"
                     ]
                   }
+                ],
+                "keywords": [
+                  "Nowhere dense"
                 ]
               },
               {
@@ -1375,43 +2020,64 @@
                     "type": "show",
                     "id": "302:590",
                     "name": "Bounded twinwidth",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Bounded twinwidth"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "302:581",
                     "name": "First-order model checking is linear time on graph classes such as:",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "First-order model checking is linear time on graph classes such as:"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "302:582",
                     "name": "complements of planar graphs",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "complements of planar graphs"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "302:583",
                     "name": "complements of graphs of treewidth at most 5",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "complements of graphs of treewidth at most 5"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "302:584",
                     "name": "graphs of cliquewidth at most 5",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "graphs of cliquewidth at most 5"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "302:585",
                     "name": "These classes are not nowhere dense (and not closed under subgraphs).",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "These classes are not nowhere dense (and not closed under subgraphs)."
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "302:586",
                     "name": "These are class of bounded twinwidth.",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "These are class of bounded twinwidth."
+                    ]
                   },
                   {
                     "type": "child",
@@ -1422,55 +2088,82 @@
                         "type": "show",
                         "id": "302:883",
                         "name": "Consider a graph, with a partition of its vertices",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Consider a graph, with a partition of its vertices"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "302:790",
                         "name": "Two blocks are consistent if they are connected in the same way:",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Two blocks are consistent if they are connected in the same way:"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "302:783",
                         "name": "Blocks A and B are consistent, because ∀a ∈ A ∀b ∈ B edge(a, b)",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Blocks A and B are consistent, because ∀a ∈ A ∀b ∈ B edge(a, b)"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "302:784",
                         "name": "Blocks B and C are consistent, because ∀b ∈ B ∀c ∈ C ¬ edge(b, c)",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Blocks B and C are consistent, because ∀b ∈ B ∀c ∈ C ¬ edge(b, c)"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "302:785",
                         "name": "Blocks A and C are inconsistent",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Blocks A and C are inconsistent"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "302:786",
                         "name": "Definition [Bonnet, Kim, Thomassé, Watrigant 2020] A graph has twinwidth k ∈ {0, 1, 2, ...} if there is a sequence of partitions P1, ..., Pn on its vertices such that;",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Definition [Bonnet, Kim, Thomassé, Watrigant 2020] A graph has twinwidth k ∈ {0, 1, 2, ...} if there is a sequence of partitions P1, ..., Pn on its vertices such that;"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "302:787",
                         "name": "a) P1 has singleton blocks, Pn partition has one block",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "a) P1 has singleton blocks, Pn partition has one block"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "302:788",
                         "name": "b) for every i ∈ {1, ..., n – 1}, Pi+1 is obtained from Pi by merging two blocks",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "b) for every i ∈ {1, ..., n – 1}, Pi+1 is obtained from Pi by merging two blocks"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "302:789",
                         "name": "c) for every i ∈ {1, ..., n} and every block A ∈ Pi, at most k blocks of Pi are inconsistent with A.",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "c) for every i ∈ {1, ..., n} and every block A ∈ Pi, at most k blocks of Pi are inconsistent with A."
+                        ]
                       },
                       {
                         "type": "child",
@@ -1481,79 +2174,130 @@
                             "type": "show",
                             "id": "302:795",
                             "name": "Example 1. Every clique has twinwidth 1.",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "Example 1. Every clique has twinwidth 1."
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "302:809",
                             "name": "Group 13",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "Group 13"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "302:804",
                             "name": "Rectangle 2",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "Rectangle 2"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "302:805",
                             "name": "Rectangle 3",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "Rectangle 3"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "302:806",
                             "name": "Rectangle 4",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "Rectangle 4"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "302:807",
                             "name": "Rectangle 5",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "Rectangle 5"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "302:808",
                             "name": "Rectangle 6",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "Rectangle 6"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "302:797",
                             "name": "Group 14",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "Group 14"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "302:796",
                             "name": "Example 2. If a graph has twinwidth k, then the same is true for its complement.",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "Example 2. If a graph has twinwidth k, then the same is true for its complement."
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "302:831",
                             "name": "bounded cliquewidth",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "bounded cliquewidth"
+                            ]
                           }
+                        ],
+                        "keywords": [
+                          "examples of twin-width"
                         ]
                       }
+                    ],
+                    "keywords": [
+                      "twin-width definition"
                     ]
                   },
                   {
                     "type": "show",
                     "id": "302:587",
                     "name": "Theorem. [Bonnet, Kim, Thomassé, Watrigant 2020] For every k ∈ {0, 1, 2, ...} and first-order φ, there is a linear time algorithm for:",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Theorem. [Bonnet, Kim, Thomassé, Watrigant 2020] For every k ∈ {0, 1, 2, ...} and first-order φ, there is a linear time algorithm for:"
+                    ]
                   }
+                ],
+                "keywords": [
+                  "twin-width"
                 ]
               }
+            ],
+            "keywords": [
+              "Fo on bounded degree"
             ]
           }
+        ],
+        "keywords": [
+          "Fixed formula"
         ]
       }
+    ],
+    "keywords": [
+      "First slide"
     ]
   },
-  "version": 0.82
+  "version": 0.84
 }

@@ -33,7 +33,10 @@
         "type": "show",
         "id": "78:0",
         "name": "Ptime",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "Ptime"
+        ]
       },
       {
         "type": "child",
@@ -44,57 +47,87 @@
             "type": "show",
             "id": "68:13",
             "name": "Time complexity",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Time complexity"
+            ]
           },
           {
             "type": "show",
             "id": "68:17",
             "name": "Polynomial time: problems that can be solved by a Turing machine whose running time is ≤ p(n) for some polynomial p.",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Polynomial time: problems that can be solved by a Turing machine whose running time is ≤ p(n) for some polynomial p."
+            ]
           },
           {
             "type": "show",
             "id": "76:155",
             "name": "Examples",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Examples"
+            ]
           },
           {
             "type": "show",
             "id": "76:169",
             "name": "Is an undirected graph connected?",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Is an undirected graph connected?"
+            ]
           },
           {
             "type": "show",
             "id": "76:177",
             "name": "Is there a path from s to t in a directed graph?",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Is there a path from s to t in a directed graph?"
+            ]
           },
           {
             "type": "show",
             "id": "76:186",
             "name": "Is a finite automaton nonempty?",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Is a finite automaton nonempty?"
+            ]
           },
           {
             "type": "show",
             "id": "76:244",
             "name": "Group 38",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Group 38"
+            ]
           },
           {
             "type": "show",
             "id": "76:196",
             "name": "Is a context-free grammar nonempty?",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Is a context-free grammar nonempty?"
+            ]
           }
+        ],
+        "keywords": [
+          "Polynomial time"
         ]
       },
       {
         "type": "show",
         "id": "78:2",
         "name": "Exptime",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "Exptime"
+        ]
       },
       {
         "type": "child",
@@ -105,51 +138,78 @@
             "type": "show",
             "id": "79:0",
             "name": "Group 40",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Group 40"
+            ]
           },
           {
             "type": "show",
             "id": "76:885",
             "name": "Group 39",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Group 39"
+            ]
           },
           {
             "type": "show",
             "id": "76:642",
             "name": "Examples",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Examples"
+            ]
           },
           {
             "type": "show",
             "id": "76:646",
             "name": "Is a context-free grammar nonempty?",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Is a context-free grammar nonempty?"
+            ]
           },
           {
             "type": "show",
             "id": "76:852",
             "name": "Is a finite automaton nonempty?",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Is a finite automaton nonempty?"
+            ]
           },
           {
             "type": "show",
             "id": "76:645",
             "name": "Is a finite automaton nonempty?",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Is a finite automaton nonempty?"
+            ]
           },
           {
             "type": "show",
             "id": "76:786",
             "name": "Is a finite automaton nonempty?",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Is a finite automaton nonempty?"
+            ]
           }
+        ],
+        "keywords": [
+          "Exponential time"
         ]
       },
       {
         "type": "show",
         "id": "51:423",
         "name": "Thm. ExpTime > P",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "Thm. ExpTime > P"
+        ]
       },
       {
         "type": "child",
@@ -160,31 +220,46 @@
             "type": "show",
             "id": "48:34",
             "name": "exponential complete language",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "exponential complete language"
+            ]
           },
           {
             "type": "show",
             "id": "48:41",
             "name": "in exptime",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "in exptime"
+            ]
           },
           {
             "type": "show",
             "id": "48:60",
             "name": "Suppose that this language is recognised by a polynomial time Turing machine M.",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Suppose that this language is recognised by a polynomial time Turing machine M."
+            ]
           },
           {
             "type": "show",
             "id": "48:61",
             "name": "For k ∈ {1, 2, ...} consider the following Turing machine N[k]:",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "For k ∈ {1, 2, ...} consider the following Turing machine N[k]:"
+            ]
           },
           {
             "type": "show",
             "id": "48:62",
             "name": "exponential diagonal",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "exponential diagonal"
+            ]
           },
           {
             "type": "child",
@@ -195,41 +270,65 @@
                 "type": "show",
                 "id": "48:93",
                 "name": "N is polynomial",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "N is polynomial"
+                ]
               },
               {
                 "type": "show",
                 "id": "48:85",
                 "name": "size of N is linear",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "size of N is linear"
+                ]
               },
               {
                 "type": "show",
                 "id": "48:81",
                 "name": "k large enough",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "k large enough"
+                ]
               },
               {
                 "type": "show",
                 "id": "48:77",
                 "name": "paradox",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "paradox"
+                ]
               }
+            ],
+            "keywords": [
+              "Exponential paradox"
             ]
           }
+        ],
+        "keywords": [
+          "PTIME < EXPTIME"
         ]
       },
       {
         "type": "show",
         "id": "51:427",
         "name": "For the same reasons, there is an infinite hierarchy: P < ExpTime < 2ExpTime < ...",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "For the same reasons, there is an infinite hierarchy: P < ExpTime < 2ExpTime < ..."
+        ]
       },
       {
         "type": "show",
         "id": "78:1",
         "name": "PSPace",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "PSPace"
+        ]
       },
       {
         "type": "child",
@@ -240,31 +339,46 @@
             "type": "show",
             "id": "216:27",
             "name": "Polynomial space: problems that can be solved by a Turing machine whose space complexity is ≤ p(n) for some polynomial p.",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Polynomial space: problems that can be solved by a Turing machine whose space complexity is ≤ p(n) for some polynomial p."
+            ]
           },
           {
             "type": "show",
             "id": "126:87",
             "name": "Group 58",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Group 58"
+            ]
           },
           {
             "type": "show",
             "id": "76:353",
             "name": "Examples",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Examples"
+            ]
           },
           {
             "type": "show",
             "id": "76:355",
             "name": "Is there a path from s to t in a directed graph?",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Is there a path from s to t in a directed graph?"
+            ]
           },
           {
             "type": "show",
             "id": "76:412",
             "name": "Is there a path from s to t in a directed graph?",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Is there a path from s to t in a directed graph?"
+            ]
           },
           {
             "type": "child",
@@ -275,59 +389,92 @@
                 "type": "show",
                 "id": "128:936",
                 "name": "PSpace ⊆ ExpTime",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "PSpace ⊆ ExpTime"
+                ]
               },
               {
                 "type": "show",
                 "id": "128:937",
                 "name": "Main observation: The number of configurations of a PSpace machine is at most exponential, and it is enough to consider computations without loops.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Main observation: The number of configurations of a PSpace machine is at most exponential, and it is enough to consider computations without loops."
+                ]
               },
               {
                 "type": "show",
                 "id": "129:782",
                 "name": "Group 59",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Group 59"
+                ]
               },
               {
                 "type": "show",
                 "id": "129:783",
                 "name": "Group 60",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Group 60"
+                ]
               },
               {
                 "type": "show",
                 "id": "128:938",
                 "name": "We can simply run it M, while counting the number of steps, and reject once the exponential bound is exceeded.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "We can simply run it M, while counting the number of steps, and reject once the exponential bound is exceeded."
+                ]
               },
               {
                 "type": "show",
                 "id": "129:780",
                 "name": "By the Sipser theorem (see later), this will not be needed.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "By the Sipser theorem (see later), this will not be needed."
+                ]
               },
               {
                 "type": "show",
                 "id": "128:943",
                 "name": "Also works for nondeterministic PSpace: explore the tree of all computations, using depth-first search, with an exponential bound on recursion depth.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Also works for nondeterministic PSpace: explore the tree of all computations, using depth-first search, with an exponential bound on recursion depth."
+                ]
               },
               {
                 "type": "show",
                 "id": "129:781",
                 "name": "By the Savitch theorem (see later), this will not be needed.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "By the Savitch theorem (see later), this will not be needed."
+                ]
               }
+            ],
+            "keywords": [
+              "PSPACE contained in EXPTIME"
             ]
           }
+        ],
+        "keywords": [
+          "PSpace"
         ]
       },
       {
         "type": "show",
         "id": "123:775",
         "name": "NP",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "NP"
+        ]
       },
       {
         "type": "child",
@@ -338,7 +485,10 @@
             "type": "show",
             "id": "216:73",
             "name": "nondeterministic polynomial time",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "nondeterministic polynomial time"
+            ]
           },
           {
             "type": "child",
@@ -349,65 +499,101 @@
                 "type": "show",
                 "id": "126:54",
                 "name": "Equivalent definitions of NP",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Equivalent definitions of NP"
+                ]
               },
               {
                 "type": "show",
                 "id": "126:73",
                 "name": "usual definition",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "usual definition"
+                ]
               },
               {
                 "type": "show",
                 "id": "216:70",
                 "name": "There is a polynomial p and a deterministic Turing machine M such that",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "There is a polynomial p and a deterministic Turing machine M such that"
+                ]
               },
               {
                 "type": "show",
                 "id": "126:74",
                 "name": "all runs are short",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "all runs are short"
+                ]
               },
               {
                 "type": "show",
                 "id": "126:79",
                 "name": "use nondterminism",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "use nondterminism"
+                ]
               },
               {
                 "type": "show",
                 "id": "126:78",
                 "name": "witness is computation",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "witness is computation"
+                ]
               },
               {
                 "type": "show",
                 "id": "126:76",
                 "name": "special case",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "special case"
+                ]
               },
               {
                 "type": "show",
                 "id": "126:77",
                 "name": "reject after exceeding bound",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "reject after exceeding bound"
+                ]
               }
+            ],
+            "keywords": [
+              "Equivalent definitions of NP"
             ]
           }
+        ],
+        "keywords": [
+          "NP"
         ]
       },
       {
         "type": "show",
         "id": "126:574",
         "name": "strictness",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "strictness"
+        ]
       },
       {
         "type": "show",
         "id": "51:439",
         "name": "Savitch’s theorem: Nondeterministic polynomial space = deterministic polynomial space",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "Savitch’s theorem: Nondeterministic polynomial space = deterministic polynomial space"
+        ]
       },
       {
         "type": "child",
@@ -418,13 +604,19 @@
             "type": "show",
             "id": "216:61",
             "name": "Definition. Nondeterministic PSpace",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Definition. Nondeterministic PSpace"
+            ]
           },
           {
             "type": "show",
             "id": "216:62",
             "name": "Equivalent definition. There is a deterministic Turing machine M and a polynomial p such that:",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Equivalent definition. There is a deterministic Turing machine M and a polynomial p such that:"
+            ]
           },
           {
             "type": "child",
@@ -435,53 +627,83 @@
                 "type": "show",
                 "id": "79:71",
                 "name": "Group 42",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Group 42"
+                ]
               },
               {
                 "type": "show",
                 "id": "79:108",
                 "name": "Group 43",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Group 43"
+                ]
               },
               {
                 "type": "show",
                 "id": "79:35",
                 "name": "Group 41",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Group 41"
+                ]
               },
               {
                 "type": "show",
                 "id": "79:303",
                 "name": "Group 46",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Group 46"
+                ]
               },
               {
                 "type": "show",
                 "id": "79:344",
                 "name": "Group 47",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Group 47"
+                ]
               },
               {
                 "type": "show",
                 "id": "79:386",
                 "name": "Group 48",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Group 48"
+                ]
               },
               {
                 "type": "show",
                 "id": "51:498",
                 "name": "To prove Savitch’s theorem, for a nondeterministic Turing machine that runs in space p(n), we run this program for: source = initial configuration target = accepting configuration n = log k × p(n) m = p(n)",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "To prove Savitch’s theorem, for a nondeterministic Turing machine that runs in space p(n), we run this program for: source = initial configuration target = accepting configuration n = log k × p(n) m = p(n)"
+                ]
               }
+            ],
+            "keywords": [
+              "Savitch"
             ]
           }
+        ],
+        "keywords": [
+          "NPSpace"
         ]
       },
       {
         "type": "show",
         "id": "51:438",
         "name": "Sipser’s theorem: machines with finite space can be forced to halt",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "Sipser’s theorem: machines with finite space can be forced to halt"
+        ]
       },
       {
         "type": "child",
@@ -492,31 +714,46 @@
             "type": "show",
             "id": "51:48",
             "name": "Rough idea",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Rough idea"
+            ]
           },
           {
             "type": "show",
             "id": "51:368",
             "name": "without any extra space",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "without any extra space"
+            ]
           },
           {
             "type": "show",
             "id": "51:34",
             "name": "Theorem (Sipser). For every deterministic Turing machine M, there is a deterministic Turing machine N such that for every input word:",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Theorem (Sipser). For every deterministic Turing machine M, there is a deterministic Turing machine N such that for every input word:"
+            ]
           },
           {
             "type": "show",
             "id": "51:39",
             "name": "1. M accepts if and only if N accepts",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "1. M accepts if and only if N accepts"
+            ]
           },
           {
             "type": "show",
             "id": "51:291",
             "name": "2. if M uses n < ∞ memory cells, then N halts and also uses n cells.",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "2. if M uses n < ∞ memory cells, then N halts and also uses n cells."
+            ]
           },
           {
             "type": "child",
@@ -527,79 +764,118 @@
                 "type": "show",
                 "id": "51:373",
                 "name": "Consider the graph of configurations that use memory ≤ m",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Consider the graph of configurations that use memory ≤ m"
+                ]
               },
               {
                 "type": "show",
                 "id": "79:3570",
                 "name": "This is a directed graph",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "This is a directed graph"
+                ]
               },
               {
                 "type": "show",
                 "id": "51:415",
                 "name": "Group 37",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Group 37"
+                ]
               },
               {
                 "type": "show",
                 "id": "51:413",
                 "name": "Group 36",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Group 36"
+                ]
               },
               {
                 "type": "show",
                 "id": "51:412",
                 "name": "Group 35",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Group 35"
+                ]
               },
               {
                 "type": "show",
                 "id": "51:161",
                 "name": "each component is either a tree...",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "each component is either a tree..."
+                ]
               },
               {
                 "type": "show",
                 "id": "51:163",
                 "name": "...or a tree with a cycle",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "...or a tree with a cycle"
+                ]
               },
               {
                 "type": "show",
                 "id": "79:4887",
                 "name": "Group 57",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Group 57"
+                ]
               },
               {
                 "type": "show",
                 "id": "210:3597",
                 "name": "A terminal in this graph is a vertex of outdegree 0.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "A terminal in this graph is a vertex of outdegree 0."
+                ]
               },
               {
                 "type": "show",
                 "id": "51:169",
                 "name": "Solution: Start in the accepting configuration, and search the tree (dfs) for the initial configuration.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Solution: Start in the accepting configuration, and search the tree (dfs) for the initial configuration."
+                ]
               },
               {
                 "type": "show",
                 "id": "210:3591",
                 "name": "Solution: Start in the accepting configuration, and search the tree (dfs) for the initial configuration.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Solution: Start in the accepting configuration, and search the tree (dfs) for the initial configuration."
+                ]
               },
               {
                 "type": "show",
                 "id": "210:3497",
                 "name": "If there are 0 such terminals, the machine loops in memory ≤ m.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "If there are 0 such terminals, the machine loops in memory ≤ m."
+                ]
               },
               {
                 "type": "show",
                 "id": "210:3592",
                 "name": "If there is 1 such terminal, we can reject, accept, or increment m.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "If there is 1 such terminal, we can reject, accept, or increment m."
+                ]
               },
               {
                 "type": "child",
@@ -610,31 +886,46 @@
                     "type": "show",
                     "id": "216:74",
                     "name": "The algorithm",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "The algorithm"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "79:2506",
                     "name": "Group 49",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Group 49"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "79:2611",
                     "name": "Group 50",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Group 50"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "79:2718",
                     "name": "Group 51",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Group 51"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "79:2827",
                     "name": "Group 52",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Group 52"
+                    ]
                   },
                   {
                     "type": "child",
@@ -645,45 +936,75 @@
                         "type": "show",
                         "id": "79:4715",
                         "name": "Group 56",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Group 56"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "51:256",
                         "name": "The simulating machine remembers in its state which neighbour it has visited in the previous step.",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "The simulating machine remembers in its state which neighbour it has visited in the previous step."
+                        ]
                       }
+                    ],
+                    "keywords": [
+                      "Sipser Search 2"
                     ]
                   },
                   {
                     "type": "show",
                     "id": "79:2938",
                     "name": "Group 53",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Group 53"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "79:3051",
                     "name": "Group 54",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Group 54"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "79:3166",
                     "name": "Group 55",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Group 55"
+                    ]
                   }
+                ],
+                "keywords": [
+                  "Compute the space"
                 ]
               }
+            ],
+            "keywords": [
+              "Sipser Search"
             ]
           }
+        ],
+        "keywords": [
+          "Sipser"
         ]
       },
       {
         "type": "show",
         "id": "148:5",
         "name": "L and NL",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "L and NL"
+        ]
       },
       {
         "type": "child",
@@ -694,13 +1015,19 @@
             "type": "show",
             "id": "128:790",
             "name": "Logarithmic space",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Logarithmic space"
+            ]
           },
           {
             "type": "show",
             "id": "216:45",
             "name": "The work tape has size at most log(poly n)",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "The work tape has size at most log(poly n)"
+            ]
           },
           {
             "type": "child",
@@ -711,19 +1038,28 @@
                 "type": "show",
                 "id": "132:175",
                 "name": "Group 65",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Group 65"
+                ]
               },
               {
                 "type": "show",
                 "id": "132:176",
                 "name": "Group 66",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Group 66"
+                ]
               },
               {
                 "type": "show",
                 "id": "132:178",
                 "name": "not logarithmic, but polylogarithmic",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "not logarithmic, but polylogarithmic"
+                ]
               },
               {
                 "type": "child",
@@ -734,77 +1070,119 @@
                     "type": "show",
                     "id": "132:130",
                     "name": "Group 61",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Group 61"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "132:131",
                     "name": "Group 62",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Group 62"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "132:132",
                     "name": "Group 63",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Group 63"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "132:133",
                     "name": "Group 64",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Group 64"
+                    ]
                   }
+                ],
+                "keywords": [
+                  "Polylog and Savitch"
                 ]
               }
+            ],
+            "keywords": [
+              "Savitch does not work for logspace"
             ]
           },
           {
             "type": "show",
             "id": "216:46",
             "name": "For this class it is important to separate the input and work tapes.",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "For this class it is important to separate the input and work tapes."
+            ]
           },
           {
             "type": "show",
             "id": "148:1",
             "name": "L ",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "L "
+            ]
           },
           {
             "type": "show",
             "id": "227:1",
             "name": "NL = nondeterministic logarithmic space",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "NL = nondeterministic logarithmic space"
+            ]
           },
           {
             "type": "show",
             "id": "227:4",
             "name": "There is a nondeterministic Turing machine M and a polynomial p such that:",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "There is a nondeterministic Turing machine M and a polynomial p such that:"
+            ]
           },
           {
             "type": "show",
             "id": "216:67",
             "name": "Equivalent definition. There is a deterministic Turing machine M and a polynomial p such that:",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Equivalent definition. There is a deterministic Turing machine M and a polynomial p such that:"
+            ]
           },
           {
             "type": "show",
             "id": "228:27",
             "name": "Applying the Savitch construction to a nondeterministic logspace machine gives a deterministic machine in space",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Applying the Savitch construction to a nondeterministic logspace machine gives a deterministic machine in space"
+            ]
           },
           {
             "type": "show",
             "id": "128:840",
             "name": "But at least nondeterministic logarithmic space is closed under complementation.",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "But at least nondeterministic logarithmic space is closed under complementation."
+            ]
           },
           {
             "type": "show",
             "id": "128:842",
             "name": "unlike for NP, where we coNP is a thing",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "unlike for NP, where we coNP is a thing"
+            ]
           },
           {
             "type": "child",
@@ -815,25 +1193,37 @@
                 "type": "show",
                 "id": "128:846",
                 "name": "There is a nondeterministic logspace machine which does the following:",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "There is a nondeterministic logspace machine which does the following:"
+                ]
               },
               {
                 "type": "show",
                 "id": "128:847",
                 "name": "input: a directed graph, with a designated source vertex",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "input: a directed graph, with a designated source vertex"
+                ]
               },
               {
                 "type": "show",
                 "id": "128:848",
                 "name": "output: the number of vertices reachable from the source",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "output: the number of vertices reachable from the source"
+                ]
               },
               {
                 "type": "show",
                 "id": "128:915",
                 "name": "on every input, the machine has a unique accepting run, and the output number is found on the work tape, in binary",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "on every input, the machine has a unique accepting run, and the output number is found on the work tape, in binary"
+                ]
               },
               {
                 "type": "child",
@@ -844,134 +1234,209 @@
                     "type": "show",
                     "id": "132:179",
                     "name": "r[d] := 1",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "r[d] := 1"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "133:784",
                     "name": "repeat",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "repeat"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "128:897",
                     "name": "d := d+1",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "d := d+1"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "128:869",
                     "name": "r[d] := 0",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "r[d] := 0"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "133:785",
                     "name": "for v",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "for v"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "128:870",
                     "name": "i := 0",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "i := 0"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "133:790",
                     "name": "for u in vertices",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "for u in vertices"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "133:787",
                     "name": "guesses if the vertex u is reachable via a path of at most d–1 edges. If the guess is wrong, the program will eventually fail.",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "guesses if the vertex u is reachable via a path of at most d–1 edges. If the guess is wrong, the program will eventually fail."
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "133:791",
                     "name": "if x then",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "if x then"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "133:788",
                     "name": "a subroutine that can be done in nondeterministic logspace",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "a subroutine that can be done in nondeterministic logspace"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "128:911",
                     "name": "if there was an incorrect “true” guess, then this will fail",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "if there was an incorrect “true” guess, then this will fail"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "128:862",
                     "name": "i := i+1",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "i := i+1"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "133:792",
                     "name": "if Edge(u,v) then",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "if Edge(u,v) then"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "128:873",
                     "name": "r[d] := r[d] + 1",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "r[d] := r[d] + 1"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "128:875",
                     "name": "break",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "break"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "133:789",
                     "name": "if there was an incorrect “false” guess, then this will fail",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "if there was an incorrect “false” guess, then this will fail"
+                    ]
                   }
+                ],
+                "keywords": [
+                  "Counting reachability in NL"
                 ]
               },
               {
                 "type": "show",
                 "id": "128:913",
                 "name": "Consider a language L, whose complement is recognised by a nondeterministic logspace Turing machine M.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Consider a language L, whose complement is recognised by a nondeterministic logspace Turing machine M."
+                ]
               },
               {
                 "type": "show",
                 "id": "128:918",
                 "name": "Run the counting algorithm twice:",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Run the counting algorithm twice:"
+                ]
               },
               {
                 "type": "show",
                 "id": "128:916",
                 "name": "(1) on the graph of configurations of M",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "(1) on the graph of configurations of M"
+                ]
               },
               {
                 "type": "show",
                 "id": "128:914",
                 "name": "(2) on the graph of configurations of M, with accepting configurations removed",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "(2) on the graph of configurations of M, with accepting configurations removed"
+                ]
               },
               {
                 "type": "show",
                 "id": "128:919",
                 "name": "If the results are equal (i.e. M rejects), then accept, otherwise reject.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "If the results are equal (i.e. M rejects), then accept, otherwise reject."
+                ]
               }
+            ],
+            "keywords": [
+              "Immerman Szelepcseni"
             ]
           }
+        ],
+        "keywords": [
+          "Nondeterministic Logspace"
         ]
       }
+    ],
+    "keywords": [
+      "first slide"
     ]
   },
   "soundDict": {
@@ -1758,5 +2223,5 @@
       }
     }
   },
-  "version": 0.81
+  "version": 0.84
 }

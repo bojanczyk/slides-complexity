@@ -720,37 +720,55 @@
             "type": "show",
             "id": "19:4",
             "name": "Randomised polynomial time (RP)",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Randomised polynomial time (RP)"
+            ]
           },
           {
             "type": "show",
             "id": "19:5",
             "name": "Def. L ∈ RP if there is a Turing machine, with access to coin flips, such that:",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Def. L ∈ RP if there is a Turing machine, with access to coin flips, such that:"
+            ]
           },
           {
             "type": "show",
             "id": "19:6",
             "name": "1. regardless of the coin flips, it runs in polynomial time",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "1. regardless of the coin flips, it runs in polynomial time"
+            ]
           },
           {
             "type": "show",
             "id": "19:7",
             "name": "2. for inputs w ∉ L the machine always rejects, regardless of the coin flips",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "2. for inputs w ∉ L the machine always rejects, regardless of the coin flips"
+            ]
           },
           {
             "type": "show",
             "id": "19:8",
             "name": "3. for inputs w ∈ L the machine accepts with probability >1/2.",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "3. for inputs w ∈ L the machine accepts with probability >1/2."
+            ]
           },
           {
             "type": "show",
             "id": "19:9",
             "name": "if we run the machine 10 times, it will accept with probability > 1023 / 1024",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "if we run the machine 10 times, it will accept with probability > 1023 / 1024"
+            ]
           },
           {
             "type": "child",
@@ -761,57 +779,87 @@
                 "type": "show",
                 "id": "19:11",
                 "name": "More formally, we have a Turing machine with: (a) a two-way read-only input tape (b) a one-way read-only witness tape over alphabet {head, tail} (c) a read-write work tape",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "More formally, we have a Turing machine with: (a) a two-way read-only input tape (b) a one-way read-only witness tape over alphabet {head, tail} (c) a read-write work tape"
+                ]
               },
               {
                 "type": "show",
                 "id": "19:17",
                 "name": "There is a polynomial p such that:",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "There is a polynomial p such that:"
+                ]
               },
               {
                 "type": "show",
                 "id": "19:18",
                 "name": "1. for every input v and witness w, the running time of M(v, w) is < p(|v|)",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "1. for every input v and witness w, the running time of M(v, w) is < p(|v|)"
+                ]
               },
               {
                 "type": "show",
                 "id": "19:19",
                 "name": "2. for every input v ∉ L, M(v, w) rejects for every w",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "2. for every input v ∉ L, M(v, w) rejects for every w"
+                ]
               },
               {
                 "type": "show",
                 "id": "37:26",
                 "name": "Prob [M(v, w) accepts] ≥ 1/2",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Prob [M(v, w) accepts] ≥ 1/2"
+                ]
               },
               {
                 "type": "show",
                 "id": "19:24",
                 "name": "In other words, more than half of the witnesses lead to acceptance.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "In other words, more than half of the witnesses lead to acceptance."
+                ]
               }
+            ],
+            "keywords": [
+              "Formal definition RP"
             ]
           },
           {
             "type": "show",
             "id": "56:5",
             "name": "Primality testing",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Primality testing"
+            ]
           },
           {
             "type": "show",
             "id": "56:6",
             "name": "Evaluating straight line programs",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Evaluating straight line programs"
+            ]
           },
           {
             "type": "show",
             "id": "56:7",
             "name": "Polynomial identity testing",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Polynomial identity testing"
+            ]
           },
           {
             "type": "child",
@@ -822,37 +870,55 @@
                 "type": "show",
                 "id": "45:4",
                 "name": "Primality testing",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Primality testing"
+                ]
               },
               {
                 "type": "show",
                 "id": "45:6",
                 "name": "Input. A number in binary, e.g. 1010110 Question. Is it prime?",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Input. A number in binary, e.g. 1010110 Question. Is it prime?"
+                ]
               },
               {
                 "type": "show",
                 "id": "56:0",
                 "name": "Agrawal Kayal Saxena 2002",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Agrawal Kayal Saxena 2002"
+                ]
               },
               {
                 "type": "show",
                 "id": "45:9",
                 "name": "Example. A wrong randomised algorithm (Fermat test)",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Example. A wrong randomised algorithm (Fermat test)"
+                ]
               },
               {
                 "type": "show",
                 "id": "56:1",
                 "name": "Given input n, randomly select some number a < n and compute",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Given input n, randomly select some number a < n and compute"
+                ]
               },
               {
                 "type": "show",
                 "id": "45:23",
                 "name": "Answer “prime” if the result is 1, otherwise answer “composite”.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Answer “prime” if the result is 1, otherwise answer “composite”."
+                ]
               },
               {
                 "type": "child",
@@ -863,58 +929,91 @@
                     "type": "show",
                     "id": "56:3",
                     "name": "How do we compute",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "How do we compute"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "45:172",
                     "name": "Addition and multiplication modulo n can be computed in polynomial time.",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Addition and multiplication modulo n can be computed in polynomial time."
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "56:4",
                     "name": "If",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "If"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "56:2",
                     "name": "the result of i iterations of squaring",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "the result of i iterations of squaring"
+                    ]
                   }
+                ],
+                "keywords": [
+                  "Iterated squaring"
                 ]
               },
               {
                 "type": "show",
                 "id": "45:25",
                 "name": "By Fermat’s Little Theorem, if n is prime, then the answer is always “prime”.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "By Fermat’s Little Theorem, if n is prime, then the answer is always “prime”."
+                ]
               },
               {
                 "type": "show",
                 "id": "45:26",
                 "name": "If n is composite, then the probability of getting a “composite” answer is ≥ 1/2.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "If n is composite, then the probability of getting a “composite” answer is ≥ 1/2."
+                ]
               },
               {
                 "type": "show",
                 "id": "45:30",
                 "name": "If Carmichael primes did not exist, the Fermat test would prove Composite ∈ RP",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "If Carmichael primes did not exist, the Fermat test would prove Composite ∈ RP"
+                ]
               },
               {
                 "type": "show",
                 "id": "45:28",
                 "name": "this is not true for Carmichael primes, which are composite numbers that are similar to primes",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "this is not true for Carmichael primes, which are composite numbers that are similar to primes"
+                ]
               },
               {
                 "type": "show",
                 "id": "45:32",
                 "name": "There are more sophisticated probabilistic tests, e.g. Miller-Rabin, which work.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "There are more sophisticated probabilistic tests, e.g. Miller-Rabin, which work."
+                ]
               }
+            ],
+            "keywords": [
+              "Primality"
             ]
           },
           {
@@ -926,43 +1025,64 @@
                 "type": "show",
                 "id": "37:27",
                 "name": "Consider a straight line program over the integers",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Consider a straight line program over the integers"
+                ]
               },
               {
                 "type": "show",
                 "id": "37:28",
                 "name": "Question:",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Question:"
+                ]
               },
               {
                 "type": "show",
                 "id": "37:29",
                 "name": "In a program of length n, the numbers might use 2 bits.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "In a program of length n, the numbers might use 2 bits."
+                ]
               },
               {
                 "type": "show",
                 "id": "20:12",
                 "name": "Randomised algorithm",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Randomised algorithm"
+                ]
               },
               {
                 "type": "show",
                 "id": "20:13",
                 "name": "If the program has n lines, do the following experiment 3n times:",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "If the program has n lines, do the following experiment 3n times:"
+                ]
               },
               {
                 "type": "show",
                 "id": "20:14",
                 "name": "Randomly choose a natural number p with 2n bits, and evaluate the program modulo p",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Randomly choose a natural number p with 2n bits, and evaluate the program modulo p"
+                ]
               },
               {
                 "type": "show",
                 "id": "20:17",
                 "name": "If in all experiments, x has value 0 (in modulo arithmetic), then say “zero”, otherwise say “nonzero”.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "If in all experiments, x has value 0 (in modulo arithmetic), then say “zero”, otherwise say “nonzero”."
+                ]
               },
               {
                 "type": "child",
@@ -973,31 +1093,46 @@
                     "type": "show",
                     "id": "20:269",
                     "name": "The prime number theorem says that the following holds for sufficiently large n:",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "The prime number theorem says that the following holds for sufficiently large n:"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "20:270",
                     "name": "Let r be the output of the program. Since it has at most 2 bits, it has at most 2 prime divisors.",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Let r be the output of the program. Since it has at most 2 bits, it has at most 2 prime divisors."
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "20:271",
                     "name": "Therefore, assuming r ≠ 0, for each experiment the probability of “nonzero” is ≥",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Therefore, assuming r ≠ 0, for each experiment the probability of “nonzero” is ≥"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "20:226",
                     "name": "Therefore, assuming r ≠ 0, the probability that all 3n experiments say “zero” is",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Therefore, assuming r ≠ 0, the probability that all 3n experiments say “zero” is"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "20:311",
                     "name": "\\le (1 - \\frac {1} {3n})^{3n}  \\le 0.37",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "\\le (1 - \\frac {1} {3n})^{3n}  \\le 0.37"
+                    ]
                   },
                   {
                     "type": "child",
@@ -1008,36 +1143,60 @@
                         "type": "show",
                         "id": "20:391",
                         "name": "(\\frac {n + 1} {n})^n \\quad  \\to \\quad  e",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "(\\frac {n + 1} {n})^n \\quad  \\to \\quad  e"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "39:0",
                         "name": "Group 1",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Group 1"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "20:477",
                         "name": "( 1 - \\frac {1} {n+1})^n \\quad  \\to \\quad  \\frac 1 e",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "( 1 - \\frac {1} {n+1})^n \\quad  \\to \\quad  \\frac 1 e"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "20:510",
                         "name": "( 1 - \\frac {1} {3n})^{3n-1} \\quad  \\to \\quad  \\frac 1 e",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "( 1 - \\frac {1} {3n})^{3n-1} \\quad  \\to \\quad  \\frac 1 e"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "20:547",
                         "name": "( 1 - \\frac {1} {3n})^{3n} \\quad  \\to \\quad  \\frac 1 e",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "( 1 - \\frac {1} {3n})^{3n} \\quad  \\to \\quad  \\frac 1 e"
+                        ]
                       }
+                    ],
+                    "keywords": [
+                      "Euler"
                     ]
                   }
+                ],
+                "keywords": [
+                  "Straight line programs 2"
                 ]
               }
+            ],
+            "keywords": [
+              "Straight line programs"
             ]
           },
           {
@@ -1049,55 +1208,82 @@
                 "type": "show",
                 "id": "38:0",
                 "name": "We are given a program with uninitialised variables:",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "We are given a program with uninitialised variables:"
+                ]
               },
               {
                 "type": "show",
                 "id": "38:1",
                 "name": "This program represents a polynomial:",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "This program represents a polynomial:"
+                ]
               },
               {
                 "type": "show",
                 "id": "37:0",
                 "name": "Question Is this polynomial nonzero?",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Question Is this polynomial nonzero?"
+                ]
               },
               {
                 "type": "show",
                 "id": "37:1",
                 "name": "Equivalently: given two programs, do they represent the same polynomial?",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Equivalently: given two programs, do they represent the same polynomial?"
+                ]
               },
               {
                 "type": "show",
                 "id": "20:575",
                 "name": "Randomised algorithm",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Randomised algorithm"
+                ]
               },
               {
                 "type": "show",
                 "id": "20:576",
                 "name": "If the program has n lines, do the following:",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "If the program has n lines, do the following:"
+                ]
               },
               {
                 "type": "show",
                 "id": "20:578",
                 "name": "Randomly choose for each variable a natural number with n bits. Evaluate the program.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Randomly choose for each variable a natural number with n bits. Evaluate the program."
+                ]
               },
               {
                 "type": "show",
                 "id": "20:577",
                 "name": "If the program describes a nonzero polynomial, then the answer will be nonzero with probability ≥ 50%.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "If the program describes a nonzero polynomial, then the answer will be nonzero with probability ≥ 50%."
+                ]
               },
               {
                 "type": "show",
                 "id": "36:97",
                 "name": "Evaluation can be done using the previously described randomised algorithm.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Evaluation can be done using the previously described randomised algorithm."
+                ]
               },
               {
                 "type": "child",
@@ -1108,7 +1294,10 @@
                     "type": "show",
                     "id": "38:2",
                     "name": "The degree of the polynomial is at most and thus less than half the sample size (natural numbers with n bits).",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "The degree of the polynomial is at most and thus less than half the sample size (natural numbers with n bits)."
+                    ]
                   },
                   {
                     "type": "child",
@@ -1119,55 +1308,82 @@
                         "type": "show",
                         "id": "38:4",
                         "name": "Lemma. Consider a nonzero polynomial over the integers.",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Lemma. Consider a nonzero polynomial over the integers."
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "36:96",
                         "name": "works for every ring",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "works for every ring"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "36:57",
                         "name": "For every set S of integers,",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "For every set S of integers,"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "38:3",
                         "name": "Probability",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Probability"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "37:23",
                         "name": "Example.",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Example."
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "36:93",
                         "name": "useful when degree is smaller than sample size",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "useful when degree is smaller than sample size"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "17:411",
                         "name": "Proof. Induction on the number of variables m",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Proof. Induction on the number of variables m"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "17:417",
                         "name": "If m = 1, then we use the Bezout theorem, which says that a nonzero polynomial P(x) can have at most (degree of P) many zeros.",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "If m = 1, then we use the Bezout theorem, which says that a nonzero polynomial P(x) can have at most (degree of P) many zeros."
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "17:418",
                         "name": "Having proved the lemma for m variables, we now prove it for m+1",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Having proved the lemma for m variables, we now prove it for m+1"
+                        ]
                       },
                       {
                         "type": "child",
@@ -1178,75 +1394,120 @@
                             "type": "show",
                             "id": "38:5",
                             "name": "Consider a nonzero polynomial with m+1 variables",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "Consider a nonzero polynomial with m+1 variables"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "38:6",
                             "name": "The i-th coefficient is a polynomial",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "The i-th coefficient is a polynomial"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "38:7",
                             "name": "assignments of variables",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "assignments of variables"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "20:912",
                             "name": "probability of picking a blue row is",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "probability of picking a blue row is"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "38:8",
                             "name": "degree of",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "degree of"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "20:949",
                             "name": "in every red row, dark area has probability",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "in every red row, dark area has probability"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "38:9",
                             "name": "n",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "n"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "38:10",
                             "name": "n + degree of",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "n + degree of"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "38:11",
                             "name": "degree of P",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "degree of P"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "36:43",
                             "name": "what we wanted to prove ⟶",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "what we wanted to prove ⟶"
+                            ]
                           }
+                        ],
+                        "keywords": [
+                          "Schwartz-Zippel 2"
                         ]
                       }
+                    ],
+                    "keywords": [
+                      "Schwartz-Zippel"
                     ]
                   }
+                ],
+                "keywords": [
+                  "Polynomial identity testing algorithm"
                 ]
               }
+            ],
+            "keywords": [
+              "Polynomial identity testing"
             ]
           },
           {
             "type": "show",
             "id": "110:0",
             "name": "Perfect matching",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Perfect matching"
+            ]
           },
           {
             "type": "child",
@@ -1257,49 +1518,73 @@
                 "type": "show",
                 "id": "112:170",
                 "name": "Consider a bipartite graph.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Consider a bipartite graph."
+                ]
               },
               {
                 "type": "show",
                 "id": "112:168",
                 "name": "a perfect matching is a subset M of the edges, such that every vertex is incident to exactly one edge in M",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "a perfect matching is a subset M of the edges, such that every vertex is incident to exactly one edge in M"
+                ]
               },
               {
                 "type": "show",
                 "id": "110:3",
                 "name": "Problem. Does an unidrected graph have a perfect matching?",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Problem. Does an unidrected graph have a perfect matching?"
+                ]
               },
               {
                 "type": "show",
                 "id": "110:36",
                 "name": "This problem is in P, but we show an RP algorithm.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "This problem is in P, but we show an RP algorithm."
+                ]
               },
               {
                 "type": "show",
                 "id": "110:38",
                 "name": "Consider the incidence matrix of a graph, with edges replaced by variables.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Consider the incidence matrix of a graph, with edges replaced by variables."
+                ]
               },
               {
                 "type": "show",
                 "id": "112:171",
                 "name": "x11",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "x11"
+                ]
               },
               {
                 "type": "show",
                 "id": "112:5",
                 "name": "Vector 15",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Vector 15"
+                ]
               },
               {
                 "type": "hide",
                 "id": "112:5",
                 "name": "Vector 15",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Vector 15"
+                ]
               },
               {
                 "type": "child",
@@ -1310,31 +1595,46 @@
                     "type": "show",
                     "id": "112:173",
                     "name": "The determinant of this matrix is",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "The determinant of this matrix is"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "112:174",
                     "name": "each π is a candidate for a perfect matching",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "each π is a candidate for a perfect matching"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "112:175",
                     "name": "the candidate is actually a matching if this product is nonzero",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "the candidate is actually a matching if this product is nonzero"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "112:141",
                     "name": "Corollary. The graph has a perfect matching if and only if the determinant, viewed as a polynomial (with at most n2 variables), is nonzero.",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Corollary. The graph has a perfect matching if and only if the determinant, viewed as a polynomial (with at most n2 variables), is nonzero."
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "112:149",
                     "name": "This polynomial can be described by a program as in polynomial identity testing, but we use another way.",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "This polynomial can be described by a program as in polynomial identity testing, but we use another way."
+                    ]
                   },
                   {
                     "type": "child",
@@ -1345,45 +1645,75 @@
                         "type": "show",
                         "id": "112:145",
                         "name": "We can check if this polynomial is nonzero by using a random valuation.",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "We can check if this polynomial is nonzero by using a random valuation."
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "112:146",
                         "name": "Since the polynomial has degree n, choosing independently at random number in {1,..,2n} for each variable will give us a nonzero value with probability ≥ 1/2.",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Since the polynomial has degree n, choosing independently at random number in {1,..,2n} for each variable will give us a nonzero value with probability ≥ 1/2."
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "112:147",
                         "name": "Once the values for the variables have been chosen, the value of the polynomial is the same as the determinant of some matrix.",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Once the values for the variables have been chosen, the value of the polynomial is the same as the determinant of some matrix."
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "112:148",
                         "name": "The determinant can be computed in polynomial time.",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "The determinant can be computed in polynomial time."
+                        ]
                       }
+                    ],
+                    "keywords": [
+                      "Determinant random"
                     ]
                   }
+                ],
+                "keywords": [
+                  "Determinant"
                 ]
               }
+            ],
+            "keywords": [
+              "Perfect matchings"
             ]
           }
+        ],
+        "keywords": [
+          "Randomised Polynomial RP"
         ]
       },
       {
         "type": "show",
         "id": "115:2",
         "name": "w ∈ L: prob > ½ w ∉ L: prob = 0",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "w ∈ L: prob > ½ w ∉ L: prob = 0"
+        ]
       },
       {
         "type": "show",
         "id": "115:3",
         "name": "w ∈ L: prob > ½ w ∉ L: prob ≤ ½",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "w ∈ L: prob > ½ w ∉ L: prob ≤ ½"
+        ]
       },
       {
         "type": "child",
@@ -1394,93 +1724,141 @@
             "type": "show",
             "id": "99:3",
             "name": "Randomised polynomial time (RP)",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Randomised polynomial time (RP)"
+            ]
           },
           {
             "type": "show",
             "id": "99:4",
             "name": "Def. L ∈ RP if there is a Turing machine, with access to coin flips, such that:",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Def. L ∈ RP if there is a Turing machine, with access to coin flips, such that:"
+            ]
           },
           {
             "type": "show",
             "id": "99:5",
             "name": "1. regardless of the coin flips, it runs in polynomial time",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "1. regardless of the coin flips, it runs in polynomial time"
+            ]
           },
           {
             "type": "show",
             "id": "99:6",
             "name": "2. for inputs w ∉ L the machine always rejects, regardless of the coin flips",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "2. for inputs w ∉ L the machine always rejects, regardless of the coin flips"
+            ]
           },
           {
             "type": "show",
             "id": "99:7",
             "name": "3. for inputs w ∈ L the machine accepts with probability >1/2.",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "3. for inputs w ∈ L the machine accepts with probability >1/2."
+            ]
           },
           {
             "type": "show",
             "id": "124:327",
             "name": "the problem is that there this can be exponentially close to 1/2",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "the problem is that there this can be exponentially close to 1/2"
+            ]
           },
           {
             "type": "show",
             "id": "99:8",
             "name": "Example. Here is a PP algorithm that solves Sat (and hence proves NP ⊆ PP).",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Example. Here is a PP algorithm that solves Sat (and hence proves NP ⊆ PP)."
+            ]
           },
           {
             "type": "show",
             "id": "99:10",
             "name": "Given a Boolean formula with n variables do the following experiment.",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Given a Boolean formula with n variables do the following experiment."
+            ]
           },
           {
             "type": "show",
             "id": "99:11",
             "name": "Toss a coin.",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Toss a coin."
+            ]
           },
           {
             "type": "show",
             "id": "99:12",
             "name": "If “head”, then accept.",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "If “head”, then accept."
+            ]
           },
           {
             "type": "show",
             "id": "99:13",
             "name": "Otherwise, randomly select a valuation, and accept if it is satisfying.",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Otherwise, randomly select a valuation, and accept if it is satisfying."
+            ]
           },
           {
             "type": "show",
             "id": "99:14",
             "name": "If the formula is unsatisfiable, probability of success is 1/2, otherwise it is > 1/2.",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "If the formula is unsatisfiable, probability of success is 1/2, otherwise it is > 1/2."
+            ]
           }
+        ],
+        "keywords": [
+          "PP"
         ]
       },
       {
         "type": "show",
         "id": "114:8",
         "name": "contains NP",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "contains NP"
+        ]
       },
       {
         "type": "show",
         "id": "115:6",
         "name": "w ∈ L: prob > ½ w ∉ L: prob ≤ ¼",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "w ∈ L: prob > ½ w ∉ L: prob ≤ ¼"
+        ]
       },
       {
         "type": "show",
         "id": "115:7",
         "name": "⊆",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "⊆"
+        ]
       },
       {
         "type": "child",
@@ -1491,19 +1869,28 @@
             "type": "show",
             "id": "124:318",
             "name": "w ∈ L: accepts with prob > 0.5 w ∉ L: accepts with prob ≤ 0.3",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "w ∈ L: accepts with prob > 0.5 w ∉ L: accepts with prob ≤ 0.3"
+            ]
           },
           {
             "type": "show",
             "id": "124:319",
             "name": "w ∈ L: accepts with prob > 0.1 + 0.9*0.5 = 0.55 w ∉ L: accepts with prob ≤ 0.1 + 0.9*0.3 = 0.27",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "w ∈ L: accepts with prob > 0.1 + 0.9*0.5 = 0.55 w ∉ L: accepts with prob ≤ 0.1 + 0.9*0.3 = 0.27"
+            ]
           },
           {
             "type": "show",
             "id": "124:320",
             "name": "w ∈ L: accepts with prob > 0.99 w ∉ L: accepts with prob ≤ 0.01",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "w ∈ L: accepts with prob > 0.99 w ∉ L: accepts with prob ≤ 0.01"
+            ]
           },
           {
             "type": "child",
@@ -1514,85 +1901,133 @@
                 "type": "show",
                 "id": "124:2",
                 "name": "Run many times an experiment, which succeeds with probability 0.6",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Run many times an experiment, which succeeds with probability 0.6"
+                ]
               },
               {
                 "type": "show",
                 "id": "124:300",
                 "name": "or some other p > 0.5",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "or some other p > 0.5"
+                ]
               },
               {
                 "type": "show",
                 "id": "124:3",
                 "name": "What is the probability of the majority not being “success”?",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "What is the probability of the majority not being “success”?"
+                ]
               },
               {
                 "type": "show",
                 "id": "124:312",
                 "name": "Answer: exponentially small.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Answer: exponentially small."
+                ]
               },
               {
                 "type": "show",
                 "id": "124:321",
                 "name": "probability of getting exactly i success in 2n tries",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "probability of getting exactly i success in 2n tries"
+                ]
               },
               {
                 "type": "show",
                 "id": "124:323",
                 "name": "some subsets of {1,..., 2n}",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "some subsets of {1,..., 2n}"
+                ]
               },
               {
                 "type": "show",
                 "id": "124:324",
                 "name": "≥",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "≥"
+                ]
               },
               {
                 "type": "show",
                 "id": "124:325",
                 "name": "≥",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "≥"
+                ]
               },
               {
                 "type": "show",
                 "id": "124:326",
                 "name": "If, instead of 0.6 we had some other probability p > 0.5, then instead of 0.96 we would have 4p(1-p)",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "If, instead of 0.6 we had some other probability p > 0.5, then instead of 0.96 we would have 4p(1-p)"
+                ]
               }
+            ],
+            "keywords": [
+              "Chernoff-like"
             ]
           },
           {
             "type": "show",
             "id": "115:12",
             "name": "the argument works for any numbers p > q",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "the argument works for any numbers p > q"
+            ]
           },
           {
             "type": "show",
             "id": "115:13",
             "name": "these numbers could even depend on the input size n, as long as they differ by 1/n.",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "these numbers could even depend on the input size n, as long as they differ by 1/n."
+            ]
           },
           {
             "type": "show",
             "id": "115:15",
             "name": "or some other polynomial",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "or some other polynomial"
+            ]
           }
+        ],
+        "keywords": [
+          "BPP"
         ]
       },
       {
         "type": "show",
         "id": "115:5",
         "name": "could be equal to P",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "could be equal to P"
+        ]
       }
+    ],
+    "keywords": [
+      "First slide"
     ]
   },
-  "version": 0.81
+  "version": 0.84
 }

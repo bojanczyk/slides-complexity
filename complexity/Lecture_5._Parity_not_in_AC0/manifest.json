@@ -33,13 +33,19 @@
         "type": "show",
         "id": "21:573",
         "name": "Theorem. The parity function",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "Theorem. The parity function"
+        ]
       },
       {
         "type": "show",
         "id": "144:335",
         "name": "Corollary. Since parity is in NC1, it follows that AC0 ⊊ NC1",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "Corollary. Since parity is in NC1, it follows that AC0 ⊊ NC1"
+        ]
       },
       {
         "type": "child",
@@ -50,57 +56,87 @@
             "type": "show",
             "id": "144:258",
             "name": "Lemma. The language Parity ⊆ {true, false}* is in NC",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Lemma. The language Parity ⊆ {true, false}* is in NC"
+            ]
           },
           {
             "type": "show",
             "id": "144:7",
             "name": "polynomial size circuits of logarithmic depth",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "polynomial size circuits of logarithmic depth"
+            ]
           },
           {
             "type": "show",
             "id": "144:260",
             "name": "+",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "+"
+            ]
           },
           {
             "type": "show",
             "id": "144:116",
             "name": "Use a balanced binary tree of xor gates.",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Use a balanced binary tree of xor gates."
+            ]
           },
           {
             "type": "show",
             "id": "144:248",
             "name": "+",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "+"
+            ]
           },
           {
             "type": "show",
             "id": "144:259",
             "name": "has logarithmic depth, because the tree is balanced",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "has logarithmic depth, because the tree is balanced"
+            ]
           },
           {
             "type": "show",
             "id": "144:8",
             "name": "in fact, every regular language",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "in fact, every regular language"
+            ]
           }
+        ],
+        "keywords": [
+          "Parity in NC1"
         ]
       },
       {
         "type": "show",
         "id": "21:567",
         "name": "We will use polynomials in the 3-element field",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "We will use polynomials in the 3-element field"
+        ]
       },
       {
         "type": "show",
         "id": "25:42",
         "name": "Razborow 87, Smolensky 87",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "Razborow 87, Smolensky 87"
+        ]
       },
       {
         "type": "child",
@@ -111,13 +147,19 @@
             "type": "show",
             "id": "21:592",
             "name": "Consider the field",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Consider the field"
+            ]
           },
           {
             "type": "show",
             "id": "21:593",
             "name": "To compute functions",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "To compute functions"
+            ]
           },
           {
             "type": "child",
@@ -128,37 +170,55 @@
                 "type": "show",
                 "id": "20:108",
                 "name": "$(x_1)^2 x_3 - 5x_2  + 2(x_3)^5 x_4 (x_7)^8$40",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "$(x_1)^2 x_3 - 5x_2  + 2(x_3)^5 x_4 (x_7)^8$40"
+                ]
               },
               {
                 "type": "show",
                 "id": "21:579",
                 "name": "since we are working in 5 could be replaced by 2",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "since we are working in 5 could be replaced by 2"
+                ]
               },
               {
                 "type": "show",
                 "id": "20:224",
                 "name": "=",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "="
+                ]
               },
               {
                 "type": "show",
                 "id": "20:199",
                 "name": "$(x_1)^2 x_3 + x_2  - (x_3)^2 x_4 (x_7)^2$40",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "$(x_1)^2 x_3 + x_2  - (x_3)^2 x_4 (x_7)^2$40"
+                ]
               },
               {
                 "type": "show",
                 "id": "21:577",
                 "name": "a monomial of degree 5",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "a monomial of degree 5"
+                ]
               },
               {
                 "type": "show",
                 "id": "21:578",
                 "name": "a polynomial of degree 5",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "a polynomial of degree 5"
+                ]
               },
               {
                 "type": "child",
@@ -169,41 +229,65 @@
                     "type": "show",
                     "id": "21:580",
                     "name": "Fact. Polynomials give all functions",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Fact. Polynomials give all functions"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "144:327",
                     "name": "Proof. Consider the polynomial",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Proof. Consider the polynomial"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "144:328",
                     "name": "It gives the function",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "It gives the function"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "21:584",
                     "name": "the same idea works for any vector instead of (0, ... ,0)",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "the same idea works for any vector instead of (0, ... ,0)"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "21:283",
                     "name": "By taking linear combinations of these polynomials, we can get every function.",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "By taking linear combinations of these polynomials, we can get every function."
+                    ]
                   }
+                ],
+                "keywords": [
+                  "Every function"
                 ]
               }
+            ],
+            "keywords": [
+              "Polynomials"
             ]
           },
           {
             "type": "show",
             "id": "21:591",
             "name": "false",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "false"
+            ]
           },
           {
             "type": "child",
@@ -214,45 +298,69 @@
                 "type": "show",
                 "id": "21:576",
                 "name": "Definition. A Boolean function",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Definition. A Boolean function"
+                ]
               },
               {
                 "type": "show",
                 "id": "21:575",
                 "name": "if the following diagram commutes:",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "if the following diagram commutes:"
+                ]
               }
+            ],
+            "keywords": [
+              "Reperesenting Boolean functions"
             ]
           },
           {
             "type": "show",
             "id": "21:594",
             "name": "The parity function is represented by the polynomial",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "The parity function is represented by the polynomial"
+            ]
           },
           {
             "type": "show",
             "id": "20:43",
             "name": "degree n",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "degree n"
+            ]
           },
           {
             "type": "show",
             "id": "21:595",
             "name": "Negation is represented by the polynomial",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Negation is represented by the polynomial"
+            ]
           },
           {
             "type": "show",
             "id": "20:44",
             "name": "degree 1",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "degree 1"
+            ]
           },
           {
             "type": "show",
             "id": "21:596",
             "name": "What about disjunction ?",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "What about disjunction ?"
+            ]
           },
           {
             "type": "child",
@@ -263,27 +371,42 @@
                 "type": "show",
                 "id": "153:48",
                 "name": "\\prod_{i \\in \\{1,\\ldots,n\\}} x_i - 1",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "\\prod_{i \\in \\{1,\\ldots,n\\}} x_i - 1"
+                ]
               },
               {
                 "type": "show",
                 "id": "151:79",
                 "name": "Gives 1 if all variables are “false”, otherwise 0.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Gives 1 if all variables are “false”, otherwise 0."
+                ]
               },
               {
                 "type": "show",
                 "id": "153:46",
                 "name": "Disjunction is represented by the following polynomial of degree 2n",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Disjunction is represented by the following polynomial of degree 2n"
+                ]
               }
+            ],
+            "keywords": [
+              "Disjunction polynomial"
             ]
           },
           {
             "type": "show",
             "id": "151:118",
             "name": "degree 2",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "degree 2"
+            ]
           },
           {
             "type": "child",
@@ -294,19 +417,28 @@
                 "type": "show",
                 "id": "19:797",
                 "name": "A wrong proof which gives the right idea",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "A wrong proof which gives the right idea"
+                ]
               },
               {
                 "type": "show",
                 "id": "21:586",
                 "name": "Assume that for every n, disjunction is represented by some polynomial of degree ≤ 5.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Assume that for every n, disjunction is represented by some polynomial of degree ≤ 5."
+                ]
               },
               {
                 "type": "show",
                 "id": "21:587",
                 "name": "Then every circuit of depth at most d is represented by a polynomial of degree at most 5 .",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Then every circuit of depth at most d is represented by a polynomial of degree at most 5 ."
+                ]
               },
               {
                 "type": "child",
@@ -317,43 +449,70 @@
                     "type": "show",
                     "id": "21:589",
                     "name": "When composing polynomials, degrees get multiplied",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "When composing polynomials, degrees get multiplied"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "21:590",
                     "name": "Therefore, if every gate in a circuit of depth d is represented by a polynomial of degree 5, then the entire circuit is represented by a polynomial of degree 5 .",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Therefore, if every gate in a circuit of depth d is represented by a polynomial of degree 5, then the entire circuit is represented by a polynomial of degree 5 ."
+                    ]
                   }
+                ],
+                "keywords": [
+                  "Degrees get multiplied"
                 ]
               },
               {
                 "type": "show",
                 "id": "21:588",
                 "name": "In particular, if parity would be in AC0, then for every n there would be a polynomial of degree at most 5 , which would agree with on all inputs from .",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "In particular, if parity would be in AC0, then for every n there would be a polynomial of degree at most 5 , which would agree with on all inputs from ."
+                ]
               },
               {
                 "type": "show",
                 "id": "19:850",
                 "name": "This cannot happen for counting reasons.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "This cannot happen for counting reasons."
+                ]
               },
               {
                 "type": "show",
                 "id": "19:897",
                 "name": "true: for a parameter t, one can find a polynomial of degree linear in t, which roughly represents disjunction of n arguments, in the sense that it gives wrong answers with probability exponentially small in t",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "true: for a parameter t, one can find a polynomial of degree linear in t, which roughly represents disjunction of n arguments, in the sense that it gives wrong answers with probability exponentially small in t"
+                ]
               }
+            ],
+            "keywords": [
+              "A wrong proof"
             ]
           }
+        ],
+        "keywords": [
+          "The three element field"
         ]
       },
       {
         "type": "show",
         "id": "21:569",
         "name": "Proof.",
-        "disabled": false
+        "disabled": false,
+        "keywords": [
+          "Proof."
+        ]
       },
       {
         "type": "child",
@@ -364,55 +523,82 @@
             "type": "show",
             "id": "150:20",
             "name": "Suppose that parity is in AC0.",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Suppose that parity is in AC0."
+            ]
           },
           {
             "type": "show",
             "id": "150:21",
             "name": "low degree: has degree at most",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "low degree: has degree at most"
+            ]
           },
           {
             "type": "show",
             "id": "150:23",
             "name": "Prob",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Prob"
+            ]
           },
           {
             "type": "show",
             "id": "150:24",
             "name": "represents the parity function",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "represents the parity function"
+            ]
           },
           {
             "type": "show",
             "id": "150:19",
             "name": "Lemma 2 The conclusion of Lemma 1 cannot hold, and therefore parity ∉ AC0.",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Lemma 2 The conclusion of Lemma 1 cannot hold, and therefore parity ∉ AC0."
+            ]
           },
           {
             "type": "show",
             "id": "21:599",
             "name": "Take any function",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Take any function"
+            ]
           },
           {
             "type": "show",
             "id": "21:598",
             "name": "where agrees with",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "where agrees with"
+            ]
           },
           {
             "type": "show",
             "id": "21:600",
             "name": "Choose a polynomial",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Choose a polynomial"
+            ]
           },
           {
             "type": "show",
             "id": "151:119",
             "name": "Without violating (*) we can:",
-            "disabled": false
+            "disabled": false,
+            "keywords": [
+              "Without violating (*) we can:"
+            ]
           },
           {
             "type": "child",
@@ -423,56 +609,86 @@
                 "type": "show",
                 "id": "150:28",
                 "name": "If variables are taken from {-1, 1}, then",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "If variables are taken from {-1, 1}, then"
+                ]
               },
               {
                 "type": "show",
                 "id": "150:54",
                 "name": "(x_1)^2 x_2 x_3 (x_4)^2 (x_5)^2",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "(x_1)^2 x_2 x_3 (x_4)^2 (x_5)^2"
+                ]
               },
               {
                 "type": "show",
                 "id": "150:149",
                 "name": "Group 40",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Group 40"
+                ]
               },
               {
                 "type": "show",
                 "id": "150:98",
                 "name": " = x_2 x_3 ",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  " = x_2 x_3 "
+                ]
               },
               {
                 "type": "show",
                 "id": "150:110",
                 "name": "Therefore, in each monomial, each variable is used with power 0 or 1.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Therefore, in each monomial, each variable is used with power 0 or 1."
+                ]
               },
               {
                 "type": "show",
                 "id": "18:204",
                 "name": "If more than half the variables in a monomial use power 1, then rewrite it as:",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "If more than half the variables in a monomial use power 1, then rewrite it as:"
+                ]
               },
               {
                 "type": "show",
                 "id": "150:151",
                 "name": "product of variables that have use power 0",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "product of variables that have use power 0"
+                ]
               },
               {
                 "type": "show",
                 "id": "150:153",
                 "name": "degree ≤ n / 2",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "degree ≤ n / 2"
+                ]
               },
               {
                 "type": "show",
                 "id": "150:154",
                 "name": "by Lemma 1, can be done with degree",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "by Lemma 1, can be done with degree"
+                ]
               }
+            ],
+            "keywords": [
+              "Sqrt "
             ]
           },
           {
@@ -484,25 +700,37 @@
                 "type": "show",
                 "id": "21:622",
                 "name": "We have just shown: If parity is in AC0, then there exist",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "We have just shown: If parity is in AC0, then there exist"
+                ]
               },
               {
                 "type": "show",
                 "id": "16:29",
                 "name": "such that",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "such that"
+                ]
               },
               {
                 "type": "show",
                 "id": "21:623",
                 "name": "(a)",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "(a)"
+                ]
               },
               {
                 "type": "show",
                 "id": "21:624",
                 "name": "(b) for every function",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "(b) for every function"
+                ]
               },
               {
                 "type": "child",
@@ -513,7 +741,10 @@
                     "type": "show",
                     "id": "18:256",
                     "name": "Next: this is impossible, because there are more functions f than polynomials p, and hence parity is not in AC0",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Next: this is impossible, because there are more functions f than polynomials p, and hence parity is not in AC0"
+                    ]
                   },
                   {
                     "type": "child",
@@ -524,43 +755,64 @@
                         "type": "show",
                         "id": "21:630",
                         "name": "The number of functions",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "The number of functions"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "21:631",
                         "name": "some number that tends to 1, as n tends to ∞",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "some number that tends to 1, as n tends to ∞"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "21:632",
                         "name": "The number of polynomials",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "The number of polynomials"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "21:633",
                         "name": "probablity that a subset of {1, ..., n} has size at most",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "probablity that a subset of {1, ..., n} has size at most"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "153:82",
                         "name": "probability that a subset of {1, ..., n} has size at most",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "probability that a subset of {1, ..., n} has size at most"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "21:634",
                         "name": "this number has a limit (as n tends to ∞), which is less than 1.",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "this number has a limit (as n tends to ∞), which is less than 1."
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "21:635",
                         "name": "for large enough n",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "for large enough n"
+                        ]
                       },
                       {
                         "type": "child",
@@ -571,20 +823,38 @@
                             "type": "show",
                             "id": "21:637",
                             "name": "The central limit theorem says that if we choose numbers independently at random, then",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "The central limit theorem says that if we choose numbers independently at random, then"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "21:638",
                             "name": "a number that is not 0",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "a number that is not 0"
+                            ]
                           }
+                        ],
+                        "keywords": [
+                          "Central limit Theorem"
                         ]
                       }
+                    ],
+                    "keywords": [
+                      "Not enough polynomials"
                     ]
                   }
+                ],
+                "keywords": [
+                  "This is impossible"
                 ]
               }
+            ],
+            "keywords": [
+              "Every function can be approximated"
             ]
           },
           {
@@ -596,7 +866,10 @@
                 "type": "show",
                 "id": "21:639",
                 "name": "Define an approximate ∨ gate as follows:",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Define an approximate ∨ gate as follows:"
+                ]
               },
               {
                 "type": "child",
@@ -607,69 +880,105 @@
                     "type": "show",
                     "id": "144:385",
                     "name": "number of true inputs mod 3",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "number of true inputs mod 3"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "144:386",
                     "name": "true if input is ≠0, false if input is zero",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "true if input is ≠0, false if input is zero"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "144:384",
                     "name": "Composing these two, we get a polynomial of degree 4",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Composing these two, we get a polynomial of degree 4"
+                    ]
                   }
+                ],
+                "keywords": [
+                  "Approximate disjunction"
                 ]
               },
               {
                 "type": "show",
                 "id": "19:2",
                 "name": "Consider a circuit with only ∨ and ¬ gates, and let t ∈ {1, 2, ...}.",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "Consider a circuit with only ∨ and ¬ gates, and let t ∈ {1, 2, ...}."
+                ]
               },
               {
                 "type": "show",
                 "id": "16:371",
                 "name": "A t-approximation of this circuit is any circuit that can obtained by:",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "A t-approximation of this circuit is any circuit that can obtained by:"
+                ]
               },
               {
                 "type": "show",
                 "id": "21:640",
                 "name": "replacing each ∨ gate",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "replacing each ∨ gate"
+                ]
               },
               {
                 "type": "show",
                 "id": "21:641",
                 "name": "with a gadget of this form:",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "with a gadget of this form:"
+                ]
               },
               {
                 "type": "show",
                 "id": "160:11",
                 "name": "polynomial of degree 4",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "polynomial of degree 4"
+                ]
               },
               {
                 "type": "show",
                 "id": "160:10",
                 "name": "polynomial of degree t",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "polynomial of degree t"
+                ]
               },
               {
                 "type": "show",
                 "id": "160:9",
                 "name": "4t",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "4t"
+                ]
               },
               {
                 "type": "show",
                 "id": "160:28",
                 "name": "A t-approximation of this circuit is any circuit that can obtained by:",
-                "disabled": false
+                "disabled": false,
+                "keywords": [
+                  "A t-approximation of this circuit is any circuit that can obtained by:"
+                ]
               },
               {
                 "type": "child",
@@ -680,37 +989,55 @@
                     "type": "show",
                     "id": "19:6",
                     "name": "Suppose that for every gate, we randomly select the t-approximation.",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Suppose that for every gate, we randomly select the t-approximation."
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "19:7",
                     "name": "(we randomly choose t subsets of its inputs)",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "(we randomly choose t subsets of its inputs)"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "161:0",
                     "name": "Claim: with high probability, the t-approximation is correct",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Claim: with high probability, the t-approximation is correct"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "21:642",
                     "name": "Let u be a gate, and let",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Let u be a gate, and let"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "21:643",
                     "name": "Prob",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "Prob"
+                    ]
                   },
                   {
                     "type": "show",
                     "id": "21:644",
                     "name": "=",
-                    "disabled": false
+                    "disabled": false,
+                    "keywords": [
+                      "="
+                    ]
                   },
                   {
                     "type": "child",
@@ -721,38 +1048,59 @@
                         "type": "show",
                         "id": "151:216",
                         "name": "true",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "true"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "151:218",
                         "name": "true",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "true"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "151:220",
                         "name": "Y = inputs which are true",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Y = inputs which are true"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "151:219",
                         "name": "if we randomly select a subset X of inputs for this gate, then incorrect “false” output iff |X ∩ Y| = 0 mod 3",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "if we randomly select a subset X of inputs for this gate, then incorrect “false” output iff |X ∩ Y| = 0 mod 3"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "160:29",
                         "name": "Let Y be a finite. What is the probability of selecting a subset of Y which is nonempty and has size divisible by 3?",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Let Y be a finite. What is the probability of selecting a subset of Y which is nonempty and has size divisible by 3?"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "151:205",
                         "name": "probability 1/3",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "probability 1/3"
+                        ]
                       }
+                    ],
+                    "keywords": [
+                      "Two thirds probability"
                     ]
                   },
                   {
@@ -764,19 +1112,28 @@
                         "type": "show",
                         "id": "21:743",
                         "name": "Therefore, for every choice of",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Therefore, for every choice of"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "21:744",
                         "name": "Prob",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "Prob"
+                        ]
                       },
                       {
                         "type": "show",
                         "id": "19:228",
                         "name": "if all rows in a matrix have average value < a, then some column has average value < a",
-                        "disabled": false
+                        "disabled": false,
+                        "keywords": [
+                          "if all rows in a matrix have average value < a, then some column has average value < a"
+                        ]
                       },
                       {
                         "type": "child",
@@ -787,42 +1144,75 @@
                             "type": "show",
                             "id": "21:746",
                             "name": "D corresponds to a polynomial of degree at most",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "D corresponds to a polynomial of degree at most"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "21:747",
                             "name": "D gives the wrong ansser with probability at most",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "D gives the wrong ansser with probability at most"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "19:331",
                             "name": "Group 8",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "Group 8"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "19:332",
                             "name": "Group 9",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "Group 9"
+                            ]
                           },
                           {
                             "type": "show",
                             "id": "19:347",
                             "name": "depth of C",
-                            "disabled": false
+                            "disabled": false,
+                            "keywords": [
+                              "depth of C"
+                            ]
                           }
+                        ],
+                        "keywords": [
+                          "Get the square root"
                         ]
                       }
+                    ],
+                    "keywords": [
+                      "Rows columns"
                     ]
                   }
+                ],
+                "keywords": [
+                  "Probability of approximation"
                 ]
               }
+            ],
+            "keywords": [
+              "Approximate gates"
             ]
           }
+        ],
+        "keywords": [
+          "If parity is in AC0, then it can be approximated "
         ]
       }
+    ],
+    "keywords": [
+      "First slide"
     ]
   },
   "soundDict": {
@@ -1469,5 +1859,5 @@
       }
     }
   },
-  "version": 0.81
+  "version": 0.84
 }
