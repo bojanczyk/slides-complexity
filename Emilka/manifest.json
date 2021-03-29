@@ -1,5 +1,5 @@
 {
-  "version": 0.85,
+  "version": 0.86,
   "presentation": "Emilka",
   "slideDict": {
     "new_slide": "Pierwszy",
@@ -93,9 +93,24 @@
             "keywords": [
               "Halo ruku"
             ]
+          },
+          {
+            "type": "show",
+            "id": "mikio",
+            "name": "mikio",
+            "merged": false,
+            "children": [],
+            "keywords": [
+              "mikio",
+              "fikio"
+            ],
+            "disabled": false
           }
         ],
         "keywords": [
+          "Miki",
+          "piki",
+          "fonterniki",
           "dziecko"
         ]
       }
@@ -115,18 +130,5 @@
         "duration": 1.896
       }
     }
-  },
-  "keywords": {
-    "new_slide": [
-      "Twierdzenie. ⊆ sasdfa ℝ gdfs",
-      "Bardzo by Ciebie zdziwiło",
-      "Pierwszy"
-    ],
-    "dziecko": [
-      "Halo kuku",
-      "Halo buku",
-      "Halo ruku",
-      "dziecko"
-    ]
   }
 }
