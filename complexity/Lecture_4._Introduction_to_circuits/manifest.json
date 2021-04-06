@@ -1,6 +1,6 @@
 {
+  "version": 0.88,
   "presentation": "Lecture 4. Introduction to circuits",
-  "root": "31:97",
   "slideDict": {
     "31:97": "31_97",
     "30:0": "30_0",
@@ -16,6 +16,7 @@
     "type": "child",
     "name": "Circuits",
     "id": "31:97",
+    "merged": false,
     "children": [
       {
         "type": "child",
@@ -28,9 +29,14 @@
             "name": "x1",
             "disabled": false,
             "keywords": [
-              "x1"
-            ],
-            "children": []
+              "x1",
+              "x5",
+              "x3",
+              "x2",
+              "x6",
+              "x4",
+              "A circuit"
+            ]
           },
           {
             "type": "show",
@@ -38,9 +44,9 @@
             "name": "it computes a function",
             "disabled": false,
             "keywords": [
-              "it computes a function"
-            ],
-            "children": []
+              "it computes a function",
+              "here n = 6"
+            ]
           },
           {
             "type": "show",
@@ -49,8 +55,7 @@
             "disabled": false,
             "keywords": [
               "a gate of fan-in 3"
-            ],
-            "children": []
+            ]
           },
           {
             "type": "show",
@@ -59,8 +64,7 @@
             "disabled": false,
             "keywords": [
               "the size of the circuit is 11"
-            ],
-            "children": []
+            ]
           },
           {
             "type": "show",
@@ -69,8 +73,7 @@
             "disabled": false,
             "keywords": [
               "the depth of the circuit is 4"
-            ],
-            "children": []
+            ]
           }
         ],
         "keywords": [
@@ -84,8 +87,7 @@
         "disabled": false,
         "keywords": [
           "Circuits can be seen as a model of parallel computation"
-        ],
-        "children": []
+        ]
       },
       {
         "type": "child",
@@ -98,9 +100,11 @@
             "name": "Multiplication of Boolean matrices: input: two n × n matrices A and B output: the n × n matrix AB",
             "disabled": false,
             "keywords": [
-              "Multiplication of Boolean matrices: input: two n × n matrices A and B output: the n × n matrix AB"
-            ],
-            "children": []
+              "Multiplication of Boolean matrices: input: two n × n matrices A and B output: the n × n matrix AB",
+              "0",
+              "1",
+              "="
+            ]
           },
           {
             "type": "show",
@@ -109,8 +113,7 @@
             "disabled": false,
             "keywords": [
               "Group 29"
-            ],
-            "children": []
+            ]
           },
           {
             "type": "show",
@@ -119,8 +122,7 @@
             "disabled": false,
             "keywords": [
               "Group 28"
-            ],
-            "children": []
+            ]
           },
           {
             "type": "show",
@@ -128,9 +130,10 @@
             "name": "As a function",
             "disabled": false,
             "keywords": [
-              "As a function"
-            ],
-            "children": []
+              "As a function",
+              "can be computed by a circuit of size and depth 2",
+              "matrix multiplication"
+            ]
           },
           {
             "type": "show",
@@ -139,8 +142,7 @@
             "disabled": false,
             "keywords": [
               "A sequence of circuits that has polynomial size and constant depth."
-            ],
-            "children": []
+            ]
           }
         ],
         "keywords": [
@@ -158,9 +160,10 @@
             "name": "Every function of type",
             "disabled": false,
             "keywords": [
-              "Every function of type"
-            ],
-            "children": []
+              "Every function of type",
+              "can be computed by a circuit of depth 3 like this:",
+              "the input is exactly"
+            ]
           },
           {
             "type": "show",
@@ -169,8 +172,7 @@
             "disabled": false,
             "keywords": [
               "exponential"
-            ],
-            "children": []
+            ]
           },
           {
             "type": "show",
@@ -179,8 +181,7 @@
             "disabled": false,
             "keywords": [
               "linear"
-            ],
-            "children": []
+            ]
           }
         ],
         "keywords": [
@@ -194,8 +195,7 @@
         "disabled": false,
         "keywords": [
           "Circuit complexity classes"
-        ],
-        "children": []
+        ]
       },
       {
         "type": "child",
@@ -209,8 +209,7 @@
             "disabled": false,
             "keywords": [
               "Polynomial size circuits"
-            ],
-            "children": []
+            ]
           },
           {
             "type": "child",
@@ -224,8 +223,7 @@
                 "disabled": false,
                 "keywords": [
                   "To recognise a language L ⊆ {true, false}*, we can use as sequence of circuits"
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -234,8 +232,7 @@
                 "disabled": false,
                 "keywords": [
                   "The n-th circuit computes membership in L for inputs of length exactly n."
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -244,8 +241,7 @@
                 "disabled": false,
                 "keywords": [
                   "Which languages can we get, if we assume that the circuits have polynomial size?"
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -254,8 +250,7 @@
                 "disabled": false,
                 "keywords": [
                   "What are the assumptions on ?"
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -264,8 +259,7 @@
                 "disabled": false,
                 "keywords": [
                   "Computable in polynomial time, given n in binary? Logarithmic space?"
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -274,8 +268,7 @@
                 "disabled": false,
                 "keywords": [
                   "No assumptions"
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -284,8 +277,7 @@
                 "disabled": false,
                 "keywords": [
                   "and uncountably many others"
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "child",
@@ -299,8 +291,7 @@
                     "disabled": false,
                     "keywords": [
                       "The following conditions are equivalent for every"
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -309,8 +300,7 @@
                     "disabled": false,
                     "keywords": [
                       "C can be computed in polynomial time"
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -319,8 +309,7 @@
                     "disabled": false,
                     "keywords": [
                       "given n, one can compute in polynomial time a circuit that computes C on inputs of length n."
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -329,8 +318,7 @@
                     "disabled": false,
                     "keywords": [
                       "given n, one can compute in LogSpace a circuit that computes C on inputs of length n."
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -339,8 +327,7 @@
                     "disabled": false,
                     "keywords": [
                       "LogSpace ⊆ P"
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -349,8 +336,7 @@
                     "disabled": false,
                     "keywords": [
                       "compute the circuit and run it"
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -359,8 +345,7 @@
                     "disabled": false,
                     "keywords": [
                       "same as the proof that alternating reachability is P-complete for LogSpace reductions"
-                    ],
-                    "children": []
+                    ]
                   }
                 ],
                 "keywords": [
@@ -379,8 +364,7 @@
                     "disabled": false,
                     "keywords": [
                       "Machines with advice"
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -389,8 +373,7 @@
                     "disabled": false,
                     "keywords": [
                       "a machine which is allowed one oracle query, and the query depends only on the input length"
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -399,8 +382,7 @@
                     "disabled": false,
                     "keywords": [
                       "A polynomial time Turing machine with advice consists of :"
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -409,8 +391,7 @@
                     "disabled": false,
                     "keywords": [
                       "1. a deterministic polynomial time Turing machine M"
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -419,8 +400,7 @@
                     "disabled": false,
                     "keywords": [
                       "2. for each input length, an advice word of polynomial length"
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -429,8 +409,7 @@
                     "disabled": false,
                     "keywords": [
                       "no requirement that the advice word can be computed"
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -439,8 +418,7 @@
                     "disabled": false,
                     "keywords": [
                       "The language of such a device is:"
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -449,8 +427,7 @@
                     "disabled": false,
                     "keywords": [
                       "{ w : M accepts w#(advice word for the length of w) }"
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -458,9 +435,9 @@
                     "name": "Theorem. P/poly = circuits of polynomial size",
                     "disabled": false,
                     "keywords": [
-                      "Theorem. P/poly = circuits of polynomial size"
-                    ],
-                    "children": []
+                      "Theorem. P/poly = circuits of polynomial size",
+                      "languages of this form"
+                    ]
                   },
                   {
                     "type": "show",
@@ -468,9 +445,9 @@
                     "name": "⊇",
                     "disabled": false,
                     "keywords": [
-                      "⊇"
-                    ],
-                    "children": []
+                      "⊇",
+                      "the circuit is the advice string"
+                    ]
                   },
                   {
                     "type": "show",
@@ -478,9 +455,9 @@
                     "name": "⊆",
                     "disabled": false,
                     "keywords": [
-                      "⊆"
-                    ],
-                    "children": []
+                      "⊆",
+                      "as when showing P ⊆ P-computable circuits of polynomial size"
+                    ]
                   },
                   {
                     "type": "show",
@@ -489,8 +466,7 @@
                     "disabled": false,
                     "keywords": [
                       "Conjecture. NP is not contained in P/poly."
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -499,8 +475,7 @@
                     "disabled": false,
                     "keywords": [
                       "stronger than NP ≠ P."
-                    ],
-                    "children": []
+                    ]
                   }
                 ],
                 "keywords": [
@@ -519,8 +494,7 @@
             "disabled": false,
             "keywords": [
               "Polynomial size circuits of small depth"
-            ],
-            "children": []
+            ]
           },
           {
             "type": "child",
@@ -534,8 +508,7 @@
                 "disabled": false,
                 "keywords": [
                   "For k ∈ {0, 1, 2, ...} define:"
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -543,9 +516,9 @@
                 "name": "circuits which have polynomial size and depth at most",
                 "disabled": false,
                 "keywords": [
-                  "circuits which have polynomial size and depth at most"
-                ],
-                "children": []
+                  "circuits which have polynomial size and depth at most",
+                  "k = 0 means bounded depth"
+                ]
               },
               {
                 "type": "show",
@@ -553,9 +526,9 @@
                 "name": "as above, but also every gate has fan-in ≤ 2",
                 "disabled": false,
                 "keywords": [
-                  "as above, but also every gate has fan-in ≤ 2"
-                ],
-                "children": []
+                  "as above, but also every gate has fan-in ≤ 2",
+                  "⊆"
+                ]
               },
               {
                 "type": "show",
@@ -564,8 +537,7 @@
                 "disabled": false,
                 "keywords": [
                   "$\\mathrm{NC}^k \\subseteq \\mathrm{AC}^k \\subseteq \\mathrm{NC}^{k+1}$40"
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -574,8 +546,7 @@
                 "disabled": false,
                 "keywords": [
                   "by definition"
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -584,8 +555,7 @@
                 "disabled": false,
                 "keywords": [
                   "because a gate with fan-in m can be simulated by a circuit of depth log m, which is O(log n) when m is polynomial."
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -594,8 +564,7 @@
                 "disabled": false,
                 "keywords": [
                   "Next lecture: this inclusion is strict for k = 0"
-                ],
-                "children": []
+                ]
               }
             ],
             "keywords": [
@@ -614,11 +583,12 @@
         "disabled": false,
         "keywords": [
           "Next lecture: circuits of polynomial size and bounded depth (AC0), cannot recognise the language “even number of true’s”"
-        ],
-        "children": []
+        ]
       }
     ],
     "keywords": [
+      "Computational Complexity",
+      "Lecture 1. Turing machines and their resources",
       "Circuits"
     ]
   },
@@ -917,6 +887,5 @@
         "duration": 55.344
       }
     }
-  },
-  "version": 0.86
+  }
 }

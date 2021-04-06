@@ -1,4 +1,5 @@
 {
+  "version": 0.88,
   "presentation": "orbit-finite vector spaces",
   "slideDict": {
     "3:0": "First_slide",
@@ -12,22 +13,12 @@
     "5:134": "basis_problems",
     "6:3": "duals"
   },
-  "soundDict": {},
   "tree": {
     "type": "child",
     "name": "First slide",
     "id": "3:0",
+    "merged": false,
     "children": [
-      {
-        "type": "show",
-        "id": "6:27",
-        "name": "Vector spaces of orbit-finite dimension with applications to weighted and unambiguous automata.",
-        "disabled": false,
-        "keywords": [
-          "Vector spaces of orbit-finite dimension with applications to weighted and unambiguous automata."
-        ],
-        "children": []
-      },
       {
         "type": "show",
         "id": "3:7",
@@ -35,8 +26,7 @@
         "disabled": false,
         "keywords": [
           "Weighted automata of finite dimension [Schützenberger 1961]"
-        ],
-        "children": []
+        ]
       },
       {
         "type": "show",
@@ -45,8 +35,7 @@
         "disabled": false,
         "keywords": [
           "Our work: weighted automata of orbit-finite dimension"
-        ],
-        "children": []
+        ]
       },
       {
         "type": "child",
@@ -59,9 +48,9 @@
             "name": "fix the field of rational numbers",
             "disabled": false,
             "keywords": [
+              "Weighted automata over a field",
               "fix the field of rational numbers"
-            ],
-            "children": []
+            ]
           },
           {
             "type": "child",
@@ -75,8 +64,7 @@
                 "disabled": false,
                 "keywords": [
                   "A weighted automaton is like nondeterministic automaton, except that:"
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -84,9 +72,12 @@
                 "name": "a/1, b/1",
                 "disabled": false,
                 "keywords": [
-                  "a/1, b/1"
-                ],
-                "children": []
+                  "b/1",
+                  "a/2",
+                  "a/1, b/1",
+                  "5",
+                  "7"
+                ]
               },
               {
                 "type": "show",
@@ -95,8 +86,7 @@
                 "disabled": false,
                 "keywords": [
                   "The weight of a run is the multiplication of: the initial weight of the first state, the weights of all transitions, the final weight of the last state."
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -105,8 +95,7 @@
                 "disabled": false,
                 "keywords": [
                   "The weight of an input word is the sum of weights of all runs."
-                ],
-                "children": []
+                ]
               }
             ],
             "keywords": [
@@ -120,8 +109,7 @@
             "disabled": false,
             "keywords": [
               "Theorem. [Schützenberger 1961] The following problems are in P: (a) equivalence of two weighted automata; (b) zeroness of a single weighted automaton."
-            ],
-            "children": []
+            ]
           },
           {
             "type": "child",
@@ -135,8 +123,7 @@
                 "disabled": false,
                 "keywords": [
                   "Proof. Consider the zeroness problem of a weighted automaton with n states."
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -144,9 +131,10 @@
                 "name": "3 is the sum of weights of runs that end in q (using weights for δ and I, but not for F)",
                 "disabled": false,
                 "keywords": [
+                  "Every input word w ∈ Σ* yields a vector in 𝔽n",
+                  "5p + 3q – 7r",
                   "3 is the sum of weights of runs that end in q (using weights for δ and I, but not for F)"
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -155,8 +143,7 @@
                 "disabled": false,
                 "keywords": [
                   "Consider a chain of subspaces V₁ ⊆ V₂ ⊆ V₃ ⊆ ... ⊆ 𝔽n where Vi is linear combinations of state vectors for input words of length at most i."
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -165,8 +152,7 @@
                 "disabled": false,
                 "keywords": [
                   "Each element of this chain can be computed (represented by a basis), and the chain has length at most n."
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -175,8 +161,7 @@
                 "disabled": false,
                 "keywords": [
                   "The output of the automaton is obtained by applying a linear map f : 𝔽n → 𝔽 to the corresponding state vector, and therefore the automaton is zero if and only if all elements of the chain are mapped by f to zero."
-                ],
-                "children": []
+                ]
               }
             ],
             "keywords": [
@@ -190,8 +175,7 @@
             "disabled": false,
             "keywords": [
               "Corollary 1. The following problem is in P: given two nondeterministic automata, do they have the same number of runs for every input word?"
-            ],
-            "children": []
+            ]
           },
           {
             "type": "show",
@@ -200,8 +184,7 @@
             "disabled": false,
             "keywords": [
               "Corollary 2. The following problem is in P: given two unambiguous automata, do they accept the same words?"
-            ],
-            "children": []
+            ]
           }
         ],
         "keywords": [
@@ -219,9 +202,9 @@
             "name": "the atoms 𝔸 are either (ℕ, =) or (ℚ, <)",
             "disabled": false,
             "keywords": [
+              "We use atoms and orbit-finite sets.",
               "the atoms 𝔸 are either (ℕ, =) or (ℚ, <)"
-            ],
-            "children": []
+            ]
           },
           {
             "type": "show",
@@ -230,8 +213,7 @@
             "disabled": false,
             "keywords": [
               "Definition. A weighted orbit-finite automaton consists of"
-            ],
-            "children": []
+            ]
           },
           {
             "type": "show",
@@ -239,9 +221,10 @@
             "name": "equivariant orbit-finite sets",
             "disabled": false,
             "keywords": [
-              "equivariant orbit-finite sets"
-            ],
-            "children": []
+              "Q",
+              "equivariant orbit-finite sets",
+              "Σ"
+            ]
           },
           {
             "type": "show",
@@ -249,9 +232,10 @@
             "name": "equivariant functions",
             "disabled": false,
             "keywords": [
+              "δ : Q × Σ × Q ⟶ 𝔽",
+              "I, F : Q ⟶ 𝔽",
               "equivariant functions"
-            ],
-            "children": []
+            ]
           },
           {
             "type": "show",
@@ -259,9 +243,9 @@
             "name": "Finitely many states have nonzero initial weight, and for every q ∈ Q and a ∈ Σ there are finitely many p ∈ Q with δ(q, a, p) ≠ 0.",
             "disabled": false,
             "keywords": [
-              "Finitely many states have nonzero initial weight, and for every q ∈ Q and a ∈ Σ there are finitely many p ∈ Q with δ(q, a, p) ≠ 0."
-            ],
-            "children": []
+              "Finitely many states have nonzero initial weight, and for every q ∈ Q and a ∈ Σ there are finitely many p ∈ Q with δ(q, a, p) ≠ 0.",
+              "To avoid summing infinitely many weights, we assume:"
+            ]
           },
           {
             "type": "show",
@@ -270,8 +254,7 @@
             "disabled": false,
             "keywords": [
               "(for nondeterministic automata, this is called “not guessing atoms”)"
-            ],
-            "children": []
+            ]
           },
           {
             "type": "show",
@@ -280,8 +263,7 @@
             "disabled": false,
             "keywords": [
               "The recognized “language” is an equivariant function L : Σ* → 𝔽."
-            ],
-            "children": []
+            ]
           },
           {
             "type": "show",
@@ -290,8 +272,7 @@
             "disabled": false,
             "keywords": [
               "Equivalence is decidable"
-            ],
-            "children": []
+            ]
           },
           {
             "type": "child",
@@ -304,9 +285,11 @@
                 "name": "atom dimension, which is the maximal support size for states (for register automata, this is the number of registers)",
                 "disabled": false,
                 "keywords": [
-                  "atom dimension, which is the maximal support size for states (for register automata, this is the number of registers)"
-                ],
-                "children": []
+                  "Theorem. Assume that the atoms are either (ℕ, =) or (ℚ, <).",
+                  "The zeroness problem can be solved in deterministic time",
+                  "atom dimension, which is the maximal support size for states (for register automata, this is the number of registers)",
+                  "orbit size, which is the number of orbits in Q and Σ"
+                ]
               },
               {
                 "type": "show",
@@ -315,8 +298,7 @@
                 "disabled": false,
                 "keywords": [
                   "Corollary 1. The language equivalence problem for non-guessing unambiguous register automata is in ExpTime and in P for a fixed number of registers."
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -325,8 +307,7 @@
                 "disabled": false,
                 "keywords": [
                   "Previous work [Mottet and Quaas 2016, Clemente and Barloy 2021] had 2ExpSpace and ExpSpace, respectively, and used equality only."
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -335,8 +316,7 @@
                 "disabled": false,
                 "keywords": [
                   "Later in this talk: Algorithm works also for guessing automata."
-                ],
-                "children": []
+                ]
               }
             ],
             "keywords": [
@@ -350,8 +330,7 @@
             "disabled": false,
             "keywords": [
               "Vector spaces of orbit-finite dimension"
-            ],
-            "children": []
+            ]
           },
           {
             "type": "child",
@@ -364,9 +343,10 @@
                 "name": "To every input word w for a weighted automaton, we associate a vector",
                 "disabled": false,
                 "keywords": [
-                  "To every input word w for a weighted automaton, we associate a vector"
-                ],
-                "children": []
+                  "To every input word w for a weighted automaton, we associate a vector",
+                  "[w] ∈ LinQ",
+                  "finite linear combinations of states"
+                ]
               },
               {
                 "type": "show",
@@ -374,9 +354,9 @@
                 "name": "finite linear combinations of vectors corresponding to words of length ≤ i",
                 "disabled": false,
                 "keywords": [
-                  "finite linear combinations of vectors corresponding to words of length ≤ i"
-                ],
-                "children": []
+                  "finite linear combinations of vectors corresponding to words of length ≤ i",
+                  "We consider the chain of subspaces V₁ ⊆ V₂ ⊆ V₃ ⊆ ... ⊆ LinQ"
+                ]
               },
               {
                 "type": "show",
@@ -384,9 +364,10 @@
                 "name": "These are all equivariant subspaces.",
                 "disabled": false,
                 "keywords": [
-                  "These are all equivariant subspaces."
-                ],
-                "children": []
+                  "These are all equivariant subspaces.",
+                  "closed under atom automorphisms",
+                  "closed under linear combinations"
+                ]
               },
               {
                 "type": "show",
@@ -395,8 +376,7 @@
                 "disabled": false,
                 "keywords": [
                   "Main technical lemma: the length of this chain is at most"
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -405,8 +385,7 @@
                 "disabled": false,
                 "keywords": [
                   "Examples"
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "child",
@@ -420,8 +399,7 @@
                     "disabled": false,
                     "keywords": [
                       "Example 1. Consider the equality atoms 𝔸, and the vector space Lin𝔸"
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -430,8 +408,7 @@
                     "disabled": false,
                     "keywords": [
                       "Here are all of the equivariant subspaces:"
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -440,8 +417,7 @@
                     "disabled": false,
                     "keywords": [
                       "0. the empty space {0}"
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -450,8 +426,7 @@
                     "disabled": false,
                     "keywords": [
                       "2. the full space Lin𝔸"
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -460,8 +435,7 @@
                     "disabled": false,
                     "keywords": [
                       "1. the sub-space spanned by {a – b : a, b ∈ 𝔸}"
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -470,8 +444,7 @@
                     "disabled": false,
                     "keywords": [
                       "equivalently, vectors where coefficients sum up to 0"
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -480,8 +453,7 @@
                     "disabled": false,
                     "keywords": [
                       "Example 2. Consider the equality atoms 𝔸, and the vector space Lin𝔸2"
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -489,9 +461,17 @@
                     "name": "An element of this space is a finite directed weighted graph",
                     "disabled": false,
                     "keywords": [
-                      "An element of this space is a finite directed weighted graph"
-                    ],
-                    "children": []
+                      "An element of this space is a finite directed weighted graph",
+                      "3(a, b) – 8(a, c) + 9(c, b) + (b, c) + 7(c, c)",
+                      "a",
+                      "c",
+                      "b",
+                      "7",
+                      "3",
+                      "–8",
+                      "1",
+                      "9"
+                    ]
                   },
                   {
                     "type": "show",
@@ -500,8 +480,7 @@
                     "disabled": false,
                     "keywords": [
                       "Examples of equivariant subspaces:"
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -510,8 +489,7 @@
                     "disabled": false,
                     "keywords": [
                       "1. sum of edge weights is 0"
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -520,8 +498,7 @@
                     "disabled": false,
                     "keywords": [
                       "2. every vertex has outdegree 0"
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -530,8 +507,7 @@
                     "disabled": false,
                     "keywords": [
                       "3. every vertex has outdegree = indegree"
-                    ],
-                    "children": []
+                    ]
                   }
                 ],
                 "keywords": [
@@ -545,8 +521,7 @@
                 "disabled": false,
                 "keywords": [
                   "Basis problems"
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "child",
@@ -560,8 +535,7 @@
                     "disabled": false,
                     "keywords": [
                       "Finding a basis involves choice, so problems arise with atoms."
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -570,8 +544,7 @@
                     "disabled": false,
                     "keywords": [
                       "The subspace of Lin𝔸 spanned by {a – b : a, b ∈ 𝔸} does not have an equivariant basis."
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -580,8 +553,7 @@
                     "disabled": false,
                     "keywords": [
                       "It has a finitely supported basis, namely {a₀ – b : b ∈ 𝔸 – {a₀}}."
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -590,8 +562,7 @@
                     "disabled": false,
                     "keywords": [
                       "There is a subspace of Lin𝔸2 which does not have any finitely supported basis."
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -600,8 +571,7 @@
                     "disabled": false,
                     "keywords": [
                       "The appropriate notion is orbit-finitely spanned vector spaces."
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -610,8 +580,7 @@
                     "disabled": false,
                     "keywords": [
                       "Theorem. Assume that the atoms are either (ℕ, =) or (ℚ, <)."
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -620,8 +589,7 @@
                     "disabled": false,
                     "keywords": [
                       "Then orbit-finitely spanned vector spaces are closed under:"
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -630,8 +598,7 @@
                     "disabled": false,
                     "keywords": [
                       "1. Cartesian products V ⊕ W"
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -640,8 +607,7 @@
                     "disabled": false,
                     "keywords": [
                       "2. tensor products V ⊗ W"
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -650,8 +616,7 @@
                     "disabled": false,
                     "keywords": [
                       "3. subspaces"
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -660,8 +625,7 @@
                     "disabled": false,
                     "keywords": [
                       "4. quotients"
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -670,8 +634,7 @@
                     "disabled": false,
                     "keywords": [
                       "These constructions are effective, and there are algorithms for solving orbit-finite systems of linear equations."
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -680,8 +643,7 @@
                     "disabled": false,
                     "keywords": [
                       "5. duals"
-                    ],
-                    "children": []
+                    ]
                   }
                 ],
                 "keywords": [
@@ -695,8 +657,7 @@
                 "disabled": false,
                 "keywords": [
                   "Dual spaces"
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "child",
@@ -710,8 +671,7 @@
                     "disabled": false,
                     "keywords": [
                       "Orbit-finite sets are not closed under powersets, however ..."
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -720,8 +680,7 @@
                     "disabled": false,
                     "keywords": [
                       "Theorem. Assume that the atoms are either (ℕ, =) or (ℚ, <)."
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -729,9 +688,13 @@
                     "name": "Then for every orbit finite set P, the vector space",
                     "disabled": false,
                     "keywords": [
+                      "Then for every orbit finite set P, the vector space of functions",
+                      "is orbit-finitely spanned.",
+                      "P",
+                      "𝔽",
+                      "finitely supported",
                       "Then for every orbit finite set P, the vector space"
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -740,8 +703,7 @@
                     "disabled": false,
                     "keywords": [
                       "same as the vector space finitely supported linear maps of type LinP → 𝔽"
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -749,9 +711,11 @@
                     "name": "Example. In the equality atoms, the vector space",
                     "disabled": false,
                     "keywords": [
+                      "𝔸",
+                      "𝔽",
+                      "finitely supported",
                       "Example. In the equality atoms, the vector space"
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -760,8 +724,7 @@
                     "disabled": false,
                     "keywords": [
                       "is spanned by characteristic functions of (a) all atoms, (b) singleton sets."
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -770,8 +733,7 @@
                     "disabled": false,
                     "keywords": [
                       "Using such vector spaces, we solve the equivalence problem for unambiguous automata with guessing, with same complexity as for non-guessing."
-                    ],
-                    "children": []
+                    ]
                   }
                 ],
                 "keywords": [
@@ -790,8 +752,10 @@
       }
     ],
     "keywords": [
+      "Vector spaces of orbit-finite dimension with applications to weighted and unambiguous automata.",
+      "Mikołaj Bojańczyk, Bartek Klin, Joshua Moerman",
       "First slide"
     ]
   },
-  "version": 0.86
+  "soundDict": {}
 }

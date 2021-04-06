@@ -1,6 +1,6 @@
 {
+  "version": 0.88,
   "presentation": "Spotlight 2021",
-  "root": "2:0",
   "slideDict": {
     "2:0": "First_slide",
     "3:3": "Mealy_machines",
@@ -33,6 +33,7 @@
         "children": [],
         "disabled": false,
         "keywords": [
+          "Mealy machines",
           "one-way letter-to-letter deterministic transducers"
         ]
       },
@@ -44,7 +45,9 @@
         "children": [],
         "disabled": false,
         "keywords": [
-          "a class of string-to-string transducers of linear size increase"
+          "Regular",
+          "a class of string-to-string transducers of linear size increase",
+          "⊊"
         ]
       },
       {
@@ -55,7 +58,9 @@
         "children": [],
         "disabled": false,
         "keywords": [
-          "a class of string-to-string transducers of polynomial size increase"
+          "Polyregular",
+          "a class of string-to-string transducers of polynomial size increase",
+          "⊊"
         ]
       },
       {
@@ -72,6 +77,13 @@
             "children": [],
             "disabled": false,
             "keywords": [
+              "even",
+              "odd",
+              "a / a",
+              "a / b",
+              "b / b",
+              "b / a",
+              "A Mealy machine",
               "A deterministic finite automaton with output letters on transitions, and no accepting states."
             ]
           },
@@ -83,7 +95,10 @@
             "children": [],
             "disabled": false,
             "keywords": [
-              "Theorem. [Krohn Rhodes 1962] Every Mealy machine f admits a decomposition"
+              "Theorem. [Krohn Rhodes 1962] Every Mealy machine f admits a decomposition",
+              "Reversible: each input letter is a permutation of the states",
+              "A flip-flop machine",
+              "each of these prime Mealy machines is either:"
             ]
           },
           {
@@ -111,6 +126,15 @@
                 "children": [],
                 "disabled": false,
                 "keywords": [
+                  "b",
+                  "a",
+                  "d",
+                  "c",
+                  "e",
+                  "no",
+                  "yes",
+                  "Input:",
+                  "Output:",
                   "The input word is copied, and each letter is extended with one bit of information: was the most recent non-neutral letter yes or no?"
                 ]
               },
@@ -205,7 +229,16 @@
                     "children": [],
                     "disabled": false,
                     "keywords": [
-                      "a1"
+                      "a1",
+                      "a0",
+                      "a3",
+                      "a5",
+                      "a4",
+                      "a8",
+                      "a2",
+                      "a6",
+                      "a9",
+                      "a7"
                     ]
                   },
                   {
@@ -216,7 +249,8 @@
                     "children": [],
                     "disabled": false,
                     "keywords": [
-                      "State transformation for infix that begins in position i and ends in position j."
+                      "State transformation for infix that begins in position i and ends in position j.",
+                      "Main object of interest:"
                     ]
                   },
                   {
@@ -238,7 +272,13 @@
                     "children": [],
                     "disabled": false,
                     "keywords": [
-                      "δ0..1"
+                      "δ0..1",
+                      "δ0..0",
+                      "δ4..5",
+                      "δ4..4",
+                      "δ0..2",
+                      "δ9..9",
+                      "δ7..7"
                     ]
                   },
                   {
@@ -271,7 +311,9 @@
                     "children": [],
                     "disabled": false,
                     "keywords": [
-                      "δ0..3"
+                      "δ0..3",
+                      "δ4..6",
+                      "δ7..8"
                     ]
                   },
                   {
@@ -304,7 +346,9 @@
                     "children": [],
                     "disabled": false,
                     "keywords": [
-                      "δ0..3"
+                      "δ0..3",
+                      "δ0..6",
+                      "δ0..8"
                     ]
                   },
                   {
@@ -337,7 +381,16 @@
                     "children": [],
                     "disabled": false,
                     "keywords": [
-                      "q1"
+                      "q1",
+                      "q0",
+                      "q3",
+                      "q5",
+                      "q4",
+                      "q8",
+                      "q2",
+                      "q6",
+                      "q9",
+                      "q7"
                     ]
                   },
                   {
@@ -468,7 +521,10 @@
             "children": [],
             "disabled": false,
             "keywords": [
-              "Theorem. A function is regular if and only if it is a composition of finitely many prime functions, which are: Mealy machines, map reverse and map duplicate."
+              "Theorem. A function is regular if and only if it is a composition of finitely many prime functions, which are: Mealy machines, map reverse and map duplicate.",
+              "abc|def|gh cba|fed|hg",
+              "↦",
+              "abc|def|gh abcabc|defdef|ghgh"
             ]
           },
           {
@@ -479,7 +535,8 @@
             "children": [],
             "disabled": false,
             "keywords": [
-              "primes* ⊆ regular"
+              "primes* ⊆ regular",
+              "regular ⊆ primes*"
             ]
           },
           {
@@ -496,6 +553,7 @@
                 "children": [],
                 "disabled": false,
                 "keywords": [
+                  "We show: (2-dfa) ◦ prime ⊆ 2-dfa",
                   "2-dfa are closed under pre-composition with one prime function"
                 ]
               },
@@ -546,6 +604,9 @@
                     "children": [],
                     "disabled": false,
                     "keywords": [
+                      "a",
+                      "c",
+                      "b",
                       "input"
                     ]
                   },
@@ -557,6 +618,12 @@
                     "children": [],
                     "disabled": false,
                     "keywords": [
+                      "e",
+                      "c",
+                      "b",
+                      "a",
+                      "d",
+                      "intermediate",
                       "reversible Mealy machine"
                     ]
                   },
@@ -568,6 +635,11 @@
                     "children": [],
                     "disabled": false,
                     "keywords": [
+                      "b",
+                      "c",
+                      "e",
+                      "a",
+                      "output",
                       "two-way deterministic transducer"
                     ]
                   },
@@ -601,6 +673,10 @@
                     "children": [],
                     "disabled": false,
                     "keywords": [
+                      "a",
+                      "b",
+                      "d",
+                      "c",
                       "input"
                     ]
                   },
@@ -612,7 +688,14 @@
                     "children": [],
                     "disabled": false,
                     "keywords": [
-                      "flip-flop"
+                      "flip-flop",
+                      "a",
+                      "b",
+                      "d",
+                      "c",
+                      "input",
+                      "no",
+                      "yes"
                     ]
                   },
                   {
@@ -623,6 +706,11 @@
                     "children": [],
                     "disabled": false,
                     "keywords": [
+                      "b",
+                      "c",
+                      "e",
+                      "a",
+                      "output",
                       "two-way deterministic transducer"
                     ]
                   },
@@ -650,6 +738,8 @@
                 "children": [],
                 "disabled": false,
                 "keywords": [
+                  "(2-dfa) ◦ Mealy ⊆ 2-dfa",
+                  "Cases 1 and 2 prove",
                   "which is a classical result of Hopcroft and Ullman with a nontrivial proof"
                 ]
               },
@@ -694,7 +784,8 @@
                 "children": [],
                 "disabled": false,
                 "keywords": [
-                  "Step 2. In the presence of a factorisation forest, the behaviour of a 2-dfa reduces to patterns like:"
+                  "Step 2. In the presence of a factorisation forest, the behaviour of a 2-dfa reduces to patterns like:",
+                  "in each block, the behaviour is the same and idempotent"
                 ]
               }
             ],
@@ -771,7 +862,9 @@
                 "children": [],
                 "disabled": false,
                 "keywords": [
-                  "1 321 54321 7654321"
+                  "123456",
+                  "1 321 54321 7654321",
+                  "↦"
                 ]
               },
               {
@@ -782,7 +875,11 @@
                 "children": [],
                 "disabled": false,
                 "keywords": [
-                  "var b = false for x in first..last b = not b if b for y in last..first if (y ≤ x) if a(y) output a if b(y) output b"
+                  "var b = false for x in first..last b = not b if b for y in last..first if (y ≤ x) if a(y) output a if b(y) output b",
+                  "boolean variables",
+                  "for loops over positions in input string",
+                  "output",
+                  "positions can be compared for order and labels"
                 ]
               },
               {
@@ -848,7 +945,9 @@
                 "children": [],
                 "disabled": false,
                 "keywords": [
-                  "1 321 54321 7654321"
+                  "123456",
+                  "1 321 54321 7654321",
+                  "↦"
                 ]
               },
               {
@@ -870,7 +969,8 @@
                 "children": [],
                 "disabled": false,
                 "keywords": [
-                  "Positions of the output string are pairs (x₁, x₂) which satisfy"
+                  "Positions of the output string are pairs (x₁, x₂) which satisfy",
+                  "x₁ ≥ x₂ ∧ x₁ is odd"
                 ]
               },
               {
@@ -892,6 +992,8 @@
                 "children": [],
                 "disabled": false,
                 "keywords": [
+                  "The order (x₁, x₂) ≤ (y₁, y₂) on output positions is defined by",
+                  "x₁ < y₁ ∨ (x₁ = y₁ ∧ x₂ ≥ y₂)",
                   "in general, any MSO formula with 2k arguments which defines a total order"
                 ]
               },
@@ -903,7 +1005,9 @@
                 "children": [],
                 "disabled": false,
                 "keywords": [
-                  "Positions of the output string with label a are pairs (x₁, x₂) which satisfy"
+                  "Positions of the output string with label a are pairs (x₁, x₂) which satisfy",
+                  "a(x₂)",
+                  "in general, any MSO formula with k arguments"
                 ]
               },
               {
@@ -941,6 +1045,9 @@
             "children": [],
             "disabled": false,
             "keywords": [
+              "Theorem. B. 2018 A function is polyregular if and only if it is a composition of finitely many prime functions, which are: regular functions and square.",
+              "abcde abcde abcde abcde abcde abcde",
+              "↦",
               "Theorem. A function is regular if and only if it is a composition of finitely many prime functions, which are: Mealy machines, map reverse and map duplicate."
             ]
           },
@@ -952,7 +1059,8 @@
             "children": [],
             "disabled": false,
             "keywords": [
-              "primes* ⊆ polyregular"
+              "primes* ⊆ polyregular",
+              "polyregular ⊆ primes*"
             ]
           },
           {
@@ -991,7 +1099,8 @@
                 "children": [],
                 "disabled": false,
                 "keywords": [
-                  "for x in first..last for y in last..first for-free code"
+                  "for x in first..last for y in last..first for-free code",
+                  "Suppose we want to compose this:"
                 ]
               },
               {
@@ -1002,7 +1111,8 @@
                 "children": [],
                 "disabled": false,
                 "keywords": [
-                  "for u in first..last for v in last..first for w in last..first for-free code"
+                  "for u in first..last for v in last..first for w in last..first for-free code",
+                  "Followed by this:"
                 ]
               },
               {
@@ -1090,7 +1200,8 @@
                 "children": [],
                 "disabled": false,
                 "keywords": [
-                  "Suppose that the for transducer has two loops:"
+                  "Suppose that the for transducer has two loops:",
+                  "for x in first..last for y in last..first"
                 ]
               },
               {
@@ -1101,7 +1212,8 @@
                 "children": [],
                 "disabled": false,
                 "keywords": [
-                  "If the input word is 1234, the output can be computed by a 2-DFA running on:"
+                  "If the input word is 1234, the output can be computed by a 2-DFA running on:",
+                  "1234 1234 1234 1234"
                 ]
               },
               {
@@ -1112,6 +1224,7 @@
                 "children": [],
                 "disabled": false,
                 "keywords": [
+                  "Suppose that the for transducer has three loops:",
                   "for x in last..first for y in last..first for z in last..first"
                 ]
               },
@@ -1123,7 +1236,8 @@
                 "children": [],
                 "disabled": false,
                 "keywords": [
-                  "If the input word is 1234, the output can be computed by a 2-DFA running on:"
+                  "If the input word is 1234, the output can be computed by a 2-DFA running on:",
+                  "1234 1234 1234 1234"
                 ]
               }
             ],
@@ -1270,9 +1384,10 @@
       }
     ],
     "keywords": [
+      "Transducers and their decompositions into primes",
+      "Mikołaj Bojańczyk (University of Warsaw)",
       "First slide"
     ]
   },
-  "soundDict": {},
-  "version": 0.86
+  "soundDict": {}
 }

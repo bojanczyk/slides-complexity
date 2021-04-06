@@ -1,6 +1,6 @@
 {
+  "version": 0.88,
   "presentation": "Lecture 2. Space and time",
-  "root": "72:38",
   "slideDict": {
     "72:36": "72_36",
     "68:18": "68_18",
@@ -28,6 +28,7 @@
     "type": "child",
     "name": "first slide",
     "id": "72:36",
+    "merged": false,
     "children": [
       {
         "type": "show",
@@ -35,9 +36,9 @@
         "name": "Ptime",
         "disabled": false,
         "keywords": [
+          "P",
           "Ptime"
-        ],
-        "children": []
+        ]
       },
       {
         "type": "child",
@@ -50,9 +51,11 @@
             "name": "Time complexity",
             "disabled": false,
             "keywords": [
+              "The time complexity of a Turing machine is:",
+              "n ∈ {0, 1, ...} ↦",
+              "maximal number of steps used by the machine, on inputs of length n",
               "Time complexity"
-            ],
-            "children": []
+            ]
           },
           {
             "type": "show",
@@ -61,8 +64,7 @@
             "disabled": false,
             "keywords": [
               "Polynomial time: problems that can be solved by a Turing machine whose running time is ≤ p(n) for some polynomial p."
-            ],
-            "children": []
+            ]
           },
           {
             "type": "show",
@@ -71,8 +73,7 @@
             "disabled": false,
             "keywords": [
               "Examples"
-            ],
-            "children": []
+            ]
           },
           {
             "type": "show",
@@ -81,8 +82,7 @@
             "disabled": false,
             "keywords": [
               "Is an undirected graph connected?"
-            ],
-            "children": []
+            ]
           },
           {
             "type": "show",
@@ -91,8 +91,7 @@
             "disabled": false,
             "keywords": [
               "Is there a path from s to t in a directed graph?"
-            ],
-            "children": []
+            ]
           },
           {
             "type": "show",
@@ -101,8 +100,7 @@
             "disabled": false,
             "keywords": [
               "Is a finite automaton nonempty?"
-            ],
-            "children": []
+            ]
           },
           {
             "type": "show",
@@ -110,9 +108,9 @@
             "name": "Group 38",
             "disabled": false,
             "keywords": [
+              "can be done in nondterministic logarithmic space",
               "Group 38"
-            ],
-            "children": []
+            ]
           },
           {
             "type": "show",
@@ -121,8 +119,7 @@
             "disabled": false,
             "keywords": [
               "Is a context-free grammar nonempty?"
-            ],
-            "children": []
+            ]
           }
         ],
         "keywords": [
@@ -135,9 +132,9 @@
         "name": "Exptime",
         "disabled": false,
         "keywords": [
+          "ExpTime",
           "Exptime"
-        ],
-        "children": []
+        ]
       },
       {
         "type": "child",
@@ -150,9 +147,10 @@
             "name": "Group 40",
             "disabled": false,
             "keywords": [
+              "Exponential time: problems that can be solved by a Turing machine whose running time is ≤ 2 for some polynomial p.",
+              "p(n)",
               "Group 40"
-            ],
-            "children": []
+            ]
           },
           {
             "type": "show",
@@ -160,9 +158,9 @@
             "name": "Group 39",
             "disabled": false,
             "keywords": [
+              "Square of exponential time is also exponential:",
               "Group 39"
-            ],
-            "children": []
+            ]
           },
           {
             "type": "show",
@@ -171,8 +169,7 @@
             "disabled": false,
             "keywords": [
               "Examples"
-            ],
-            "children": []
+            ]
           },
           {
             "type": "show",
@@ -181,8 +178,7 @@
             "disabled": false,
             "keywords": [
               "Is a context-free grammar nonempty?"
-            ],
-            "children": []
+            ]
           },
           {
             "type": "show",
@@ -191,8 +187,7 @@
             "disabled": false,
             "keywords": [
               "Is a finite automaton nonempty?"
-            ],
-            "children": []
+            ]
           },
           {
             "type": "show",
@@ -201,8 +196,7 @@
             "disabled": false,
             "keywords": [
               "Is a finite automaton nonempty?"
-            ],
-            "children": []
+            ]
           },
           {
             "type": "show",
@@ -211,8 +205,7 @@
             "disabled": false,
             "keywords": [
               "Is a finite automaton nonempty?"
-            ],
-            "children": []
+            ]
           }
         ],
         "keywords": [
@@ -226,8 +219,7 @@
         "disabled": false,
         "keywords": [
           "Thm. ExpTime > P"
-        ],
-        "children": []
+        ]
       },
       {
         "type": "child",
@@ -240,9 +232,13 @@
             "name": "exponential complete language",
             "disabled": false,
             "keywords": [
+              "Consider the following language:",
+              "m ∈ {0,1}* represents a Turing machine, which accepts w ∈ {0,1}* in time whose binary representation is t ∈ {0,1}*",
+              "{",
+              "}",
+              "m#w#t :",
               "exponential complete language"
-            ],
-            "children": []
+            ]
           },
           {
             "type": "show",
@@ -250,9 +246,9 @@
             "name": "in exptime",
             "disabled": false,
             "keywords": [
+              "This language is clearly in ExpTime, the corresponding Turing machine runs in time at most",
               "in exptime"
-            ],
-            "children": []
+            ]
           },
           {
             "type": "show",
@@ -261,8 +257,7 @@
             "disabled": false,
             "keywords": [
               "Suppose that this language is recognised by a polynomial time Turing machine M."
-            ],
-            "children": []
+            ]
           },
           {
             "type": "show",
@@ -271,8 +266,7 @@
             "disabled": false,
             "keywords": [
               "For k ∈ {1, 2, ...} consider the following Turing machine N[k]:"
-            ],
-            "children": []
+            ]
           },
           {
             "type": "show",
@@ -280,9 +274,15 @@
             "name": "exponential diagonal",
             "disabled": false,
             "keywords": [
+              "w ∈ {0,1}* ↦",
+              "Does w represent a Turing machine that accepts input w in time at most 2",
+              "reject",
+              "accept",
+              "yes",
+              "no",
+              "k",
               "exponential diagonal"
-            ],
-            "children": []
+            ]
           },
           {
             "type": "child",
@@ -295,9 +295,12 @@
                 "name": "N is polynomial",
                 "disabled": false,
                 "keywords": [
+                  "Using M, we can construct N[k] so that:",
+                  "running time of N[k]",
+                  "p is a polynomial that depends only on M",
+                  "n is input size",
                   "N is polynomial"
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -305,9 +308,9 @@
                 "name": "size of N is linear",
                 "disabled": false,
                 "keywords": [
+                  "size of N[k]",
                   "size of N is linear"
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -315,9 +318,11 @@
                 "name": "k large enough",
                 "disabled": false,
                 "keywords": [
+                  "If k is large enough, then the running time of N[k] on N[k] is at most 2",
+                  "k",
+                  "grows polynomially with k",
                   "k large enough"
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -325,9 +330,11 @@
                 "name": "paradox",
                 "disabled": false,
                 "keywords": [
+                  "For this k we have",
+                  "N[k] accepts N[k] ⇒ N[k] rejects N[k]",
+                  "N[k] rejects N[k] ⇒ N[k] accepts N[k]",
                   "paradox"
-                ],
-                "children": []
+                ]
               }
             ],
             "keywords": [
@@ -346,8 +353,7 @@
         "disabled": false,
         "keywords": [
           "For the same reasons, there is an infinite hierarchy: P < ExpTime < 2ExpTime < ..."
-        ],
-        "children": []
+        ]
       },
       {
         "type": "show",
@@ -355,9 +361,9 @@
         "name": "PSPace",
         "disabled": false,
         "keywords": [
+          "PSpace",
           "PSPace"
-        ],
-        "children": []
+        ]
       },
       {
         "type": "child",
@@ -370,9 +376,9 @@
             "name": "Polynomial space: problems that can be solved by a Turing machine whose space complexity is ≤ p(n) for some polynomial p.",
             "disabled": false,
             "keywords": [
-              "Polynomial space: problems that can be solved by a Turing machine whose space complexity is ≤ p(n) for some polynomial p."
-            ],
-            "children": []
+              "Polynomial space: problems that can be solved by a Turing machine whose space complexity is ≤ p(n) for some polynomial p.",
+              "number of cells used in work tape"
+            ]
           },
           {
             "type": "show",
@@ -380,9 +386,9 @@
             "name": "Group 58",
             "disabled": false,
             "keywords": [
+              "If an automaton has n states and rejects some word, then it rejects a word of length",
               "Group 58"
-            ],
-            "children": []
+            ]
           },
           {
             "type": "show",
@@ -391,8 +397,7 @@
             "disabled": false,
             "keywords": [
               "Examples"
-            ],
-            "children": []
+            ]
           },
           {
             "type": "show",
@@ -401,8 +406,7 @@
             "disabled": false,
             "keywords": [
               "Is there a path from s to t in a directed graph?"
-            ],
-            "children": []
+            ]
           },
           {
             "type": "show",
@@ -411,8 +415,7 @@
             "disabled": false,
             "keywords": [
               "Is there a path from s to t in a directed graph?"
-            ],
-            "children": []
+            ]
           },
           {
             "type": "child",
@@ -426,8 +429,7 @@
                 "disabled": false,
                 "keywords": [
                   "PSpace ⊆ ExpTime"
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -436,8 +438,7 @@
                 "disabled": false,
                 "keywords": [
                   "Main observation: The number of configurations of a PSpace machine is at most exponential, and it is enough to consider computations without loops."
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -445,9 +446,10 @@
                 "name": "Group 59",
                 "disabled": false,
                 "keywords": [
+                  "Suppose that M is a deterministic Turing machine using at most p(n) space.",
+                  "a polynomial",
                   "Group 59"
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -455,9 +457,10 @@
                 "name": "Group 60",
                 "disabled": false,
                 "keywords": [
+                  "An accepting computation can have length at most nc",
+                  "p(n)",
                   "Group 60"
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -466,8 +469,7 @@
                 "disabled": false,
                 "keywords": [
                   "We can simply run it M, while counting the number of steps, and reject once the exponential bound is exceeded."
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -476,8 +478,7 @@
                 "disabled": false,
                 "keywords": [
                   "By the Sipser theorem (see later), this will not be needed."
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -486,8 +487,7 @@
                 "disabled": false,
                 "keywords": [
                   "Also works for nondeterministic PSpace: explore the tree of all computations, using depth-first search, with an exponential bound on recursion depth."
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -496,8 +496,7 @@
                 "disabled": false,
                 "keywords": [
                   "By the Savitch theorem (see later), this will not be needed."
-                ],
-                "children": []
+                ]
               }
             ],
             "keywords": [
@@ -516,8 +515,7 @@
         "disabled": false,
         "keywords": [
           "NP"
-        ],
-        "children": []
+        ]
       },
       {
         "type": "child",
@@ -531,8 +529,7 @@
             "disabled": false,
             "keywords": [
               "nondeterministic polynomial time"
-            ],
-            "children": []
+            ]
           },
           {
             "type": "child",
@@ -546,8 +543,7 @@
                 "disabled": false,
                 "keywords": [
                   "Equivalent definitions of NP"
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -555,9 +551,11 @@
                 "name": "usual definition",
                 "disabled": false,
                 "keywords": [
+                  "There is a polynomial p and a nondeterministic Turing machine M such that",
+                  "v ∈ L ⟺ M has an accepting run of length < p(|v|)",
+                  "(for words in L, the machine might have rejecting runs, and longer accepting runs)",
                   "usual definition"
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -565,9 +563,13 @@
                 "name": "There is a polynomial p and a deterministic Turing machine M such that",
                 "disabled": false,
                 "keywords": [
+                  "There is a polynomial p and a deterministic poly time Turing machine M such that",
+                  "with a witness tape",
+                  "v ∈ L",
+                  "⟺",
+                  "∃w of size < p(|v|) such that M accepts (v, w)",
                   "There is a polynomial p and a deterministic Turing machine M such that"
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -575,9 +577,11 @@
                 "name": "all runs are short",
                 "disabled": false,
                 "keywords": [
+                  "There is a polynomial p and a nondeterministic Turing machine M such that",
+                  "v ∈ L ⟺ M has an accepting run of length < p(|v|)",
+                  "and for every word (in or not in L), all runs have length < p(|v|)",
                   "all runs are short"
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -585,9 +589,10 @@
                 "name": "use nondterminism",
                 "disabled": false,
                 "keywords": [
+                  "use nondeterminism to guess v, and then run the deterministic Turing machine",
+                  "⇒",
                   "use nondterminism"
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -595,9 +600,10 @@
                 "name": "witness is computation",
                 "disabled": false,
                 "keywords": [
+                  "the word v, called the witness, is the computation of the nondeterministic Turing machine",
+                  "⇒",
                   "witness is computation"
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -605,9 +611,9 @@
                 "name": "special case",
                 "disabled": false,
                 "keywords": [
-                  "special case"
-                ],
-                "children": []
+                  "special case",
+                  "⇒"
+                ]
               },
               {
                 "type": "show",
@@ -615,9 +621,10 @@
                 "name": "reject after exceeding bound",
                 "disabled": false,
                 "keywords": [
+                  "the machine can compute p(|v|), and reject immediately once the computation time exceeds this bound",
+                  "⇒",
                   "reject after exceeding bound"
-                ],
-                "children": []
+                ]
               }
             ],
             "keywords": [
@@ -626,6 +633,7 @@
           }
         ],
         "keywords": [
+          "Text",
           "NP"
         ]
       },
@@ -635,9 +643,11 @@
         "name": "strictness",
         "disabled": false,
         "keywords": [
+          "apart from this, we know nothing about the strictness of these inclusions:",
+          "any nonempty subset of these three inclusions could be strict",
+          "P ⊆ NP ⊆ PSpace ⊆ ExpTime",
           "strictness"
-        ],
-        "children": []
+        ]
       },
       {
         "type": "show",
@@ -646,8 +656,7 @@
         "disabled": false,
         "keywords": [
           "Savitch’s theorem: Nondeterministic polynomial space = deterministic polynomial space"
-        ],
-        "children": []
+        ]
       },
       {
         "type": "child",
@@ -660,9 +669,10 @@
             "name": "Definition. Nondeterministic PSpace",
             "disabled": false,
             "keywords": [
-              "Definition. Nondeterministic PSpace"
-            ],
-            "children": []
+              "Definition. Nondeterministic PSpace",
+              "There is a nondeterministic Turing machine M and a polynomial p such that:",
+              "v ∈ L ⟺ there is an accepting run of M which uses space < p(|v|)"
+            ]
           },
           {
             "type": "show",
@@ -670,9 +680,9 @@
             "name": "Equivalent definition. There is a deterministic Turing machine M and a polynomial p such that:",
             "disabled": false,
             "keywords": [
-              "Equivalent definition. There is a deterministic Turing machine M and a polynomial p such that:"
-            ],
-            "children": []
+              "Equivalent definition. There is a deterministic Turing machine M and a polynomial p such that:",
+              "v ∈ L ⟺ ∃w M accepts (v, w) using space < p(|v|)"
+            ]
           },
           {
             "type": "child",
@@ -685,9 +695,10 @@
                 "name": "Group 42",
                 "disabled": false,
                 "keywords": [
+                  "A computation of space n can have time at most k",
+                  "n",
                   "Group 42"
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -695,9 +706,10 @@
                 "name": "Group 43",
                 "disabled": false,
                 "keywords": [
+                  "F(source, target, n, m)",
+                  "0",
                   "Group 43"
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -705,9 +717,12 @@
                 "name": "Group 41",
                 "disabled": false,
                 "keywords": [
+                  "configurations",
+                  "time ≤ 2",
+                  "space ≤ m",
+                  "n",
                   "Group 41"
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -715,9 +730,12 @@
                 "name": "Group 46",
                 "disabled": false,
                 "keywords": [
+                  "if n = 1 then",
+                  "1",
+                  "check if source can reach target in 0 or 1 steps",
+                  "2",
                   "Group 46"
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -725,9 +743,20 @@
                 "name": "Group 47",
                 "disabled": false,
                 "keywords": [
+                  "for every configuration c of memory at most n:",
+                  "return false",
+                  "if F(source, c, n–1, m) then",
+                  "if F(c, target, n–1, m) then",
+                  "else",
+                  "return true",
+                  "3",
+                  "6",
+                  "4",
+                  "7",
+                  "5",
+                  "8",
                   "Group 47"
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -735,9 +764,11 @@
                 "name": "Group 48",
                 "disabled": false,
                 "keywords": [
+                  "This is a deterministic program that uses space O(n × m)",
+                  "memory for each recursive call",
+                  "recursion depth",
                   "Group 48"
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -746,8 +777,7 @@
                 "disabled": false,
                 "keywords": [
                   "To prove Savitch’s theorem, for a nondeterministic Turing machine that runs in space p(n), we run this program for: source = initial configuration target = accepting configuration n = log k × p(n) m = p(n)"
-                ],
-                "children": []
+                ]
               }
             ],
             "keywords": [
@@ -766,8 +796,7 @@
         "disabled": false,
         "keywords": [
           "Sipser’s theorem: machines with finite space can be forced to halt"
-        ],
-        "children": []
+        ]
       },
       {
         "type": "child",
@@ -781,8 +810,7 @@
             "disabled": false,
             "keywords": [
               "Rough idea"
-            ],
-            "children": []
+            ]
           },
           {
             "type": "show",
@@ -791,8 +819,7 @@
             "disabled": false,
             "keywords": [
               "without any extra space"
-            ],
-            "children": []
+            ]
           },
           {
             "type": "show",
@@ -801,8 +828,7 @@
             "disabled": false,
             "keywords": [
               "Theorem (Sipser). For every deterministic Turing machine M, there is a deterministic Turing machine N such that for every input word:"
-            ],
-            "children": []
+            ]
           },
           {
             "type": "show",
@@ -811,8 +837,7 @@
             "disabled": false,
             "keywords": [
               "1. M accepts if and only if N accepts"
-            ],
-            "children": []
+            ]
           },
           {
             "type": "show",
@@ -821,8 +846,7 @@
             "disabled": false,
             "keywords": [
               "2. if M uses n < ∞ memory cells, then N halts and also uses n cells."
-            ],
-            "children": []
+            ]
           },
           {
             "type": "child",
@@ -836,8 +860,7 @@
                 "disabled": false,
                 "keywords": [
                   "Consider the graph of configurations that use memory ≤ m"
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -845,9 +868,11 @@
                 "name": "This is a directed graph",
                 "disabled": false,
                 "keywords": [
+                  "This is a directed graph with outdegree ≤ 1 and indegree ≤ k",
+                  "because the machine is deterministic",
+                  "9 × Q × Γ",
                   "This is a directed graph"
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -856,8 +881,7 @@
                 "disabled": false,
                 "keywords": [
                   "Group 37"
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -866,8 +890,7 @@
                 "disabled": false,
                 "keywords": [
                   "Group 36"
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -876,8 +899,7 @@
                 "disabled": false,
                 "keywords": [
                   "Group 35"
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -886,8 +908,7 @@
                 "disabled": false,
                 "keywords": [
                   "each component is either a tree..."
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -896,8 +917,7 @@
                 "disabled": false,
                 "keywords": [
                   "...or a tree with a cycle"
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -905,9 +925,9 @@
                 "name": "Group 57",
                 "disabled": false,
                 "keywords": [
+                  "terminals",
                   "Group 57"
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -915,9 +935,10 @@
                 "name": "A terminal in this graph is a vertex of outdegree 0.",
                 "disabled": false,
                 "keywords": [
-                  "A terminal in this graph is a vertex of outdegree 0."
-                ],
-                "children": []
+                  "A terminal in this graph is a vertex of outdegree 0.",
+                  "(a) accepting configuration (b) rejecting configuration (c) will increase memory to m+1",
+                  "If a component has a terminal, then it is a tree."
+                ]
               },
               {
                 "type": "show",
@@ -926,8 +947,7 @@
                 "disabled": false,
                 "keywords": [
                   "Solution: Start in the accepting configuration, and search the tree (dfs) for the initial configuration."
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -936,8 +956,7 @@
                 "disabled": false,
                 "keywords": [
                   "Solution: Start in the accepting configuration, and search the tree (dfs) for the initial configuration."
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -946,8 +965,7 @@
                 "disabled": false,
                 "keywords": [
                   "If there are 0 such terminals, the machine loops in memory ≤ m."
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -956,8 +974,7 @@
                 "disabled": false,
                 "keywords": [
                   "If there is 1 such terminal, we can reject, accept, or increment m."
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "child",
@@ -971,8 +988,7 @@
                     "disabled": false,
                     "keywords": [
                       "The algorithm"
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -980,9 +996,10 @@
                     "name": "Group 49",
                     "disabled": false,
                     "keywords": [
+                      "write a memory bound m on the tape (initially, m = 1)",
+                      "1",
                       "Group 49"
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -990,9 +1007,10 @@
                     "name": "Group 50",
                     "disabled": false,
                     "keywords": [
+                      "for every configuration c with memory ≤ m",
+                      "2",
                       "Group 50"
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -1000,9 +1018,10 @@
                     "name": "Group 51",
                     "disabled": false,
                     "keywords": [
+                      "if c is a terminal",
+                      "3",
                       "Group 51"
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -1010,9 +1029,10 @@
                     "name": "Group 52",
                     "disabled": false,
                     "keywords": [
+                      "if c can be reached from the initial configuration using memory ≤ m",
+                      "4",
                       "Group 52"
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "child",
@@ -1025,9 +1045,16 @@
                         "name": "Group 56",
                         "disabled": false,
                         "keywords": [
+                          "Given a configuration C and i ∈ {0, 1, 2, ...., k} we can compute the i-th neighbour of C, using no extra space.",
+                          "q",
+                          "p",
+                          "r",
+                          "neighbour 1",
+                          "neighbour 2",
+                          "neighbour 0",
+                          "neighbour 3",
                           "Group 56"
-                        ],
-                        "children": []
+                        ]
                       },
                       {
                         "type": "show",
@@ -1036,8 +1063,7 @@
                         "disabled": false,
                         "keywords": [
                           "The simulating machine remembers in its state which neighbour it has visited in the previous step."
-                        ],
-                        "children": []
+                        ]
                       }
                     ],
                     "keywords": [
@@ -1050,9 +1076,10 @@
                     "name": "Group 53",
                     "disabled": false,
                     "keywords": [
+                      "if c is accepting then accept, if it is rejecting then reject",
+                      "5",
                       "Group 53"
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -1060,9 +1087,10 @@
                     "name": "Group 54",
                     "disabled": false,
                     "keywords": [
+                      "if c increases the memory bound to m+1, then increment m and goto 2",
+                      "6",
                       "Group 54"
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -1070,9 +1098,10 @@
                     "name": "Group 55",
                     "disabled": false,
                     "keywords": [
+                      "if no terminal is accessible from the initial configuration, then reject",
+                      "7",
                       "Group 55"
-                    ],
-                    "children": []
+                    ]
                   }
                 ],
                 "keywords": [
@@ -1095,9 +1124,9 @@
         "name": "L and NL",
         "disabled": false,
         "keywords": [
+          "NL",
           "L and NL"
-        ],
-        "children": []
+        ]
       },
       {
         "type": "child",
@@ -1111,8 +1140,7 @@
             "disabled": false,
             "keywords": [
               "Logarithmic space"
-            ],
-            "children": []
+            ]
           },
           {
             "type": "show",
@@ -1121,8 +1149,7 @@
             "disabled": false,
             "keywords": [
               "The work tape has size at most log(poly n)"
-            ],
-            "children": []
+            ]
           },
           {
             "type": "child",
@@ -1135,9 +1162,10 @@
                 "name": "Group 65",
                 "disabled": false,
                 "keywords": [
+                  "=",
+                  "logarithmic",
                   "Group 65"
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -1145,9 +1173,9 @@
                 "name": "Group 66",
                 "disabled": false,
                 "keywords": [
+                  "=",
                   "Group 66"
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -1156,8 +1184,7 @@
                 "disabled": false,
                 "keywords": [
                   "not logarithmic, but polylogarithmic"
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "child",
@@ -1170,9 +1197,9 @@
                     "name": "Group 61",
                     "disabled": false,
                     "keywords": [
+                      "=",
                       "Group 61"
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -1180,9 +1207,9 @@
                     "name": "Group 62",
                     "disabled": false,
                     "keywords": [
+                      "=",
                       "Group 62"
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -1190,9 +1217,9 @@
                     "name": "Group 63",
                     "disabled": false,
                     "keywords": [
+                      "=",
                       "Group 63"
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -1201,8 +1228,7 @@
                     "disabled": false,
                     "keywords": [
                       "Group 64"
-                    ],
-                    "children": []
+                    ]
                   }
                 ],
                 "keywords": [
@@ -1221,8 +1247,7 @@
             "disabled": false,
             "keywords": [
               "For this class it is important to separate the input and work tapes."
-            ],
-            "children": []
+            ]
           },
           {
             "type": "show",
@@ -1230,9 +1255,9 @@
             "name": "L ",
             "disabled": false,
             "keywords": [
+              "L = deterministic logarithmic space",
               "L "
-            ],
-            "children": []
+            ]
           },
           {
             "type": "show",
@@ -1241,8 +1266,7 @@
             "disabled": false,
             "keywords": [
               "NL = nondeterministic logarithmic space"
-            ],
-            "children": []
+            ]
           },
           {
             "type": "show",
@@ -1250,9 +1274,10 @@
             "name": "There is a nondeterministic Turing machine M and a polynomial p such that:",
             "disabled": false,
             "keywords": [
+              "There is a nondeterministic Turing machine M such that:",
+              "v ∈ L iff there is an accepting run of M which uses space at most O(log |v|)",
               "There is a nondeterministic Turing machine M and a polynomial p such that:"
-            ],
-            "children": []
+            ]
           },
           {
             "type": "show",
@@ -1260,9 +1285,10 @@
             "name": "Equivalent definition. There is a deterministic Turing machine M and a polynomial p such that:",
             "disabled": false,
             "keywords": [
+              "Equivalent definition. There is a deterministic Turing machine M with a one-way witness tape such that:",
+              "v ∈ L iff ∃w M accepts (v, w) using space at most O(log |v|)",
               "Equivalent definition. There is a deterministic Turing machine M and a polynomial p such that:"
-            ],
-            "children": []
+            ]
           },
           {
             "type": "show",
@@ -1271,8 +1297,7 @@
             "disabled": false,
             "keywords": [
               "Applying the Savitch construction to a nondeterministic logspace machine gives a deterministic machine in space"
-            ],
-            "children": []
+            ]
           },
           {
             "type": "show",
@@ -1281,8 +1306,7 @@
             "disabled": false,
             "keywords": [
               "But at least nondeterministic logarithmic space is closed under complementation."
-            ],
-            "children": []
+            ]
           },
           {
             "type": "show",
@@ -1291,8 +1315,7 @@
             "disabled": false,
             "keywords": [
               "unlike for NP, where we coNP is a thing"
-            ],
-            "children": []
+            ]
           },
           {
             "type": "child",
@@ -1306,8 +1329,7 @@
                 "disabled": false,
                 "keywords": [
                   "There is a nondeterministic logspace machine which does the following:"
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -1316,8 +1338,7 @@
                 "disabled": false,
                 "keywords": [
                   "input: a directed graph, with a designated source vertex"
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -1326,8 +1347,7 @@
                 "disabled": false,
                 "keywords": [
                   "output: the number of vertices reachable from the source"
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -1336,8 +1356,7 @@
                 "disabled": false,
                 "keywords": [
                   "on every input, the machine has a unique accepting run, and the output number is found on the work tape, in binary"
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "child",
@@ -1350,9 +1369,10 @@
                     "name": "r[d] := 1",
                     "disabled": false,
                     "keywords": [
-                      "r[d] := 1"
-                    ],
-                    "children": []
+                      "r[d] := 1",
+                      "d := 0",
+                      "r[d] is the number of vertices that can be reached from the source, using a path with at most d edges."
+                    ]
                   },
                   {
                     "type": "show",
@@ -1360,9 +1380,9 @@
                     "name": "repeat",
                     "disabled": false,
                     "keywords": [
+                      "until r[d] = r[d-1]",
                       "repeat"
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -1371,8 +1391,7 @@
                     "disabled": false,
                     "keywords": [
                       "d := d+1"
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -1381,8 +1400,7 @@
                     "disabled": false,
                     "keywords": [
                       "r[d] := 0"
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -1390,9 +1408,10 @@
                     "name": "for v",
                     "disabled": false,
                     "keywords": [
+                      "for v in vertices",
+                      "we want to check if v is reachable by a path of at most d edges",
                       "for v"
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -1401,8 +1420,7 @@
                     "disabled": false,
                     "keywords": [
                       "i := 0"
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -1411,8 +1429,7 @@
                     "disabled": false,
                     "keywords": [
                       "for u in vertices"
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -1420,9 +1437,9 @@
                     "name": "guesses if the vertex u is reachable via a path of at most d–1 edges. If the guess is wrong, the program will eventually fail.",
                     "disabled": false,
                     "keywords": [
-                      "guesses if the vertex u is reachable via a path of at most d–1 edges. If the guess is wrong, the program will eventually fail."
-                    ],
-                    "children": []
+                      "guesses if the vertex u is reachable via a path of at most d–1 edges. If the guess is wrong, the program will eventually fail.",
+                      "guess x ∈ {true, false}"
+                    ]
                   },
                   {
                     "type": "show",
@@ -1431,8 +1448,7 @@
                     "disabled": false,
                     "keywords": [
                       "if x then"
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -1440,9 +1456,9 @@
                     "name": "a subroutine that can be done in nondeterministic logspace",
                     "disabled": false,
                     "keywords": [
+                      "assert Reachable(s,u,d-1)",
                       "a subroutine that can be done in nondeterministic logspace"
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -1451,8 +1467,7 @@
                     "disabled": false,
                     "keywords": [
                       "if there was an incorrect “true” guess, then this will fail"
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -1461,8 +1476,7 @@
                     "disabled": false,
                     "keywords": [
                       "i := i+1"
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -1471,8 +1485,7 @@
                     "disabled": false,
                     "keywords": [
                       "if Edge(u,v) then"
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -1481,8 +1494,7 @@
                     "disabled": false,
                     "keywords": [
                       "r[d] := r[d] + 1"
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -1491,8 +1503,7 @@
                     "disabled": false,
                     "keywords": [
                       "break"
-                    ],
-                    "children": []
+                    ]
                   },
                   {
                     "type": "show",
@@ -1500,9 +1511,9 @@
                     "name": "if there was an incorrect “false” guess, then this will fail",
                     "disabled": false,
                     "keywords": [
-                      "if there was an incorrect “false” guess, then this will fail"
-                    ],
-                    "children": []
+                      "if there was an incorrect “false” guess, then this will fail",
+                      "assert i = r[d-1]"
+                    ]
                   }
                 ],
                 "keywords": [
@@ -1516,8 +1527,7 @@
                 "disabled": false,
                 "keywords": [
                   "Consider a language L, whose complement is recognised by a nondeterministic logspace Turing machine M."
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -1526,8 +1536,7 @@
                 "disabled": false,
                 "keywords": [
                   "Run the counting algorithm twice:"
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -1536,8 +1545,7 @@
                 "disabled": false,
                 "keywords": [
                   "(1) on the graph of configurations of M"
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -1546,8 +1554,7 @@
                 "disabled": false,
                 "keywords": [
                   "(2) on the graph of configurations of M, with accepting configurations removed"
-                ],
-                "children": []
+                ]
               },
               {
                 "type": "show",
@@ -1556,8 +1563,7 @@
                 "disabled": false,
                 "keywords": [
                   "If the results are equal (i.e. M rejects), then accept, otherwise reject."
-                ],
-                "children": []
+                ]
               }
             ],
             "keywords": [
@@ -2357,6 +2363,5 @@
         "duration": 0.384
       }
     }
-  },
-  "version": 0.86
+  }
 }

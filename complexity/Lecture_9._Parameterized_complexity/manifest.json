@@ -1,4 +1,5 @@
 {
+  "version": 0.88,
   "presentation": "Lecture 9. Parameterized complexity",
   "slideDict": {
     "1:2": "First_slide",
@@ -20,6 +21,1741 @@
     "25:17": "From_Turing_to_clique",
     "26:128": "From_Turing_to_clique_2",
     "34:1": "Noncomputable"
+  },
+  "tree": {
+    "type": "child",
+    "name": "First slide",
+    "id": "1:2",
+    "merged": false,
+    "children": [
+      {
+        "type": "show",
+        "id": "24:2",
+        "name": "Idea. So far, we measured the complexity of an algorithm as f (input size)?",
+        "disabled": false,
+        "keywords": [
+          "Idea. So far, we measured the complexity of an algorithm as f (input size)?"
+        ]
+      },
+      {
+        "type": "show",
+        "id": "24:3",
+        "name": "What if there were other parameters: f (input size, some other parameter)?",
+        "disabled": false,
+        "keywords": [
+          "What if there were other parameters: f (input size, some other parameter)?"
+        ]
+      },
+      {
+        "type": "show",
+        "id": "24:4",
+        "name": "graph size",
+        "disabled": false,
+        "keywords": [
+          "graph size"
+        ]
+      },
+      {
+        "type": "show",
+        "id": "24:5",
+        "name": "number of colours",
+        "disabled": false,
+        "keywords": [
+          "number of colours"
+        ]
+      },
+      {
+        "type": "child",
+        "name": "Vertex cover",
+        "id": "1:6",
+        "children": [
+          {
+            "type": "show",
+            "id": "21:333",
+            "name": "A vertex cover for a graph is a set of vertices which is incident with every edge.",
+            "disabled": false,
+            "keywords": [
+              "A vertex cover for a graph is a set of vertices which is incident with every edge.",
+              "not a vertex cover, because this edge is not covered",
+              "a vertex cover"
+            ]
+          },
+          {
+            "type": "show",
+            "id": "1:58",
+            "name": "The following problem is NP-complete: Input. A graph and a number k. Question. Is there a vertex cover of size ≤ k?",
+            "disabled": false,
+            "keywords": [
+              "The following problem is NP-complete: Input. A graph and a number k. Question. Is there a vertex cover of size ≤ k?"
+            ]
+          },
+          {
+            "type": "child",
+            "name": "Vertex cover is NP complete",
+            "id": "2:0",
+            "children": [
+              {
+                "type": "show",
+                "id": "7:98",
+                "name": "Proof. A reduction from 3-CNF-SAT",
+                "disabled": false,
+                "keywords": [
+                  "Proof. A reduction from 3-CNF-SAT"
+                ]
+              },
+              {
+                "type": "child",
+                "name": "NP completeness of vertex cover",
+                "id": "7:96",
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "11:12",
+                    "name": "Consider an instance of 3-CNF-SAT",
+                    "disabled": false,
+                    "keywords": [
+                      "Consider an instance of 3-CNF-SAT",
+                      "(¬a ∨ ¬b ∨ ¬c) ∧ (¬a ∨ b ∨ ¬c) ∧ (¬a ∨ ¬b ∨ c) ∧ (a ∨ b ∨ c)"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "7:91",
+                    "name": "¬a",
+                    "disabled": false,
+                    "keywords": [
+                      "¬a",
+                      "¬b",
+                      "¬c",
+                      "b",
+                      "c",
+                      "a"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "7:92",
+                    "name": "for every clause there is a triangle",
+                    "disabled": false,
+                    "keywords": [
+                      "for every clause there is a triangle"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "7:90",
+                    "name": "a",
+                    "disabled": false,
+                    "keywords": [
+                      "a",
+                      "¬a",
+                      "b",
+                      "¬b",
+                      "c",
+                      "¬c"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "7:94",
+                    "name": "for every variable we create an edge",
+                    "disabled": false,
+                    "keywords": [
+                      "for every variable we create an edge"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "7:89",
+                    "name": "Group 10",
+                    "disabled": false,
+                    "keywords": [
+                      "Group 10"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "7:95",
+                    "name": "edges connect appearances of a variable",
+                    "disabled": false,
+                    "keywords": [
+                      "edges connect appearances of a variable"
+                    ]
+                  },
+                  {
+                    "type": "hide",
+                    "id": "7:92",
+                    "name": "for every clause there is a triangle",
+                    "disabled": false,
+                    "keywords": [
+                      "for every clause there is a triangle"
+                    ]
+                  },
+                  {
+                    "type": "hide",
+                    "id": "7:95",
+                    "name": "edges connect appearances of a variable",
+                    "disabled": false,
+                    "keywords": [
+                      "edges connect appearances of a variable"
+                    ]
+                  },
+                  {
+                    "type": "hide",
+                    "id": "7:94",
+                    "name": "for every variable we create an edge",
+                    "disabled": false,
+                    "keywords": [
+                      "for every variable we create an edge"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "11:14",
+                    "name": "formula is satisfiable",
+                    "disabled": false,
+                    "keywords": [
+                      "formula is satisfiable",
+                      "graph has a vertex cover of size ≤ number of variables + 2(number of clauses)",
+                      "iff"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "11:9",
+                    "name": "⟹",
+                    "disabled": false,
+                    "keywords": [
+                      "⟹"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "7:100",
+                    "name": "Take a satisfying assignment, and select for each variable the corresponding vertex in each blue edge.",
+                    "disabled": false,
+                    "keywords": [
+                      "Take a satisfying assignment, and select for each variable the corresponding vertex in each blue edge."
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "11:11",
+                    "name": "Group 13",
+                    "disabled": false,
+                    "keywords": [
+                      "Group 13"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "11:6",
+                    "name": "In every triangle, some vertex has its red edge covered.",
+                    "disabled": false,
+                    "keywords": [
+                      "In every triangle, some vertex has its red edge covered."
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "11:7",
+                    "name": "Select the remaining two vertices.",
+                    "disabled": false,
+                    "keywords": [
+                      "Select the remaining two vertices."
+                    ]
+                  },
+                  {
+                    "type": "hide",
+                    "id": "11:11",
+                    "name": "Group 13",
+                    "disabled": false,
+                    "keywords": [
+                      "Group 13"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "11:8",
+                    "name": "⟹",
+                    "disabled": false,
+                    "keywords": [
+                      "⟹"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "11:0",
+                    "name": "At least one vertex must be selected for each blue edge",
+                    "disabled": false,
+                    "keywords": [
+                      "At least one vertex must be selected for each blue edge"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "11:1",
+                    "name": "At least two vertices must be selected for each triangle",
+                    "disabled": false,
+                    "keywords": [
+                      "At least two vertices must be selected for each triangle"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "7:101",
+                    "name": "A vertex cover of this size needs exactly: 1. one vertex per blue edge, 2. two vertices per black triangle",
+                    "disabled": false,
+                    "keywords": [
+                      "A vertex cover of this size needs exactly: 1. one vertex per blue edge, 2. two vertices per black triangle"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "8:2",
+                    "name": "To be a cover, it needs to describe a satisfying assignment.",
+                    "disabled": false,
+                    "keywords": [
+                      "To be a cover, it needs to describe a satisfying assignment."
+                    ]
+                  }
+                ],
+                "keywords": [
+                  "NP completeness of vertex cover"
+                ]
+              },
+              {
+                "type": "show",
+                "id": "11:15",
+                "name": "linear",
+                "disabled": false,
+                "keywords": [
+                  "linear"
+                ]
+              }
+            ],
+            "keywords": [
+              "Vertex cover is NP complete"
+            ]
+          },
+          {
+            "type": "show",
+            "id": "11:17",
+            "name": "What about fixed k?",
+            "disabled": false,
+            "keywords": [
+              "What about fixed k?"
+            ]
+          },
+          {
+            "type": "child",
+            "name": "fixed k",
+            "id": "11:18",
+            "children": [
+              {
+                "type": "show",
+                "id": "21:329",
+                "name": "Algorithm 1. Search all subsets of size ≤ k",
+                "disabled": false,
+                "keywords": [
+                  "Algorithm 1. Search all subsets of size ≤ k",
+                  "Running time:",
+                  "(number of edges) × (number of vertices)",
+                  "k"
+                ]
+              },
+              {
+                "type": "show",
+                "id": "11:153",
+                "name": "Polynomial for fixed k, but the polynomial and its degree depend on k",
+                "disabled": false,
+                "keywords": [
+                  "Polynomial for fixed k, but the polynomial and its degree depend on k"
+                ]
+              },
+              {
+                "type": "show",
+                "id": "21:330",
+                "name": "Algorithm 2.",
+                "disabled": false,
+                "keywords": [
+                  "Algorithm 2.",
+                  "Running time:",
+                  "2 × (number of edges)",
+                  "k"
+                ]
+              },
+              {
+                "type": "show",
+                "id": "11:158",
+                "name": "Polynomial for fixed k, and degree of polynomial does not depend on k",
+                "disabled": false,
+                "keywords": [
+                  "Polynomial for fixed k, and degree of polynomial does not depend on k"
+                ]
+              },
+              {
+                "type": "child",
+                "name": "FPT for vertex cover",
+                "id": "11:25",
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "11:149",
+                    "name": "An algorithm that runs in time",
+                    "disabled": false,
+                    "keywords": [
+                      "An algorithm that runs in time"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "11:148",
+                    "name": "linear time for fixed k",
+                    "disabled": false,
+                    "keywords": [
+                      "linear time for fixed k"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "11:88",
+                    "name": "?",
+                    "disabled": false,
+                    "keywords": [
+                      "?",
+                      "yes",
+                      "no",
+                      "During the algorithm, we will increase knowledge about the vertex cover"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "11:87",
+                    "name": "?",
+                    "disabled": false,
+                    "keywords": [
+                      "?",
+                      "Initially, all vertices are undecided"
+                    ]
+                  },
+                  {
+                    "type": "hide",
+                    "id": "11:87",
+                    "name": "?",
+                    "disabled": false,
+                    "keywords": [
+                      "?"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "11:89",
+                    "name": "Recursive procedure",
+                    "disabled": false,
+                    "keywords": [
+                      "Recursive procedure"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "11:150",
+                    "name": "If k vertices are “yes” then stop.",
+                    "disabled": false,
+                    "keywords": [
+                      "If k vertices are “yes” then stop.",
+                      "with failure or success, depending on whether we have a cover)."
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "11:151",
+                    "name": "Take the first undecided vertex v .",
+                    "disabled": false,
+                    "keywords": [
+                      "Take the first undecided vertex v .",
+                      "with respect to some fixed order on the vertices"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "44:1",
+                    "name": "If all neighbours of v are decided, make v “yes” if it has some “no” neighbour, and “no” otherwise. Try the next v.",
+                    "disabled": false,
+                    "keywords": [
+                      "If all neighbours of v are decided, make v “yes” if it has some “no” neighbour, and “no” otherwise. Try the next v."
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "44:3",
+                    "name": "If all neighbours of v are decided, make v “yes” if it has some “no” neighbour, and “no” otherwise. Try the next v.",
+                    "disabled": false,
+                    "keywords": [
+                      "If all neighbours of v are decided, make v “yes” if it has some “no” neighbour, and “no” otherwise. Try the next v."
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "11:49",
+                    "name": "Succeed if one of the following succeds:",
+                    "disabled": false,
+                    "keywords": [
+                      "Succeed if one of the following succeds:"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "11:81",
+                    "name": "1. set v to “yes”, and recurse",
+                    "disabled": false,
+                    "keywords": [
+                      "1. set v to “yes”, and recurse"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "11:82",
+                    "name": "2. set v to “no”, set all of its undecided neighbours to “yes”, and recurse",
+                    "disabled": false,
+                    "keywords": [
+                      "2. set v to “no”, set all of its undecided neighbours to “yes”, and recurse"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "11:152",
+                    "name": "The recursion tree is a binary tree of depth at most k",
+                    "disabled": false,
+                    "keywords": [
+                      "The recursion tree is a binary tree of depth at most k"
+                    ]
+                  }
+                ],
+                "keywords": [
+                  "FPT for vertex cover"
+                ]
+              },
+              {
+                "type": "show",
+                "id": "11:205",
+                "name": "Under the Exponential Time Hypothesis, algorithm 2 is optimal.",
+                "disabled": false,
+                "keywords": [
+                  "Under the Exponential Time Hypothesis, algorithm 2 is optimal."
+                ]
+              },
+              {
+                "type": "child",
+                "name": "ETH Vertex cover",
+                "id": "11:203",
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "21:307",
+                    "name": "Exponential Time Hypothesis",
+                    "disabled": false,
+                    "keywords": [
+                      "Exponential Time Hypothesis",
+                      "Optimality of Algorithm 2",
+                      "⟹"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "21:308",
+                    "name": "eth",
+                    "disabled": false,
+                    "keywords": [
+                      "2",
+                      "λ(number of clauses)",
+                      "For some λ > 0, there is no algorithm for 3-CNF-SAT which works in time",
+                      "eth"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "21:309",
+                    "name": "algo 1",
+                    "disabled": false,
+                    "keywords": [
+                      "2",
+                      "λ(size of vertex cover)",
+                      "× poly(number of vertices)",
+                      "For some λ > 0, there is no algorithm for vertex cover which works in time",
+                      "algo 1"
+                    ]
+                  },
+                  {
+                    "type": "hide",
+                    "id": "21:308",
+                    "name": "eth",
+                    "disabled": false,
+                    "keywords": [
+                      "eth"
+                    ]
+                  },
+                  {
+                    "type": "hide",
+                    "id": "21:309",
+                    "name": "algo 1",
+                    "disabled": false,
+                    "keywords": [
+                      "algo 1"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "21:319",
+                    "name": "contrapositive",
+                    "disabled": false,
+                    "keywords": [
+                      "2",
+                      "λ(number of clauses)",
+                      "λ(size of vertex cover)",
+                      "× poly(number of vertices)",
+                      "For every λ > 0, there is an algorithm for 3-CNF-SAT which works in time",
+                      "For every λ > 0, there is an algorithm for vertex cover which works in time",
+                      "⟹",
+                      "contrapositive"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "11:216",
+                    "name": "Proof. Our reduction from 3-CNF-SAT to vertex cover created an instance where both the number of vertices and cover size are ≤ 2(number of clauses).",
+                    "disabled": false,
+                    "keywords": [
+                      "Proof. Our reduction from 3-CNF-SAT to vertex cover created an instance where both the number of vertices and cover size are ≤ 2(number of clauses)."
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "21:328",
+                    "name": "2",
+                    "disabled": false,
+                    "keywords": [
+                      "2",
+                      "2λ(number of clauses)",
+                      "× poly(number of clauses)",
+                      "Using an alleged vertex cover algorithm for λ, we can solve 3-CNF-SAT in time"
+                    ]
+                  }
+                ],
+                "keywords": [
+                  "ETH Vertex cover"
+                ]
+              },
+              {
+                "type": "show",
+                "id": "21:331",
+                "name": "This is an example of a fixed parameter tractable algorithm.",
+                "disabled": false,
+                "keywords": [
+                  "This is an example of a fixed parameter tractable algorithm."
+                ]
+              },
+              {
+                "type": "child",
+                "name": "FPT",
+                "id": "11:160",
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "21:305",
+                    "name": "Consider a computational problem, where each instance has two associated numbers: size and parameter.",
+                    "disabled": false,
+                    "keywords": [
+                      "Consider a computational problem, where each input has two associated numbers: size and parameter.",
+                      "Fixed parameter tractable",
+                      "Consider a computational problem, where each instance has two associated numbers: size and parameter."
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "34:0",
+                    "name": "formally: L ⊆ Σ* × {1, 2, ...}",
+                    "disabled": false,
+                    "keywords": [
+                      "formally: L ⊆ Σ* × {1, 2, ...}"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "21:298",
+                    "name": "Can a graph with n vertices be coloured by k colours?",
+                    "disabled": false,
+                    "keywords": [
+                      "Can a graph with n vertices be coloured by k colours?",
+                      "size of graph",
+                      "number of colours k",
+                      "problem",
+                      "size",
+                      "parameter"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "21:299",
+                    "name": "Is a k-CNF formula satisfiable?",
+                    "disabled": false,
+                    "keywords": [
+                      "Is a k-CNF formula satisfiable?",
+                      "size of formula",
+                      "size k of clauses"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "21:300",
+                    "name": "Does a graph of size n have a vertex cover of size ≤ k?",
+                    "disabled": false,
+                    "keywords": [
+                      "Does a graph of size n have a vertex cover of size ≤ k?",
+                      "size of graph",
+                      "size k of vertex cover"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "21:301",
+                    "name": "Does a graph of size n contain a clique of size ≤ k?",
+                    "disabled": false,
+                    "keywords": [
+                      "Does a graph of size n contain a clique of size ≤ k?",
+                      "size of graph",
+                      "size k of clique"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "21:306",
+                    "name": "The problem is fixed parameter tractable if it can be solved in time",
+                    "disabled": false,
+                    "keywords": [
+                      "A problem is fixed parameter tractable if it can be solved in time",
+                      "f (parameter) × p(size)",
+                      "computable function",
+                      "a polynomial",
+                      "The problem is fixed parameter tractable if it can be solved in time"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "11:188",
+                    "name": "fpt?",
+                    "disabled": false,
+                    "keywords": [
+                      "fpt?"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "21:303",
+                    "name": "no*",
+                    "disabled": false,
+                    "keywords": [
+                      "no*",
+                      "* assuming P ≠ NP"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "11:194",
+                    "name": "no*",
+                    "disabled": false,
+                    "keywords": [
+                      "no*"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "11:195",
+                    "name": "yes",
+                    "disabled": false,
+                    "keywords": [
+                      "yes"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "21:304",
+                    "name": "no**",
+                    "disabled": false,
+                    "keywords": [
+                      "no**",
+                      "** assuming a stronger conjecture"
+                    ]
+                  }
+                ],
+                "keywords": [
+                  "FPT"
+                ]
+              },
+              {
+                "type": "child",
+                "name": "Treewidth",
+                "id": "15:10",
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "15:12",
+                    "name": "Many hard problems are easy on graphs similar to trees.",
+                    "disabled": false,
+                    "keywords": [
+                      "Many hard problems are easy on graphs similar to trees."
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "15:13",
+                    "name": "3-colourability",
+                    "disabled": false,
+                    "keywords": [
+                      "3-colourability"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "15:14",
+                    "name": "Hamiltonian path",
+                    "disabled": false,
+                    "keywords": [
+                      "Hamiltonian path"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "15:15",
+                    "name": "Vertex cover",
+                    "disabled": false,
+                    "keywords": [
+                      "Vertex cover"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "15:16",
+                    "name": "FPT when the parameter is treewidth",
+                    "disabled": false,
+                    "keywords": [
+                      "FPT when the parameter is treewidth"
+                    ]
+                  },
+                  {
+                    "type": "child",
+                    "name": "Treewidth",
+                    "id": "15:18",
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "15:21",
+                        "name": "A graph with ports is a graph with distinguished distinguished vertices.",
+                        "disabled": false,
+                        "keywords": [
+                          "A graph with ports is a graph with distinguished distinguished vertices."
+                        ]
+                      },
+                      {
+                        "type": "show",
+                        "id": "20:32",
+                        "name": "ports",
+                        "disabled": false,
+                        "keywords": [
+                          "ports"
+                        ]
+                      },
+                      {
+                        "type": "show",
+                        "id": "15:20",
+                        "name": "Definition. A graph has treewidth k ∈ {1,2, ...} if it can be constructed using the following operations, so that in every moment at most k+1 ports are used.",
+                        "disabled": false,
+                        "keywords": [
+                          "Definition. A graph has treewidth k ∈ {1,2, ...} if it can be constructed using the following operations, so that in every moment at most k+1 ports are used."
+                        ]
+                      },
+                      {
+                        "type": "hide",
+                        "id": "20:32",
+                        "name": "ports",
+                        "disabled": false,
+                        "keywords": [
+                          "ports"
+                        ]
+                      },
+                      {
+                        "type": "show",
+                        "id": "20:33",
+                        "name": "Constant",
+                        "disabled": false,
+                        "keywords": [
+                          "Constant",
+                          "We have a constant for every graph where all vertices are distinguished."
+                        ]
+                      },
+                      {
+                        "type": "show",
+                        "id": "20:34",
+                        "name": "Forget",
+                        "disabled": false,
+                        "keywords": [
+                          "Forget",
+                          "Input: a graph with ports, and a chosen port"
+                        ]
+                      },
+                      {
+                        "type": "show",
+                        "id": "20:35",
+                        "name": "Output: the chosen port is no longer a port",
+                        "disabled": false,
+                        "keywords": [
+                          "Output: the chosen port is no longer a port"
+                        ]
+                      },
+                      {
+                        "type": "show",
+                        "id": "20:36",
+                        "name": "Fuse",
+                        "disabled": false,
+                        "keywords": [
+                          "Fuse",
+                          "Input: two graphs with ports, and a partial bijection between the ports",
+                          "bijection"
+                        ]
+                      },
+                      {
+                        "type": "show",
+                        "id": "20:37",
+                        "name": "Output: the disjoint union, except that pairs from the bijection are fused",
+                        "disabled": false,
+                        "keywords": [
+                          "Output: the disjoint union, except that pairs from the bijection are fused"
+                        ]
+                      },
+                      {
+                        "type": "child",
+                        "name": "A tree decomposition",
+                        "id": "15:290",
+                        "children": [
+                          {
+                            "type": "show",
+                            "id": "15:515",
+                            "name": "The 8-cycle has treewidth 2, because it can be constructed using 3 ports.",
+                            "disabled": false,
+                            "keywords": [
+                              "The 8-cycle has treewidth 2, because it can be constructed using 3 ports."
+                            ]
+                          },
+                          {
+                            "type": "show",
+                            "id": "20:38",
+                            "name": "Group 39",
+                            "disabled": false,
+                            "keywords": [
+                              "Group 39"
+                            ]
+                          },
+                          {
+                            "type": "show",
+                            "id": "20:39",
+                            "name": "Group 40",
+                            "disabled": false,
+                            "keywords": [
+                              "Group 40"
+                            ]
+                          },
+                          {
+                            "type": "show",
+                            "id": "20:40",
+                            "name": "Group 41",
+                            "disabled": false,
+                            "keywords": [
+                              "Group 41"
+                            ]
+                          },
+                          {
+                            "type": "show",
+                            "id": "20:42",
+                            "name": "Group 43",
+                            "disabled": false,
+                            "keywords": [
+                              "Group 43"
+                            ]
+                          },
+                          {
+                            "type": "show",
+                            "id": "20:43",
+                            "name": "Group 44",
+                            "disabled": false,
+                            "keywords": [
+                              "Group 44"
+                            ]
+                          },
+                          {
+                            "type": "show",
+                            "id": "20:44",
+                            "name": "Group 45",
+                            "disabled": false,
+                            "keywords": [
+                              "Group 45"
+                            ]
+                          },
+                          {
+                            "type": "show",
+                            "id": "20:45",
+                            "name": "Group 46",
+                            "disabled": false,
+                            "keywords": [
+                              "Group 46"
+                            ]
+                          },
+                          {
+                            "type": "show",
+                            "id": "20:46",
+                            "name": "Group 47",
+                            "disabled": false,
+                            "keywords": [
+                              "Group 47"
+                            ]
+                          },
+                          {
+                            "type": "show",
+                            "id": "20:47",
+                            "name": "Group 48",
+                            "disabled": false,
+                            "keywords": [
+                              "Group 48"
+                            ]
+                          },
+                          {
+                            "type": "show",
+                            "id": "20:48",
+                            "name": "Group 49",
+                            "disabled": false,
+                            "keywords": [
+                              "Group 49"
+                            ]
+                          },
+                          {
+                            "type": "show",
+                            "id": "20:49",
+                            "name": "Group 50",
+                            "disabled": false,
+                            "keywords": [
+                              "Group 50"
+                            ]
+                          },
+                          {
+                            "type": "show",
+                            "id": "15:516",
+                            "name": "All cycles have treewidth 2.",
+                            "disabled": false,
+                            "keywords": [
+                              "All cycles have treewidth 2."
+                            ]
+                          }
+                        ],
+                        "keywords": [
+                          "A tree decomposition"
+                        ]
+                      }
+                    ],
+                    "keywords": [
+                      "Treewidth"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "21:284",
+                    "name": "Theorem. 3-colourability can be solved in time",
+                    "disabled": false,
+                    "keywords": [
+                      "Theorem. 3-colourability can be solved in time",
+                      "f (treewidth) × (number of vertices)",
+                      "exponential"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "50:0",
+                    "name": "also linear in number of edges",
+                    "disabled": false,
+                    "keywords": [
+                      "also linear in number of edges"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "21:268",
+                    "name": "Step 1. Compute the tree decomposition",
+                    "disabled": false,
+                    "keywords": [
+                      "Step 1. Compute the tree decomposition"
+                    ]
+                  },
+                  {
+                    "type": "child",
+                    "name": "Bodlaender",
+                    "id": "21:0",
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "21:285",
+                        "name": "Theorem. Bodlander Given k ∈ {1, 2, ...} and a graph, one can compute a width k tree decomposition, or say that one does not exist, in time",
+                        "disabled": false,
+                        "keywords": [
+                          "Theorem. Bodlander Given k ∈ {1, 2, ...} and a graph, one can compute a width k tree decomposition, or say that one does not exist, in time",
+                          "f (k) × (number of vertices)."
+                        ]
+                      },
+                      {
+                        "type": "show",
+                        "id": "21:4",
+                        "name": "exponential",
+                        "disabled": false,
+                        "keywords": [
+                          "exponential"
+                        ]
+                      },
+                      {
+                        "type": "show",
+                        "id": "21:222",
+                        "name": "for graphs of treewidth k, number of edges ≤ (k+1)2 × (number of vertices)",
+                        "disabled": false,
+                        "keywords": [
+                          "for graphs of treewidth k, number of edges ≤ (k+1)2 × (number of vertices)"
+                        ]
+                      }
+                    ],
+                    "keywords": [
+                      "Bodlaender"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "21:269",
+                    "name": "Step 2. Check 3-colourability using a bottom-up pass on the tree decomposition.",
+                    "disabled": false,
+                    "keywords": [
+                      "Step 2. Check 3-colourability using a bottom-up pass on the tree decomposition."
+                    ]
+                  },
+                  {
+                    "type": "child",
+                    "name": "Use tree decomposition",
+                    "id": "21:226",
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "21:286",
+                        "name": "Group 51",
+                        "disabled": false,
+                        "keywords": [
+                          "Group 51"
+                        ]
+                      },
+                      {
+                        "type": "show",
+                        "id": "21:289",
+                        "name": "Consider a node of the tree decomposition, which describes a graph with ports.",
+                        "disabled": false,
+                        "keywords": [
+                          "Consider a node of the tree decomposition, which describes a graph with ports."
+                        ]
+                      },
+                      {
+                        "type": "show",
+                        "id": "21:290",
+                        "name": "The signature of this node is the set of all colourings",
+                        "disabled": false,
+                        "keywords": [
+                          "The signature of this node is the set of all colourings",
+                          "λ : ports ⟶ {1, 2, 3}",
+                          "which can be extended to a 3-colouring of the entire graph with ports."
+                        ]
+                      },
+                      {
+                        "type": "show",
+                        "id": "21:291",
+                        "name": "Fact. The signature of a node can be computed from the signatures of its children, in time",
+                        "disabled": false,
+                        "keywords": [
+                          "Fact. The signature of a node can be computed from the signatures of its children, in time"
+                        ]
+                      },
+                      {
+                        "type": "show",
+                        "id": "21:265",
+                        "name": "Constant: exhaustive search",
+                        "disabled": false,
+                        "keywords": [
+                          "Constant: exhaustive search"
+                        ]
+                      },
+                      {
+                        "type": "show",
+                        "id": "21:266",
+                        "name": "Forget: restrict the signature to smaller set",
+                        "disabled": false,
+                        "keywords": [
+                          "Forget: restrict the signature to smaller set"
+                        ]
+                      },
+                      {
+                        "type": "show",
+                        "id": "21:267",
+                        "name": "Fusion: interserction of signatures",
+                        "disabled": false,
+                        "keywords": [
+                          "Fusion: interserction of signatures"
+                        ]
+                      },
+                      {
+                        "type": "show",
+                        "id": "21:292",
+                        "name": "Corollary. The signature of the root node can be computed in time",
+                        "disabled": false,
+                        "keywords": [
+                          "Corollary. The signature of the root node can be computed in time",
+                          "(size of tree decomposition) ×"
+                        ]
+                      },
+                      {
+                        "type": "show",
+                        "id": "21:264",
+                        "name": "linear in the number of vertices",
+                        "disabled": false,
+                        "keywords": [
+                          "linear in the number of vertices"
+                        ]
+                      },
+                      {
+                        "type": "show",
+                        "id": "21:263",
+                        "name": "The graph is 3-colourable iff the signature of the root node is nonempty.",
+                        "disabled": false,
+                        "keywords": [
+                          "The graph is 3-colourable iff the signature of the root node is nonempty."
+                        ]
+                      }
+                    ],
+                    "keywords": [
+                      "Use tree decomposition"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "21:282",
+                    "name": "Theorem. Courcelle This proof works for every problem that can be formalised in monadic second-order logic.",
+                    "disabled": false,
+                    "keywords": [
+                      "Theorem. Courcelle This proof works for every problem that can be formalised in monadic second-order logic."
+                    ]
+                  }
+                ],
+                "keywords": [
+                  "Treewidth"
+                ]
+              },
+              {
+                "type": "show",
+                "id": "21:332",
+                "name": "This is an example of an XP algorithm.",
+                "disabled": false,
+                "keywords": [
+                  "This is an example of an XP algorithm."
+                ]
+              },
+              {
+                "type": "show",
+                "id": "13:27",
+                "name": "Between these, there are other complexity classes of parameterised problems.",
+                "disabled": false,
+                "keywords": [
+                  "Between these, there are other complexity classes of parameterised problems."
+                ]
+              },
+              {
+                "type": "child",
+                "name": "Clique",
+                "id": "13:31",
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "21:295",
+                    "name": "Problem 1. Given a graph, does it contain a clique of size k?",
+                    "disabled": false,
+                    "keywords": [
+                      "Problem 1. Given a graph, does it contain a clique of size k?",
+                      "parameter"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "13:52",
+                    "name": "Conjecture: Problem 1 is not in FPT",
+                    "disabled": false,
+                    "keywords": [
+                      "Conjecture: Problem 1 is not in FPT"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "21:296",
+                    "name": "Problem 2. Given k nondeterministic automata, is there some word accepted by all of them?",
+                    "disabled": false,
+                    "keywords": [
+                      "Problem 2. Given a nondeterministic Turing machine, does it have an accepting computation of length k?",
+                      "parameter",
+                      "Problem 2. Given k nondeterministic automata, is there some word accepted by all of them?"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "13:53",
+                    "name": "Lemma: If Problem 2 is FPT, then so is Problem 1.",
+                    "disabled": false,
+                    "keywords": [
+                      "Lemma: If Problem 2 is FPT, then so is Problem 1."
+                    ]
+                  },
+                  {
+                    "type": "child",
+                    "name": "From k-clique to automata",
+                    "id": "13:54",
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "13:56",
+                        "name": "Given a graph, we want to know if it contains a clique of size k.",
+                        "disabled": false,
+                        "keywords": [
+                          "Given a graph, we want to know if it contains a clique of size k."
+                        ]
+                      },
+                      {
+                        "type": "show",
+                        "id": "27:36",
+                        "name": "We will define a Turing machine of size O(vertices3) such that:",
+                        "disabled": false,
+                        "keywords": [
+                          "We will define a Turing machine of size O(vertices3) such that:"
+                        ]
+                      },
+                      {
+                        "type": "show",
+                        "id": "27:37",
+                        "name": "The graph has a clique of size k",
+                        "disabled": false,
+                        "keywords": [
+                          "The graph has a clique of size k"
+                        ]
+                      },
+                      {
+                        "type": "show",
+                        "id": "27:38",
+                        "name": "iff",
+                        "disabled": false,
+                        "keywords": [
+                          "iff"
+                        ]
+                      },
+                      {
+                        "type": "show",
+                        "id": "27:39",
+                        "name": "The Turing machine has an accepting computation of length ≤ k3",
+                        "disabled": false,
+                        "keywords": [
+                          "The Turing machine has an accepting computation of length ≤ k3"
+                        ]
+                      },
+                      {
+                        "type": "show",
+                        "id": "15:5",
+                        "name": "We define k automata over the alphabet of vertices as follows.",
+                        "disabled": false,
+                        "keywords": [
+                          "We define k automata over the alphabet of vertices as follows."
+                        ]
+                      },
+                      {
+                        "type": "show",
+                        "id": "27:7",
+                        "name": "for every i < j ∈ {1,.., k}, the i-th and j-th letters in the input word describe an edge in the graph",
+                        "disabled": false,
+                        "keywords": [
+                          "for every i < j ∈ {1,.., k}, the i-th and j-th letters in the input word describe an edge in the graph"
+                        ]
+                      },
+                      {
+                        "type": "show",
+                        "id": "27:5",
+                        "name": "time k3",
+                        "disabled": false,
+                        "keywords": [
+                          "time k3"
+                        ]
+                      },
+                      {
+                        "type": "show",
+                        "id": "28:21",
+                        "name": "If there would be an FPT algorithm for interesection of k automata, then the same would be true for k-clique.",
+                        "disabled": false,
+                        "keywords": [
+                          "If there would be an FPT algorithm for interesection of k automata, then the same would be true for k-clique.",
+                          "f (k) × p(Turing machine size)"
+                        ]
+                      },
+                      {
+                        "type": "show",
+                        "id": "28:10",
+                        "name": "⟹",
+                        "disabled": false,
+                        "keywords": [
+                          "⟹"
+                        ]
+                      },
+                      {
+                        "type": "show",
+                        "id": "28:22",
+                        "name": "If there would be an FPT algorithm for interesection of k automata, then the same would be true for k-clique.",
+                        "disabled": false,
+                        "keywords": [
+                          "If there would be an FPT algorithm for interesection of k automata, then the same would be true for k-clique.",
+                          "f (k3) × p(vertices3)"
+                        ]
+                      },
+                      {
+                        "type": "show",
+                        "id": "27:41",
+                        "name": "If there would be an FPT algorithm for interesection of k automata, then the same would be true for k-clique.",
+                        "disabled": false,
+                        "keywords": [
+                          "If there would be an FPT algorithm for interesection of k automata, then the same would be true for k-clique."
+                        ]
+                      },
+                      {
+                        "type": "show",
+                        "id": "28:11",
+                        "name": "If there would be an FPT algorithm for interesection of k automata, then the same would be true for k-clique.",
+                        "disabled": false,
+                        "keywords": [
+                          "If there would be an FPT algorithm for interesection of k automata, then the same would be true for k-clique."
+                        ]
+                      }
+                    ],
+                    "keywords": [
+                      "f (k) × p(Turing machine size)",
+                      "From k-clique to automata"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "21:297",
+                    "name": "An FPT reduction is a function from instances of Problem 1 to instances of Problem 2",
+                    "disabled": false,
+                    "keywords": [
+                      "An FPT reduction is a function from instances of Problem 1 to instances of Problem 2",
+                      "instances of Problem 1",
+                      "instances of Problem 2"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "13:50",
+                    "name": "It is designed so that if Problem 2 is in FPT, then so is Problem 1",
+                    "disabled": false,
+                    "keywords": [
+                      "It is designed so that if Problem 2 is in FPT, then so is Problem 1"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "13:45",
+                    "name": "(a) output parameter: depends (computably) on input parameter",
+                    "disabled": false,
+                    "keywords": [
+                      "(a) output parameter: depends (computably) on input parameter"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "13:51",
+                    "name": "(output parameter does not depend on instance)",
+                    "disabled": false,
+                    "keywords": [
+                      "(output parameter does not depend on instance)"
+                    ]
+                  },
+                  {
+                    "type": "show",
+                    "id": "13:46",
+                    "name": "(b) output size: FPT in terms of input size",
+                    "disabled": false,
+                    "keywords": [
+                      "(b) output size: FPT in terms of input size"
+                    ]
+                  },
+                  {
+                    "type": "child",
+                    "name": "FPT reductions",
+                    "id": "25:2",
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "28:12",
+                        "name": "Examples of FPT reductions",
+                        "disabled": false,
+                        "keywords": [
+                          "Examples of FPT reductions"
+                        ]
+                      },
+                      {
+                        "type": "show",
+                        "id": "28:24",
+                        "name": "Does a graph contain a clique of size k?",
+                        "disabled": false,
+                        "keywords": [
+                          "Does a graph contain a clique of size k?",
+                          "Does a Turing machine have an accepting run of length k?",
+                          "Already shown: The Turing machine recognises the clique"
+                        ]
+                      },
+                      {
+                        "type": "show",
+                        "id": "25:12",
+                        "name": "Arrow 5",
+                        "disabled": false,
+                        "keywords": [
+                          "Arrow 5"
+                        ]
+                      },
+                      {
+                        "type": "child",
+                        "name": "From Turing to clique",
+                        "id": "25:17",
+                        "children": [
+                          {
+                            "type": "show",
+                            "id": "25:19",
+                            "name": "Suppose that we want to know if a nondeterministic Turing machine M has an accepting computation of length k.",
+                            "disabled": false,
+                            "keywords": [
+                              "Suppose that we want to know if a nondeterministic Turing machine M has an accepting computation of length k."
+                            ]
+                          },
+                          {
+                            "type": "show",
+                            "id": "28:29",
+                            "name": "problem is equally hard for deterministic",
+                            "disabled": false,
+                            "keywords": [
+                              "problem is equally hard for deterministic"
+                            ]
+                          },
+                          {
+                            "type": "show",
+                            "id": "28:28",
+                            "name": "p",
+                            "disabled": false,
+                            "keywords": [
+                              "p",
+                              "q",
+                              "r",
+                              "A computation of length k can be visualised as a k × k grid"
+                            ]
+                          },
+                          {
+                            "type": "show",
+                            "id": "26:119",
+                            "name": "The existence of such a computation can be rephrased as the existence of a a clique of size (k – 2) × (k – 1) inside a graph of size poly(M)",
+                            "disabled": false,
+                            "keywords": [
+                              "The existence of such a computation can be rephrased as the existence of a a clique of size (k – 2) × (k – 1) inside a graph of size poly(M)"
+                            ]
+                          },
+                          {
+                            "type": "child",
+                            "name": "From Turing to clique 2",
+                            "id": "26:128",
+                            "children": [
+                              {
+                                "type": "show",
+                                "id": "28:30",
+                                "name": "?",
+                                "disabled": false,
+                                "keywords": [
+                                  "?",
+                                  "r",
+                                  "q",
+                                  "p",
+                                  "A window is information about a 3 × 2 rectangle inside the k × k grid, such that:"
+                                ]
+                              },
+                              {
+                                "type": "show",
+                                "id": "26:696",
+                                "name": "1. the window is consistent with the transition relation of the Turing machine",
+                                "disabled": false,
+                                "keywords": [
+                                  "1. the window is consistent with the transition relation of the Turing machine"
+                                ]
+                              },
+                              {
+                                "type": "show",
+                                "id": "26:697",
+                                "name": "2. if the window covers top-left corner, then the initial state is used there",
+                                "disabled": false,
+                                "keywords": [
+                                  "2. if the window covers top-left corner, then the initial state is used there"
+                                ]
+                              },
+                              {
+                                "type": "show",
+                                "id": "26:698",
+                                "name": "3. if the window covers a state in the last line, then that state is accepting",
+                                "disabled": false,
+                                "keywords": [
+                                  "3. if the window covers a state in the last line, then that state is accepting"
+                                ]
+                              },
+                              {
+                                "type": "show",
+                                "id": "28:2",
+                                "name": "Graph of windows: vertices are windows, and an edge connects two windows if they are consistent (agree on the overlap).",
+                                "disabled": false,
+                                "keywords": [
+                                  "Graph of windows: vertices are windows, and an edge connects two windows if they are consistent (agree on the overlap)."
+                                ]
+                              },
+                              {
+                                "type": "show",
+                                "id": "28:6",
+                                "name": "consistent",
+                                "disabled": false,
+                                "keywords": [
+                                  "consistent"
+                                ]
+                              },
+                              {
+                                "type": "show",
+                                "id": "28:31",
+                                "name": "not consistent",
+                                "disabled": false,
+                                "keywords": [
+                                  "not consistent"
+                                ]
+                              },
+                              {
+                                "type": "show",
+                                "id": "26:700",
+                                "name": "There is an accepting computation of length k iff The graph of windows contains a clique of size (k – 2) × (k – 1)",
+                                "disabled": false,
+                                "keywords": [
+                                  "There is an accepting computation of length k iff The graph of windows contains a clique of size (k – 2) × (k – 1)"
+                                ]
+                              }
+                            ],
+                            "keywords": [
+                              "From Turing to clique 2"
+                            ]
+                          }
+                        ],
+                        "keywords": [
+                          "From Turing to clique"
+                        ]
+                      },
+                      {
+                        "type": "show",
+                        "id": "28:25",
+                        "name": "Does a graph have a vertex cover of size k?",
+                        "disabled": false,
+                        "keywords": [
+                          "Does a graph have a vertex cover of size k?",
+                          "The Turing machine recognises the vertex cover"
+                        ]
+                      },
+                      {
+                        "type": "show",
+                        "id": "28:18",
+                        "name": "FPT",
+                        "disabled": false,
+                        "keywords": [
+                          "FPT"
+                        ]
+                      },
+                      {
+                        "type": "show",
+                        "id": "28:26",
+                        "name": "Does a graph of treewidth k contain a Hamiltonian path?",
+                        "disabled": false,
+                        "keywords": [
+                          "Does a graph of treewidth k contain a Hamiltonian path?",
+                          "solve the source problem in FPT, and create a yes/no instance of the target problem"
+                        ]
+                      },
+                      {
+                        "type": "show",
+                        "id": "28:17",
+                        "name": "W[1]",
+                        "disabled": false,
+                        "keywords": [
+                          "W[1]"
+                        ]
+                      },
+                      {
+                        "type": "show",
+                        "id": "25:7",
+                        "name": "Does a circuit accept some input with exactly k ones?",
+                        "disabled": false,
+                        "keywords": [
+                          "Does a circuit accept some input with exactly k ones?"
+                        ]
+                      },
+                      {
+                        "type": "show",
+                        "id": "28:27",
+                        "name": "Variables of the circuit are vertices",
+                        "disabled": false,
+                        "keywords": [
+                          "Variables of the circuit are vertices"
+                        ]
+                      },
+                      {
+                        "type": "show",
+                        "id": "28:19",
+                        "name": "W[P]",
+                        "disabled": false,
+                        "keywords": [
+                          "W[P]"
+                        ]
+                      }
+                    ],
+                    "keywords": [
+                      "FPT reductions"
+                    ]
+                  }
+                ],
+                "keywords": [
+                  "Clique"
+                ]
+              }
+            ],
+            "keywords": [
+              "fixed k"
+            ]
+          }
+        ],
+        "keywords": [
+          "Vertex cover"
+        ]
+      }
+    ],
+    "keywords": [
+      "Computational Complexity",
+      "Lecture 1. Turing machines and their resources",
+      "First slide"
+    ]
   },
   "soundDict": {
     "1:2": {
@@ -846,1806 +2582,5 @@
         "duration": 78.384
       }
     }
-  },
-  "tree": {
-    "type": "child",
-    "name": "First slide",
-    "id": "1:2",
-    "children": [
-      {
-        "type": "show",
-        "id": "24:2",
-        "name": "Idea. So far, we measured the complexity of an algorithm as f (input size)?",
-        "disabled": false,
-        "keywords": [
-          "Idea. So far, we measured the complexity of an algorithm as f (input size)?"
-        ],
-        "children": []
-      },
-      {
-        "type": "show",
-        "id": "24:3",
-        "name": "What if there were other parameters: f (input size, some other parameter)?",
-        "disabled": false,
-        "keywords": [
-          "What if there were other parameters: f (input size, some other parameter)?"
-        ],
-        "children": []
-      },
-      {
-        "type": "show",
-        "id": "24:4",
-        "name": "graph size",
-        "disabled": false,
-        "keywords": [
-          "graph size"
-        ],
-        "children": []
-      },
-      {
-        "type": "show",
-        "id": "24:5",
-        "name": "number of colours",
-        "disabled": false,
-        "keywords": [
-          "number of colours"
-        ],
-        "children": []
-      },
-      {
-        "type": "child",
-        "name": "Vertex cover",
-        "id": "1:6",
-        "children": [
-          {
-            "type": "show",
-            "id": "21:333",
-            "name": "A vertex cover for a graph is a set of vertices which is incident with every edge.",
-            "disabled": false,
-            "keywords": [
-              "A vertex cover for a graph is a set of vertices which is incident with every edge."
-            ],
-            "children": []
-          },
-          {
-            "type": "show",
-            "id": "1:58",
-            "name": "The following problem is NP-complete: Input. A graph and a number k. Question. Is there a vertex cover of size ≤ k?",
-            "disabled": false,
-            "keywords": [
-              "The following problem is NP-complete: Input. A graph and a number k. Question. Is there a vertex cover of size ≤ k?"
-            ],
-            "children": []
-          },
-          {
-            "type": "child",
-            "name": "Vertex cover is NP complete",
-            "id": "2:0",
-            "children": [
-              {
-                "type": "show",
-                "id": "7:98",
-                "name": "Proof. A reduction from 3-CNF-SAT",
-                "disabled": false,
-                "keywords": [
-                  "Proof. A reduction from 3-CNF-SAT"
-                ],
-                "children": []
-              },
-              {
-                "type": "child",
-                "name": "NP completeness of vertex cover",
-                "id": "7:96",
-                "children": [
-                  {
-                    "type": "show",
-                    "id": "11:12",
-                    "name": "Consider an instance of 3-CNF-SAT",
-                    "disabled": false,
-                    "keywords": [
-                      "Consider an instance of 3-CNF-SAT"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "7:91",
-                    "name": "¬a",
-                    "disabled": false,
-                    "keywords": [
-                      "¬a"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "7:92",
-                    "name": "for every clause there is a triangle",
-                    "disabled": false,
-                    "keywords": [
-                      "for every clause there is a triangle"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "7:90",
-                    "name": "a",
-                    "disabled": false,
-                    "keywords": [
-                      "a"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "7:94",
-                    "name": "for every variable we create an edge",
-                    "disabled": false,
-                    "keywords": [
-                      "for every variable we create an edge"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "7:89",
-                    "name": "Group 10",
-                    "disabled": false,
-                    "keywords": [
-                      "Group 10"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "7:95",
-                    "name": "edges connect appearances of a variable",
-                    "disabled": false,
-                    "keywords": [
-                      "edges connect appearances of a variable"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "hide",
-                    "id": "7:92",
-                    "name": "for every clause there is a triangle",
-                    "disabled": false,
-                    "keywords": [
-                      "for every clause there is a triangle"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "hide",
-                    "id": "7:95",
-                    "name": "edges connect appearances of a variable",
-                    "disabled": false,
-                    "keywords": [
-                      "edges connect appearances of a variable"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "hide",
-                    "id": "7:94",
-                    "name": "for every variable we create an edge",
-                    "disabled": false,
-                    "keywords": [
-                      "for every variable we create an edge"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "11:14",
-                    "name": "formula is satisfiable",
-                    "disabled": false,
-                    "keywords": [
-                      "formula is satisfiable"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "11:9",
-                    "name": "⟹",
-                    "disabled": false,
-                    "keywords": [
-                      "⟹"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "7:100",
-                    "name": "Take a satisfying assignment, and select for each variable the corresponding vertex in each blue edge.",
-                    "disabled": false,
-                    "keywords": [
-                      "Take a satisfying assignment, and select for each variable the corresponding vertex in each blue edge."
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "11:11",
-                    "name": "Group 13",
-                    "disabled": false,
-                    "keywords": [
-                      "Group 13"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "11:6",
-                    "name": "In every triangle, some vertex has its red edge covered.",
-                    "disabled": false,
-                    "keywords": [
-                      "In every triangle, some vertex has its red edge covered."
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "11:7",
-                    "name": "Select the remaining two vertices.",
-                    "disabled": false,
-                    "keywords": [
-                      "Select the remaining two vertices."
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "hide",
-                    "id": "11:11",
-                    "name": "Group 13",
-                    "disabled": false,
-                    "keywords": [
-                      "Group 13"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "11:8",
-                    "name": "⟹",
-                    "disabled": false,
-                    "keywords": [
-                      "⟹"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "11:0",
-                    "name": "At least one vertex must be selected for each blue edge",
-                    "disabled": false,
-                    "keywords": [
-                      "At least one vertex must be selected for each blue edge"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "11:1",
-                    "name": "At least two vertices must be selected for each triangle",
-                    "disabled": false,
-                    "keywords": [
-                      "At least two vertices must be selected for each triangle"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "7:101",
-                    "name": "A vertex cover of this size needs exactly: 1. one vertex per blue edge, 2. two vertices per black triangle",
-                    "disabled": false,
-                    "keywords": [
-                      "A vertex cover of this size needs exactly: 1. one vertex per blue edge, 2. two vertices per black triangle"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "8:2",
-                    "name": "To be a cover, it needs to describe a satisfying assignment.",
-                    "disabled": false,
-                    "keywords": [
-                      "To be a cover, it needs to describe a satisfying assignment."
-                    ],
-                    "children": []
-                  }
-                ],
-                "keywords": [
-                  "NP completeness of vertex cover"
-                ]
-              },
-              {
-                "type": "show",
-                "id": "11:15",
-                "name": "linear",
-                "disabled": false,
-                "keywords": [
-                  "linear"
-                ],
-                "children": []
-              }
-            ],
-            "keywords": [
-              "Vertex cover is NP complete"
-            ]
-          },
-          {
-            "type": "show",
-            "id": "11:17",
-            "name": "What about fixed k?",
-            "disabled": false,
-            "keywords": [
-              "What about fixed k?"
-            ],
-            "children": []
-          },
-          {
-            "type": "child",
-            "name": "fixed k",
-            "id": "11:18",
-            "children": [
-              {
-                "type": "show",
-                "id": "21:329",
-                "name": "Algorithm 1. Search all subsets of size ≤ k",
-                "disabled": false,
-                "keywords": [
-                  "Algorithm 1. Search all subsets of size ≤ k"
-                ],
-                "children": []
-              },
-              {
-                "type": "show",
-                "id": "11:153",
-                "name": "Polynomial for fixed k, but the polynomial and its degree depend on k",
-                "disabled": false,
-                "keywords": [
-                  "Polynomial for fixed k, but the polynomial and its degree depend on k"
-                ],
-                "children": []
-              },
-              {
-                "type": "show",
-                "id": "21:330",
-                "name": "Algorithm 2.",
-                "disabled": false,
-                "keywords": [
-                  "Algorithm 2."
-                ],
-                "children": []
-              },
-              {
-                "type": "show",
-                "id": "11:158",
-                "name": "Polynomial for fixed k, and degree of polynomial does not depend on k",
-                "disabled": false,
-                "keywords": [
-                  "Polynomial for fixed k, and degree of polynomial does not depend on k"
-                ],
-                "children": []
-              },
-              {
-                "type": "child",
-                "name": "FPT for vertex cover",
-                "id": "11:25",
-                "children": [
-                  {
-                    "type": "show",
-                    "id": "11:149",
-                    "name": "An algorithm that runs in time",
-                    "disabled": false,
-                    "keywords": [
-                      "An algorithm that runs in time"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "11:148",
-                    "name": "linear time for fixed k",
-                    "disabled": false,
-                    "keywords": [
-                      "linear time for fixed k"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "11:88",
-                    "name": "?",
-                    "disabled": false,
-                    "keywords": [
-                      "?"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "11:87",
-                    "name": "?",
-                    "disabled": false,
-                    "keywords": [
-                      "?"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "hide",
-                    "id": "11:87",
-                    "name": "?",
-                    "disabled": false,
-                    "keywords": [
-                      "?"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "11:89",
-                    "name": "Recursive procedure",
-                    "disabled": false,
-                    "keywords": [
-                      "Recursive procedure"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "11:150",
-                    "name": "If k vertices are “yes” then stop.",
-                    "disabled": false,
-                    "keywords": [
-                      "If k vertices are “yes” then stop."
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "11:151",
-                    "name": "Take the first undecided vertex v .",
-                    "disabled": false,
-                    "keywords": [
-                      "Take the first undecided vertex v ."
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "44:1",
-                    "name": "If all neighbours of v are decided, make v “yes” if it has some “no” neighbour, and “no” otherwise. Try the next v.",
-                    "disabled": false,
-                    "keywords": [
-                      "If all neighbours of v are decided, make v “yes” if it has some “no” neighbour, and “no” otherwise. Try the next v."
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "44:3",
-                    "name": "If all neighbours of v are decided, make v “yes” if it has some “no” neighbour, and “no” otherwise. Try the next v.",
-                    "disabled": false,
-                    "keywords": [
-                      "If all neighbours of v are decided, make v “yes” if it has some “no” neighbour, and “no” otherwise. Try the next v."
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "11:49",
-                    "name": "Succeed if one of the following succeds:",
-                    "disabled": false,
-                    "keywords": [
-                      "Succeed if one of the following succeds:"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "11:81",
-                    "name": "1. set v to “yes”, and recurse",
-                    "disabled": false,
-                    "keywords": [
-                      "1. set v to “yes”, and recurse"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "11:82",
-                    "name": "2. set v to “no”, set all of its undecided neighbours to “yes”, and recurse",
-                    "disabled": false,
-                    "keywords": [
-                      "2. set v to “no”, set all of its undecided neighbours to “yes”, and recurse"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "11:152",
-                    "name": "The recursion tree is a binary tree of depth at most k",
-                    "disabled": false,
-                    "keywords": [
-                      "The recursion tree is a binary tree of depth at most k"
-                    ],
-                    "children": []
-                  }
-                ],
-                "keywords": [
-                  "FPT for vertex cover"
-                ]
-              },
-              {
-                "type": "show",
-                "id": "11:205",
-                "name": "Under the Exponential Time Hypothesis, algorithm 2 is optimal.",
-                "disabled": false,
-                "keywords": [
-                  "Under the Exponential Time Hypothesis, algorithm 2 is optimal."
-                ],
-                "children": []
-              },
-              {
-                "type": "child",
-                "name": "ETH Vertex cover",
-                "id": "11:203",
-                "children": [
-                  {
-                    "type": "show",
-                    "id": "21:307",
-                    "name": "Exponential Time Hypothesis",
-                    "disabled": false,
-                    "keywords": [
-                      "Exponential Time Hypothesis"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "21:308",
-                    "name": "eth",
-                    "disabled": false,
-                    "keywords": [
-                      "eth"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "21:309",
-                    "name": "algo 1",
-                    "disabled": false,
-                    "keywords": [
-                      "algo 1"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "hide",
-                    "id": "21:308",
-                    "name": "eth",
-                    "disabled": false,
-                    "keywords": [
-                      "eth"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "hide",
-                    "id": "21:309",
-                    "name": "algo 1",
-                    "disabled": false,
-                    "keywords": [
-                      "algo 1"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "21:319",
-                    "name": "contrapositive",
-                    "disabled": false,
-                    "keywords": [
-                      "contrapositive"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "11:216",
-                    "name": "Proof. Our reduction from 3-CNF-SAT to vertex cover created an instance where both the number of vertices and cover size are ≤ 2(number of clauses).",
-                    "disabled": false,
-                    "keywords": [
-                      "Proof. Our reduction from 3-CNF-SAT to vertex cover created an instance where both the number of vertices and cover size are ≤ 2(number of clauses)."
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "21:328",
-                    "name": "2",
-                    "disabled": false,
-                    "keywords": [
-                      "2"
-                    ],
-                    "children": []
-                  }
-                ],
-                "keywords": [
-                  "ETH Vertex cover"
-                ]
-              },
-              {
-                "type": "show",
-                "id": "21:331",
-                "name": "This is an example of a fixed parameter tractable algorithm.",
-                "disabled": false,
-                "keywords": [
-                  "This is an example of a fixed parameter tractable algorithm."
-                ],
-                "children": []
-              },
-              {
-                "type": "child",
-                "name": "FPT",
-                "id": "11:160",
-                "children": [
-                  {
-                    "type": "show",
-                    "id": "21:305",
-                    "name": "Consider a computational problem, where each instance has two associated numbers: size and parameter.",
-                    "disabled": false,
-                    "keywords": [
-                      "Consider a computational problem, where each instance has two associated numbers: size and parameter."
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "34:0",
-                    "name": "formally: L ⊆ Σ* × {1, 2, ...}",
-                    "disabled": false,
-                    "keywords": [
-                      "formally: L ⊆ Σ* × {1, 2, ...}"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "21:298",
-                    "name": "Can a graph with n vertices be coloured by k colours?",
-                    "disabled": false,
-                    "keywords": [
-                      "Can a graph with n vertices be coloured by k colours?"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "21:299",
-                    "name": "Is a k-CNF formula satisfiable?",
-                    "disabled": false,
-                    "keywords": [
-                      "Is a k-CNF formula satisfiable?"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "21:300",
-                    "name": "Does a graph of size n have a vertex cover of size ≤ k?",
-                    "disabled": false,
-                    "keywords": [
-                      "Does a graph of size n have a vertex cover of size ≤ k?"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "21:301",
-                    "name": "Does a graph of size n contain a clique of size ≤ k?",
-                    "disabled": false,
-                    "keywords": [
-                      "Does a graph of size n contain a clique of size ≤ k?"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "21:306",
-                    "name": "The problem is fixed parameter tractable if it can be solved in time",
-                    "disabled": false,
-                    "keywords": [
-                      "The problem is fixed parameter tractable if it can be solved in time"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "11:188",
-                    "name": "fpt?",
-                    "disabled": false,
-                    "keywords": [
-                      "fpt?"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "21:303",
-                    "name": "no*",
-                    "disabled": false,
-                    "keywords": [
-                      "no*"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "11:194",
-                    "name": "no*",
-                    "disabled": false,
-                    "keywords": [
-                      "no*"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "11:195",
-                    "name": "yes",
-                    "disabled": false,
-                    "keywords": [
-                      "yes"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "21:304",
-                    "name": "no**",
-                    "disabled": false,
-                    "keywords": [
-                      "no**"
-                    ],
-                    "children": []
-                  }
-                ],
-                "keywords": [
-                  "FPT"
-                ]
-              },
-              {
-                "type": "child",
-                "name": "Treewidth",
-                "id": "15:10",
-                "children": [
-                  {
-                    "type": "show",
-                    "id": "15:12",
-                    "name": "Many hard problems are easy on graphs similar to trees.",
-                    "disabled": false,
-                    "keywords": [
-                      "Many hard problems are easy on graphs similar to trees."
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "15:13",
-                    "name": "3-colourability",
-                    "disabled": false,
-                    "keywords": [
-                      "3-colourability"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "15:14",
-                    "name": "Hamiltonian path",
-                    "disabled": false,
-                    "keywords": [
-                      "Hamiltonian path"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "15:15",
-                    "name": "Vertex cover",
-                    "disabled": false,
-                    "keywords": [
-                      "Vertex cover"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "15:16",
-                    "name": "FPT when the parameter is treewidth",
-                    "disabled": false,
-                    "keywords": [
-                      "FPT when the parameter is treewidth"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "child",
-                    "name": "Treewidth",
-                    "id": "15:18",
-                    "children": [
-                      {
-                        "type": "show",
-                        "id": "15:21",
-                        "name": "A graph with ports is a graph with distinguished distinguished vertices.",
-                        "disabled": false,
-                        "keywords": [
-                          "A graph with ports is a graph with distinguished distinguished vertices."
-                        ],
-                        "children": []
-                      },
-                      {
-                        "type": "show",
-                        "id": "20:32",
-                        "name": "ports",
-                        "disabled": false,
-                        "keywords": [
-                          "ports"
-                        ],
-                        "children": []
-                      },
-                      {
-                        "type": "show",
-                        "id": "15:20",
-                        "name": "Definition. A graph has treewidth k ∈ {1,2, ...} if it can be constructed using the following operations, so that in every moment at most k+1 ports are used.",
-                        "disabled": false,
-                        "keywords": [
-                          "Definition. A graph has treewidth k ∈ {1,2, ...} if it can be constructed using the following operations, so that in every moment at most k+1 ports are used."
-                        ],
-                        "children": []
-                      },
-                      {
-                        "type": "hide",
-                        "id": "20:32",
-                        "name": "ports",
-                        "disabled": false,
-                        "keywords": [
-                          "ports"
-                        ],
-                        "children": []
-                      },
-                      {
-                        "type": "show",
-                        "id": "20:33",
-                        "name": "Constant",
-                        "disabled": false,
-                        "keywords": [
-                          "Constant"
-                        ],
-                        "children": []
-                      },
-                      {
-                        "type": "show",
-                        "id": "20:34",
-                        "name": "Forget",
-                        "disabled": false,
-                        "keywords": [
-                          "Forget"
-                        ],
-                        "children": []
-                      },
-                      {
-                        "type": "show",
-                        "id": "20:35",
-                        "name": "Output: the chosen port is no longer a port",
-                        "disabled": false,
-                        "keywords": [
-                          "Output: the chosen port is no longer a port"
-                        ],
-                        "children": []
-                      },
-                      {
-                        "type": "show",
-                        "id": "20:36",
-                        "name": "Fuse",
-                        "disabled": false,
-                        "keywords": [
-                          "Fuse"
-                        ],
-                        "children": []
-                      },
-                      {
-                        "type": "show",
-                        "id": "20:37",
-                        "name": "Output: the disjoint union, except that pairs from the bijection are fused",
-                        "disabled": false,
-                        "keywords": [
-                          "Output: the disjoint union, except that pairs from the bijection are fused"
-                        ],
-                        "children": []
-                      },
-                      {
-                        "type": "child",
-                        "name": "A tree decomposition",
-                        "id": "15:290",
-                        "children": [
-                          {
-                            "type": "show",
-                            "id": "15:515",
-                            "name": "The 8-cycle has treewidth 2, because it can be constructed using 3 ports.",
-                            "disabled": false,
-                            "keywords": [
-                              "The 8-cycle has treewidth 2, because it can be constructed using 3 ports."
-                            ],
-                            "children": []
-                          },
-                          {
-                            "type": "show",
-                            "id": "20:38",
-                            "name": "Group 39",
-                            "disabled": false,
-                            "keywords": [
-                              "Group 39"
-                            ],
-                            "children": []
-                          },
-                          {
-                            "type": "show",
-                            "id": "20:39",
-                            "name": "Group 40",
-                            "disabled": false,
-                            "keywords": [
-                              "Group 40"
-                            ],
-                            "children": []
-                          },
-                          {
-                            "type": "show",
-                            "id": "20:40",
-                            "name": "Group 41",
-                            "disabled": false,
-                            "keywords": [
-                              "Group 41"
-                            ],
-                            "children": []
-                          },
-                          {
-                            "type": "show",
-                            "id": "20:42",
-                            "name": "Group 43",
-                            "disabled": false,
-                            "keywords": [
-                              "Group 43"
-                            ],
-                            "children": []
-                          },
-                          {
-                            "type": "show",
-                            "id": "20:43",
-                            "name": "Group 44",
-                            "disabled": false,
-                            "keywords": [
-                              "Group 44"
-                            ],
-                            "children": []
-                          },
-                          {
-                            "type": "show",
-                            "id": "20:44",
-                            "name": "Group 45",
-                            "disabled": false,
-                            "keywords": [
-                              "Group 45"
-                            ],
-                            "children": []
-                          },
-                          {
-                            "type": "show",
-                            "id": "20:45",
-                            "name": "Group 46",
-                            "disabled": false,
-                            "keywords": [
-                              "Group 46"
-                            ],
-                            "children": []
-                          },
-                          {
-                            "type": "show",
-                            "id": "20:46",
-                            "name": "Group 47",
-                            "disabled": false,
-                            "keywords": [
-                              "Group 47"
-                            ],
-                            "children": []
-                          },
-                          {
-                            "type": "show",
-                            "id": "20:47",
-                            "name": "Group 48",
-                            "disabled": false,
-                            "keywords": [
-                              "Group 48"
-                            ],
-                            "children": []
-                          },
-                          {
-                            "type": "show",
-                            "id": "20:48",
-                            "name": "Group 49",
-                            "disabled": false,
-                            "keywords": [
-                              "Group 49"
-                            ],
-                            "children": []
-                          },
-                          {
-                            "type": "show",
-                            "id": "20:49",
-                            "name": "Group 50",
-                            "disabled": false,
-                            "keywords": [
-                              "Group 50"
-                            ],
-                            "children": []
-                          },
-                          {
-                            "type": "show",
-                            "id": "15:516",
-                            "name": "All cycles have treewidth 2.",
-                            "disabled": false,
-                            "keywords": [
-                              "All cycles have treewidth 2."
-                            ],
-                            "children": []
-                          }
-                        ],
-                        "keywords": [
-                          "A tree decomposition"
-                        ]
-                      }
-                    ],
-                    "keywords": [
-                      "Treewidth"
-                    ]
-                  },
-                  {
-                    "type": "show",
-                    "id": "21:284",
-                    "name": "Theorem. 3-colourability can be solved in time",
-                    "disabled": false,
-                    "keywords": [
-                      "Theorem. 3-colourability can be solved in time"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "50:0",
-                    "name": "also linear in number of edges",
-                    "disabled": false,
-                    "keywords": [
-                      "also linear in number of edges"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "21:268",
-                    "name": "Step 1. Compute the tree decomposition",
-                    "disabled": false,
-                    "keywords": [
-                      "Step 1. Compute the tree decomposition"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "child",
-                    "name": "Bodlaender",
-                    "id": "21:0",
-                    "children": [
-                      {
-                        "type": "show",
-                        "id": "21:285",
-                        "name": "Theorem. Bodlander Given k ∈ {1, 2, ...} and a graph, one can compute a width k tree decomposition, or say that one does not exist, in time",
-                        "disabled": false,
-                        "keywords": [
-                          "Theorem. Bodlander Given k ∈ {1, 2, ...} and a graph, one can compute a width k tree decomposition, or say that one does not exist, in time"
-                        ],
-                        "children": []
-                      },
-                      {
-                        "type": "show",
-                        "id": "21:4",
-                        "name": "exponential",
-                        "disabled": false,
-                        "keywords": [
-                          "exponential"
-                        ],
-                        "children": []
-                      },
-                      {
-                        "type": "show",
-                        "id": "21:222",
-                        "name": "for graphs of treewidth k, number of edges ≤ (k+1)2 × (number of vertices)",
-                        "disabled": false,
-                        "keywords": [
-                          "for graphs of treewidth k, number of edges ≤ (k+1)2 × (number of vertices)"
-                        ],
-                        "children": []
-                      }
-                    ],
-                    "keywords": [
-                      "Bodlaender"
-                    ]
-                  },
-                  {
-                    "type": "show",
-                    "id": "21:269",
-                    "name": "Step 2. Check 3-colourability using a bottom-up pass on the tree decomposition.",
-                    "disabled": false,
-                    "keywords": [
-                      "Step 2. Check 3-colourability using a bottom-up pass on the tree decomposition."
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "child",
-                    "name": "Use tree decomposition",
-                    "id": "21:226",
-                    "children": [
-                      {
-                        "type": "show",
-                        "id": "21:286",
-                        "name": "Group 51",
-                        "disabled": false,
-                        "keywords": [
-                          "Group 51"
-                        ],
-                        "children": []
-                      },
-                      {
-                        "type": "show",
-                        "id": "21:289",
-                        "name": "Consider a node of the tree decomposition, which describes a graph with ports.",
-                        "disabled": false,
-                        "keywords": [
-                          "Consider a node of the tree decomposition, which describes a graph with ports."
-                        ],
-                        "children": []
-                      },
-                      {
-                        "type": "show",
-                        "id": "21:290",
-                        "name": "The signature of this node is the set of all colourings",
-                        "disabled": false,
-                        "keywords": [
-                          "The signature of this node is the set of all colourings"
-                        ],
-                        "children": []
-                      },
-                      {
-                        "type": "show",
-                        "id": "21:291",
-                        "name": "Fact. The signature of a node can be computed from the signatures of its children, in time",
-                        "disabled": false,
-                        "keywords": [
-                          "Fact. The signature of a node can be computed from the signatures of its children, in time"
-                        ],
-                        "children": []
-                      },
-                      {
-                        "type": "show",
-                        "id": "21:265",
-                        "name": "Constant: exhaustive search",
-                        "disabled": false,
-                        "keywords": [
-                          "Constant: exhaustive search"
-                        ],
-                        "children": []
-                      },
-                      {
-                        "type": "show",
-                        "id": "21:266",
-                        "name": "Forget: restrict the signature to smaller set",
-                        "disabled": false,
-                        "keywords": [
-                          "Forget: restrict the signature to smaller set"
-                        ],
-                        "children": []
-                      },
-                      {
-                        "type": "show",
-                        "id": "21:267",
-                        "name": "Fusion: interserction of signatures",
-                        "disabled": false,
-                        "keywords": [
-                          "Fusion: interserction of signatures"
-                        ],
-                        "children": []
-                      },
-                      {
-                        "type": "show",
-                        "id": "21:292",
-                        "name": "Corollary. The signature of the root node can be computed in time",
-                        "disabled": false,
-                        "keywords": [
-                          "Corollary. The signature of the root node can be computed in time"
-                        ],
-                        "children": []
-                      },
-                      {
-                        "type": "show",
-                        "id": "21:264",
-                        "name": "linear in the number of vertices",
-                        "disabled": false,
-                        "keywords": [
-                          "linear in the number of vertices"
-                        ],
-                        "children": []
-                      },
-                      {
-                        "type": "show",
-                        "id": "21:263",
-                        "name": "The graph is 3-colourable iff the signature of the root node is nonempty.",
-                        "disabled": false,
-                        "keywords": [
-                          "The graph is 3-colourable iff the signature of the root node is nonempty."
-                        ],
-                        "children": []
-                      }
-                    ],
-                    "keywords": [
-                      "Use tree decomposition"
-                    ]
-                  },
-                  {
-                    "type": "show",
-                    "id": "21:282",
-                    "name": "Theorem. Courcelle This proof works for every problem that can be formalised in monadic second-order logic.",
-                    "disabled": false,
-                    "keywords": [
-                      "Theorem. Courcelle This proof works for every problem that can be formalised in monadic second-order logic."
-                    ],
-                    "children": []
-                  }
-                ],
-                "keywords": [
-                  "Treewidth"
-                ]
-              },
-              {
-                "type": "show",
-                "id": "21:332",
-                "name": "This is an example of an XP algorithm.",
-                "disabled": false,
-                "keywords": [
-                  "This is an example of an XP algorithm."
-                ],
-                "children": []
-              },
-              {
-                "type": "show",
-                "id": "13:27",
-                "name": "Between these, there are other complexity classes of parameterised problems.",
-                "disabled": false,
-                "keywords": [
-                  "Between these, there are other complexity classes of parameterised problems."
-                ],
-                "children": []
-              },
-              {
-                "type": "child",
-                "name": "Clique",
-                "id": "13:31",
-                "children": [
-                  {
-                    "type": "show",
-                    "id": "21:295",
-                    "name": "Problem 1. Given a graph, does it contain a clique of size k?",
-                    "disabled": false,
-                    "keywords": [
-                      "Problem 1. Given a graph, does it contain a clique of size k?"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "13:52",
-                    "name": "Conjecture: Problem 1 is not in FPT",
-                    "disabled": false,
-                    "keywords": [
-                      "Conjecture: Problem 1 is not in FPT"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "21:296",
-                    "name": "Problem 2. Given k nondeterministic automata, is there some word accepted by all of them?",
-                    "disabled": false,
-                    "keywords": [
-                      "Problem 2. Given k nondeterministic automata, is there some word accepted by all of them?"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "13:53",
-                    "name": "Lemma: If Problem 2 is FPT, then so is Problem 1.",
-                    "disabled": false,
-                    "keywords": [
-                      "Lemma: If Problem 2 is FPT, then so is Problem 1."
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "child",
-                    "name": "From k-clique to automata",
-                    "id": "13:54",
-                    "children": [
-                      {
-                        "type": "show",
-                        "id": "13:56",
-                        "name": "Given a graph, we want to know if it contains a clique of size k.",
-                        "disabled": false,
-                        "keywords": [
-                          "Given a graph, we want to know if it contains a clique of size k."
-                        ],
-                        "children": []
-                      },
-                      {
-                        "type": "show",
-                        "id": "27:36",
-                        "name": "We will define a Turing machine of size O(vertices3) such that:",
-                        "disabled": false,
-                        "keywords": [
-                          "We will define a Turing machine of size O(vertices3) such that:"
-                        ],
-                        "children": []
-                      },
-                      {
-                        "type": "show",
-                        "id": "27:37",
-                        "name": "The graph has a clique of size k",
-                        "disabled": false,
-                        "keywords": [
-                          "The graph has a clique of size k"
-                        ],
-                        "children": []
-                      },
-                      {
-                        "type": "show",
-                        "id": "27:38",
-                        "name": "iff",
-                        "disabled": false,
-                        "keywords": [
-                          "iff"
-                        ],
-                        "children": []
-                      },
-                      {
-                        "type": "show",
-                        "id": "27:39",
-                        "name": "The Turing machine has an accepting computation of length ≤ k3",
-                        "disabled": false,
-                        "keywords": [
-                          "The Turing machine has an accepting computation of length ≤ k3"
-                        ],
-                        "children": []
-                      },
-                      {
-                        "type": "show",
-                        "id": "15:5",
-                        "name": "We define k automata over the alphabet of vertices as follows.",
-                        "disabled": false,
-                        "keywords": [
-                          "We define k automata over the alphabet of vertices as follows."
-                        ],
-                        "children": []
-                      },
-                      {
-                        "type": "show",
-                        "id": "27:7",
-                        "name": "for every i < j ∈ {1,.., k}, the i-th and j-th letters in the input word describe an edge in the graph",
-                        "disabled": false,
-                        "keywords": [
-                          "for every i < j ∈ {1,.., k}, the i-th and j-th letters in the input word describe an edge in the graph"
-                        ],
-                        "children": []
-                      },
-                      {
-                        "type": "show",
-                        "id": "27:5",
-                        "name": "time k3",
-                        "disabled": false,
-                        "keywords": [
-                          "time k3"
-                        ],
-                        "children": []
-                      },
-                      {
-                        "type": "show",
-                        "id": "28:21",
-                        "name": "If there would be an FPT algorithm for interesection of k automata, then the same would be true for k-clique.",
-                        "disabled": false,
-                        "keywords": [
-                          "If there would be an FPT algorithm for interesection of k automata, then the same would be true for k-clique."
-                        ],
-                        "children": []
-                      },
-                      {
-                        "type": "show",
-                        "id": "28:10",
-                        "name": "⟹",
-                        "disabled": false,
-                        "keywords": [
-                          "⟹"
-                        ],
-                        "children": []
-                      },
-                      {
-                        "type": "show",
-                        "id": "28:22",
-                        "name": "If there would be an FPT algorithm for interesection of k automata, then the same would be true for k-clique.",
-                        "disabled": false,
-                        "keywords": [
-                          "If there would be an FPT algorithm for interesection of k automata, then the same would be true for k-clique."
-                        ],
-                        "children": []
-                      },
-                      {
-                        "type": "show",
-                        "id": "27:41",
-                        "name": "If there would be an FPT algorithm for interesection of k automata, then the same would be true for k-clique.",
-                        "disabled": false,
-                        "keywords": [
-                          "If there would be an FPT algorithm for interesection of k automata, then the same would be true for k-clique."
-                        ],
-                        "children": []
-                      },
-                      {
-                        "type": "show",
-                        "id": "28:11",
-                        "name": "If there would be an FPT algorithm for interesection of k automata, then the same would be true for k-clique.",
-                        "disabled": false,
-                        "keywords": [
-                          "If there would be an FPT algorithm for interesection of k automata, then the same would be true for k-clique."
-                        ],
-                        "children": []
-                      }
-                    ],
-                    "keywords": [
-                      "From k-clique to automata"
-                    ]
-                  },
-                  {
-                    "type": "show",
-                    "id": "21:297",
-                    "name": "An FPT reduction is a function from instances of Problem 1 to instances of Problem 2",
-                    "disabled": false,
-                    "keywords": [
-                      "An FPT reduction is a function from instances of Problem 1 to instances of Problem 2"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "13:50",
-                    "name": "It is designed so that if Problem 2 is in FPT, then so is Problem 1",
-                    "disabled": false,
-                    "keywords": [
-                      "It is designed so that if Problem 2 is in FPT, then so is Problem 1"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "13:45",
-                    "name": "(a) output parameter: depends (computably) on input parameter",
-                    "disabled": false,
-                    "keywords": [
-                      "(a) output parameter: depends (computably) on input parameter"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "13:51",
-                    "name": "(output parameter does not depend on instance)",
-                    "disabled": false,
-                    "keywords": [
-                      "(output parameter does not depend on instance)"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "show",
-                    "id": "13:46",
-                    "name": "(b) output size: FPT in terms of input size",
-                    "disabled": false,
-                    "keywords": [
-                      "(b) output size: FPT in terms of input size"
-                    ],
-                    "children": []
-                  },
-                  {
-                    "type": "child",
-                    "name": "FPT reductions",
-                    "id": "25:2",
-                    "children": [
-                      {
-                        "type": "show",
-                        "id": "28:12",
-                        "name": "Examples of FPT reductions",
-                        "disabled": false,
-                        "keywords": [
-                          "Examples of FPT reductions"
-                        ],
-                        "children": []
-                      },
-                      {
-                        "type": "show",
-                        "id": "28:24",
-                        "name": "Does a graph contain a clique of size k?",
-                        "disabled": false,
-                        "keywords": [
-                          "Does a graph contain a clique of size k?"
-                        ],
-                        "children": []
-                      },
-                      {
-                        "type": "show",
-                        "id": "25:12",
-                        "name": "Arrow 5",
-                        "disabled": false,
-                        "keywords": [
-                          "Arrow 5"
-                        ],
-                        "children": []
-                      },
-                      {
-                        "type": "child",
-                        "name": "From Turing to clique",
-                        "id": "25:17",
-                        "children": [
-                          {
-                            "type": "show",
-                            "id": "25:19",
-                            "name": "Suppose that we want to know if a nondeterministic Turing machine M has an accepting computation of length k.",
-                            "disabled": false,
-                            "keywords": [
-                              "Suppose that we want to know if a nondeterministic Turing machine M has an accepting computation of length k."
-                            ],
-                            "children": []
-                          },
-                          {
-                            "type": "show",
-                            "id": "28:29",
-                            "name": "problem is equally hard for deterministic",
-                            "disabled": false,
-                            "keywords": [
-                              "problem is equally hard for deterministic"
-                            ],
-                            "children": []
-                          },
-                          {
-                            "type": "show",
-                            "id": "28:28",
-                            "name": "p",
-                            "disabled": false,
-                            "keywords": [
-                              "p"
-                            ],
-                            "children": []
-                          },
-                          {
-                            "type": "show",
-                            "id": "26:119",
-                            "name": "The existence of such a computation can be rephrased as the existence of a a clique of size (k – 2) × (k – 1) inside a graph of size poly(M)",
-                            "disabled": false,
-                            "keywords": [
-                              "The existence of such a computation can be rephrased as the existence of a a clique of size (k – 2) × (k – 1) inside a graph of size poly(M)"
-                            ],
-                            "children": []
-                          },
-                          {
-                            "type": "child",
-                            "name": "From Turing to clique 2",
-                            "id": "26:128",
-                            "children": [
-                              {
-                                "type": "show",
-                                "id": "28:30",
-                                "name": "?",
-                                "disabled": false,
-                                "keywords": [
-                                  "?"
-                                ],
-                                "children": []
-                              },
-                              {
-                                "type": "show",
-                                "id": "26:696",
-                                "name": "1. the window is consistent with the transition relation of the Turing machine",
-                                "disabled": false,
-                                "keywords": [
-                                  "1. the window is consistent with the transition relation of the Turing machine"
-                                ],
-                                "children": []
-                              },
-                              {
-                                "type": "show",
-                                "id": "26:697",
-                                "name": "2. if the window covers top-left corner, then the initial state is used there",
-                                "disabled": false,
-                                "keywords": [
-                                  "2. if the window covers top-left corner, then the initial state is used there"
-                                ],
-                                "children": []
-                              },
-                              {
-                                "type": "show",
-                                "id": "26:698",
-                                "name": "3. if the window covers a state in the last line, then that state is accepting",
-                                "disabled": false,
-                                "keywords": [
-                                  "3. if the window covers a state in the last line, then that state is accepting"
-                                ],
-                                "children": []
-                              },
-                              {
-                                "type": "show",
-                                "id": "28:2",
-                                "name": "Graph of windows: vertices are windows, and an edge connects two windows if they are consistent (agree on the overlap).",
-                                "disabled": false,
-                                "keywords": [
-                                  "Graph of windows: vertices are windows, and an edge connects two windows if they are consistent (agree on the overlap)."
-                                ],
-                                "children": []
-                              },
-                              {
-                                "type": "show",
-                                "id": "28:6",
-                                "name": "consistent",
-                                "disabled": false,
-                                "keywords": [
-                                  "consistent"
-                                ],
-                                "children": []
-                              },
-                              {
-                                "type": "show",
-                                "id": "28:31",
-                                "name": "not consistent",
-                                "disabled": false,
-                                "keywords": [
-                                  "not consistent"
-                                ],
-                                "children": []
-                              },
-                              {
-                                "type": "show",
-                                "id": "26:700",
-                                "name": "There is an accepting computation of length k iff The graph of windows contains a clique of size (k – 2) × (k – 1)",
-                                "disabled": false,
-                                "keywords": [
-                                  "There is an accepting computation of length k iff The graph of windows contains a clique of size (k – 2) × (k – 1)"
-                                ],
-                                "children": []
-                              }
-                            ],
-                            "keywords": [
-                              "From Turing to clique 2"
-                            ]
-                          }
-                        ],
-                        "keywords": [
-                          "From Turing to clique"
-                        ]
-                      },
-                      {
-                        "type": "show",
-                        "id": "28:25",
-                        "name": "Does a graph have a vertex cover of size k?",
-                        "disabled": false,
-                        "keywords": [
-                          "Does a graph have a vertex cover of size k?"
-                        ],
-                        "children": []
-                      },
-                      {
-                        "type": "show",
-                        "id": "28:18",
-                        "name": "FPT",
-                        "disabled": false,
-                        "keywords": [
-                          "FPT"
-                        ],
-                        "children": []
-                      },
-                      {
-                        "type": "show",
-                        "id": "28:26",
-                        "name": "Does a graph of treewidth k contain a Hamiltonian path?",
-                        "disabled": false,
-                        "keywords": [
-                          "Does a graph of treewidth k contain a Hamiltonian path?"
-                        ],
-                        "children": []
-                      },
-                      {
-                        "type": "show",
-                        "id": "28:17",
-                        "name": "W[1]",
-                        "disabled": false,
-                        "keywords": [
-                          "W[1]"
-                        ],
-                        "children": []
-                      },
-                      {
-                        "type": "show",
-                        "id": "25:7",
-                        "name": "Does a circuit accept some input with exactly k ones?",
-                        "disabled": false,
-                        "keywords": [
-                          "Does a circuit accept some input with exactly k ones?"
-                        ],
-                        "children": []
-                      },
-                      {
-                        "type": "show",
-                        "id": "28:27",
-                        "name": "Variables of the circuit are vertices",
-                        "disabled": false,
-                        "keywords": [
-                          "Variables of the circuit are vertices"
-                        ],
-                        "children": []
-                      },
-                      {
-                        "type": "show",
-                        "id": "28:19",
-                        "name": "W[P]",
-                        "disabled": false,
-                        "keywords": [
-                          "W[P]"
-                        ],
-                        "children": []
-                      }
-                    ],
-                    "keywords": [
-                      "FPT reductions"
-                    ]
-                  }
-                ],
-                "keywords": [
-                  "Clique"
-                ]
-              }
-            ],
-            "keywords": [
-              "fixed k"
-            ]
-          }
-        ],
-        "keywords": [
-          "Vertex cover"
-        ]
-      }
-    ],
-    "keywords": [
-      "First slide"
-    ]
-  },
-  "version": 0.86
+  }
 }

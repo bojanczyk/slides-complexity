@@ -1,0 +1,2166 @@
+{
+  "version": 0.88,
+  "presentation": "Recognisable languages",
+  "slideDict": {
+    "new_slide": "First_slide",
+    "recognisable_word_languages": "recognisable_word_languages",
+    "avantages_of_semigroups": "avantages_of_semigroups",
+    "monads": "monads",
+    "semigroup_as_monad": "semigroup_as_monad",
+    "monad_in_the_category_of_sets": "monad_in_the_category_of_sets",
+    "monad_axioms": "monad_axioms",
+    "Eilenberg-Moore_algebras": "Eilenberg-Moore_algebras",
+    "Examples_of_monads_and_their_algebras": "Examples_of_monads_and_their_algebras",
+    "Examples_of_monads_and_their_algebras,_continued": "Examples_of_monads_and_their_algebras,_continued",
+    "Examples_of_monads_and_their_algebras,_part_3": "Examples_of_monads_and_their_algebras,_part_3",
+    "theorems_in_general": "theorems_in_general",
+    "general_definition_of_recognisable_language": "general_definition_of_recognisable_language",
+    "homomorphism_of_algebras": "homomorphism_of_algebras",
+    "mso_monad": "mso_monad",
+    "mmso": "mmso",
+    "graphs": "graphs",
+    "hypergraphs": "hypergraphs",
+    "hypergraph_monad": "hypergraph_monad",
+    "free_multiplication_on_hypergraphs": "free_multiplication_on_hypergraphs",
+    "mso_=_reco": "mso_=_reco",
+    "cmso_vs_mso": "cmso_vs_mso",
+    "star_free_expressions": "star_free_expressions"
+  },
+  "tree": {
+    "type": "child",
+    "name": "First slide",
+    "id": "new_slide",
+    "merged": false,
+    "children": [
+      {
+        "type": "show",
+        "id": "Words_and_semigroups",
+        "name": "Words and semigroups",
+        "merged": false,
+        "children": [],
+        "keywords": [
+          "Words and semigroups"
+        ],
+        "disabled": false,
+        "eventId": "0"
+      },
+      {
+        "type": "child",
+        "name": "recognisable word languages",
+        "id": "recognisable_word_languages",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Sch_C3_BCtzenberger_1955__to_describe_regular_languages,_use_semigroups_instead_of_automata",
+            "name": "Schützenberger 1955: to describe regular languages, use semigroups instead of automata",
+            "merged": false,
+            "keywords": [
+              "Schützenberger 1955: to describe regular languages, use semigroups instead of automata"
+            ],
+            "eventId": "0",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "A_semigroup_is_a_set_S_with_a_binary_operation_that_is_associative_a_C2_B7(b_C2_B7c)_=_(a_C2_B7b)_C2_B7c",
+            "name": "A semigroup is a set S with a binary operation that is associative a·(b·c) = (a·b)·c",
+            "merged": true,
+            "keywords": [
+              "A semigroup is a set S with a binary operation that is associative a·(b·c) = (a·b)·c"
+            ],
+            "eventId": "4",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "semigroup_homomorphism",
+            "name": "semigroup homomorphism",
+            "merged": false,
+            "keywords": [
+              "{ yes, no }",
+              "L",
+              "h",
+              "F",
+              "S",
+              "Σ",
+              "+",
+              "language",
+              "semigroup homomorphism",
+              "accepting set"
+            ],
+            "eventId": "3",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Not_historically_accurate__1955_is_roughly_parallel_to_the_automata_definitions_of_Kleene,_Moore,_Nerode,_Rabin,_Scott,_...",
+            "name": "Not historically accurate: 1955 is roughly parallel to the automata definitions of Kleene, Moore, Nerode, Rabin, Scott, ...",
+            "merged": false,
+            "keywords": [
+              "Not historically accurate: 1955 is roughly parallel to the automata definitions of Kleene, Moore, Nerode, Rabin, Scott, ..."
+            ],
+            "eventId": "1",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "If_L_is_recognised_by_a_deterministic_automaton_with_states_Q,_then_it_is_recognised_by_the_homomorphism_into_the_semigroup_Q__E2_86_92_Q,_which_maps_a_word_to_its_state_transformation.",
+            "name": "If L is recognised by a deterministic automaton with states Q, then it is recognised by the homomorphism into the semigroup Q → Q, which maps a word to its state transformation.",
+            "merged": false,
+            "keywords": [
+              "If L is recognised by a deterministic automaton with states Q, then it is recognised by the homomorphism into the semigroup Q → Q, which maps a word to its state transformation."
+            ],
+            "eventId": "5",
+            "disabled": false
+          }
+        ],
+        "keywords": [
+          "recognisable word languages"
+        ],
+        "eventId": "1"
+      },
+      {
+        "type": "child",
+        "name": "avantages of semigroups",
+        "id": "avantages_of_semigroups",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Advantages_of_semigroups",
+            "name": "Advantages of semigroups",
+            "merged": false,
+            "keywords": [
+              "Advantages of semigroups"
+            ],
+            "eventId": "1",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Sometimes,_a_semigroup_is_the_better_data_structure",
+            "name": "Sometimes, a semigroup is the better data structure",
+            "merged": false,
+            "keywords": [
+              "Sometimes, a semigroup is the better data structure"
+            ],
+            "eventId": "2",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "_E2_80_A2_In_some_dynamic_algorithms,_you_want_to_compute_the_state_transformation_for_fragments_of_the_input_word,_and_not_just_states.",
+            "name": "• In some dynamic algorithms, you want to compute the state transformation for fragments of the input word, and not just states.",
+            "merged": false,
+            "keywords": [
+              "• In some dynamic algorithms, you want to compute the state transformation for fragments of the input word, and not just states."
+            ],
+            "eventId": "3",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "2._Semigroups_have_a_better_mathematical_theory",
+            "name": "2. Semigroups have a better mathematical theory",
+            "merged": false,
+            "keywords": [
+              "2. Semigroups have a better mathematical theory"
+            ],
+            "eventId": "4",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "_E2_80_A2_Green_E2_80_99s_relations_or_the_Factorization_Forest_Theorem.",
+            "name": "• Green’s relations or the Factorization Forest Theorem.",
+            "merged": false,
+            "keywords": [
+              "• Green’s relations or the Factorization Forest Theorem."
+            ],
+            "eventId": "5",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "_E2_80_A2_Many_properties_of_languages_can_be_described_in_terms_of_structural_semigroup_properties,_e.g._a_regular_language_is_star-free_iff_its_syntactic_semigroup_does_not_contain_any_nontrivial_group.",
+            "name": "• Many properties of languages can be described in terms of structural semigroup properties, e.g. a regular language is star-free iff its syntactic semigroup does not contain any nontrivial group.",
+            "merged": false,
+            "keywords": [
+              "• Many properties of languages can be described in terms of structural semigroup properties, e.g. a regular language is star-free iff its syntactic semigroup does not contain any nontrivial group."
+            ],
+            "eventId": "6",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "3._In_many_cases,_semigroups_generalize_better",
+            "name": "3. In many cases, semigroups generalize better",
+            "merged": false,
+            "keywords": [
+              "3. In many cases, semigroups generalize better"
+            ],
+            "eventId": "7",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "_E2_80_A2_Automata_are_based_on_some_processing_order_of_the_input_(e.g._left-to-right_for_words,_or_bottom-up_for_trees),_which_need_not_be_well_defined_for_things_like_graphs,_groups_or_certain_infinite_words.",
+            "name": "• Automata are based on some processing order of the input (e.g. left-to-right for words, or bottom-up for trees), which need not be well defined for things like graphs, groups or certain infinite words.",
+            "merged": false,
+            "keywords": [
+              "• Automata are based on some processing order of the input (e.g. left-to-right for words, or bottom-up for trees), which need not be well defined for things like graphs, groups or certain infinite words."
+            ],
+            "eventId": "8",
+            "disabled": false
+          }
+        ],
+        "keywords": [
+          "avantages of semigroups"
+        ],
+        "eventId": "4"
+      },
+      {
+        "type": "show",
+        "id": "Monads",
+        "name": "Monads",
+        "merged": false,
+        "keywords": [
+          "Monads"
+        ],
+        "eventId": "6",
+        "disabled": false
+      },
+      {
+        "type": "child",
+        "name": "monads",
+        "id": "monads",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Our_goal_is_to_generalise__E2_80_9Cassociativity_E2_80_9D_from_finite_words_to_infinite_words,_trees,_graphs,_words_with_weights,_etc.",
+            "name": "Our goal is to generalise “associativity” from finite words to infinite words, trees, graphs, words with weights, etc.",
+            "merged": false,
+            "keywords": [
+              "Our goal is to generalise “associativity” from finite words to infinite words, trees, graphs, words with weights, etc."
+            ],
+            "eventId": "4",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "semigroup as monad",
+            "id": "semigroup_as_monad",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Alternative_definition._A_semigroup_is_a_set_S_together_with_a_multiplication_operation__CE_BC___S+__E2_86_92_S_which_is_associative_in_the_following_sense_",
+                "name": "Alternative definition. A semigroup is a set S together with a multiplication operation μ : S+ → S which is associative in the following sense:",
+                "merged": false,
+                "keywords": [
+                  "Alternative definition. A semigroup is a set S together with a multiplication operation μ : S+ → S which is associative in the following sense:",
+                  "(S+)+",
+                  "S+",
+                  "S",
+                  "concat",
+                  "μ",
+                  "μ+"
+                ],
+                "eventId": "5",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Example___CE_BC_=_max",
+                "name": "Example: μ = max",
+                "merged": false,
+                "keywords": [
+                  "Example: μ = max"
+                ],
+                "eventId": "1",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "_5B_5B1,_2,_3_5D,__5B4,_5_5D,__5B6,_7,_8_5D_5D",
+                "name": "[[1, 2, 3], [4, 5], [6, 7, 8]]",
+                "merged": false,
+                "keywords": [
+                  "[[1, 2, 3], [4, 5], [6, 7, 8]]"
+                ],
+                "eventId": "6",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "_5B1,_2,_3,_4,_5,_6,_7,_8_5D",
+                "name": "[1, 2, 3, 4, 5, 6, 7, 8]",
+                "merged": false,
+                "keywords": [
+                  "[1, 2, 3, 4, 5, 6, 7, 8]"
+                ],
+                "eventId": "9",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "8",
+                "name": "8",
+                "merged": false,
+                "keywords": [
+                  "8"
+                ],
+                "eventId": "10",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "_5B_5B3_5D,__5B5_5D,__5B8_5D_5D",
+                "name": "[[3], [5], [8]]",
+                "merged": false,
+                "keywords": [
+                  "[[3], [5], [8]]"
+                ],
+                "eventId": "7",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Example___CE_BC_=_last",
+                "name": "Example: μ = last",
+                "merged": false,
+                "keywords": [
+                  "Example: μ = last"
+                ],
+                "eventId": "2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Nonexample___CE_BC_=_second",
+                "name": "Nonexample: μ = second",
+                "merged": false,
+                "keywords": [
+                  "Nonexample: μ = second"
+                ],
+                "eventId": "3",
+                "disabled": false
+              },
+              {
+                "type": "hide",
+                "id": "Example___CE_BC_=_max",
+                "name": "Example: μ = max",
+                "merged": false,
+                "keywords": [
+                  "Example: μ = max"
+                ],
+                "eventId": "11",
+                "disabled": false
+              },
+              {
+                "type": "hide",
+                "id": "Example___CE_BC_=_last",
+                "name": "Example: μ = last",
+                "merged": true,
+                "keywords": [
+                  "Example: μ = last"
+                ],
+                "eventId": "12",
+                "disabled": false
+              },
+              {
+                "type": "hide",
+                "id": "Nonexample___CE_BC_=_second",
+                "name": "Nonexample: μ = second",
+                "merged": true,
+                "keywords": [
+                  "Nonexample: μ = second"
+                ],
+                "eventId": "13",
+                "disabled": false
+              },
+              {
+                "type": "hide",
+                "id": "_5B_5B1,_2,_3_5D,__5B4,_5_5D,__5B6,_7,_8_5D_5D",
+                "name": "[[1, 2, 3], [4, 5], [6, 7, 8]]",
+                "merged": true,
+                "keywords": [
+                  "[[1, 2, 3], [4, 5], [6, 7, 8]]"
+                ],
+                "eventId": "14",
+                "disabled": false
+              },
+              {
+                "type": "hide",
+                "id": "_5B_5B3_5D,__5B5_5D,__5B8_5D_5D",
+                "name": "[[3], [5], [8]]",
+                "merged": true,
+                "keywords": [
+                  "[[3], [5], [8]]"
+                ],
+                "eventId": "15",
+                "disabled": false
+              },
+              {
+                "type": "hide",
+                "id": "_5B1,_2,_3,_4,_5,_6,_7,_8_5D",
+                "name": "[1, 2, 3, 4, 5, 6, 7, 8]",
+                "merged": true,
+                "keywords": [
+                  "[1, 2, 3, 4, 5, 6, 7, 8]"
+                ],
+                "eventId": "16",
+                "disabled": false
+              },
+              {
+                "type": "hide",
+                "id": "8",
+                "name": "8",
+                "merged": true,
+                "keywords": [
+                  "8"
+                ],
+                "eventId": "17",
+                "disabled": false
+              }
+            ],
+            "keywords": [
+              "semigroup as monad"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "child",
+            "name": "monad in the category of sets",
+            "id": "monad_in_the_category_of_sets",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Definition._A_monad_(in_the_category_of_sets)_consists_of_",
+                "name": "Definition. A monad (in the category of sets) consists of:",
+                "merged": false,
+                "keywords": [
+                  "Definition. A monad (in the category of sets) consists of:"
+                ],
+                "eventId": "2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "for_every_set_X,_a_set_T(X)",
+                "name": "for every set X, a set T(X)",
+                "merged": false,
+                "keywords": [
+                  "for every set X, a set T(X)"
+                ],
+                "eventId": "3",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Example._T(X)_=_X+",
+                "name": "Example. T(X) = X+",
+                "merged": false,
+                "keywords": [
+                  "Example. T(X) = X+"
+                ],
+                "eventId": "4",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "2._for_every_function_f___X__E2_86_92_Y,_a_function_T(f_)___T(X)__E2_86_92_T(Y)",
+                "name": "2. for every function f : X → Y, a function T(f ) : T(X) → T(Y)",
+                "merged": false,
+                "keywords": [
+                  "2. for every function f : X → Y, a function T(f ) : T(X) → T(Y)"
+                ],
+                "eventId": "5",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "T(f_)_applies_f_to_each_letter",
+                "name": "T(f ) applies f to each letter",
+                "merged": false,
+                "keywords": [
+                  "T(f ) applies f to each letter"
+                ],
+                "eventId": "6",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "3._for_every_set_X,_a_function_unit___X__E2_86_92_T(X)",
+                "name": "3. for every set X, a function unit : X → T(X)",
+                "merged": false,
+                "keywords": [
+                  "3. for every set X, a function unit : X → T(X)"
+                ],
+                "eventId": "7",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "a__E2_86_A6__5Ba_5D",
+                "name": "a ↦ [a]",
+                "merged": false,
+                "keywords": [
+                  "a ↦ [a]"
+                ],
+                "eventId": "8",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "4._for_every_set_X,_a_function__CE_BC___T(T(X))__E2_86_92_T(X)",
+                "name": "4. for every set X, a function μ : T(T(X)) → T(X)",
+                "merged": false,
+                "keywords": [
+                  "4. for every set X, a function μ : T(T(X)) → T(X)"
+                ],
+                "eventId": "9",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "free_multiplication",
+                "name": "free multiplication",
+                "merged": false,
+                "keywords": [
+                  "free multiplication"
+                ],
+                "eventId": "16",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "string_concatenation",
+                "name": "string concatenation",
+                "merged": false,
+                "keywords": [
+                  "string concatenation"
+                ],
+                "eventId": "10",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "subject_to_some_axioms...",
+                "name": "subject to some axioms...",
+                "merged": false,
+                "keywords": [
+                  "subject to some axioms..."
+                ],
+                "eventId": "11",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Example._T(X)_=_powerset_of_X",
+                "name": "Example. T(X) = powerset of X",
+                "merged": false,
+                "keywords": [
+                  "Example. T(X) = powerset of X"
+                ],
+                "eventId": "12",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "image_under_f",
+                "name": "image under f",
+                "merged": false,
+                "keywords": [
+                  "image under f"
+                ],
+                "eventId": "13",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "a__E2_86_A6__7Ba__7D",
+                "name": "a ↦ {a }",
+                "merged": false,
+                "keywords": [
+                  "a ↦ {a }"
+                ],
+                "eventId": "14",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "set_union",
+                "name": "set union",
+                "merged": false,
+                "keywords": [
+                  "set union"
+                ],
+                "eventId": "15",
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "monad axioms",
+                "id": "monad_axioms",
+                "merged": false,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "The_monad_is_a_functor",
+                    "name": "The monad is a functor",
+                    "merged": false,
+                    "keywords": [
+                      "The monad is a functor"
+                    ],
+                    "eventId": "1",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "T(id)",
+                    "name": "T(id)",
+                    "merged": false,
+                    "keywords": [
+                      "TX",
+                      "id",
+                      "T(id)"
+                    ],
+                    "eventId": "2",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "Tg_E2_97_A6f",
+                    "name": "Tg◦f",
+                    "merged": false,
+                    "keywords": [
+                      "TZ",
+                      "TX",
+                      "TY",
+                      "Tf",
+                      "Tg",
+                      "Tg◦f"
+                    ],
+                    "eventId": "3",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "Unit_and_free_multiplication_are_natural_transformations",
+                    "name": "Unit and free multiplication are natural transformations",
+                    "merged": false,
+                    "keywords": [
+                      "Unit and free multiplication are natural transformations"
+                    ],
+                    "eventId": "4",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "unit",
+                    "name": "unit",
+                    "merged": false,
+                    "keywords": [
+                      "X",
+                      "TX",
+                      "Y",
+                      "TY",
+                      "unit",
+                      "f",
+                      "Tf"
+                    ],
+                    "eventId": "5",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "free_multiplication",
+                    "name": "free multiplication",
+                    "merged": false,
+                    "keywords": [
+                      "TTX",
+                      "TX",
+                      "TTY",
+                      "TY",
+                      "free multiplication",
+                      "TTf",
+                      "Tf"
+                    ],
+                    "eventId": "6",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "And_three_more_axioms,_including_one_important_one.",
+                    "name": "And three more axioms, including one important one.",
+                    "merged": false,
+                    "keywords": [
+                      "And three more axioms, including one important one."
+                    ],
+                    "eventId": "7",
+                    "disabled": false
+                  }
+                ],
+                "keywords": [
+                  "monad axioms"
+                ],
+                "eventId": "1"
+              }
+            ],
+            "keywords": [
+              "monad in the category of sets"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "child",
+            "name": "Eilenberg-Moore algebras",
+            "id": "Eilenberg-Moore_algebras",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "Definition_of_an_Eilenberg",
+                "name": "Definition of an Eilenberg",
+                "merged": false,
+                "keywords": [
+                  "Definition. Fix a monad T. An algebra consists of:",
+                  "an underlying set A a multiplication operation μ : TA → A",
+                  "Definition of an Eilenberg"
+                ],
+                "eventId": "17",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Definition_of_Eilenberg_Moore",
+                "name": "Definition of Eilenberg Moore",
+                "merged": false,
+                "keywords": [
+                  "Definition of Eilenberg Moore"
+                ],
+                "eventId": "18",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "free_multiplication",
+                "name": "free multiplication",
+                "merged": false,
+                "keywords": [
+                  "TTA",
+                  "TA",
+                  "A",
+                  "free multiplication",
+                  "μ",
+                  "Tμ"
+                ],
+                "eventId": "6",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "unit",
+                "name": "unit",
+                "merged": false,
+                "keywords": [
+                  "unit",
+                  "TA",
+                  "A",
+                  "μ",
+                  "id"
+                ],
+                "eventId": "15",
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "Examples of monads and their algebras",
+                "id": "Examples_of_monads_and_their_algebras",
+                "merged": false,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "Examples_of_monads_and_their_algebras2",
+                    "name": "Examples of monads and their algebras",
+                    "merged": false,
+                    "keywords": [
+                      "Examples of monads and their algebras"
+                    ],
+                    "eventId": "11",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "Monad__TX_=_X+",
+                    "name": "Monad: TX = X+",
+                    "merged": false,
+                    "keywords": [
+                      "Monad: TX = X+"
+                    ],
+                    "eventId": "2",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "Algebras__semigroups",
+                    "name": "Algebras: semigroups",
+                    "merged": false,
+                    "keywords": [
+                      "Algebras: semigroups"
+                    ],
+                    "eventId": "3",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "Monad__TX_=_X*",
+                    "name": "Monad: TX = X*",
+                    "merged": false,
+                    "keywords": [
+                      "Monad: TX = X*"
+                    ],
+                    "eventId": "4",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "Algebras__monoids",
+                    "name": "Algebras: monoids",
+                    "merged": false,
+                    "keywords": [
+                      "Algebras: monoids"
+                    ],
+                    "eventId": "5",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "_CE_BC(_CE_B5)_=_monoid_identity",
+                    "name": "μ(ε) = monoid identity",
+                    "merged": false,
+                    "keywords": [
+                      "μ(ε) = monoid identity"
+                    ],
+                    "eventId": "6",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "Monad__TX_=_finite_multisets_over_X",
+                    "name": "Monad: TX = finite multisets over X",
+                    "merged": false,
+                    "keywords": [
+                      "Monad: TX = finite multisets over X"
+                    ],
+                    "eventId": "7",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "Algebras__commutative_semigroups",
+                    "name": "Algebras: commutative semigroups",
+                    "merged": false,
+                    "keywords": [
+                      "Algebras: commutative semigroups"
+                    ],
+                    "eventId": "8",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "Monad__TX_=_finite_subsets_of_X",
+                    "name": "Monad: TX = finite subsets of X",
+                    "merged": false,
+                    "keywords": [
+                      "Monad: TX = finite subsets of X"
+                    ],
+                    "eventId": "9",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "Algebras__commutative_idempotent_semigroups",
+                    "name": "Algebras: commutative idempotent semigroups",
+                    "merged": false,
+                    "keywords": [
+                      "Algebras: commutative idempotent semigroups"
+                    ],
+                    "eventId": "10",
+                    "disabled": false
+                  }
+                ],
+                "keywords": [
+                  "Examples of monads and their algebras"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "child",
+                "name": "Examples of monads and their algebras, continued",
+                "id": "Examples_of_monads_and_their_algebras,_continued",
+                "merged": true,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "Monad__TX_=_free_group_over_X",
+                    "name": "Monad: TX = free group over X",
+                    "merged": false,
+                    "keywords": [
+                      "Monad: TX = free group over X"
+                    ],
+                    "eventId": "2",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "xyx_-1xy_-1xx_-1_=_x",
+                    "name": "xyx -1xy -1xx -1 = x",
+                    "merged": false,
+                    "keywords": [
+                      "xyx -1xy -1xx -1 = x"
+                    ],
+                    "eventId": "10",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "Algebras__groups",
+                    "name": "Algebras: groups",
+                    "merged": false,
+                    "keywords": [
+                      "Algebras: groups"
+                    ],
+                    "eventId": "3",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "The_monad_is_the_free_algebra",
+                    "name": "The monad is the free algebra",
+                    "merged": false,
+                    "keywords": [
+                      "The monad is the free algebra"
+                    ],
+                    "eventId": "11",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "Two_of_the_monad_axioms_say_that_the_following_is_an_algebra_for_every_set_X__underlying_set_is_TX_multiplication_is_free_multiplication_TTX__E2_86_92_TX",
+                    "name": "Two of the monad axioms say that the following is an algebra for every set X: underlying set is TX multiplication is free multiplication TTX → TX",
+                    "merged": false,
+                    "keywords": [
+                      "Two of the monad axioms say that the following is an algebra for every set X: underlying set is TX multiplication is free multiplication TTX → TX"
+                    ],
+                    "eventId": "12",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "Monad__TX_=_multisets_over_X+",
+                    "name": "Monad: TX = multisets over X+",
+                    "merged": false,
+                    "keywords": [
+                      "Monad: TX = multisets over X+"
+                    ],
+                    "eventId": "4",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "_7Bx,_xyx,_xyx,_yyy__7D",
+                    "name": "{x, xyx, xyx, yyy }",
+                    "merged": false,
+                    "keywords": [
+                      "{x, xyx, xyx, yyy }"
+                    ],
+                    "eventId": "9",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "Algebras__commutative_semirings",
+                    "name": "Algebras: commutative semirings",
+                    "merged": false,
+                    "keywords": [
+                      "Algebras: commutative semirings"
+                    ],
+                    "eventId": "5",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "Monad__TX_=_linear_combinations_of_X+,_with_rational_coefficients",
+                    "name": "Monad: TX = linear combinations of X+, with rational coefficients",
+                    "merged": false,
+                    "keywords": [
+                      "Monad: TX = linear combinations of X+, with rational coefficients"
+                    ],
+                    "eventId": "6",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "3_C2_B7x_+__C2_BD_C2_B7xyx__E2_80_93_7_C2_B7yy",
+                    "name": "3·x + ½·xyx – 7·yy",
+                    "merged": false,
+                    "keywords": [
+                      "3·x + ½·xyx – 7·yy"
+                    ],
+                    "eventId": "8",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "Algebras__semigroups,_where_the_underlying_set_is_a_vector_space_over_the_rationals,_and_the_semigroup_operation_is_bilinear_(_E2_80_9Calgebras_over_the_field_of_rationals_E2_80_9D)",
+                    "name": "Algebras: semigroups, where the underlying set is a vector space over the rationals, and the semigroup operation is bilinear (“algebras over the field of rationals”)",
+                    "merged": false,
+                    "keywords": [
+                      "Algebras: semigroups, where the underlying set is a vector space over the rationals, and the semigroup operation is bilinear (“algebras over the field of rationals”)"
+                    ],
+                    "eventId": "7",
+                    "disabled": false
+                  }
+                ],
+                "keywords": [
+                  "Examples of monads and their algebras, continued"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "child",
+                "name": "Examples of monads and their algebras, part 3",
+                "id": "Examples_of_monads_and_their_algebras,_part_3",
+                "merged": true,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "Monad__TX_=_terms_with_variables_X,_over_the_signature_with_a_binary_f,_unary_g_and_h,_and_nullary_c.",
+                    "name": "Monad: TX = terms with variables X, over the signature with a binary f, unary g and h, and nullary c.",
+                    "merged": false,
+                    "keywords": [
+                      "Monad: TX = terms with variables X, over the signature with a binary f, unary g and h, and nullary c."
+                    ],
+                    "eventId": "1",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "Algebras__algebras_over_this_signature_(in_the_sense_of_universal_algebra),_also_known_as_deterministic_bottom-up_tree_automata.",
+                    "name": "Algebras: algebras over this signature (in the sense of universal algebra), also known as deterministic bottom-up tree automata.",
+                    "merged": false,
+                    "keywords": [
+                      "Algebras: algebras over this signature (in the sense of universal algebra), also known as deterministic bottom-up tree automata."
+                    ],
+                    "eventId": "2",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "Monad__TX_=_countable_linear_orders_labelled_by_X",
+                    "name": "Monad: TX = countable linear orders labelled by X",
+                    "merged": false,
+                    "keywords": [
+                      "Monad: TX = countable linear orders labelled by X"
+                    ],
+                    "eventId": "3",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "xxx...",
+                    "name": "xxx...",
+                    "merged": false,
+                    "keywords": [
+                      "xxx..."
+                    ],
+                    "eventId": "5",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "...xxx",
+                    "name": "...xxx",
+                    "merged": false,
+                    "keywords": [
+                      "...xxx"
+                    ],
+                    "eventId": "4",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "rationals_labelled_by_x,_y_so_that_both_letters_are_dense",
+                    "name": "rationals labelled by x, y so that both letters are dense",
+                    "merged": false,
+                    "keywords": [
+                      "rationals labelled by x, y so that both letters are dense"
+                    ],
+                    "eventId": "6",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "Algebras___E2_97_A6-semigroups",
+                    "name": "Algebras: ◦-semigroups",
+                    "merged": false,
+                    "keywords": [
+                      "Algebras: ◦-semigroups"
+                    ],
+                    "eventId": "7",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "Also__monads_for_graphs,_or_infinite_trees.",
+                    "name": "Also: monads for graphs, or infinite trees.",
+                    "merged": false,
+                    "keywords": [
+                      "Also: monads for graphs, or infinite trees."
+                    ],
+                    "eventId": "8",
+                    "disabled": false
+                  }
+                ],
+                "keywords": [
+                  "Examples of monads and their algebras, part 3"
+                ],
+                "eventId": "3"
+              }
+            ],
+            "keywords": [
+              "Eilenberg-Moore algebras"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "What_theorems_can_you_prove_at_this_level_of_generality?",
+            "name": "What theorems can you prove at this level of generality?",
+            "merged": false,
+            "keywords": [
+              "What theorems can you prove at this level of generality?"
+            ],
+            "eventId": "8",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "theorems in general",
+            "id": "theorems_in_general",
+            "merged": false,
+            "children": [
+              {
+                "type": "child",
+                "name": "general definition of recognisable language",
+                "id": "general_definition_of_recognisable_language",
+                "merged": false,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "A_recognisable_language_in_a_monad_T",
+                    "name": "A recognisable language in a monad T",
+                    "merged": false,
+                    "keywords": [
+                      "A recognisable language in a monad T"
+                    ],
+                    "eventId": "2",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "_7B_yes,_no__7D",
+                    "name": "{ yes, no }",
+                    "merged": false,
+                    "keywords": [
+                      "{ yes, no }",
+                      "L",
+                      "TΣ",
+                      "language"
+                    ],
+                    "eventId": "4",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "finite_algebra",
+                    "name": "finite algebra",
+                    "merged": false,
+                    "keywords": [
+                      "A",
+                      "finite algebra"
+                    ],
+                    "eventId": "6",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "One_definition_of__E2_80_9Cfinite_algebra_E2_80_9D_is_that_the_underlying_set_is_finite,_but_this_is_not_satisfactory_in_general.",
+                    "name": "One definition of “finite algebra” is that the underlying set is finite, but this is not satisfactory in general.",
+                    "merged": false,
+                    "keywords": [
+                      "One definition of “finite algebra” is that the underlying set is finite, but this is not satisfactory in general."
+                    ],
+                    "eventId": "5",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "homomorphism_of_algebras2",
+                    "name": "homomorphism of algebras",
+                    "merged": false,
+                    "keywords": [
+                      "F",
+                      "h",
+                      "homomorphism of algebras",
+                      "accepting set"
+                    ],
+                    "eventId": "11",
+                    "disabled": false
+                  },
+                  {
+                    "type": "child",
+                    "name": "homomorphism of algebras",
+                    "id": "homomorphism_of_algebras",
+                    "merged": false,
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "multiplication_in_A",
+                        "name": "multiplication in A",
+                        "merged": false,
+                        "keywords": [
+                          "TA",
+                          "TB",
+                          "A",
+                          "B",
+                          "multiplication in A",
+                          "multiplication in B",
+                          "Th",
+                          "h"
+                        ],
+                        "eventId": "1",
+                        "disabled": false
+                      }
+                    ],
+                    "keywords": [
+                      "homomorphism of algebras"
+                    ],
+                    "eventId": "12"
+                  }
+                ],
+                "keywords": [
+                  "general definition of recognisable language"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Theorem.__5BB_2015_5D_Let_T_be_a_monad_in_the_category_of_sets.",
+                "name": "Theorem. [B 2015] Let T be a monad in the category of sets.",
+                "merged": false,
+                "keywords": [
+                  "Theorem. [B 2015] Let T be a monad in the category of sets."
+                ],
+                "eventId": "2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "If_T_is_finitary,_then_every_language_has_a_syntactic_algebra.",
+                "name": "If T is finitary, then every language has a syntactic algebra.",
+                "merged": false,
+                "keywords": [
+                  "If T is finitary, then every language has a syntactic algebra."
+                ],
+                "eventId": "3",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "2.__5BB.,_Plotkin_5D_If_every_language_has_a_syntactic_algebra,_then_T_is_finitary.",
+                "name": "2. [B., Plotkin] If every language has a syntactic algebra, then T is finitary.",
+                "merged": false,
+                "keywords": [
+                  "2. [B., Plotkin] If every language has a syntactic algebra, then T is finitary."
+                ],
+                "eventId": "4",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "3._Every_recognisable_language_has_a_syntactic_algebra.",
+                "name": "3. Every recognisable language has a syntactic algebra.",
+                "merged": false,
+                "keywords": [
+                  "3. Every recognisable language has a syntactic algebra."
+                ],
+                "eventId": "5",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Also,_the_following_are_equivalent_",
+                "name": "Also, the following are equivalent:",
+                "merged": false,
+                "keywords": [
+                  "Also, the following are equivalent:"
+                ],
+                "eventId": "6",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "a)_varieties_of_finite_algebras",
+                "name": "a) varieties of finite algebras",
+                "merged": false,
+                "keywords": [
+                  "a) varieties of finite algebras"
+                ],
+                "eventId": "7",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "b)_varieties_of_regular_languages",
+                "name": "b) varieties of regular languages",
+                "merged": false,
+                "keywords": [
+                  "b) varieties of regular languages"
+                ],
+                "eventId": "8",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "c)_classes_of_finite_algebras_defined_by_profinite_equations",
+                "name": "c) classes of finite algebras defined by profinite equations",
+                "merged": false,
+                "keywords": [
+                  "c) classes of finite algebras defined by profinite equations"
+                ],
+                "eventId": "9",
+                "disabled": false
+              }
+            ],
+            "keywords": [
+              "theorems in general"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "child",
+            "name": "mso monad",
+            "id": "mso_monad",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "For_many_monads,_every_language_L_satisfies",
+                "name": "For many monads, every language L satisfies",
+                "merged": false,
+                "keywords": [
+                  "For many monads, every language L satisfies"
+                ],
+                "eventId": "2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "L_is_recognisable__E2_9F_BA_L_is_definable_in_MSO",
+                "name": "L is recognisable ⟺ L is definable in MSO",
+                "merged": true,
+                "keywords": [
+                  "L is recognisable ⟺ L is definable in MSO"
+                ],
+                "eventId": "3",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Examples._Finite_words,_infinite_words,_finite_trees,_graphs_of_bounded_treewidth,_...",
+                "name": "Examples. Finite words, infinite words, finite trees, graphs of bounded treewidth, ...",
+                "merged": false,
+                "keywords": [
+                  "Examples. Finite words, infinite words, finite trees, graphs of bounded treewidth, ..."
+                ],
+                "eventId": "4",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Nonexample._Infinite_trees,_because_we_do_not_know_what_a_finite_algebra_is_in_this_case.",
+                "name": "Nonexample. Infinite trees, because we do not know what a finite algebra is in this case.",
+                "merged": false,
+                "keywords": [
+                  "Nonexample. Infinite trees, because we do not know what a finite algebra is in this case."
+                ],
+                "eventId": "5",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "The_easier_implication_is",
+                "name": "The easier implication is",
+                "merged": false,
+                "keywords": [
+                  "The easier implication is"
+                ],
+                "eventId": "6",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "L_is_recognisable__E2_9F_B8_L_is_definable_in_MSO",
+                "name": "L is recognisable ⟸ L is definable in MSO",
+                "merged": true,
+                "keywords": [
+                  "L is recognisable ⟸ L is definable in MSO"
+                ],
+                "eventId": "7",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "for_graphs_of_bounded_treewidth,_this_is_Courcelle_E2_80_99s_theorem",
+                "name": "for graphs of bounded treewidth, this is Courcelle’s theorem",
+                "merged": false,
+                "keywords": [
+                  "for graphs of bounded treewidth, this is Courcelle’s theorem"
+                ],
+                "eventId": "8",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "and_it_can_be_proved_in_wide_generality.",
+                "name": "and it can be proved in wide generality.",
+                "merged": false,
+                "keywords": [
+                  "and it can be proved in wide generality."
+                ],
+                "eventId": "9",
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "mmso",
+                "id": "mmso",
+                "merged": false,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "Operations_of_MSO_can_be_simulated_in_finite_algebras.",
+                    "name": "Operations of MSO can be simulated in finite algebras.",
+                    "merged": false,
+                    "keywords": [
+                      "Operations of MSO can be simulated in finite algebras."
+                    ],
+                    "eventId": "1",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "_C2_AC_do_not_change_the_algebra,_change_the_accepting_set",
+                    "name": "¬ do not change the algebra, change the accepting set",
+                    "merged": false,
+                    "keywords": [
+                      "¬ do not change the algebra, change the accepting set"
+                    ],
+                    "eventId": "2",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "_E2_88_A7__E2_88_A8_product_of_two_algebras",
+                    "name": "∧ ∨ product of two algebras",
+                    "merged": false,
+                    "keywords": [
+                      "∧ ∨ product of two algebras"
+                    ],
+                    "eventId": "3",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "_E2_88_83_a_powerset_algebra",
+                    "name": "∃ a powerset algebra",
+                    "merged": false,
+                    "keywords": [
+                      "∃ a powerset algebra"
+                    ],
+                    "eventId": "4",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "Theorem.__5BB._Klin,_Salamanca_5D_Many_monads_allow_a_powerset_construction.",
+                    "name": "Theorem. [B. Klin, Salamanca] Many monads allow a powerset construction.",
+                    "merged": false,
+                    "keywords": [
+                      "Theorem. [B. Klin, Salamanca] Many monads allow a powerset construction."
+                    ],
+                    "eventId": "5",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "Nonexample._Groups_(no_powerset_group)",
+                    "name": "Nonexample. Groups (no powerset group)",
+                    "merged": false,
+                    "keywords": [
+                      "Nonexample. Groups (no powerset group)"
+                    ],
+                    "eventId": "6",
+                    "disabled": false
+                  }
+                ],
+                "keywords": [
+                  "mmso"
+                ],
+                "eventId": "1"
+              }
+            ],
+            "keywords": [
+              "mso monad"
+            ],
+            "eventId": "7"
+          }
+        ],
+        "keywords": [
+          "monads"
+        ],
+        "eventId": "5"
+      },
+      {
+        "type": "show",
+        "id": "Graphs",
+        "name": "Graphs",
+        "merged": false,
+        "keywords": [
+          "Graphs"
+        ],
+        "eventId": "9",
+        "disabled": false
+      },
+      {
+        "type": "child",
+        "name": "graphs",
+        "id": "graphs",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "We_can_model_graphs_using_a_monad",
+            "name": "We can model graphs using a monad",
+            "merged": false,
+            "keywords": [
+              "We can model graphs using a monad"
+            ],
+            "eventId": "4",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "hypergraphs",
+            "id": "hypergraphs",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "We_use_hypergraphs",
+                "name": "We use hypergraphs",
+                "merged": false,
+                "keywords": [
+                  "We use hypergraphs"
+                ],
+                "eventId": "2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "hyperedge_e_of_arity_3",
+                "name": "hyperedge e of arity 3",
+                "merged": false,
+                "keywords": [
+                  "hyperedge e of arity 3"
+                ],
+                "eventId": "4",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "vertex_v",
+                "name": "vertex v",
+                "merged": false,
+                "keywords": [
+                  "vertex v"
+                ],
+                "eventId": "18",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "a",
+                "name": "a",
+                "merged": false,
+                "keywords": [
+                  "a",
+                  "c",
+                  "b"
+                ],
+                "eventId": "14",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": ",_labelled",
+                "name": ", labelled",
+                "merged": true,
+                "keywords": [
+                  ", labelled"
+                ],
+                "eventId": "15",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "1",
+                "name": "1",
+                "merged": false,
+                "keywords": [
+                  "1",
+                  "2",
+                  "3"
+                ],
+                "eventId": "16",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": ",_directed",
+                "name": ", directed",
+                "merged": true,
+                "keywords": [
+                  ", directed"
+                ],
+                "eventId": "17",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "v_is_the_1st_neighbour_of_e",
+                "name": "v is the 1st neighbour of e",
+                "merged": false,
+                "keywords": [
+                  "v is the 1st neighbour of e"
+                ],
+                "eventId": "5",
+                "disabled": false
+              },
+              {
+                "type": "hide",
+                "id": "1",
+                "name": "1",
+                "merged": false,
+                "keywords": [
+                  "1"
+                ],
+                "eventId": "13",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "port_1",
+                "name": "port 1",
+                "merged": false,
+                "keywords": [
+                  "port 1",
+                  "port 2"
+                ],
+                "eventId": "19",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "and_with_ports",
+                "name": "and with ports",
+                "merged": true,
+                "keywords": [
+                  "and with ports"
+                ],
+                "eventId": "20",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "To_define_properties_of_hypergraphs,_we_use_MSO.",
+                "name": "To define properties of hypergraphs, we use MSO.",
+                "merged": false,
+                "keywords": [
+                  "To define properties of hypergraphs, we use MSO."
+                ],
+                "eventId": "21",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "_E2_80_9Cif_a_set_of_vertices_contains_port_1_and_closed_under_neighbours,_then_it_contains_port_2_E2_80_9D",
+                "name": "“if a set of vertices contains port 1 and closed under neighbours, then it contains port 2”",
+                "merged": false,
+                "keywords": [
+                  "“if a set of vertices contains port 1 and closed under neighbours, then it contains port 2”"
+                ],
+                "eventId": "22",
+                "disabled": false
+              }
+            ],
+            "keywords": [
+              "hypergraphs"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "child",
+            "name": "hypergraph monad",
+            "id": "hypergraph_monad",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "We_work_in_the_category_of_ranked_sets._In_a_ranked_set,_every_element_has_an_arity_in__7B0,_1,_..._7D.",
+                "name": "We work in the category of ranked sets. In a ranked set, every element has an arity in {0, 1, ...}.",
+                "merged": false,
+                "keywords": [
+                  "We work in the category of ranked sets. In a ranked set, every element has an arity in {0, 1, ...}."
+                ],
+                "eventId": "2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "For_a_ranked_set__CE_A3,_define_T_CE_A3_to_be_all_hypergraphs_over__CE_A3.",
+                "name": "For a ranked set Σ, define TΣ to be all hypergraphs over Σ.",
+                "merged": false,
+                "keywords": [
+                  "For a ranked set Σ, define TΣ to be all hypergraphs over Σ."
+                ],
+                "eventId": "1",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "the_arity_of_a_hypergraph_is_the_number_of_ports",
+                "name": "the arity of a hypergraph is the number of ports",
+                "merged": false,
+                "keywords": [
+                  "the arity of a hypergraph is the number of ports"
+                ],
+                "eventId": "6",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "This_is_a_monad.",
+                "name": "This is a monad.",
+                "merged": false,
+                "keywords": [
+                  "This is a monad."
+                ],
+                "eventId": "3",
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "free multiplication on hypergraphs",
+                "id": "free_multiplication_on_hypergraphs",
+                "merged": false,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "Free_multiplication__TT_CE_A3__E2_86_92_T_CE_A3",
+                    "name": "Free multiplication: TTΣ → TΣ",
+                    "merged": false,
+                    "keywords": [
+                      "Free multiplication: TTΣ → TΣ"
+                    ],
+                    "eventId": "1",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "input__a_hypergraph_labelled_by_hypergraphs",
+                    "name": "input: a hypergraph labelled by hypergraphs",
+                    "merged": false,
+                    "keywords": [
+                      "input: a hypergraph labelled by hypergraphs"
+                    ],
+                    "eventId": "4",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "TT_CE_A3",
+                    "name": "TTΣ",
+                    "merged": true,
+                    "keywords": [
+                      "b",
+                      "a",
+                      "port 1",
+                      "port 2",
+                      "TTΣ"
+                    ],
+                    "eventId": "8",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "output___a_hypergraph",
+                    "name": "output : a hypergraph",
+                    "merged": false,
+                    "keywords": [
+                      "output : a hypergraph"
+                    ],
+                    "eventId": "10",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "T_CE_A3",
+                    "name": "TΣ",
+                    "merged": true,
+                    "keywords": [
+                      "b",
+                      "a",
+                      "port 1",
+                      "port 2",
+                      "TΣ"
+                    ],
+                    "eventId": "9",
+                    "disabled": false
+                  },
+                  {
+                    "type": "hide",
+                    "id": "TT_CE_A3",
+                    "name": "TTΣ",
+                    "merged": true,
+                    "keywords": [
+                      "TTΣ"
+                    ],
+                    "eventId": "11",
+                    "disabled": false
+                  },
+                  {
+                    "type": "hide",
+                    "id": "input__a_hypergraph_labelled_by_hypergraphs",
+                    "name": "input: a hypergraph labelled by hypergraphs",
+                    "merged": true,
+                    "keywords": [
+                      "input: a hypergraph labelled by hypergraphs"
+                    ],
+                    "eventId": "12",
+                    "disabled": false
+                  }
+                ],
+                "keywords": [
+                  "free multiplication on hypergraphs"
+                ],
+                "eventId": "7"
+              },
+              {
+                "type": "show",
+                "id": "The_general_theorems_apply,_e.g._we_get_syntactic_algebras,_varieties,_profinite_identities,_etc.",
+                "name": "The general theorems apply, e.g. we get syntactic algebras, varieties, profinite identities, etc.",
+                "merged": false,
+                "keywords": [
+                  "The general theorems apply, e.g. we get syntactic algebras, varieties, profinite identities, etc."
+                ],
+                "eventId": "10",
+                "disabled": false
+              }
+            ],
+            "keywords": [
+              "hypergraph monad"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "This_places_existing_results_in_context,_and_invites_new_ones.",
+            "name": "This places existing results in context, and invites new ones.",
+            "merged": false,
+            "keywords": [
+              "This places existing results in context, and invites new ones."
+            ],
+            "eventId": "5",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "mso = reco",
+            "id": "mso_=_reco",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Theorem.__5BCourcelle,_B.,_Pilipczuk_5D_If_L_is_a_language_of_graphs_of_bounded_treewidth,_then",
+                "name": "Theorem. [Courcelle, B., Pilipczuk] If L is a language of graphs of bounded treewidth, then",
+                "merged": false,
+                "keywords": [
+                  "Theorem. [Courcelle, B., Pilipczuk] If L is a language of graphs of bounded treewidth, then",
+                  "L is recognisable ⟺ L is definable in MSO"
+                ],
+                "eventId": "1",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "generic_theorems_on_powerset_algebras",
+                "name": "generic theorems on powerset algebras",
+                "merged": false,
+                "keywords": [
+                  "⟸",
+                  "generic theorems on powerset algebras"
+                ],
+                "eventId": "2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "distribute___HP_CE_A3__E2_86_92_PH_CE_A3",
+                "name": "distribute : HPΣ → PHΣ",
+                "merged": false,
+                "keywords": [
+                  "distribute : HPΣ → PHΣ"
+                ],
+                "eventId": "3",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "more_domain-specific_knowledge",
+                "name": "more domain-specific knowledge",
+                "merged": false,
+                "keywords": [
+                  "⟸",
+                  "more domain-specific knowledge"
+                ],
+                "eventId": "4",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "but_there_is_some_abstract_content,_e.g._a_language_has_bounded_treewidth_iff_it_can_be_generated_by_a_finite_set_of_term_operations",
+                "name": "but there is some abstract content, e.g. a language has bounded treewidth iff it can be generated by a finite set of term operations",
+                "merged": false,
+                "keywords": [
+                  "but there is some abstract content, e.g. a language has bounded treewidth iff it can be generated by a finite set of term operations"
+                ],
+                "eventId": "5",
+                "disabled": false
+              }
+            ],
+            "keywords": [
+              "mso = reco"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "child",
+            "name": "cmso vs mso",
+            "id": "cmso_vs_mso",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "When_speaking_about_graphs,_MSO_needs_modulo_counting___E2_80_9Cthe_size_of_set_X_is_divisible_by_3_E2_80_9D.",
+                "name": "When speaking about graphs, MSO needs modulo counting: “the size of set X is divisible by 3”.",
+                "merged": false,
+                "keywords": [
+                  "When speaking about graphs, MSO needs modulo counting: “the size of set X is divisible by 3”."
+                ],
+                "eventId": "1",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Theorem.__5BB_5D_Let_L_be_a_recognisable_language_of_hypergraphs_of_bounded_treewidth._Then_the_following_conditions_are_equivalent_",
+                "name": "Theorem. [B] Let L be a recognisable language of hypergraphs of bounded treewidth. Then the following conditions are equivalent:",
+                "merged": false,
+                "keywords": [
+                  "Theorem. [B] Let L be a recognisable language of hypergraphs of bounded treewidth. Then the following conditions are equivalent:"
+                ],
+                "eventId": "2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "L_is_definable_in_MSO_without_modulo_counting",
+                "name": "L is definable in MSO without modulo counting",
+                "merged": false,
+                "keywords": [
+                  "L is definable in MSO without modulo counting"
+                ],
+                "eventId": "3",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "2._The_syntactic_algebra_of_L_is_aperiodic.",
+                "name": "2. The syntactic algebra of L is aperiodic.",
+                "merged": false,
+                "keywords": [
+                  "2. The syntactic algebra of L is aperiodic."
+                ],
+                "eventId": "4",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "exists_and_can_be_computed",
+                "name": "exists and can be computed",
+                "merged": false,
+                "keywords": [
+                  "exists and can be computed"
+                ],
+                "eventId": "5",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "certain_semigroups_contain_no_nontrivial_groups",
+                "name": "certain semigroups contain no nontrivial groups",
+                "merged": false,
+                "keywords": [
+                  "certain semigroups contain no nontrivial groups"
+                ],
+                "eventId": "6",
+                "disabled": false
+              }
+            ],
+            "keywords": [
+              "cmso vs mso"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "child",
+            "name": "star free expressions",
+            "id": "star_free_expressions",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "For_graphs,_the_usual_notion_of_first-order_logic_uses_only_the_neighbour_relation.",
+                "name": "For graphs, the usual notion of first-order logic uses only the neighbour relation.",
+                "merged": false,
+                "keywords": [
+                  "For graphs, the usual notion of first-order logic uses only the neighbour relation."
+                ],
+                "eventId": "1",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "In_particular,_the_logic_is_subject_to_locality_and_annot_define_connectivity.",
+                "name": "In particular, the logic is subject to locality and annot define connectivity.",
+                "merged": false,
+                "keywords": [
+                  "In particular, the logic is subject to locality and annot define connectivity."
+                ],
+                "eventId": "2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "For_words_(and_trees),_the_usual_notion_of_first-order_logic_uses_order,_which_is_more_powerful_than_successor.",
+                "name": "For words (and trees), the usual notion of first-order logic uses order, which is more powerful than successor.",
+                "merged": false,
+                "keywords": [
+                  "For words (and trees), the usual notion of first-order logic uses order, which is more powerful than successor."
+                ],
+                "eventId": "3",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "The_local_logics_with_successor_only_are_less_interesting.",
+                "name": "The local logics with successor only are less interesting.",
+                "merged": false,
+                "keywords": [
+                  "The local logics with successor only are less interesting."
+                ],
+                "eventId": "4",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Monads_have_a_generic_notion_of_star-free_language.",
+                "name": "Monads have a generic notion of star-free language.",
+                "merged": false,
+                "keywords": [
+                  "Monads have a generic notion of star-free language."
+                ],
+                "eventId": "5",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Take_finite_languages,_and_close_them_under_Boolean_operations_and_term_operations.",
+                "name": "Take finite languages, and close them under Boolean operations and term operations.",
+                "merged": false,
+                "keywords": [
+                  "Take finite languages, and close them under Boolean operations and term operations."
+                ],
+                "eventId": "6",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "For_words_and_trees,_star-free_=_first-order_(with_order)",
+                "name": "For words and trees, star-free = first-order (with order)",
+                "merged": false,
+                "keywords": [
+                  "For words and trees, star-free = first-order (with order)",
+                  "[Words: McNaughton, Papert 1971], [Trees: B. 2007]"
+                ],
+                "eventId": "14",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "For_graphs,_star-free_=_first-order_(with_some_reachability)",
+                "name": "For graphs, star-free = first-order (with some reachability)",
+                "merged": false,
+                "keywords": [
+                  "For graphs, star-free = first-order (with some reachability)"
+                ],
+                "eventId": "8",
+                "disabled": false
+              }
+            ],
+            "keywords": [
+              "star free expressions"
+            ],
+            "eventId": "7"
+          }
+        ],
+        "keywords": [
+          "graphs"
+        ],
+        "eventId": "7"
+      }
+    ],
+    "keywords": [
+      "Recognisable languages over monads",
+      "First slide"
+    ],
+    "eventId": "root"
+  },
+  "soundDict": {}
+}
