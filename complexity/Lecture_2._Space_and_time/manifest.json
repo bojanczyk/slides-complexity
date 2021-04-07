@@ -1,5 +1,5 @@
 {
-  "version": 0.88,
+  "version": 0.902,
   "presentation": "Lecture 2. Space and time",
   "slideDict": {
     "72:36": "72_36",
@@ -38,7 +38,8 @@
         "keywords": [
           "P",
           "Ptime"
-        ]
+        ],
+        "eventId": "0"
       },
       {
         "type": "child",
@@ -55,7 +56,8 @@
               "n ∈ {0, 1, ...} ↦",
               "maximal number of steps used by the machine, on inputs of length n",
               "Time complexity"
-            ]
+            ],
+            "eventId": "0"
           },
           {
             "type": "show",
@@ -64,7 +66,8 @@
             "disabled": false,
             "keywords": [
               "Polynomial time: problems that can be solved by a Turing machine whose running time is ≤ p(n) for some polynomial p."
-            ]
+            ],
+            "eventId": "1"
           },
           {
             "type": "show",
@@ -73,7 +76,8 @@
             "disabled": false,
             "keywords": [
               "Examples"
-            ]
+            ],
+            "eventId": "2"
           },
           {
             "type": "show",
@@ -82,7 +86,8 @@
             "disabled": false,
             "keywords": [
               "Is an undirected graph connected?"
-            ]
+            ],
+            "eventId": "3"
           },
           {
             "type": "show",
@@ -91,7 +96,8 @@
             "disabled": false,
             "keywords": [
               "Is there a path from s to t in a directed graph?"
-            ]
+            ],
+            "eventId": "4"
           },
           {
             "type": "show",
@@ -100,7 +106,8 @@
             "disabled": false,
             "keywords": [
               "Is a finite automaton nonempty?"
-            ]
+            ],
+            "eventId": "5"
           },
           {
             "type": "show",
@@ -110,7 +117,8 @@
             "keywords": [
               "can be done in nondterministic logarithmic space",
               "Group 38"
-            ]
+            ],
+            "eventId": "6"
           },
           {
             "type": "show",
@@ -119,12 +127,14 @@
             "disabled": false,
             "keywords": [
               "Is a context-free grammar nonempty?"
-            ]
+            ],
+            "eventId": "7"
           }
         ],
         "keywords": [
           "Polynomial time"
-        ]
+        ],
+        "eventId": "1"
       },
       {
         "type": "show",
@@ -134,7 +144,8 @@
         "keywords": [
           "ExpTime",
           "Exptime"
-        ]
+        ],
+        "eventId": "2"
       },
       {
         "type": "child",
@@ -150,7 +161,8 @@
               "Exponential time: problems that can be solved by a Turing machine whose running time is ≤ 2 for some polynomial p.",
               "p(n)",
               "Group 40"
-            ]
+            ],
+            "eventId": "0"
           },
           {
             "type": "show",
@@ -160,7 +172,8 @@
             "keywords": [
               "Square of exponential time is also exponential:",
               "Group 39"
-            ]
+            ],
+            "eventId": "1"
           },
           {
             "type": "show",
@@ -169,7 +182,8 @@
             "disabled": false,
             "keywords": [
               "Examples"
-            ]
+            ],
+            "eventId": "2"
           },
           {
             "type": "show",
@@ -178,7 +192,8 @@
             "disabled": false,
             "keywords": [
               "Is a context-free grammar nonempty?"
-            ]
+            ],
+            "eventId": "3"
           },
           {
             "type": "show",
@@ -187,7 +202,8 @@
             "disabled": false,
             "keywords": [
               "Is a finite automaton nonempty?"
-            ]
+            ],
+            "eventId": "4"
           },
           {
             "type": "show",
@@ -196,7 +212,8 @@
             "disabled": false,
             "keywords": [
               "Is a finite automaton nonempty?"
-            ]
+            ],
+            "eventId": "5"
           },
           {
             "type": "show",
@@ -205,12 +222,14 @@
             "disabled": false,
             "keywords": [
               "Is a finite automaton nonempty?"
-            ]
+            ],
+            "eventId": "6"
           }
         ],
         "keywords": [
           "Exponential time"
-        ]
+        ],
+        "eventId": "3"
       },
       {
         "type": "show",
@@ -219,7 +238,8 @@
         "disabled": false,
         "keywords": [
           "Thm. ExpTime > P"
-        ]
+        ],
+        "eventId": "4"
       },
       {
         "type": "child",
@@ -238,7 +258,8 @@
               "}",
               "m#w#t :",
               "exponential complete language"
-            ]
+            ],
+            "eventId": "0"
           },
           {
             "type": "show",
@@ -248,7 +269,8 @@
             "keywords": [
               "This language is clearly in ExpTime, the corresponding Turing machine runs in time at most",
               "in exptime"
-            ]
+            ],
+            "eventId": "1"
           },
           {
             "type": "show",
@@ -257,7 +279,8 @@
             "disabled": false,
             "keywords": [
               "Suppose that this language is recognised by a polynomial time Turing machine M."
-            ]
+            ],
+            "eventId": "2"
           },
           {
             "type": "show",
@@ -266,7 +289,8 @@
             "disabled": false,
             "keywords": [
               "For k ∈ {1, 2, ...} consider the following Turing machine N[k]:"
-            ]
+            ],
+            "eventId": "3"
           },
           {
             "type": "show",
@@ -282,7 +306,8 @@
               "no",
               "k",
               "exponential diagonal"
-            ]
+            ],
+            "eventId": "4"
           },
           {
             "type": "child",
@@ -300,7 +325,8 @@
                   "p is a polynomial that depends only on M",
                   "n is input size",
                   "N is polynomial"
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "show",
@@ -310,7 +336,8 @@
                 "keywords": [
                   "size of N[k]",
                   "size of N is linear"
-                ]
+                ],
+                "eventId": "1"
               },
               {
                 "type": "show",
@@ -322,7 +349,8 @@
                   "k",
                   "grows polynomially with k",
                   "k large enough"
-                ]
+                ],
+                "eventId": "2"
               },
               {
                 "type": "show",
@@ -334,17 +362,20 @@
                   "N[k] accepts N[k] ⇒ N[k] rejects N[k]",
                   "N[k] rejects N[k] ⇒ N[k] accepts N[k]",
                   "paradox"
-                ]
+                ],
+                "eventId": "3"
               }
             ],
             "keywords": [
               "Exponential paradox"
-            ]
+            ],
+            "eventId": "5"
           }
         ],
         "keywords": [
           "PTIME < EXPTIME"
-        ]
+        ],
+        "eventId": "5"
       },
       {
         "type": "show",
@@ -353,7 +384,8 @@
         "disabled": false,
         "keywords": [
           "For the same reasons, there is an infinite hierarchy: P < ExpTime < 2ExpTime < ..."
-        ]
+        ],
+        "eventId": "6"
       },
       {
         "type": "show",
@@ -363,7 +395,8 @@
         "keywords": [
           "PSpace",
           "PSPace"
-        ]
+        ],
+        "eventId": "7"
       },
       {
         "type": "child",
@@ -378,7 +411,8 @@
             "keywords": [
               "Polynomial space: problems that can be solved by a Turing machine whose space complexity is ≤ p(n) for some polynomial p.",
               "number of cells used in work tape"
-            ]
+            ],
+            "eventId": "0"
           },
           {
             "type": "show",
@@ -388,7 +422,8 @@
             "keywords": [
               "If an automaton has n states and rejects some word, then it rejects a word of length",
               "Group 58"
-            ]
+            ],
+            "eventId": "1"
           },
           {
             "type": "show",
@@ -397,7 +432,8 @@
             "disabled": false,
             "keywords": [
               "Examples"
-            ]
+            ],
+            "eventId": "2"
           },
           {
             "type": "show",
@@ -406,7 +442,8 @@
             "disabled": false,
             "keywords": [
               "Is there a path from s to t in a directed graph?"
-            ]
+            ],
+            "eventId": "3"
           },
           {
             "type": "show",
@@ -415,7 +452,8 @@
             "disabled": false,
             "keywords": [
               "Is there a path from s to t in a directed graph?"
-            ]
+            ],
+            "eventId": "4"
           },
           {
             "type": "child",
@@ -429,7 +467,8 @@
                 "disabled": false,
                 "keywords": [
                   "PSpace ⊆ ExpTime"
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "show",
@@ -438,7 +477,8 @@
                 "disabled": false,
                 "keywords": [
                   "Main observation: The number of configurations of a PSpace machine is at most exponential, and it is enough to consider computations without loops."
-                ]
+                ],
+                "eventId": "1"
               },
               {
                 "type": "show",
@@ -449,7 +489,8 @@
                   "Suppose that M is a deterministic Turing machine using at most p(n) space.",
                   "a polynomial",
                   "Group 59"
-                ]
+                ],
+                "eventId": "2"
               },
               {
                 "type": "show",
@@ -460,7 +501,8 @@
                   "An accepting computation can have length at most nc",
                   "p(n)",
                   "Group 60"
-                ]
+                ],
+                "eventId": "3"
               },
               {
                 "type": "show",
@@ -469,7 +511,8 @@
                 "disabled": false,
                 "keywords": [
                   "We can simply run it M, while counting the number of steps, and reject once the exponential bound is exceeded."
-                ]
+                ],
+                "eventId": "4"
               },
               {
                 "type": "show",
@@ -478,7 +521,8 @@
                 "disabled": false,
                 "keywords": [
                   "By the Sipser theorem (see later), this will not be needed."
-                ]
+                ],
+                "eventId": "5"
               },
               {
                 "type": "show",
@@ -487,7 +531,8 @@
                 "disabled": false,
                 "keywords": [
                   "Also works for nondeterministic PSpace: explore the tree of all computations, using depth-first search, with an exponential bound on recursion depth."
-                ]
+                ],
+                "eventId": "6"
               },
               {
                 "type": "show",
@@ -496,17 +541,20 @@
                 "disabled": false,
                 "keywords": [
                   "By the Savitch theorem (see later), this will not be needed."
-                ]
+                ],
+                "eventId": "7"
               }
             ],
             "keywords": [
               "PSPACE contained in EXPTIME"
-            ]
+            ],
+            "eventId": "5"
           }
         ],
         "keywords": [
           "PSpace"
-        ]
+        ],
+        "eventId": "8"
       },
       {
         "type": "show",
@@ -515,7 +563,8 @@
         "disabled": false,
         "keywords": [
           "NP"
-        ]
+        ],
+        "eventId": "9"
       },
       {
         "type": "child",
@@ -529,7 +578,8 @@
             "disabled": false,
             "keywords": [
               "nondeterministic polynomial time"
-            ]
+            ],
+            "eventId": "0"
           },
           {
             "type": "child",
@@ -543,7 +593,8 @@
                 "disabled": false,
                 "keywords": [
                   "Equivalent definitions of NP"
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "show",
@@ -555,7 +606,8 @@
                   "v ∈ L ⟺ M has an accepting run of length < p(|v|)",
                   "(for words in L, the machine might have rejecting runs, and longer accepting runs)",
                   "usual definition"
-                ]
+                ],
+                "eventId": "1"
               },
               {
                 "type": "show",
@@ -569,7 +621,8 @@
                   "⟺",
                   "∃w of size < p(|v|) such that M accepts (v, w)",
                   "There is a polynomial p and a deterministic Turing machine M such that"
-                ]
+                ],
+                "eventId": "2"
               },
               {
                 "type": "show",
@@ -581,7 +634,8 @@
                   "v ∈ L ⟺ M has an accepting run of length < p(|v|)",
                   "and for every word (in or not in L), all runs have length < p(|v|)",
                   "all runs are short"
-                ]
+                ],
+                "eventId": "3"
               },
               {
                 "type": "show",
@@ -592,7 +646,8 @@
                   "use nondeterminism to guess v, and then run the deterministic Turing machine",
                   "⇒",
                   "use nondterminism"
-                ]
+                ],
+                "eventId": "4"
               },
               {
                 "type": "show",
@@ -603,7 +658,8 @@
                   "the word v, called the witness, is the computation of the nondeterministic Turing machine",
                   "⇒",
                   "witness is computation"
-                ]
+                ],
+                "eventId": "5"
               },
               {
                 "type": "show",
@@ -613,7 +669,8 @@
                 "keywords": [
                   "special case",
                   "⇒"
-                ]
+                ],
+                "eventId": "6"
               },
               {
                 "type": "show",
@@ -624,18 +681,21 @@
                   "the machine can compute p(|v|), and reject immediately once the computation time exceeds this bound",
                   "⇒",
                   "reject after exceeding bound"
-                ]
+                ],
+                "eventId": "7"
               }
             ],
             "keywords": [
               "Equivalent definitions of NP"
-            ]
+            ],
+            "eventId": "1"
           }
         ],
         "keywords": [
           "Text",
           "NP"
-        ]
+        ],
+        "eventId": "10"
       },
       {
         "type": "show",
@@ -647,7 +707,8 @@
           "any nonempty subset of these three inclusions could be strict",
           "P ⊆ NP ⊆ PSpace ⊆ ExpTime",
           "strictness"
-        ]
+        ],
+        "eventId": "11"
       },
       {
         "type": "show",
@@ -656,7 +717,8 @@
         "disabled": false,
         "keywords": [
           "Savitch’s theorem: Nondeterministic polynomial space = deterministic polynomial space"
-        ]
+        ],
+        "eventId": "12"
       },
       {
         "type": "child",
@@ -672,7 +734,8 @@
               "Definition. Nondeterministic PSpace",
               "There is a nondeterministic Turing machine M and a polynomial p such that:",
               "v ∈ L ⟺ there is an accepting run of M which uses space < p(|v|)"
-            ]
+            ],
+            "eventId": "0"
           },
           {
             "type": "show",
@@ -682,7 +745,8 @@
             "keywords": [
               "Equivalent definition. There is a deterministic Turing machine M and a polynomial p such that:",
               "v ∈ L ⟺ ∃w M accepts (v, w) using space < p(|v|)"
-            ]
+            ],
+            "eventId": "1"
           },
           {
             "type": "child",
@@ -698,7 +762,8 @@
                   "A computation of space n can have time at most k",
                   "n",
                   "Group 42"
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "show",
@@ -709,7 +774,8 @@
                   "F(source, target, n, m)",
                   "0",
                   "Group 43"
-                ]
+                ],
+                "eventId": "1"
               },
               {
                 "type": "show",
@@ -722,7 +788,8 @@
                   "space ≤ m",
                   "n",
                   "Group 41"
-                ]
+                ],
+                "eventId": "2"
               },
               {
                 "type": "show",
@@ -735,7 +802,8 @@
                   "check if source can reach target in 0 or 1 steps",
                   "2",
                   "Group 46"
-                ]
+                ],
+                "eventId": "3"
               },
               {
                 "type": "show",
@@ -756,7 +824,8 @@
                   "5",
                   "8",
                   "Group 47"
-                ]
+                ],
+                "eventId": "4"
               },
               {
                 "type": "show",
@@ -768,7 +837,8 @@
                   "memory for each recursive call",
                   "recursion depth",
                   "Group 48"
-                ]
+                ],
+                "eventId": "5"
               },
               {
                 "type": "show",
@@ -777,17 +847,20 @@
                 "disabled": false,
                 "keywords": [
                   "To prove Savitch’s theorem, for a nondeterministic Turing machine that runs in space p(n), we run this program for: source = initial configuration target = accepting configuration n = log k × p(n) m = p(n)"
-                ]
+                ],
+                "eventId": "6"
               }
             ],
             "keywords": [
               "Savitch"
-            ]
+            ],
+            "eventId": "2"
           }
         ],
         "keywords": [
           "NPSpace"
-        ]
+        ],
+        "eventId": "13"
       },
       {
         "type": "show",
@@ -796,7 +869,8 @@
         "disabled": false,
         "keywords": [
           "Sipser’s theorem: machines with finite space can be forced to halt"
-        ]
+        ],
+        "eventId": "14"
       },
       {
         "type": "child",
@@ -810,7 +884,8 @@
             "disabled": false,
             "keywords": [
               "Rough idea"
-            ]
+            ],
+            "eventId": "0"
           },
           {
             "type": "show",
@@ -819,7 +894,8 @@
             "disabled": false,
             "keywords": [
               "without any extra space"
-            ]
+            ],
+            "eventId": "1"
           },
           {
             "type": "show",
@@ -828,7 +904,8 @@
             "disabled": false,
             "keywords": [
               "Theorem (Sipser). For every deterministic Turing machine M, there is a deterministic Turing machine N such that for every input word:"
-            ]
+            ],
+            "eventId": "2"
           },
           {
             "type": "show",
@@ -837,7 +914,8 @@
             "disabled": false,
             "keywords": [
               "1. M accepts if and only if N accepts"
-            ]
+            ],
+            "eventId": "3"
           },
           {
             "type": "show",
@@ -846,7 +924,8 @@
             "disabled": false,
             "keywords": [
               "2. if M uses n < ∞ memory cells, then N halts and also uses n cells."
-            ]
+            ],
+            "eventId": "4"
           },
           {
             "type": "child",
@@ -860,7 +939,8 @@
                 "disabled": false,
                 "keywords": [
                   "Consider the graph of configurations that use memory ≤ m"
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "show",
@@ -872,7 +952,8 @@
                   "because the machine is deterministic",
                   "9 × Q × Γ",
                   "This is a directed graph"
-                ]
+                ],
+                "eventId": "1"
               },
               {
                 "type": "show",
@@ -881,7 +962,8 @@
                 "disabled": false,
                 "keywords": [
                   "Group 37"
-                ]
+                ],
+                "eventId": "2"
               },
               {
                 "type": "show",
@@ -890,7 +972,8 @@
                 "disabled": false,
                 "keywords": [
                   "Group 36"
-                ]
+                ],
+                "eventId": "3"
               },
               {
                 "type": "show",
@@ -899,7 +982,8 @@
                 "disabled": false,
                 "keywords": [
                   "Group 35"
-                ]
+                ],
+                "eventId": "4"
               },
               {
                 "type": "show",
@@ -908,7 +992,8 @@
                 "disabled": false,
                 "keywords": [
                   "each component is either a tree..."
-                ]
+                ],
+                "eventId": "5"
               },
               {
                 "type": "show",
@@ -917,7 +1002,8 @@
                 "disabled": false,
                 "keywords": [
                   "...or a tree with a cycle"
-                ]
+                ],
+                "eventId": "6"
               },
               {
                 "type": "show",
@@ -927,7 +1013,8 @@
                 "keywords": [
                   "terminals",
                   "Group 57"
-                ]
+                ],
+                "eventId": "7"
               },
               {
                 "type": "show",
@@ -938,7 +1025,8 @@
                   "A terminal in this graph is a vertex of outdegree 0.",
                   "(a) accepting configuration (b) rejecting configuration (c) will increase memory to m+1",
                   "If a component has a terminal, then it is a tree."
-                ]
+                ],
+                "eventId": "8"
               },
               {
                 "type": "show",
@@ -947,7 +1035,8 @@
                 "disabled": false,
                 "keywords": [
                   "Solution: Start in the accepting configuration, and search the tree (dfs) for the initial configuration."
-                ]
+                ],
+                "eventId": "9"
               },
               {
                 "type": "show",
@@ -956,7 +1045,8 @@
                 "disabled": false,
                 "keywords": [
                   "Solution: Start in the accepting configuration, and search the tree (dfs) for the initial configuration."
-                ]
+                ],
+                "eventId": "10"
               },
               {
                 "type": "show",
@@ -965,7 +1055,8 @@
                 "disabled": false,
                 "keywords": [
                   "If there are 0 such terminals, the machine loops in memory ≤ m."
-                ]
+                ],
+                "eventId": "11"
               },
               {
                 "type": "show",
@@ -974,7 +1065,8 @@
                 "disabled": false,
                 "keywords": [
                   "If there is 1 such terminal, we can reject, accept, or increment m."
-                ]
+                ],
+                "eventId": "12"
               },
               {
                 "type": "child",
@@ -988,7 +1080,8 @@
                     "disabled": false,
                     "keywords": [
                       "The algorithm"
-                    ]
+                    ],
+                    "eventId": "0"
                   },
                   {
                     "type": "show",
@@ -999,7 +1092,8 @@
                       "write a memory bound m on the tape (initially, m = 1)",
                       "1",
                       "Group 49"
-                    ]
+                    ],
+                    "eventId": "1"
                   },
                   {
                     "type": "show",
@@ -1010,7 +1104,8 @@
                       "for every configuration c with memory ≤ m",
                       "2",
                       "Group 50"
-                    ]
+                    ],
+                    "eventId": "2"
                   },
                   {
                     "type": "show",
@@ -1021,7 +1116,8 @@
                       "if c is a terminal",
                       "3",
                       "Group 51"
-                    ]
+                    ],
+                    "eventId": "3"
                   },
                   {
                     "type": "show",
@@ -1032,7 +1128,8 @@
                       "if c can be reached from the initial configuration using memory ≤ m",
                       "4",
                       "Group 52"
-                    ]
+                    ],
+                    "eventId": "4"
                   },
                   {
                     "type": "child",
@@ -1054,7 +1151,8 @@
                           "neighbour 0",
                           "neighbour 3",
                           "Group 56"
-                        ]
+                        ],
+                        "eventId": "0"
                       },
                       {
                         "type": "show",
@@ -1063,12 +1161,14 @@
                         "disabled": false,
                         "keywords": [
                           "The simulating machine remembers in its state which neighbour it has visited in the previous step."
-                        ]
+                        ],
+                        "eventId": "1"
                       }
                     ],
                     "keywords": [
                       "Sipser Search 2"
-                    ]
+                    ],
+                    "eventId": "5"
                   },
                   {
                     "type": "show",
@@ -1079,7 +1179,8 @@
                       "if c is accepting then accept, if it is rejecting then reject",
                       "5",
                       "Group 53"
-                    ]
+                    ],
+                    "eventId": "6"
                   },
                   {
                     "type": "show",
@@ -1090,7 +1191,8 @@
                       "if c increases the memory bound to m+1, then increment m and goto 2",
                       "6",
                       "Group 54"
-                    ]
+                    ],
+                    "eventId": "7"
                   },
                   {
                     "type": "show",
@@ -1101,22 +1203,26 @@
                       "if no terminal is accessible from the initial configuration, then reject",
                       "7",
                       "Group 55"
-                    ]
+                    ],
+                    "eventId": "8"
                   }
                 ],
                 "keywords": [
                   "Compute the space"
-                ]
+                ],
+                "eventId": "13"
               }
             ],
             "keywords": [
               "Sipser Search"
-            ]
+            ],
+            "eventId": "5"
           }
         ],
         "keywords": [
           "Sipser"
-        ]
+        ],
+        "eventId": "15"
       },
       {
         "type": "show",
@@ -1126,7 +1232,8 @@
         "keywords": [
           "NL",
           "L and NL"
-        ]
+        ],
+        "eventId": "16"
       },
       {
         "type": "child",
@@ -1140,7 +1247,8 @@
             "disabled": false,
             "keywords": [
               "Logarithmic space"
-            ]
+            ],
+            "eventId": "0"
           },
           {
             "type": "show",
@@ -1149,7 +1257,8 @@
             "disabled": false,
             "keywords": [
               "The work tape has size at most log(poly n)"
-            ]
+            ],
+            "eventId": "1"
           },
           {
             "type": "child",
@@ -1165,7 +1274,8 @@
                   "=",
                   "logarithmic",
                   "Group 65"
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "show",
@@ -1175,7 +1285,8 @@
                 "keywords": [
                   "=",
                   "Group 66"
-                ]
+                ],
+                "eventId": "1"
               },
               {
                 "type": "show",
@@ -1184,7 +1295,8 @@
                 "disabled": false,
                 "keywords": [
                   "not logarithmic, but polylogarithmic"
-                ]
+                ],
+                "eventId": "2"
               },
               {
                 "type": "child",
@@ -1199,7 +1311,8 @@
                     "keywords": [
                       "=",
                       "Group 61"
-                    ]
+                    ],
+                    "eventId": "0"
                   },
                   {
                     "type": "show",
@@ -1209,7 +1322,8 @@
                     "keywords": [
                       "=",
                       "Group 62"
-                    ]
+                    ],
+                    "eventId": "1"
                   },
                   {
                     "type": "show",
@@ -1219,7 +1333,8 @@
                     "keywords": [
                       "=",
                       "Group 63"
-                    ]
+                    ],
+                    "eventId": "2"
                   },
                   {
                     "type": "show",
@@ -1228,17 +1343,20 @@
                     "disabled": false,
                     "keywords": [
                       "Group 64"
-                    ]
+                    ],
+                    "eventId": "3"
                   }
                 ],
                 "keywords": [
                   "Polylog and Savitch"
-                ]
+                ],
+                "eventId": "3"
               }
             ],
             "keywords": [
               "Savitch does not work for logspace"
-            ]
+            ],
+            "eventId": "2"
           },
           {
             "type": "show",
@@ -1247,7 +1365,8 @@
             "disabled": false,
             "keywords": [
               "For this class it is important to separate the input and work tapes."
-            ]
+            ],
+            "eventId": "3"
           },
           {
             "type": "show",
@@ -1257,7 +1376,8 @@
             "keywords": [
               "L = deterministic logarithmic space",
               "L "
-            ]
+            ],
+            "eventId": "4"
           },
           {
             "type": "show",
@@ -1266,7 +1386,8 @@
             "disabled": false,
             "keywords": [
               "NL = nondeterministic logarithmic space"
-            ]
+            ],
+            "eventId": "5"
           },
           {
             "type": "show",
@@ -1277,7 +1398,8 @@
               "There is a nondeterministic Turing machine M such that:",
               "v ∈ L iff there is an accepting run of M which uses space at most O(log |v|)",
               "There is a nondeterministic Turing machine M and a polynomial p such that:"
-            ]
+            ],
+            "eventId": "6"
           },
           {
             "type": "show",
@@ -1288,7 +1410,8 @@
               "Equivalent definition. There is a deterministic Turing machine M with a one-way witness tape such that:",
               "v ∈ L iff ∃w M accepts (v, w) using space at most O(log |v|)",
               "Equivalent definition. There is a deterministic Turing machine M and a polynomial p such that:"
-            ]
+            ],
+            "eventId": "7"
           },
           {
             "type": "show",
@@ -1297,7 +1420,8 @@
             "disabled": false,
             "keywords": [
               "Applying the Savitch construction to a nondeterministic logspace machine gives a deterministic machine in space"
-            ]
+            ],
+            "eventId": "8"
           },
           {
             "type": "show",
@@ -1306,7 +1430,8 @@
             "disabled": false,
             "keywords": [
               "But at least nondeterministic logarithmic space is closed under complementation."
-            ]
+            ],
+            "eventId": "9"
           },
           {
             "type": "show",
@@ -1315,7 +1440,8 @@
             "disabled": false,
             "keywords": [
               "unlike for NP, where we coNP is a thing"
-            ]
+            ],
+            "eventId": "10"
           },
           {
             "type": "child",
@@ -1329,7 +1455,8 @@
                 "disabled": false,
                 "keywords": [
                   "There is a nondeterministic logspace machine which does the following:"
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "show",
@@ -1338,7 +1465,8 @@
                 "disabled": false,
                 "keywords": [
                   "input: a directed graph, with a designated source vertex"
-                ]
+                ],
+                "eventId": "1"
               },
               {
                 "type": "show",
@@ -1347,7 +1475,8 @@
                 "disabled": false,
                 "keywords": [
                   "output: the number of vertices reachable from the source"
-                ]
+                ],
+                "eventId": "2"
               },
               {
                 "type": "show",
@@ -1356,7 +1485,8 @@
                 "disabled": false,
                 "keywords": [
                   "on every input, the machine has a unique accepting run, and the output number is found on the work tape, in binary"
-                ]
+                ],
+                "eventId": "3"
               },
               {
                 "type": "child",
@@ -1372,7 +1502,8 @@
                       "r[d] := 1",
                       "d := 0",
                       "r[d] is the number of vertices that can be reached from the source, using a path with at most d edges."
-                    ]
+                    ],
+                    "eventId": "0"
                   },
                   {
                     "type": "show",
@@ -1382,7 +1513,8 @@
                     "keywords": [
                       "until r[d] = r[d-1]",
                       "repeat"
-                    ]
+                    ],
+                    "eventId": "1"
                   },
                   {
                     "type": "show",
@@ -1391,7 +1523,8 @@
                     "disabled": false,
                     "keywords": [
                       "d := d+1"
-                    ]
+                    ],
+                    "eventId": "2"
                   },
                   {
                     "type": "show",
@@ -1400,7 +1533,8 @@
                     "disabled": false,
                     "keywords": [
                       "r[d] := 0"
-                    ]
+                    ],
+                    "eventId": "3"
                   },
                   {
                     "type": "show",
@@ -1411,7 +1545,8 @@
                       "for v in vertices",
                       "we want to check if v is reachable by a path of at most d edges",
                       "for v"
-                    ]
+                    ],
+                    "eventId": "4"
                   },
                   {
                     "type": "show",
@@ -1420,7 +1555,8 @@
                     "disabled": false,
                     "keywords": [
                       "i := 0"
-                    ]
+                    ],
+                    "eventId": "5"
                   },
                   {
                     "type": "show",
@@ -1429,7 +1565,8 @@
                     "disabled": false,
                     "keywords": [
                       "for u in vertices"
-                    ]
+                    ],
+                    "eventId": "6"
                   },
                   {
                     "type": "show",
@@ -1439,7 +1576,8 @@
                     "keywords": [
                       "guesses if the vertex u is reachable via a path of at most d–1 edges. If the guess is wrong, the program will eventually fail.",
                       "guess x ∈ {true, false}"
-                    ]
+                    ],
+                    "eventId": "7"
                   },
                   {
                     "type": "show",
@@ -1448,7 +1586,8 @@
                     "disabled": false,
                     "keywords": [
                       "if x then"
-                    ]
+                    ],
+                    "eventId": "8"
                   },
                   {
                     "type": "show",
@@ -1458,7 +1597,8 @@
                     "keywords": [
                       "assert Reachable(s,u,d-1)",
                       "a subroutine that can be done in nondeterministic logspace"
-                    ]
+                    ],
+                    "eventId": "9"
                   },
                   {
                     "type": "show",
@@ -1467,7 +1607,8 @@
                     "disabled": false,
                     "keywords": [
                       "if there was an incorrect “true” guess, then this will fail"
-                    ]
+                    ],
+                    "eventId": "10"
                   },
                   {
                     "type": "show",
@@ -1476,7 +1617,8 @@
                     "disabled": false,
                     "keywords": [
                       "i := i+1"
-                    ]
+                    ],
+                    "eventId": "11"
                   },
                   {
                     "type": "show",
@@ -1485,7 +1627,8 @@
                     "disabled": false,
                     "keywords": [
                       "if Edge(u,v) then"
-                    ]
+                    ],
+                    "eventId": "12"
                   },
                   {
                     "type": "show",
@@ -1494,7 +1637,8 @@
                     "disabled": false,
                     "keywords": [
                       "r[d] := r[d] + 1"
-                    ]
+                    ],
+                    "eventId": "13"
                   },
                   {
                     "type": "show",
@@ -1503,7 +1647,8 @@
                     "disabled": false,
                     "keywords": [
                       "break"
-                    ]
+                    ],
+                    "eventId": "14"
                   },
                   {
                     "type": "show",
@@ -1513,12 +1658,14 @@
                     "keywords": [
                       "if there was an incorrect “false” guess, then this will fail",
                       "assert i = r[d-1]"
-                    ]
+                    ],
+                    "eventId": "15"
                   }
                 ],
                 "keywords": [
                   "Counting reachability in NL"
-                ]
+                ],
+                "eventId": "4"
               },
               {
                 "type": "show",
@@ -1527,7 +1674,8 @@
                 "disabled": false,
                 "keywords": [
                   "Consider a language L, whose complement is recognised by a nondeterministic logspace Turing machine M."
-                ]
+                ],
+                "eventId": "5"
               },
               {
                 "type": "show",
@@ -1536,7 +1684,8 @@
                 "disabled": false,
                 "keywords": [
                   "Run the counting algorithm twice:"
-                ]
+                ],
+                "eventId": "6"
               },
               {
                 "type": "show",
@@ -1545,7 +1694,8 @@
                 "disabled": false,
                 "keywords": [
                   "(1) on the graph of configurations of M"
-                ]
+                ],
+                "eventId": "7"
               },
               {
                 "type": "show",
@@ -1554,7 +1704,8 @@
                 "disabled": false,
                 "keywords": [
                   "(2) on the graph of configurations of M, with accepting configurations removed"
-                ]
+                ],
+                "eventId": "8"
               },
               {
                 "type": "show",
@@ -1563,805 +1714,254 @@
                 "disabled": false,
                 "keywords": [
                   "If the results are equal (i.e. M rejects), then accept, otherwise reject."
-                ]
+                ],
+                "eventId": "9"
               }
             ],
             "keywords": [
               "Immerman Szelepcseni"
-            ]
+            ],
+            "eventId": "11"
           }
         ],
         "keywords": [
           "Nondeterministic Logspace"
-        ]
+        ],
+        "eventId": "17"
       }
     ],
     "keywords": [
       "first slide"
-    ]
+    ],
+    "eventId": "root"
   },
   "soundDict": {
     "72:36": {
-      "0": {
-        "file": "0",
-        "duration": 13.704
-      },
-      "1": {
-        "file": "1",
-        "duration": 4.944
-      },
-      "2": {
-        "file": "2",
-        "duration": 2.544
-      },
-      "3": {
-        "file": "3",
-        "duration": 3.216
-      },
-      "4": {
-        "file": "4",
-        "duration": 10.464
-      },
-      "5": {
-        "file": "5",
-        "duration": 25.776
-      },
-      "6": {
-        "file": "6",
-        "duration": 6.096
-      },
-      "7": {
-        "file": "7",
-        "duration": 44.496
-      },
-      "8": {
-        "file": "8",
-        "duration": 8.904
-      },
-      "9": {
-        "file": "9",
-        "duration": 16.656
-      },
-      "10": {
-        "file": "10",
-        "duration": 9.384
-      },
-      "11": {
-        "file": "11",
-        "duration": 13.776
-      },
-      "12": {
-        "file": "12",
-        "duration": 30.336
-      },
-      "13": {
-        "file": "13",
-        "duration": 17.376
-      },
-      "14": {
-        "file": "14",
-        "duration": 8.184
-      },
-      "15": {
-        "file": "15",
-        "duration": 4.896
-      },
-      "16": {
-        "file": "16",
-        "duration": 7.896
-      },
-      "17": {
-        "file": "17",
-        "duration": 2.544
-      },
-      "18": {
-        "file": "18",
-        "duration": 23.184
-      }
+      "0": 13.704,
+      "1": 4.944,
+      "2": 2.544,
+      "3": 3.216,
+      "4": 10.464,
+      "5": 25.776,
+      "6": 6.096,
+      "7": 44.496,
+      "8": 8.904,
+      "9": 16.656,
+      "10": 9.384,
+      "11": 13.776,
+      "12": 30.336,
+      "13": 17.376,
+      "14": 8.184,
+      "15": 4.896,
+      "16": 7.896,
+      "17": 2.544,
+      "finish": 23.184
     },
     "68:18": {
-      "0": {
-        "file": "0",
-        "duration": 2.736
-      },
-      "1": {
-        "file": "1",
-        "duration": 27.096
-      },
-      "2": {
-        "file": "2",
-        "duration": 13.896
-      },
-      "3": {
-        "file": "3",
-        "duration": 1.176
-      },
-      "4": {
-        "file": "4",
-        "duration": 16.704
-      },
-      "5": {
-        "file": "5",
-        "duration": 11.616
-      },
-      "6": {
-        "file": "6",
-        "duration": 26.976
-      },
-      "7": {
-        "file": "7",
-        "duration": 22.584
-      },
-      "8": {
-        "file": "8",
-        "duration": 46.584
-      }
+      "0": 2.736,
+      "1": 27.096,
+      "2": 13.896,
+      "3": 1.176,
+      "4": 16.704,
+      "5": 11.616,
+      "6": 26.976,
+      "7": 22.584,
+      "finish": 46.584
     },
     "76:258": {
-      "0": {
-        "file": "0",
-        "duration": 2.304
-      },
-      "1": {
-        "file": "1",
-        "duration": 16.704
-      },
-      "2": {
-        "file": "2",
-        "duration": 25.776
-      },
-      "3": {
-        "file": "3",
-        "duration": 3.864
-      },
-      "4": {
-        "file": "4",
-        "duration": 25.824
-      },
-      "5": {
-        "file": "5",
-        "duration": 31.224
-      },
-      "6": {
-        "file": "6",
-        "duration": 17.976
-      },
-      "7": {
-        "file": "7",
-        "duration": 27.816
-      }
+      "0": 2.304,
+      "1": 16.704,
+      "2": 25.776,
+      "3": 3.864,
+      "4": 25.824,
+      "5": 31.224,
+      "6": 17.976,
+      "finish": 27.816
     },
     "72:46": {
-      "0": {
-        "file": "0",
-        "duration": 13.104
-      },
-      "1": {
-        "file": "1",
-        "duration": 35.496
-      },
-      "2": {
-        "file": "2",
-        "duration": 39.336
-      },
-      "3": {
-        "file": "3",
-        "duration": 21.984
-      },
-      "4": {
-        "file": "4",
-        "duration": 8.304
-      },
-      "5": {
-        "file": "5",
-        "duration": 19.944
-      },
-      "6": {
-        "file": "6",
-        "duration": 0.936
-      }
+      "0": 13.104,
+      "1": 35.496,
+      "2": 39.336,
+      "3": 21.984,
+      "4": 8.304,
+      "5": 19.944,
+      "finish": 0.936
     },
     "76:322": {
-      "0": {
-        "file": "0",
-        "duration": 7.176
-      },
-      "1": {
-        "file": "1",
-        "duration": 51.504
-      },
-      "2": {
-        "file": "2",
-        "duration": 46.224
-      },
-      "3": {
-        "file": "3",
-        "duration": 2.304
-      },
-      "4": {
-        "file": "4",
-        "duration": 32.856
-      },
-      "5": {
-        "file": "5",
-        "duration": 31.296
-      },
-      "6": {
-        "file": "6",
-        "duration": 2.904
-      }
+      "0": 7.176,
+      "1": 51.504,
+      "2": 46.224,
+      "3": 2.304,
+      "4": 32.856,
+      "5": 31.296,
+      "finish": 2.904
     },
     "126:6": {
-      "0": {
-        "file": "0",
-        "duration": 27.816
-      },
-      "1": {
-        "file": "1",
-        "duration": 2.664
-      },
-      "2": {
-        "file": "2",
-        "duration": 13.296
-      },
-      "3": {
-        "file": "3",
-        "duration": 7.176
-      },
-      "4": {
-        "file": "4",
-        "duration": 12.744
-      },
-      "5": {
-        "file": "5",
-        "duration": 24.096
-      }
+      "0": 27.816,
+      "1": 2.664,
+      "2": 13.296,
+      "3": 7.176,
+      "4": 12.744,
+      "finish": 24.096
     },
     "72:44": {
-      "0": {
-        "file": "0",
-        "duration": 3.384
-      },
-      "1": {
-        "file": "1",
-        "duration": 13.296
-      },
-      "2": {
-        "file": "2",
-        "duration": 10.416
-      },
-      "3": {
-        "file": "3",
-        "duration": 36.624
-      },
-      "4": {
-        "file": "4",
-        "duration": 8.184
-      },
-      "5": {
-        "file": "5",
-        "duration": 63.024
-      },
-      "6": {
-        "file": "6",
-        "duration": 8.544
-      },
-      "7": {
-        "file": "7",
-        "duration": 36.936
-      }
+      "0": 3.384,
+      "1": 13.296,
+      "2": 10.416,
+      "3": 36.624,
+      "4": 8.184,
+      "5": 63.024,
+      "6": 8.544,
+      "finish": 36.936
     },
     "72:38": {
-      "0": {
-        "file": "0",
-        "duration": 1.824
-      },
-      "1": {
-        "file": "1",
-        "duration": 68.376
-      },
-      "2": {
-        "file": "2",
-        "duration": 6.624
-      },
-      "3": {
-        "file": "3",
-        "duration": 12.144
-      },
-      "4": {
-        "file": "4",
-        "duration": 6.816
-      },
-      "5": {
-        "file": "5",
-        "duration": 21.864
-      },
-      "6": {
-        "file": "6",
-        "duration": 1.896
-      },
-      "7": {
-        "file": "7",
-        "duration": 29.544
-      },
-      "8": {
-        "file": "8",
-        "duration": 4.824
-      },
-      "9": {
-        "file": "9",
-        "duration": 18.816
-      },
-      "10": {
-        "file": "10",
-        "duration": 0.864
-      }
+      "0": 1.824,
+      "1": 68.376,
+      "2": 6.624,
+      "3": 12.144,
+      "4": 6.816,
+      "5": 21.864,
+      "6": 1.896,
+      "7": 29.544,
+      "8": 4.824,
+      "9": 18.816,
+      "finish": 0.864
     },
     "126:575": {
-      "0": {
-        "file": "0",
-        "duration": 0.576
-      },
-      "1": {
-        "file": "1",
-        "duration": 4.056
-      },
-      "2": {
-        "file": "2",
-        "duration": 15.576
-      },
-      "3": {
-        "file": "3",
-        "duration": 8.856
-      },
-      "4": {
-        "file": "4",
-        "duration": 22.344
-      },
-      "5": {
-        "file": "5",
-        "duration": 17.064
-      },
-      "6": {
-        "file": "6",
-        "duration": 3.144
-      },
-      "7": {
-        "file": "7",
-        "duration": 26.544
-      },
-      "8": {
-        "file": "8",
-        "duration": 27.456
-      },
-      "9": {
-        "file": "9",
-        "duration": 33.264
-      },
-      "10": {
-        "file": "10",
-        "duration": 19.464
-      },
-      "11": {
-        "file": "11",
-        "duration": 12.144
-      },
-      "12": {
-        "file": "12",
-        "duration": 7.056
-      }
+      "0": 0.576,
+      "1": 4.056,
+      "2": 15.576,
+      "3": 8.856,
+      "4": 22.344,
+      "5": 17.064,
+      "6": 3.144,
+      "7": 26.544,
+      "8": 27.456,
+      "9": 33.264,
+      "10": 19.464,
+      "11": 12.144,
+      "finish": 7.056
     },
     "72:45": {
-      "0": {
-        "file": "0",
-        "duration": 23.304
-      },
-      "1": {
-        "file": "1",
-        "duration": 45.696
-      },
-      "2": {
-        "file": "2",
-        "duration": 14.016
-      },
-      "3": {
-        "file": "3",
-        "duration": 25.944
-      },
-      "4": {
-        "file": "4",
-        "duration": 80.736
-      }
+      "0": 23.304,
+      "1": 45.696,
+      "2": 14.016,
+      "3": 25.944,
+      "finish": 80.736
     },
     "128:926": {
-      "0": {
-        "file": "0",
-        "duration": 1.896
-      },
-      "1": {
-        "file": "1",
-        "duration": 9.696
-      },
-      "2": {
-        "file": "2",
-        "duration": 9.984
-      },
-      "3": {
-        "file": "3",
-        "duration": 9.864
-      },
-      "4": {
-        "file": "4",
-        "duration": 31.584
-      },
-      "5": {
-        "file": "5",
-        "duration": 23.016
-      },
-      "6": {
-        "file": "6",
-        "duration": 40.416
-      },
-      "7": {
-        "file": "7",
-        "duration": 18.336
-      },
-      "8": {
-        "file": "8",
-        "duration": 10.344
-      }
+      "0": 1.896,
+      "1": 9.696,
+      "2": 9.984,
+      "3": 9.864,
+      "4": 31.584,
+      "5": 23.016,
+      "6": 40.416,
+      "7": 18.336,
+      "finish": 10.344
     },
     "126:52": {
-      "0": {
-        "file": "0",
-        "duration": 9.816
-      },
-      "1": {
-        "file": "1",
-        "duration": 6.144
-      },
-      "2": {
-        "file": "2",
-        "duration": 57.576
-      },
-      "3": {
-        "file": "3",
-        "duration": 53.976
-      },
-      "4": {
-        "file": "4",
-        "duration": 24.024
-      },
-      "5": {
-        "file": "5",
-        "duration": 26.064
-      },
-      "6": {
-        "file": "6",
-        "duration": 28.656
-      },
-      "7": {
-        "file": "7",
-        "duration": 6.624
-      },
-      "8": {
-        "file": "8",
-        "duration": 22.896
-      }
+      "0": 9.816,
+      "1": 6.144,
+      "2": 57.576,
+      "3": 53.976,
+      "4": 24.024,
+      "5": 26.064,
+      "6": 28.656,
+      "7": 6.624,
+      "finish": 22.896
     },
     "72:42": {
-      "0": {
-        "file": "0",
-        "duration": 1.224
-      },
-      "1": {
-        "file": "1",
-        "duration": 1.824
-      },
-      "2": {
-        "file": "2",
-        "duration": 11.184
-      },
-      "3": {
-        "file": "3",
-        "duration": 26.136
-      },
-      "4": {
-        "file": "4",
-        "duration": 11.784
-      },
-      "5": {
-        "file": "5",
-        "duration": 8.424
-      },
-      "6": {
-        "file": "6",
-        "duration": 8.376
-      },
-      "7": {
-        "file": "7",
-        "duration": 11.736
-      },
-      "8": {
-        "file": "8",
-        "duration": 17.856
-      },
-      "9": {
-        "file": "9",
-        "duration": 17.136
-      }
+      "0": 1.224,
+      "1": 1.824,
+      "2": 11.184,
+      "3": 26.136,
+      "4": 11.784,
+      "5": 8.424,
+      "6": 8.376,
+      "7": 11.736,
+      "8": 17.856,
+      "finish": 17.136
     },
     "72:39": {
-      "0": {
-        "file": "0",
-        "duration": 0.336
-      },
-      "1": {
-        "file": "1",
-        "duration": 16.176
-      },
-      "2": {
-        "file": "2",
-        "duration": 39.264
-      },
-      "3": {
-        "file": "3",
-        "duration": 10.464
-      },
-      "4": {
-        "file": "4",
-        "duration": 3.576
-      },
-      "5": {
-        "file": "5",
-        "duration": 6.744
-      },
-      "6": {
-        "file": "6",
-        "duration": 3.456
-      },
-      "7": {
-        "file": "7",
-        "duration": 2.784
-      },
-      "8": {
-        "file": "8",
-        "duration": 6.696
-      },
-      "9": {
-        "file": "9",
-        "duration": 25.056
-      },
-      "10": {
-        "file": "10",
-        "duration": 21.936
-      },
-      "11": {
-        "file": "11",
-        "duration": 16.776
-      },
-      "12": {
-        "file": "12",
-        "duration": 9.336
-      },
-      "13": {
-        "file": "13",
-        "duration": 9.216
-      },
-      "14": {
-        "file": "14",
-        "duration": 1.296
-      }
+      "0": 0.336,
+      "1": 16.176,
+      "2": 39.264,
+      "3": 10.464,
+      "4": 3.576,
+      "5": 6.744,
+      "6": 3.456,
+      "7": 2.784,
+      "8": 6.696,
+      "9": 25.056,
+      "10": 21.936,
+      "11": 16.776,
+      "12": 9.336,
+      "13": 9.216,
+      "finish": 1.296
     },
     "72:43": {
-      "0": {
-        "file": "0",
-        "duration": 1.296
-      },
-      "1": {
-        "file": "1",
-        "duration": 3.864
-      },
-      "2": {
-        "file": "2",
-        "duration": 5.184
-      }
+      "0": 1.296,
+      "1": 3.864,
+      "finish": 5.184
     },
     "72:41": {
-      "0": {
-        "file": "0",
-        "duration": 2.544
-      },
-      "1": {
-        "file": "1",
-        "duration": 40.296
-      },
-      "2": {
-        "file": "2",
-        "duration": 36.024
-      }
+      "0": 2.544,
+      "1": 40.296,
+      "finish": 36.024
     },
     "128:837": {
-      "0": {
-        "file": "0",
-        "duration": 1.344
-      },
-      "1": {
-        "file": "1",
-        "duration": 28.536
-      },
-      "2": {
-        "file": "2",
-        "duration": 16.056
-      },
-      "3": {
-        "file": "3",
-        "duration": 7.896
-      },
-      "4": {
-        "file": "4",
-        "duration": 10.056
-      },
-      "5": {
-        "file": "5",
-        "duration": 22.464
-      }
+      "0": 1.344,
+      "1": 28.536,
+      "2": 16.056,
+      "3": 7.896,
+      "4": 10.056,
+      "finish": 22.464
     },
     "128:844": {
-      "0": {
-        "file": "0",
-        "duration": 3.864
-      },
-      "1": {
-        "file": "1",
-        "duration": 8.616
-      },
-      "2": {
-        "file": "2",
-        "duration": 5.496
-      },
-      "3": {
-        "file": "3",
-        "duration": 25.344
-      },
-      "4": {
-        "file": "4",
-        "duration": 37.416
-      },
-      "5": {
-        "file": "5",
-        "duration": 11.616
-      },
-      "6": {
-        "file": "6",
-        "duration": 13.536
-      },
-      "7": {
-        "file": "7",
-        "duration": 4.896
-      },
-      "8": {
-        "file": "8",
-        "duration": 3.984
-      },
-      "9": {
-        "file": "9",
-        "duration": 10.776
-      },
-      "10": {
-        "file": "10",
-        "duration": 13.824
-      }
+      "0": 3.864,
+      "1": 8.616,
+      "2": 5.496,
+      "3": 25.344,
+      "4": 37.416,
+      "5": 11.616,
+      "6": 13.536,
+      "7": 4.896,
+      "8": 3.984,
+      "9": 10.776,
+      "finish": 13.824
     },
     "132:128": {
-      "0": {
-        "file": "0",
-        "duration": 11.136
-      },
-      "1": {
-        "file": "1",
-        "duration": 8.736
-      },
-      "2": {
-        "file": "2",
-        "duration": 6.816
-      },
-      "3": {
-        "file": "3",
-        "duration": 2.304
-      },
-      "4": {
-        "file": "4",
-        "duration": 12.816
-      }
+      "0": 11.136,
+      "1": 8.736,
+      "2": 6.816,
+      "3": 2.304,
+      "finish": 12.816
     },
     "128:856": {
-      "0": {
-        "file": "0",
-        "duration": 7.464
-      },
-      "1": {
-        "file": "1",
-        "duration": 30.744
-      },
-      "2": {
-        "file": "2",
-        "duration": 22.584
-      },
-      "3": {
-        "file": "3",
-        "duration": 3.096
-      },
-      "4": {
-        "file": "4",
-        "duration": 11.016
-      },
-      "5": {
-        "file": "5",
-        "duration": 18.816
-      },
-      "6": {
-        "file": "6",
-        "duration": 9.576
-      },
-      "7": {
-        "file": "7",
-        "duration": 4.656
-      },
-      "8": {
-        "file": "8",
-        "duration": 32.424
-      },
-      "9": {
-        "file": "9",
-        "duration": 3.024
-      },
-      "10": {
-        "file": "10",
-        "duration": 57.624
-      },
-      "11": {
-        "file": "11",
-        "duration": 2.136
-      },
-      "12": {
-        "file": "12",
-        "duration": 19.296
-      },
-      "13": {
-        "file": "13",
-        "duration": 6.816
-      },
-      "14": {
-        "file": "14",
-        "duration": 12.096
-      },
-      "15": {
-        "file": "15",
-        "duration": 7.416
-      },
-      "16": {
-        "file": "16",
-        "duration": 71.136
-      }
+      "0": 7.464,
+      "1": 30.744,
+      "2": 22.584,
+      "3": 3.096,
+      "4": 11.016,
+      "5": 18.816,
+      "6": 9.576,
+      "7": 4.656,
+      "8": 32.424,
+      "9": 3.024,
+      "10": 57.624,
+      "11": 2.136,
+      "12": 19.296,
+      "13": 6.816,
+      "14": 12.096,
+      "15": 7.416,
+      "finish": 71.136
     },
     "216:51": {
-      "0": {
-        "file": "0",
-        "duration": 5.976
-      },
-      "1": {
-        "file": "1",
-        "duration": 34.944
-      },
-      "2": {
-        "file": "2",
-        "duration": 50.616
-      },
-      "3": {
-        "file": "3",
-        "duration": 0.384
-      }
+      "0": 5.976,
+      "1": 34.944,
+      "2": 50.616,
+      "finish": 0.384
     }
   }
 }

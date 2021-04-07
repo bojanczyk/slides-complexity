@@ -1,5 +1,5 @@
 {
-  "version": 0.88,
+  "version": 0.902,
   "presentation": "Lecture 7. Randomised algorithms 2",
   "slideDict": {
     "1:10": "First_slide",
@@ -29,7 +29,8 @@
         "disabled": false,
         "keywords": [
           "BPP ⊊ P/Poly"
-        ]
+        ],
+        "eventId": "0"
       },
       {
         "type": "show",
@@ -38,7 +39,8 @@
         "disabled": false,
         "keywords": [
           "If pseudo-random generators exist, then BPP = P"
-        ]
+        ],
+        "eventId": "1"
       },
       {
         "type": "show",
@@ -47,7 +49,8 @@
         "disabled": false,
         "keywords": [
           "Derandomisation techniques"
-        ]
+        ],
+        "eventId": "2"
       },
       {
         "type": "child",
@@ -61,7 +64,8 @@
             "disabled": false,
             "keywords": [
               "Theorem. Adleman 1978 BPP ⊆ P/poly"
-            ]
+            ],
+            "eventId": "0"
           },
           {
             "type": "show",
@@ -70,7 +74,8 @@
             "disabled": false,
             "keywords": [
               "BPP definition"
-            ]
+            ],
+            "eventId": "1"
           },
           {
             "type": "show",
@@ -79,7 +84,8 @@
             "disabled": false,
             "keywords": [
               "P/poly = a polynomial time algorithm, which is allowed an advice string for every input length."
-            ]
+            ],
+            "eventId": "2"
           },
           {
             "type": "show",
@@ -88,7 +94,8 @@
             "disabled": false,
             "keywords": [
               "equivalent to (nonuniform) circuits of polynomial size"
-            ]
+            ],
+            "eventId": "3"
           },
           {
             "type": "show",
@@ -97,7 +104,8 @@
             "disabled": false,
             "keywords": [
               "In a BPP algorithm, we can make the probability of error exponentially small, while preserving polynomial running time (and coin tosses)."
-            ]
+            ],
+            "eventId": "4"
           },
           {
             "type": "show",
@@ -106,7 +114,8 @@
             "disabled": false,
             "keywords": [
               "For small enough error probability, there will be a sequence of coin tosses which gives a right answer of all inputs of length n."
-            ]
+            ],
+            "eventId": "5"
           },
           {
             "type": "show",
@@ -115,7 +124,8 @@
             "disabled": false,
             "keywords": [
               "advice string"
-            ]
+            ],
+            "eventId": "6"
           },
           {
             "type": "child",
@@ -129,7 +139,8 @@
                 "disabled": false,
                 "keywords": [
                   "For input of length n, run the original algorithm m times and take a majority vote."
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "show",
@@ -139,7 +150,8 @@
                 "keywords": [
                   "we use a sequence of coin tosses of some length m × (polynomial in n)",
                   "all such sequences of coin tosses"
-                ]
+                ],
+                "eventId": "1"
               },
               {
                 "type": "show",
@@ -148,7 +160,8 @@
                 "disabled": false,
                 "keywords": [
                   "all such sequences of coin tosses"
-                ]
+                ],
+                "eventId": "2"
               },
               {
                 "type": "show",
@@ -158,7 +171,8 @@
                 "keywords": [
                   "coin tosses that lead to a wrong answer for one input word",
                   "coin tosses that lead to a wrong answer when the input is w"
-                ]
+                ],
+                "eventId": "3"
               },
               {
                 "type": "show",
@@ -168,7 +182,8 @@
                 "keywords": [
                   "coin tosses that lead to a wrong answer for another input word",
                   "coin tosses that lead to a wrong answer when the input is v"
-                ]
+                ],
+                "eventId": "4"
               },
               {
                 "type": "show",
@@ -181,7 +196,8 @@
                   "1",
                   "number of inputs of length n",
                   "m is O(n)"
-                ]
+                ],
+                "eventId": "5"
               },
               {
                 "type": "child",
@@ -195,7 +211,8 @@
                     "disabled": false,
                     "keywords": [
                       "When discussing amplification of error for BPP, we showed that if the algorithm makes an error with probability p < 0.5, then running it m times and taking a majority vote gives an error with probability"
-                    ]
+                    ],
+                    "eventId": "0"
                   },
                   {
                     "type": "show",
@@ -205,7 +222,8 @@
                     "keywords": [
                       "Choose c ∈ {1, 2, ...} so that",
                       "If we choose"
-                    ]
+                    ],
+                    "eventId": "1"
                   },
                   {
                     "type": "show",
@@ -215,12 +233,14 @@
                     "keywords": [
                       "If m = cn, then the error probability is < 1 / (number of inputs of length n)",
                       "Then the error probability drops to <"
-                    ]
+                    ],
+                    "eventId": "2"
                   }
                 ],
                 "keywords": [
                   "Adleman 3"
-                ]
+                ],
+                "eventId": "6"
               },
               {
                 "type": "show",
@@ -229,7 +249,8 @@
                 "disabled": false,
                 "keywords": [
                   "Conclusion. There is a constant c such for every n, there exists a sequence of cn coin tosses which gives a correct answer for all inputs of length n, under the algorithm “run the orignal algorithm cn times, and take a majority vote”."
-                ]
+                ],
+                "eventId": "7"
               },
               {
                 "type": "child",
@@ -243,7 +264,8 @@
                     "disabled": false,
                     "keywords": [
                       "For inputs of length, the advice string is this sequence of coin tosses."
-                    ]
+                    ],
+                    "eventId": "0"
                   },
                   {
                     "type": "show",
@@ -252,22 +274,26 @@
                     "disabled": false,
                     "keywords": [
                       "Using this advice string instead of coin tosses, we are guaranteed to get a correct answer for all inputs of length n."
-                    ]
+                    ],
+                    "eventId": "1"
                   }
                 ],
                 "keywords": [
                   "Adleman 4"
-                ]
+                ],
+                "eventId": "8"
               }
             ],
             "keywords": [
               "Adleman 2"
-            ]
+            ],
+            "eventId": "7"
           }
         ],
         "keywords": [
           "Adleman 1"
-        ]
+        ],
+        "eventId": "3"
       },
       {
         "type": "child",
@@ -281,7 +307,8 @@
             "disabled": false,
             "keywords": [
               "Theorem. If a pseudo-random generator G exists, then BPP = P."
-            ]
+            ],
+            "eventId": "0"
           },
           {
             "type": "child",
@@ -295,7 +322,8 @@
                 "disabled": false,
                 "keywords": [
                   "Pseudo-random generator"
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "show",
@@ -304,7 +332,8 @@
                 "disabled": false,
                 "keywords": [
                   "Suppose that there is a function G which:"
-                ]
+                ],
+                "eventId": "1"
               },
               {
                 "type": "show",
@@ -313,7 +342,8 @@
                 "disabled": false,
                 "keywords": [
                   "inputs: a number n and a seed of log(n) bits"
-                ]
+                ],
+                "eventId": "2"
               },
               {
                 "type": "show",
@@ -322,7 +352,8 @@
                 "disabled": false,
                 "keywords": [
                   "outputs: n bits"
-                ]
+                ],
+                "eventId": "3"
               },
               {
                 "type": "show",
@@ -331,7 +362,8 @@
                 "disabled": false,
                 "keywords": [
                   "with the following properties"
-                ]
+                ],
+                "eventId": "4"
               },
               {
                 "type": "show",
@@ -340,7 +372,8 @@
                 "disabled": false,
                 "keywords": [
                   "1. the running time is polynomial in n"
-                ]
+                ],
+                "eventId": "5"
               },
               {
                 "type": "show",
@@ -349,7 +382,8 @@
                 "disabled": false,
                 "keywords": [
                   "2. if n is large enough, and D is a circuit of size n3, then following probabilities differ by < 0.1:"
-                ]
+                ],
+                "eventId": "6"
               },
               {
                 "type": "show",
@@ -359,7 +393,8 @@
                 "keywords": [
                   "Probability[D accepts G(s)]",
                   "s ranges over sequences of log(n) bits"
-                ]
+                ],
+                "eventId": "7"
               },
               {
                 "type": "show",
@@ -369,7 +404,8 @@
                 "keywords": [
                   "Probability[D accepts r]",
                   "r ranges over sequences of n bits"
-                ]
+                ],
+                "eventId": "8"
               },
               {
                 "type": "show",
@@ -378,7 +414,8 @@
                 "disabled": false,
                 "keywords": [
                   "this polynomial could be > n3"
-                ]
+                ],
+                "eventId": "9"
               },
               {
                 "type": "show",
@@ -387,12 +424,14 @@
                 "disabled": false,
                 "keywords": [
                   "The same results would be obtained with: - n100 instead of n3, and - 0.4999 instead of 0.1."
-                ]
+                ],
+                "eventId": "10"
               }
             ],
             "keywords": [
               "Pseudorandom generator"
-            ]
+            ],
+            "eventId": "1"
           },
           {
             "type": "show",
@@ -401,7 +440,8 @@
             "disabled": false,
             "keywords": [
               "Proof. Consider a language L ∈ BPP, as witnessed by a machine M such that: - the running time is a polynomial p(n) - inputs w ∈ L accepted with probability > 0.7 - inputs w ∉ L are accepted with probability < 0.3"
-            ]
+            ],
+            "eventId": "2"
           },
           {
             "type": "show",
@@ -410,7 +450,8 @@
             "disabled": false,
             "keywords": [
               "Polynomial time algorithm for L: Given an input w of length n, enumerate through all seeds s of length log(p(n)), and check which ones satisfy"
-            ]
+            ],
+            "eventId": "3"
           },
           {
             "type": "show",
@@ -419,7 +460,8 @@
             "disabled": false,
             "keywords": [
               "(*) M accepts w using random bits G(s)"
-            ]
+            ],
+            "eventId": "4"
           },
           {
             "type": "show",
@@ -428,7 +470,8 @@
             "disabled": false,
             "keywords": [
               "Claim. For large enough n: - if w ∈ L, then > 0.6 of seeds will satisfy (*) - if w ∉ L, then < 0.4 of seeds will satisfy (*)"
-            ]
+            ],
+            "eventId": "5"
           },
           {
             "type": "child",
@@ -445,7 +488,8 @@
                   "seed s of log(p(n)) bits",
                   "result of M on input w and random bits G(s)",
                   "↦"
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "show",
@@ -454,7 +498,8 @@
                 "disabled": false,
                 "keywords": [
                   "This function is computed by a circuit of size quadratic in p(n)"
-                ]
+                ],
+                "eventId": "1"
               },
               {
                 "type": "show",
@@ -467,7 +512,8 @@
                   "Probability[D accepts r]",
                   "s ranges over sequences of log(p(n)) bits",
                   "r ranges over sequences of p(n) bits"
-                ]
+                ],
+                "eventId": "2"
               },
               {
                 "type": "show",
@@ -476,7 +522,8 @@
                 "disabled": false,
                 "keywords": [
                   "> 0.7 for w ∈ L < 0.3 for w ∉ L"
-                ]
+                ],
+                "eventId": "3"
               },
               {
                 "type": "show",
@@ -485,17 +532,20 @@
                 "disabled": false,
                 "keywords": [
                   "> 0.6 for w ∈ L < 0.4 for w ∉ L"
-                ]
+                ],
+                "eventId": "4"
               }
             ],
             "keywords": [
               "Apply pseudo-random"
-            ]
+            ],
+            "eventId": "6"
           }
         ],
         "keywords": [
           "BPP = P"
-        ]
+        ],
+        "eventId": "4"
       },
       {
         "type": "child",
@@ -510,7 +560,8 @@
             "keywords": [
               "Given a graph, find a cut of maximal size?",
               "A cut of size k is a partition of vertices into two parts, such that there are exactly k edges between the parts"
-            ]
+            ],
+            "eventId": "0"
           },
           {
             "type": "show",
@@ -519,7 +570,8 @@
             "disabled": false,
             "keywords": [
               "The following problem is NP-complete: given a graph and k, decide is there a cut of size ≥ k."
-            ]
+            ],
+            "eventId": "1"
           },
           {
             "type": "show",
@@ -529,7 +581,8 @@
             "keywords": [
               "Randomised approximation algorithm",
               "returned value is at most 2 times worse"
-            ]
+            ],
+            "eventId": "2"
           },
           {
             "type": "show",
@@ -538,7 +591,8 @@
             "disabled": false,
             "keywords": [
               "Choose the partition randomly For each vertex, independently flip a coin to decide which part of the partition contains it."
-            ]
+            ],
+            "eventId": "3"
           },
           {
             "type": "show",
@@ -547,7 +601,8 @@
             "disabled": false,
             "keywords": [
               "With probability 1/2, an edge is counted to the size of the cut. Hence, the expected value of “size of the cut” is 1/2 over the number of edges."
-            ]
+            ],
+            "eventId": "4"
           },
           {
             "type": "child",
@@ -562,7 +617,8 @@
                 "keywords": [
                   "What is the probability of getting a cut of size ≥ m?",
                   "We care about m =expected size, which is half of the edges"
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "show",
@@ -571,7 +627,8 @@
                 "disabled": false,
                 "keywords": [
                   "expected size"
-                ]
+                ],
+                "eventId": "1"
               },
               {
                 "type": "show",
@@ -580,7 +637,8 @@
                 "disabled": false,
                 "keywords": [
                   "≤"
-                ]
+                ],
+                "eventId": "2"
               },
               {
                 "type": "show",
@@ -589,7 +647,8 @@
                 "disabled": false,
                 "keywords": [
                   "expected size"
-                ]
+                ],
+                "eventId": "3"
               },
               {
                 "type": "show",
@@ -598,7 +657,8 @@
                 "disabled": false,
                 "keywords": [
                   "(m-1) \\cdot (1 - \\text{probability}[\\text{cut has size\n  $\\ge m$}]) + \n|E| \\cdot \\text{probability}[\\text{cut has size  $ \\ge m$}] =\n"
-                ]
+                ],
+                "eventId": "4"
               },
               {
                 "type": "show",
@@ -607,7 +667,8 @@
                 "disabled": false,
                 "keywords": [
                   "(m-1) + (|E| - m +1) \\cdot \\text{probability}\n[\\text{cut has size  $ \\ge m$}] \n"
-                ]
+                ],
+                "eventId": "5"
               },
               {
                 "type": "show",
@@ -616,7 +677,8 @@
                 "disabled": false,
                 "keywords": [
                   "Summing up:"
-                ]
+                ],
+                "eventId": "6"
               },
               {
                 "type": "show",
@@ -625,7 +687,8 @@
                 "disabled": false,
                 "keywords": [
                   "\\frac {|E|} 2 \\quad \\le \\quad  (m-1) + (|E| - m +1) \\cdot \\text{probability}[\\text{cut has size  $ \\ge m$}] \n"
-                ]
+                ],
+                "eventId": "7"
               },
               {
                 "type": "show",
@@ -634,7 +697,8 @@
                 "disabled": false,
                 "keywords": [
                   "\\frac { \\frac{|E|} 2 - m +1 }\n{|E| - m +1} \\quad \\le \\quad   \\text{probability}[\\text{cut has size  $ \\ge m$}] \n"
-                ]
+                ],
+                "eventId": "8"
               },
               {
                 "type": "show",
@@ -643,7 +707,8 @@
                 "disabled": false,
                 "keywords": [
                   "For m = half the edges, we get:"
-                ]
+                ],
+                "eventId": "9"
               },
               {
                 "type": "show",
@@ -652,12 +717,14 @@
                 "disabled": false,
                 "keywords": [
                   "if we try m times, we get probability > ½ , because"
-                ]
+                ],
+                "eventId": "10"
               }
             ],
             "keywords": [
               "exptected size"
-            ]
+            ],
+            "eventId": "5"
           },
           {
             "type": "child",
@@ -671,7 +738,8 @@
                 "disabled": false,
                 "keywords": [
                   "We derandomise this algorithm, getting a deterministic polynomial time algorithm, which always produces a partition that cuts ≥ half the edges."
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "show",
@@ -680,7 +748,8 @@
                 "disabled": false,
                 "keywords": [
                   "Result: a deterministic, polynomial time, approximation algorithm for max-cut, with approximation factor 2"
-                ]
+                ],
+                "eventId": "1"
               },
               {
                 "type": "show",
@@ -689,7 +758,8 @@
                 "disabled": false,
                 "keywords": [
                   "Method 1. Conditional expectation"
-                ]
+                ],
+                "eventId": "2"
               },
               {
                 "type": "show",
@@ -698,7 +768,8 @@
                 "disabled": false,
                 "keywords": [
                   "Method 2. Pairwise independent variables"
-                ]
+                ],
+                "eventId": "3"
               },
               {
                 "type": "child",
@@ -718,7 +789,8 @@
                       "001",
                       "Consider the tree of coin tosses used by this algorithm",
                       "We have tossed a coin for the first 4 vertices, choosing for each of them one of the two parts."
-                    ]
+                    ],
+                    "eventId": "0"
                   },
                   {
                     "type": "show",
@@ -727,7 +799,8 @@
                     "disabled": false,
                     "keywords": [
                       "What is the expected value for the cut size, in a vertex of this tree?"
-                    ]
+                    ],
+                    "eventId": "1"
                   },
                   {
                     "type": "show",
@@ -736,7 +809,8 @@
                     "disabled": false,
                     "keywords": [
                       "Probability ranges over coins that have not been tossed yet"
-                    ]
+                    ],
+                    "eventId": "2"
                   },
                   {
                     "type": "show",
@@ -745,7 +819,8 @@
                     "disabled": false,
                     "keywords": [
                       "Group 7"
-                    ]
+                    ],
+                    "eventId": "3"
                   },
                   {
                     "type": "show",
@@ -754,7 +829,8 @@
                     "disabled": false,
                     "keywords": [
                       "A. edge that will surely be cut"
-                    ]
+                    ],
+                    "eventId": "4"
                   },
                   {
                     "type": "show",
@@ -763,7 +839,8 @@
                     "disabled": false,
                     "keywords": [
                       "B. edge that will surely not be cut"
-                    ]
+                    ],
+                    "eventId": "5"
                   },
                   {
                     "type": "show",
@@ -772,7 +849,8 @@
                     "disabled": false,
                     "keywords": [
                       "C. edge that may or may not be cut"
-                    ]
+                    ],
+                    "eventId": "6"
                   },
                   {
                     "type": "show",
@@ -781,7 +859,8 @@
                     "disabled": false,
                     "keywords": [
                       "number of edges of type A + half of number of edges of type C"
-                    ]
+                    ],
+                    "eventId": "7"
                   },
                   {
                     "type": "show",
@@ -790,12 +869,14 @@
                     "disabled": false,
                     "keywords": [
                       "Algorithm: start in the root, and each time move to a child with best expected value."
-                    ]
+                    ],
+                    "eventId": "8"
                   }
                 ],
                 "keywords": [
                   "Tree of tosses"
-                ]
+                ],
+                "eventId": "4"
               },
               {
                 "type": "child",
@@ -809,7 +890,8 @@
                     "disabled": false,
                     "keywords": [
                       "The expected value of half the edges was because for every edge e:"
-                    ]
+                    ],
+                    "eventId": "0"
                   },
                   {
                     "type": "show",
@@ -818,7 +900,8 @@
                     "disabled": false,
                     "keywords": [
                       "Probability [exactly one endpoint of e is chosen] = ½"
-                    ]
+                    ],
+                    "eventId": "1"
                   },
                   {
                     "type": "show",
@@ -827,7 +910,8 @@
                     "disabled": false,
                     "keywords": [
                       "Hence, each edge corresponds ½ to the expected cut size."
-                    ]
+                    ],
+                    "eventId": "2"
                   },
                   {
                     "type": "show",
@@ -836,7 +920,8 @@
                     "disabled": false,
                     "keywords": [
                       "E(X+Y) = EX + EY"
-                    ]
+                    ],
+                    "eventId": "3"
                   },
                   {
                     "type": "show",
@@ -845,7 +930,8 @@
                     "disabled": false,
                     "keywords": [
                       "even when X and Y are not independent"
-                    ]
+                    ],
+                    "eventId": "4"
                   },
                   {
                     "type": "show",
@@ -855,7 +941,8 @@
                     "keywords": [
                       "Randomised algorithm that uses log n bits",
                       "and same expected cut size"
-                    ]
+                    ],
+                    "eventId": "5"
                   },
                   {
                     "type": "show",
@@ -864,7 +951,8 @@
                     "disabled": false,
                     "keywords": [
                       "and hence can be derandomised using brute force"
-                    ]
+                    ],
+                    "eventId": "6"
                   },
                   {
                     "type": "show",
@@ -873,7 +961,8 @@
                     "disabled": false,
                     "keywords": [
                       "Represent each vertex v as a sequence of log n bits."
-                    ]
+                    ],
+                    "eventId": "7"
                   },
                   {
                     "type": "show",
@@ -882,7 +971,8 @@
                     "disabled": false,
                     "keywords": [
                       "Toss a coin log n times, giving another bit sequence r."
-                    ]
+                    ],
+                    "eventId": "8"
                   },
                   {
                     "type": "show",
@@ -893,7 +983,8 @@
                       "The cut is chosen as follows:",
                       "v is red if there is an even number of coordinates where both r and v are 1",
                       "v is blue if there is an odd number of coordinates where both r and v are 1"
-                    ]
+                    ],
+                    "eventId": "9"
                   },
                   {
                     "type": "show",
@@ -902,7 +993,8 @@
                     "disabled": false,
                     "keywords": [
                       "For every 2 different vertices, the two corresponding events are independent."
-                    ]
+                    ],
+                    "eventId": "10"
                   },
                   {
                     "type": "show",
@@ -914,7 +1006,8 @@
                       "1",
                       "v =",
                       "w ="
-                    ]
+                    ],
+                    "eventId": "11"
                   },
                   {
                     "type": "show",
@@ -923,496 +1016,171 @@
                     "disabled": false,
                     "keywords": [
                       "(but not for 3 vertices)"
-                    ]
+                    ],
+                    "eventId": "12"
                   }
                 ],
                 "keywords": [
                   "Pairwise independent"
-                ]
+                ],
+                "eventId": "5"
               }
             ],
             "keywords": [
               "Two ways of derandomising"
-            ]
+            ],
+            "eventId": "6"
           }
         ],
         "keywords": [
           "Derandomisation"
-        ]
+        ],
+        "eventId": "5"
       }
     ],
     "keywords": [
       "Computational Complexity",
       "Lecture 1. Turing machines and their resources",
       "First slide"
-    ]
+    ],
+    "eventId": "root"
   },
   "soundDict": {
     "1:10": {
-      "0": {
-        "file": "0",
-        "duration": 6.336
-      },
-      "1": {
-        "file": "1",
-        "duration": 22.416
-      },
-      "2": {
-        "file": "2",
-        "duration": 15.696
-      },
-      "3": {
-        "file": "3",
-        "duration": 10.416
-      },
-      "4": {
-        "file": "4",
-        "duration": 33.264
-      },
-      "5": {
-        "file": "5",
-        "duration": 19.704
-      },
-      "6": {
-        "file": "6",
-        "duration": 3.024
-      }
+      "0": 6.336,
+      "1": 22.416,
+      "2": 15.696,
+      "3": 10.416,
+      "4": 33.264,
+      "5": 19.704,
+      "finish": 3.024
     },
     "9:0": {
-      "0": {
-        "file": "0",
-        "duration": 0.384
-      },
-      "1": {
-        "file": "1",
-        "duration": 9.936
-      },
-      "2": {
-        "file": "2",
-        "duration": 89.016
-      },
-      "3": {
-        "file": "3",
-        "duration": 21.336
-      },
-      "4": {
-        "file": "4",
-        "duration": 15.936
-      },
-      "5": {
-        "file": "5",
-        "duration": 30.096
-      },
-      "6": {
-        "file": "6",
-        "duration": 19.656
-      },
-      "7": {
-        "file": "7",
-        "duration": 3.936
-      },
-      "8": {
-        "file": "8",
-        "duration": 1.224
-      }
+      "0": 0.384,
+      "1": 9.936,
+      "2": 89.016,
+      "3": 21.336,
+      "4": 15.936,
+      "5": 30.096,
+      "6": 19.656,
+      "7": 3.936,
+      "finish": 1.224
     },
     "10:34": {
-      "0": {
-        "file": "0",
-        "duration": 1.584
-      },
-      "1": {
-        "file": "1",
-        "duration": 21.624
-      },
-      "2": {
-        "file": "2",
-        "duration": 32.904
-      },
-      "3": {
-        "file": "3",
-        "duration": 7.656
-      },
-      "4": {
-        "file": "4",
-        "duration": 25.416
-      },
-      "5": {
-        "file": "5",
-        "duration": 6.936
-      },
-      "6": {
-        "file": "6",
-        "duration": 57.984
-      },
-      "7": {
-        "file": "7",
-        "duration": 12.144
-      },
-      "8": {
-        "file": "8",
-        "duration": 47.544
-      },
-      "9": {
-        "file": "9",
-        "duration": 0.936
-      }
+      "0": 1.584,
+      "1": 21.624,
+      "2": 32.904,
+      "3": 7.656,
+      "4": 25.416,
+      "5": 6.936,
+      "6": 57.984,
+      "7": 12.144,
+      "8": 47.544,
+      "finish": 0.936
     },
     "10:62": {
-      "0": {
-        "file": "0",
-        "duration": 1.824
-      },
-      "1": {
-        "file": "1",
-        "duration": 32.784
-      },
-      "2": {
-        "file": "2",
-        "duration": 22.584
-      },
-      "3": {
-        "file": "3",
-        "duration": 32.256
-      }
+      "0": 1.824,
+      "1": 32.784,
+      "2": 22.584,
+      "finish": 32.256
     },
     "10:187": {
-      "0": {
-        "file": "0",
-        "duration": 1.344
-      },
-      "1": {
-        "file": "1",
-        "duration": 5.256
-      },
-      "2": {
-        "file": "2",
-        "duration": 1.104
-      }
+      "0": 1.344,
+      "1": 5.256,
+      "finish": 1.104
     },
     "17:0": {
-      "0": {
-        "file": "0",
-        "duration": 0.864
-      },
-      "1": {
-        "file": "1",
-        "duration": 21.216
-      },
-      "2": {
-        "file": "2",
-        "duration": 15.384
-      },
-      "3": {
-        "file": "3",
-        "duration": 50.016
-      },
-      "4": {
-        "file": "4",
-        "duration": 73.296
-      },
-      "5": {
-        "file": "5",
-        "duration": 8.304
-      },
-      "6": {
-        "file": "6",
-        "duration": 52.464
-      },
-      "7": {
-        "file": "7",
-        "duration": 41.136
-      }
+      "0": 0.864,
+      "1": 21.216,
+      "2": 15.384,
+      "3": 50.016,
+      "4": 73.296,
+      "5": 8.304,
+      "6": 52.464,
+      "finish": 41.136
     },
     "17:5": {
-      "0": {
-        "file": "0",
-        "duration": 5.904
-      },
-      "1": {
-        "file": "1",
-        "duration": 3.024
-      },
-      "2": {
-        "file": "2",
-        "duration": 2.856
-      },
-      "3": {
-        "file": "3",
-        "duration": 16.944
-      },
-      "4": {
-        "file": "4",
-        "duration": 14.616
-      },
-      "5": {
-        "file": "5",
-        "duration": 4.536
-      },
-      "6": {
-        "file": "6",
-        "duration": 11.376
-      },
-      "7": {
-        "file": "7",
-        "duration": 38.616
-      },
-      "8": {
-        "file": "8",
-        "duration": 5.184
-      },
-      "9": {
-        "file": "9",
-        "duration": 86.784
-      },
-      "10": {
-        "file": "10",
-        "duration": 49.104
-      },
-      "11": {
-        "file": "11",
-        "duration": 47.376
-      }
+      "0": 5.904,
+      "1": 3.024,
+      "2": 2.856,
+      "3": 16.944,
+      "4": 14.616,
+      "5": 4.536,
+      "6": 11.376,
+      "7": 38.616,
+      "8": 5.184,
+      "9": 86.784,
+      "10": 49.104,
+      "finish": 47.376
     },
     "17:29": {
-      "0": {
-        "file": "0",
-        "duration": 1.344
-      },
-      "1": {
-        "file": "1",
-        "duration": 22.416
-      },
-      "2": {
-        "file": "2",
-        "duration": 42.504
-      },
-      "3": {
-        "file": "3",
-        "duration": 50.424
-      },
-      "4": {
-        "file": "4",
-        "duration": 11.784
-      },
-      "5": {
-        "file": "5",
-        "duration": 12.576
-      }
+      "0": 1.344,
+      "1": 22.416,
+      "2": 42.504,
+      "3": 50.424,
+      "4": 11.784,
+      "finish": 12.576
     },
     "1:176": {
-      "0": {
-        "file": "0",
-        "duration": 1.896
-      },
-      "1": {
-        "file": "1",
-        "duration": 31.656
-      },
-      "2": {
-        "file": "2",
-        "duration": 19.224
-      },
-      "3": {
-        "file": "3",
-        "duration": 34.896
-      },
-      "4": {
-        "file": "4",
-        "duration": 29.616
-      },
-      "5": {
-        "file": "5",
-        "duration": 61.464
-      },
-      "6": {
-        "file": "6",
-        "duration": 29.184
-      },
-      "7": {
-        "file": "7",
-        "duration": 8.784
-      }
+      "0": 1.896,
+      "1": 31.656,
+      "2": 19.224,
+      "3": 34.896,
+      "4": 29.616,
+      "5": 61.464,
+      "6": 29.184,
+      "finish": 8.784
     },
     "1:251": {
-      "0": {
-        "file": "0",
-        "duration": 14.856
-      },
-      "1": {
-        "file": "1",
-        "duration": 11.424
-      },
-      "2": {
-        "file": "2",
-        "duration": 20.856
-      },
-      "3": {
-        "file": "3",
-        "duration": 2.664
-      },
-      "4": {
-        "file": "4",
-        "duration": 33.384
-      },
-      "5": {
-        "file": "5",
-        "duration": 11.184
-      },
-      "6": {
-        "file": "6",
-        "duration": 12.144
-      },
-      "7": {
-        "file": "7",
-        "duration": 1.296
-      },
-      "8": {
-        "file": "8",
-        "duration": 14.256
-      },
-      "9": {
-        "file": "9",
-        "duration": 12.504
-      },
-      "10": {
-        "file": "10",
-        "duration": 43.584
-      },
-      "11": {
-        "file": "11",
-        "duration": 48.624
-      }
+      "0": 14.856,
+      "1": 11.424,
+      "2": 20.856,
+      "3": 2.664,
+      "4": 33.384,
+      "5": 11.184,
+      "6": 12.144,
+      "7": 1.296,
+      "8": 14.256,
+      "9": 12.504,
+      "10": 43.584,
+      "finish": 48.624
     },
     "1:245": {
-      "0": {
-        "file": "0",
-        "duration": 31.344
-      },
-      "1": {
-        "file": "1",
-        "duration": 4.584
-      },
-      "2": {
-        "file": "2",
-        "duration": 24.984
-      },
-      "3": {
-        "file": "3",
-        "duration": 8.016
-      },
-      "4": {
-        "file": "4",
-        "duration": 18.696
-      },
-      "5": {
-        "file": "5",
-        "duration": 17.064
-      },
-      "6": {
-        "file": "6",
-        "duration": 15.984
-      }
+      "0": 31.344,
+      "1": 4.584,
+      "2": 24.984,
+      "3": 8.016,
+      "4": 18.696,
+      "5": 17.064,
+      "finish": 15.984
     },
     "3:0": {
-      "0": {
-        "file": "0",
-        "duration": 1.656
-      },
-      "1": {
-        "file": "1",
-        "duration": 47.016
-      },
-      "2": {
-        "file": "2",
-        "duration": 20.304
-      },
-      "3": {
-        "file": "3",
-        "duration": 20.976
-      },
-      "4": {
-        "file": "4",
-        "duration": 34.944
-      },
-      "5": {
-        "file": "5",
-        "duration": 36.816
-      },
-      "6": {
-        "file": "6",
-        "duration": 4.296
-      },
-      "7": {
-        "file": "7",
-        "duration": 22.104
-      },
-      "8": {
-        "file": "8",
-        "duration": 39.096
-      },
-      "9": {
-        "file": "9",
-        "duration": 70.104
-      }
+      "0": 1.656,
+      "1": 47.016,
+      "2": 20.304,
+      "3": 20.976,
+      "4": 34.944,
+      "5": 36.816,
+      "6": 4.296,
+      "7": 22.104,
+      "8": 39.096,
+      "finish": 70.104
     },
     "3:76": {
-      "0": {
-        "file": "0",
-        "duration": 2.424
-      },
-      "1": {
-        "file": "1",
-        "duration": 7.824
-      },
-      "2": {
-        "file": "2",
-        "duration": 6.504
-      },
-      "3": {
-        "file": "3",
-        "duration": 5.016
-      },
-      "4": {
-        "file": "4",
-        "duration": 31.896
-      },
-      "5": {
-        "file": "5",
-        "duration": 13.656
-      },
-      "6": {
-        "file": "6",
-        "duration": 44.856
-      },
-      "7": {
-        "file": "7",
-        "duration": 34.896
-      },
-      "8": {
-        "file": "8",
-        "duration": 8.616
-      },
-      "9": {
-        "file": "9",
-        "duration": 20.136
-      },
-      "10": {
-        "file": "10",
-        "duration": 29.256
-      },
-      "11": {
-        "file": "11",
-        "duration": 17.424
-      },
-      "12": {
-        "file": "12",
-        "duration": 73.704
-      },
-      "13": {
-        "file": "13",
-        "duration": 46.464
-      }
+      "0": 2.424,
+      "1": 7.824,
+      "2": 6.504,
+      "3": 5.016,
+      "4": 31.896,
+      "5": 13.656,
+      "6": 44.856,
+      "7": 34.896,
+      "8": 8.616,
+      "9": 20.136,
+      "10": 29.256,
+      "11": 17.424,
+      "12": 73.704,
+      "finish": 46.464
     }
   }
 }

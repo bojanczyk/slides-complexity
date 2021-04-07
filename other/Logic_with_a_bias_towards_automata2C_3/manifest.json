@@ -1,5 +1,5 @@
 {
-  "version": 0.88,
+  "version": 0.902,
   "presentation": "Logic with a bias towards automata, 3",
   "slideDict": {
     "301:3": "Fixed_formula",
@@ -33,6 +33,7 @@
         "id": "301:2",
         "name": "Rectangle 1",
         "disabled": false,
+        "eventId": "0",
         "keywords": [
           "Rectangle 1"
         ]
@@ -47,6 +48,7 @@
             "id": "301:5",
             "name": "Many classical algorithmic problems can be formalized in logic",
             "disabled": false,
+            "eventId": "0",
             "keywords": [
               "Many classical algorithmic problems can be formalized in logic"
             ]
@@ -61,6 +63,7 @@
                 "id": "301:56",
                 "name": "First-order logic",
                 "disabled": false,
+                "eventId": "0",
                 "keywords": [
                   "First-order logic"
                 ]
@@ -70,6 +73,7 @@
                 "id": "311:12",
                 "name": "Independent set of size k:",
                 "disabled": false,
+                "eventId": "1",
                 "keywords": [
                   "Clique of size k:",
                   "Independent set of size k:"
@@ -80,6 +84,7 @@
                 "id": "311:13",
                 "name": "Dominating set of size k:",
                 "disabled": false,
+                "eventId": "2",
                 "keywords": [
                   "Vertex cover set of size k:",
                   "Dominating set of size k:"
@@ -90,6 +95,7 @@
                 "id": "317:127",
                 "name": "Maybe for every first-order sentence φ, there is a linear time algorithm which recognizes graphs where φ is true?",
                 "disabled": false,
+                "eventId": "3",
                 "keywords": [
                   "Maybe for every first-order sentence φ, there is a linear time algorithm which recognizes graphs where φ is true?"
                 ]
@@ -99,6 +105,7 @@
                 "id": "317:128",
                 "name": "The naive algorithm is polynomial, but the degree of the polynomial depends on φ.",
                 "disabled": false,
+                "eventId": "4",
                 "keywords": [
                   "The naive algorithm is polynomial, but the degree of the polynomial depends on φ."
                 ]
@@ -108,6 +115,7 @@
                 "id": "317:123",
                 "name": "Can be solved in linear time for every k:",
                 "disabled": false,
+                "eventId": "5",
                 "keywords": [
                   "Can be solved in linear time for every k:"
                 ]
@@ -117,6 +125,7 @@
                 "id": "317:124",
                 "name": "2k O(graph size)",
                 "disabled": false,
+                "eventId": "6",
                 "keywords": [
                   "2k O(graph size)"
                 ]
@@ -126,6 +135,7 @@
                 "id": "317:129",
                 "name": "Conjecture: cannot be solved in time",
                 "disabled": false,
+                "eventId": "7",
                 "keywords": [
                   "Conjecture: cannot be solved in time",
                   "f (k) poly(graph size)"
@@ -134,7 +144,8 @@
             ],
             "keywords": [
               "First-order graph properties"
-            ]
+            ],
+            "eventId": "1"
           },
           {
             "type": "child",
@@ -146,6 +157,7 @@
                 "id": "301:107",
                 "name": "Monadic second-order logic",
                 "disabled": false,
+                "eventId": "0",
                 "keywords": [
                   "Monadic second-order logic"
                 ]
@@ -155,6 +167,7 @@
                 "id": "301:109",
                 "name": "3-colourability",
                 "disabled": false,
+                "eventId": "1",
                 "keywords": [
                   "3-colourability"
                 ]
@@ -164,6 +177,7 @@
                 "id": "301:133",
                 "name": "There exist 3 sets of vertices, such that:",
                 "disabled": false,
+                "eventId": "2",
                 "keywords": [
                   "There exist 3 sets of vertices, such that:"
                 ]
@@ -173,6 +187,7 @@
                 "id": "301:129",
                 "name": "b. no edge has both endpoints in the same set",
                 "disabled": false,
+                "eventId": "3",
                 "keywords": [
                   "b. no edge has both endpoints in the same set"
                 ]
@@ -182,6 +197,7 @@
                 "id": "301:134",
                 "name": "a. every vertex belongs to some set",
                 "disabled": false,
+                "eventId": "4",
                 "keywords": [
                   "a. every vertex belongs to some set"
                 ]
@@ -191,6 +207,7 @@
                 "id": "301:130",
                 "name": "Hamiltonian path",
                 "disabled": false,
+                "eventId": "5",
                 "keywords": [
                   "Hamiltonian path"
                 ]
@@ -200,6 +217,7 @@
                 "id": "301:131",
                 "name": "There exists a set F of edges such that:",
                 "disabled": false,
+                "eventId": "6",
                 "keywords": [
                   "There exists a set F of edges such that:"
                 ]
@@ -209,6 +227,7 @@
                 "id": "301:135",
                 "name": "a. every vertex is incident to exactly two edges from F",
                 "disabled": false,
+                "eventId": "7",
                 "keywords": [
                   "a. every vertex is incident to exactly two edges from F"
                 ]
@@ -218,6 +237,7 @@
                 "id": "301:136",
                 "name": "b. for every proper subset G ⊆ F, some vertex is incident to exactly 1 edge from G",
                 "disabled": false,
+                "eventId": "8",
                 "keywords": [
                   "b. for every proper subset G ⊆ F, some vertex is incident to exactly 1 edge from G"
                 ]
@@ -225,13 +245,15 @@
             ],
             "keywords": [
               "Second-order graph properties"
-            ]
+            ],
+            "eventId": "2"
           },
           {
             "type": "show",
             "id": "301:137",
             "name": "Hence the value of theorems such as these:",
             "disabled": false,
+            "eventId": "3",
             "keywords": [
               "Hence the value of theorems such as these:"
             ]
@@ -241,6 +263,7 @@
             "id": "301:138",
             "name": "Theorem. [Seese 1996] For every sentence φ of first-order logic and d ∈ {1, 2, ..}, the following problem can be solved in linear time: input: graph of degree d question: does it satisfy φ?",
             "disabled": false,
+            "eventId": "4",
             "keywords": [
               "Theorem. [Seese 1996] For every sentence φ of first-order logic and d ∈ {1, 2, ..}, the following problem can be solved in linear time: input: graph of degree d question: does it satisfy φ?"
             ]
@@ -250,6 +273,7 @@
             "id": "301:141",
             "name": "Corollary. For every k and d, there is a linear time algorithm for dominating set of size k on graphs of degree at most d.",
             "disabled": false,
+            "eventId": "5",
             "keywords": [
               "Corollary. For every k and d, there is a linear time algorithm for dominating set of size k on graphs of degree at most d."
             ]
@@ -259,6 +283,7 @@
             "id": "301:140",
             "name": "Theorem. [Courcelle 1990] For every sentence φ of MSO and k ∈ {1, 2, ..}, the following problem can be solved in linear time: input: graph of treewidth k question: does it satisfy φ?",
             "disabled": false,
+            "eventId": "6",
             "keywords": [
               "Theorem. [Courcelle 1990] For every sentence φ of MSO and k ∈ {1, 2, ..}, the following problem can be solved in linear time: input: graph of treewidth k question: does it satisfy φ?"
             ]
@@ -268,6 +293,7 @@
             "id": "301:142",
             "name": "Corollary. For every k, there is a linear time algorithm for Hamiltonian path on graphs of treewidth at most k.",
             "disabled": false,
+            "eventId": "7",
             "keywords": [
               "Corollary. For every k, there is a linear time algorithm for Hamiltonian path on graphs of treewidth at most k."
             ]
@@ -277,6 +303,7 @@
             "id": "301:143",
             "name": "Algorithmic meta-theorems",
             "disabled": false,
+            "eventId": "8",
             "keywords": [
               "Algorithmic meta-theorems"
             ]
@@ -291,6 +318,7 @@
                 "id": "301:149",
                 "name": "Follows immediately from these two results:",
                 "disabled": false,
+                "eventId": "0",
                 "keywords": [
                   "Follows immediately from these two results:"
                 ]
@@ -300,6 +328,7 @@
                 "id": "301:150",
                 "name": "Theorem. [Bodlaender] For every k ∈ {1, 2, ...}, the following problem can be solved in linear time: input: a graph output: a tree decomposition of width k, or “no” if there is no such tree decomposition.",
                 "disabled": false,
+                "eventId": "1",
                 "keywords": [
                   "Theorem. [Bodlaender] For every k ∈ {1, 2, ...}, the following problem can be solved in linear time: input: a graph output: a tree decomposition of width k, or “no” if there is no such tree decomposition."
                 ]
@@ -309,6 +338,7 @@
                 "id": "301:152",
                 "name": "A hard algorithm.",
                 "disabled": false,
+                "eventId": "2",
                 "keywords": [
                   "A hard algorithm."
                 ]
@@ -318,6 +348,7 @@
                 "id": "301:153",
                 "name": "Robertson and Seymour give a simple cubic algorithm.",
                 "disabled": false,
+                "eventId": "3",
                 "keywords": [
                   "Robertson and Seymour give a simple cubic algorithm."
                 ]
@@ -327,6 +358,7 @@
                 "id": "301:151",
                 "name": "Lemma. For every k ∈ {1, 2, ...} and MSO sentence φ, the following problem can be solved in linear time: input: a tree decomposition of width k output: does the underlying graph satisfy φ?",
                 "disabled": false,
+                "eventId": "4",
                 "keywords": [
                   "Lemma. For every k ∈ {1, 2, ...} and MSO sentence φ, the following problem can be solved in linear time: input: a tree decomposition of width k output: does the underlying graph satisfy φ?"
                 ]
@@ -341,6 +373,7 @@
                     "id": "301:173",
                     "name": "An MSO formula can be evaluated directly on a tree decomposition:",
                     "disabled": false,
+                    "eventId": "0",
                     "keywords": [
                       "An MSO formula can be evaluated directly on a tree decomposition:"
                     ]
@@ -350,6 +383,7 @@
                     "id": "301:158",
                     "name": "width k tree decompositions",
                     "disabled": false,
+                    "eventId": "1",
                     "keywords": [
                       "width k tree decompositions",
                       "graphs of treewidth k",
@@ -366,6 +400,7 @@
                     "id": "311:5",
                     "name": "Therefore it remains to show that a fixed MSO formula on trees can be evaluated in linear time: f (formula)·(size of tree)",
                     "disabled": false,
+                    "eventId": "2",
                     "keywords": [
                       "Therefore it remains to show that a fixed MSO formula on trees can be evaluated in linear time: f (formula)·(size of tree)"
                     ]
@@ -380,6 +415,7 @@
                         "id": "301:178",
                         "name": "Theorem. Thatcher and Wright 1968] For finite trees, MSO and tree automata define the same languages.",
                         "disabled": false,
+                        "eventId": "0",
                         "keywords": [
                           "Theorem. Thatcher and Wright 1968] For finite trees, MSO and tree automata define the same languages."
                         ]
@@ -394,6 +430,7 @@
                             "id": "301:183",
                             "name": "Formally, we consider finite trees over a ranked alphabet:",
                             "disabled": false,
+                            "eventId": "0",
                             "keywords": [
                               "Formally, we consider finite trees over a ranked alphabet:"
                             ]
@@ -403,6 +440,7 @@
                             "id": "311:7",
                             "name": "c",
                             "disabled": false,
+                            "eventId": "1",
                             "keywords": [
                               "c",
                               "a",
@@ -415,6 +453,7 @@
                             "id": "301:204",
                             "name": "a is a letter of rank 2",
                             "disabled": false,
+                            "eventId": "2",
                             "keywords": [
                               "a is a letter of rank 2"
                             ]
@@ -424,6 +463,7 @@
                             "id": "301:205",
                             "name": "b is a letter of rank 1",
                             "disabled": false,
+                            "eventId": "3",
                             "keywords": [
                               "b is a letter of rank 1"
                             ]
@@ -433,6 +473,7 @@
                             "id": "301:206",
                             "name": "c is a letter of rank 0",
                             "disabled": false,
+                            "eventId": "4",
                             "keywords": [
                               "c is a letter of rank 0"
                             ]
@@ -442,6 +483,7 @@
                             "id": "311:11",
                             "name": "A deterministic bottom-up automaton assigns to each tree node a state, using a transition function",
                             "disabled": false,
+                            "eventId": "5",
                             "keywords": [
                               "A deterministic bottom-up automaton assigns to each tree node a state, using a transition function"
                             ]
@@ -451,6 +493,7 @@
                             "id": "311:9",
                             "name": "p",
                             "disabled": false,
+                            "eventId": "6",
                             "keywords": [
                               "p",
                               "q"
@@ -461,6 +504,7 @@
                             "id": "311:10",
                             "name": "p",
                             "disabled": false,
+                            "eventId": "7",
                             "keywords": [
                               "p",
                               "q"
@@ -471,6 +515,7 @@
                             "id": "301:213",
                             "name": "r",
                             "disabled": false,
+                            "eventId": "8",
                             "keywords": [
                               "r"
                             ]
@@ -480,6 +525,7 @@
                             "id": "301:214",
                             "name": "q",
                             "disabled": false,
+                            "eventId": "9",
                             "keywords": [
                               "q"
                             ]
@@ -489,6 +535,7 @@
                             "id": "301:216",
                             "name": "p",
                             "disabled": false,
+                            "eventId": "10",
                             "keywords": [
                               "p"
                             ]
@@ -498,6 +545,7 @@
                             "id": "301:265",
                             "name": "Languages recognized by these automata are closed under union, complementation and projection.",
                             "disabled": false,
+                            "eventId": "11",
                             "keywords": [
                               "Languages recognized by these automata are closed under union, complementation and projection."
                             ]
@@ -507,6 +555,7 @@
                             "id": "301:266",
                             "name": "because there nondeterministic bottom-up tree automata are equivalent to deterministic ones",
                             "disabled": false,
+                            "eventId": "12",
                             "keywords": [
                               "because there nondeterministic bottom-up tree automata are equivalent to deterministic ones"
                             ]
@@ -514,13 +563,15 @@
                         ],
                         "keywords": [
                           "Tree automata def"
-                        ]
+                        ],
+                        "eventId": "1"
                       },
                       {
                         "type": "show",
                         "id": "301:180",
                         "name": "Proof. Same as for finite words (Büchi, Elgot, Trakhtenbrot)",
                         "disabled": false,
+                        "eventId": "2",
                         "keywords": [
                           "Proof. Same as for finite words (Büchi, Elgot, Trakhtenbrot)"
                         ]
@@ -530,6 +581,7 @@
                         "id": "301:267",
                         "name": "Since deterministic bottom-up tree automata can be evaluated in linear time, the result follows.",
                         "disabled": false,
+                        "eventId": "3",
                         "keywords": [
                           "Since deterministic bottom-up tree automata can be evaluated in linear time, the result follows."
                         ]
@@ -537,18 +589,21 @@
                     ],
                     "keywords": [
                       "Tree automata"
-                    ]
+                    ],
+                    "eventId": "3"
                   }
                 ],
                 "keywords": [
                   "Automata courcelle"
-                ]
+                ],
+                "eventId": "5"
               },
               {
                 "type": "show",
                 "id": "301:155",
                 "name": "A variant of this theorem is true for rankwidth (aka cliquewidth)",
                 "disabled": false,
+                "eventId": "6",
                 "keywords": [
                   "A variant of this theorem is true for rankwidth (aka cliquewidth)"
                 ]
@@ -556,7 +611,8 @@
             ],
             "keywords": [
               "Courcelle theorem"
-            ]
+            ],
+            "eventId": "9"
           },
           {
             "type": "child",
@@ -568,6 +624,7 @@
                 "id": "301:270",
                 "name": "The main tool for this, and other similar results, is Gaifman’s theorem about the locality of first-order logic",
                 "disabled": false,
+                "eventId": "0",
                 "keywords": [
                   "The main tool for this, and other similar results, is Gaifman’s theorem about the locality of first-order logic"
                 ]
@@ -582,6 +639,7 @@
                     "id": "301:273",
                     "name": "Theorem. [Gaifman 1982] Every sentence φ of first-order logic on graphs is equivalent to a Boolean combination of basic local sentences:",
                     "disabled": false,
+                    "eventId": "0",
                     "keywords": [
                       "Theorem. [Gaifman 1982] Every sentence φ of first-order logic on graphs is equivalent to a Boolean combination of basic local sentences:"
                     ]
@@ -591,6 +649,7 @@
                     "id": "311:17",
                     "name": "a basic local sentence",
                     "disabled": false,
+                    "eventId": "1",
                     "keywords": [
                       "a basic local sentence",
                       "∧"
@@ -601,6 +660,7 @@
                     "id": "311:14",
                     "name": "a number k ∈ {0, 1, ...}",
                     "disabled": false,
+                    "eventId": "2",
                     "keywords": [
                       "a number k ∈ {0, 1, ...}"
                     ]
@@ -610,6 +670,7 @@
                     "id": "311:15",
                     "name": "a number r ∈ {0, 1, ...} called the radius",
                     "disabled": false,
+                    "eventId": "3",
                     "keywords": [
                       "a number r ∈ {0, 1, ...} called the radius"
                     ]
@@ -619,6 +680,7 @@
                     "id": "311:16",
                     "name": "a first-order formula φ(x) which is r-local",
                     "disabled": false,
+                    "eventId": "4",
                     "keywords": [
                       "a first-order formula φ(x) which is r-local"
                     ]
@@ -633,6 +695,7 @@
                         "id": "309:129",
                         "name": "Group 2",
                         "disabled": false,
+                        "eventId": "0",
                         "keywords": [
                           "Group 2"
                         ]
@@ -642,6 +705,7 @@
                         "id": "311:20",
                         "name": "The r-neighbourhood of a vertex v in a graph is the vertices that can be reached from v using at most r edges",
                         "disabled": false,
+                        "eventId": "1",
                         "keywords": [
                           "The r-neighbourhood of a vertex x in a graph is the vertices that can be reached from x using at most r edges",
                           "2-neighbourhood",
@@ -653,6 +717,7 @@
                         "id": "311:19",
                         "name": "A formula φ(v) is r-local if it depends only on the r-neighbourhood of v:",
                         "disabled": false,
+                        "eventId": "2",
                         "keywords": [
                           "A formula φ(x) is r-local if it depends only on the r-neighbourhood of x :",
                           "G ⊨ φ(x)",
@@ -666,6 +731,7 @@
                         "id": "309:254",
                         "name": "A syntactic characterization: all quantifiers are relativized to the r-neighbourhood of v.",
                         "disabled": false,
+                        "eventId": "3",
                         "keywords": [
                           "A syntactic characterization: all quantifiers are relativized to the r-neighbourhood of v."
                         ]
@@ -673,13 +739,15 @@
                     ],
                     "keywords": [
                       "Local sentences"
-                    ]
+                    ],
+                    "eventId": "5"
                   },
                   {
                     "type": "show",
                     "id": "310:38",
                     "name": "The theorem is effective, although with non-elementary complexity.",
                     "disabled": false,
+                    "eventId": "6",
                     "keywords": [
                       "The theorem is effective, although with non-elementary complexity."
                     ]
@@ -687,13 +755,15 @@
                 ],
                 "keywords": [
                   "Gaifman"
-                ]
+                ],
+                "eventId": "1"
               },
               {
                 "type": "show",
                 "id": "301:317",
                 "name": "Proof.",
                 "disabled": false,
+                "eventId": "2",
                 "keywords": [
                   "Proof."
                 ]
@@ -708,6 +778,7 @@
                     "id": "311:21",
                     "name": "Thanks to Gaifman’s theorem, it is enough to show that for every basic local sentence",
                     "disabled": false,
+                    "eventId": "0",
                     "keywords": [
                       "Thanks to Gaifman’s theorem, it is enough to show that for every basic local sentence",
                       "and every degree d ∈ {1, 2, ...} , there is a linear time algorithm which evaluates the sentence on graphs of degree at most d.",
@@ -719,6 +790,7 @@
                     "id": "311:22",
                     "name": "For every vertex x, we can check φ(x) in constant time.",
                     "disabled": false,
+                    "eventId": "1",
                     "keywords": [
                       "For every vertex x, we can check φ(x) in constant time.",
                       "the size of the r-neighbourhood is ≤ dr"
@@ -729,6 +801,7 @@
                     "id": "310:82",
                     "name": "Algorithm for k = 2.",
                     "disabled": false,
+                    "eventId": "2",
                     "keywords": [
                       "Algorithm for k = 2."
                     ]
@@ -738,6 +811,7 @@
                     "id": "310:83",
                     "name": "For every vertex x₁, check if it satisfies φ(x₁)",
                     "disabled": false,
+                    "eventId": "3",
                     "keywords": [
                       "For every vertex x₁, check if it satisfies φ(x₁)"
                     ]
@@ -747,6 +821,7 @@
                     "id": "310:84",
                     "name": "After finding the first candidate for x₁, find some other x₂ which satisfies φ(x₂) and has distance > r from x₁",
                     "disabled": false,
+                    "eventId": "4",
                     "keywords": [
                       "After finding the first candidate for x₁, find some other x₂ which satisfies φ(x₂) and has distance > r from x₁"
                     ]
@@ -756,6 +831,7 @@
                     "id": "310:85",
                     "name": "This greedy algorithm can give a false negative.",
                     "disabled": false,
+                    "eventId": "5",
                     "keywords": [
                       "This greedy algorithm can give a false negative."
                     ]
@@ -765,6 +841,7 @@
                     "id": "311:25",
                     "name": "vertex x₁ found by algorithm",
                     "disabled": false,
+                    "eventId": "6",
                     "keywords": [
                       "vertex x₁ found by algorithm"
                     ]
@@ -774,6 +851,7 @@
                     "id": "311:24",
                     "name": "vertices x₁ and x₂ needed to satisfy basic local sentence",
                     "disabled": false,
+                    "eventId": "7",
                     "keywords": [
                       "vertices x₁ and x₂ needed to satisfy basic local sentence"
                     ]
@@ -783,6 +861,7 @@
                     "id": "310:94",
                     "name": "The false negative can only happen if the basic local sentence is witnessed by a pair of vertices at distance ≤ 2r.",
                     "disabled": false,
+                    "eventId": "8",
                     "keywords": [
                       "The false negative can only happen if the basic local sentence is witnessed by a pair of vertices at distance ≤ 2r."
                     ]
@@ -792,6 +871,7 @@
                     "id": "310:96",
                     "name": "Such pairs can be found in linear time.",
                     "disabled": false,
+                    "eventId": "9",
                     "keywords": [
                       "Such pairs can be found in linear time."
                     ]
@@ -799,13 +879,15 @@
                 ],
                 "keywords": [
                   "Bounded degree proof"
-                ]
+                ],
+                "eventId": "3"
               },
               {
                 "type": "show",
                 "id": "310:98",
                 "name": "There are far-reaching generalizations of this result, beyond bounded degree.",
                 "disabled": false,
+                "eventId": "4",
                 "keywords": [
                   "There are far-reaching generalizations of this result, beyond bounded degree."
                 ]
@@ -815,6 +897,7 @@
                 "id": "311:30",
                 "name": "nowhere dense",
                 "disabled": false,
+                "eventId": "5",
                 "keywords": [
                   "nowhere dense"
                 ]
@@ -824,6 +907,7 @@
                 "id": "311:31",
                 "name": "twinwidth",
                 "disabled": false,
+                "eventId": "6",
                 "keywords": [
                   "twinwidth"
                 ]
@@ -838,6 +922,7 @@
                     "id": "311:4",
                     "name": "Nowhere dense classes",
                     "disabled": false,
+                    "eventId": "0",
                     "keywords": [
                       "Nowhere dense classes"
                     ]
@@ -847,6 +932,7 @@
                     "id": "310:110",
                     "name": "Let C be any of the following graph classes:",
                     "disabled": false,
+                    "eventId": "1",
                     "keywords": [
                       "Let C be any of the following graph classes:"
                     ]
@@ -856,6 +942,7 @@
                     "id": "310:106",
                     "name": "graphs of degree at most 5",
                     "disabled": false,
+                    "eventId": "2",
                     "keywords": [
                       "graphs of degree at most 5"
                     ]
@@ -865,6 +952,7 @@
                     "id": "310:107",
                     "name": "graphs of treewidth at most 5",
                     "disabled": false,
+                    "eventId": "3",
                     "keywords": [
                       "graphs of treewidth at most 5"
                     ]
@@ -874,6 +962,7 @@
                     "id": "310:108",
                     "name": "planar graphs",
                     "disabled": false,
+                    "eventId": "4",
                     "keywords": [
                       "planar graphs"
                     ]
@@ -883,6 +972,7 @@
                     "id": "310:109",
                     "name": "graphs that avoid the 5-clique as a minor",
                     "disabled": false,
+                    "eventId": "5",
                     "keywords": [
                       "graphs that avoid the 5-clique as a minor"
                     ]
@@ -892,6 +982,7 @@
                     "id": "310:105",
                     "name": "For every first-order sentence φ, there is a linear time algorithm for: input: a graph from C question: does it satisfy φ?",
                     "disabled": false,
+                    "eventId": "6",
                     "keywords": [
                       "For every first-order sentence φ, there is a linear time algorithm for: input: a graph from C question: does it satisfy φ?"
                     ]
@@ -901,6 +992,7 @@
                     "id": "310:111",
                     "name": "All of the above are examples of nowhere dense graph classes.",
                     "disabled": false,
+                    "eventId": "7",
                     "keywords": [
                       "All of the above are examples of nowhere dense graph classes."
                     ]
@@ -915,6 +1007,7 @@
                         "id": "310:277",
                         "name": "Consider a radius r ∈ {0, 1, ...} and two graphs:",
                         "disabled": false,
+                        "eventId": "0",
                         "keywords": [
                           "Consider a radius r ∈ {0, 1, ...} and two graphs:"
                         ]
@@ -924,6 +1017,7 @@
                         "id": "311:27",
                         "name": "H",
                         "disabled": false,
+                        "eventId": "1",
                         "keywords": [
                           "H"
                         ]
@@ -933,6 +1027,7 @@
                         "id": "311:28",
                         "name": "G",
                         "disabled": false,
+                        "eventId": "2",
                         "keywords": [
                           "G"
                         ]
@@ -942,6 +1037,7 @@
                         "id": "310:236",
                         "name": "We say that H is an r-minor of G if one can associate to each vertex of H a subset of vertices in G such that:",
                         "disabled": false,
+                        "eventId": "3",
                         "keywords": [
                           "We say that H is an r-minor of G if one can associate to each vertex of H a subset of vertices in G such that:"
                         ]
@@ -951,6 +1047,7 @@
                         "id": "311:29",
                         "name": "Group 12",
                         "disabled": false,
+                        "eventId": "4",
                         "keywords": [
                           "Group 12"
                         ]
@@ -960,6 +1057,7 @@
                         "id": "310:237",
                         "name": "1. all subsets are pairwise disjoint and have radius at most r",
                         "disabled": false,
+                        "eventId": "5",
                         "keywords": [
                           "1. all subsets are pairwise disjoint and have radius at most r"
                         ]
@@ -969,6 +1067,7 @@
                         "id": "310:238",
                         "name": "2. if two vertices in H are connected by an edge, then the same is true for the associated subsets in G",
                         "disabled": false,
+                        "eventId": "6",
                         "keywords": [
                           "2. if two vertices in H are connected by an edge, then the same is true for the associated subsets in G"
                         ]
@@ -978,6 +1077,7 @@
                         "id": "310:240",
                         "name": "Definition. [Nesetril and Ossona de Mendez 2011] A class of graphs C is nowhere dense if for every radius r ∈ {0, 1, ...}, not all graphs are r-minors of C.",
                         "disabled": false,
+                        "eventId": "7",
                         "keywords": [
                           "Definition. [Nesetril and Ossona de Mendez 2011] A class of graphs C is nowhere dense if for every radius r ∈ {0, 1, ...}, not all graphs are r-minors of C."
                         ]
@@ -992,6 +1092,7 @@
                             "id": "318:2",
                             "name": "Example 1. If C has bounded degree, then it is nowhere dense. An r-minor of a graph with degree at most d has degree at most dr +1",
                             "disabled": false,
+                            "eventId": "0",
                             "keywords": [
                               "Example 1. If C has bounded degree, then it is nowhere dense. An r-minor of a graph with degree at most d has degree at most dr +1"
                             ]
@@ -1001,6 +1102,7 @@
                             "id": "318:3",
                             "name": "Example 2. If C has bounded treewidth, then it is nowhere dense. An r-minor of a graph of treewidth k cannot be a (k+1)-clique",
                             "disabled": false,
+                            "eventId": "1",
                             "keywords": [
                               "Example 2. If C has bounded treewidth, then it is nowhere dense. An r-minor of a graph of treewidth k cannot be a (k+1)-clique"
                             ]
@@ -1008,12 +1110,14 @@
                         ],
                         "keywords": [
                           "examples of nowhere dense classes"
-                        ]
+                        ],
+                        "eventId": "8"
                       }
                     ],
                     "keywords": [
                       "Definition of nowhere dense"
-                    ]
+                    ],
+                    "eventId": "8"
                   },
                   {
                     "type": "child",
@@ -1025,6 +1129,7 @@
                         "id": "310:302",
                         "name": "Nowhere dense: model checking almost linear",
                         "disabled": false,
+                        "eventId": "0",
                         "keywords": [
                           "Nowhere dense: model checking almost linear"
                         ]
@@ -1034,6 +1139,7 @@
                         "id": "311:26",
                         "name": "Theorem. [Grohe, Kreutzer, Siebertz 2014] If C is nowhere dense and closed under subgraphs, then for every first-order sentence φ, the model checking problem",
                         "disabled": false,
+                        "eventId": "1",
                         "keywords": [
                           "Theorem. [Grohe, Kreutzer, Siebertz 2014] If C is nowhere dense, then for every first-order sentence φ, the model checking problem",
                           "does G ∈ C satisfy φ?",
@@ -1046,6 +1152,7 @@
                         "id": "318:6",
                         "name": "Not nowhere dense: model checking hard",
                         "disabled": false,
+                        "eventId": "2",
                         "keywords": [
                           "Not nowhere dense: model checking hard",
                           "and closed under subgraphs"
@@ -1056,6 +1163,7 @@
                         "id": "310:281",
                         "name": "If C is not nowhere dense, then for some radius r ∈ {1, 2, ...} the class every graph as an r-minor.",
                         "disabled": false,
+                        "eventId": "3",
                         "keywords": [
                           "If C is not nowhere dense, then for some radius r ∈ {1, 2, ...} the class every graph as an r-minor."
                         ]
@@ -1065,6 +1173,7 @@
                         "id": "310:288",
                         "name": "A first-order formula can interpret an r-minor in the bigger graph, and hence, model checking on C is a hard as model checking on the class of all graphs.",
                         "disabled": false,
+                        "eventId": "4",
                         "keywords": [
                           "A first-order formula can interpret an r-minor in the bigger graph, and hence, model checking on C is a hard as model checking on the class of all graphs."
                         ]
@@ -1072,12 +1181,14 @@
                     ],
                     "keywords": [
                       "model checking nowhere dense"
-                    ]
+                    ],
+                    "eventId": "9"
                   }
                 ],
                 "keywords": [
                   "Nowhere dense"
-                ]
+                ],
+                "eventId": "7"
               },
               {
                 "type": "child",
@@ -1089,6 +1200,7 @@
                     "id": "311:3",
                     "name": "Bounded twinwidth",
                     "disabled": false,
+                    "eventId": "0",
                     "keywords": [
                       "Bounded twinwidth"
                     ]
@@ -1098,6 +1210,7 @@
                     "id": "310:468",
                     "name": "First-order model checking is linear time on graph classes such as:",
                     "disabled": false,
+                    "eventId": "1",
                     "keywords": [
                       "First-order model checking is linear time on graph classes such as:"
                     ]
@@ -1107,6 +1220,7 @@
                     "id": "310:469",
                     "name": "complements of planar graphs",
                     "disabled": false,
+                    "eventId": "2",
                     "keywords": [
                       "complements of planar graphs"
                     ]
@@ -1116,6 +1230,7 @@
                     "id": "310:471",
                     "name": "complements of graphs of treewidth at most 5",
                     "disabled": false,
+                    "eventId": "3",
                     "keywords": [
                       "complements of graphs of treewidth at most 5"
                     ]
@@ -1125,6 +1240,7 @@
                     "id": "310:470",
                     "name": "graphs of cliquewidth at most 5",
                     "disabled": false,
+                    "eventId": "4",
                     "keywords": [
                       "graphs of cliquewidth at most 5"
                     ]
@@ -1134,6 +1250,7 @@
                     "id": "310:472",
                     "name": "These classes are not nowhere dense (and not closed under subgraphs).",
                     "disabled": false,
+                    "eventId": "5",
                     "keywords": [
                       "These classes are not nowhere dense (and not closed under subgraphs)."
                     ]
@@ -1143,6 +1260,7 @@
                     "id": "310:473",
                     "name": "These are class of bounded twinwidth.",
                     "disabled": false,
+                    "eventId": "6",
                     "keywords": [
                       "These are class of bounded twinwidth."
                     ]
@@ -1157,6 +1275,7 @@
                         "id": "310:454",
                         "name": "Consider a graph, with a partition of its vertices",
                         "disabled": false,
+                        "eventId": "0",
                         "keywords": [
                           "Consider a graph, with a partition of its vertices"
                         ]
@@ -1166,6 +1285,7 @@
                         "id": "311:34",
                         "name": "A",
                         "disabled": false,
+                        "eventId": "1",
                         "keywords": [
                           "A",
                           "B",
@@ -1177,6 +1297,7 @@
                         "id": "310:464",
                         "name": "Two blocks are consistent if they are connected in the same way:",
                         "disabled": false,
+                        "eventId": "2",
                         "keywords": [
                           "Two blocks are consistent if they are connected in the same way:"
                         ]
@@ -1186,6 +1307,7 @@
                         "id": "310:457",
                         "name": "Blocks A and B are consistent, because ∀a ∈ A ∀b ∈ B edge(a, b)",
                         "disabled": false,
+                        "eventId": "3",
                         "keywords": [
                           "Blocks A and B are consistent, because ∀a ∈ A ∀b ∈ B edge(a, b)"
                         ]
@@ -1195,6 +1317,7 @@
                         "id": "310:462",
                         "name": "Blocks B and C are consistent, because ∀b ∈ B ∀c ∈ C ¬ edge(b, c)",
                         "disabled": false,
+                        "eventId": "4",
                         "keywords": [
                           "Blocks B and C are consistent, because ∀b ∈ B ∀c ∈ C ¬ edge(b, c)"
                         ]
@@ -1204,6 +1327,7 @@
                         "id": "310:463",
                         "name": "Blocks A and C are inconsistent",
                         "disabled": false,
+                        "eventId": "5",
                         "keywords": [
                           "Blocks A and C are inconsistent"
                         ]
@@ -1213,6 +1337,7 @@
                         "id": "310:458",
                         "name": "Definition [Bonnet, Kim, Thomassé, Watrigant 2020] A graph has twinwidth k ∈ {0, 1, 2, ...} if there is a sequence of partitions P1, ..., Pn on its vertices such that;",
                         "disabled": false,
+                        "eventId": "6",
                         "keywords": [
                           "Definition [Bonnet, Kim, Thomassé, Watrigant 2020] A graph has twinwidth k ∈ {0, 1, 2, ...} if there is a sequence of partitions P1, ..., Pn on its vertices such that;"
                         ]
@@ -1222,6 +1347,7 @@
                         "id": "310:459",
                         "name": "a) P1 has singleton blocks, Pn partition has one block",
                         "disabled": false,
+                        "eventId": "7",
                         "keywords": [
                           "a) P1 has singleton blocks, Pn partition has one block"
                         ]
@@ -1231,6 +1357,7 @@
                         "id": "310:460",
                         "name": "b) for every i ∈ {1, ..., n – 1}, Pi+1 is obtained from Pi by merging two blocks",
                         "disabled": false,
+                        "eventId": "8",
                         "keywords": [
                           "b) for every i ∈ {1, ..., n – 1}, Pi+1 is obtained from Pi by merging two blocks"
                         ]
@@ -1240,6 +1367,7 @@
                         "id": "310:465",
                         "name": "c) for every i ∈ {1, ..., n} and every block A ∈ Pi, at most k blocks of Pi are inconsistent with A.",
                         "disabled": false,
+                        "eventId": "9",
                         "keywords": [
                           "c) for every i ∈ {1, ..., n} and every block A ∈ Pi, at most k blocks of Pi are inconsistent with A."
                         ]
@@ -1254,6 +1382,7 @@
                             "id": "318:9",
                             "name": "Example 1. Every clique has twinwidth 1.",
                             "disabled": false,
+                            "eventId": "0",
                             "keywords": [
                               "Example 1. Every clique has twinwidth 1."
                             ]
@@ -1263,6 +1392,7 @@
                             "id": "318:58",
                             "name": "Group 13",
                             "disabled": false,
+                            "eventId": "1",
                             "keywords": [
                               "Group 13"
                             ]
@@ -1272,6 +1402,7 @@
                             "id": "318:65",
                             "name": "Group 14",
                             "disabled": false,
+                            "eventId": "2",
                             "keywords": [
                               "Group 14"
                             ]
@@ -1281,6 +1412,7 @@
                             "id": "318:66",
                             "name": "Rectangle 2",
                             "disabled": false,
+                            "eventId": "3",
                             "keywords": [
                               "Rectangle 2"
                             ]
@@ -1290,6 +1422,7 @@
                             "id": "318:67",
                             "name": "Rectangle 3",
                             "disabled": false,
+                            "eventId": "4",
                             "keywords": [
                               "Rectangle 3"
                             ]
@@ -1299,6 +1432,7 @@
                             "id": "318:68",
                             "name": "Rectangle 4",
                             "disabled": false,
+                            "eventId": "5",
                             "keywords": [
                               "Rectangle 4"
                             ]
@@ -1308,6 +1442,7 @@
                             "id": "318:69",
                             "name": "Rectangle 5",
                             "disabled": false,
+                            "eventId": "6",
                             "keywords": [
                               "Rectangle 5"
                             ]
@@ -1317,6 +1452,7 @@
                             "id": "318:70",
                             "name": "Rectangle 6",
                             "disabled": false,
+                            "eventId": "7",
                             "keywords": [
                               "Rectangle 6"
                             ]
@@ -1326,6 +1462,7 @@
                             "id": "318:71",
                             "name": "Example 2. If a graph has twinwidth k, then the same is true for its complement.",
                             "disabled": false,
+                            "eventId": "8",
                             "keywords": [
                               "Example 2. If a graph has twinwidth k, then the same is true for its complement."
                             ]
@@ -1335,6 +1472,7 @@
                             "id": "318:78",
                             "name": "bounded cliquewidth",
                             "disabled": false,
+                            "eventId": "9",
                             "keywords": [
                               "Theorem.",
                               "bounded treewidth",
@@ -1346,18 +1484,21 @@
                         ],
                         "keywords": [
                           "examples of twin-width"
-                        ]
+                        ],
+                        "eventId": "10"
                       }
                     ],
                     "keywords": [
                       "twin-width definition"
-                    ]
+                    ],
+                    "eventId": "7"
                   },
                   {
                     "type": "show",
                     "id": "311:33",
                     "name": "Theorem. [Bonnet, Kim, Thomassé, Watrigant 2020] For every k ∈ {0, 1, 2, ...} and first-order φ, there is a linear time algorithm for:",
                     "disabled": false,
+                    "eventId": "8",
                     "keywords": [
                       "Theorem. [Bonnet, Kim, Thomassé, Watrigant 2020] For every k ∈ {0, 1, 2, ...} and first-order φ, there is a linear time algorithm for:",
                       "input: a graph G of twinwidth at most k, with a witnessing sequence of partitions question: does the graph satisfy φ?"
@@ -1366,17 +1507,20 @@
                 ],
                 "keywords": [
                   "twin-width"
-                ]
+                ],
+                "eventId": "8"
               }
             ],
             "keywords": [
               "Fo on bounded degree"
-            ]
+            ],
+            "eventId": "10"
           }
         ],
         "keywords": [
           "Fixed formula"
-        ]
+        ],
+        "eventId": "1"
       }
     ],
     "keywords": [
@@ -1397,698 +1541,210 @@
       "Two decision problems for logics",
       "Here, “logic” refers to first-order logic and its variants, such as second-order logic",
       "First slide"
-    ]
+    ],
+    "eventId": "root"
   },
   "soundDict": {
     "102:2": {
-      "0": {
-        "file": "0",
-        "duration": 7.056
-      },
-      "1": {
-        "file": "1",
-        "duration": 19.584
-      },
-      "2": {
-        "file": "2",
-        "duration": 10.944
-      }
+      "0": 7.056,
+      "1": 19.584,
+      "finish": 10.944
     },
     "301:3": {
-      "0": {
-        "file": "0",
-        "duration": 1.536
-      },
-      "1": {
-        "file": "1",
-        "duration": 20.256
-      },
-      "2": {
-        "file": "2",
-        "duration": 13.296
-      },
-      "3": {
-        "file": "3",
-        "duration": 21.216
-      },
-      "4": {
-        "file": "4",
-        "duration": 16.536
-      },
-      "5": {
-        "file": "5",
-        "duration": 50.664
-      },
-      "6": {
-        "file": "6",
-        "duration": 22.344
-      },
-      "7": {
-        "file": "7",
-        "duration": 27.384
-      },
-      "8": {
-        "file": "8",
-        "duration": 46.296
-      },
-      "9": {
-        "file": "9",
-        "duration": 39.816
-      },
-      "10": {
-        "file": "10",
-        "duration": 30.936
-      },
-      "11": {
-        "file": "11",
-        "duration": 20.376
-      }
+      "0": 1.536,
+      "1": 20.256,
+      "2": 13.296,
+      "3": 21.216,
+      "4": 16.536,
+      "5": 50.664,
+      "6": 22.344,
+      "7": 27.384,
+      "8": 46.296,
+      "9": 39.816,
+      "10": 30.936,
+      "finish": 20.376
     },
     "301:54": {
-      "0": {
-        "file": "0",
-        "duration": 1.344
-      },
-      "1": {
-        "file": "1",
-        "duration": 8.136
-      },
-      "2": {
-        "file": "2",
-        "duration": 20.856
-      },
-      "3": {
-        "file": "3",
-        "duration": 37.344
-      },
-      "4": {
-        "file": "4",
-        "duration": 27.816
-      },
-      "5": {
-        "file": "5",
-        "duration": 34.176
-      },
-      "6": {
-        "file": "6",
-        "duration": 26.664
-      },
-      "7": {
-        "file": "7",
-        "duration": 39.096
-      },
-      "8": {
-        "file": "8",
-        "duration": 48.864
-      }
+      "0": 1.344,
+      "1": 8.136,
+      "2": 20.856,
+      "3": 37.344,
+      "4": 27.816,
+      "5": 34.176,
+      "6": 26.664,
+      "7": 39.096,
+      "finish": 48.864
     },
     "301:105": {
-      "0": {
-        "file": "0",
-        "duration": 7.344
-      },
-      "1": {
-        "file": "1",
-        "duration": 7.896
-      },
-      "2": {
-        "file": "2",
-        "duration": 2.184
-      },
-      "3": {
-        "file": "3",
-        "duration": 10.824
-      },
-      "4": {
-        "file": "4",
-        "duration": 5.424
-      },
-      "5": {
-        "file": "5",
-        "duration": 45.096
-      },
-      "6": {
-        "file": "6",
-        "duration": 9.744
-      },
-      "7": {
-        "file": "7",
-        "duration": 29.856
-      },
-      "8": {
-        "file": "8",
-        "duration": 5.136
-      },
-      "9": {
-        "file": "9",
-        "duration": 38.136
-      }
+      "0": 7.344,
+      "1": 7.896,
+      "2": 2.184,
+      "3": 10.824,
+      "4": 5.424,
+      "5": 45.096,
+      "6": 9.744,
+      "7": 29.856,
+      "8": 5.136,
+      "finish": 38.136
     },
     "301:144": {
-      "0": {
-        "file": "0",
-        "duration": 1.704
-      },
-      "1": {
-        "file": "1",
-        "duration": 4.584
-      },
-      "2": {
-        "file": "2",
-        "duration": 31.296
-      },
-      "3": {
-        "file": "3",
-        "duration": 7.704
-      },
-      "4": {
-        "file": "4",
-        "duration": 51.624
-      },
-      "5": {
-        "file": "5",
-        "duration": 43.656
-      },
-      "6": {
-        "file": "6",
-        "duration": 3.936
-      },
-      "7": {
-        "file": "7",
-        "duration": 49.704
-      }
+      "0": 1.704,
+      "1": 4.584,
+      "2": 31.296,
+      "3": 7.704,
+      "4": 51.624,
+      "5": 43.656,
+      "6": 3.936,
+      "finish": 49.704
     },
     "301:147": {
-      "0": {
-        "file": "0",
-        "duration": 1.944
-      },
-      "1": {
-        "file": "1",
-        "duration": 4.824
-      },
-      "2": {
-        "file": "2",
-        "duration": 72.744
-      },
-      "3": {
-        "file": "3",
-        "duration": 26.736
-      },
-      "4": {
-        "file": "4",
-        "duration": 9.504
-      }
+      "0": 1.944,
+      "1": 4.824,
+      "2": 72.744,
+      "3": 26.736,
+      "finish": 9.504
     },
     "301:176": {
-      "0": {
-        "file": "0",
-        "duration": 8.064
-      },
-      "1": {
-        "file": "1",
-        "duration": 11.616
-      },
-      "2": {
-        "file": "2",
-        "duration": 3.264
-      },
-      "3": {
-        "file": "3",
-        "duration": 26.616
-      },
-      "4": {
-        "file": "4",
-        "duration": 14.304
-      }
+      "0": 8.064,
+      "1": 11.616,
+      "2": 3.264,
+      "3": 26.616,
+      "finish": 14.304
     },
     "301:181": {
-      "0": {
-        "file": "0",
-        "duration": 6.624
-      },
-      "1": {
-        "file": "1",
-        "duration": 4.224
-      },
-      "2": {
-        "file": "2",
-        "duration": 8.424
-      },
-      "3": {
-        "file": "3",
-        "duration": 5.856
-      },
-      "4": {
-        "file": "4",
-        "duration": 8.256
-      },
-      "5": {
-        "file": "5",
-        "duration": 4.536
-      },
-      "6": {
-        "file": "6",
-        "duration": 36.696
-      },
-      "7": {
-        "file": "7",
-        "duration": 5.736
-      },
-      "8": {
-        "file": "8",
-        "duration": 0.984
-      },
-      "9": {
-        "file": "9",
-        "duration": 0.384
-      },
-      "10": {
-        "file": "10",
-        "duration": 0.576
-      },
-      "11": {
-        "file": "11",
-        "duration": 21.624
-      },
-      "12": {
-        "file": "12",
-        "duration": 32.496
-      },
-      "13": {
-        "file": "13",
-        "duration": 2.304
-      }
+      "0": 6.624,
+      "1": 4.224,
+      "2": 8.424,
+      "3": 5.856,
+      "4": 8.256,
+      "5": 4.536,
+      "6": 36.696,
+      "7": 5.736,
+      "8": 0.984,
+      "9": 0.384,
+      "10": 0.576,
+      "11": 21.624,
+      "12": 32.496,
+      "finish": 2.304
     },
     "301:268": {
-      "0": {
-        "file": "0",
-        "duration": 0.216
-      },
-      "1": {
-        "file": "1",
-        "duration": 18.336
-      },
-      "2": {
-        "file": "2",
-        "duration": 13.464
-      },
-      "3": {
-        "file": "3",
-        "duration": 2.184
-      },
-      "4": {
-        "file": "4",
-        "duration": 40.704
-      },
-      "5": {
-        "file": "5",
-        "duration": 17.064
-      },
-      "6": {
-        "file": "6",
-        "duration": 12.744
-      },
-      "7": {
-        "file": "7",
-        "duration": 11.784
-      },
-      "8": {
-        "file": "8",
-        "duration": 9.456
-      },
-      "9": {
-        "file": "9",
-        "duration": 49.776
-      }
+      "0": 0.216,
+      "1": 18.336,
+      "2": 13.464,
+      "3": 2.184,
+      "4": 40.704,
+      "5": 17.064,
+      "6": 12.744,
+      "7": 11.784,
+      "8": 9.456,
+      "finish": 49.776
     },
     "301:271": {
-      "0": {
-        "file": "0",
-        "duration": 1.536
-      },
-      "1": {
-        "file": "1",
-        "duration": 11.784
-      },
-      "2": {
-        "file": "2",
-        "duration": 4.416
-      },
-      "3": {
-        "file": "3",
-        "duration": 5.304
-      },
-      "4": {
-        "file": "4",
-        "duration": 8.256
-      },
-      "5": {
-        "file": "5",
-        "duration": 18.696
-      },
-      "6": {
-        "file": "6",
-        "duration": 13.776
-      },
-      "7": {
-        "file": "7",
-        "duration": 22.536
-      }
+      "0": 1.536,
+      "1": 11.784,
+      "2": 4.416,
+      "3": 5.304,
+      "4": 8.256,
+      "5": 18.696,
+      "6": 13.776,
+      "finish": 22.536
     },
     "309:125": {
-      "0": {
-        "file": "0",
-        "duration": 3.096
-      },
-      "1": {
-        "file": "1",
-        "duration": 9.744
-      },
-      "2": {
-        "file": "2",
-        "duration": 17.304
-      },
-      "3": {
-        "file": "3",
-        "duration": 23.016
-      },
-      "4": {
-        "file": "4",
-        "duration": 33.144
-      }
+      "0": 3.096,
+      "1": 9.744,
+      "2": 17.304,
+      "3": 23.016,
+      "finish": 33.144
     },
     "301:315": {
-      "0": {
-        "file": "0",
-        "duration": 1.536
-      },
-      "1": {
-        "file": "1",
-        "duration": 23.064
-      },
-      "2": {
-        "file": "2",
-        "duration": 76.416
-      },
-      "3": {
-        "file": "3",
-        "duration": 16.416
-      },
-      "4": {
-        "file": "4",
-        "duration": 16.584
-      },
-      "5": {
-        "file": "5",
-        "duration": 23.136
-      },
-      "6": {
-        "file": "6",
-        "duration": 19.704
-      },
-      "7": {
-        "file": "7",
-        "duration": 18.336
-      },
-      "8": {
-        "file": "8",
-        "duration": 43.704
-      },
-      "9": {
-        "file": "9",
-        "duration": 29.184
-      },
-      "10": {
-        "file": "10",
-        "duration": 25.584
-      }
+      "0": 1.536,
+      "1": 23.064,
+      "2": 76.416,
+      "3": 16.416,
+      "4": 16.584,
+      "5": 23.136,
+      "6": 19.704,
+      "7": 18.336,
+      "8": 43.704,
+      "9": 29.184,
+      "finish": 25.584
     },
     "310:99": {
-      "0": {
-        "file": "0",
-        "duration": 3.816
-      },
-      "1": {
-        "file": "1",
-        "duration": 1.176
-      },
-      "2": {
-        "file": "2",
-        "duration": 2.904
-      },
-      "3": {
-        "file": "3",
-        "duration": 5.496
-      },
-      "4": {
-        "file": "4",
-        "duration": 20.424
-      },
-      "5": {
-        "file": "5",
-        "duration": 6.984
-      },
-      "6": {
-        "file": "6",
-        "duration": 12.456
-      },
-      "7": {
-        "file": "7",
-        "duration": 26.184
-      },
-      "8": {
-        "file": "8",
-        "duration": 15.864
-      },
-      "9": {
-        "file": "9",
-        "duration": 16.896
-      },
-      "10": {
-        "file": "10",
-        "duration": 2.976
-      }
+      "0": 3.816,
+      "1": 1.176,
+      "2": 2.904,
+      "3": 5.496,
+      "4": 20.424,
+      "5": 6.984,
+      "6": 12.456,
+      "7": 26.184,
+      "8": 15.864,
+      "9": 16.896,
+      "finish": 2.976
     },
     "310:113": {
-      "0": {
-        "file": "0",
-        "duration": 6.384
-      },
-      "1": {
-        "file": "1",
-        "duration": 9.744
-      },
-      "2": {
-        "file": "2",
-        "duration": 8.616
-      },
-      "3": {
-        "file": "3",
-        "duration": 2.496
-      },
-      "4": {
-        "file": "4",
-        "duration": 11.544
-      },
-      "5": {
-        "file": "5",
-        "duration": 6.624
-      },
-      "6": {
-        "file": "6",
-        "duration": 15.504
-      },
-      "7": {
-        "file": "7",
-        "duration": 79.824
-      },
-      "8": {
-        "file": "8",
-        "duration": 31.584
-      },
-      "9": {
-        "file": "9",
-        "duration": 10.584
-      }
+      "0": 6.384,
+      "1": 9.744,
+      "2": 8.616,
+      "3": 2.496,
+      "4": 11.544,
+      "5": 6.624,
+      "6": 15.504,
+      "7": 79.824,
+      "8": 31.584,
+      "finish": 10.584
     },
     "318:0": {
-      "0": {
-        "file": "0",
-        "duration": 8.664
-      },
-      "1": {
-        "file": "1",
-        "duration": 40.944
-      },
-      "2": {
-        "file": "2",
-        "duration": 41.424
-      }
+      "0": 8.664,
+      "1": 40.944,
+      "finish": 41.424
     },
     "310:283": {
-      "0": {
-        "file": "0",
-        "duration": 0.336
-      },
-      "1": {
-        "file": "1",
-        "duration": 6.216
-      },
-      "2": {
-        "file": "2",
-        "duration": 82.944
-      },
-      "3": {
-        "file": "3",
-        "duration": 43.584
-      },
-      "4": {
-        "file": "4",
-        "duration": 67.776
-      },
-      "5": {
-        "file": "5",
-        "duration": 56.064
-      }
+      "0": 0.336,
+      "1": 6.216,
+      "2": 82.944,
+      "3": 43.584,
+      "4": 67.776,
+      "finish": 56.064
     },
     "310:103": {
-      "0": {
-        "file": "0",
-        "duration": 1.536
-      },
-      "1": {
-        "file": "1",
-        "duration": 1.704
-      },
-      "2": {
-        "file": "2",
-        "duration": 12.216
-      },
-      "3": {
-        "file": "3",
-        "duration": 32.184
-      },
-      "4": {
-        "file": "4",
-        "duration": 37.056
-      },
-      "5": {
-        "file": "5",
-        "duration": 19.704
-      },
-      "6": {
-        "file": "6",
-        "duration": 33.384
-      },
-      "7": {
-        "file": "7",
-        "duration": 17.424
-      },
-      "8": {
-        "file": "8",
-        "duration": 2.544
-      },
-      "9": {
-        "file": "9",
-        "duration": 56.256
-      }
+      "0": 1.536,
+      "1": 1.704,
+      "2": 12.216,
+      "3": 32.184,
+      "4": 37.056,
+      "5": 19.704,
+      "6": 33.384,
+      "7": 17.424,
+      "8": 2.544,
+      "finish": 56.256
     },
     "310:466": {
-      "0": {
-        "file": "0",
-        "duration": 2.184
-      },
-      "1": {
-        "file": "1",
-        "duration": 6.576
-      },
-      "2": {
-        "file": "2",
-        "duration": 7.704
-      },
-      "3": {
-        "file": "3",
-        "duration": 6.576
-      },
-      "4": {
-        "file": "4",
-        "duration": 13.704
-      },
-      "5": {
-        "file": "5",
-        "duration": 11.544
-      },
-      "6": {
-        "file": "6",
-        "duration": 10.584
-      },
-      "7": {
-        "file": "7",
-        "duration": 19.944
-      },
-      "8": {
-        "file": "8",
-        "duration": 13.944
-      },
-      "9": {
-        "file": "9",
-        "duration": 7.656
-      },
-      "10": {
-        "file": "10",
-        "duration": 54.576
-      },
-      "11": {
-        "file": "11",
-        "duration": 7.584
-      }
+      "0": 2.184,
+      "1": 6.576,
+      "2": 7.704,
+      "3": 6.576,
+      "4": 13.704,
+      "5": 11.544,
+      "6": 10.584,
+      "7": 19.944,
+      "8": 13.944,
+      "9": 7.656,
+      "10": 54.576,
+      "finish": 7.584
     },
     "318:7": {
-      "0": {
-        "file": "0",
-        "duration": 1.296
-      },
-      "1": {
-        "file": "1",
-        "duration": 5.064
-      },
-      "2": {
-        "file": "2",
-        "duration": 6.696
-      },
-      "3": {
-        "file": "3",
-        "duration": 12.984
-      },
-      "4": {
-        "file": "4",
-        "duration": 17.496
-      },
-      "5": {
-        "file": "5",
-        "duration": 1.056
-      },
-      "6": {
-        "file": "6",
-        "duration": 0.864
-      },
-      "7": {
-        "file": "7",
-        "duration": 1.056
-      },
-      "8": {
-        "file": "8",
-        "duration": 22.104
-      },
-      "9": {
-        "file": "9",
-        "duration": 35.424
-      },
-      "10": {
-        "file": "10",
-        "duration": 64.656
-      }
+      "0": 1.296,
+      "1": 5.064,
+      "2": 6.696,
+      "3": 12.984,
+      "4": 17.496,
+      "5": 1.056,
+      "6": 0.864,
+      "7": 1.056,
+      "8": 22.104,
+      "9": 35.424,
+      "finish": 64.656
     }
   }
 }

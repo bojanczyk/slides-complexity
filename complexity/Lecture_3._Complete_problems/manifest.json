@@ -1,5 +1,5 @@
 {
-  "version": 0.88,
+  "version": 0.902,
   "presentation": "Lecture 3. Complete problems",
   "slideDict": {
     "1:2": "1_2",
@@ -44,7 +44,8 @@
             "disabled": false,
             "keywords": [
               "Intuitive idea behind “problem A is NP hard”"
-            ]
+            ],
+            "eventId": "0"
           },
           {
             "type": "show",
@@ -56,7 +57,8 @@
               "}",
               "m ∈ {0,1}* represents a nondeterministic Turing machine such that w ∈ {0,1}* has some accepting run, whose length is at most t ∈ {1}*, assuming unary representation of t.",
               "Brutal example: NP halting problem"
-            ]
+            ],
+            "eventId": "1"
           },
           {
             "type": "show",
@@ -65,7 +67,8 @@
             "disabled": false,
             "keywords": [
               "Suppose that you could solve problem A in polynomial time."
-            ]
+            ],
+            "eventId": "2"
           },
           {
             "type": "show",
@@ -74,7 +77,8 @@
             "disabled": false,
             "keywords": [
               "Then every problem B ∈ NP can also be solved in polynomial time"
-            ]
+            ],
+            "eventId": "3"
           },
           {
             "type": "show",
@@ -84,7 +88,8 @@
             "keywords": [
               "There is a reduction from B to A, which preserves polynomial time.",
               "⇒"
-            ]
+            ],
+            "eventId": "4"
           },
           {
             "type": "show",
@@ -93,7 +98,8 @@
             "disabled": false,
             "keywords": [
               "this can mean several things"
-            ]
+            ],
+            "eventId": "5"
           },
           {
             "type": "child",
@@ -107,7 +113,8 @@
                 "disabled": false,
                 "keywords": [
                   "Deterministic polynomial time Turing reduction"
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "show",
@@ -116,7 +123,8 @@
                 "disabled": false,
                 "keywords": [
                   "Idea. Problem B can be solved by a deterministic polynomial time Turing machine, which is allowed to ask oracle queries to problem A."
-                ]
+                ],
+                "eventId": "1"
               },
               {
                 "type": "child",
@@ -130,7 +138,8 @@
                     "disabled": false,
                     "keywords": [
                       "Machines with oracles"
-                    ]
+                    ],
+                    "eventId": "0"
                   },
                   {
                     "type": "show",
@@ -139,7 +148,8 @@
                     "disabled": false,
                     "keywords": [
                       "A Turing machine with oracle A ⊆ Γ* is defined as follows."
-                    ]
+                    ],
+                    "eventId": "1"
                   },
                   {
                     "type": "show",
@@ -148,7 +158,8 @@
                     "disabled": false,
                     "keywords": [
                       "maybe deterministic or nondeterministic"
-                    ]
+                    ],
+                    "eventId": "2"
                   },
                   {
                     "type": "show",
@@ -157,7 +168,8 @@
                     "disabled": false,
                     "keywords": [
                       "The machine has two tapes, input tape and oracle tape. Initially, the input tape contains the input word and the oracle tape is empty."
-                    ]
+                    ],
+                    "eventId": "3"
                   },
                   {
                     "type": "show",
@@ -166,12 +178,14 @@
                     "disabled": false,
                     "keywords": [
                       "The machine can execute an oracle query (in unit time). If the word on the oracle tape belongs to A, then the oracle tape is replaced by “yes”, otherwise the second tape is replaced by “no”."
-                    ]
+                    ],
+                    "eventId": "4"
                   }
                 ],
                 "keywords": [
                   "Machines with oracles"
-                ]
+                ],
+                "eventId": "2"
               },
               {
                 "type": "show",
@@ -186,7 +200,8 @@
                   "A",
                   "solvable in deterministic polynomial time with oracle A",
                   "deterministic polynomial time Turing reduction"
-                ]
+                ],
+                "eventId": "3"
               },
               {
                 "type": "show",
@@ -195,7 +210,8 @@
                 "disabled": false,
                 "keywords": [
                   "Fact. If B ≤ A and A ∈ P, then B ∈ P"
-                ]
+                ],
+                "eventId": "4"
               },
               {
                 "type": "show",
@@ -204,7 +220,8 @@
                 "disabled": false,
                 "keywords": [
                   "Fact. For every problem B ∈ NP, B ≤ “NP halting problem”"
-                ]
+                ],
+                "eventId": "5"
               },
               {
                 "type": "show",
@@ -213,7 +230,8 @@
                 "disabled": false,
                 "keywords": [
                   "Therefore, if the NP halting problem is in P, then P = NP."
-                ]
+                ],
+                "eventId": "6"
               },
               {
                 "type": "show",
@@ -222,7 +240,8 @@
                 "disabled": false,
                 "keywords": [
                   "Attention: this is not the usual notion of reduction for NP-completeness"
-                ]
+                ],
+                "eventId": "7"
               },
               {
                 "type": "show",
@@ -231,12 +250,14 @@
                 "disabled": false,
                 "keywords": [
                   "Also makes sense for exponential time, or logarithmic space, etc."
-                ]
+                ],
+                "eventId": "8"
               }
             ],
             "keywords": [
               "Turing reductions"
-            ]
+            ],
+            "eventId": "6"
           },
           {
             "type": "child",
@@ -250,7 +271,8 @@
                 "disabled": false,
                 "keywords": [
                   "Deterministic polynomial time Karp reduction"
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "show",
@@ -259,7 +281,8 @@
                 "disabled": false,
                 "keywords": [
                   "Idea. Problem B can be solved by a deterministic polynomial time Turing machine, which is allowed to ask one oracle query to A, at the end of its computation, and respond with the oracle answer."
-                ]
+                ],
+                "eventId": "1"
               },
               {
                 "type": "show",
@@ -279,7 +302,8 @@
                   "def",
                   "deterministic polynomial time Karp reduction",
                   "∃ f"
-                ]
+                ],
+                "eventId": "2"
               },
               {
                 "type": "show",
@@ -288,7 +312,8 @@
                 "disabled": false,
                 "keywords": [
                   "we call this a polynomial time reduction"
-                ]
+                ],
+                "eventId": "3"
               },
               {
                 "type": "show",
@@ -297,7 +322,8 @@
                 "disabled": false,
                 "keywords": [
                   "If there is a Karp reduction, then there is a Turing reduction."
-                ]
+                ],
+                "eventId": "4"
               },
               {
                 "type": "show",
@@ -306,7 +332,8 @@
                 "disabled": false,
                 "keywords": [
                   "The “NP halting problem” is complete already with respect to Karp reductions."
-                ]
+                ],
+                "eventId": "5"
               },
               {
                 "type": "show",
@@ -315,7 +342,8 @@
                 "disabled": false,
                 "keywords": [
                   "Why?"
-                ]
+                ],
+                "eventId": "6"
               },
               {
                 "type": "child",
@@ -329,7 +357,8 @@
                     "disabled": false,
                     "keywords": [
                       "Karp reduction can distinguish problems that are interreducible with respect to Turing reductions."
-                    ]
+                    ],
+                    "eventId": "0"
                   },
                   {
                     "type": "child",
@@ -346,7 +375,8 @@
                           "x ∨ y ∨ (¬ x ∧ ¬y)",
                           "variables range over {true, false}, no quantifiers",
                           "Consider the following decision problems, which input a propositional formula φ"
-                        ]
+                        ],
+                        "eventId": "0"
                       },
                       {
                         "type": "show",
@@ -357,7 +387,8 @@
                           "true for some valuation",
                           "Sat",
                           "∃x ∃y ∃z ... φ"
-                        ]
+                        ],
+                        "eventId": "1"
                       },
                       {
                         "type": "show",
@@ -367,7 +398,8 @@
                         "keywords": [
                           "NP",
                           "nondeterministic polynomial time"
-                        ]
+                        ],
+                        "eventId": "2"
                       },
                       {
                         "type": "show",
@@ -378,7 +410,8 @@
                           "false for all valuations",
                           "not Sat",
                           "∀x ∀y ∀z ... ¬φ"
-                        ]
+                        ],
+                        "eventId": "3"
                       },
                       {
                         "type": "show",
@@ -388,7 +421,8 @@
                         "keywords": [
                           "coNP",
                           "complement is in NP"
-                        ]
+                        ],
+                        "eventId": "4"
                       },
                       {
                         "type": "show",
@@ -399,7 +433,8 @@
                           "Tautology",
                           "true for all valuations",
                           "∀x ∀y ∀z ... φ"
-                        ]
+                        ],
+                        "eventId": "5"
                       },
                       {
                         "type": "show",
@@ -410,7 +445,8 @@
                           "false for some valuation",
                           "not Tautology",
                           "∃x ∃y ∃z ... ¬φ"
-                        ]
+                        ],
+                        "eventId": "6"
                       },
                       {
                         "type": "show",
@@ -419,7 +455,8 @@
                         "disabled": false,
                         "keywords": [
                           "There are polynomial (Karp) reductions in the columns, but not in the rows, assuming that coNP ≠ NP."
-                        ]
+                        ],
+                        "eventId": "7"
                       },
                       {
                         "type": "child",
@@ -438,7 +475,8 @@
                               "not tautology",
                               "tautology",
                               "not sat"
-                            ]
+                            ],
+                            "eventId": "0"
                           },
                           {
                             "type": "show",
@@ -447,7 +485,8 @@
                             "disabled": false,
                             "keywords": [
                               "negation"
-                            ]
+                            ],
+                            "eventId": "1"
                           },
                           {
                             "type": "show",
@@ -456,7 +495,8 @@
                             "disabled": false,
                             "keywords": [
                               "negation"
-                            ]
+                            ],
+                            "eventId": "2"
                           },
                           {
                             "type": "show",
@@ -465,7 +505,8 @@
                             "disabled": false,
                             "keywords": [
                               "A Karp reduction is not allowed to swap “yes” with “no”"
-                            ]
+                            ],
+                            "eventId": "3"
                           },
                           {
                             "type": "show",
@@ -474,7 +515,8 @@
                             "disabled": false,
                             "keywords": [
                               "any other reduction would require a polynomial time function f such that φ is true for some valuation iff f (φ) is true for every valuation"
-                            ]
+                            ],
+                            "eventId": "4"
                           },
                           {
                             "type": "show",
@@ -483,32 +525,38 @@
                             "disabled": false,
                             "keywords": [
                               "unlikely"
-                            ]
+                            ],
+                            "eventId": "5"
                           }
                         ],
                         "keywords": [
                           "Formulas"
-                        ]
+                        ],
+                        "eventId": "8"
                       }
                     ],
                     "keywords": [
                       "Problems for propositional formulas"
-                    ]
+                    ],
+                    "eventId": "1"
                   }
                 ],
                 "keywords": [
                   "Why Karp?"
-                ]
+                ],
+                "eventId": "7"
               }
             ],
             "keywords": [
               "Karp reductions"
-            ]
+            ],
+            "eventId": "7"
           }
         ],
         "keywords": [
           "Reductions"
-        ]
+        ],
+        "eventId": "0"
       },
       {
         "type": "child",
@@ -525,7 +573,8 @@
               "NP",
               "coNP",
               "P"
-            ]
+            ],
+            "eventId": "0"
           },
           {
             "type": "child",
@@ -539,7 +588,8 @@
                 "disabled": false,
                 "keywords": [
                   "Definition. A language A is called NP-complete if: 1. it belongs to NP 2. every language L ∈ NP reduces to A"
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "show",
@@ -548,7 +598,8 @@
                 "disabled": false,
                 "keywords": [
                   "Karp deterministic LogSpace reduction"
-                ]
+                ],
+                "eventId": "1"
               },
               {
                 "type": "child",
@@ -570,12 +621,14 @@
                       "f",
                       "LogSpace",
                       "deterministic read-only input tape read-write work tape of logarithmic size write-only output tape"
-                    ]
+                    ],
+                    "eventId": "0"
                   }
                 ],
                 "keywords": [
                   "Logspace reductions"
-                ]
+                ],
+                "eventId": "2"
               },
               {
                 "type": "show",
@@ -584,7 +637,8 @@
                 "disabled": false,
                 "keywords": [
                   "We do not know if there is a language which: – is NP-complete for polynomial time reductions – is not NP-complete for LogSpace reductions"
-                ]
+                ],
+                "eventId": "3"
               },
               {
                 "type": "show",
@@ -593,7 +647,8 @@
                 "disabled": false,
                 "keywords": [
                   "Example 1. The NP halting problem"
-                ]
+                ],
+                "eventId": "4"
               },
               {
                 "type": "show",
@@ -602,7 +657,8 @@
                 "disabled": false,
                 "keywords": [
                   "Example 2. Satisfiability for Boolean formulas"
-                ]
+                ],
+                "eventId": "5"
               },
               {
                 "type": "child",
@@ -616,7 +672,8 @@
                     "disabled": false,
                     "keywords": [
                       "Theorem. (Cook) The following problem is NP complete (for LogSpace reductions)."
-                    ]
+                    ],
+                    "eventId": "0"
                   },
                   {
                     "type": "show",
@@ -625,7 +682,8 @@
                     "disabled": false,
                     "keywords": [
                       "Input. A Boolean formula φ, e.g. x ∨ (y ∧ ¬ x)"
-                    ]
+                    ],
+                    "eventId": "1"
                   },
                   {
                     "type": "show",
@@ -634,7 +692,8 @@
                     "disabled": false,
                     "keywords": [
                       "Question. Is φ true for some valuation val : variables ⟶ {true, false}?"
-                    ]
+                    ],
+                    "eventId": "2"
                   },
                   {
                     "type": "show",
@@ -643,7 +702,8 @@
                     "disabled": false,
                     "keywords": [
                       "Proof. The problem is clearly in NP: a nondeterministic machine can guess the satisfying valuation."
-                    ]
+                    ],
+                    "eventId": "3"
                   },
                   {
                     "type": "show",
@@ -652,7 +712,8 @@
                     "disabled": false,
                     "keywords": [
                       "Let us now prove NP-hardness, i.e. every other problem in NP reduces to SAT."
-                    ]
+                    ],
+                    "eventId": "4"
                   },
                   {
                     "type": "show",
@@ -661,7 +722,8 @@
                     "disabled": false,
                     "keywords": [
                       "Suppose that B ⊆ Σ* is in NP, as witnessed by a machine M and a polynomial p"
-                    ]
+                    ],
+                    "eventId": "5"
                   },
                   {
                     "type": "show",
@@ -673,7 +735,8 @@
                       "formulas",
                       "f computable in LogSpace",
                       "We will find:"
-                    ]
+                    ],
+                    "eventId": "6"
                   },
                   {
                     "type": "show",
@@ -682,7 +745,8 @@
                     "disabled": false,
                     "keywords": [
                       "the machine M has an accepting run on w of length < p(|w|)"
-                    ]
+                    ],
+                    "eventId": "7"
                   },
                   {
                     "type": "show",
@@ -691,7 +755,8 @@
                     "disabled": false,
                     "keywords": [
                       "iff"
-                    ]
+                    ],
+                    "eventId": "8"
                   },
                   {
                     "type": "show",
@@ -700,7 +765,8 @@
                     "disabled": false,
                     "keywords": [
                       "the formula f (w) is true for some valuation"
-                    ]
+                    ],
+                    "eventId": "9"
                   },
                   {
                     "type": "child",
@@ -718,7 +784,8 @@
                           "p",
                           "space m = 10",
                           "time n = 5"
-                        ]
+                        ],
+                        "eventId": "0"
                       },
                       {
                         "type": "show",
@@ -727,7 +794,8 @@
                         "disabled": false,
                         "keywords": [
                           "A run of time n and space m can be represented using c × n × m Boolean variables"
-                        ]
+                        ],
+                        "eventId": "1"
                       },
                       {
                         "type": "show",
@@ -736,7 +804,8 @@
                         "disabled": false,
                         "keywords": [
                           "|Q| + |Γ |"
-                        ]
+                        ],
+                        "eventId": "2"
                       },
                       {
                         "type": "show",
@@ -745,7 +814,8 @@
                         "disabled": false,
                         "keywords": [
                           "for each i ∈ {1, ..., n} and j ∈ {1, ..., m} and q ∈ Q there is a variable for “in time i, the head is in state q and over cell i”"
-                        ]
+                        ],
+                        "eventId": "3"
                       },
                       {
                         "type": "show",
@@ -754,7 +824,8 @@
                         "disabled": false,
                         "keywords": [
                           "for each i ∈ {1, ..., n} and j ∈ {1, ..., m} and a ∈ Γ there is a variable for “in time i, letter a is tored in cell i”"
-                        ]
+                        ],
+                        "eventId": "4"
                       },
                       {
                         "type": "show",
@@ -764,7 +835,8 @@
                         "keywords": [
                           "One can compute a Boolean formula",
                           "which says that the variables represent an accepting computation."
-                        ]
+                        ],
+                        "eventId": "5"
                       },
                       {
                         "type": "show",
@@ -774,7 +846,8 @@
                         "keywords": [
                           "For an input word w, the formula f (w) says that",
                           "is true, and the first configuration is initial with w on the tape."
-                        ]
+                        ],
+                        "eventId": "6"
                       },
                       {
                         "type": "show",
@@ -783,17 +856,20 @@
                         "disabled": false,
                         "keywords": [
                           "n = m = p(|w|)"
-                        ]
+                        ],
+                        "eventId": "7"
                       }
                     ],
                     "keywords": [
                       "Cook 2"
-                    ]
+                    ],
+                    "eventId": "10"
                   }
                 ],
                 "keywords": [
                   "Cook 1"
-                ]
+                ],
+                "eventId": "6"
               },
               {
                 "type": "show",
@@ -802,7 +878,8 @@
                 "disabled": false,
                 "keywords": [
                   "∃u ∃v ∀w E(u, v) ∧ E(v, w) ∧ E(u, w)"
-                ]
+                ],
+                "eventId": "7"
               },
               {
                 "type": "show",
@@ -811,7 +888,8 @@
                 "disabled": false,
                 "keywords": [
                   "one could consider formulas of first-order logic on graphs"
-                ]
+                ],
+                "eventId": "8"
               },
               {
                 "type": "show",
@@ -820,12 +898,14 @@
                 "disabled": false,
                 "keywords": [
                   "the question “is such a formula true in some graph” is undecidable"
-                ]
+                ],
+                "eventId": "9"
               }
             ],
             "keywords": [
               "NP complete"
-            ]
+            ],
+            "eventId": "1"
           },
           {
             "type": "show",
@@ -834,7 +914,8 @@
             "disabled": false,
             "keywords": [
               "Thm. (Ladner) If P ≠ NP, then there is a problem which is neither in P, nor NP-complete."
-            ]
+            ],
+            "eventId": "2"
           },
           {
             "type": "child",
@@ -848,7 +929,8 @@
                 "disabled": false,
                 "keywords": [
                   "Consider some NP-complete problem A ⊆ Σ*, e.g. the NP halting problem."
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "show",
@@ -857,7 +939,8 @@
                 "disabled": false,
                 "keywords": [
                   "Let pad : Σ* ⟶ Γ* be an injective function such that:"
-                ]
+                ],
+                "eventId": "1"
               },
               {
                 "type": "show",
@@ -866,7 +949,8 @@
                 "disabled": false,
                 "keywords": [
                   "(a) the output size of pad grows faster than every polynomial (b) it can be inverted in polynomial time"
-                ]
+                ],
+                "eventId": "2"
               },
               {
                 "type": "show",
@@ -875,7 +959,8 @@
                 "disabled": false,
                 "keywords": [
                   "the inverse is a function of type Γ* ⟶ Σ* + {⊥}"
-                ]
+                ],
+                "eventId": "3"
               },
               {
                 "type": "show",
@@ -884,7 +969,8 @@
                 "disabled": false,
                 "keywords": [
                   "Consider the language pad(A) = {pad(w) : w ∈ A}"
-                ]
+                ],
+                "eventId": "4"
               },
               {
                 "type": "show",
@@ -893,7 +979,8 @@
                 "disabled": false,
                 "keywords": [
                   "Assuming P ≠ NP and (a) and (b), then pad(A) is not NP-complete"
-                ]
+                ],
+                "eventId": "5"
               },
               {
                 "type": "show",
@@ -902,7 +989,8 @@
                 "disabled": false,
                 "keywords": [
                   "Assuming A ∉ P, we can choose pad so that (a) and (b) and pad(A) ∉ P"
-                ]
+                ],
+                "eventId": "6"
               },
               {
                 "type": "child",
@@ -916,7 +1004,8 @@
                     "disabled": false,
                     "keywords": [
                       "Toward a contradiction, assume pad(A) is NP-complete. Then there is a reduction"
-                    ]
+                    ],
+                    "eventId": "0"
                   },
                   {
                     "type": "show",
@@ -925,7 +1014,8 @@
                     "disabled": false,
                     "keywords": [
                       "even for polynomial time reductions"
-                    ]
+                    ],
+                    "eventId": "1"
                   },
                   {
                     "type": "show",
@@ -939,7 +1029,8 @@
                       "inputs for pad(A)",
                       "inputs for A",
                       "polynomial time reduction"
-                    ]
+                    ],
+                    "eventId": "2"
                   },
                   {
                     "type": "show",
@@ -950,7 +1041,8 @@
                       "A",
                       "inputs for A + {⊥}",
                       "polynomial time inverse of pad"
-                    ]
+                    ],
+                    "eventId": "3"
                   },
                   {
                     "type": "show",
@@ -959,7 +1051,8 @@
                     "disabled": false,
                     "keywords": [
                       "Since pad grows faster than any polynomial, this composition reduces the size (up to finitely many exceptions)"
-                    ]
+                    ],
+                    "eventId": "4"
                   },
                   {
                     "type": "show",
@@ -968,12 +1061,14 @@
                     "disabled": false,
                     "keywords": [
                       "Here is a polynomial time algorithm for A: keep on applying the size-reducing function, until either: – the error is reached (in this case, reject); or – the size is not reduced (in this case, read the answer from a list for the exceptions)."
-                    ]
+                    ],
+                    "eventId": "5"
                   }
                 ],
                 "keywords": [
                   "Ladner: not NP complete"
-                ]
+                ],
+                "eventId": "7"
               },
               {
                 "type": "child",
@@ -987,7 +1082,8 @@
                     "disabled": false,
                     "keywords": [
                       "Here is a padding function such that:"
-                    ]
+                    ],
+                    "eventId": "0"
                   },
                   {
                     "type": "show",
@@ -996,7 +1092,8 @@
                     "disabled": false,
                     "keywords": [
                       "pad can be inverted in P"
-                    ]
+                    ],
+                    "eventId": "1"
                   },
                   {
                     "type": "show",
@@ -1005,7 +1102,8 @@
                     "disabled": false,
                     "keywords": [
                       "pad grows faster than every polynomial"
-                    ]
+                    ],
+                    "eventId": "2"
                   },
                   {
                     "type": "show",
@@ -1014,7 +1112,8 @@
                     "disabled": false,
                     "keywords": [
                       "ensures that pad(A) is not NP-complete"
-                    ]
+                    ],
+                    "eventId": "3"
                   },
                   {
                     "type": "show",
@@ -1023,7 +1122,8 @@
                     "disabled": false,
                     "keywords": [
                       "pad(A) ∉ P."
-                    ]
+                    ],
+                    "eventId": "4"
                   },
                   {
                     "type": "show",
@@ -1032,7 +1132,8 @@
                     "disabled": false,
                     "keywords": [
                       "function pad(w)"
-                    ]
+                    ],
+                    "eventId": "5"
                   },
                   {
                     "type": "show",
@@ -1041,7 +1142,8 @@
                     "disabled": false,
                     "keywords": [
                       "output w"
-                    ]
+                    ],
+                    "eventId": "6"
                   },
                   {
                     "type": "show",
@@ -1050,7 +1152,8 @@
                     "disabled": false,
                     "keywords": [
                       "do the following, outputting # in each computation step"
-                    ]
+                    ],
+                    "eventId": "7"
                   },
                   {
                     "type": "show",
@@ -1059,7 +1162,8 @@
                     "disabled": false,
                     "keywords": [
                       "ensures that pad can be computed in time linear in output size"
-                    ]
+                    ],
+                    "eventId": "8"
                   },
                   {
                     "type": "show",
@@ -1068,7 +1172,8 @@
                     "disabled": false,
                     "keywords": [
                       "find the first k ∈ {1, 2, ..., } such that for every input of length < log |w|"
-                    ]
+                    ],
+                    "eventId": "9"
                   },
                   {
                     "type": "show",
@@ -1080,7 +1185,8 @@
                       "Mk has running time at most (input length)",
                       "k",
                       "the k-th Turing machine, in some enumeration that can be computed in P"
-                    ]
+                    ],
+                    "eventId": "10"
                   },
                   {
                     "type": "show",
@@ -1089,7 +1195,8 @@
                     "disabled": false,
                     "keywords": [
                       "the definition is not circular, because we use pad for smaller instances"
-                    ]
+                    ],
+                    "eventId": "11"
                   },
                   {
                     "type": "show",
@@ -1098,7 +1205,8 @@
                     "disabled": false,
                     "keywords": [
                       "because pad can be computed in time polyomial in the output size"
-                    ]
+                    ],
+                    "eventId": "12"
                   },
                   {
                     "type": "show",
@@ -1107,7 +1215,8 @@
                     "disabled": false,
                     "keywords": [
                       "If k is bounded for all inputs w, then"
-                    ]
+                    ],
+                    "eventId": "13"
                   },
                   {
                     "type": "show",
@@ -1116,7 +1225,8 @@
                     "disabled": false,
                     "keywords": [
                       "1. pad(A) ∈ P"
-                    ]
+                    ],
+                    "eventId": "14"
                   },
                   {
                     "type": "show",
@@ -1125,7 +1235,8 @@
                     "disabled": false,
                     "keywords": [
                       "2. pad ∈ P"
-                    ]
+                    ],
+                    "eventId": "15"
                   },
                   {
                     "type": "show",
@@ -1134,7 +1245,8 @@
                     "disabled": false,
                     "keywords": [
                       "computing pad requires testing membership in A for inputs logarithmic length, which can be done in P."
-                    ]
+                    ],
+                    "eventId": "16"
                   },
                   {
                     "type": "show",
@@ -1143,7 +1255,8 @@
                     "disabled": false,
                     "keywords": [
                       "3. A ∈ P"
-                    ]
+                    ],
+                    "eventId": "17"
                   },
                   {
                     "type": "show",
@@ -1152,17 +1265,20 @@
                     "disabled": false,
                     "keywords": [
                       "otherwise k is bounded"
-                    ]
+                    ],
+                    "eventId": "18"
                   }
                 ],
                 "keywords": [
                   "Ladner: not in P"
-                ]
+                ],
+                "eventId": "8"
               }
             ],
             "keywords": [
               "Ladner's Theorem"
-            ]
+            ],
+            "eventId": "3"
           },
           {
             "type": "show",
@@ -1171,7 +1287,8 @@
             "disabled": false,
             "keywords": [
               "The problem from the proof is artificial. More natural candidates include factoring and graph isomorphism."
-            ]
+            ],
+            "eventId": "4"
           },
           {
             "type": "child",
@@ -1185,7 +1302,8 @@
                 "disabled": false,
                 "keywords": [
                   "Theorem. The following problem, called QBF, is complete for PSpace"
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "show",
@@ -1194,7 +1312,8 @@
                 "disabled": false,
                 "keywords": [
                   "Input. A quantified Boolean formula with no free variables"
-                ]
+                ],
+                "eventId": "1"
               },
               {
                 "type": "show",
@@ -1203,7 +1322,8 @@
                 "disabled": false,
                 "keywords": [
                   "∃x ∀y ∃z (x ∨ y) ∧ ¬z"
-                ]
+                ],
+                "eventId": "2"
               },
               {
                 "type": "show",
@@ -1212,7 +1332,8 @@
                 "disabled": false,
                 "keywords": [
                   "Question. Is the formula true?"
-                ]
+                ],
+                "eventId": "3"
               },
               {
                 "type": "show",
@@ -1221,7 +1342,8 @@
                 "disabled": false,
                 "keywords": [
                   "Proof. Clearly QBF is in PSpace."
-                ]
+                ],
+                "eventId": "4"
               },
               {
                 "type": "show",
@@ -1230,7 +1352,8 @@
                 "disabled": false,
                 "keywords": [
                   "To show PSpace hardness, for"
-                ]
+                ],
+                "eventId": "5"
               },
               {
                 "type": "show",
@@ -1239,7 +1362,8 @@
                 "disabled": false,
                 "keywords": [
                   "– a Turing machine M – an input word w – a space bound m"
-                ]
+                ],
+                "eventId": "6"
               },
               {
                 "type": "show",
@@ -1248,7 +1372,8 @@
                 "disabled": false,
                 "keywords": [
                   "we will compute in LogSpace a QBF formula φ such that"
-                ]
+                ],
+                "eventId": "7"
               },
               {
                 "type": "show",
@@ -1257,7 +1382,8 @@
                 "disabled": false,
                 "keywords": [
                   "φ is true"
-                ]
+                ],
+                "eventId": "8"
               },
               {
                 "type": "show",
@@ -1266,7 +1392,8 @@
                 "disabled": false,
                 "keywords": [
                   "iff"
-                ]
+                ],
+                "eventId": "9"
               },
               {
                 "type": "show",
@@ -1275,7 +1402,8 @@
                 "disabled": false,
                 "keywords": [
                   "M accepts w using space ≤ m"
-                ]
+                ],
+                "eventId": "10"
               },
               {
                 "type": "child",
@@ -1290,7 +1418,8 @@
                     "keywords": [
                       "As in Cook’s Theorem, a configuration with space m is described with cm variables.",
                       "For every n, m we compute a QBF formula with 2cm free variables such that:"
-                    ]
+                    ],
+                    "eventId": "0"
                   },
                   {
                     "type": "show",
@@ -1299,7 +1428,8 @@
                     "disabled": false,
                     "keywords": [
                       "time"
-                    ]
+                    ],
+                    "eventId": "1"
                   },
                   {
                     "type": "show",
@@ -1308,7 +1438,8 @@
                     "disabled": false,
                     "keywords": [
                       "space"
-                    ]
+                    ],
+                    "eventId": "2"
                   },
                   {
                     "type": "show",
@@ -1317,7 +1448,8 @@
                     "disabled": false,
                     "keywords": [
                       "logspace"
-                    ]
+                    ],
+                    "eventId": "3"
                   },
                   {
                     "type": "show",
@@ -1327,7 +1459,8 @@
                     "keywords": [
                       "represents a configuration s",
                       "represents a configuration t"
-                    ]
+                    ],
+                    "eventId": "4"
                   },
                   {
                     "type": "show",
@@ -1336,7 +1469,8 @@
                     "disabled": false,
                     "keywords": [
                       "iff"
-                    ]
+                    ],
+                    "eventId": "5"
                   },
                   {
                     "type": "show",
@@ -1346,7 +1480,8 @@
                     "keywords": [
                       "there is a computation of M which: - begins in s - ends in t - uses memory ≤ m, - uses time ≤ 2",
                       "n"
-                    ]
+                    ],
+                    "eventId": "6"
                   },
                   {
                     "type": "show",
@@ -1355,7 +1490,8 @@
                     "disabled": false,
                     "keywords": [
                       "For n = 1, we formalise Turing machines in logic, as in Cook’s Theorem."
-                    ]
+                    ],
+                    "eventId": "7"
                   },
                   {
                     "type": "show",
@@ -1364,7 +1500,8 @@
                     "disabled": false,
                     "keywords": [
                       "For n > 1, we use induction"
-                    ]
+                    ],
+                    "eventId": "8"
                   },
                   {
                     "type": "show",
@@ -1373,7 +1510,8 @@
                     "disabled": false,
                     "keywords": [
                       "Problem: this formula has size exponential in n"
-                    ]
+                    ],
+                    "eventId": "9"
                   },
                   {
                     "type": "show",
@@ -1382,7 +1520,8 @@
                     "disabled": false,
                     "keywords": [
                       "Solution: use quantifiers to avoid writing the formula twice"
-                    ]
+                    ],
+                    "eventId": "10"
                   },
                   {
                     "type": "show",
@@ -1391,7 +1530,8 @@
                     "disabled": false,
                     "keywords": [
                       "$\\exists \\bar x \\ \\forall \\bar y\\ \\forall \\bar z\\  $40"
-                    ]
+                    ],
+                    "eventId": "11"
                   },
                   {
                     "type": "show",
@@ -1400,17 +1540,20 @@
                     "disabled": false,
                     "keywords": [
                       "$((\\bar y = \\bar s \\land \\bar z = \\bar x) \\lor\n(\\bar y = \\bar x \\land \\bar z = \\bar t)) \\quad \n\\Rightarrow \\quad  \\varphi_{n-1,m}(\\bar y, \\bar z)$40"
-                    ]
+                    ],
+                    "eventId": "12"
                   }
                 ],
                 "keywords": [
                   "PSPACE hardness of QBF"
-                ]
+                ],
+                "eventId": "11"
               }
             ],
             "keywords": [
               "PSpace complete"
-            ]
+            ],
+            "eventId": "5"
           },
           {
             "type": "child",
@@ -1424,7 +1567,8 @@
                 "disabled": false,
                 "keywords": [
                   "There are also complete problems for P, under LogSpace reductions."
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "child",
@@ -1438,7 +1582,8 @@
                     "disabled": false,
                     "keywords": [
                       "Unlike for NP, it does not make sense to consider P reductions for P."
-                    ]
+                    ],
+                    "eventId": "0"
                   },
                   {
                     "type": "show",
@@ -1447,7 +1592,8 @@
                     "disabled": false,
                     "keywords": [
                       "Every nontrivial language A is P hard for P reductions."
-                    ]
+                    ],
+                    "eventId": "1"
                   },
                   {
                     "type": "show",
@@ -1456,7 +1602,8 @@
                     "disabled": false,
                     "keywords": [
                       "(there is some u ∈ A and some v ∉ A)"
-                    ]
+                    ],
+                    "eventId": "2"
                   },
                   {
                     "type": "show",
@@ -1472,12 +1619,14 @@
                       "f",
                       "some language in P",
                       "check membership in B, and then u or v depending on the result"
-                    ]
+                    ],
+                    "eventId": "3"
                   }
                 ],
                 "keywords": [
                   "P needs Logspace reductions"
-                ]
+                ],
+                "eventId": "1"
               },
               {
                 "type": "show",
@@ -1486,7 +1635,8 @@
                 "disabled": false,
                 "keywords": [
                   "Example alternating reachability"
-                ]
+                ],
+                "eventId": "2"
               },
               {
                 "type": "show",
@@ -1497,7 +1647,8 @@
                   "∧",
                   "source",
                   "target"
-                ]
+                ],
+                "eventId": "3"
               },
               {
                 "type": "show",
@@ -1506,7 +1657,8 @@
                 "disabled": false,
                 "keywords": [
                   "If we begin in the source, does player ∨ have a winning strategy against player ∧ to reach the target?"
-                ]
+                ],
+                "eventId": "4"
               },
               {
                 "type": "show",
@@ -1515,7 +1667,8 @@
                 "disabled": false,
                 "keywords": [
                   "non-alternating reachability is in nondeterministic LogSpace"
-                ]
+                ],
+                "eventId": "5"
               },
               {
                 "type": "show",
@@ -1524,7 +1677,8 @@
                 "disabled": false,
                 "keywords": [
                   "Membership in P"
-                ]
+                ],
+                "eventId": "6"
               },
               {
                 "type": "show",
@@ -1533,7 +1687,8 @@
                 "disabled": false,
                 "keywords": [
                   "Start with {target}, and keep on adding vertices winning for ∨, until either no new vertex is added, or the source is added."
-                ]
+                ],
+                "eventId": "7"
               },
               {
                 "type": "show",
@@ -1542,7 +1697,8 @@
                 "disabled": false,
                 "keywords": [
                   "Hardness for P"
-                ]
+                ],
+                "eventId": "8"
               },
               {
                 "type": "show",
@@ -1551,7 +1707,8 @@
                 "disabled": false,
                 "keywords": [
                   "For a deterministic Turing machine, an input word w, and a bound n for time and space, we can compute in LogSpace the graph of a game where positions are statements of the form:"
-                ]
+                ],
+                "eventId": "9"
               },
               {
                 "type": "show",
@@ -1560,7 +1717,8 @@
                 "disabled": false,
                 "keywords": [
                   "“in time i, cell j has contents a”"
-                ]
+                ],
+                "eventId": "10"
               },
               {
                 "type": "show",
@@ -1569,12 +1727,14 @@
                 "disabled": false,
                 "keywords": [
                   "In such a position, player ∨ chooses a several assumptions that were true in time i-1, and player ∧ chooses one of these assumptions."
-                ]
+                ],
+                "eventId": "11"
               }
             ],
             "keywords": [
               "P complete"
-            ]
+            ],
+            "eventId": "6"
           },
           {
             "type": "show",
@@ -1583,7 +1743,8 @@
             "disabled": false,
             "keywords": [
               "There are also problems that are complete for ExpTime, 2ExpTime, etc."
-            ]
+            ],
+            "eventId": "7"
           },
           {
             "type": "show",
@@ -1592,7 +1753,8 @@
             "disabled": false,
             "keywords": [
               "Also Tower, Ackermann, etc."
-            ]
+            ],
+            "eventId": "8"
           },
           {
             "type": "show",
@@ -1601,7 +1763,8 @@
             "disabled": false,
             "keywords": [
               "Baker Gill Solovay"
-            ]
+            ],
+            "eventId": "9"
           },
           {
             "type": "child",
@@ -1620,7 +1783,8 @@
                   "polynomial space with oracle A",
                   "Oracles can be added to natural constructions. For example",
                   "(Savitch’s Theorem)"
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "show",
@@ -1629,7 +1793,8 @@
                 "disabled": false,
                 "keywords": [
                   "Also true for NLogSpace = coNLogSpace."
-                ]
+                ],
+                "eventId": "1"
               },
               {
                 "type": "show",
@@ -1638,7 +1803,8 @@
                 "disabled": false,
                 "keywords": [
                   "Thm. (Baker, Gill, Solovay). There are languages A and B such that"
-                ]
+                ],
+                "eventId": "2"
               },
               {
                 "type": "show",
@@ -1648,7 +1814,8 @@
                 "keywords": [
                   "P = NP",
                   "A"
-                ]
+                ],
+                "eventId": "3"
               },
               {
                 "type": "show",
@@ -1658,7 +1825,8 @@
                 "keywords": [
                   "P ≠ NP",
                   "B"
-                ]
+                ],
+                "eventId": "4"
               },
               {
                 "type": "show",
@@ -1667,7 +1835,8 @@
                 "disabled": false,
                 "keywords": [
                   "Take A to be any problem complete for PSpace, e.g. QBF."
-                ]
+                ],
+                "eventId": "5"
               },
               {
                 "type": "show",
@@ -1676,7 +1845,8 @@
                 "disabled": false,
                 "keywords": [
                   "Both sides are equal to PSpace."
-                ]
+                ],
+                "eventId": "6"
               },
               {
                 "type": "child",
@@ -1692,7 +1862,8 @@
                       "Lengths[B] = { w ∈ a* : there is some word in B of same length as w}",
                       "We will design B so that the separating language is:",
                       "{ w ∈ a* : there is some word in A of same length as w}"
-                    ]
+                    ],
+                    "eventId": "0"
                   },
                   {
                     "type": "show",
@@ -1702,7 +1873,8 @@
                     "keywords": [
                       "This language is clearly in NP . We now show that it is not in P .",
                       "B"
-                    ]
+                    ],
+                    "eventId": "1"
                   },
                   {
                     "type": "show",
@@ -1711,7 +1883,8 @@
                     "disabled": false,
                     "keywords": [
                       "Consider some enumeration M1, M2, ... of all deterministic polynomial time Turing machines, which use an oracle over alphabet {0,1}."
-                    ]
+                    ],
+                    "eventId": "2"
                   },
                   {
                     "type": "show",
@@ -1720,7 +1893,8 @@
                     "disabled": false,
                     "keywords": [
                       "If A ⊆ {0,1}* is an oracle, we write Mn[A] for the combination of Mn and A."
-                    ]
+                    ],
+                    "eventId": "3"
                   },
                   {
                     "type": "show",
@@ -1730,7 +1904,8 @@
                     "keywords": [
                       "We define finite partial oracles",
                       "B0 ⊆ B1 ⊆ B2 ⊆ B3 ⊆ ..."
-                    ]
+                    ],
+                    "eventId": "4"
                   },
                   {
                     "type": "show",
@@ -1739,7 +1914,8 @@
                     "disabled": false,
                     "keywords": [
                       "A partial oracle gives answers in {yes, no, ?}. Finite: finitely many yes or no answers"
-                    ]
+                    ],
+                    "eventId": "5"
                   },
                   {
                     "type": "show",
@@ -1748,7 +1924,8 @@
                     "disabled": false,
                     "keywords": [
                       "extension means that ? is replaced by yes or no"
-                    ]
+                    ],
+                    "eventId": "6"
                   },
                   {
                     "type": "show",
@@ -1757,7 +1934,8 @@
                     "disabled": false,
                     "keywords": [
                       "so that for every n and every oracle A which extends An"
-                    ]
+                    ],
+                    "eventId": "7"
                   },
                   {
                     "type": "show",
@@ -1766,7 +1944,8 @@
                     "disabled": false,
                     "keywords": [
                       "Mn[A] gives a wrong answer for Lengths[A]."
-                    ]
+                    ],
+                    "eventId": "8"
                   },
                   {
                     "type": "child",
@@ -1780,7 +1959,8 @@
                         "disabled": false,
                         "keywords": [
                           "Suppose that we have already defined Mn"
-                        ]
+                        ],
+                        "eventId": "0"
                       },
                       {
                         "type": "show",
@@ -1789,7 +1969,8 @@
                         "disabled": false,
                         "keywords": [
                           "Let A be an oracle that extends An with all “no” answers."
-                        ]
+                        ],
+                        "eventId": "1"
                       },
                       {
                         "type": "show",
@@ -1798,7 +1979,8 @@
                         "disabled": false,
                         "keywords": [
                           "Let k ∈ {1, 2, ... } be such that An is undefined on all words of length k."
-                        ]
+                        ],
+                        "eventId": "2"
                       },
                       {
                         "type": "show",
@@ -1807,7 +1989,8 @@
                         "disabled": false,
                         "keywords": [
                           "Consider the run of Mn+1[A] on the (unique) input of length k."
-                        ]
+                        ],
+                        "eventId": "3"
                       },
                       {
                         "type": "show",
@@ -1816,7 +1999,8 @@
                         "disabled": false,
                         "keywords": [
                           "if this run accepts"
-                        ]
+                        ],
+                        "eventId": "4"
                       },
                       {
                         "type": "show",
@@ -1828,7 +2012,8 @@
                           "w ∈ B?",
                           "where w has length = k",
                           "This run will ask a certain number of queries of the form"
-                        ]
+                        ],
+                        "eventId": "5"
                       },
                       {
                         "type": "show",
@@ -1837,7 +2022,8 @@
                         "disabled": false,
                         "keywords": [
                           "If k is large enough, one of these queries is not asked, because the length of the run is polynomial in k."
-                        ]
+                        ],
+                        "eventId": "6"
                       },
                       {
                         "type": "show",
@@ -1846,937 +2032,301 @@
                         "disabled": false,
                         "keywords": [
                           "Define An+1 so that it says “yes” on the unasked query, and is otherwise consistent with the queries in the run described above."
-                        ]
+                        ],
+                        "eventId": "7"
                       }
                     ],
                     "keywords": [
                       "Baker Gill Solovay proof 2"
-                    ]
+                    ],
+                    "eventId": "9"
                   }
                 ],
                 "keywords": [
                   "Baker Gill Solovay proof 1"
-                ]
+                ],
+                "eventId": "7"
               }
             ],
             "keywords": [
               "Relativisation"
-            ]
+            ],
+            "eventId": "10"
           }
         ],
         "keywords": [
           "Complete problems"
-        ]
+        ],
+        "eventId": "1"
       }
     ],
     "keywords": [
       "Computational Complexity",
       "Lecture 3. Reductions and complete problems",
       "First slide"
-    ]
+    ],
+    "eventId": "root"
   },
   "soundDict": {
     "13:2": {
-      "0": {
-        "file": "0",
-        "duration": 3.144
-      },
-      "1": {
-        "file": "1",
-        "duration": 23.616
-      },
-      "2": {
-        "file": "2",
-        "duration": 33.864
-      },
-      "3": {
-        "file": "3",
-        "duration": 5.856
-      },
-      "4": {
-        "file": "4",
-        "duration": 23.856
-      },
-      "5": {
-        "file": "5",
-        "duration": 11.184
-      },
-      "6": {
-        "file": "6",
-        "duration": 25.464
-      },
-      "7": {
-        "file": "7",
-        "duration": 5.736
-      },
-      "8": {
-        "file": "8",
-        "duration": 2.016
-      }
+      "0": 3.144,
+      "1": 23.616,
+      "2": 33.864,
+      "3": 5.856,
+      "4": 23.856,
+      "5": 11.184,
+      "6": 25.464,
+      "7": 5.736,
+      "finish": 2.016
     },
     "13:20": {
-      "0": {
-        "file": "0",
-        "duration": 4.896
-      },
-      "1": {
-        "file": "1",
-        "duration": 18.696
-      },
-      "2": {
-        "file": "2",
-        "duration": 26.256
-      },
-      "3": {
-        "file": "3",
-        "duration": 8.784
-      },
-      "4": {
-        "file": "4",
-        "duration": 32.256
-      },
-      "5": {
-        "file": "5",
-        "duration": 30.576
-      },
-      "6": {
-        "file": "6",
-        "duration": 24.504
-      },
-      "7": {
-        "file": "7",
-        "duration": 16.104
-      },
-      "8": {
-        "file": "8",
-        "duration": 13.296
-      },
-      "9": {
-        "file": "9",
-        "duration": 16.656
-      }
+      "0": 4.896,
+      "1": 18.696,
+      "2": 26.256,
+      "3": 8.784,
+      "4": 32.256,
+      "5": 30.576,
+      "6": 24.504,
+      "7": 16.104,
+      "8": 13.296,
+      "finish": 16.656
     },
     "13:55": {
-      "0": {
-        "file": "0",
-        "duration": 1.776
-      },
-      "1": {
-        "file": "1",
-        "duration": 4.584
-      },
-      "2": {
-        "file": "2",
-        "duration": 25.464
-      },
-      "3": {
-        "file": "3",
-        "duration": 38.064
-      },
-      "4": {
-        "file": "4",
-        "duration": 53.136
-      },
-      "5": {
-        "file": "5",
-        "duration": 5.616
-      },
-      "6": {
-        "file": "6",
-        "duration": 30.456
-      },
-      "7": {
-        "file": "7",
-        "duration": 19.584
-      },
-      "8": {
-        "file": "8",
-        "duration": 2.064
-      }
+      "0": 1.776,
+      "1": 4.584,
+      "2": 25.464,
+      "3": 38.064,
+      "4": 53.136,
+      "5": 5.616,
+      "6": 30.456,
+      "7": 19.584,
+      "finish": 2.064
     },
     "1:2": {
-      "0": {
-        "file": "0",
-        "duration": 7.416
-      },
-      "1": {
-        "file": "1",
-        "duration": 16.416
-      },
-      "2": {
-        "file": "2",
-        "duration": 8.664
-      }
+      "0": 7.416,
+      "1": 16.416,
+      "finish": 8.664
     },
     "84:13": {
-      "0": {
-        "file": "0",
-        "duration": 2.016
-      },
-      "1": {
-        "file": "1",
-        "duration": 45.024
-      },
-      "2": {
-        "file": "2",
-        "duration": 29.976
-      },
-      "3": {
-        "file": "3",
-        "duration": 20.256
-      },
-      "4": {
-        "file": "4",
-        "duration": 16.536
-      },
-      "5": {
-        "file": "5",
-        "duration": 70.704
-      },
-      "6": {
-        "file": "6",
-        "duration": 12.624
-      },
-      "7": {
-        "file": "7",
-        "duration": 4.656
-      },
-      "8": {
-        "file": "8",
-        "duration": 11.136
-      },
-      "9": {
-        "file": "9",
-        "duration": 25.344
-      },
-      "10": {
-        "file": "10",
-        "duration": 19.176
-      },
-      "11": {
-        "file": "11",
-        "duration": 25.104
-      }
+      "0": 2.016,
+      "1": 45.024,
+      "2": 29.976,
+      "3": 20.256,
+      "4": 16.536,
+      "5": 70.704,
+      "6": 12.624,
+      "7": 4.656,
+      "8": 11.136,
+      "9": 25.344,
+      "10": 19.176,
+      "finish": 25.104
     },
     "13:31": {
-      "0": {
-        "file": "0",
-        "duration": 4.296
-      },
-      "1": {
-        "file": "1",
-        "duration": 2.736
-      },
-      "2": {
-        "file": "2",
-        "duration": 16.944
-      },
-      "3": {
-        "file": "3",
-        "duration": 10.416
-      },
-      "4": {
-        "file": "4",
-        "duration": 11.544
-      },
-      "5": {
-        "file": "5",
-        "duration": 39.264
-      }
+      "0": 4.296,
+      "1": 2.736,
+      "2": 16.944,
+      "3": 10.416,
+      "4": 11.544,
+      "finish": 39.264
     },
     "14:27": {
-      "0": {
-        "file": "0",
-        "duration": 0.456
-      },
-      "1": {
-        "file": "1",
-        "duration": 26.136
-      },
-      "2": {
-        "file": "2",
-        "duration": 4.056
-      }
+      "0": 0.456,
+      "1": 26.136,
+      "finish": 4.056
     },
     "14:38": {
-      "0": {
-        "file": "0",
-        "duration": 1.416
-      },
-      "1": {
-        "file": "1",
-        "duration": 29.064
-      },
-      "2": {
-        "file": "2",
-        "duration": 12.024
-      },
-      "3": {
-        "file": "3",
-        "duration": 31.176
-      },
-      "4": {
-        "file": "4",
-        "duration": 12.624
-      },
-      "5": {
-        "file": "5",
-        "duration": 20.616
-      },
-      "6": {
-        "file": "6",
-        "duration": 13.176
-      },
-      "7": {
-        "file": "7",
-        "duration": 27.384
-      },
-      "8": {
-        "file": "8",
-        "duration": 19.104
-      },
-      "9": {
-        "file": "9",
-        "duration": 36.216
-      }
+      "0": 1.416,
+      "1": 29.064,
+      "2": 12.024,
+      "3": 31.176,
+      "4": 12.624,
+      "5": 20.616,
+      "6": 13.176,
+      "7": 27.384,
+      "8": 19.104,
+      "finish": 36.216
     },
     "14:73": {
-      "0": {
-        "file": "0",
-        "duration": 5.136
-      },
-      "1": {
-        "file": "1",
-        "duration": 13.896
-      },
-      "2": {
-        "file": "2",
-        "duration": 17.544
-      },
-      "3": {
-        "file": "3",
-        "duration": 36.744
-      },
-      "4": {
-        "file": "4",
-        "duration": 24.096
-      },
-      "5": {
-        "file": "5",
-        "duration": 49.824
-      },
-      "6": {
-        "file": "6",
-        "duration": 9.816
-      }
+      "0": 5.136,
+      "1": 13.896,
+      "2": 17.544,
+      "3": 36.744,
+      "4": 24.096,
+      "5": 49.824,
+      "finish": 9.816
     },
     "57:45": {
-      "0": {
-        "file": "0",
-        "duration": 5.256
-      },
-      "1": {
-        "file": "1",
-        "duration": 24.456
-      },
-      "2": {
-        "file": "2",
-        "duration": 8.184
-      },
-      "3": {
-        "file": "3",
-        "duration": 1.896
-      },
-      "4": {
-        "file": "4",
-        "duration": 73.344
-      },
-      "5": {
-        "file": "5",
-        "duration": 31.224
-      },
-      "6": {
-        "file": "6",
-        "duration": 6.504
-      },
-      "7": {
-        "file": "7",
-        "duration": 1.344
-      },
-      "8": {
-        "file": "8",
-        "duration": 1.944
-      },
-      "9": {
-        "file": "9",
-        "duration": 42.624
-      },
-      "10": {
-        "file": "10",
-        "duration": 45.096
-      }
+      "0": 5.256,
+      "1": 24.456,
+      "2": 8.184,
+      "3": 1.896,
+      "4": 73.344,
+      "5": 31.224,
+      "6": 6.504,
+      "7": 1.344,
+      "8": 1.944,
+      "9": 42.624,
+      "finish": 45.096
     },
     "86:0": {
-      "0": {
-        "file": "0",
-        "duration": 8.016
-      },
-      "1": {
-        "file": "1",
-        "duration": 22.176
-      },
-      "2": {
-        "file": "2",
-        "duration": 23.904
-      },
-      "3": {
-        "file": "3",
-        "duration": 36.336
-      },
-      "4": {
-        "file": "4",
-        "duration": 39.024
-      },
-      "5": {
-        "file": "5",
-        "duration": 35.376
-      },
-      "6": {
-        "file": "6",
-        "duration": 18.984
-      },
-      "7": {
-        "file": "7",
-        "duration": 28.584
-      },
-      "8": {
-        "file": "8",
-        "duration": 41.976
-      },
-      "9": {
-        "file": "9",
-        "duration": 9.984
-      }
+      "0": 8.016,
+      "1": 22.176,
+      "2": 23.904,
+      "3": 36.336,
+      "4": 39.024,
+      "5": 35.376,
+      "6": 18.984,
+      "7": 28.584,
+      "8": 41.976,
+      "finish": 9.984
     },
     "57:90": {
-      "0": {
-        "file": "0",
-        "duration": 3.456
-      },
-      "1": {
-        "file": "1",
-        "duration": 8.856
-      },
-      "2": {
-        "file": "2",
-        "duration": 4.536
-      },
-      "3": {
-        "file": "3",
-        "duration": 37.944
-      },
-      "4": {
-        "file": "4",
-        "duration": 17.136
-      },
-      "5": {
-        "file": "5",
-        "duration": 21.384
-      },
-      "6": {
-        "file": "6",
-        "duration": 7.056
-      },
-      "7": {
-        "file": "7",
-        "duration": 12.984
-      },
-      "8": {
-        "file": "8",
-        "duration": 9.576
-      },
-      "9": {
-        "file": "9",
-        "duration": 3.696
-      },
-      "10": {
-        "file": "10",
-        "duration": 1.416
-      },
-      "11": {
-        "file": "11",
-        "duration": 20.736
-      },
-      "12": {
-        "file": "12",
-        "duration": 29.616
-      }
+      "0": 3.456,
+      "1": 8.856,
+      "2": 4.536,
+      "3": 37.944,
+      "4": 17.136,
+      "5": 21.384,
+      "6": 7.056,
+      "7": 12.984,
+      "8": 9.576,
+      "9": 3.696,
+      "10": 1.416,
+      "11": 20.736,
+      "finish": 29.616
     },
     "83:22": {
-      "0": {
-        "file": "0",
-        "duration": 10.704
-      },
-      "1": {
-        "file": "1",
-        "duration": 9.864
-      },
-      "2": {
-        "file": "2",
-        "duration": 18.144
-      },
-      "3": {
-        "file": "3",
-        "duration": 3.816
-      },
-      "4": {
-        "file": "4",
-        "duration": 15.336
-      },
-      "5": {
-        "file": "5",
-        "duration": 35.376
-      },
-      "6": {
-        "file": "6",
-        "duration": 36.624
-      },
-      "7": {
-        "file": "7",
-        "duration": 2.616
-      },
-      "8": {
-        "file": "8",
-        "duration": 56.184
-      },
-      "9": {
-        "file": "9",
-        "duration": 13.584
-      },
-      "10": {
-        "file": "10",
-        "duration": 47.256
-      },
-      "11": {
-        "file": "11",
-        "duration": 15.264
-      },
-      "12": {
-        "file": "12",
-        "duration": 87.336
-      }
+      "0": 10.704,
+      "1": 9.864,
+      "2": 18.144,
+      "3": 3.816,
+      "4": 15.336,
+      "5": 35.376,
+      "6": 36.624,
+      "7": 2.616,
+      "8": 56.184,
+      "9": 13.584,
+      "10": 47.256,
+      "11": 15.264,
+      "finish": 87.336
     },
     "57:28": {
-      "0": {
-        "file": "0",
-        "duration": 1.824
-      },
-      "1": {
-        "file": "1",
-        "duration": 95.976
-      }
+      "0": 1.824,
+      "finish": 95.976
     },
     "57:53": {
-      "0": {
-        "file": "0",
-        "duration": 0.096
-      },
-      "1": {
-        "file": "1",
-        "duration": 9.624
-      },
-      "2": {
-        "file": "2",
-        "duration": 13.056
-      },
-      "3": {
-        "file": "3",
-        "duration": 7.536
-      },
-      "4": {
-        "file": "4",
-        "duration": 15.504
-      },
-      "5": {
-        "file": "5",
-        "duration": 12.984
-      },
-      "6": {
-        "file": "6",
-        "duration": 22.176
-      },
-      "7": {
-        "file": "7",
-        "duration": 11.856
-      },
-      "8": {
-        "file": "8",
-        "duration": 29.424
-      },
-      "9": {
-        "file": "9",
-        "duration": 3.096
-      },
-      "10": {
-        "file": "10",
-        "duration": 14.184
-      },
-      "11": {
-        "file": "11",
-        "duration": 4.896
-      }
+      "0": 0.096,
+      "1": 9.624,
+      "2": 13.056,
+      "3": 7.536,
+      "4": 15.504,
+      "5": 12.984,
+      "6": 22.176,
+      "7": 11.856,
+      "8": 29.424,
+      "9": 3.096,
+      "10": 14.184,
+      "finish": 4.896
     },
     "57:73": {
-      "0": {
-        "file": "0",
-        "duration": 3.144
-      },
-      "1": {
-        "file": "1",
-        "duration": 25.176
-      },
-      "2": {
-        "file": "2",
-        "duration": 14.136
-      },
-      "3": {
-        "file": "3",
-        "duration": 10.224
-      },
-      "4": {
-        "file": "4",
-        "duration": 15.144
-      },
-      "5": {
-        "file": "5",
-        "duration": 31.656
-      },
-      "6": {
-        "file": "6",
-        "duration": 50.376
-      },
-      "7": {
-        "file": "7",
-        "duration": 36.816
-      },
-      "8": {
-        "file": "8",
-        "duration": 29.544
-      }
+      "0": 3.144,
+      "1": 25.176,
+      "2": 14.136,
+      "3": 10.224,
+      "4": 15.144,
+      "5": 31.656,
+      "6": 50.376,
+      "7": 36.816,
+      "finish": 29.544
     },
     "86:15": {
-      "0": {
-        "file": "0",
-        "duration": 2.304
-      },
-      "1": {
-        "file": "1",
-        "duration": 7.704
-      },
-      "2": {
-        "file": "2",
-        "duration": 13.584
-      },
-      "3": {
-        "file": "3",
-        "duration": 38.784
-      },
-      "4": {
-        "file": "4",
-        "duration": 37.824
-      },
-      "5": {
-        "file": "5",
-        "duration": 68.784
-      },
-      "6": {
-        "file": "6",
-        "duration": 97.656
-      }
+      "0": 2.304,
+      "1": 7.704,
+      "2": 13.584,
+      "3": 38.784,
+      "4": 37.824,
+      "5": 68.784,
+      "finish": 97.656
     },
     "86:23": {
-      "0": {
-        "file": "0",
-        "duration": 2.136
-      },
-      "1": {
-        "file": "1",
-        "duration": 5.304
-      },
-      "2": {
-        "file": "2",
-        "duration": 3.576
-      },
-      "3": {
-        "file": "3",
-        "duration": 3.984
-      },
-      "4": {
-        "file": "4",
-        "duration": 7.776
-      },
-      "5": {
-        "file": "5",
-        "duration": 11.376
-      },
-      "6": {
-        "file": "6",
-        "duration": 5.784
-      },
-      "7": {
-        "file": "7",
-        "duration": 6.264
-      },
-      "8": {
-        "file": "8",
-        "duration": 12.216
-      },
-      "9": {
-        "file": "9",
-        "duration": 34.584
-      },
-      "10": {
-        "file": "10",
-        "duration": 21.216
-      },
-      "11": {
-        "file": "11",
-        "duration": 54.744
-      },
-      "12": {
-        "file": "12",
-        "duration": 34.464
-      },
-      "13": {
-        "file": "13",
-        "duration": 102.456
-      },
-      "14": {
-        "file": "14",
-        "duration": 106.464
-      },
-      "15": {
-        "file": "15",
-        "duration": 13.896
-      },
-      "16": {
-        "file": "16",
-        "duration": 24.024
-      },
-      "17": {
-        "file": "17",
-        "duration": 68.136
-      },
-      "18": {
-        "file": "18",
-        "duration": 33.456
-      },
-      "19": {
-        "file": "19",
-        "duration": 44.136
-      }
+      "0": 2.136,
+      "1": 5.304,
+      "2": 3.576,
+      "3": 3.984,
+      "4": 7.776,
+      "5": 11.376,
+      "6": 5.784,
+      "7": 6.264,
+      "8": 12.216,
+      "9": 34.584,
+      "10": 21.216,
+      "11": 54.744,
+      "12": 34.464,
+      "13": 102.456,
+      "14": 106.464,
+      "15": 13.896,
+      "16": 24.024,
+      "17": 68.136,
+      "18": 33.456,
+      "finish": 44.136
     },
     "57:137": {
-      "0": {
-        "file": "0",
-        "duration": 2.904
-      },
-      "1": {
-        "file": "1",
-        "duration": 47.064
-      },
-      "2": {
-        "file": "2",
-        "duration": 3.216
-      },
-      "3": {
-        "file": "3",
-        "duration": 7.056
-      },
-      "4": {
-        "file": "4",
-        "duration": 2.664
-      },
-      "5": {
-        "file": "5",
-        "duration": 16.824
-      },
-      "6": {
-        "file": "6",
-        "duration": 2.064
-      },
-      "7": {
-        "file": "7",
-        "duration": 22.296
-      },
-      "8": {
-        "file": "8",
-        "duration": 15.504
-      },
-      "9": {
-        "file": "9",
-        "duration": 23.856
-      },
-      "10": {
-        "file": "10",
-        "duration": 14.736
-      },
-      "11": {
-        "file": "11",
-        "duration": 11.976
-      },
-      "12": {
-        "file": "12",
-        "duration": 8.616
-      },
-      "13": {
-        "file": "13",
-        "duration": 50.736
-      }
+      "0": 2.904,
+      "1": 47.064,
+      "2": 3.216,
+      "3": 7.056,
+      "4": 2.664,
+      "5": 16.824,
+      "6": 2.064,
+      "7": 22.296,
+      "8": 15.504,
+      "9": 23.856,
+      "10": 14.736,
+      "11": 11.976,
+      "12": 8.616,
+      "finish": 50.736
     },
     "83:27": {
-      "0": {
-        "file": "0",
-        "duration": 2.064
-      },
-      "1": {
-        "file": "1",
-        "duration": 6.216
-      },
-      "2": {
-        "file": "2",
-        "duration": 7.224
-      },
-      "3": {
-        "file": "3",
-        "duration": 4.536
-      },
-      "4": {
-        "file": "4",
-        "duration": 41.064
-      }
+      "0": 2.064,
+      "1": 6.216,
+      "2": 7.224,
+      "3": 4.536,
+      "finish": 41.064
     },
     "1:11": {
-      "0": {
-        "file": "0",
-        "duration": 8.544
-      },
-      "1": {
-        "file": "1",
-        "duration": 3.384
-      },
-      "2": {
-        "file": "2",
-        "duration": 17.784
-      },
-      "3": {
-        "file": "3",
-        "duration": 11.064
-      },
-      "4": {
-        "file": "4",
-        "duration": 4.056
-      },
-      "5": {
-        "file": "5",
-        "duration": 13.704
-      },
-      "6": {
-        "file": "6",
-        "duration": 14.976
-      },
-      "7": {
-        "file": "7",
-        "duration": 71.256
-      },
-      "8": {
-        "file": "8",
-        "duration": 2.616
-      }
+      "0": 8.544,
+      "1": 3.384,
+      "2": 17.784,
+      "3": 11.064,
+      "4": 4.056,
+      "5": 13.704,
+      "6": 14.976,
+      "7": 71.256,
+      "finish": 2.616
     },
     "113:6": {
-      "0": {
-        "file": "0",
-        "duration": 4.296
-      },
-      "1": {
-        "file": "1",
-        "duration": 19.776
-      },
-      "2": {
-        "file": "2",
-        "duration": 36.264
-      },
-      "3": {
-        "file": "3",
-        "duration": 76.056
-      },
-      "4": {
-        "file": "4",
-        "duration": 15.696
-      },
-      "5": {
-        "file": "5",
-        "duration": 7.296
-      },
-      "6": {
-        "file": "6",
-        "duration": 20.664
-      },
-      "7": {
-        "file": "7",
-        "duration": 22.464
-      },
-      "8": {
-        "file": "8",
-        "duration": 11.136
-      },
-      "9": {
-        "file": "9",
-        "duration": 65.496
-      },
-      "10": {
-        "file": "10",
-        "duration": 2.664
-      }
+      "0": 4.296,
+      "1": 19.776,
+      "2": 36.264,
+      "3": 76.056,
+      "4": 15.696,
+      "5": 7.296,
+      "6": 20.664,
+      "7": 22.464,
+      "8": 11.136,
+      "9": 65.496,
+      "finish": 2.664
     },
     "115:11": {
-      "0": {
-        "file": "0",
-        "duration": 3.096
-      },
-      "1": {
-        "file": "1",
-        "duration": 6.864
-      },
-      "2": {
-        "file": "2",
-        "duration": 10.704
-      },
-      "3": {
-        "file": "3",
-        "duration": 42.984
-      },
-      "4": {
-        "file": "4",
-        "duration": 12.024
-      },
-      "5": {
-        "file": "5",
-        "duration": 60.096
-      },
-      "6": {
-        "file": "6",
-        "duration": 36.576
-      },
-      "7": {
-        "file": "7",
-        "duration": 19.416
-      },
-      "8": {
-        "file": "8",
-        "duration": 24.096
-      }
+      "0": 3.096,
+      "1": 6.864,
+      "2": 10.704,
+      "3": 42.984,
+      "4": 12.024,
+      "5": 60.096,
+      "6": 36.576,
+      "7": 19.416,
+      "finish": 24.096
     }
   }
 }

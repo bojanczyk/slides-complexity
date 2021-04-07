@@ -1,5 +1,5 @@
 {
-  "version": 0.88,
+  "version": 0.902,
   "presentation": "Logic with a bias towards automata, best of",
   "slideDict": {
     "102:2": "First_slide",
@@ -46,6 +46,7 @@
         "id": "121:7",
         "name": "Two decision problems for logics",
         "disabled": false,
+        "eventId": "0",
         "keywords": [
           "Two decision problems for logics",
           "Here, “logic” refers to first-order logic and its variants, such as second-order logic"
@@ -56,6 +57,7 @@
         "id": "302:899",
         "name": "Boolean formulas and their satisfiability",
         "disabled": false,
+        "eventId": "1",
         "keywords": [
           "Boolean formulas and their satisfiability"
         ]
@@ -65,6 +67,7 @@
         "id": "302:900",
         "name": "Intuitionistic logic",
         "disabled": false,
+        "eventId": "2",
         "keywords": [
           "Intuitionistic logic"
         ]
@@ -74,6 +77,7 @@
         "id": "302:901",
         "name": "Coq",
         "disabled": false,
+        "eventId": "3",
         "keywords": [
           "Coq"
         ]
@@ -83,6 +87,7 @@
         "id": "302:902",
         "name": "Proof theory",
         "disabled": false,
+        "eventId": "4",
         "keywords": [
           "Proof theory"
         ]
@@ -92,6 +97,7 @@
         "id": "302:903",
         "name": "LTL",
         "disabled": false,
+        "eventId": "5",
         "keywords": [
           "LTL"
         ]
@@ -101,6 +107,7 @@
         "id": "302:899",
         "name": "Boolean formulas and their satisfiability",
         "disabled": false,
+        "eventId": "6",
         "keywords": [
           "Boolean formulas and their satisfiability"
         ]
@@ -110,6 +117,7 @@
         "id": "302:900",
         "name": "Intuitionistic logic",
         "disabled": false,
+        "eventId": "7",
         "keywords": [
           "Intuitionistic logic"
         ]
@@ -119,6 +127,7 @@
         "id": "302:901",
         "name": "Coq",
         "disabled": false,
+        "eventId": "8",
         "keywords": [
           "Coq"
         ]
@@ -128,6 +137,7 @@
         "id": "302:902",
         "name": "Proof theory",
         "disabled": false,
+        "eventId": "9",
         "keywords": [
           "Proof theory"
         ]
@@ -137,6 +147,7 @@
         "id": "302:903",
         "name": "LTL",
         "disabled": false,
+        "eventId": "10",
         "keywords": [
           "LTL"
         ]
@@ -146,6 +157,7 @@
         "id": "120:308",
         "name": "Satisfiability is φ true in some model?",
         "disabled": false,
+        "eventId": "11",
         "keywords": [
           "Satisfiability is φ true in some model?",
           "? ⊨ φ"
@@ -156,6 +168,7 @@
         "id": "120:309",
         "name": "Model checking is φ true in some model M?",
         "disabled": false,
+        "eventId": "12",
         "keywords": [
           "Model checking is φ true in some model M?",
           "M ⊨ φ",
@@ -167,6 +180,7 @@
         "id": "108:26",
         "name": "M fixed, φ input",
         "disabled": false,
+        "eventId": "13",
         "keywords": [
           "M fixed, φ input"
         ]
@@ -176,6 +190,7 @@
         "id": "108:27",
         "name": "M input, φ input",
         "disabled": false,
+        "eventId": "14",
         "keywords": [
           "M input, φ input"
         ]
@@ -185,6 +200,7 @@
         "id": "108:28",
         "name": "M input, φ fixed",
         "disabled": false,
+        "eventId": "15",
         "keywords": [
           "M input, φ fixed"
         ]
@@ -194,6 +210,7 @@
         "id": "121:3",
         "name": "Part 1.",
         "disabled": false,
+        "eventId": "16",
         "keywords": [
           "Part 1."
         ]
@@ -203,6 +220,7 @@
         "id": "121:4",
         "name": "Part 2.",
         "disabled": false,
+        "eventId": "17",
         "keywords": [
           "Part 2."
         ]
@@ -212,6 +230,7 @@
         "id": "121:5",
         "name": "Part 3.",
         "disabled": false,
+        "eventId": "18",
         "keywords": [
           "Part 3."
         ]
@@ -226,6 +245,7 @@
             "id": "120:311",
             "name": "First-order logic",
             "disabled": false,
+            "eventId": "0",
             "keywords": [
               "First-order logic",
               "formulas like ∀x ∃y R(x, y) ∧ ∀z R(x, z) ⟹ y = z"
@@ -236,6 +256,7 @@
             "id": "120:312",
             "name": "For which structures M is the following problem decidable: Given a sentence of first-order logic φ, is φ is true in M?",
             "disabled": false,
+            "eventId": "1",
             "keywords": [
               "For which structures M is the following problem decidable: Given a sentence of first-order logic φ, is φ is true in M?",
               "terminology: the first-order (aka elementary) theory of M is decidable"
@@ -246,6 +267,7 @@
             "id": "120:313",
             "name": "({0, 1})",
             "disabled": false,
+            "eventId": "2",
             "keywords": [
               "({0, 1}, =)",
               "Text 1",
@@ -257,6 +279,7 @@
             "id": "301:15",
             "name": "For every finite structure with at least two elements, its first-order theory is PSpace complete",
             "disabled": false,
+            "eventId": "3",
             "keywords": [
               "For every finite structure with at least two elements, its first-order theory is PSpace complete"
             ]
@@ -266,6 +289,7 @@
             "id": "120:314",
             "name": "(ℕ, +, ×)",
             "disabled": false,
+            "eventId": "4",
             "keywords": [
               "(ℕ, +, ×)",
               "Arithmetic"
@@ -276,6 +300,7 @@
             "id": "301:16",
             "name": "Undecidable: for every Turing machine, one can write a formula that says: “there exists a halting run”",
             "disabled": false,
+            "eventId": "5",
             "keywords": [
               "Undecidable: for every Turing machine, one can write a formula that says: “there exists a halting run”"
             ]
@@ -285,6 +310,7 @@
             "id": "120:316",
             "name": "(ℝ, +, ×)",
             "disabled": false,
+            "eventId": "6",
             "keywords": [
               "(ℝ, +, ×)",
               "Tarski arithmetic"
@@ -295,6 +321,7 @@
             "id": "301:17",
             "name": "Decidable: for every formula φ(x1, .., xn,) one can compute an equivalent Boolean combination of polynomial inequalities like x12x2 – 3x2x34 + 2 > 0",
             "disabled": false,
+            "eventId": "7",
             "keywords": [
               "Decidable: for every formula φ(x1, .., xn,) one can compute an equivalent Boolean combination of polynomial inequalities like x12x2 – 3x2x34 + 2 > 0"
             ]
@@ -304,6 +331,7 @@
             "id": "120:317",
             "name": "(ℕ, +)",
             "disabled": false,
+            "eventId": "8",
             "keywords": [
               "(ℕ, +)",
               "Presburger arithmetic"
@@ -314,6 +342,7 @@
             "id": "301:101",
             "name": "Decidable: for every formula φ(x1, .., xn,) one can compute an equivalent semilinear set",
             "disabled": false,
+            "eventId": "9",
             "keywords": [
               "Decidable: for every formula φ(x1, .., xn,) one can compute an equivalent semilinear set"
             ]
@@ -323,6 +352,7 @@
             "id": "120:318",
             "name": "Second-order logic",
             "disabled": false,
+            "eventId": "10",
             "keywords": [
               "Second-order logic",
               "Can quantify over elements, and also over relations (unary, binary, ternary, etc.)"
@@ -333,6 +363,7 @@
             "id": "301:103",
             "name": "PSpace complete for all finite structures, undecidable for all infinite structures.",
             "disabled": false,
+            "eventId": "11",
             "keywords": [
               "PSpace complete for all finite structures, undecidable for all infinite structures."
             ]
@@ -342,6 +373,7 @@
             "id": "120:319",
             "name": "Monadic second-order logic",
             "disabled": false,
+            "eventId": "12",
             "keywords": [
               "Monadic second-order logic",
               "Can quantify over elements, and also over unary (monadic) relations"
@@ -352,6 +384,7 @@
             "id": "303:2",
             "name": "Star 1",
             "disabled": false,
+            "eventId": "13",
             "keywords": [
               "Star 1"
             ]
@@ -366,6 +399,7 @@
                 "id": "302:839",
                 "name": "For (ℕ, =), the MSO theory reduces to the first-order theory",
                 "disabled": false,
+                "eventId": "0",
                 "keywords": [
                   "For (ℕ, =), the MSO theory reduces to the first-order theory",
                   "Question. [Tarski] Is the MSO theory of (ℕ, ≤) decidable?"
@@ -376,6 +410,7 @@
                 "id": "111:13",
                 "name": "The weak MSO theory of (ℕ, ≤) is decidable",
                 "disabled": false,
+                "eventId": "1",
                 "keywords": [
                   "The weak MSO theory of (ℕ, ≤) is decidable"
                 ]
@@ -390,6 +425,7 @@
                     "id": "113:3",
                     "name": "Weak MSO has the same syntax as MSO, but set quantification is restricted to finite sets.",
                     "disabled": false,
+                    "eventId": "0",
                     "keywords": [
                       "Weak MSO has the same syntax as MSO, but set quantification is restricted to finite sets."
                     ]
@@ -399,6 +435,7 @@
                     "id": "120:346",
                     "name": "∃X ∀x x ∈ X",
                     "disabled": false,
+                    "eventId": "1",
                     "keywords": [
                       "∃X ∀x x ∈ X",
                       "ℕ ⊭",
@@ -412,6 +449,7 @@
                     "id": "113:11",
                     "name": "Theorem. [BEEVT] The weak MSO theory of (ℕ, ≤) is decidable.",
                     "disabled": false,
+                    "eventId": "2",
                     "keywords": [
                       "Theorem. [BEEVT] The weak MSO theory of (ℕ, ≤) is decidable."
                     ]
@@ -426,6 +464,7 @@
                         "id": "113:15",
                         "name": "Consider a formula φ(x, Y, Z ) of weak MSO. How do we represent the semantics of φ, which is a set of triples (number, finite set of numbers, finite set of numbers)?",
                         "disabled": false,
+                        "eventId": "0",
                         "keywords": [
                           "Consider a formula φ(x, Y, Z ) of weak MSO. How do we represent the semantics of φ, which is a set of triples (number, finite set of numbers, finite set of numbers)?"
                         ]
@@ -435,6 +474,7 @@
                         "id": "113:91",
                         "name": "A quantifier-free formula?",
                         "disabled": false,
+                        "eventId": "1",
                         "keywords": [
                           "A quantifier-free formula?"
                         ]
@@ -444,6 +484,7 @@
                         "id": "113:93",
                         "name": "A semilinear set?",
                         "disabled": false,
+                        "eventId": "2",
                         "keywords": [
                           "A semilinear set?"
                         ]
@@ -453,6 +494,7 @@
                         "id": "113:94",
                         "name": "An automaton!",
                         "disabled": false,
+                        "eventId": "3",
                         "keywords": [
                           "An automaton!"
                         ]
@@ -467,6 +509,7 @@
                             "id": "120:365",
                             "name": "2",
                             "disabled": false,
+                            "eventId": "0",
                             "keywords": [
                               "2",
                               "0",
@@ -500,13 +543,15 @@
                         ],
                         "keywords": [
                           "triples of sets as finite words"
-                        ]
+                        ],
+                        "eventId": "4"
                       },
                       {
                         "type": "show",
                         "id": "120:347",
                         "name": "Lemma. For every formula of weak MSO, one can compute a finite automaton that recognizes the corresponding set of words",
                         "disabled": false,
+                        "eventId": "5",
                         "keywords": [
                           "Lemma. For every formula of weak MSO, one can compute a finite automaton that recognizes the corresponding set of words"
                         ]
@@ -521,6 +566,7 @@
                             "id": "113:205",
                             "name": "Proof. Induction on formula size.",
                             "disabled": false,
+                            "eventId": "0",
                             "keywords": [
                               "Proof. Induction on formula size."
                             ]
@@ -530,6 +576,7 @@
                             "id": "120:350",
                             "name": "For the atomic formulas",
                             "disabled": false,
+                            "eventId": "1",
                             "keywords": [
                               "For the atomic formulas",
                               "the language is clearly regular."
@@ -540,6 +587,7 @@
                             "id": "113:275",
                             "name": "For ∨ and ¬, we use closure of regular languages under union and complementation.",
                             "disabled": false,
+                            "eventId": "2",
                             "keywords": [
                               "For ∨ and ¬, we use closure of regular languages under union and complementation."
                             ]
@@ -549,6 +597,7 @@
                             "id": "113:276",
                             "name": "For ∃, we use closure of regular languages under projection:",
                             "disabled": false,
+                            "eventId": "3",
                             "keywords": [
                               "For ∃, we use closure of regular languages under projection:"
                             ]
@@ -563,6 +612,7 @@
                                 "id": "302:961",
                                 "name": "Consider a formula φ(x1, ..., xn) which defines",
                                 "disabled": false,
+                                "eventId": "0",
                                 "keywords": [
                                   "Consider a formula φ(x1, ..., xn) which defines",
                                   "L ⊆ {+, -}n"
@@ -573,6 +623,7 @@
                                 "id": "302:964",
                                 "name": "a word in L",
                                 "disabled": false,
+                                "eventId": "1",
                                 "keywords": [
                                   "–",
                                   "+",
@@ -584,6 +635,7 @@
                                 "id": "302:966",
                                 "name": "a word in L’ is obtained by taking a word from L and erasing the last coordinate",
                                 "disabled": false,
+                                "eventId": "2",
                                 "keywords": [
                                   "The formula ∃xn φ(x1, ..., xn) defines the projection",
                                   "onto the first n-1 coordinates",
@@ -598,6 +650,7 @@
                                 "id": "302:960",
                                 "name": "Regular languages are closed under projections",
                                 "disabled": false,
+                                "eventId": "3",
                                 "keywords": [
                                   "Regular languages are closed under projections"
                                 ]
@@ -605,13 +658,15 @@
                             ],
                             "keywords": [
                               "explain projection"
-                            ]
+                            ],
+                            "eventId": "4"
                           },
                           {
                             "type": "show",
                             "id": "113:279",
                             "name": "deterministic automata",
                             "disabled": false,
+                            "eventId": "5",
                             "keywords": [
                               "deterministic automata"
                             ]
@@ -621,6 +676,7 @@
                             "id": "113:280",
                             "name": "nondeterministic automata, or regular expressions",
                             "disabled": false,
+                            "eventId": "6",
                             "keywords": [
                               "nondeterministic automata, or regular expressions"
                             ]
@@ -630,6 +686,7 @@
                             "id": "120:351",
                             "name": "If the formula alternates n times between complementation and projection, then determinization is applied n times, resulting in an n-fold exponential automaton.",
                             "disabled": false,
+                            "eventId": "7",
                             "keywords": [
                               "If the formula alternates n times between complementation and projection, then determinization is applied n times, resulting in an n-fold exponential automaton."
                             ]
@@ -637,13 +694,15 @@
                         ],
                         "keywords": [
                           "weak mso automata proof"
-                        ]
+                        ],
+                        "eventId": "6"
                       }
                     ],
                     "keywords": [
                       "1",
                       "weak mso automata"
-                    ]
+                    ],
+                    "eventId": "3"
                   },
                   {
                     "type": "child",
@@ -655,6 +714,7 @@
                         "id": "119:25",
                         "name": "Trakhtenbrot 1958",
                         "disabled": false,
+                        "eventId": "0",
                         "keywords": [
                           "Trakhtenbrot 1958"
                         ]
@@ -664,6 +724,7 @@
                         "id": "119:17",
                         "name": "image 2",
                         "disabled": false,
+                        "eventId": "1",
                         "keywords": [
                           "image 2"
                         ]
@@ -673,6 +734,7 @@
                         "id": "118:2",
                         "name": "Büchi and Elgot 1958",
                         "disabled": false,
+                        "eventId": "2",
                         "keywords": [
                           "Büchi and Elgot 1958"
                         ]
@@ -682,6 +744,7 @@
                         "id": "120:354",
                         "name": "Group 14",
                         "disabled": false,
+                        "eventId": "3",
                         "keywords": [
                           "Group 14"
                         ]
@@ -691,6 +754,7 @@
                         "id": "120:352",
                         "name": "Group 13",
                         "disabled": false,
+                        "eventId": "4",
                         "keywords": [
                           "Group 13"
                         ]
@@ -700,6 +764,7 @@
                         "id": "119:12",
                         "name": "Group 6",
                         "disabled": false,
+                        "eventId": "7",
                         "keywords": [
                           "Group 6"
                         ]
@@ -714,6 +779,7 @@
                             "id": "120:355",
                             "name": "Represent a number as a finite set, namely its binary expansion",
                             "disabled": false,
+                            "eventId": "0",
                             "keywords": [
                               "Represent a number as a finite set, namely its binary expansion",
                               "67 = 20 + 21 + 26 is represented by the set {0, 1, 6}"
@@ -724,6 +790,7 @@
                             "id": "120:356",
                             "name": "Under this representation, there is a WMSO formula for x + y = z",
                             "disabled": false,
+                            "eventId": "1",
                             "keywords": [
                               "Under this representation, there is a WMSO formula for x + y = z",
                               "1",
@@ -736,6 +803,7 @@
                             "id": "119:133",
                             "name": "Corollary For every formula φ(x1, ... xn) of Presburger arithmetic, the corresponding n-ary relation on binary expansions is definable in WMSO (equivalently, can be recognized by a finite automaton).",
                             "disabled": false,
+                            "eventId": "2",
                             "keywords": [
                               "Corollary For every formula φ(x1, ... xn) of Presburger arithmetic, the corresponding n-ary relation on binary expansions is definable in WMSO (equivalently, can be recognized by a finite automaton)."
                             ]
@@ -745,6 +813,7 @@
                             "id": "119:180",
                             "name": "The corollary would still be true if we added “x is a power of 2”",
                             "disabled": false,
+                            "eventId": "3",
                             "keywords": [
                               "The corollary would still be true if we added “x is a power of 2”"
                             ]
@@ -754,6 +823,7 @@
                             "id": "119:181",
                             "name": "or “x is the smallest power of 2 that divides both y and z”",
                             "disabled": false,
+                            "eventId": "4",
                             "keywords": [
                               "or “x is the smallest power of 2 that divides both y and z”"
                             ]
@@ -763,6 +833,7 @@
                             "id": "119:182",
                             "name": "(ℤ, +) is an example of an automatic group [Thurston, Epstein, ... 1980’s], or more generally an automatic structure [Nerode, Khoussainov 1994]",
                             "disabled": false,
+                            "eventId": "5",
                             "keywords": [
                               "(ℤ, +) is an example of an automatic group [Thurston, Epstein, ... 1980’s], or more generally an automatic structure [Nerode, Khoussainov 1994]"
                             ]
@@ -770,23 +841,27 @@
                         ],
                         "keywords": [
                           "Automatic Presburger"
-                        ]
+                        ],
+                        "eventId": "8"
                       }
                     ],
                     "keywords": [
                       "mso history"
-                    ]
+                    ],
+                    "eventId": "4"
                   }
                 ],
                 "keywords": [
                   "weak mso"
-                ]
+                ],
+                "eventId": "2"
               },
               {
                 "type": "show",
                 "id": "111:14",
                 "name": "The MSO theory of (ℕ, ≤) is decidable",
                 "disabled": false,
+                "eventId": "3",
                 "keywords": [
                   "The MSO theory of (ℕ, ≤) is decidable"
                 ]
@@ -796,6 +871,7 @@
                 "id": "111:15",
                 "name": "The MSO theory of ({0,1}*, ≤) is decidable",
                 "disabled": false,
+                "eventId": "4",
                 "keywords": [
                   "The MSO theory of ({0,1}*, ≤) is decidable"
                 ]
@@ -805,6 +881,7 @@
                 "id": "301:104",
                 "name": "using automata for infinite words and trees",
                 "disabled": false,
+                "eventId": "5",
                 "keywords": [
                   "using automata for infinite words and trees"
                 ]
@@ -814,6 +891,7 @@
                 "id": "111:16",
                 "name": "The MSO theory of (ℝ, ≤) is undecidable",
                 "disabled": false,
+                "eventId": "6",
                 "keywords": [
                   "The MSO theory of (ℝ, ≤) is undecidable"
                 ]
@@ -823,6 +901,7 @@
                 "id": "302:840",
                 "name": "using madness",
                 "disabled": false,
+                "eventId": "7",
                 "keywords": [
                   "using madness"
                 ]
@@ -830,12 +909,14 @@
             ],
             "keywords": [
               "monadic second order logic"
-            ]
+            ],
+            "eventId": "14"
           }
         ],
         "keywords": [
           "M fixed φ input"
-        ]
+        ],
+        "eventId": "19"
       },
       {
         "type": "child",
@@ -847,6 +928,7 @@
             "id": "301:118",
             "name": "what logic?",
             "disabled": false,
+            "eventId": "0",
             "keywords": [
               "what logic?"
             ]
@@ -856,6 +938,7 @@
             "id": "301:119",
             "name": "which models?",
             "disabled": false,
+            "eventId": "1",
             "keywords": [
               "which models?"
             ]
@@ -865,6 +948,7 @@
             "id": "302:842",
             "name": "All models and first-order logic: Entscheidungsproblem",
             "disabled": false,
+            "eventId": "2",
             "keywords": [
               "All models and first-order logic: Entscheidungsproblem",
               "Undecidable [Church & Turing]"
@@ -875,6 +959,7 @@
             "id": "301:126",
             "name": "axis 1: restrict the models",
             "disabled": false,
+            "eventId": "3",
             "keywords": [
               "axis 1: restrict the models"
             ]
@@ -884,6 +969,7 @@
             "id": "301:129",
             "name": "axis 2: restrict the logic",
             "disabled": false,
+            "eventId": "4",
             "keywords": [
               "axis 2: restrict the logic"
             ]
@@ -893,6 +979,7 @@
             "id": "301:122",
             "name": "Words and trees",
             "disabled": false,
+            "eventId": "5",
             "keywords": [
               "Words and trees"
             ]
@@ -902,6 +989,7 @@
             "id": "301:123",
             "name": "Treewidth",
             "disabled": false,
+            "eventId": "6",
             "keywords": [
               "Treewidth"
             ]
@@ -916,6 +1004,7 @@
                 "id": "301:222",
                 "name": "A finite word w ∈ Σ* can be viewed as a model",
                 "disabled": false,
+                "eventId": "0",
                 "keywords": [
                   "A finite word w ∈ Σ* can be viewed as a model",
                   "underlying set: positions in the word",
@@ -927,6 +1016,7 @@
                 "id": "301:226",
                 "name": "With such models, we can use logic to define languages of finite words.",
                 "disabled": false,
+                "eventId": "1",
                 "keywords": [
                   "With such models, we can use logic to define languages of finite words.",
                   "w ∈ (a+b)*a",
@@ -940,6 +1030,7 @@
                 "id": "301:232",
                 "name": "For a language L ⊆ Σ*, the following conditions are equivalent:",
                 "disabled": false,
+                "eventId": "2",
                 "keywords": [
                   "For a language L ⊆ Σ*, the following conditions are equivalent:",
                   "regular (recognized by a finite automaton)",
@@ -951,6 +1042,7 @@
                 "id": "301:241",
                 "name": "because regular languages are closed under ∨ ∧ ¬ ∃",
                 "disabled": false,
+                "eventId": "3",
                 "keywords": [
                   "regular languages are closed under ∨ ∧ ¬ ∃",
                   "because regular languages are closed under ∨ ∧ ¬ ∃"
@@ -961,6 +1053,7 @@
                 "id": "302:890",
                 "name": "“automaton A has an accepting run” can be written in MSO",
                 "disabled": false,
+                "eventId": "4",
                 "keywords": [
                   "“automaton A has an accepting run” can be written in MSO"
                 ]
@@ -970,6 +1063,7 @@
                 "id": "301:245",
                 "name": "Theorem. [Büchi, Elgot, Trakhtenbrot 1958] The following problem is decidable: input: MSO sentence using x < y and {a(x)}a ∈ Σ question: is it true in some w ∈ Σ*?",
                 "disabled": false,
+                "eventId": "5",
                 "keywords": [
                   "Theorem. [Büchi, Elgot, Trakhtenbrot 1958] The following problem is decidable: input: MSO sentence using x < y and {a(x)}a ∈ Σ question: is it true in some w ∈ Σ*?"
                 ]
@@ -979,6 +1073,7 @@
                 "id": "301:246",
                 "name": "Because the MSO → automata translation is computable",
                 "disabled": false,
+                "eventId": "6",
                 "keywords": [
                   "Because the MSO → automata translation is computable"
                 ]
@@ -988,6 +1083,7 @@
                 "id": "301:237",
                 "name": "recognized by a finite monoid",
                 "disabled": false,
+                "eventId": "7",
                 "keywords": [
                   "recognized by a finite monoid"
                 ]
@@ -1002,6 +1098,7 @@
                     "id": "302:970",
                     "name": "The equivalence of MSO and automata holds also for other objects, such as: – ω-words [Büchi 1962] – finite trees [Thatcher and Wright 1968] – infinite trees [Rabin 1969]",
                     "disabled": false,
+                    "eventId": "0",
                     "keywords": [
                       "The equivalence of MSO and automata holds also for other objects, such as: – ω-words [Büchi 1962] – finite trees [Thatcher and Wright 1968] – infinite trees [Rabin 1969]"
                     ]
@@ -1011,6 +1108,7 @@
                     "id": "302:1043",
                     "name": "Automata for finite trees",
                     "disabled": false,
+                    "eventId": "1",
                     "keywords": [
                       "Automata for finite trees",
                       "p",
@@ -1028,6 +1126,7 @@
                     "id": "302:1039",
                     "name": "transition",
                     "disabled": false,
+                    "eventId": "2",
                     "keywords": [
                       "transition",
                       "p",
@@ -1041,6 +1140,7 @@
                     "id": "302:1040",
                     "name": "transition",
                     "disabled": false,
+                    "eventId": "3",
                     "keywords": [
                       "transition",
                       "p",
@@ -1050,12 +1150,14 @@
                 ],
                 "keywords": [
                   "other kinds of automata"
-                ]
+                ],
+                "eventId": "8"
               }
             ],
             "keywords": [
               "Finite words"
-            ]
+            ],
+            "eventId": "7"
           },
           {
             "type": "child",
@@ -1067,6 +1169,7 @@
                 "id": "301:251",
                 "name": "We can also view a graph as a model. The underlying set is the disjoint union of vertices and edges, and there is one relation incident (v, e).",
                 "disabled": false,
+                "eventId": "0",
                 "keywords": [
                   "We can view a graph as a model. The underlying set is the disjoint union of vertices and edges, and there is one relation incident (v, e).",
                   "undirected and finite",
@@ -1078,6 +1181,7 @@
                 "id": "301:250",
                 "name": "alternative choice: underlying set is vertices only, and there is relation edge(v, w)",
                 "disabled": false,
+                "eventId": "1",
                 "keywords": [
                   "alternative choice: underlying set is vertices only, and there is relation edge(v, w)"
                 ]
@@ -1087,6 +1191,7 @@
                 "id": "301:248",
                 "name": "Already for first-order logic, the satisfiability problem is undecidable: input: a first-order sentence using the incident relation question: is it true in some graph?",
                 "disabled": false,
+                "eventId": "2",
                 "keywords": [
                   "Already for first-order logic, the satisfiability problem is undecidable: input: a first-order sentence using the incident relation question: is it true in some graph?"
                 ]
@@ -1101,6 +1206,7 @@
                     "id": "301:406",
                     "name": "The graphs that witness undecidability look like this:",
                     "disabled": false,
+                    "eventId": "0",
                     "keywords": [
                       "The graphs that witness undecidability look like this:"
                     ]
@@ -1110,6 +1216,7 @@
                     "id": "301:457",
                     "name": "What about graphs that look like this:",
                     "disabled": false,
+                    "eventId": "1",
                     "keywords": [
                       "What about graphs that look like this:"
                     ]
@@ -1124,6 +1231,7 @@
                         "id": "301:541",
                         "name": "A graph with ports is a graph with distinguished distinguished vertices.",
                         "disabled": false,
+                        "eventId": "0",
                         "keywords": [
                           "A graph with ports is a graph with distinguished distinguished vertices."
                         ]
@@ -1133,6 +1241,7 @@
                         "id": "301:651",
                         "name": "ports",
                         "disabled": false,
+                        "eventId": "1",
                         "keywords": [
                           "ports"
                         ]
@@ -1142,6 +1251,7 @@
                         "id": "301:540",
                         "name": "Definition. A graph has treewidth k ∈ {1,2, ...} if it can be constructed using the following operations, so that in every moment at most k+1 ports are used.",
                         "disabled": false,
+                        "eventId": "2",
                         "keywords": [
                           "Definition. A graph has treewidth k ∈ {1,2, ...} if it can be constructed using the following operations, so that in every moment at most k+1 ports are used."
                         ]
@@ -1151,6 +1261,7 @@
                         "id": "301:651",
                         "name": "ports",
                         "disabled": false,
+                        "eventId": "3",
                         "keywords": [
                           "ports"
                         ]
@@ -1160,6 +1271,7 @@
                         "id": "301:542",
                         "name": "Constant",
                         "disabled": false,
+                        "eventId": "4",
                         "keywords": [
                           "Constant",
                           "We have a constant for every graph where all vertices are distinguished."
@@ -1170,6 +1282,7 @@
                         "id": "301:554",
                         "name": "Forget",
                         "disabled": false,
+                        "eventId": "5",
                         "keywords": [
                           "Forget",
                           "Input: a graph with ports, and a chosen port"
@@ -1180,6 +1293,7 @@
                         "id": "301:572",
                         "name": "Output: the chosen port is no longer a port",
                         "disabled": false,
+                        "eventId": "6",
                         "keywords": [
                           "Output: the chosen port is no longer a port"
                         ]
@@ -1189,6 +1303,7 @@
                         "id": "301:618",
                         "name": "Fuse",
                         "disabled": false,
+                        "eventId": "7",
                         "keywords": [
                           "Fuse",
                           "Input: two graphs with ports, and a partial bijection between the ports",
@@ -1200,6 +1315,7 @@
                         "id": "301:588",
                         "name": "Output: the disjoint union, except that pairs from the bijection are fused",
                         "disabled": false,
+                        "eventId": "8",
                         "keywords": [
                           "Output: the disjoint union, except that pairs from the bijection are fused"
                         ]
@@ -1214,6 +1330,7 @@
                             "id": "301:878",
                             "name": "The 8-cycle has treewidth 2, because it can be constructed using 3 ports.",
                             "disabled": false,
+                            "eventId": "0",
                             "keywords": [
                               "The 8-cycle has treewidth 2, because it can be constructed using 3 ports."
                             ]
@@ -1223,6 +1340,7 @@
                             "id": "301:683",
                             "name": "Group 39",
                             "disabled": false,
+                            "eventId": "1",
                             "keywords": [
                               "Group 39"
                             ]
@@ -1232,6 +1350,7 @@
                             "id": "301:717",
                             "name": "Group 40",
                             "disabled": false,
+                            "eventId": "2",
                             "keywords": [
                               "Group 40"
                             ]
@@ -1241,6 +1360,7 @@
                             "id": "301:691",
                             "name": "Group 41",
                             "disabled": false,
+                            "eventId": "3",
                             "keywords": [
                               "Group 41"
                             ]
@@ -1250,6 +1370,7 @@
                             "id": "301:703",
                             "name": "Group 43",
                             "disabled": false,
+                            "eventId": "4",
                             "keywords": [
                               "Group 43"
                             ]
@@ -1259,6 +1380,7 @@
                             "id": "301:726",
                             "name": "Group 44",
                             "disabled": false,
+                            "eventId": "5",
                             "keywords": [
                               "Group 44"
                             ]
@@ -1268,6 +1390,7 @@
                             "id": "301:697",
                             "name": "Group 45",
                             "disabled": false,
+                            "eventId": "6",
                             "keywords": [
                               "Group 45"
                             ]
@@ -1277,6 +1400,7 @@
                             "id": "301:751",
                             "name": "Group 46",
                             "disabled": false,
+                            "eventId": "7",
                             "keywords": [
                               "Group 46"
                             ]
@@ -1286,6 +1410,7 @@
                             "id": "301:737",
                             "name": "Group 47",
                             "disabled": false,
+                            "eventId": "8",
                             "keywords": [
                               "Group 47"
                             ]
@@ -1295,6 +1420,7 @@
                             "id": "301:766",
                             "name": "Group 48",
                             "disabled": false,
+                            "eventId": "9",
                             "keywords": [
                               "Group 48"
                             ]
@@ -1304,6 +1430,7 @@
                             "id": "301:839",
                             "name": "Group 49",
                             "disabled": false,
+                            "eventId": "10",
                             "keywords": [
                               "Group 49"
                             ]
@@ -1313,6 +1440,7 @@
                             "id": "301:859",
                             "name": "Group 50",
                             "disabled": false,
+                            "eventId": "11",
                             "keywords": [
                               "Group 50"
                             ]
@@ -1322,6 +1450,7 @@
                             "id": "301:879",
                             "name": "All cycles have treewidth 2.",
                             "disabled": false,
+                            "eventId": "12",
                             "keywords": [
                               "All cycles have treewidth 2."
                             ]
@@ -1329,17 +1458,20 @@
                         ],
                         "keywords": [
                           "A tree decomposition"
-                        ]
+                        ],
+                        "eventId": "9"
                       }
                     ],
                     "keywords": [
                       "Treewidth definition"
-                    ]
+                    ],
+                    "eventId": "2"
                   }
                 ],
                 "keywords": [
                   "Grids and treelike"
-                ]
+                ],
+                "eventId": "3"
               },
               {
                 "type": "child",
@@ -1351,6 +1483,7 @@
                     "id": "301:881",
                     "name": "Theorem. [Courcelle] The following problem is decidable: input: an MSO sentence φ and k ∈ {1, 2, ..} question: is φ true in some graph of treewidth at most k?",
                     "disabled": false,
+                    "eventId": "0",
                     "keywords": [
                       "Theorem. [Courcelle] The following problem is decidable: input: an MSO sentence φ and k ∈ {1, 2, ..} question: is φ true in some graph of treewidth at most k?"
                     ]
@@ -1360,6 +1493,7 @@
                     "id": "302:850",
                     "name": "satisfiability of MSO on graphs of treewidth k",
                     "disabled": false,
+                    "eventId": "1",
                     "keywords": [
                       "satisfiability of MSO on graphs of treewidth k"
                     ]
@@ -1369,6 +1503,7 @@
                     "id": "302:858",
                     "name": "satisfiability of MSO on trees",
                     "disabled": false,
+                    "eventId": "2",
                     "keywords": [
                       "satisfiability of MSO on trees"
                     ]
@@ -1378,6 +1513,7 @@
                     "id": "302:859",
                     "name": "emptiness for tree automata",
                     "disabled": false,
+                    "eventId": "3",
                     "keywords": [
                       "emptiness for tree automata"
                     ]
@@ -1387,6 +1523,7 @@
                     "id": "301:883",
                     "name": "A deep theorem of Robertson and Seymour says that if a graph has large treewidth, then it contains a large grid as a minor.",
                     "disabled": false,
+                    "eventId": "4",
                     "keywords": [
                       "A deep theorem of Robertson and Seymour says that if a graph has large treewidth, then it contains a large grid as a minor."
                     ]
@@ -1396,6 +1533,7 @@
                     "id": "301:884",
                     "name": "MSO can find that minor, and use it to describe a computation of a Turing machine. Hence:",
                     "disabled": false,
+                    "eventId": "5",
                     "keywords": [
                       "MSO can find that minor, and use it to describe a computation of a Turing machine. Hence:"
                     ]
@@ -1405,6 +1543,7 @@
                     "id": "301:882",
                     "name": "Theorem. [Seese] If C is a class of graphs of unbouned treewidth, then the following problem is undecidable: input: an MSO sentence φ question: is φ true in some graph from C?",
                     "disabled": false,
+                    "eventId": "6",
                     "keywords": [
                       "Theorem. [Seese] If C is a class of graphs of unbouned treewidth, then the following problem is undecidable: input: an MSO sentence φ question: is φ true in some graph from C?"
                     ]
@@ -1412,17 +1551,20 @@
                 ],
                 "keywords": [
                   "Courcelle Seese"
-                ]
+                ],
+                "eventId": "4"
               }
             ],
             "keywords": [
               "Treelike graphs"
-            ]
+            ],
+            "eventId": "8"
           }
         ],
         "keywords": [
           "Satisfiability"
-        ]
+        ],
+        "eventId": "20"
       },
       {
         "type": "child",
@@ -1434,6 +1576,7 @@
             "id": "302:14",
             "name": "Many classical algorithmic problems can be formalized in logic",
             "disabled": false,
+            "eventId": "0",
             "keywords": [
               "Many classical algorithmic problems can be formalized in logic"
             ]
@@ -1448,6 +1591,7 @@
                 "id": "302:24",
                 "name": "First-order logic",
                 "disabled": false,
+                "eventId": "0",
                 "keywords": [
                   "First-order logic"
                 ]
@@ -1457,6 +1601,7 @@
                 "id": "302:25",
                 "name": "Independent set of size k:",
                 "disabled": false,
+                "eventId": "1",
                 "keywords": [
                   "Clique of size k:",
                   "Independent set of size k:"
@@ -1467,6 +1612,7 @@
                 "id": "302:49",
                 "name": "Dominating set of size k:",
                 "disabled": false,
+                "eventId": "2",
                 "keywords": [
                   "Vertex cover set of size k:",
                   "Dominating set of size k:"
@@ -1477,6 +1623,7 @@
                 "id": "302:89",
                 "name": "Maybe for every first-order sentence φ, there is a linear time algorithm which recognizes graphs where φ is true?",
                 "disabled": false,
+                "eventId": "3",
                 "keywords": [
                   "Maybe for every first-order sentence φ, there is a linear time algorithm which recognizes graphs where φ is true?"
                 ]
@@ -1486,6 +1633,7 @@
                 "id": "302:90",
                 "name": "The naive algorithm is polynomial, but the degree of the polynomial depends on φ.",
                 "disabled": false,
+                "eventId": "4",
                 "keywords": [
                   "The naive algorithm is polynomial, but the degree of the polynomial depends on φ."
                 ]
@@ -1495,6 +1643,7 @@
                 "id": "302:879",
                 "name": "Can be solved in linear time for every k:",
                 "disabled": false,
+                "eventId": "5",
                 "keywords": [
                   "Can be solved in linear time for every k:",
                   "2k O(graph size)"
@@ -1505,6 +1654,7 @@
                 "id": "302:86",
                 "name": "Conjecture: cannot be solved in time",
                 "disabled": false,
+                "eventId": "6",
                 "keywords": [
                   "Conjecture: cannot be solved in time",
                   "f (k) poly(graph size)"
@@ -1513,7 +1663,8 @@
             ],
             "keywords": [
               "First-order graph properties"
-            ]
+            ],
+            "eventId": "1"
           },
           {
             "type": "child",
@@ -1525,6 +1676,7 @@
                 "id": "302:92",
                 "name": "Monadic second-order logic",
                 "disabled": false,
+                "eventId": "0",
                 "keywords": [
                   "Monadic second-order logic"
                 ]
@@ -1534,6 +1686,7 @@
                 "id": "302:93",
                 "name": "3-colourability",
                 "disabled": false,
+                "eventId": "1",
                 "keywords": [
                   "3-colourability"
                 ]
@@ -1543,6 +1696,7 @@
                 "id": "302:98",
                 "name": "There exist 3 sets of vertices, such that:",
                 "disabled": false,
+                "eventId": "2",
                 "keywords": [
                   "There exist 3 sets of vertices, such that:"
                 ]
@@ -1552,6 +1706,7 @@
                 "id": "302:95",
                 "name": "b. no edge has both endpoints in the same set",
                 "disabled": false,
+                "eventId": "3",
                 "keywords": [
                   "b. no edge has both endpoints in the same set"
                 ]
@@ -1561,6 +1716,7 @@
                 "id": "302:99",
                 "name": "a. every vertex belongs to some set",
                 "disabled": false,
+                "eventId": "4",
                 "keywords": [
                   "a. every vertex belongs to some set"
                 ]
@@ -1570,6 +1726,7 @@
                 "id": "302:94",
                 "name": "Hamiltonian path",
                 "disabled": false,
+                "eventId": "5",
                 "keywords": [
                   "Hamiltonian path"
                 ]
@@ -1579,6 +1736,7 @@
                 "id": "302:96",
                 "name": "There exists a set F of edges such that:",
                 "disabled": false,
+                "eventId": "6",
                 "keywords": [
                   "There exists a set F of edges such that:"
                 ]
@@ -1588,6 +1746,7 @@
                 "id": "302:97",
                 "name": "a. every vertex is incident to exactly two edges from F",
                 "disabled": false,
+                "eventId": "7",
                 "keywords": [
                   "a. every vertex is incident to exactly two edges from F"
                 ]
@@ -1597,6 +1756,7 @@
                 "id": "302:100",
                 "name": "b. for every proper subset G ⊆ F, some vertex is incident to exactly 1 edge from G",
                 "disabled": false,
+                "eventId": "8",
                 "keywords": [
                   "b. for every proper subset G ⊆ F, some vertex is incident to exactly 1 edge from G"
                 ]
@@ -1604,13 +1764,15 @@
             ],
             "keywords": [
               "Second-order graph properties"
-            ]
+            ],
+            "eventId": "2"
           },
           {
             "type": "show",
             "id": "302:17",
             "name": "Hence the value of theorems such as these:",
             "disabled": false,
+            "eventId": "3",
             "keywords": [
               "Hence the value of theorems such as these:"
             ]
@@ -1620,6 +1782,7 @@
             "id": "302:18",
             "name": "Theorem. [Seese 1996] For every sentence φ of first-order logic and d ∈ {1, 2, ..}, the following problem can be solved in linear time: input: graph of degree d question: does it satisfy φ?",
             "disabled": false,
+            "eventId": "4",
             "keywords": [
               "Theorem. [Seese 1996] For every sentence φ of first-order logic and d ∈ {1, 2, ..}, the following problem can be solved in linear time: input: graph of degree d question: does it satisfy φ?"
             ]
@@ -1629,6 +1792,7 @@
             "id": "302:20",
             "name": "Corollary. For every k and d, there is a linear time algorithm for dominating set of size k on graphs of degree at most d.",
             "disabled": false,
+            "eventId": "5",
             "keywords": [
               "Corollary. For every k and d, there is a linear time algorithm for dominating set of size k on graphs of degree at most d."
             ]
@@ -1638,6 +1802,7 @@
             "id": "302:19",
             "name": "Theorem. [Courcelle 1990] For every sentence φ of MSO and k ∈ {1, 2, ..}, the following problem can be solved in linear time: input: graph of treewidth k question: does it satisfy φ?",
             "disabled": false,
+            "eventId": "6",
             "keywords": [
               "Theorem. [Courcelle 1990] For every sentence φ of MSO and k ∈ {1, 2, ..}, the following problem can be solved in linear time: input: graph of treewidth k question: does it satisfy φ?"
             ]
@@ -1647,6 +1812,7 @@
             "id": "302:21",
             "name": "Corollary. For every k, there is a linear time algorithm for Hamiltonian path on graphs of treewidth at most k.",
             "disabled": false,
+            "eventId": "7",
             "keywords": [
               "Corollary. For every k, there is a linear time algorithm for Hamiltonian path on graphs of treewidth at most k."
             ]
@@ -1656,6 +1822,7 @@
             "id": "302:22",
             "name": "Algorithmic meta-theorems",
             "disabled": false,
+            "eventId": "8",
             "keywords": [
               "Algorithmic meta-theorems"
             ]
@@ -1670,6 +1837,7 @@
                 "id": "302:103",
                 "name": "Follows immediately from these two results:",
                 "disabled": false,
+                "eventId": "0",
                 "keywords": [
                   "Follows immediately from these two results:"
                 ]
@@ -1679,6 +1847,7 @@
                 "id": "302:104",
                 "name": "Theorem. [Bodlaender] For every k ∈ {1, 2, ...}, the following problem can be solved in linear time: input: a graph output: a tree decomposition of width k, or “no” if there is no such tree decomposition.",
                 "disabled": false,
+                "eventId": "1",
                 "keywords": [
                   "Theorem. [Bodlaender] For every k ∈ {1, 2, ...}, the following problem can be solved in linear time: input: a graph output: a tree decomposition of width k, or “no” if there is no such tree decomposition."
                 ]
@@ -1688,6 +1857,7 @@
                 "id": "302:106",
                 "name": "A hard algorithm.",
                 "disabled": false,
+                "eventId": "2",
                 "keywords": [
                   "A hard algorithm."
                 ]
@@ -1697,6 +1867,7 @@
                 "id": "302:107",
                 "name": "Robertson and Seymour give a simple cubic algorithm.",
                 "disabled": false,
+                "eventId": "3",
                 "keywords": [
                   "Robertson and Seymour give a simple cubic algorithm."
                 ]
@@ -1706,6 +1877,7 @@
                 "id": "302:105",
                 "name": "Lemma. For every k ∈ {1, 2, ...} and MSO sentence φ, the following problem can be solved in linear time: input: a tree decomposition of width k output: does the underlying graph satisfy φ?",
                 "disabled": false,
+                "eventId": "4",
                 "keywords": [
                   "Lemma. For every k ∈ {1, 2, ...} and MSO sentence φ, the following problem can be solved in linear time: input: a tree decomposition of width k output: does the underlying graph satisfy φ?"
                 ]
@@ -1715,6 +1887,7 @@
                 "id": "302:108",
                 "name": "A variant of this theorem is true for rankwidth (aka cliquewidth)",
                 "disabled": false,
+                "eventId": "5",
                 "keywords": [
                   "A variant of this theorem is true for rankwidth (aka cliquewidth)"
                 ]
@@ -1722,7 +1895,8 @@
             ],
             "keywords": [
               "Courcelle theorem"
-            ]
+            ],
+            "eventId": "9"
           },
           {
             "type": "child",
@@ -1734,6 +1908,7 @@
                 "id": "302:198",
                 "name": "The main tool for this, and other similar results, is Gaifman’s theorem about the locality of first-order logic",
                 "disabled": false,
+                "eventId": "0",
                 "keywords": [
                   "The main tool for this, and other similar results, is Gaifman’s theorem about the locality of first-order logic"
                 ]
@@ -1748,6 +1923,7 @@
                     "id": "302:208",
                     "name": "Theorem. [Gaifman 1982] Every sentence φ of first-order logic on graphs is equivalent to a Boolean combination of basic local sentences:",
                     "disabled": false,
+                    "eventId": "0",
                     "keywords": [
                       "Theorem. [Gaifman 1982] Every sentence φ of first-order logic on graphs is equivalent to a Boolean combination of basic local sentences:"
                     ]
@@ -1757,6 +1933,7 @@
                     "id": "302:211",
                     "name": "a basic local sentence",
                     "disabled": false,
+                    "eventId": "1",
                     "keywords": [
                       "a basic local sentence",
                       "∧"
@@ -1767,6 +1944,7 @@
                     "id": "302:259",
                     "name": "a number k ∈ {0, 1, ...}",
                     "disabled": false,
+                    "eventId": "2",
                     "keywords": [
                       "a number k ∈ {0, 1, ...}"
                     ]
@@ -1776,6 +1954,7 @@
                     "id": "302:256",
                     "name": "a number r ∈ {0, 1, ...} called the radius",
                     "disabled": false,
+                    "eventId": "3",
                     "keywords": [
                       "a number r ∈ {0, 1, ...} called the radius"
                     ]
@@ -1785,6 +1964,7 @@
                     "id": "302:253",
                     "name": "a first-order formula φ(x) which is r-local",
                     "disabled": false,
+                    "eventId": "4",
                     "keywords": [
                       "a first-order formula φ(x) which is r-local, i.e. its truth value depends on vertices at distance at most r from x",
                       "a first-order formula φ(x) which is r-local"
@@ -1795,6 +1975,7 @@
                     "id": "302:209",
                     "name": "The theorem is effective, although with non-elementary complexity.",
                     "disabled": false,
+                    "eventId": "5",
                     "keywords": [
                       "The theorem is effective, although with non-elementary complexity."
                     ]
@@ -1802,13 +1983,15 @@
                 ],
                 "keywords": [
                   "Gaifman"
-                ]
+                ],
+                "eventId": "1"
               },
               {
                 "type": "show",
                 "id": "302:204",
                 "name": "Proof.",
                 "disabled": false,
+                "eventId": "2",
                 "keywords": [
                   "Proof."
                 ]
@@ -1823,6 +2006,7 @@
                     "id": "302:263",
                     "name": "Thanks to Gaifman’s theorem, it is enough to show that for every basic local sentence",
                     "disabled": false,
+                    "eventId": "0",
                     "keywords": [
                       "Thanks to Gaifman’s theorem, it is enough to show that for every basic local sentence",
                       "and every degree d ∈ {1, 2, ...} , there is a linear time algorithm which evaluates the sentence on graphs of degree at most d.",
@@ -1834,6 +2018,7 @@
                     "id": "302:436",
                     "name": "For every vertex x, we can check φ(x) in constant time.",
                     "disabled": false,
+                    "eventId": "1",
                     "keywords": [
                       "Because we are dealing with graphs of bounded degree, for every vertex x, we can check φ(x) in constant time.",
                       "the size of the r-neighbourhood is ≤ dr",
@@ -1843,13 +2028,15 @@
                 ],
                 "keywords": [
                   "Bounded degree proof"
-                ]
+                ],
+                "eventId": "3"
               },
               {
                 "type": "show",
                 "id": "302:199",
                 "name": "There are far-reaching generalizations of this result, beyond bounded degree.",
                 "disabled": false,
+                "eventId": "4",
                 "keywords": [
                   "There are far-reaching generalizations of this result, beyond bounded degree."
                 ]
@@ -1859,6 +2046,7 @@
                 "id": "302:200",
                 "name": "nowhere dense",
                 "disabled": false,
+                "eventId": "5",
                 "keywords": [
                   "nowhere dense"
                 ]
@@ -1868,6 +2056,7 @@
                 "id": "302:201",
                 "name": "twinwidth",
                 "disabled": false,
+                "eventId": "6",
                 "keywords": [
                   "twinwidth"
                 ]
@@ -1882,6 +2071,7 @@
                     "id": "302:578",
                     "name": "Nowhere dense classes",
                     "disabled": false,
+                    "eventId": "0",
                     "keywords": [
                       "Nowhere dense classes"
                     ]
@@ -1891,6 +2081,7 @@
                     "id": "302:575",
                     "name": "Let C be any of the following graph classes:",
                     "disabled": false,
+                    "eventId": "1",
                     "keywords": [
                       "Let C be any of the following graph classes:"
                     ]
@@ -1900,6 +2091,7 @@
                     "id": "302:571",
                     "name": "graphs of degree at most 5",
                     "disabled": false,
+                    "eventId": "2",
                     "keywords": [
                       "graphs of degree at most 5"
                     ]
@@ -1909,6 +2101,7 @@
                     "id": "302:572",
                     "name": "graphs of treewidth at most 5",
                     "disabled": false,
+                    "eventId": "3",
                     "keywords": [
                       "graphs of treewidth at most 5"
                     ]
@@ -1918,6 +2111,7 @@
                     "id": "302:573",
                     "name": "planar graphs",
                     "disabled": false,
+                    "eventId": "4",
                     "keywords": [
                       "planar graphs"
                     ]
@@ -1927,6 +2121,7 @@
                     "id": "302:574",
                     "name": "graphs that avoid the 5-clique as a minor",
                     "disabled": false,
+                    "eventId": "5",
                     "keywords": [
                       "graphs that avoid the 5-clique as a minor"
                     ]
@@ -1936,6 +2131,7 @@
                     "id": "302:569",
                     "name": "For every first-order sentence φ, there is a linear time algorithm for: input: a graph from C question: does it satisfy φ?",
                     "disabled": false,
+                    "eventId": "6",
                     "keywords": [
                       "For every first-order sentence φ, there is a linear time algorithm for: input: a graph from C question: does it satisfy φ?"
                     ]
@@ -1945,6 +2141,7 @@
                     "id": "302:570",
                     "name": "All of the above are examples of nowhere dense graph classes.",
                     "disabled": false,
+                    "eventId": "7",
                     "keywords": [
                       "All of the above are examples of nowhere dense graph classes."
                     ]
@@ -1959,6 +2156,7 @@
                         "id": "302:601",
                         "name": "Consider a radius r ∈ {0, 1, ...} and two graphs:",
                         "disabled": false,
+                        "eventId": "0",
                         "keywords": [
                           "Consider a radius r ∈ {0, 1, ...} and two graphs:"
                         ]
@@ -1968,6 +2166,7 @@
                         "id": "302:602",
                         "name": "H",
                         "disabled": false,
+                        "eventId": "1",
                         "keywords": [
                           "H"
                         ]
@@ -1977,6 +2176,7 @@
                         "id": "302:615",
                         "name": "G",
                         "disabled": false,
+                        "eventId": "2",
                         "keywords": [
                           "G"
                         ]
@@ -1986,6 +2186,7 @@
                         "id": "302:597",
                         "name": "We say that H is an r-minor of G if one can associate to each vertex of H a subset of vertices in G such that:",
                         "disabled": false,
+                        "eventId": "3",
                         "keywords": [
                           "We say that H is an r-minor of G if one can associate to each vertex of H a subset of vertices in G such that:"
                         ]
@@ -1995,6 +2196,7 @@
                         "id": "302:592",
                         "name": "Group 12",
                         "disabled": false,
+                        "eventId": "4",
                         "keywords": [
                           "Group 12"
                         ]
@@ -2004,6 +2206,7 @@
                         "id": "302:598",
                         "name": "1. all subsets are pairwise disjoint and have radius at most r",
                         "disabled": false,
+                        "eventId": "5",
                         "keywords": [
                           "1. all subsets are pairwise disjoint and have radius at most r"
                         ]
@@ -2013,6 +2216,7 @@
                         "id": "302:599",
                         "name": "2. if two vertices in H are connected by an edge, then the same is true for the associated subsets in G",
                         "disabled": false,
+                        "eventId": "6",
                         "keywords": [
                           "2. if two vertices in H are connected by an edge, then the same is true for the associated subsets in G"
                         ]
@@ -2022,6 +2226,7 @@
                         "id": "302:600",
                         "name": "Definition. [Nesetril and Ossona de Mendez 2011] A class of graphs C is nowhere dense if for every radius r ∈ {0, 1, ...}, not all graphs are r-minors of C.",
                         "disabled": false,
+                        "eventId": "7",
                         "keywords": [
                           "Definition. [Nesetril and Ossona de Mendez 2011] A class of graphs C is nowhere dense if for every radius r ∈ {0, 1, ...}, not all graphs are r-minors of C."
                         ]
@@ -2036,6 +2241,7 @@
                             "id": "302:792",
                             "name": "Example 1. If C has bounded degree, then it is nowhere dense. An r-minor of a graph with degree at most d has degree at most dr +1",
                             "disabled": false,
+                            "eventId": "0",
                             "keywords": [
                               "Example 1. If C has bounded degree, then it is nowhere dense. An r-minor of a graph with degree at most d has degree at most dr +1"
                             ]
@@ -2045,6 +2251,7 @@
                             "id": "302:793",
                             "name": "Example 2. If C has bounded treewidth, then it is nowhere dense. An r-minor of a graph of treewidth k cannot be a (k+1)-clique",
                             "disabled": false,
+                            "eventId": "1",
                             "keywords": [
                               "Example 2. If C has bounded treewidth, then it is nowhere dense. An r-minor of a graph of treewidth k cannot be a (k+1)-clique"
                             ]
@@ -2052,12 +2259,14 @@
                         ],
                         "keywords": [
                           "examples of nowhere dense classes"
-                        ]
+                        ],
+                        "eventId": "8"
                       }
                     ],
                     "keywords": [
                       "Definition of nowhere dense"
-                    ]
+                    ],
+                    "eventId": "8"
                   },
                   {
                     "type": "child",
@@ -2069,6 +2278,7 @@
                         "id": "302:749",
                         "name": "Nowhere dense: model checking almost linear",
                         "disabled": false,
+                        "eventId": "0",
                         "keywords": [
                           "Nowhere dense: model checking almost linear"
                         ]
@@ -2078,6 +2288,7 @@
                         "id": "302:736",
                         "name": "Theorem. [Grohe, Kreutzer, Siebertz 2014] If C is nowhere dense and closed under subgraphs, then for every first-order sentence φ, the model checking problem",
                         "disabled": false,
+                        "eventId": "1",
                         "keywords": [
                           "Theorem. [Grohe, Kreutzer, Siebertz 2014] If C is nowhere dense, then for every first-order sentence φ, the model checking problem",
                           "does G ∈ C satisfy φ?",
@@ -2090,6 +2301,7 @@
                         "id": "302:750",
                         "name": "Not nowhere dense: model checking hard",
                         "disabled": false,
+                        "eventId": "2",
                         "keywords": [
                           "Not nowhere dense: model checking hard",
                           "and closed under subgraphs"
@@ -2100,6 +2312,7 @@
                         "id": "302:734",
                         "name": "If C is not nowhere dense, then for some radius r ∈ {1, 2, ...} the class every graph as an r-minor.",
                         "disabled": false,
+                        "eventId": "3",
                         "keywords": [
                           "If C is not nowhere dense, then for some radius r ∈ {1, 2, ...} the class every graph as an r-minor."
                         ]
@@ -2107,12 +2320,14 @@
                     ],
                     "keywords": [
                       "model checking nowhere dense"
-                    ]
+                    ],
+                    "eventId": "9"
                   }
                 ],
                 "keywords": [
                   "Nowhere dense"
-                ]
+                ],
+                "eventId": "7"
               },
               {
                 "type": "child",
@@ -2124,6 +2339,7 @@
                     "id": "302:590",
                     "name": "Bounded twinwidth",
                     "disabled": false,
+                    "eventId": "0",
                     "keywords": [
                       "Bounded twinwidth"
                     ]
@@ -2133,6 +2349,7 @@
                     "id": "302:581",
                     "name": "First-order model checking is linear time on graph classes such as:",
                     "disabled": false,
+                    "eventId": "1",
                     "keywords": [
                       "First-order model checking is linear time on graph classes such as:"
                     ]
@@ -2142,6 +2359,7 @@
                     "id": "302:582",
                     "name": "complements of planar graphs",
                     "disabled": false,
+                    "eventId": "2",
                     "keywords": [
                       "complements of planar graphs"
                     ]
@@ -2151,6 +2369,7 @@
                     "id": "302:583",
                     "name": "complements of graphs of treewidth at most 5",
                     "disabled": false,
+                    "eventId": "3",
                     "keywords": [
                       "complements of graphs of treewidth at most 5"
                     ]
@@ -2160,6 +2379,7 @@
                     "id": "302:584",
                     "name": "graphs of cliquewidth at most 5",
                     "disabled": false,
+                    "eventId": "4",
                     "keywords": [
                       "graphs of cliquewidth at most 5"
                     ]
@@ -2169,6 +2389,7 @@
                     "id": "302:585",
                     "name": "These classes are not nowhere dense (and not closed under subgraphs).",
                     "disabled": false,
+                    "eventId": "5",
                     "keywords": [
                       "These classes are not nowhere dense (and not closed under subgraphs)."
                     ]
@@ -2178,6 +2399,7 @@
                     "id": "302:586",
                     "name": "These are class of bounded twinwidth.",
                     "disabled": false,
+                    "eventId": "6",
                     "keywords": [
                       "These are class of bounded twinwidth."
                     ]
@@ -2192,6 +2414,7 @@
                         "id": "302:883",
                         "name": "Consider a graph, with a partition of its vertices",
                         "disabled": false,
+                        "eventId": "0",
                         "keywords": [
                           "A",
                           "B",
@@ -2204,6 +2427,7 @@
                         "id": "302:790",
                         "name": "Two blocks are consistent if they are connected in the same way:",
                         "disabled": false,
+                        "eventId": "1",
                         "keywords": [
                           "Two blocks are consistent if they are connected in the same way:"
                         ]
@@ -2213,6 +2437,7 @@
                         "id": "302:783",
                         "name": "Blocks A and B are consistent, because ∀a ∈ A ∀b ∈ B edge(a, b)",
                         "disabled": false,
+                        "eventId": "2",
                         "keywords": [
                           "Blocks A and B are consistent, because ∀a ∈ A ∀b ∈ B edge(a, b)"
                         ]
@@ -2222,6 +2447,7 @@
                         "id": "302:784",
                         "name": "Blocks B and C are consistent, because ∀b ∈ B ∀c ∈ C ¬ edge(b, c)",
                         "disabled": false,
+                        "eventId": "3",
                         "keywords": [
                           "Blocks B and C are consistent, because ∀b ∈ B ∀c ∈ C ¬ edge(b, c)"
                         ]
@@ -2231,6 +2457,7 @@
                         "id": "302:785",
                         "name": "Blocks A and C are inconsistent",
                         "disabled": false,
+                        "eventId": "4",
                         "keywords": [
                           "Blocks A and C are inconsistent"
                         ]
@@ -2240,6 +2467,7 @@
                         "id": "302:786",
                         "name": "Definition [Bonnet, Kim, Thomassé, Watrigant 2020] A graph has twinwidth k ∈ {0, 1, 2, ...} if there is a sequence of partitions P1, ..., Pn on its vertices such that;",
                         "disabled": false,
+                        "eventId": "5",
                         "keywords": [
                           "Definition [Bonnet, Kim, Thomassé, Watrigant 2020] A graph has twinwidth k ∈ {0, 1, 2, ...} if there is a sequence of partitions P1, ..., Pn on its vertices such that;"
                         ]
@@ -2249,6 +2477,7 @@
                         "id": "302:787",
                         "name": "a) P1 has singleton blocks, Pn partition has one block",
                         "disabled": false,
+                        "eventId": "6",
                         "keywords": [
                           "a) P1 has singleton blocks, Pn partition has one block"
                         ]
@@ -2258,6 +2487,7 @@
                         "id": "302:788",
                         "name": "b) for every i ∈ {1, ..., n – 1}, Pi+1 is obtained from Pi by merging two blocks",
                         "disabled": false,
+                        "eventId": "7",
                         "keywords": [
                           "b) for every i ∈ {1, ..., n – 1}, Pi+1 is obtained from Pi by merging two blocks"
                         ]
@@ -2267,6 +2497,7 @@
                         "id": "302:789",
                         "name": "c) for every i ∈ {1, ..., n} and every block A ∈ Pi, at most k blocks of Pi are inconsistent with A.",
                         "disabled": false,
+                        "eventId": "8",
                         "keywords": [
                           "c) for every i ∈ {1, ..., n} and every block A ∈ Pi, at most k blocks of Pi are inconsistent with A."
                         ]
@@ -2281,6 +2512,7 @@
                             "id": "302:795",
                             "name": "Example 1. Every clique has twinwidth 1.",
                             "disabled": false,
+                            "eventId": "0",
                             "keywords": [
                               "Example 1. Every clique has twinwidth 1."
                             ]
@@ -2290,6 +2522,7 @@
                             "id": "302:809",
                             "name": "Group 13",
                             "disabled": false,
+                            "eventId": "1",
                             "keywords": [
                               "Group 13"
                             ]
@@ -2299,6 +2532,7 @@
                             "id": "302:804",
                             "name": "Rectangle 2",
                             "disabled": false,
+                            "eventId": "2",
                             "keywords": [
                               "Rectangle 2"
                             ]
@@ -2308,6 +2542,7 @@
                             "id": "302:805",
                             "name": "Rectangle 3",
                             "disabled": false,
+                            "eventId": "3",
                             "keywords": [
                               "Rectangle 3"
                             ]
@@ -2317,6 +2552,7 @@
                             "id": "302:806",
                             "name": "Rectangle 4",
                             "disabled": false,
+                            "eventId": "4",
                             "keywords": [
                               "Rectangle 4"
                             ]
@@ -2326,6 +2562,7 @@
                             "id": "302:807",
                             "name": "Rectangle 5",
                             "disabled": false,
+                            "eventId": "5",
                             "keywords": [
                               "Rectangle 5"
                             ]
@@ -2335,6 +2572,7 @@
                             "id": "302:808",
                             "name": "Rectangle 6",
                             "disabled": false,
+                            "eventId": "6",
                             "keywords": [
                               "Rectangle 6"
                             ]
@@ -2344,6 +2582,7 @@
                             "id": "302:797",
                             "name": "Group 14",
                             "disabled": false,
+                            "eventId": "7",
                             "keywords": [
                               "Group 14"
                             ]
@@ -2353,6 +2592,7 @@
                             "id": "302:796",
                             "name": "Example 2. If a graph has twinwidth k, then the same is true for its complement.",
                             "disabled": false,
+                            "eventId": "8",
                             "keywords": [
                               "Example 2. If a graph has twinwidth k, then the same is true for its complement."
                             ]
@@ -2362,6 +2602,7 @@
                             "id": "302:831",
                             "name": "bounded cliquewidth",
                             "disabled": false,
+                            "eventId": "9",
                             "keywords": [
                               "Theorem.",
                               "bounded treewidth",
@@ -2373,18 +2614,21 @@
                         ],
                         "keywords": [
                           "examples of twin-width"
-                        ]
+                        ],
+                        "eventId": "9"
                       }
                     ],
                     "keywords": [
                       "twin-width definition"
-                    ]
+                    ],
+                    "eventId": "7"
                   },
                   {
                     "type": "show",
                     "id": "302:587",
                     "name": "Theorem. [Bonnet, Kim, Thomassé, Watrigant 2020] For every k ∈ {0, 1, 2, ...} and first-order φ, there is a linear time algorithm for:",
                     "disabled": false,
+                    "eventId": "8",
                     "keywords": [
                       "Theorem. [Bonnet, Kim, Thomassé, Watrigant 2020] For every k ∈ {0, 1, 2, ...} and first-order φ, there is a linear time algorithm for:",
                       "input: a graph G of twinwidth at most k, with a witnessing sequence of partitions question: does the graph satisfy φ?"
@@ -2393,17 +2637,20 @@
                 ],
                 "keywords": [
                   "twin-width"
-                ]
+                ],
+                "eventId": "8"
               }
             ],
             "keywords": [
               "Fo on bounded degree"
-            ]
+            ],
+            "eventId": "10"
           }
         ],
         "keywords": [
           "Fixed formula"
-        ]
+        ],
+        "eventId": "21"
       }
     ],
     "keywords": [
@@ -2411,7 +2658,8 @@
       "Logic in computer science",
       "Mikołaj Bojańczyk (Warsaw)",
       "First slide"
-    ]
+    ],
+    "eventId": "root"
   },
   "soundDict": {}
 }

@@ -1,5 +1,5 @@
 {
-  "version": 0.88,
+  "version": 0.902,
   "presentation": "Lecture 1. Turing machines",
   "slideDict": {
     "2:2": "2_2",
@@ -22,7 +22,11 @@
     "372:13": "372_13",
     "389:0": "389_0",
     "389:27": "389_27",
-    "423:86": "Nondeterminism_contd."
+    "423:86": "Nondeterminism_contd.",
+    "2:37": "undefined",
+    "114:10": "undefined2",
+    "114:86": "undefined3",
+    "114:2": "undefined4"
   },
   "tree": {
     "type": "child",
@@ -38,7 +42,8 @@
         "disabled": false,
         "keywords": [
           "Lecture 1. Turing machines and their resources"
-        ]
+        ],
+        "eventId": "0"
       },
       {
         "type": "show",
@@ -48,7 +53,8 @@
         "disabled": false,
         "keywords": [
           "Introduction"
-        ]
+        ],
+        "eventId": "1"
       },
       {
         "type": "child",
@@ -63,7 +69,8 @@
             "disabled": false,
             "keywords": [
               "How much time does it take to sort a list of length n?"
-            ]
+            ],
+            "eventId": "0"
           },
           {
             "type": "show",
@@ -73,7 +80,8 @@
             "disabled": false,
             "keywords": [
               "At least O(n) and at most O(n logn)"
-            ]
+            ],
+            "eventId": "1"
           },
           {
             "type": "show",
@@ -85,7 +93,8 @@
               "What is the computation model?",
               "Do the list elements have any structure beyond order?",
               "Group 1"
-            ]
+            ],
+            "eventId": "2"
           },
           {
             "type": "show",
@@ -95,7 +104,8 @@
             "disabled": false,
             "keywords": [
               "How much time does it take to check if a graph of n vertices can be 3-coloured? Each vertex gets one of 3 colours, and no edge is monochromatic."
-            ]
+            ],
+            "eventId": "3"
           },
           {
             "type": "show",
@@ -106,7 +116,8 @@
               "At most 3 poly(n).",
               "n",
               "Group 29"
-            ]
+            ],
+            "eventId": "4"
           },
           {
             "type": "show",
@@ -116,7 +127,8 @@
             "disabled": false,
             "keywords": [
               "Maybe O(n3)? or O(n100)?"
-            ]
+            ],
+            "eventId": "5"
           },
           {
             "type": "show",
@@ -126,7 +138,8 @@
             "disabled": false,
             "keywords": [
               "If we only care about polynomial time (or slower), then Turing Machines are a good model of computation."
-            ]
+            ],
+            "eventId": "6"
           },
           {
             "type": "show",
@@ -136,12 +149,14 @@
             "disabled": false,
             "keywords": [
               "Also true for logarithmic space."
-            ]
+            ],
+            "eventId": "7"
           }
         ],
         "keywords": [
           "introduction"
-        ]
+        ],
+        "eventId": "2"
       },
       {
         "type": "show",
@@ -151,7 +166,8 @@
         "disabled": false,
         "keywords": [
           "Tóring machines"
-        ]
+        ],
+        "eventId": "3"
       },
       {
         "type": "child",
@@ -165,7 +181,8 @@
             "disabled": false,
             "keywords": [
               "A Turing machine is a model of computation. An alternative would be Java programs."
-            ]
+            ],
+            "eventId": "0"
           },
           {
             "type": "show",
@@ -175,7 +192,8 @@
             "disabled": false,
             "keywords": [
               "The model is minimalistic, so that it is easier to prove theorems like: For every Turing machine M, ..."
-            ]
+            ],
+            "eventId": "1"
           },
           {
             "type": "show",
@@ -185,7 +203,8 @@
             "disabled": false,
             "keywords": [
               "Maybe Java programs would be easier for theorems like: There is a Turing machine M such that ..."
-            ]
+            ],
+            "eventId": "2"
           },
           {
             "type": "show",
@@ -195,7 +214,8 @@
             "disabled": false,
             "keywords": [
               "But Turing machines are fine for this, once you get used to them."
-            ]
+            ],
+            "eventId": "3"
           },
           {
             "type": "child",
@@ -210,7 +230,8 @@
                 "disabled": false,
                 "keywords": [
                   "A configuration of a Turing machine looks like this:"
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "show",
@@ -220,7 +241,8 @@
                 "keywords": [
                   "...",
                   "a read-only input tape"
-                ]
+                ],
+                "eventId": "1"
               },
               {
                 "type": "show",
@@ -230,7 +252,8 @@
                 "keywords": [
                   "...",
                   "a read-write work tape"
-                ]
+                ],
+                "eventId": "2"
               },
               {
                 "type": "show",
@@ -242,7 +265,8 @@
                   "q",
                   "a head on the input tape",
                   "a head on the work tape"
-                ]
+                ],
+                "eventId": "3"
               },
               {
                 "type": "show",
@@ -252,7 +276,8 @@
                 "disabled": false,
                 "keywords": [
                   "The syntax of a deterministic Turing machine consists of:"
-                ]
+                ],
+                "eventId": "4"
               },
               {
                 "type": "show",
@@ -262,7 +287,8 @@
                 "disabled": false,
                 "keywords": [
                   "– an input alphabet Σ – a work alphabet Γ, which contains Σ and a blank symbol – a set of states Q with a designated initial state – a transition function of the form δ : Q × Γ ⟶ {accept, reject} + (Q × Γ × {prev, stay, next})"
-                ]
+                ],
+                "eventId": "5"
               },
               {
                 "type": "child",
@@ -283,7 +309,8 @@
                       "move head on input tape",
                       "move head on work tape",
                       "written on work tape"
-                    ]
+                    ],
+                    "eventId": "0"
                   },
                   {
                     "type": "show",
@@ -292,7 +319,8 @@
                     "disabled": false,
                     "keywords": [
                       "..."
-                    ]
+                    ],
+                    "eventId": "1"
                   },
                   {
                     "type": "show",
@@ -301,7 +329,8 @@
                     "disabled": false,
                     "keywords": [
                       "q"
-                    ]
+                    ],
+                    "eventId": "2"
                   },
                   {
                     "type": "show",
@@ -314,7 +343,8 @@
                       "↦",
                       "-1",
                       "+1"
-                    ]
+                    ],
+                    "eventId": "3"
                   },
                   {
                     "type": "hide",
@@ -323,7 +353,8 @@
                     "disabled": false,
                     "keywords": [
                       "q"
-                    ]
+                    ],
+                    "eventId": "4"
                   },
                   {
                     "type": "show",
@@ -332,7 +363,8 @@
                     "disabled": false,
                     "keywords": [
                       "p"
-                    ]
+                    ],
+                    "eventId": "5"
                   },
                   {
                     "type": "child",
@@ -346,7 +378,8 @@
                         "disabled": false,
                         "keywords": [
                           "Consider an input string, e.g. abaccbab ∈ Σ*"
-                        ]
+                        ],
+                        "eventId": "0"
                       },
                       {
                         "type": "show",
@@ -360,7 +393,8 @@
                           "work tape is empty",
                           "input tape has input string",
                           "q"
-                        ]
+                        ],
+                        "eventId": "1"
                       },
                       {
                         "type": "show",
@@ -370,7 +404,8 @@
                         "disabled": false,
                         "keywords": [
                           "Next, the machine keeps on updating its configuration, until:"
-                        ]
+                        ],
+                        "eventId": "2"
                       },
                       {
                         "type": "show",
@@ -380,7 +415,8 @@
                         "disabled": false,
                         "keywords": [
                           "– an accept transition is used"
-                        ]
+                        ],
+                        "eventId": "3"
                       },
                       {
                         "type": "show",
@@ -390,7 +426,8 @@
                         "disabled": false,
                         "keywords": [
                           "– a reject transition is used, or the head falls off the tape"
-                        ]
+                        ],
+                        "eventId": "4"
                       },
                       {
                         "type": "show",
@@ -400,7 +437,8 @@
                         "disabled": false,
                         "keywords": [
                           "– the run goes on forever, avoiding accept and reject"
-                        ]
+                        ],
+                        "eventId": "5"
                       },
                       {
                         "type": "show",
@@ -410,22 +448,26 @@
                         "keywords": [
                           "A Turing machine induces a partial function M : Σ* ⟶ {accept, reject}",
                           "undefined for inputs where the machine does not halt"
-                        ]
+                        ],
+                        "eventId": "6"
                       }
                     ],
                     "keywords": [
                       "Turing machine semantics"
-                    ]
+                    ],
+                    "eventId": "6"
                   }
                 ],
                 "keywords": [
                   "one step update"
-                ]
+                ],
+                "eventId": "6"
               }
             ],
             "keywords": [
               "Definition of Turing machine"
-            ]
+            ],
+            "eventId": "4"
           },
           {
             "type": "child",
@@ -442,7 +484,8 @@
                   "...",
                   "q",
                   "Two work tapes"
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "show",
@@ -452,7 +495,8 @@
                 "disabled": false,
                 "keywords": [
                   "Fact. For every two-tape Turing machine, there is a one-tape machine that rejects/accepts the same inputs."
-                ]
+                ],
+                "eventId": "1"
               },
               {
                 "type": "show",
@@ -463,7 +507,8 @@
                   "...",
                   "q",
                   "Two work tapes proof"
-                ]
+                ],
+                "eventId": "2"
               },
               {
                 "type": "show",
@@ -473,7 +518,8 @@
                 "disabled": false,
                 "keywords": [
                   "Also equivalent:"
-                ]
+                ],
+                "eventId": "3"
               },
               {
                 "type": "show",
@@ -483,7 +529,8 @@
                 "disabled": false,
                 "keywords": [
                   "Tape that is inifinite to the left and right"
-                ]
+                ],
+                "eventId": "4"
               },
               {
                 "type": "show",
@@ -493,7 +540,8 @@
                 "disabled": false,
                 "keywords": [
                   "A two-dimensional tape"
-                ]
+                ],
+                "eventId": "5"
               },
               {
                 "type": "show",
@@ -503,7 +551,8 @@
                 "disabled": false,
                 "keywords": [
                   "While programs"
-                ]
+                ],
+                "eventId": "6"
               },
               {
                 "type": "child",
@@ -520,7 +569,8 @@
                       "var in, out, x, y x = 2 out = 0 while x < in: y = 2 while y < in: if in == x*y: out = 1",
                       "1 2 3 4 5 6 7 8",
                       "while program"
-                    ]
+                    ],
+                    "eventId": "0"
                   },
                   {
                     "type": "show",
@@ -538,7 +588,8 @@
                       "out",
                       "3",
                       "Group 18"
-                    ]
+                    ],
+                    "eventId": "1"
                   },
                   {
                     "type": "show",
@@ -549,7 +600,8 @@
                     "keywords": [
                       "integers are encoded in binary, and arithmetic can be done in polylog steps",
                       "Group 17"
-                    ]
+                    ],
+                    "eventId": "2"
                   },
                   {
                     "type": "show",
@@ -559,7 +611,8 @@
                     "disabled": false,
                     "keywords": [
                       "The simulating Turing machine runs in time O((running time of while program) × polylog(biggest integer used))"
-                    ]
+                    ],
+                    "eventId": "3"
                   },
                   {
                     "type": "show",
@@ -570,23 +623,27 @@
                       "For while program with arrays, simulation incurs a further slowdown.",
                       "× (array size)",
                       "further slowdown"
-                    ]
+                    ],
+                    "eventId": "4"
                   }
                 ],
                 "keywords": [
                   "...",
                   "While programs"
-                ]
+                ],
+                "eventId": "7"
               }
             ],
             "keywords": [
               "Equivalent models"
-            ]
+            ],
+            "eventId": "5"
           }
         ],
         "keywords": [
           "Turing machines"
-        ]
+        ],
+        "eventId": "4"
       },
       {
         "type": "show",
@@ -596,7 +653,8 @@
         "disabled": false,
         "keywords": [
           "Decidability"
-        ]
+        ],
+        "eventId": "5"
       },
       {
         "type": "child",
@@ -611,7 +669,8 @@
             "disabled": false,
             "keywords": [
               "A language L ⊆ Σ* is decidable if there is a Turing machine which: – accepts inputs from L – rejects inputs from outside L"
-            ]
+            ],
+            "eventId": "0"
           },
           {
             "type": "show",
@@ -621,7 +680,8 @@
             "disabled": false,
             "keywords": [
               "A language L ⊆ Σ* is semi-decidable if there is a Turing machine which: – accepts inputs from L – rejects or does not terminate on inputs from outside L"
-            ]
+            ],
+            "eventId": "1"
           },
           {
             "type": "show",
@@ -632,7 +692,8 @@
             "keywords": [
               "also known as recursively enumerable",
               "Group 19"
-            ]
+            ],
+            "eventId": "2"
           },
           {
             "type": "show",
@@ -643,7 +704,8 @@
             "keywords": [
               "semi-decidable",
               "decidable semi"
-            ]
+            ],
+            "eventId": "3"
           },
           {
             "type": "show",
@@ -654,7 +716,8 @@
             "keywords": [
               "decidable",
               "decidableino"
-            ]
+            ],
+            "eventId": "4"
           },
           {
             "type": "show",
@@ -665,7 +728,8 @@
             "keywords": [
               "uncountably many languages",
               "uncountably"
-            ]
+            ],
+            "eventId": "5"
           },
           {
             "type": "show",
@@ -676,7 +740,8 @@
             "keywords": [
               "∅",
               "empty"
-            ]
+            ],
+            "eventId": "6"
           },
           {
             "type": "show",
@@ -687,7 +752,8 @@
             "keywords": [
               "co-semi-decidable",
               "co-semi"
-            ]
+            ],
+            "eventId": "7"
           },
           {
             "type": "child",
@@ -702,7 +768,8 @@
                 "disabled": false,
                 "keywords": [
                   "Fact. If both L and its complement are semi-decidable, then L is decidable."
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "child",
@@ -717,7 +784,8 @@
                     "disabled": false,
                     "keywords": [
                       "If both L and its complement are semi-decidable, then there are Turing machines M and N such that:"
-                    ]
+                    ],
+                    "eventId": "0"
                   },
                   {
                     "type": "show",
@@ -727,7 +795,8 @@
                     "disabled": false,
                     "keywords": [
                       "if w ∈ L then: M accepts N rejects or does not terminate"
-                    ]
+                    ],
+                    "eventId": "1"
                   },
                   {
                     "type": "show",
@@ -737,7 +806,8 @@
                     "disabled": false,
                     "keywords": [
                       "if w ∉ L then: N accepts M rejects or does not terminate"
-                    ]
+                    ],
+                    "eventId": "2"
                   },
                   {
                     "type": "show",
@@ -747,7 +817,8 @@
                     "disabled": false,
                     "keywords": [
                       "We can construct an always-halting machine for L as follows:"
-                    ]
+                    ],
+                    "eventId": "3"
                   },
                   {
                     "type": "show",
@@ -757,7 +828,8 @@
                     "disabled": false,
                     "keywords": [
                       "Given an input w, compute:"
-                    ]
+                    ],
+                    "eventId": "4"
                   },
                   {
                     "type": "show",
@@ -769,7 +841,8 @@
                       "configuration 1 of M",
                       "configuration 1 of N",
                       "Group 22"
-                    ]
+                    ],
+                    "eventId": "5"
                   },
                   {
                     "type": "show",
@@ -781,7 +854,8 @@
                       "configuration 2 of M",
                       "configuration 2 of N",
                       "Group 23"
-                    ]
+                    ],
+                    "eventId": "6"
                   },
                   {
                     "type": "show",
@@ -793,7 +867,8 @@
                       "configuration 3 of M",
                       "configuration 3 of N",
                       "Group 24"
-                    ]
+                    ],
+                    "eventId": "7"
                   },
                   {
                     "type": "show",
@@ -803,7 +878,8 @@
                     "disabled": false,
                     "keywords": [
                       "..."
-                    ]
+                    ],
+                    "eventId": "8"
                   },
                   {
                     "type": "show",
@@ -813,7 +889,8 @@
                     "disabled": false,
                     "keywords": [
                       "one of them must halt"
-                    ]
+                    ],
+                    "eventId": "9"
                   },
                   {
                     "type": "child",
@@ -828,7 +905,8 @@
                         "disabled": false,
                         "keywords": [
                           "Fun fact"
-                        ]
+                        ],
+                        "eventId": "0"
                       },
                       {
                         "type": "show",
@@ -838,7 +916,8 @@
                         "disabled": false,
                         "keywords": [
                           "Take any undecidable language L ⊆ Σ*."
-                        ]
+                        ],
+                        "eventId": "1"
                       },
                       {
                         "type": "show",
@@ -848,7 +927,8 @@
                         "disabled": false,
                         "keywords": [
                           "Example: context-free grammars that are universal."
-                        ]
+                        ],
+                        "eventId": "2"
                       },
                       {
                         "type": "show",
@@ -862,7 +942,8 @@
                           "“w ∈ L”",
                           "“w ∉ L”",
                           "unprovable"
-                        ]
+                        ],
+                        "eventId": "3"
                       },
                       {
                         "type": "show",
@@ -872,7 +953,8 @@
                         "disabled": false,
                         "keywords": [
                           "Proof. Otherwise, “search through all proofs of PA” would be a Turing machine that decides membership in L."
-                        ]
+                        ],
+                        "eventId": "4"
                       },
                       {
                         "type": "show",
@@ -882,7 +964,8 @@
                         "disabled": false,
                         "keywords": [
                           "Example: there is a context-free grammar, whose universality or non-universality cannot be proved"
-                        ]
+                        ],
+                        "eventId": "5"
                       },
                       {
                         "type": "show",
@@ -892,22 +975,26 @@
                         "disabled": false,
                         "keywords": [
                           "Same argument works for ZFC (set theory)."
-                        ]
+                        ],
+                        "eventId": "6"
                       }
                     ],
                     "keywords": [
                       "Fun fact"
-                    ]
+                    ],
+                    "eventId": "10"
                   }
                 ],
                 "keywords": [
                   "semi and co semi proof"
-                ]
+                ],
+                "eventId": "1"
               }
             ],
             "keywords": [
               "semi and co semi"
-            ]
+            ],
+            "eventId": "8"
           },
           {
             "type": "show",
@@ -917,7 +1004,8 @@
             "disabled": false,
             "keywords": [
               "halting problem"
-            ]
+            ],
+            "eventId": "9"
           },
           {
             "type": "child",
@@ -934,7 +1022,8 @@
                   "Theorem. Turing 1936 The following language, called the “halting problem”, is semi-decidable, but not decidable: { w ∈ {0,1}* | w represents a Turing machine that halts on ε }",
                   "accepts or rejects",
                   "halting theorem"
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "child",
@@ -949,7 +1038,8 @@
                     "disabled": false,
                     "keywords": [
                       "We only consider Turing machines with input alphabet {0,1}."
-                    ]
+                    ],
+                    "eventId": "0"
                   },
                   {
                     "type": "show",
@@ -959,12 +1049,14 @@
                     "disabled": false,
                     "keywords": [
                       "Such a Turing machine is represented by a binary string with: 1. the number of letters in the work alphabet 2. the number of states (initial state is 1) 3. a list of the transitions"
-                    ]
+                    ],
+                    "eventId": "1"
                   }
                 ],
                 "keywords": [
                   "Representation"
-                ]
+                ],
+                "eventId": "1"
               },
               {
                 "type": "child",
@@ -979,7 +1071,8 @@
                     "disabled": false,
                     "keywords": [
                       "The halting problem is semi-decidable"
-                    ]
+                    ],
+                    "eventId": "0"
                   },
                   {
                     "type": "show",
@@ -989,7 +1082,8 @@
                     "disabled": false,
                     "keywords": [
                       "Given an input w, we do the following."
-                    ]
+                    ],
+                    "eventId": "1"
                   },
                   {
                     "type": "show",
@@ -999,7 +1093,8 @@
                     "disabled": false,
                     "keywords": [
                       "1. If w does not represent a Turing machine, reject"
-                    ]
+                    ],
+                    "eventId": "2"
                   },
                   {
                     "type": "show",
@@ -1009,7 +1104,8 @@
                     "disabled": false,
                     "keywords": [
                       "1. Start computing :"
-                    ]
+                    ],
+                    "eventId": "3"
                   },
                   {
                     "type": "show",
@@ -1019,7 +1115,8 @@
                     "disabled": false,
                     "keywords": [
                       "configuration 1 on input ε"
-                    ]
+                    ],
+                    "eventId": "4"
                   },
                   {
                     "type": "show",
@@ -1029,7 +1126,8 @@
                     "disabled": false,
                     "keywords": [
                       "configuration 2 on input ε"
-                    ]
+                    ],
+                    "eventId": "5"
                   },
                   {
                     "type": "show",
@@ -1039,7 +1137,8 @@
                     "disabled": false,
                     "keywords": [
                       "configuration 3 on input ε"
-                    ]
+                    ],
+                    "eventId": "6"
                   },
                   {
                     "type": "show",
@@ -1049,7 +1148,8 @@
                     "disabled": false,
                     "keywords": [
                       "configuration 4 on input ε"
-                    ]
+                    ],
+                    "eventId": "7"
                   },
                   {
                     "type": "show",
@@ -1059,7 +1159,8 @@
                     "disabled": false,
                     "keywords": [
                       "..."
-                    ]
+                    ],
+                    "eventId": "8"
                   },
                   {
                     "type": "show",
@@ -1069,12 +1170,14 @@
                     "disabled": false,
                     "keywords": [
                       "Accept when an accept/reject configuration is seen."
-                    ]
+                    ],
+                    "eventId": "9"
                   }
                 ],
                 "keywords": [
                   "Halting problem is semi-decidable"
-                ]
+                ],
+                "eventId": "2"
               },
               {
                 "type": "child",
@@ -1089,7 +1192,8 @@
                     "disabled": false,
                     "keywords": [
                       "The halting problem is not decidable"
-                    ]
+                    ],
+                    "eventId": "0"
                   },
                   {
                     "type": "show",
@@ -1099,7 +1203,8 @@
                     "disabled": false,
                     "keywords": [
                       "Suppose that there is a Turing machine M, which decides the halting problem."
-                    ]
+                    ],
+                    "eventId": "1"
                   },
                   {
                     "type": "show",
@@ -1109,7 +1214,8 @@
                     "disabled": false,
                     "keywords": [
                       "Consider the following Turing machine N, with input alphabet {0,1}."
-                    ]
+                    ],
+                    "eventId": "2"
                   },
                   {
                     "type": "show",
@@ -1119,7 +1225,8 @@
                     "keywords": [
                       "w ∈ {0,1}* ↦",
                       "Group 22"
-                    ]
+                    ],
+                    "eventId": "3"
                   },
                   {
                     "type": "show",
@@ -1129,7 +1236,8 @@
                     "disabled": false,
                     "keywords": [
                       "Does w represent a Turing machine that halts on input w?"
-                    ]
+                    ],
+                    "eventId": "4"
                   },
                   {
                     "type": "show",
@@ -1139,7 +1247,8 @@
                     "disabled": false,
                     "keywords": [
                       "(Question answered using M.)"
-                    ]
+                    ],
+                    "eventId": "5"
                   },
                   {
                     "type": "show",
@@ -1153,7 +1262,8 @@
                       "yes",
                       "no",
                       "Group 21"
-                    ]
+                    ],
+                    "eventId": "6"
                   },
                   {
                     "type": "show",
@@ -1163,7 +1273,8 @@
                     "disabled": false,
                     "keywords": [
                       "Does N halt on (the encoding of) N?"
-                    ]
+                    ],
+                    "eventId": "7"
                   },
                   {
                     "type": "show",
@@ -1173,7 +1284,8 @@
                     "disabled": false,
                     "keywords": [
                       "If N does not halt on N, then N halts on N."
-                    ]
+                    ],
+                    "eventId": "8"
                   },
                   {
                     "type": "show",
@@ -1183,7 +1295,8 @@
                     "disabled": false,
                     "keywords": [
                       "If N halts on N, then N does not halt on N."
-                    ]
+                    ],
+                    "eventId": "9"
                   },
                   {
                     "type": "show",
@@ -1193,12 +1306,14 @@
                     "disabled": false,
                     "keywords": [
                       "A contradiction."
-                    ]
+                    ],
+                    "eventId": "10"
                   }
                 ],
                 "keywords": [
                   "Halting problem is undecidable"
-                ]
+                ],
+                "eventId": "3"
               },
               {
                 "type": "child",
@@ -1214,7 +1329,8 @@
                       "Fun fact.",
                       "The Berry paradox:",
                       "Berry paradox"
-                    ]
+                    ],
+                    "eventId": "0"
                   },
                   {
                     "type": "show",
@@ -1223,7 +1339,8 @@
                     "disabled": false,
                     "keywords": [
                       "Consider the smallest integer which cannot be described in ASCII string with less than 100 letters."
-                    ]
+                    ],
+                    "eventId": "1"
                   },
                   {
                     "type": "show",
@@ -1233,7 +1350,8 @@
                     "keywords": [
                       "99 letters",
                       "}"
-                    ]
+                    ],
+                    "eventId": "2"
                   },
                   {
                     "type": "show",
@@ -1243,7 +1361,8 @@
                     "keywords": [
                       "what does “described” mean, really?",
                       "what does described mean?"
-                    ]
+                    ],
+                    "eventId": "3"
                   },
                   {
                     "type": "child",
@@ -1257,7 +1376,8 @@
                         "disabled": false,
                         "keywords": [
                           "For a number n ∈ {0, 1, 2, ...}, define its Kołmogorow complexity to be the size of the smallest Turing machine which computes it."
-                        ]
+                        ],
+                        "eventId": "0"
                       },
                       {
                         "type": "show",
@@ -1267,7 +1387,8 @@
                         "keywords": [
                           "computing a number n means that there is a Turing machine, which given input ε, accepts in finite time, with the number n written on a write-only output tape.",
                           "computable number"
-                        ]
+                        ],
+                        "eventId": "1"
                       },
                       {
                         "type": "show",
@@ -1277,7 +1398,8 @@
                         "keywords": [
                           "|states| + |work alphabet| + |transitions|",
                           "size of machine"
-                        ]
+                        ],
+                        "eventId": "2"
                       },
                       {
                         "type": "show",
@@ -1286,7 +1408,8 @@
                         "disabled": false,
                         "keywords": [
                           "Theorem. The Kołmogorow complexity cannot be computed."
-                        ]
+                        ],
+                        "eventId": "3"
                       },
                       {
                         "type": "show",
@@ -1296,7 +1419,8 @@
                         "keywords": [
                           "computing a string-to-string function f : Σ* ⟶ Γ* means that there is an always-accepting Turing machine, which given input w ∈ Σ*, accepts in finite time, with the word f(w) written on a write-only output tape.",
                           "computable function"
-                        ]
+                        ],
+                        "eventId": "4"
                       },
                       {
                         "type": "show",
@@ -1305,7 +1429,8 @@
                         "disabled": false,
                         "keywords": [
                           "Proof. Supppose that Kołmogorow complexity can be computed by a Turing machine of size 1000."
-                        ]
+                        ],
+                        "eventId": "5"
                       },
                       {
                         "type": "show",
@@ -1314,7 +1439,8 @@
                         "disabled": false,
                         "keywords": [
                           "There is a least number with Kołmogorow complexity at least 2000."
-                        ]
+                        ],
+                        "eventId": "6"
                       },
                       {
                         "type": "show",
@@ -1323,7 +1449,8 @@
                         "disabled": false,
                         "keywords": [
                           "This number can be computed by a Turing machine of size < 2000."
-                        ]
+                        ],
+                        "eventId": "7"
                       },
                       {
                         "type": "show",
@@ -1332,28 +1459,33 @@
                         "disabled": false,
                         "keywords": [
                           "because we can write a Turing machine of size < 2000, which finds the smallest number of Kołmogorow complexity at least 2000."
-                        ]
+                        ],
+                        "eventId": "8"
                       }
                     ],
                     "keywords": [
                       "Kołmogorow"
-                    ]
+                    ],
+                    "eventId": "4"
                   }
                 ],
                 "keywords": [
                   "Berry"
-                ]
+                ],
+                "eventId": "4"
               }
             ],
             "keywords": [
               "Halting problem"
-            ]
+            ],
+            "eventId": "10"
           }
         ],
         "keywords": [
           "Text",
           "Decidable definition"
-        ]
+        ],
+        "eventId": "6"
       },
       {
         "type": "show",
@@ -1363,7 +1495,8 @@
         "disabled": false,
         "keywords": [
           "Nondeterminism"
-        ]
+        ],
+        "eventId": "7"
       },
       {
         "type": "child",
@@ -1377,7 +1510,8 @@
             "disabled": false,
             "keywords": [
               "In a nondeterministic Turing machine, the transition function has type"
-            ]
+            ],
+            "eventId": "0"
           },
           {
             "type": "show",
@@ -1387,7 +1521,8 @@
             "keywords": [
               "δ : Q × Γ ⟶ {accept, reject} + (Q × Γ × {prev, stay, next})",
               "instead of ⟶"
-            ]
+            ],
+            "eventId": "1"
           },
           {
             "type": "show",
@@ -1396,7 +1531,8 @@
             "disabled": false,
             "keywords": [
               "for every situation, there could be several actions to take"
-            ]
+            ],
+            "eventId": "2"
           },
           {
             "type": "show",
@@ -1405,7 +1541,8 @@
             "disabled": false,
             "keywords": [
               "On a given input, a nondeterministic Turing machine can have many runs."
-            ]
+            ],
+            "eventId": "3"
           },
           {
             "type": "show",
@@ -1414,7 +1551,8 @@
             "disabled": false,
             "keywords": [
               "Def. Nondeterministic semi-decidable"
-            ]
+            ],
+            "eventId": "4"
           },
           {
             "type": "show",
@@ -1423,7 +1561,8 @@
             "disabled": false,
             "keywords": [
               "There is a Turing machine such that w ∈ L ⟺ ∃ accepting run"
-            ]
+            ],
+            "eventId": "5"
           },
           {
             "type": "show",
@@ -1432,7 +1571,8 @@
             "disabled": false,
             "keywords": [
               "For inputs w ∉ L, every run either rejects, or does not halt."
-            ]
+            ],
+            "eventId": "6"
           },
           {
             "type": "show",
@@ -1441,7 +1581,8 @@
             "disabled": false,
             "keywords": [
               "Def. Nondeterministic decidable"
-            ]
+            ],
+            "eventId": "7"
           },
           {
             "type": "show",
@@ -1450,7 +1591,8 @@
             "disabled": false,
             "keywords": [
               "There is a Turing machine such that w ∈ L ⟺ ∃ accepting run and w ∉ L ⟺ ∃ rejecting run"
-            ]
+            ],
+            "eventId": "8"
           },
           {
             "type": "show",
@@ -1459,7 +1601,8 @@
             "disabled": false,
             "keywords": [
               "There cannot be an input which has both rejecting and accepting runs"
-            ]
+            ],
+            "eventId": "9"
           },
           {
             "type": "show",
@@ -1468,7 +1611,8 @@
             "disabled": false,
             "keywords": [
               "Thm. Deterministic semi-decidable = nondeterministic semi-decidable"
-            ]
+            ],
+            "eventId": "10"
           },
           {
             "type": "show",
@@ -1477,7 +1621,8 @@
             "disabled": false,
             "keywords": [
               "Thm. Deterministic decidable = nondeterministic decidable"
-            ]
+            ],
+            "eventId": "11"
           },
           {
             "type": "child",
@@ -1491,7 +1636,8 @@
                 "disabled": false,
                 "keywords": [
                   "Proof for nondeterministic semi-decidable ⊆ deterministic semi-decidable."
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "show",
@@ -1500,7 +1646,8 @@
                 "disabled": false,
                 "keywords": [
                   "Do a breadth-first search in the graph of reachable configurations"
-                ]
+                ],
+                "eventId": "1"
               },
               {
                 "type": "show",
@@ -1509,7 +1656,8 @@
                 "disabled": false,
                 "keywords": [
                   "1. compute all configurations reachable in 1 step from the initial one."
-                ]
+                ],
+                "eventId": "2"
               },
               {
                 "type": "show",
@@ -1518,7 +1666,8 @@
                 "disabled": false,
                 "keywords": [
                   "2. compute all configurations reachable in 2 steps from the initial one."
-                ]
+                ],
+                "eventId": "3"
               },
               {
                 "type": "show",
@@ -1527,7 +1676,8 @@
                 "disabled": false,
                 "keywords": [
                   "3. compute all configurations reachable in 3 steps from the initial one."
-                ]
+                ],
+                "eventId": "4"
               },
               {
                 "type": "show",
@@ -1536,7 +1686,8 @@
                 "disabled": false,
                 "keywords": [
                   "..."
-                ]
+                ],
+                "eventId": "5"
               },
               {
                 "type": "show",
@@ -1545,7 +1696,8 @@
                 "disabled": false,
                 "keywords": [
                   "After some time, the tape looks like this:"
-                ]
+                ],
+                "eventId": "6"
               },
               {
                 "type": "show",
@@ -1556,7 +1708,8 @@
                   "p",
                   "q",
                   "r"
-                ]
+                ],
+                "eventId": "7"
               },
               {
                 "type": "show",
@@ -1565,7 +1718,8 @@
                 "disabled": false,
                 "keywords": [
                   "When an accepting configuration is found, accept."
-                ]
+                ],
+                "eventId": "8"
               },
               {
                 "type": "show",
@@ -1574,12 +1728,14 @@
                 "disabled": false,
                 "keywords": [
                   "The same proof shows deterministic decidable = nondeterministic decidable."
-                ]
+                ],
+                "eventId": "9"
               }
             ],
             "keywords": [
               "Determinisation"
-            ]
+            ],
+            "eventId": "12"
           },
           {
             "type": "child",
@@ -1593,7 +1749,8 @@
                 "disabled": false,
                 "keywords": [
                   "Since nondeterministic Turing machines can be confusing, we sometimes use deterministic Turing machines with a read-only witness tape."
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "show",
@@ -1604,7 +1761,8 @@
                   "M(v, w) ∈ {accept, reject, undefined}",
                   "input word",
                   "contents of witness tape"
-                ]
+                ],
+                "eventId": "1"
               },
               {
                 "type": "show",
@@ -1613,7 +1771,8 @@
                 "disabled": false,
                 "keywords": [
                   "Def. Nondeterministic semi-decidable"
-                ]
+                ],
+                "eventId": "2"
               },
               {
                 "type": "show",
@@ -1622,7 +1781,8 @@
                 "disabled": false,
                 "keywords": [
                   "iff"
-                ]
+                ],
+                "eventId": "3"
               },
               {
                 "type": "show",
@@ -1631,7 +1791,8 @@
                 "disabled": false,
                 "keywords": [
                   "There is a Turing machine such that w ∈ L ⟺ ∃ accepting run"
-                ]
+                ],
+                "eventId": "4"
               },
               {
                 "type": "show",
@@ -1640,7 +1801,8 @@
                 "disabled": false,
                 "keywords": [
                   "Def. Nondeterministic decidable"
-                ]
+                ],
+                "eventId": "5"
               },
               {
                 "type": "show",
@@ -1649,7 +1811,8 @@
                 "disabled": false,
                 "keywords": [
                   "iff"
-                ]
+                ],
+                "eventId": "6"
               },
               {
                 "type": "show",
@@ -1658,17 +1821,20 @@
                 "disabled": false,
                 "keywords": [
                   "There is a Turing machine such that w ∈ L ⟺ ∃ accepting run and w ∉ L ⟺ ∃ rejecting run"
-                ]
+                ],
+                "eventId": "7"
               }
             ],
             "keywords": [
               "Nondeterminism contd."
-            ]
+            ],
+            "eventId": "13"
           }
         ],
         "keywords": [
           "Nondeterministic machines"
-        ]
+        ],
+        "eventId": "8"
       },
       {
         "type": "show",
@@ -1677,7 +1843,8 @@
         "disabled": false,
         "keywords": [
           "So far, we have discussed Turing machines which terminate in finite time."
-        ]
+        ],
+        "eventId": "9"
       },
       {
         "type": "show",
@@ -1686,908 +1853,252 @@
         "disabled": false,
         "keywords": [
           "The point of computational complexity is to consider, say, polynomial time."
-        ]
+        ],
+        "eventId": "10"
       }
     ],
     "keywords": [
       "Computational Complexity",
       "first slide"
-    ]
+    ],
+    "eventId": "root"
   },
   "soundDict": {
     "2:2": {
-      "0": {
-        "file": "2_20",
-        "duration": 5.616
-      },
-      "1": {
-        "file": "2_21",
-        "duration": 6.816
-      },
-      "2": {
-        "file": "2_22",
-        "duration": 5.616
-      },
-      "3": {
-        "file": "2_23",
-        "duration": 1.536
-      },
-      "4": {
-        "file": "2_24",
-        "duration": 2.304
-      },
-      "5": {
-        "file": "2_25",
-        "duration": 2.784
-      },
-      "6": {
-        "file": "2_26",
-        "duration": 5.016
-      },
-      "7": {
-        "file": "7",
-        "duration": 10.704
-      },
-      "8": {
-        "file": "8",
-        "duration": 10.536
-      },
-      "9": {
-        "file": "9",
-        "duration": 7.464
-      },
-      "10": {
-        "file": "10",
-        "duration": 8.856
-      },
-      "11": {
-        "file": "11",
-        "duration": 24.576
-      }
+      "0": 5.616,
+      "1": 6.816,
+      "2": 5.616,
+      "3": 1.536,
+      "4": 2.304,
+      "5": 2.784,
+      "6": 5.016,
+      "7": 10.704,
+      "8": 10.536,
+      "9": 7.464,
+      "10": 8.856,
+      "finish": 24.576
     },
     "2:29": {
-      "0": {
-        "file": "2_290",
-        "duration": 1.704
-      },
-      "1": {
-        "file": "2_291",
-        "duration": 7.824
-      },
-      "2": {
-        "file": "2_292",
-        "duration": 10.536
-      },
-      "3": {
-        "file": "2_293",
-        "duration": 34.704
-      },
-      "4": {
-        "file": "2_294",
-        "duration": 17.064
-      },
-      "5": {
-        "file": "2_295",
-        "duration": 16.656
-      },
-      "6": {
-        "file": "2_296",
-        "duration": 66.576
-      },
-      "7": {
-        "file": "2_297",
-        "duration": 30.216
-      },
-      "8": {
-        "file": "2_298",
-        "duration": 8.616
-      }
+      "0": 1.704,
+      "1": 7.824,
+      "2": 10.536,
+      "3": 34.704,
+      "4": 17.064,
+      "5": 16.656,
+      "6": 66.576,
+      "7": 30.216,
+      "finish": 8.616
     },
     "2:31": {
-      "0": {
-        "file": "2_310",
-        "duration": 1.344
-      },
-      "1": {
-        "file": "2_311",
-        "duration": 5.256
-      },
-      "2": {
-        "file": "2_312",
-        "duration": 45.024
-      },
-      "3": {
-        "file": "2_313",
-        "duration": 15.096
-      },
-      "4": {
-        "file": "2_314",
-        "duration": 38.136
-      },
-      "5": {
-        "file": "5",
-        "duration": 19.776
-      },
-      "6": {
-        "file": "2_316",
-        "duration": 2.256
-      }
+      "0": 1.344,
+      "1": 5.256,
+      "2": 45.024,
+      "3": 15.096,
+      "4": 38.136,
+      "5": 19.776,
+      "finish": 2.256
     },
     "26:57": {
-      "0": {
-        "file": "26_570",
-        "duration": 1.656
-      },
-      "1": {
-        "file": "1",
-        "duration": 8.376
-      },
-      "2": {
-        "file": "2",
-        "duration": 5.784
-      },
-      "3": {
-        "file": "3",
-        "duration": 7.944
-      },
-      "4": {
-        "file": "4",
-        "duration": 46.176
-      },
-      "5": {
-        "file": "5",
-        "duration": 3.504
-      },
-      "6": {
-        "file": "6",
-        "duration": 35.616
-      },
-      "7": {
-        "file": "7",
-        "duration": 0.264
-      },
-      "8": {
-        "file": "26_578",
-        "duration": 20.304
-      },
-      "9": {
-        "file": "26_579",
-        "duration": 4.464
-      },
-      "10": {
-        "file": "26_5710",
-        "duration": 1.104
-      },
-      "11": {
-        "file": "26_5711",
-        "duration": 0.696
-      }
+      "0": 1.656,
+      "1": 8.376,
+      "2": 5.784,
+      "3": 7.944,
+      "4": 46.176,
+      "5": 3.504,
+      "6": 35.616,
+      "7": 0.264,
+      "8": 20.304,
+      "9": 4.464,
+      "10": 1.104,
+      "finish": 0.696
     },
     "26:179": {
-      "0": {
-        "file": "0",
-        "duration": 7.824
-      },
-      "1": {
-        "file": "1",
-        "duration": 61.704
-      },
-      "2": {
-        "file": "2",
-        "duration": 2.424
-      },
-      "3": {
-        "file": "3",
-        "duration": 7.104
-      },
-      "4": {
-        "file": "4",
-        "duration": 28.224
-      },
-      "5": {
-        "file": "5",
-        "duration": 0.336
-      },
-      "6": {
-        "file": "6",
-        "duration": 13.464
-      },
-      "7": {
-        "file": "7",
-        "duration": 0.336
-      }
+      "0": 7.824,
+      "1": 61.704,
+      "2": 2.424,
+      "3": 7.104,
+      "4": 28.224,
+      "5": 0.336,
+      "6": 13.464,
+      "finish": 0.336
     },
     "26:118": {
-      "0": {
-        "file": "0",
-        "duration": 1.704
-      },
-      "1": {
-        "file": "1",
-        "duration": 7.776
-      },
-      "2": {
-        "file": "2",
-        "duration": 18.096
-      },
-      "3": {
-        "file": "3",
-        "duration": 7.896
-      },
-      "4": {
-        "file": "4",
-        "duration": 6.264
-      },
-      "5": {
-        "file": "5",
-        "duration": 22.896
-      },
-      "6": {
-        "file": "6",
-        "duration": 10.056
-      },
-      "7": {
-        "file": "7",
-        "duration": 13.224
-      }
+      "0": 1.704,
+      "1": 7.776,
+      "2": 18.096,
+      "3": 7.896,
+      "4": 6.264,
+      "5": 22.896,
+      "6": 10.056,
+      "finish": 13.224
     },
     "90:1": {
-      "0": {
-        "file": "0",
-        "duration": 1.296
-      },
-      "1": {
-        "file": "1",
-        "duration": 12.696
-      },
-      "2": {
-        "file": "2",
-        "duration": 13.824
-      },
-      "3": {
-        "file": "3",
-        "duration": 40.944
-      },
-      "4": {
-        "file": "4",
-        "duration": 2.904
-      },
-      "5": {
-        "file": "5",
-        "duration": 28.056
-      },
-      "6": {
-        "file": "6",
-        "duration": 20.856
-      },
-      "7": {
-        "file": "90_17",
-        "duration": 29.424
-      },
-      "8": {
-        "file": "90_18",
-        "duration": 10.584
-      },
-      "9": {
-        "file": "90_19",
-        "duration": 22.416
-      }
+      "0": 1.296,
+      "1": 12.696,
+      "2": 13.824,
+      "3": 40.944,
+      "4": 2.904,
+      "5": 28.056,
+      "6": 20.856,
+      "7": 29.424,
+      "8": 10.584,
+      "finish": 22.416
     },
     "90:309": {
-      "0": {
-        "file": "90_3090",
-        "duration": 2.376
-      },
-      "1": {
-        "file": "90_3091",
-        "duration": 37.224
-      },
-      "2": {
-        "file": "90_3092",
-        "duration": 37.536
-      },
-      "3": {
-        "file": "90_3093",
-        "duration": 23.496
-      },
-      "4": {
-        "file": "90_3094",
-        "duration": 34.056
-      },
-      "5": {
-        "file": "90_3095",
-        "duration": 43.464
-      }
+      "0": 2.376,
+      "1": 37.224,
+      "2": 37.536,
+      "3": 23.496,
+      "4": 34.056,
+      "finish": 43.464
     },
     "33:227": {
-      "0": {
-        "file": "33_2270",
-        "duration": 3.216
-      },
-      "1": {
-        "file": "33_2271",
-        "duration": 28.536
-      },
-      "2": {
-        "file": "33_2272",
-        "duration": 8.304
-      },
-      "3": {
-        "file": "33_2273",
-        "duration": 21.216
-      },
-      "4": {
-        "file": "33_2274",
-        "duration": 6.096
-      },
-      "5": {
-        "file": "33_2275",
-        "duration": 4.416
-      },
-      "6": {
-        "file": "33_2276",
-        "duration": 29.544
-      },
-      "7": {
-        "file": "33_2277",
-        "duration": 16.824
-      },
-      "8": {
-        "file": "33_2278",
-        "duration": 37.224
-      },
-      "9": {
-        "file": "33_2279",
-        "duration": 6.216
-      },
-      "10": {
-        "file": "33_22710",
-        "duration": 0.864
-      },
-      "11": {
-        "file": "11",
-        "duration": 3.984
-      }
+      "0": 3.216,
+      "1": 28.536,
+      "2": 8.304,
+      "3": 21.216,
+      "4": 6.096,
+      "5": 4.416,
+      "6": 29.544,
+      "7": 16.824,
+      "8": 37.224,
+      "9": 6.216,
+      "10": 0.864,
+      "finish": 3.984
     },
     "99:66": {
-      "0": {
-        "file": "99_660",
-        "duration": 2.016
-      },
-      "1": {
-        "file": "99_661",
-        "duration": 15.816
-      },
-      "2": {
-        "file": "99_662",
-        "duration": 2.136
-      }
+      "0": 2.016,
+      "1": 15.816,
+      "finish": 2.136
     },
     "99:76": {
-      "0": {
-        "file": "99_760",
-        "duration": 11.544
-      },
-      "1": {
-        "file": "99_761",
-        "duration": 9.936
-      },
-      "2": {
-        "file": "99_762",
-        "duration": 8.736
-      },
-      "3": {
-        "file": "99_763",
-        "duration": 14.736
-      },
-      "4": {
-        "file": "99_764",
-        "duration": 11.256
-      },
-      "5": {
-        "file": "99_765",
-        "duration": 2.496
-      },
-      "6": {
-        "file": "99_766",
-        "duration": 6.576
-      },
-      "7": {
-        "file": "99_767",
-        "duration": 9.264
-      },
-      "8": {
-        "file": "99_768",
-        "duration": 0.864
-      },
-      "9": {
-        "file": "99_769",
-        "duration": 6.216
-      },
-      "10": {
-        "file": "99_7610",
-        "duration": 11.976
-      },
-      "11": {
-        "file": "99_7611",
-        "duration": 4.056
-      }
+      "0": 11.544,
+      "1": 9.936,
+      "2": 8.736,
+      "3": 14.736,
+      "4": 11.256,
+      "5": 2.496,
+      "6": 6.576,
+      "7": 9.264,
+      "8": 0.864,
+      "9": 6.216,
+      "10": 11.976,
+      "finish": 4.056
     },
     "99:93": {
-      "0": {
-        "file": "99_930",
-        "duration": 4.104
-      },
-      "1": {
-        "file": "99_931",
-        "duration": 10.296
-      },
-      "2": {
-        "file": "99_932",
-        "duration": 7.104
-      },
-      "3": {
-        "file": "99_933",
-        "duration": 49.944
-      },
-      "4": {
-        "file": "99_934",
-        "duration": 31.776
-      },
-      "5": {
-        "file": "99_935",
-        "duration": 39.576
-      },
-      "6": {
-        "file": "99_936",
-        "duration": 16.824
-      },
-      "7": {
-        "file": "99_937",
-        "duration": 22.824
-      }
+      "0": 4.104,
+      "1": 10.296,
+      "2": 7.104,
+      "3": 49.944,
+      "4": 31.776,
+      "5": 39.576,
+      "6": 16.824,
+      "finish": 22.824
     },
     "99:1": {
-      "0": {
-        "file": "99_10",
-        "duration": 1.536
-      },
-      "1": {
-        "file": "99_11",
-        "duration": 27.696
-      },
-      "2": {
-        "file": "99_12",
-        "duration": 24.864
-      },
-      "3": {
-        "file": "99_13",
-        "duration": 6.744
-      },
-      "4": {
-        "file": "4",
-        "duration": 4.416
-      },
-      "5": {
-        "file": "5",
-        "duration": 2.184
-      }
+      "0": 1.536,
+      "1": 27.696,
+      "2": 24.864,
+      "3": 6.744,
+      "4": 4.416,
+      "finish": 2.184
     },
     "99:56": {
-      "0": {
-        "file": "99_560",
-        "duration": 2.184
-      },
-      "1": {
-        "file": "99_561",
-        "duration": 7.656
-      },
-      "2": {
-        "file": "99_562",
-        "duration": 30.336
-      }
+      "0": 2.184,
+      "1": 7.656,
+      "finish": 30.336
     },
     "99:42": {
-      "0": {
-        "file": "99_420",
-        "duration": 1.944
-      },
-      "1": {
-        "file": "99_421",
-        "duration": 4.344
-      },
-      "2": {
-        "file": "99_422",
-        "duration": 5.064
-      },
-      "3": {
-        "file": "99_423",
-        "duration": 15.456
-      },
-      "4": {
-        "file": "99_424",
-        "duration": 4.224
-      },
-      "5": {
-        "file": "99_425",
-        "duration": 7.824
-      },
-      "6": {
-        "file": "6",
-        "duration": 0.144
-      },
-      "7": {
-        "file": "99_427",
-        "duration": 8.184
-      },
-      "8": {
-        "file": "99_428",
-        "duration": 0.576
-      },
-      "9": {
-        "file": "99_429",
-        "duration": 28.176
-      },
-      "10": {
-        "file": "99_4210",
-        "duration": 5.136
-      }
+      "0": 1.944,
+      "1": 4.344,
+      "2": 5.064,
+      "3": 15.456,
+      "4": 4.224,
+      "5": 7.824,
+      "6": 0.144,
+      "7": 8.184,
+      "8": 0.576,
+      "9": 28.176,
+      "finish": 5.136
     },
     "99:13": {
-      "0": {
-        "file": "99_130",
-        "duration": 1.896
-      },
-      "1": {
-        "file": "99_131",
-        "duration": 30.696
-      },
-      "2": {
-        "file": "99_132",
-        "duration": 11.376
-      },
-      "3": {
-        "file": "99_133",
-        "duration": 12.024
-      },
-      "4": {
-        "file": "99_134",
-        "duration": 1.824
-      },
-      "5": {
-        "file": "99_135",
-        "duration": 10.584
-      },
-      "6": {
-        "file": "99_136",
-        "duration": 6.576
-      },
-      "7": {
-        "file": "99_137",
-        "duration": 28.176
-      },
-      "8": {
-        "file": "99_138",
-        "duration": 9.984
-      },
-      "9": {
-        "file": "99_139",
-        "duration": 16.944
-      },
-      "10": {
-        "file": "99_1310",
-        "duration": 17.736
-      },
-      "11": {
-        "file": "99_1311",
-        "duration": 23.184
-      }
+      "0": 1.896,
+      "1": 30.696,
+      "2": 11.376,
+      "3": 12.024,
+      "4": 1.824,
+      "5": 10.584,
+      "6": 6.576,
+      "7": 28.176,
+      "8": 9.984,
+      "9": 16.944,
+      "10": 17.736,
+      "finish": 23.184
     },
-    "2:37": {
-      "0": {
-        "file": "2_370"
-      },
-      "1": {
-        "file": "2_371"
-      },
-      "2": {
-        "file": "2_372"
-      },
-      "3": {
-        "file": "2_373"
-      },
-      "4": {
-        "file": "2_374"
-      },
-      "5": {
-        "file": "2_375"
-      },
-      "6": {
-        "file": "2_376"
-      },
-      "7": {
-        "file": "2_377"
-      },
-      "8": {
-        "file": "2_378"
-      }
-    },
-    "114:10": {
-      "0": {
-        "file": "114_100"
-      },
-      "1": {
-        "file": "114_101"
-      },
-      "2": {
-        "file": "114_102"
-      },
-      "3": {
-        "file": "114_103"
-      },
-      "4": {
-        "file": "114_104"
-      },
-      "5": {
-        "file": "114_105"
-      },
-      "6": {
-        "file": "114_106"
-      }
-    },
-    "114:86": {
-      "0": {
-        "file": "114_860"
-      },
-      "1": {
-        "file": "114_861"
-      },
-      "2": {
-        "file": "114_862"
-      },
-      "3": {
-        "file": "114_863"
-      },
-      "4": {
-        "file": "114_864"
-      }
-    },
-    "114:2": {
-      "0": {
-        "file": "114_20"
-      },
-      "1": {
-        "file": "114_21"
-      },
-      "2": {
-        "file": "114_22"
-      },
-      "3": {
-        "file": "114_23"
-      },
-      "4": {
-        "file": "114_24"
-      },
-      "5": {
-        "file": "114_25"
-      },
-      "6": {
-        "file": "114_26"
-      }
-    },
+    "2:37": {},
+    "114:10": {},
+    "114:86": {},
+    "114:2": {},
     "372:2": {
-      "0": {
-        "file": "0",
-        "duration": 2.736
-      },
-      "1": {
-        "file": "1",
-        "duration": 0.816
-      },
-      "2": {
-        "file": "2",
-        "duration": 9.264
-      },
-      "3": {
-        "file": "3",
-        "duration": 19.176
-      },
-      "4": {
-        "file": "4",
-        "duration": 27.864
-      },
-      "5": {
-        "file": "5",
-        "duration": 21.816
-      }
+      "0": 2.736,
+      "1": 0.816,
+      "2": 9.264,
+      "3": 19.176,
+      "4": 27.864,
+      "finish": 21.816
     },
     "372:13": {
-      "0": {
-        "file": "0",
-        "duration": 1.416
-      },
-      "1": {
-        "file": "1",
-        "duration": 10.704
-      },
-      "2": {
-        "file": "2",
-        "duration": 16.776
-      },
-      "3": {
-        "file": "3",
-        "duration": 15.336
-      },
-      "4": {
-        "file": "4",
-        "duration": 27.576
-      },
-      "5": {
-        "file": "5",
-        "duration": 44.904
-      },
-      "6": {
-        "file": "6",
-        "duration": 35.424
-      },
-      "7": {
-        "file": "7",
-        "duration": 46.296
-      },
-      "8": {
-        "file": "8",
-        "duration": 54.456
-      },
-      "9": {
-        "file": "9",
-        "duration": 1.536
-      }
+      "0": 1.416,
+      "1": 10.704,
+      "2": 16.776,
+      "3": 15.336,
+      "4": 27.576,
+      "5": 44.904,
+      "6": 35.424,
+      "7": 46.296,
+      "8": 54.456,
+      "finish": 1.536
     },
     "389:0": {
-      "0": {
-        "file": "0",
-        "duration": 1.584
-      },
-      "1": {
-        "file": "1",
-        "duration": 7.104
-      },
-      "2": {
-        "file": "2",
-        "duration": 17.856
-      },
-      "3": {
-        "file": "3",
-        "duration": 15.216
-      },
-      "4": {
-        "file": "4",
-        "duration": 6.504
-      },
-      "5": {
-        "file": "5",
-        "duration": 33.264
-      },
-      "6": {
-        "file": "6",
-        "duration": 12.936
-      },
-      "7": {
-        "file": "7",
-        "duration": 7.224
-      },
-      "8": {
-        "file": "8",
-        "duration": 7.176
-      },
-      "9": {
-        "file": "9",
-        "duration": 11.616
-      },
-      "10": {
-        "file": "10",
-        "duration": 26.256
-      },
-      "11": {
-        "file": "11",
-        "duration": 8.784
-      },
-      "12": {
-        "file": "12",
-        "duration": 18.816
-      },
-      "13": {
-        "file": "13",
-        "duration": 3.144
-      },
-      "14": {
-        "file": "14",
-        "duration": 5.064
-      }
+      "0": 1.584,
+      "1": 7.104,
+      "2": 17.856,
+      "3": 15.216,
+      "4": 6.504,
+      "5": 33.264,
+      "6": 12.936,
+      "7": 7.224,
+      "8": 7.176,
+      "9": 11.616,
+      "10": 26.256,
+      "11": 8.784,
+      "12": 18.816,
+      "13": 3.144,
+      "finish": 5.064
     },
     "389:27": {
-      "0": {
-        "file": "0",
-        "duration": 7.056
-      },
-      "1": {
-        "file": "1",
-        "duration": 23.544
-      },
-      "2": {
-        "file": "2",
-        "duration": 6.696
-      },
-      "3": {
-        "file": "3",
-        "duration": 11.376
-      },
-      "4": {
-        "file": "4",
-        "duration": 3.384
-      },
-      "5": {
-        "file": "5",
-        "duration": 12.744
-      },
-      "6": {
-        "file": "6",
-        "duration": 14.784
-      },
-      "7": {
-        "file": "7",
-        "duration": 4.536
-      },
-      "8": {
-        "file": "8",
-        "duration": 28.584
-      },
-      "9": {
-        "file": "9",
-        "duration": 6.456
-      },
-      "10": {
-        "file": "10",
-        "duration": 23.136
-      }
+      "0": 7.056,
+      "1": 23.544,
+      "2": 6.696,
+      "3": 11.376,
+      "4": 3.384,
+      "5": 12.744,
+      "6": 14.784,
+      "7": 4.536,
+      "8": 28.584,
+      "9": 6.456,
+      "finish": 23.136
     },
     "423:86": {
-      "0": {
-        "file": "0",
-        "duration": 2.016
-      },
-      "1": {
-        "file": "1",
-        "duration": 42.456
-      },
-      "2": {
-        "file": "2",
-        "duration": 23.136
-      },
-      "3": {
-        "file": "3",
-        "duration": 5.904
-      },
-      "4": {
-        "file": "4",
-        "duration": 8.304
-      },
-      "5": {
-        "file": "5",
-        "duration": 44.544
-      },
-      "6": {
-        "file": "6",
-        "duration": 7.704
-      },
-      "7": {
-        "file": "7",
-        "duration": 1.176
-      },
-      "8": {
-        "file": "8",
-        "duration": 53.184
-      }
+      "0": 2.016,
+      "1": 42.456,
+      "2": 23.136,
+      "3": 5.904,
+      "4": 8.304,
+      "5": 44.544,
+      "6": 7.704,
+      "7": 1.176,
+      "finish": 53.184
     }
   }
 }

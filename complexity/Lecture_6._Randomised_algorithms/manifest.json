@@ -1,5 +1,5 @@
 {
-  "version": 0.88,
+  "version": 0.902,
   "presentation": "Lecture 6. Randomised algorithms",
   "slideDict": {
     "17:2": "First_slide",
@@ -39,7 +39,8 @@
             "disabled": false,
             "keywords": [
               "Randomised polynomial time (RP)"
-            ]
+            ],
+            "eventId": "0"
           },
           {
             "type": "show",
@@ -48,7 +49,8 @@
             "disabled": false,
             "keywords": [
               "Def. L ∈ RP if there is a Turing machine, with access to coin flips, such that:"
-            ]
+            ],
+            "eventId": "1"
           },
           {
             "type": "show",
@@ -57,7 +59,8 @@
             "disabled": false,
             "keywords": [
               "1. regardless of the coin flips, it runs in polynomial time"
-            ]
+            ],
+            "eventId": "2"
           },
           {
             "type": "show",
@@ -66,7 +69,8 @@
             "disabled": false,
             "keywords": [
               "2. for inputs w ∉ L the machine always rejects, regardless of the coin flips"
-            ]
+            ],
+            "eventId": "3"
           },
           {
             "type": "show",
@@ -75,7 +79,8 @@
             "disabled": false,
             "keywords": [
               "3. for inputs w ∈ L the machine accepts with probability >1/2."
-            ]
+            ],
+            "eventId": "4"
           },
           {
             "type": "show",
@@ -84,7 +89,8 @@
             "disabled": false,
             "keywords": [
               "if we run the machine 10 times, it will accept with probability > 1023 / 1024"
-            ]
+            ],
+            "eventId": "5"
           },
           {
             "type": "child",
@@ -98,7 +104,8 @@
                 "disabled": false,
                 "keywords": [
                   "More formally, we have a Turing machine with: (a) a two-way read-only input tape (b) a one-way read-only witness tape over alphabet {head, tail} (c) a read-write work tape"
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "show",
@@ -107,7 +114,8 @@
                 "disabled": false,
                 "keywords": [
                   "There is a polynomial p such that:"
-                ]
+                ],
+                "eventId": "1"
               },
               {
                 "type": "show",
@@ -116,7 +124,8 @@
                 "disabled": false,
                 "keywords": [
                   "1. for every input v and witness w, the running time of M(v, w) is < p(|v|)"
-                ]
+                ],
+                "eventId": "2"
               },
               {
                 "type": "show",
@@ -125,7 +134,8 @@
                 "disabled": false,
                 "keywords": [
                   "2. for every input v ∉ L, M(v, w) rejects for every w"
-                ]
+                ],
+                "eventId": "3"
               },
               {
                 "type": "show",
@@ -137,7 +147,8 @@
                   "3. for every input v ∈ L,",
                   "w",
                   "w is chosen uniformly at random among words of length p(|v|)"
-                ]
+                ],
+                "eventId": "4"
               },
               {
                 "type": "show",
@@ -146,12 +157,14 @@
                 "disabled": false,
                 "keywords": [
                   "In other words, more than half of the witnesses lead to acceptance."
-                ]
+                ],
+                "eventId": "5"
               }
             ],
             "keywords": [
               "Formal definition RP"
-            ]
+            ],
+            "eventId": "6"
           },
           {
             "type": "show",
@@ -160,7 +173,8 @@
             "disabled": false,
             "keywords": [
               "Primality testing"
-            ]
+            ],
+            "eventId": "7"
           },
           {
             "type": "show",
@@ -169,7 +183,8 @@
             "disabled": false,
             "keywords": [
               "Evaluating straight line programs"
-            ]
+            ],
+            "eventId": "8"
           },
           {
             "type": "show",
@@ -178,7 +193,8 @@
             "disabled": false,
             "keywords": [
               "Polynomial identity testing"
-            ]
+            ],
+            "eventId": "9"
           },
           {
             "type": "child",
@@ -192,7 +208,8 @@
                 "disabled": false,
                 "keywords": [
                   "Primality testing"
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "show",
@@ -201,7 +218,8 @@
                 "disabled": false,
                 "keywords": [
                   "Input. A number in binary, e.g. 1010110 Question. Is it prime?"
-                ]
+                ],
+                "eventId": "1"
               },
               {
                 "type": "show",
@@ -211,7 +229,8 @@
                 "keywords": [
                   "Agrawal Kayal Saxena 2002",
                   "Primes ∈ P, but in practice, older randomised algorithms are used."
-                ]
+                ],
+                "eventId": "2"
               },
               {
                 "type": "show",
@@ -220,7 +239,8 @@
                 "disabled": false,
                 "keywords": [
                   "Example. A wrong randomised algorithm (Fermat test)"
-                ]
+                ],
+                "eventId": "3"
               },
               {
                 "type": "show",
@@ -229,7 +249,8 @@
                 "disabled": false,
                 "keywords": [
                   "Given input n, randomly select some number a < n and compute"
-                ]
+                ],
+                "eventId": "4"
               },
               {
                 "type": "show",
@@ -238,7 +259,8 @@
                 "disabled": false,
                 "keywords": [
                   "Answer “prime” if the result is 1, otherwise answer “composite”."
-                ]
+                ],
+                "eventId": "5"
               },
               {
                 "type": "child",
@@ -253,7 +275,8 @@
                     "keywords": [
                       "How do we compute",
                       "in time polynomial (in the number of digits)?"
-                    ]
+                    ],
+                    "eventId": "0"
                   },
                   {
                     "type": "show",
@@ -262,7 +285,8 @@
                     "disabled": false,
                     "keywords": [
                       "Addition and multiplication modulo n can be computed in polynomial time."
-                    ]
+                    ],
+                    "eventId": "1"
                   },
                   {
                     "type": "show",
@@ -272,7 +296,8 @@
                     "keywords": [
                       "If",
                       "then"
-                    ]
+                    ],
+                    "eventId": "2"
                   },
                   {
                     "type": "show",
@@ -281,12 +306,14 @@
                     "disabled": false,
                     "keywords": [
                       "the result of i iterations of squaring"
-                    ]
+                    ],
+                    "eventId": "3"
                   }
                 ],
                 "keywords": [
                   "Iterated squaring"
-                ]
+                ],
+                "eventId": "6"
               },
               {
                 "type": "show",
@@ -295,7 +322,8 @@
                 "disabled": false,
                 "keywords": [
                   "By Fermat’s Little Theorem, if n is prime, then the answer is always “prime”."
-                ]
+                ],
+                "eventId": "7"
               },
               {
                 "type": "show",
@@ -304,7 +332,8 @@
                 "disabled": false,
                 "keywords": [
                   "If n is composite, then the probability of getting a “composite” answer is ≥ 1/2."
-                ]
+                ],
+                "eventId": "8"
               },
               {
                 "type": "show",
@@ -313,7 +342,8 @@
                 "disabled": false,
                 "keywords": [
                   "If Carmichael primes did not exist, the Fermat test would prove Composite ∈ RP"
-                ]
+                ],
+                "eventId": "9"
               },
               {
                 "type": "show",
@@ -322,7 +352,8 @@
                 "disabled": false,
                 "keywords": [
                   "this is not true for Carmichael primes, which are composite numbers that are similar to primes"
-                ]
+                ],
+                "eventId": "10"
               },
               {
                 "type": "show",
@@ -331,12 +362,14 @@
                 "disabled": false,
                 "keywords": [
                   "There are more sophisticated probabilistic tests, e.g. Miller-Rabin, which work."
-                ]
+                ],
+                "eventId": "11"
               }
             ],
             "keywords": [
               "Primality"
-            ]
+            ],
+            "eventId": "10"
           },
           {
             "type": "child",
@@ -351,7 +384,8 @@
                 "keywords": [
                   "Consider a straight line program over the integers",
                   "x := 1 y := 0 x := y + x y := x - 1 x := x × x out := z - x"
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "show",
@@ -361,7 +395,8 @@
                 "keywords": [
                   "Question:",
                   "out ≠ 0?"
-                ]
+                ],
+                "eventId": "1"
               },
               {
                 "type": "show",
@@ -373,7 +408,8 @@
                   "n – 1",
                   "x := 2 x := x × x x := x × x x := x × x x := x × x out := x - x",
                   "squaring doubles the number of digits"
-                ]
+                ],
+                "eventId": "2"
               },
               {
                 "type": "show",
@@ -382,7 +418,8 @@
                 "disabled": false,
                 "keywords": [
                   "Randomised algorithm"
-                ]
+                ],
+                "eventId": "3"
               },
               {
                 "type": "show",
@@ -391,7 +428,8 @@
                 "disabled": false,
                 "keywords": [
                   "If the program has n lines, do the following experiment 3n times:"
-                ]
+                ],
+                "eventId": "4"
               },
               {
                 "type": "show",
@@ -400,7 +438,8 @@
                 "disabled": false,
                 "keywords": [
                   "Randomly choose a natural number p with 2n bits, and evaluate the program modulo p"
-                ]
+                ],
+                "eventId": "5"
               },
               {
                 "type": "show",
@@ -409,7 +448,8 @@
                 "disabled": false,
                 "keywords": [
                   "If in all experiments, x has value 0 (in modulo arithmetic), then say “zero”, otherwise say “nonzero”."
-                ]
+                ],
+                "eventId": "6"
               },
               {
                 "type": "child",
@@ -424,7 +464,8 @@
                     "keywords": [
                       "The prime number theorem says that the following holds for sufficiently large n:",
                       "Probability [p is a prime number]"
-                    ]
+                    ],
+                    "eventId": "0"
                   },
                   {
                     "type": "show",
@@ -435,7 +476,8 @@
                       "Let r be the output of the program. Since it has at most 2 bits, it has at most 2 prime divisors.",
                       "Probability [p is a prime dividing r]",
                       "n"
-                    ]
+                    ],
+                    "eventId": "1"
                   },
                   {
                     "type": "show",
@@ -444,7 +486,8 @@
                     "disabled": false,
                     "keywords": [
                       "Therefore, assuming r ≠ 0, for each experiment the probability of “nonzero” is ≥"
-                    ]
+                    ],
+                    "eventId": "2"
                   },
                   {
                     "type": "show",
@@ -453,7 +496,8 @@
                     "disabled": false,
                     "keywords": [
                       "Therefore, assuming r ≠ 0, the probability that all 3n experiments say “zero” is"
-                    ]
+                    ],
+                    "eventId": "3"
                   },
                   {
                     "type": "show",
@@ -462,7 +506,8 @@
                     "disabled": false,
                     "keywords": [
                       "\\le (1 - \\frac {1} {3n})^{3n}  \\le 0.37"
-                    ]
+                    ],
+                    "eventId": "4"
                   },
                   {
                     "type": "child",
@@ -476,7 +521,8 @@
                         "disabled": false,
                         "keywords": [
                           "(\\frac {n + 1} {n})^n \\quad  \\to \\quad  e"
-                        ]
+                        ],
+                        "eventId": "0"
                       },
                       {
                         "type": "show",
@@ -485,7 +531,8 @@
                         "disabled": false,
                         "keywords": [
                           "Group 1"
-                        ]
+                        ],
+                        "eventId": "1"
                       },
                       {
                         "type": "show",
@@ -494,7 +541,8 @@
                         "disabled": false,
                         "keywords": [
                           "( 1 - \\frac {1} {n+1})^n \\quad  \\to \\quad  \\frac 1 e"
-                        ]
+                        ],
+                        "eventId": "2"
                       },
                       {
                         "type": "show",
@@ -503,7 +551,8 @@
                         "disabled": false,
                         "keywords": [
                           "( 1 - \\frac {1} {3n})^{3n-1} \\quad  \\to \\quad  \\frac 1 e"
-                        ]
+                        ],
+                        "eventId": "3"
                       },
                       {
                         "type": "show",
@@ -512,22 +561,26 @@
                         "disabled": false,
                         "keywords": [
                           "( 1 - \\frac {1} {3n})^{3n} \\quad  \\to \\quad  \\frac 1 e"
-                        ]
+                        ],
+                        "eventId": "4"
                       }
                     ],
                     "keywords": [
                       "Euler"
-                    ]
+                    ],
+                    "eventId": "5"
                   }
                 ],
                 "keywords": [
                   "Straight line programs 2"
-                ]
+                ],
+                "eventId": "7"
               }
             ],
             "keywords": [
               "Straight line programs"
-            ]
+            ],
+            "eventId": "11"
           },
           {
             "type": "child",
@@ -542,7 +595,8 @@
                 "keywords": [
                   "We are given a program with uninitialised variables:",
                   "x := y + 1 y := x - 1 x := x × y x := z - x out := x"
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "show",
@@ -551,7 +605,8 @@
                 "disabled": false,
                 "keywords": [
                   "This program represents a polynomial:"
-                ]
+                ],
+                "eventId": "1"
               },
               {
                 "type": "show",
@@ -560,7 +615,8 @@
                 "disabled": false,
                 "keywords": [
                   "Question Is this polynomial nonzero?"
-                ]
+                ],
+                "eventId": "2"
               },
               {
                 "type": "show",
@@ -569,7 +625,8 @@
                 "disabled": false,
                 "keywords": [
                   "Equivalently: given two programs, do they represent the same polynomial?"
-                ]
+                ],
+                "eventId": "3"
               },
               {
                 "type": "show",
@@ -578,7 +635,8 @@
                 "disabled": false,
                 "keywords": [
                   "Randomised algorithm"
-                ]
+                ],
+                "eventId": "4"
               },
               {
                 "type": "show",
@@ -587,7 +645,8 @@
                 "disabled": false,
                 "keywords": [
                   "If the program has n lines, do the following:"
-                ]
+                ],
+                "eventId": "5"
               },
               {
                 "type": "show",
@@ -596,7 +655,8 @@
                 "disabled": false,
                 "keywords": [
                   "Randomly choose for each variable a natural number with n bits. Evaluate the program."
-                ]
+                ],
+                "eventId": "6"
               },
               {
                 "type": "show",
@@ -605,7 +665,8 @@
                 "disabled": false,
                 "keywords": [
                   "If the program describes a nonzero polynomial, then the answer will be nonzero with probability ≥ 50%."
-                ]
+                ],
+                "eventId": "7"
               },
               {
                 "type": "show",
@@ -614,7 +675,8 @@
                 "disabled": false,
                 "keywords": [
                   "Evaluation can be done using the previously described randomised algorithm."
-                ]
+                ],
+                "eventId": "8"
               },
               {
                 "type": "child",
@@ -630,7 +692,8 @@
                       "n",
                       "The degree of the polynomial is at most 2 and thus less than half the sample size (natural numbers with n+1 bits).",
                       "The degree of the polynomial is at most and thus less than half the sample size (natural numbers with n bits)."
-                    ]
+                    ],
+                    "eventId": "0"
                   },
                   {
                     "type": "child",
@@ -644,7 +707,8 @@
                         "disabled": false,
                         "keywords": [
                           "Lemma. Consider a nonzero polynomial over the integers."
-                        ]
+                        ],
+                        "eventId": "0"
                       },
                       {
                         "type": "show",
@@ -653,7 +717,8 @@
                         "disabled": false,
                         "keywords": [
                           "works for every ring"
-                        ]
+                        ],
+                        "eventId": "1"
                       },
                       {
                         "type": "show",
@@ -662,7 +727,8 @@
                         "disabled": false,
                         "keywords": [
                           "For every set S of integers,"
-                        ]
+                        ],
+                        "eventId": "2"
                       },
                       {
                         "type": "show",
@@ -671,7 +737,8 @@
                         "disabled": false,
                         "keywords": [
                           "Probability"
-                        ]
+                        ],
+                        "eventId": "3"
                       },
                       {
                         "type": "show",
@@ -680,7 +747,8 @@
                         "disabled": false,
                         "keywords": [
                           "Example."
-                        ]
+                        ],
+                        "eventId": "4"
                       },
                       {
                         "type": "show",
@@ -689,7 +757,8 @@
                         "disabled": false,
                         "keywords": [
                           "useful when degree is smaller than sample size"
-                        ]
+                        ],
+                        "eventId": "5"
                       },
                       {
                         "type": "show",
@@ -698,7 +767,8 @@
                         "disabled": false,
                         "keywords": [
                           "Proof. Induction on the number of variables m"
-                        ]
+                        ],
+                        "eventId": "6"
                       },
                       {
                         "type": "show",
@@ -707,7 +777,8 @@
                         "disabled": false,
                         "keywords": [
                           "If m = 1, then we use the Bezout theorem, which says that a nonzero polynomial P(x) can have at most (degree of P) many zeros."
-                        ]
+                        ],
+                        "eventId": "7"
                       },
                       {
                         "type": "show",
@@ -716,7 +787,8 @@
                         "disabled": false,
                         "keywords": [
                           "Having proved the lemma for m variables, we now prove it for m+1"
-                        ]
+                        ],
+                        "eventId": "8"
                       },
                       {
                         "type": "child",
@@ -730,7 +802,8 @@
                             "disabled": false,
                             "keywords": [
                               "Consider a nonzero polynomial with m+1 variables"
-                            ]
+                            ],
+                            "eventId": "0"
                           },
                           {
                             "type": "show",
@@ -739,7 +812,8 @@
                             "disabled": false,
                             "keywords": [
                               "The i-th coefficient is a polynomial"
-                            ]
+                            ],
+                            "eventId": "1"
                           },
                           {
                             "type": "show",
@@ -749,7 +823,8 @@
                             "keywords": [
                               "assignments of variables",
                               "assignments of variable x"
-                            ]
+                            ],
+                            "eventId": "2"
                           },
                           {
                             "type": "show",
@@ -758,7 +833,8 @@
                             "disabled": false,
                             "keywords": [
                               "probability of picking a blue row is"
-                            ]
+                            ],
+                            "eventId": "3"
                           },
                           {
                             "type": "show",
@@ -769,7 +845,8 @@
                               "degree of",
                               "|S|",
                               "≤"
-                            ]
+                            ],
+                            "eventId": "4"
                           },
                           {
                             "type": "show",
@@ -778,7 +855,8 @@
                             "disabled": false,
                             "keywords": [
                               "in every red row, dark area has probability"
-                            ]
+                            ],
+                            "eventId": "5"
                           },
                           {
                             "type": "show",
@@ -789,7 +867,8 @@
                               "n",
                               "|S|",
                               "≤"
-                            ]
+                            ],
+                            "eventId": "6"
                           },
                           {
                             "type": "show",
@@ -802,7 +881,8 @@
                               "+",
                               "=",
                               "Hence the dark area has probability ≤"
-                            ]
+                            ],
+                            "eventId": "7"
                           },
                           {
                             "type": "show",
@@ -813,7 +893,8 @@
                               "degree of P",
                               "|S|",
                               "≤"
-                            ]
+                            ],
+                            "eventId": "8"
                           },
                           {
                             "type": "show",
@@ -822,27 +903,32 @@
                             "disabled": false,
                             "keywords": [
                               "what we wanted to prove ⟶"
-                            ]
+                            ],
+                            "eventId": "9"
                           }
                         ],
                         "keywords": [
                           "Schwartz-Zippel 2"
-                        ]
+                        ],
+                        "eventId": "9"
                       }
                     ],
                     "keywords": [
                       "Schwartz-Zippel"
-                    ]
+                    ],
+                    "eventId": "1"
                   }
                 ],
                 "keywords": [
                   "Polynomial identity testing algorithm"
-                ]
+                ],
+                "eventId": "9"
               }
             ],
             "keywords": [
               "Polynomial identity testing"
-            ]
+            ],
+            "eventId": "12"
           },
           {
             "type": "show",
@@ -851,7 +937,8 @@
             "disabled": false,
             "keywords": [
               "Perfect matching"
-            ]
+            ],
+            "eventId": "13"
           },
           {
             "type": "child",
@@ -865,7 +952,8 @@
                 "disabled": false,
                 "keywords": [
                   "Consider a bipartite graph."
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "show",
@@ -874,7 +962,8 @@
                 "disabled": false,
                 "keywords": [
                   "a perfect matching is a subset M of the edges, such that every vertex is incident to exactly one edge in M"
-                ]
+                ],
+                "eventId": "1"
               },
               {
                 "type": "show",
@@ -883,7 +972,8 @@
                 "disabled": false,
                 "keywords": [
                   "Problem. Does an unidrected graph have a perfect matching?"
-                ]
+                ],
+                "eventId": "2"
               },
               {
                 "type": "show",
@@ -892,7 +982,8 @@
                 "disabled": false,
                 "keywords": [
                   "This problem is in P, but we show an RP algorithm."
-                ]
+                ],
+                "eventId": "3"
               },
               {
                 "type": "show",
@@ -901,7 +992,8 @@
                 "disabled": false,
                 "keywords": [
                   "Consider the incidence matrix of a graph, with edges replaced by variables."
-                ]
+                ],
+                "eventId": "4"
               },
               {
                 "type": "show",
@@ -924,7 +1016,8 @@
                   "x44",
                   "if there is an edge, we add place a fresh variable",
                   "if there is no edge, we place 0"
-                ]
+                ],
+                "eventId": "5"
               },
               {
                 "type": "show",
@@ -933,7 +1026,8 @@
                 "disabled": false,
                 "keywords": [
                   "Vector 15"
-                ]
+                ],
+                "eventId": "6"
               },
               {
                 "type": "hide",
@@ -942,7 +1036,8 @@
                 "disabled": false,
                 "keywords": [
                   "Vector 15"
-                ]
+                ],
+                "eventId": "7"
               },
               {
                 "type": "child",
@@ -956,7 +1051,8 @@
                     "disabled": false,
                     "keywords": [
                       "The determinant of this matrix is"
-                    ]
+                    ],
+                    "eventId": "0"
                   },
                   {
                     "type": "show",
@@ -965,7 +1061,8 @@
                     "disabled": false,
                     "keywords": [
                       "each π is a candidate for a perfect matching"
-                    ]
+                    ],
+                    "eventId": "1"
                   },
                   {
                     "type": "show",
@@ -974,7 +1071,8 @@
                     "disabled": false,
                     "keywords": [
                       "the candidate is actually a matching if this product is nonzero"
-                    ]
+                    ],
+                    "eventId": "2"
                   },
                   {
                     "type": "show",
@@ -983,7 +1081,8 @@
                     "disabled": false,
                     "keywords": [
                       "Corollary. The graph has a perfect matching if and only if the determinant, viewed as a polynomial (with at most n2 variables), is nonzero."
-                    ]
+                    ],
+                    "eventId": "3"
                   },
                   {
                     "type": "show",
@@ -992,7 +1091,8 @@
                     "disabled": false,
                     "keywords": [
                       "This polynomial can be described by a program as in polynomial identity testing, but we use another way."
-                    ]
+                    ],
+                    "eventId": "4"
                   },
                   {
                     "type": "child",
@@ -1006,7 +1106,8 @@
                         "disabled": false,
                         "keywords": [
                           "We can check if this polynomial is nonzero by using a random valuation."
-                        ]
+                        ],
+                        "eventId": "0"
                       },
                       {
                         "type": "show",
@@ -1015,7 +1116,8 @@
                         "disabled": false,
                         "keywords": [
                           "Since the polynomial has degree n, choosing independently at random number in {1,..,2n} for each variable will give us a nonzero value with probability ≥ 1/2."
-                        ]
+                        ],
+                        "eventId": "1"
                       },
                       {
                         "type": "show",
@@ -1024,7 +1126,8 @@
                         "disabled": false,
                         "keywords": [
                           "Once the values for the variables have been chosen, the value of the polynomial is the same as the determinant of some matrix."
-                        ]
+                        ],
+                        "eventId": "2"
                       },
                       {
                         "type": "show",
@@ -1033,27 +1136,32 @@
                         "disabled": false,
                         "keywords": [
                           "The determinant can be computed in polynomial time."
-                        ]
+                        ],
+                        "eventId": "3"
                       }
                     ],
                     "keywords": [
                       "Determinant random"
-                    ]
+                    ],
+                    "eventId": "5"
                   }
                 ],
                 "keywords": [
                   "Determinant"
-                ]
+                ],
+                "eventId": "8"
               }
             ],
             "keywords": [
               "Perfect matchings"
-            ]
+            ],
+            "eventId": "14"
           }
         ],
         "keywords": [
           "Randomised Polynomial RP"
-        ]
+        ],
+        "eventId": "0"
       },
       {
         "type": "show",
@@ -1063,7 +1171,8 @@
         "keywords": [
           "w ∈ L: prob > ½ w ∉ L: prob = 0",
           "RP"
-        ]
+        ],
+        "eventId": "1"
       },
       {
         "type": "show",
@@ -1073,7 +1182,8 @@
         "keywords": [
           "w ∈ L: prob > ½ w ∉ L: prob ≤ ½",
           "PP"
-        ]
+        ],
+        "eventId": "2"
       },
       {
         "type": "child",
@@ -1087,7 +1197,8 @@
             "disabled": false,
             "keywords": [
               "Randomised polynomial time (RP)"
-            ]
+            ],
+            "eventId": "0"
           },
           {
             "type": "show",
@@ -1096,7 +1207,8 @@
             "disabled": false,
             "keywords": [
               "Def. L ∈ RP if there is a Turing machine, with access to coin flips, such that:"
-            ]
+            ],
+            "eventId": "1"
           },
           {
             "type": "show",
@@ -1105,7 +1217,8 @@
             "disabled": false,
             "keywords": [
               "1. regardless of the coin flips, it runs in polynomial time"
-            ]
+            ],
+            "eventId": "2"
           },
           {
             "type": "show",
@@ -1114,7 +1227,8 @@
             "disabled": false,
             "keywords": [
               "2. for inputs w ∉ L the machine always rejects, regardless of the coin flips"
-            ]
+            ],
+            "eventId": "3"
           },
           {
             "type": "show",
@@ -1123,7 +1237,8 @@
             "disabled": false,
             "keywords": [
               "3. for inputs w ∈ L the machine accepts with probability >1/2."
-            ]
+            ],
+            "eventId": "4"
           },
           {
             "type": "show",
@@ -1132,7 +1247,8 @@
             "disabled": false,
             "keywords": [
               "the problem is that there this can be exponentially close to 1/2"
-            ]
+            ],
+            "eventId": "5"
           },
           {
             "type": "show",
@@ -1141,7 +1257,8 @@
             "disabled": false,
             "keywords": [
               "Example. Here is a PP algorithm that solves Sat (and hence proves NP ⊆ PP)."
-            ]
+            ],
+            "eventId": "6"
           },
           {
             "type": "show",
@@ -1150,7 +1267,8 @@
             "disabled": false,
             "keywords": [
               "Given a Boolean formula with n variables do the following experiment."
-            ]
+            ],
+            "eventId": "7"
           },
           {
             "type": "show",
@@ -1159,7 +1277,8 @@
             "disabled": false,
             "keywords": [
               "Toss a coin."
-            ]
+            ],
+            "eventId": "8"
           },
           {
             "type": "show",
@@ -1168,7 +1287,8 @@
             "disabled": false,
             "keywords": [
               "If “head”, then accept."
-            ]
+            ],
+            "eventId": "9"
           },
           {
             "type": "show",
@@ -1177,7 +1297,8 @@
             "disabled": false,
             "keywords": [
               "Otherwise, randomly select a valuation, and accept if it is satisfying."
-            ]
+            ],
+            "eventId": "10"
           },
           {
             "type": "show",
@@ -1186,12 +1307,14 @@
             "disabled": false,
             "keywords": [
               "If the formula is unsatisfiable, probability of success is 1/2, otherwise it is > 1/2."
-            ]
+            ],
+            "eventId": "11"
           }
         ],
         "keywords": [
           "PP"
-        ]
+        ],
+        "eventId": "3"
       },
       {
         "type": "show",
@@ -1200,7 +1323,8 @@
         "disabled": false,
         "keywords": [
           "contains NP"
-        ]
+        ],
+        "eventId": "4"
       },
       {
         "type": "show",
@@ -1210,7 +1334,8 @@
         "keywords": [
           "w ∈ L: prob > ½ w ∉ L: prob ≤ ¼",
           "BPP"
-        ]
+        ],
+        "eventId": "5"
       },
       {
         "type": "show",
@@ -1219,7 +1344,8 @@
         "disabled": false,
         "keywords": [
           "⊆"
-        ]
+        ],
+        "eventId": "6"
       },
       {
         "type": "child",
@@ -1234,7 +1360,8 @@
             "keywords": [
               "w ∈ L: accepts with prob > 0.5 w ∉ L: accepts with prob ≤ 0.3",
               "Suppose that we have a randomised polynomial time algorithm with:"
-            ]
+            ],
+            "eventId": "0"
           },
           {
             "type": "show",
@@ -1245,7 +1372,8 @@
               "w ∈ L: accepts with prob > 0.1 + 0.9*0.5 = 0.55 w ∉ L: accepts with prob ≤ 0.1 + 0.9*0.3 = 0.37",
               "With 0.1 chance accept unconditionally, otherwise use old algorithm",
               "w ∈ L: accepts with prob > 0.1 + 0.9*0.5 = 0.55 w ∉ L: accepts with prob ≤ 0.1 + 0.9*0.3 = 0.27"
-            ]
+            ],
+            "eventId": "1"
           },
           {
             "type": "show",
@@ -1255,7 +1383,8 @@
             "keywords": [
               "w ∈ L: accepts with prob > 0.99 w ∉ L: accepts with prob ≤ 0.01",
               "Run the algorithm 100 times, and answer “yes” if the majority accepts."
-            ]
+            ],
+            "eventId": "2"
           },
           {
             "type": "child",
@@ -1269,7 +1398,8 @@
                 "disabled": false,
                 "keywords": [
                   "Run many times an experiment, which succeeds with probability 0.6"
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "show",
@@ -1278,7 +1408,8 @@
                 "disabled": false,
                 "keywords": [
                   "or some other p > 0.5"
-                ]
+                ],
+                "eventId": "1"
               },
               {
                 "type": "show",
@@ -1287,7 +1418,8 @@
                 "disabled": false,
                 "keywords": [
                   "What is the probability of the majority not being “success”?"
-                ]
+                ],
+                "eventId": "2"
               },
               {
                 "type": "show",
@@ -1296,7 +1428,8 @@
                 "disabled": false,
                 "keywords": [
                   "Answer: exponentially small."
-                ]
+                ],
+                "eventId": "3"
               },
               {
                 "type": "show",
@@ -1306,7 +1439,8 @@
                 "keywords": [
                   "probability of getting exactly i success in 2n tries",
                   "probability of ≤ half successess, given 2n tries."
-                ]
+                ],
+                "eventId": "4"
               },
               {
                 "type": "show",
@@ -1316,7 +1450,8 @@
                 "keywords": [
                   "some subsets of {1,..., 2n}",
                   "≥"
-                ]
+                ],
+                "eventId": "5"
               },
               {
                 "type": "show",
@@ -1325,7 +1460,8 @@
                 "disabled": false,
                 "keywords": [
                   "≥"
-                ]
+                ],
+                "eventId": "6"
               },
               {
                 "type": "show",
@@ -1334,7 +1470,8 @@
                 "disabled": false,
                 "keywords": [
                   "≥"
-                ]
+                ],
+                "eventId": "7"
               },
               {
                 "type": "show",
@@ -1344,12 +1481,14 @@
                 "keywords": [
                   "If, instead of 0.6 we had some other probability p > 0.5, then instead of 0.96 we would have 4p(1-p)",
                   "which is <1 for all p≠0.5"
-                ]
+                ],
+                "eventId": "8"
               }
             ],
             "keywords": [
               "Chernoff-like"
-            ]
+            ],
+            "eventId": "3"
           },
           {
             "type": "show",
@@ -1358,7 +1497,8 @@
             "disabled": false,
             "keywords": [
               "the argument works for any numbers p > q"
-            ]
+            ],
+            "eventId": "4"
           },
           {
             "type": "show",
@@ -1367,7 +1507,8 @@
             "disabled": false,
             "keywords": [
               "these numbers could even depend on the input size n, as long as they differ by 1/n."
-            ]
+            ],
+            "eventId": "5"
           },
           {
             "type": "show",
@@ -1376,12 +1517,14 @@
             "disabled": false,
             "keywords": [
               "or some other polynomial"
-            ]
+            ],
+            "eventId": "6"
           }
         ],
         "keywords": [
           "BPP"
-        ]
+        ],
+        "eventId": "7"
       },
       {
         "type": "show",
@@ -1390,699 +1533,215 @@
         "disabled": false,
         "keywords": [
           "could be equal to P"
-        ]
+        ],
+        "eventId": "8"
       }
     ],
     "keywords": [
       "Computational Complexity",
       "Lecture 1. Turing machines and their resources",
       "First slide"
-    ]
+    ],
+    "eventId": "root"
   },
   "soundDict": {
     "45:2": {
-      "0": {
-        "file": "0",
-        "duration": 1.296
-      },
-      "1": {
-        "file": "1",
-        "duration": 1.704
-      },
-      "2": {
-        "file": "2",
-        "duration": 13.176
-      },
-      "3": {
-        "file": "3",
-        "duration": 35.496
-      },
-      "4": {
-        "file": "4",
-        "duration": 18.936
-      },
-      "5": {
-        "file": "5",
-        "duration": 23.256
-      },
-      "6": {
-        "file": "6",
-        "duration": 43.296
-      },
-      "7": {
-        "file": "7",
-        "duration": 16.176
-      },
-      "8": {
-        "file": "8",
-        "duration": 24.936
-      },
-      "9": {
-        "file": "9",
-        "duration": 76.104
-      },
-      "10": {
-        "file": "10",
-        "duration": 8.976
-      },
-      "11": {
-        "file": "11",
-        "duration": 27.216
-      },
-      "12": {
-        "file": "12",
-        "duration": 41.616
-      }
+      "0": 1.296,
+      "1": 1.704,
+      "2": 13.176,
+      "3": 35.496,
+      "4": 18.936,
+      "5": 23.256,
+      "6": 43.296,
+      "7": 16.176,
+      "8": 24.936,
+      "9": 76.104,
+      "10": 8.976,
+      "11": 27.216,
+      "finish": 41.616
     },
     "20:18": {
-      "0": {
-        "file": "0",
-        "duration": 10.656
-      },
-      "1": {
-        "file": "1",
-        "duration": 85.704
-      },
-      "2": {
-        "file": "2",
-        "duration": 97.824
-      },
-      "3": {
-        "file": "3",
-        "duration": 42.144
-      },
-      "4": {
-        "file": "4",
-        "duration": 18.384
-      },
-      "5": {
-        "file": "5",
-        "duration": 25.944
-      },
-      "6": {
-        "file": "6",
-        "duration": 14.784
-      }
+      "0": 10.656,
+      "1": 85.704,
+      "2": 97.824,
+      "3": 42.144,
+      "4": 18.384,
+      "5": 25.944,
+      "finish": 14.784
     },
     "19:2": {
-      "0": {
-        "file": "0",
-        "duration": 4.056
-      },
-      "1": {
-        "file": "1",
-        "duration": 2.424
-      },
-      "2": {
-        "file": "2",
-        "duration": 11.256
-      },
-      "3": {
-        "file": "3",
-        "duration": 19.296
-      },
-      "4": {
-        "file": "4",
-        "duration": 12.024
-      },
-      "5": {
-        "file": "5",
-        "duration": 14.544
-      },
-      "6": {
-        "file": "6",
-        "duration": 38.784
-      },
-      "7": {
-        "file": "7",
-        "duration": 12.456
-      },
-      "8": {
-        "file": "8",
-        "duration": 7.056
-      },
-      "9": {
-        "file": "9",
-        "duration": 3.264
-      },
-      "10": {
-        "file": "10",
-        "duration": 11.736
-      },
-      "11": {
-        "file": "11",
-        "duration": 14.424
-      },
-      "12": {
-        "file": "12",
-        "duration": 17.016
-      },
-      "13": {
-        "file": "13",
-        "duration": 6.384
-      },
-      "14": {
-        "file": "14",
-        "duration": 2.856
-      },
-      "15": {
-        "file": "15",
-        "duration": 8.064
-      }
+      "0": 4.056,
+      "1": 2.424,
+      "2": 11.256,
+      "3": 19.296,
+      "4": 12.024,
+      "5": 14.544,
+      "6": 38.784,
+      "7": 12.456,
+      "8": 7.056,
+      "9": 3.264,
+      "10": 11.736,
+      "11": 14.424,
+      "12": 17.016,
+      "13": 6.384,
+      "14": 2.856,
+      "finish": 8.064
     },
     "17:2": {
-      "0": {
-        "file": "0",
-        "duration": 6.144
-      },
-      "1": {
-        "file": "1",
-        "duration": 2.064
-      },
-      "2": {
-        "file": "2",
-        "duration": 17.496
-      },
-      "3": {
-        "file": "3",
-        "duration": 38.064
-      },
-      "4": {
-        "file": "4",
-        "duration": 25.056
-      },
-      "5": {
-        "file": "5",
-        "duration": 1.824
-      },
-      "6": {
-        "file": "6",
-        "duration": 48.936
-      },
-      "7": {
-        "file": "7",
-        "duration": 13.536
-      },
-      "8": {
-        "file": "8",
-        "duration": 35.904
-      },
-      "9": {
-        "file": "9",
-        "duration": 38.544
-      }
+      "0": 6.144,
+      "1": 2.064,
+      "2": 17.496,
+      "3": 38.064,
+      "4": 25.056,
+      "5": 1.824,
+      "6": 48.936,
+      "7": 13.536,
+      "8": 35.904,
+      "finish": 38.544
     },
     "19:15": {
-      "0": {
-        "file": "0",
-        "duration": 3.216
-      },
-      "1": {
-        "file": "1",
-        "duration": 37.776
-      },
-      "2": {
-        "file": "2",
-        "duration": 6.696
-      },
-      "3": {
-        "file": "3",
-        "duration": 18.504
-      },
-      "4": {
-        "file": "4",
-        "duration": 13.344
-      },
-      "5": {
-        "file": "5",
-        "duration": 35.736
-      },
-      "6": {
-        "file": "6",
-        "duration": 8.256
-      }
+      "0": 3.216,
+      "1": 37.776,
+      "2": 6.696,
+      "3": 18.504,
+      "4": 13.344,
+      "5": 35.736,
+      "finish": 8.256
     },
     "45:33": {
-      "0": {
-        "file": "0",
-        "duration": 1.656
-      },
-      "1": {
-        "file": "1",
-        "duration": 19.584
-      },
-      "2": {
-        "file": "2",
-        "duration": 25.776
-      },
-      "3": {
-        "file": "3",
-        "duration": 24.864
-      },
-      "4": {
-        "file": "4",
-        "duration": 42.384
-      }
+      "0": 1.656,
+      "1": 19.584,
+      "2": 25.776,
+      "3": 24.864,
+      "finish": 42.384
     },
     "19:25": {
-      "0": {
-        "file": "0",
-        "duration": 2.544
-      },
-      "1": {
-        "file": "1",
-        "duration": 30.504
-      },
-      "2": {
-        "file": "2",
-        "duration": 24.864
-      },
-      "3": {
-        "file": "3",
-        "duration": 45.576
-      },
-      "4": {
-        "file": "4",
-        "duration": 5.736
-      },
-      "5": {
-        "file": "5",
-        "duration": 12.216
-      },
-      "6": {
-        "file": "6",
-        "duration": 17.616
-      },
-      "7": {
-        "file": "7",
-        "duration": 68.496
-      },
-      "8": {
-        "file": "8",
-        "duration": 2.376
-      }
+      "0": 2.544,
+      "1": 30.504,
+      "2": 24.864,
+      "3": 45.576,
+      "4": 5.736,
+      "5": 12.216,
+      "6": 17.616,
+      "7": 68.496,
+      "finish": 2.376
     },
     "20:329": {
-      "0": {
-        "file": "0",
-        "duration": 8.064
-      },
-      "1": {
-        "file": "1",
-        "duration": 9.696
-      },
-      "2": {
-        "file": "2",
-        "duration": 8.136
-      },
-      "3": {
-        "file": "3",
-        "duration": 7.296
-      },
-      "4": {
-        "file": "4",
-        "duration": 14.136
-      },
-      "5": {
-        "file": "5",
-        "duration": 63.096
-      }
+      "0": 8.064,
+      "1": 9.696,
+      "2": 8.136,
+      "3": 7.296,
+      "4": 14.136,
+      "finish": 63.096
     },
     "17:7": {
-      "0": {
-        "file": "0",
-        "duration": 2.976
-      },
-      "1": {
-        "file": "1",
-        "duration": 13.896
-      },
-      "2": {
-        "file": "2",
-        "duration": 43.896
-      },
-      "3": {
-        "file": "3",
-        "duration": 32.136
-      },
-      "4": {
-        "file": "4",
-        "duration": 32.664
-      },
-      "5": {
-        "file": "5",
-        "duration": 7.176
-      },
-      "6": {
-        "file": "6",
-        "duration": 9.816
-      },
-      "7": {
-        "file": "7",
-        "duration": 27.984
-      },
-      "8": {
-        "file": "8",
-        "duration": 100.056
-      },
-      "9": {
-        "file": "9",
-        "duration": 2.256
-      },
-      "10": {
-        "file": "10",
-        "duration": 13.536
-      }
+      "0": 2.976,
+      "1": 13.896,
+      "2": 43.896,
+      "3": 32.136,
+      "4": 32.664,
+      "5": 7.176,
+      "6": 9.816,
+      "7": 27.984,
+      "8": 100.056,
+      "9": 2.256,
+      "finish": 13.536
     },
     "36:52": {
-      "0": {
-        "file": "0",
-        "duration": 4.056
-      },
-      "1": {
-        "file": "1",
-        "duration": 81.144
-      },
-      "2": {
-        "file": "2",
-        "duration": 39.744
-      }
+      "0": 4.056,
+      "1": 81.144,
+      "finish": 39.744
     },
     "17:320": {
-      "0": {
-        "file": "0",
-        "duration": 1.176
-      },
-      "1": {
-        "file": "1",
-        "duration": 8.496
-      },
-      "2": {
-        "file": "2",
-        "duration": 9.696
-      },
-      "3": {
-        "file": "3",
-        "duration": 6.264
-      },
-      "4": {
-        "file": "4",
-        "duration": 21.504
-      },
-      "5": {
-        "file": "5",
-        "duration": 32.136
-      },
-      "6": {
-        "file": "6",
-        "duration": 11.736
-      },
-      "7": {
-        "file": "7",
-        "duration": 13.824
-      },
-      "8": {
-        "file": "8",
-        "duration": 29.064
-      },
-      "9": {
-        "file": "9",
-        "duration": 12.576
-      },
-      "10": {
-        "file": "10",
-        "duration": 22.416
-      }
+      "0": 1.176,
+      "1": 8.496,
+      "2": 9.696,
+      "3": 6.264,
+      "4": 21.504,
+      "5": 32.136,
+      "6": 11.736,
+      "7": 13.824,
+      "8": 29.064,
+      "9": 12.576,
+      "finish": 22.416
     },
     "17:415": {
-      "0": {
-        "file": "0",
-        "duration": 2.016
-      },
-      "1": {
-        "file": "1",
-        "duration": 33.576
-      },
-      "2": {
-        "file": "2",
-        "duration": 15.864
-      },
-      "3": {
-        "file": "3",
-        "duration": 68.904
-      },
-      "4": {
-        "file": "4",
-        "duration": 13.704
-      },
-      "5": {
-        "file": "5",
-        "duration": 27.816
-      },
-      "6": {
-        "file": "6",
-        "duration": 66.696
-      },
-      "7": {
-        "file": "7",
-        "duration": 26.616
-      },
-      "8": {
-        "file": "8",
-        "duration": 28.656
-      },
-      "9": {
-        "file": "9",
-        "duration": 37.824
-      },
-      "10": {
-        "file": "10",
-        "duration": 2.256
-      }
+      "0": 2.016,
+      "1": 33.576,
+      "2": 15.864,
+      "3": 68.904,
+      "4": 13.704,
+      "5": 27.816,
+      "6": 66.696,
+      "7": 26.616,
+      "8": 28.656,
+      "9": 37.824,
+      "finish": 2.256
     },
     "110:1": {
-      "0": {
-        "file": "0",
-        "duration": 1.536
-      },
-      "1": {
-        "file": "1",
-        "duration": 15.744
-      },
-      "2": {
-        "file": "2",
-        "duration": 27.504
-      },
-      "3": {
-        "file": "3",
-        "duration": 7.944
-      },
-      "4": {
-        "file": "4",
-        "duration": 12.696
-      },
-      "5": {
-        "file": "5",
-        "duration": 16.176
-      },
-      "6": {
-        "file": "6",
-        "duration": 53.184
-      },
-      "7": {
-        "file": "7",
-        "duration": 71.136
-      },
-      "8": {
-        "file": "8",
-        "duration": 0.744
-      },
-      "9": {
-        "file": "9",
-        "duration": 0.384
-      }
+      "0": 1.536,
+      "1": 15.744,
+      "2": 27.504,
+      "3": 7.944,
+      "4": 12.696,
+      "5": 16.176,
+      "6": 53.184,
+      "7": 71.136,
+      "8": 0.744,
+      "finish": 0.384
     },
     "112:7": {
-      "0": {
-        "file": "0",
-        "duration": 2.136
-      },
-      "1": {
-        "file": "1",
-        "duration": 107.616
-      },
-      "2": {
-        "file": "2",
-        "duration": 12.384
-      },
-      "3": {
-        "file": "3",
-        "duration": 6.264
-      },
-      "4": {
-        "file": "4",
-        "duration": 37.656
-      },
-      "5": {
-        "file": "5",
-        "duration": 22.056
-      },
-      "6": {
-        "file": "6",
-        "duration": 0.336
-      }
+      "0": 2.136,
+      "1": 107.616,
+      "2": 12.384,
+      "3": 6.264,
+      "4": 37.656,
+      "5": 22.056,
+      "finish": 0.336
     },
     "112:143": {
-      "0": {
-        "file": "0",
-        "duration": 5.064
-      },
-      "1": {
-        "file": "1",
-        "duration": 20.304
-      },
-      "2": {
-        "file": "2",
-        "duration": 34.176
-      },
-      "3": {
-        "file": "3",
-        "duration": 171.504
-      },
-      "4": {
-        "file": "4",
-        "duration": 2.664
-      }
+      "0": 5.064,
+      "1": 20.304,
+      "2": 34.176,
+      "3": 171.504,
+      "finish": 2.664
     },
     "99:0": {
-      "0": {
-        "file": "0",
-        "duration": 1.704
-      },
-      "1": {
-        "file": "1",
-        "duration": 3.144
-      },
-      "2": {
-        "file": "2",
-        "duration": 3.816
-      },
-      "3": {
-        "file": "3",
-        "duration": 0.504
-      },
-      "4": {
-        "file": "4",
-        "duration": 0.456
-      },
-      "5": {
-        "file": "5",
-        "duration": 33.624
-      },
-      "6": {
-        "file": "6",
-        "duration": 30.984
-      },
-      "7": {
-        "file": "7",
-        "duration": 17.904
-      },
-      "8": {
-        "file": "8",
-        "duration": 23.976
-      },
-      "9": {
-        "file": "9",
-        "duration": 4.296
-      },
-      "10": {
-        "file": "10",
-        "duration": 9.384
-      },
-      "11": {
-        "file": "11",
-        "duration": 17.544
-      },
-      "12": {
-        "file": "12",
-        "duration": 70.416
-      }
+      "0": 1.704,
+      "1": 3.144,
+      "2": 3.816,
+      "3": 0.504,
+      "4": 0.456,
+      "5": 33.624,
+      "6": 30.984,
+      "7": 17.904,
+      "8": 23.976,
+      "9": 4.296,
+      "10": 9.384,
+      "11": 17.544,
+      "finish": 70.416
     },
     "115:0": {
-      "0": {
-        "file": "0",
-        "duration": 8.376
-      },
-      "1": {
-        "file": "1",
-        "duration": 24.576
-      },
-      "2": {
-        "file": "2",
-        "duration": 67.416
-      },
-      "3": {
-        "file": "3",
-        "duration": 53.616
-      },
-      "4": {
-        "file": "4",
-        "duration": 13.056
-      },
-      "5": {
-        "file": "5",
-        "duration": 26.784
-      },
-      "6": {
-        "file": "6",
-        "duration": 26.256
-      },
-      "7": {
-        "file": "7",
-        "duration": 15.744
-      }
+      "0": 8.376,
+      "1": 24.576,
+      "2": 67.416,
+      "3": 53.616,
+      "4": 13.056,
+      "5": 26.784,
+      "6": 26.256,
+      "finish": 15.744
     },
     "124:0": {
-      "0": {
-        "file": "0",
-        "duration": 1.416
-      },
-      "1": {
-        "file": "1",
-        "duration": 8.376
-      },
-      "2": {
-        "file": "2",
-        "duration": 9.624
-      },
-      "3": {
-        "file": "3",
-        "duration": 25.056
-      },
-      "4": {
-        "file": "4",
-        "duration": 1.536
-      },
-      "5": {
-        "file": "5",
-        "duration": 73.824
-      },
-      "6": {
-        "file": "6",
-        "duration": 42.696
-      },
-      "7": {
-        "file": "7",
-        "duration": 32.976
-      },
-      "8": {
-        "file": "8",
-        "duration": 46.464
-      },
-      "9": {
-        "file": "9",
-        "duration": 69.384
-      }
+      "0": 1.416,
+      "1": 8.376,
+      "2": 9.624,
+      "3": 25.056,
+      "4": 1.536,
+      "5": 73.824,
+      "6": 42.696,
+      "7": 32.976,
+      "8": 46.464,
+      "finish": 69.384
     }
   }
 }

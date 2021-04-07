@@ -1,5 +1,5 @@
 {
-  "version": 0.88,
+  "version": 0.902,
   "presentation": "Lecture 4. Introduction to circuits",
   "slideDict": {
     "31:97": "31_97",
@@ -36,7 +36,8 @@
               "x6",
               "x4",
               "A circuit"
-            ]
+            ],
+            "eventId": "0"
           },
           {
             "type": "show",
@@ -46,7 +47,8 @@
             "keywords": [
               "it computes a function",
               "here n = 6"
-            ]
+            ],
+            "eventId": "1"
           },
           {
             "type": "show",
@@ -55,7 +57,8 @@
             "disabled": false,
             "keywords": [
               "a gate of fan-in 3"
-            ]
+            ],
+            "eventId": "2"
           },
           {
             "type": "show",
@@ -64,7 +67,8 @@
             "disabled": false,
             "keywords": [
               "the size of the circuit is 11"
-            ]
+            ],
+            "eventId": "3"
           },
           {
             "type": "show",
@@ -73,12 +77,14 @@
             "disabled": false,
             "keywords": [
               "the depth of the circuit is 4"
-            ]
+            ],
+            "eventId": "4"
           }
         ],
         "keywords": [
           "What is a circuit?"
-        ]
+        ],
+        "eventId": "0"
       },
       {
         "type": "show",
@@ -87,7 +93,8 @@
         "disabled": false,
         "keywords": [
           "Circuits can be seen as a model of parallel computation"
-        ]
+        ],
+        "eventId": "1"
       },
       {
         "type": "child",
@@ -104,7 +111,8 @@
               "0",
               "1",
               "="
-            ]
+            ],
+            "eventId": "0"
           },
           {
             "type": "show",
@@ -113,7 +121,8 @@
             "disabled": false,
             "keywords": [
               "Group 29"
-            ]
+            ],
+            "eventId": "1"
           },
           {
             "type": "show",
@@ -122,7 +131,8 @@
             "disabled": false,
             "keywords": [
               "Group 28"
-            ]
+            ],
+            "eventId": "2"
           },
           {
             "type": "show",
@@ -133,7 +143,8 @@
               "As a function",
               "can be computed by a circuit of size and depth 2",
               "matrix multiplication"
-            ]
+            ],
+            "eventId": "3"
           },
           {
             "type": "show",
@@ -142,12 +153,14 @@
             "disabled": false,
             "keywords": [
               "A sequence of circuits that has polynomial size and constant depth."
-            ]
+            ],
+            "eventId": "4"
           }
         ],
         "keywords": [
           "Matrix multiplication"
-        ]
+        ],
+        "eventId": "2"
       },
       {
         "type": "child",
@@ -163,7 +176,8 @@
               "Every function of type",
               "can be computed by a circuit of depth 3 like this:",
               "the input is exactly"
-            ]
+            ],
+            "eventId": "0"
           },
           {
             "type": "show",
@@ -172,7 +186,8 @@
             "disabled": false,
             "keywords": [
               "exponential"
-            ]
+            ],
+            "eventId": "1"
           },
           {
             "type": "show",
@@ -181,12 +196,14 @@
             "disabled": false,
             "keywords": [
               "linear"
-            ]
+            ],
+            "eventId": "2"
           }
         ],
         "keywords": [
           "All functions computable"
-        ]
+        ],
+        "eventId": "3"
       },
       {
         "type": "show",
@@ -195,7 +212,8 @@
         "disabled": false,
         "keywords": [
           "Circuit complexity classes"
-        ]
+        ],
+        "eventId": "4"
       },
       {
         "type": "child",
@@ -209,7 +227,8 @@
             "disabled": false,
             "keywords": [
               "Polynomial size circuits"
-            ]
+            ],
+            "eventId": "0"
           },
           {
             "type": "child",
@@ -223,7 +242,8 @@
                 "disabled": false,
                 "keywords": [
                   "To recognise a language L ⊆ {true, false}*, we can use as sequence of circuits"
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "show",
@@ -232,7 +252,8 @@
                 "disabled": false,
                 "keywords": [
                   "The n-th circuit computes membership in L for inputs of length exactly n."
-                ]
+                ],
+                "eventId": "1"
               },
               {
                 "type": "show",
@@ -241,7 +262,8 @@
                 "disabled": false,
                 "keywords": [
                   "Which languages can we get, if we assume that the circuits have polynomial size?"
-                ]
+                ],
+                "eventId": "2"
               },
               {
                 "type": "show",
@@ -250,7 +272,8 @@
                 "disabled": false,
                 "keywords": [
                   "What are the assumptions on ?"
-                ]
+                ],
+                "eventId": "3"
               },
               {
                 "type": "show",
@@ -259,7 +282,8 @@
                 "disabled": false,
                 "keywords": [
                   "Computable in polynomial time, given n in binary? Logarithmic space?"
-                ]
+                ],
+                "eventId": "4"
               },
               {
                 "type": "show",
@@ -268,7 +292,8 @@
                 "disabled": false,
                 "keywords": [
                   "No assumptions"
-                ]
+                ],
+                "eventId": "5"
               },
               {
                 "type": "show",
@@ -277,7 +302,8 @@
                 "disabled": false,
                 "keywords": [
                   "and uncountably many others"
-                ]
+                ],
+                "eventId": "6"
               },
               {
                 "type": "child",
@@ -291,7 +317,8 @@
                     "disabled": false,
                     "keywords": [
                       "The following conditions are equivalent for every"
-                    ]
+                    ],
+                    "eventId": "0"
                   },
                   {
                     "type": "show",
@@ -300,7 +327,8 @@
                     "disabled": false,
                     "keywords": [
                       "C can be computed in polynomial time"
-                    ]
+                    ],
+                    "eventId": "1"
                   },
                   {
                     "type": "show",
@@ -309,7 +337,8 @@
                     "disabled": false,
                     "keywords": [
                       "given n, one can compute in polynomial time a circuit that computes C on inputs of length n."
-                    ]
+                    ],
+                    "eventId": "2"
                   },
                   {
                     "type": "show",
@@ -318,7 +347,8 @@
                     "disabled": false,
                     "keywords": [
                       "given n, one can compute in LogSpace a circuit that computes C on inputs of length n."
-                    ]
+                    ],
+                    "eventId": "3"
                   },
                   {
                     "type": "show",
@@ -327,7 +357,8 @@
                     "disabled": false,
                     "keywords": [
                       "LogSpace ⊆ P"
-                    ]
+                    ],
+                    "eventId": "4"
                   },
                   {
                     "type": "show",
@@ -336,7 +367,8 @@
                     "disabled": false,
                     "keywords": [
                       "compute the circuit and run it"
-                    ]
+                    ],
+                    "eventId": "5"
                   },
                   {
                     "type": "show",
@@ -345,12 +377,14 @@
                     "disabled": false,
                     "keywords": [
                       "same as the proof that alternating reachability is P-complete for LogSpace reductions"
-                    ]
+                    ],
+                    "eventId": "6"
                   }
                 ],
                 "keywords": [
                   "Uniform polynomial circuits "
-                ]
+                ],
+                "eventId": "7"
               },
               {
                 "type": "child",
@@ -364,7 +398,8 @@
                     "disabled": false,
                     "keywords": [
                       "Machines with advice"
-                    ]
+                    ],
+                    "eventId": "0"
                   },
                   {
                     "type": "show",
@@ -373,7 +408,8 @@
                     "disabled": false,
                     "keywords": [
                       "a machine which is allowed one oracle query, and the query depends only on the input length"
-                    ]
+                    ],
+                    "eventId": "1"
                   },
                   {
                     "type": "show",
@@ -382,7 +418,8 @@
                     "disabled": false,
                     "keywords": [
                       "A polynomial time Turing machine with advice consists of :"
-                    ]
+                    ],
+                    "eventId": "2"
                   },
                   {
                     "type": "show",
@@ -391,7 +428,8 @@
                     "disabled": false,
                     "keywords": [
                       "1. a deterministic polynomial time Turing machine M"
-                    ]
+                    ],
+                    "eventId": "3"
                   },
                   {
                     "type": "show",
@@ -400,7 +438,8 @@
                     "disabled": false,
                     "keywords": [
                       "2. for each input length, an advice word of polynomial length"
-                    ]
+                    ],
+                    "eventId": "4"
                   },
                   {
                     "type": "show",
@@ -409,7 +448,8 @@
                     "disabled": false,
                     "keywords": [
                       "no requirement that the advice word can be computed"
-                    ]
+                    ],
+                    "eventId": "5"
                   },
                   {
                     "type": "show",
@@ -418,7 +458,8 @@
                     "disabled": false,
                     "keywords": [
                       "The language of such a device is:"
-                    ]
+                    ],
+                    "eventId": "6"
                   },
                   {
                     "type": "show",
@@ -427,7 +468,8 @@
                     "disabled": false,
                     "keywords": [
                       "{ w : M accepts w#(advice word for the length of w) }"
-                    ]
+                    ],
+                    "eventId": "7"
                   },
                   {
                     "type": "show",
@@ -437,7 +479,8 @@
                     "keywords": [
                       "Theorem. P/poly = circuits of polynomial size",
                       "languages of this form"
-                    ]
+                    ],
+                    "eventId": "8"
                   },
                   {
                     "type": "show",
@@ -447,7 +490,8 @@
                     "keywords": [
                       "⊇",
                       "the circuit is the advice string"
-                    ]
+                    ],
+                    "eventId": "9"
                   },
                   {
                     "type": "show",
@@ -457,7 +501,8 @@
                     "keywords": [
                       "⊆",
                       "as when showing P ⊆ P-computable circuits of polynomial size"
-                    ]
+                    ],
+                    "eventId": "10"
                   },
                   {
                     "type": "show",
@@ -466,7 +511,8 @@
                     "disabled": false,
                     "keywords": [
                       "Conjecture. NP is not contained in P/poly."
-                    ]
+                    ],
+                    "eventId": "11"
                   },
                   {
                     "type": "show",
@@ -475,17 +521,20 @@
                     "disabled": false,
                     "keywords": [
                       "stronger than NP ≠ P."
-                    ]
+                    ],
+                    "eventId": "12"
                   }
                 ],
                 "keywords": [
                   "P/Poly"
-                ]
+                ],
+                "eventId": "8"
               }
             ],
             "keywords": [
               "Polynomial size circuits"
-            ]
+            ],
+            "eventId": "1"
           },
           {
             "type": "show",
@@ -494,7 +543,8 @@
             "disabled": false,
             "keywords": [
               "Polynomial size circuits of small depth"
-            ]
+            ],
+            "eventId": "2"
           },
           {
             "type": "child",
@@ -508,7 +558,8 @@
                 "disabled": false,
                 "keywords": [
                   "For k ∈ {0, 1, 2, ...} define:"
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "show",
@@ -518,7 +569,8 @@
                 "keywords": [
                   "circuits which have polynomial size and depth at most",
                   "k = 0 means bounded depth"
-                ]
+                ],
+                "eventId": "1"
               },
               {
                 "type": "show",
@@ -528,7 +580,8 @@
                 "keywords": [
                   "as above, but also every gate has fan-in ≤ 2",
                   "⊆"
-                ]
+                ],
+                "eventId": "2"
               },
               {
                 "type": "show",
@@ -537,7 +590,8 @@
                 "disabled": false,
                 "keywords": [
                   "$\\mathrm{NC}^k \\subseteq \\mathrm{AC}^k \\subseteq \\mathrm{NC}^{k+1}$40"
-                ]
+                ],
+                "eventId": "3"
               },
               {
                 "type": "show",
@@ -546,7 +600,8 @@
                 "disabled": false,
                 "keywords": [
                   "by definition"
-                ]
+                ],
+                "eventId": "4"
               },
               {
                 "type": "show",
@@ -555,7 +610,8 @@
                 "disabled": false,
                 "keywords": [
                   "because a gate with fan-in m can be simulated by a circuit of depth log m, which is O(log n) when m is polynomial."
-                ]
+                ],
+                "eventId": "5"
               },
               {
                 "type": "show",
@@ -564,17 +620,20 @@
                 "disabled": false,
                 "keywords": [
                   "Next lecture: this inclusion is strict for k = 0"
-                ]
+                ],
+                "eventId": "6"
               }
             ],
             "keywords": [
               "AC NC"
-            ]
+            ],
+            "eventId": "3"
           }
         ],
         "keywords": [
           "Circuit complexity classes"
-        ]
+        ],
+        "eventId": "5"
       },
       {
         "type": "show",
@@ -583,309 +642,104 @@
         "disabled": false,
         "keywords": [
           "Next lecture: circuits of polynomial size and bounded depth (AC0), cannot recognise the language “even number of true’s”"
-        ]
+        ],
+        "eventId": "6"
       }
     ],
     "keywords": [
       "Computational Complexity",
       "Lecture 1. Turing machines and their resources",
       "Circuits"
-    ]
+    ],
+    "eventId": "root"
   },
   "soundDict": {
     "31:97": {
-      "0": {
-        "file": "0",
-        "duration": 17.016
-      },
-      "1": {
-        "file": "1",
-        "duration": 10.464
-      },
-      "2": {
-        "file": "2",
-        "duration": 34.296
-      },
-      "3": {
-        "file": "3",
-        "duration": 5.376
-      },
-      "4": {
-        "file": "4",
-        "duration": 10.656
-      },
-      "5": {
-        "file": "5",
-        "duration": 5.184
-      },
-      "6": {
-        "file": "6",
-        "duration": 3.216
-      },
-      "7": {
-        "file": "7",
-        "duration": 22.656
-      }
+      "0": 17.016,
+      "1": 10.464,
+      "2": 34.296,
+      "3": 5.376,
+      "4": 10.656,
+      "5": 5.184,
+      "6": 3.216,
+      "finish": 22.656
     },
     "30:0": {
-      "0": {
-        "file": "0",
-        "duration": 1.344
-      },
-      "1": {
-        "file": "1",
-        "duration": 15.936
-      },
-      "2": {
-        "file": "2",
-        "duration": 24.576
-      },
-      "3": {
-        "file": "3",
-        "duration": 17.496
-      },
-      "4": {
-        "file": "4",
-        "duration": 6.816
-      },
-      "5": {
-        "file": "5",
-        "duration": 15.936
-      }
+      "0": 1.344,
+      "1": 15.936,
+      "2": 24.576,
+      "3": 17.496,
+      "4": 6.816,
+      "finish": 15.936
     },
     "31:101": {
-      "0": {
-        "file": "0",
-        "duration": 8.784
-      },
-      "1": {
-        "file": "1",
-        "duration": 23.016
-      },
-      "2": {
-        "file": "2",
-        "duration": 16.224
-      },
-      "3": {
-        "file": "3",
-        "duration": 82.824
-      },
-      "4": {
-        "file": "4",
-        "duration": 116.184
-      },
-      "5": {
-        "file": "5",
-        "duration": 9.576
-      }
+      "0": 8.784,
+      "1": 23.016,
+      "2": 16.224,
+      "3": 82.824,
+      "4": 116.184,
+      "finish": 9.576
     },
     "31:434": {
-      "0": {
-        "file": "0",
-        "duration": 5.784
-      },
-      "1": {
-        "file": "1",
-        "duration": 80.184
-      },
-      "2": {
-        "file": "2",
-        "duration": 2.016
-      },
-      "3": {
-        "file": "3",
-        "duration": 6.576
-      }
+      "0": 5.784,
+      "1": 80.184,
+      "2": 2.016,
+      "finish": 6.576
     },
     "31:735": {
-      "0": {
-        "file": "0",
-        "duration": 2.664
-      },
-      "1": {
-        "file": "1",
-        "duration": 9.144
-      },
-      "2": {
-        "file": "2",
-        "duration": 11.544
-      },
-      "3": {
-        "file": "3",
-        "duration": 2.616
-      },
-      "4": {
-        "file": "4",
-        "duration": 6.216
-      }
+      "0": 2.664,
+      "1": 9.144,
+      "2": 11.544,
+      "3": 2.616,
+      "finish": 6.216
     },
     "31:593": {
-      "0": {
-        "file": "0",
-        "duration": 0.744
-      },
-      "1": {
-        "file": "1",
-        "duration": 20.256
-      },
-      "2": {
-        "file": "2",
-        "duration": 26.184
-      },
-      "3": {
-        "file": "3",
-        "duration": 6.864
-      },
-      "4": {
-        "file": "4",
-        "duration": 10.824
-      },
-      "5": {
-        "file": "5",
-        "duration": 15.384
-      },
-      "6": {
-        "file": "6",
-        "duration": 20.376
-      },
-      "7": {
-        "file": "7",
-        "duration": 52.344
-      },
-      "8": {
-        "file": "8",
-        "duration": 40.896
-      },
-      "9": {
-        "file": "9",
-        "duration": 7.896
-      }
+      "0": 0.744,
+      "1": 20.256,
+      "2": 26.184,
+      "3": 6.864,
+      "4": 10.824,
+      "5": 15.384,
+      "6": 20.376,
+      "7": 52.344,
+      "8": 40.896,
+      "finish": 7.896
     },
     "31:703": {
-      "0": {
-        "file": "0",
-        "duration": 3.384
-      },
-      "1": {
-        "file": "1",
-        "duration": 0.336
-      },
-      "2": {
-        "file": "2",
-        "duration": 11.016
-      },
-      "3": {
-        "file": "3",
-        "duration": 18.576
-      },
-      "4": {
-        "file": "4",
-        "duration": 12.144
-      },
-      "5": {
-        "file": "5",
-        "duration": 15.144
-      },
-      "6": {
-        "file": "6",
-        "duration": 29.664
-      },
-      "7": {
-        "file": "7",
-        "duration": 70.056
-      }
+      "0": 3.384,
+      "1": 0.336,
+      "2": 11.016,
+      "3": 18.576,
+      "4": 12.144,
+      "5": 15.144,
+      "6": 29.664,
+      "finish": 70.056
     },
     "31:857": {
-      "0": {
-        "file": "0",
-        "duration": 1.776
-      },
-      "1": {
-        "file": "1",
-        "duration": 10.584
-      },
-      "2": {
-        "file": "2",
-        "duration": 19.464
-      },
-      "3": {
-        "file": "3",
-        "duration": 3.984
-      },
-      "4": {
-        "file": "4",
-        "duration": 1.944
-      },
-      "5": {
-        "file": "5",
-        "duration": 19.344
-      },
-      "6": {
-        "file": "6",
-        "duration": 9.384
-      },
-      "7": {
-        "file": "7",
-        "duration": 4.344
-      },
-      "8": {
-        "file": "8",
-        "duration": 28.824
-      },
-      "9": {
-        "file": "9",
-        "duration": 29.184
-      },
-      "10": {
-        "file": "10",
-        "duration": 24.936
-      },
-      "11": {
-        "file": "11",
-        "duration": 27.984
-      },
-      "12": {
-        "file": "12",
-        "duration": 75.384
-      },
-      "13": {
-        "file": "13",
-        "duration": 0.816
-      }
+      "0": 1.776,
+      "1": 10.584,
+      "2": 19.464,
+      "3": 3.984,
+      "4": 1.944,
+      "5": 19.344,
+      "6": 9.384,
+      "7": 4.344,
+      "8": 28.824,
+      "9": 29.184,
+      "10": 24.936,
+      "11": 27.984,
+      "12": 75.384,
+      "finish": 0.816
     },
     "31:741": {
-      "0": {
-        "file": "0",
-        "duration": 11.784
-      },
-      "1": {
-        "file": "1",
-        "duration": 5.136
-      },
-      "2": {
-        "file": "2",
-        "duration": 50.736
-      },
-      "3": {
-        "file": "3",
-        "duration": 36.384
-      },
-      "4": {
-        "file": "4",
-        "duration": 5.736
-      },
-      "5": {
-        "file": "5",
-        "duration": 10.776
-      },
-      "6": {
-        "file": "6",
-        "duration": 65.904
-      },
-      "7": {
-        "file": "7",
-        "duration": 55.344
-      }
+      "0": 11.784,
+      "1": 5.136,
+      "2": 50.736,
+      "3": 36.384,
+      "4": 5.736,
+      "5": 10.776,
+      "6": 65.904,
+      "finish": 55.344
     }
   }
 }

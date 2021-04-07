@@ -1,5 +1,5 @@
 {
-  "version": 0.88,
+  "version": 0.902,
   "presentation": "Lecture 8. Fine grained complexity",
   "slideDict": {
     "1:2": "First_slide",
@@ -36,7 +36,8 @@
             "disabled": false,
             "keywords": [
               "How hard is SAT?"
-            ]
+            ],
+            "eventId": "0"
           },
           {
             "type": "show",
@@ -47,7 +48,8 @@
               "(x1 ∨ ¬x2 ∨ x3) ∧ ( ¬x3 ∨ ¬x4 ∨ x5) ∧ (¬x1 ∨ ¬x4 ∨ x6) ∧ (x2 ∨ x3 ∨ ¬x6)",
               "A formula is in CNF form if it is a conjunction of disjunctions",
               "A common variant of SAT is 3-CNF-SAT"
-            ]
+            ],
+            "eventId": "1"
           },
           {
             "type": "show",
@@ -56,7 +58,8 @@
             "disabled": false,
             "keywords": [
               "a disjunction is called a clause, and in 3-CNF clauses have size 3"
-            ]
+            ],
+            "eventId": "2"
           },
           {
             "type": "show",
@@ -65,7 +68,8 @@
             "disabled": false,
             "keywords": [
               "3-CNF-SAT is also NP-complete."
-            ]
+            ],
+            "eventId": "3"
           },
           {
             "type": "child",
@@ -79,7 +83,8 @@
                 "disabled": false,
                 "keywords": [
                   "For every subformula we create a new variable, and write clauses which ensure that these variables have the same values as the subformulas"
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "show",
@@ -89,7 +94,8 @@
                 "keywords": [
                   "if the subformula is",
                   "then we add these clauses:"
-                ]
+                ],
+                "eventId": "1"
               },
               {
                 "type": "show",
@@ -98,7 +104,8 @@
                 "disabled": false,
                 "keywords": [
                   "if the subformula is , then we use the same idea, and ∨ is treated using DeMorgan’s laws."
-                ]
+                ],
+                "eventId": "2"
               },
               {
                 "type": "show",
@@ -107,12 +114,14 @@
                 "disabled": false,
                 "keywords": [
                   "The conversion from SAT to 3-CNF-SAT is linear."
-                ]
+                ],
+                "eventId": "3"
               }
             ],
             "keywords": [
               "from SAT to 3-CNF-SAT"
-            ]
+            ],
+            "eventId": "4"
           },
           {
             "type": "show",
@@ -121,7 +130,8 @@
             "disabled": false,
             "keywords": [
               "Enormous engineering progress"
-            ]
+            ],
+            "eventId": "5"
           },
           {
             "type": "show",
@@ -130,7 +140,8 @@
             "disabled": false,
             "keywords": [
               "SAT solvers in this year’s SAT competition take 15 minutes to solve 3-CNF-SAT instances with millions of clauses."
-            ]
+            ],
+            "eventId": "6"
           },
           {
             "type": "show",
@@ -142,7 +153,8 @@
               "2",
               "0.410(number of variables)",
               "Hofmeister 2002"
-            ]
+            ],
+            "eventId": "7"
           },
           {
             "type": "show",
@@ -154,7 +166,8 @@
               "What about",
               "?",
               "2"
-            ]
+            ],
+            "eventId": "8"
           },
           {
             "type": "child",
@@ -171,7 +184,8 @@
                   "λ(number of variables)",
                   "Exponential Time Hypothesis: For some 0 < λ ≤ 1, 3-CNF-SAT needs time",
                   "Exponential Time Hypothesis There is some 0 < λ ≤ 1 such that SAT cannot be solved faster than"
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "child",
@@ -187,7 +201,8 @@
                       "for every λ > 0 3-CNF-SAT can be solved in time",
                       "2",
                       "λ(number of variables)"
-                    ]
+                    ],
+                    "eventId": "0"
                   },
                   {
                     "type": "show",
@@ -202,7 +217,8 @@
                       "(number of variables)",
                       "=",
                       "maybe sat"
-                    ]
+                    ],
+                    "eventId": "1"
                   },
                   {
                     "type": "show",
@@ -213,7 +229,8 @@
                       "for every λ > 0 3-CNF-SAT can be solved in time",
                       "2",
                       "λ(formula size)"
-                    ]
+                    ],
+                    "eventId": "2"
                   },
                   {
                     "type": "show",
@@ -224,7 +241,8 @@
                       "for every λ > 0 SAT can be solved in time",
                       "2",
                       "λ(formula size)"
-                    ]
+                    ],
+                    "eventId": "3"
                   },
                   {
                     "type": "show",
@@ -233,7 +251,8 @@
                     "disabled": false,
                     "keywords": [
                       "⟹"
-                    ]
+                    ],
+                    "eventId": "4"
                   },
                   {
                     "type": "show",
@@ -242,7 +261,8 @@
                     "disabled": false,
                     "keywords": [
                       "⟹"
-                    ]
+                    ],
+                    "eventId": "5"
                   },
                   {
                     "type": "show",
@@ -252,7 +272,8 @@
                     "keywords": [
                       "⟹",
                       "because the reduction from SAT to 3-CNF-SAT makes the formula <10 times bigger"
-                    ]
+                    ],
+                    "eventId": "6"
                   },
                   {
                     "type": "show",
@@ -261,7 +282,8 @@
                     "disabled": false,
                     "keywords": [
                       "⟹"
-                    ]
+                    ],
+                    "eventId": "7"
                   },
                   {
                     "type": "child",
@@ -278,7 +300,8 @@
                           "δ(formula size)",
                           "Assume: for every δ > 0, we can solve 3-CNF-SAT in time",
                           "Assume"
-                        ]
+                        ],
+                        "eventId": "0"
                       },
                       {
                         "type": "show",
@@ -289,7 +312,8 @@
                           "To show: for every λ > 0, we can solve 3-CNF-SAT in time",
                           "2",
                           "λ(number of variables)"
-                        ]
+                        ],
+                        "eventId": "1"
                       },
                       {
                         "type": "child",
@@ -306,7 +330,8 @@
                               "2",
                               "ε(number of variables)",
                               "in time proportional to output size"
-                            ]
+                            ],
+                            "eventId": "0"
                           },
                           {
                             "type": "show",
@@ -315,7 +340,8 @@
                             "disabled": false,
                             "keywords": [
                               "- φ is satisfiabile if and only if at least one formula from Φ is satisfiable"
-                            ]
+                            ],
+                            "eventId": "1"
                           },
                           {
                             "type": "show",
@@ -325,12 +351,14 @@
                             "keywords": [
                               "- every formula from Φ has size at most C(ε) × (number of variables in φ)",
                               "some constant that depends only on ε"
-                            ]
+                            ],
+                            "eventId": "2"
                           }
                         ],
                         "keywords": [
                           "Sparsification"
-                        ]
+                        ],
+                        "eventId": "2"
                       },
                       {
                         "type": "show",
@@ -339,7 +367,8 @@
                         "disabled": false,
                         "keywords": [
                           "Proof. Let λ > 0 and choose some small δ (see below)."
-                        ]
+                        ],
+                        "eventId": "3"
                       },
                       {
                         "type": "show",
@@ -348,7 +377,8 @@
                         "disabled": false,
                         "keywords": [
                           "Given a 3-CNF formula φ, use the Sparsification Lemma for λ/2, yielding Φ."
-                        ]
+                        ],
+                        "eventId": "4"
                       },
                       {
                         "type": "show",
@@ -357,7 +387,8 @@
                         "disabled": false,
                         "keywords": [
                           "Using the assumption for δ, we check if some formula from Φ is satisfiable in time:"
-                        ]
+                        ],
+                        "eventId": "5"
                       },
                       {
                         "type": "show",
@@ -370,7 +401,8 @@
                           "δ C(λ) (number of variables in φ)",
                           "×",
                           "Formula size"
-                        ]
+                        ],
+                        "eventId": "6"
                       },
                       {
                         "type": "show",
@@ -379,7 +411,8 @@
                         "disabled": false,
                         "keywords": [
                           "number of formulas in Φ"
-                        ]
+                        ],
+                        "eventId": "7"
                       },
                       {
                         "type": "show",
@@ -388,7 +421,8 @@
                         "disabled": false,
                         "keywords": [
                           "size of each formula in Φ"
-                        ]
+                        ],
+                        "eventId": "8"
                       },
                       {
                         "type": "show",
@@ -397,7 +431,8 @@
                         "disabled": false,
                         "keywords": [
                           "time to compute satisfiability, from assumption for δ"
-                        ]
+                        ],
+                        "eventId": "9"
                       },
                       {
                         "type": "show",
@@ -408,12 +443,14 @@
                           "If δ is small enough, then λ/2 + δC(λ) < λ, and the running time is at most:",
                           "2",
                           "λ(number of variables)"
-                        ]
+                        ],
+                        "eventId": "10"
                       }
                     ],
                     "keywords": [
                       "From variables to clauses"
-                    ]
+                    ],
+                    "eventId": "8"
                   },
                   {
                     "type": "show",
@@ -422,7 +459,8 @@
                     "disabled": false,
                     "keywords": [
                       "ETH says that none of these are true"
-                    ]
+                    ],
+                    "eventId": "9"
                   },
                   {
                     "type": "show",
@@ -431,12 +469,14 @@
                     "disabled": false,
                     "keywords": [
                       "any number k > 2 could be used"
-                    ]
+                    ],
+                    "eventId": "10"
                   }
                 ],
                 "keywords": [
                   "ETH what does it mean"
-                ]
+                ],
+                "eventId": "1"
               },
               {
                 "type": "show",
@@ -447,7 +487,8 @@
                   "4-CNF-SAT can be solved in time",
                   "2",
                   "0.562(number of variables)"
-                ]
+                ],
+                "eventId": "2"
               },
               {
                 "type": "show",
@@ -458,7 +499,8 @@
                   "5-CNF-SAT can be solved in time",
                   "2",
                   "0.650(number of variables)"
-                ]
+                ],
+                "eventId": "3"
               },
               {
                 "type": "show",
@@ -470,7 +512,8 @@
                   "2",
                   "0.711(number of variables)",
                   "5-CNF-SAT can be solved in time"
-                ]
+                ],
+                "eventId": "4"
               },
               {
                 "type": "show",
@@ -479,7 +522,8 @@
                 "disabled": false,
                 "keywords": [
                   "Paturi, Pudlak, Saks and Zane 2005"
-                ]
+                ],
+                "eventId": "5"
               },
               {
                 "type": "show",
@@ -491,17 +535,20 @@
                   "For every 0 < λ < 1, there is k such that k-CNF SAT needs time",
                   "2",
                   "λ(number of variables)"
-                ]
+                ],
+                "eventId": "6"
               }
             ],
             "keywords": [
               "SETH"
-            ]
+            ],
+            "eventId": "9"
           }
         ],
         "keywords": [
           "3-CNF-SAT"
-        ]
+        ],
+        "eventId": "0"
       },
       {
         "type": "show",
@@ -510,7 +557,8 @@
         "disabled": false,
         "keywords": [
           "Use conjectured exponential lower bounds for SAT can be used for polynomial lower bounds on other problems"
-        ]
+        ],
+        "eventId": "1"
       },
       {
         "type": "show",
@@ -519,7 +567,8 @@
         "disabled": false,
         "keywords": [
           "The naive exponential algorithm for satisfiability is optimal"
-        ]
+        ],
+        "eventId": "2"
       },
       {
         "type": "show",
@@ -529,7 +578,8 @@
         "keywords": [
           "The naive quadratic algorithm for orthogonal vectors is optimal",
           "⟹"
-        ]
+        ],
+        "eventId": "3"
       },
       {
         "type": "show",
@@ -539,7 +589,8 @@
         "keywords": [
           "The naive quadratic algorithm for NFA evaluation is optimal",
           "⟹"
-        ]
+        ],
+        "eventId": "4"
       },
       {
         "type": "child",
@@ -555,7 +606,8 @@
               "Input. Two lists of bit vectors of dimension d, both lists having length n.",
               "Question. Is some vector in the first list orthogonal to some vector on the second list?",
               "Input. A list of n bit vectors of dimension d."
-            ]
+            ],
+            "eventId": "0"
           },
           {
             "type": "show",
@@ -568,7 +620,8 @@
               "first list of n = 3 vectors",
               "second list of n = 3 vectors",
               "dimension d = 12"
-            ]
+            ],
+            "eventId": "1"
           },
           {
             "type": "show",
@@ -577,7 +630,8 @@
             "disabled": false,
             "keywords": [
               "vectors are orthogonal if for every coordinate, at least one of the vectors has 0"
-            ]
+            ],
+            "eventId": "2"
           },
           {
             "type": "show",
@@ -586,7 +640,8 @@
             "disabled": false,
             "keywords": [
               "The naive algorithm is: check each vector pair for orthogonality."
-            ]
+            ],
+            "eventId": "3"
           },
           {
             "type": "show",
@@ -596,7 +651,8 @@
             "keywords": [
               "Or maybe: for each vector, compare it to the set of vectors seen.",
               "Or maybe: each vector, compare it to the set of vectors seen."
-            ]
+            ],
+            "eventId": "4"
           },
           {
             "type": "show",
@@ -605,12 +661,14 @@
             "disabled": false,
             "keywords": [
               "Orthogonal vectors conjecture: There is no algorithm that works in time"
-            ]
+            ],
+            "eventId": "5"
           }
         ],
         "keywords": [
           "OVC"
-        ]
+        ],
+        "eventId": "5"
       },
       {
         "type": "child",
@@ -633,7 +691,8 @@
                   "2",
                   "λ(number of variables)",
                   "Strong Exponential Time Hypothesis"
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "show",
@@ -646,7 +705,8 @@
                   "2",
                   "λ(number of variables)",
                   "This Lecture’s Strong Exponential Time Hypothesis"
-                ]
+                ],
+                "eventId": "1"
               },
               {
                 "type": "show",
@@ -655,7 +715,8 @@
                 "disabled": false,
                 "keywords": [
                   "⟹"
-                ]
+                ],
+                "eventId": "2"
               },
               {
                 "type": "show",
@@ -664,12 +725,14 @@
                 "disabled": false,
                 "keywords": [
                   "We will prove This Lecture’s SETH implies something, and the same will hold for Genuine SETH."
-                ]
+                ],
+                "eventId": "3"
               }
             ],
             "keywords": [
               "Real SETH"
-            ]
+            ],
+            "eventId": "0"
           },
           {
             "type": "show",
@@ -679,7 +742,8 @@
             "keywords": [
               "Consider an instance of CNF-SAT, with n variables.",
               "(x1 ∨ ¬x2 ∨ x3) ∧ ( ¬x3 ∨ ¬x4 ∨ x5) ∧ (¬x1 ∨ ¬x4 ∨ x6) ∧ (x2 ∨ x3 ∨ ¬x6)"
-            ]
+            ],
+            "eventId": "1"
           },
           {
             "type": "child",
@@ -693,7 +757,8 @@
                 "disabled": false,
                 "keywords": [
                   "(x1 ∨ ¬x2 ∨ x3) ∧ ( ¬x3 ∨ ¬x4 ∨ x5) ∧ (¬x1 ∨ ¬x4 ∨ x6) ∧ (x2 ∨ x3 ∨ ¬x6)"
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "show",
@@ -703,7 +768,8 @@
                 "keywords": [
                   "Partition variables into two halves:",
                   "x1, x2, x3, x4, x5, x6"
-                ]
+                ],
+                "eventId": "1"
               },
               {
                 "type": "show",
@@ -715,7 +781,8 @@
                   "true",
                   "false",
                   "For each valuation of the red variables create a vector that says which clauses are true thanks to this particular valuation:"
-                ]
+                ],
+                "eventId": "2"
               },
               {
                 "type": "show",
@@ -727,7 +794,8 @@
                   "false",
                   "true",
                   "Do the same for the blue variables:"
-                ]
+                ],
+                "eventId": "3"
               },
               {
                 "type": "show",
@@ -737,7 +805,8 @@
                 "keywords": [
                   "0",
                   "1"
-                ]
+                ],
+                "eventId": "4"
               },
               {
                 "type": "show",
@@ -746,12 +815,14 @@
                 "disabled": false,
                 "keywords": [
                   "The formula is true under the combined valuation iff The two vectors are orthogonal (true = 0 and false = 1)"
-                ]
+                ],
+                "eventId": "5"
               }
             ],
             "keywords": [
               "SETH implies OVC part 2"
-            ]
+            ],
+            "eventId": "2"
           },
           {
             "type": "show",
@@ -760,7 +831,8 @@
             "disabled": false,
             "keywords": [
               "We have created an equivalent instance of orthognal vectors with:"
-            ]
+            ],
+            "eventId": "3"
           },
           {
             "type": "show",
@@ -770,7 +842,8 @@
             "keywords": [
               "Dimension",
               "number of clauses"
-            ]
+            ],
+            "eventId": "4"
           },
           {
             "type": "show",
@@ -780,7 +853,8 @@
             "keywords": [
               "Length of each list",
               "Number of vectors"
-            ]
+            ],
+            "eventId": "5"
           },
           {
             "type": "show",
@@ -789,7 +863,8 @@
             "disabled": false,
             "keywords": [
               "= \\sqrt {2^n}"
-            ]
+            ],
+            "eventId": "6"
           },
           {
             "type": "show",
@@ -798,7 +873,8 @@
             "disabled": false,
             "keywords": [
               "If the Orthogonal Vectors Conjecture would be false, then we could solve this instance in time:"
-            ]
+            ],
+            "eventId": "7"
           },
           {
             "type": "show",
@@ -807,7 +883,8 @@
             "disabled": false,
             "keywords": [
               "which is faster than"
-            ]
+            ],
+            "eventId": "8"
           },
           {
             "type": "show",
@@ -816,12 +893,14 @@
             "disabled": false,
             "keywords": [
               "and thus the Strong Exponential Time Hypothesis would fail."
-            ]
+            ],
+            "eventId": "9"
           }
         ],
         "keywords": [
           "SETH implies OVC"
-        ]
+        ],
+        "eventId": "6"
       },
       {
         "type": "child",
@@ -835,7 +914,8 @@
             "disabled": false,
             "keywords": [
               "Input. A nondeterministic finite automaton (NFA) and an input word. Question. Does the automaton accept the word?"
-            ]
+            ],
+            "eventId": "0"
           },
           {
             "type": "show",
@@ -844,7 +924,8 @@
             "disabled": false,
             "keywords": [
               "Naive algorithm: compute states reachable from initial one"
-            ]
+            ],
+            "eventId": "1"
           },
           {
             "type": "show",
@@ -857,7 +938,8 @@
               "b",
               "accepting",
               "initial"
-            ]
+            ],
+            "eventId": "2"
           },
           {
             "type": "show",
@@ -866,7 +948,8 @@
             "disabled": false,
             "keywords": [
               "Ellipse 3"
-            ]
+            ],
+            "eventId": "3"
           },
           {
             "type": "show",
@@ -875,7 +958,8 @@
             "disabled": false,
             "keywords": [
               "Group 14"
-            ]
+            ],
+            "eventId": "4"
           },
           {
             "type": "show",
@@ -884,7 +968,8 @@
             "disabled": false,
             "keywords": [
               "Group 15"
-            ]
+            ],
+            "eventId": "5"
           },
           {
             "type": "show",
@@ -893,7 +978,8 @@
             "disabled": false,
             "keywords": [
               "Group 16"
-            ]
+            ],
+            "eventId": "6"
           },
           {
             "type": "show",
@@ -902,7 +988,8 @@
             "disabled": false,
             "keywords": [
               "Group 17"
-            ]
+            ],
+            "eventId": "7"
           },
           {
             "type": "show",
@@ -911,7 +998,8 @@
             "disabled": false,
             "keywords": [
               "Group 18"
-            ]
+            ],
+            "eventId": "8"
           },
           {
             "type": "show",
@@ -920,7 +1008,8 @@
             "disabled": false,
             "keywords": [
               "Group 19"
-            ]
+            ],
+            "eventId": "9"
           },
           {
             "type": "show",
@@ -930,7 +1019,8 @@
             "keywords": [
               "Running time: (size of NFA) × (length of input word)",
               "number of transitions"
-            ]
+            ],
+            "eventId": "10"
           },
           {
             "type": "show",
@@ -942,7 +1032,8 @@
               "(size of NFA + length of input word)",
               "2 – ε",
               "for some ε > 0"
-            ]
+            ],
+            "eventId": "11"
           },
           {
             "type": "show",
@@ -951,7 +1042,8 @@
             "disabled": false,
             "keywords": [
               "Then there would be a subquadratic algortihm for orthogonal vectors, thus violating OVC."
-            ]
+            ],
+            "eventId": "12"
           },
           {
             "type": "child",
@@ -969,7 +1061,8 @@
                   "is accepted by",
                   "automaton representing W",
                   "Proof. A set of vectors V contains some orthogonal pair iff"
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "child",
@@ -984,12 +1077,14 @@
                     "keywords": [
                       "We represent a list of vectors as a string",
                       "# 01010 # 11101 # 10101 # 11000"
-                    ]
+                    ],
+                    "eventId": "0"
                   }
                 ],
                 "keywords": [
                   "String for list of  vectors"
-                ]
+                ],
+                "eventId": "1"
               },
               {
                 "type": "child",
@@ -1011,7 +1106,8 @@
                       "#",
                       "0, 1",
                       "For every vector v, we write an automaton that recognises the language: “lists of vectors that contain at least one vector orthogonal to v”"
-                    ]
+                    ],
+                    "eventId": "0"
                   },
                   {
                     "type": "show",
@@ -1020,7 +1116,8 @@
                     "disabled": false,
                     "keywords": [
                       "The automaton for a set of vectors V is the disjoint sum (language union) of the corresponding automata"
-                    ]
+                    ],
+                    "eventId": "1"
                   },
                   {
                     "type": "show",
@@ -1029,12 +1126,14 @@
                     "disabled": false,
                     "keywords": [
                       "“lists of vectors that contain at least one vector orthogonal to some v ∈ V”"
-                    ]
+                    ],
+                    "eventId": "2"
                   }
                 ],
                 "keywords": [
                   "Automaton for list of vectors"
-                ]
+                ],
+                "eventId": "2"
               },
               {
                 "type": "show",
@@ -1043,7 +1142,8 @@
                 "disabled": false,
                 "keywords": [
                   "both of these have size: (number of vectors) × dimension"
-                ]
+                ],
+                "eventId": "3"
               },
               {
                 "type": "show",
@@ -1055,7 +1155,8 @@
                   "O((2 × (number of vectors) × dimension) )",
                   "2 – ε",
                   "If the assumption of the theorem were true, then we could check if V contains an orthogonal pair in time"
-                ]
+                ],
+                "eventId": "4"
               },
               {
                 "type": "show",
@@ -1067,531 +1168,178 @@
                   "O((number of vectors) × dimension )",
                   "2 – ε",
                   "contradicting OVC"
-                ]
+                ],
+                "eventId": "5"
               }
             ],
             "keywords": [
               "Proof for NFA"
-            ]
+            ],
+            "eventId": "13"
           }
         ],
         "keywords": [
           "NFA evaluation"
-        ]
+        ],
+        "eventId": "7"
       }
     ],
     "keywords": [
       "Computational Complexity",
       "Lecture 1. Turing machines and their resources",
       "First slide"
-    ]
+    ],
+    "eventId": "root"
   },
   "soundDict": {
     "1:2": {
-      "0": {
-        "file": "0",
-        "duration": 11.544
-      },
-      "1": {
-        "file": "1",
-        "duration": 9.816
-      },
-      "2": {
-        "file": "2",
-        "duration": 43.464
-      },
-      "3": {
-        "file": "3",
-        "duration": 15.864
-      },
-      "4": {
-        "file": "4",
-        "duration": 16.296
-      },
-      "5": {
-        "file": "5",
-        "duration": 44.496
-      },
-      "6": {
-        "file": "6",
-        "duration": 34.656
-      },
-      "7": {
-        "file": "7",
-        "duration": 12.504
-      },
-      "8": {
-        "file": "8",
-        "duration": 35.976
-      }
+      "0": 11.544,
+      "1": 9.816,
+      "2": 43.464,
+      "3": 15.864,
+      "4": 16.296,
+      "5": 44.496,
+      "6": 34.656,
+      "7": 12.504,
+      "finish": 35.976
     },
     "67:2": {
-      "0": {
-        "file": "0",
-        "duration": 5.136
-      },
-      "1": {
-        "file": "1",
-        "duration": 21.144
-      },
-      "2": {
-        "file": "2",
-        "duration": 28.176
-      },
-      "3": {
-        "file": "3",
-        "duration": 21.336
-      },
-      "4": {
-        "file": "4",
-        "duration": 2.256
-      },
-      "5": {
-        "file": "5",
-        "duration": 10.536
-      },
-      "6": {
-        "file": "6",
-        "duration": 16.344
-      },
-      "7": {
-        "file": "7",
-        "duration": 89.736
-      },
-      "8": {
-        "file": "8",
-        "duration": 48.336
-      },
-      "9": {
-        "file": "9",
-        "duration": 29.184
-      },
-      "10": {
-        "file": "10",
-        "duration": 1.536
-      }
+      "0": 5.136,
+      "1": 21.144,
+      "2": 28.176,
+      "3": 21.336,
+      "4": 2.256,
+      "5": 10.536,
+      "6": 16.344,
+      "7": 89.736,
+      "8": 48.336,
+      "9": 29.184,
+      "finish": 1.536
     },
     "67:203": {
-      "0": {
-        "file": "0",
-        "duration": 12.576
-      },
-      "1": {
-        "file": "1",
-        "duration": 23.136
-      },
-      "2": {
-        "file": "2",
-        "duration": 71.664
-      },
-      "3": {
-        "file": "3",
-        "duration": 13.104
-      },
-      "4": {
-        "file": "4",
-        "duration": 23.976
-      }
+      "0": 12.576,
+      "1": 23.136,
+      "2": 71.664,
+      "3": 13.104,
+      "finish": 23.976
     },
     "7:399": {
-      "0": {
-        "file": "0",
-        "duration": 6.984
-      },
-      "1": {
-        "file": "1",
-        "duration": 35.496
-      },
-      "2": {
-        "file": "2",
-        "duration": 21.624
-      },
-      "3": {
-        "file": "3",
-        "duration": 60.936
-      },
-      "4": {
-        "file": "4",
-        "duration": 11.736
-      },
-      "5": {
-        "file": "5",
-        "duration": 10.104
-      },
-      "6": {
-        "file": "6",
-        "duration": 5.904
-      },
-      "7": {
-        "file": "7",
-        "duration": 56.784
-      }
+      "0": 6.984,
+      "1": 35.496,
+      "2": 21.624,
+      "3": 60.936,
+      "4": 11.736,
+      "5": 10.104,
+      "6": 5.904,
+      "finish": 56.784
     },
     "29:0": {
-      "0": {
-        "file": "0",
-        "duration": 11.016
-      },
-      "1": {
-        "file": "1",
-        "duration": 35.904
-      },
-      "2": {
-        "file": "2",
-        "duration": 71.424
-      },
-      "3": {
-        "file": "3",
-        "duration": 42.456
-      },
-      "4": {
-        "file": "4",
-        "duration": 23.496
-      },
-      "5": {
-        "file": "5",
-        "duration": 14.424
-      },
-      "6": {
-        "file": "6",
-        "duration": 21.816
-      },
-      "7": {
-        "file": "7",
-        "duration": 42.336
-      },
-      "8": {
-        "file": "8",
-        "duration": 48.384
-      },
-      "9": {
-        "file": "9",
-        "duration": 5.256
-      },
-      "10": {
-        "file": "10",
-        "duration": 46.416
-      },
-      "11": {
-        "file": "11",
-        "duration": 37.704
-      }
+      "0": 11.016,
+      "1": 35.904,
+      "2": 71.424,
+      "3": 42.456,
+      "4": 23.496,
+      "5": 14.424,
+      "6": 21.816,
+      "7": 42.336,
+      "8": 48.384,
+      "9": 5.256,
+      "10": 46.416,
+      "finish": 37.704
     },
     "31:27": {
-      "0": {
-        "file": "0",
-        "duration": 4.104
-      },
-      "1": {
-        "file": "1",
-        "duration": 9.216
-      },
-      "2": {
-        "file": "2",
-        "duration": 6.984
-      },
-      "3": {
-        "file": "3",
-        "duration": 5.976
-      },
-      "4": {
-        "file": "4",
-        "duration": 32.016
-      },
-      "5": {
-        "file": "5",
-        "duration": 23.136
-      },
-      "6": {
-        "file": "6",
-        "duration": 15.936
-      },
-      "7": {
-        "file": "7",
-        "duration": 12.984
-      },
-      "8": {
-        "file": "8",
-        "duration": 47.184
-      },
-      "9": {
-        "file": "9",
-        "duration": 5.136
-      },
-      "10": {
-        "file": "10",
-        "duration": 11.616
-      },
-      "11": {
-        "file": "11",
-        "duration": 62.256
-      }
+      "0": 4.104,
+      "1": 9.216,
+      "2": 6.984,
+      "3": 5.976,
+      "4": 32.016,
+      "5": 23.136,
+      "6": 15.936,
+      "7": 12.984,
+      "8": 47.184,
+      "9": 5.136,
+      "10": 11.616,
+      "finish": 62.256
     },
     "32:29": {
-      "0": {
-        "file": "0",
-        "duration": 1.896
-      },
-      "1": {
-        "file": "1",
-        "duration": 42.744
-      },
-      "2": {
-        "file": "2",
-        "duration": 19.416
-      },
-      "3": {
-        "file": "3",
-        "duration": 45.096
-      }
+      "0": 1.896,
+      "1": 42.744,
+      "2": 19.416,
+      "finish": 45.096
     },
     "1:8": {
-      "0": {
-        "file": "0",
-        "duration": 7.416
-      },
-      "1": {
-        "file": "1",
-        "duration": 24.696
-      },
-      "2": {
-        "file": "2",
-        "duration": 15.984
-      },
-      "3": {
-        "file": "3",
-        "duration": 78.936
-      },
-      "4": {
-        "file": "4",
-        "duration": 29.784
-      },
-      "5": {
-        "file": "5",
-        "duration": 52.584
-      },
-      "6": {
-        "file": "6",
-        "duration": 29.904
-      }
+      "0": 7.416,
+      "1": 24.696,
+      "2": 15.984,
+      "3": 78.936,
+      "4": 29.784,
+      "5": 52.584,
+      "finish": 29.904
     },
     "5:3": {
-      "0": {
-        "file": "0",
-        "duration": 14.664
-      },
-      "1": {
-        "file": "1",
-        "duration": 1.824
-      },
-      "2": {
-        "file": "2",
-        "duration": 26.376
-      },
-      "3": {
-        "file": "3",
-        "duration": 6.576
-      },
-      "4": {
-        "file": "4",
-        "duration": 1.584
-      },
-      "5": {
-        "file": "5",
-        "duration": 3.024
-      },
-      "6": {
-        "file": "6",
-        "duration": 15.264
-      },
-      "7": {
-        "file": "7",
-        "duration": 19.416
-      },
-      "8": {
-        "file": "8",
-        "duration": 27.624
-      },
-      "9": {
-        "file": "9",
-        "duration": 15.456
-      },
-      "10": {
-        "file": "10",
-        "duration": 14.016
-      }
+      "0": 14.664,
+      "1": 1.824,
+      "2": 26.376,
+      "3": 6.576,
+      "4": 1.584,
+      "5": 3.024,
+      "6": 15.264,
+      "7": 19.416,
+      "8": 27.624,
+      "9": 15.456,
+      "finish": 14.016
     },
     "16:93": {
-      "0": {
-        "file": "0",
-        "duration": 9.744
-      },
-      "1": {
-        "file": "1",
-        "duration": 34.464
-      },
-      "2": {
-        "file": "2",
-        "duration": 38.976
-      },
-      "3": {
-        "file": "3",
-        "duration": 46.536
-      },
-      "4": {
-        "file": "4",
-        "duration": 8.976
-      }
+      "0": 9.744,
+      "1": 34.464,
+      "2": 38.976,
+      "3": 46.536,
+      "finish": 8.976
     },
     "7:26": {
-      "0": {
-        "file": "0",
-        "duration": 2.496
-      },
-      "1": {
-        "file": "1",
-        "duration": 4.704
-      },
-      "2": {
-        "file": "2",
-        "duration": 40.464
-      },
-      "3": {
-        "file": "3",
-        "duration": 99.576
-      },
-      "4": {
-        "file": "4",
-        "duration": 31.944
-      },
-      "5": {
-        "file": "5",
-        "duration": 92.496
-      },
-      "6": {
-        "file": "6",
-        "duration": 15.024
-      }
+      "0": 2.496,
+      "1": 4.704,
+      "2": 40.464,
+      "3": 99.576,
+      "4": 31.944,
+      "5": 92.496,
+      "finish": 15.024
     },
     "16:146": {
-      "0": {
-        "file": "0",
-        "duration": 2.976
-      },
-      "1": {
-        "file": "1",
-        "duration": 8.904
-      },
-      "2": {
-        "file": "2",
-        "duration": 7.896
-      },
-      "3": {
-        "file": "3",
-        "duration": 55.536
-      },
-      "4": {
-        "file": "4",
-        "duration": 6.816
-      },
-      "5": {
-        "file": "5",
-        "duration": 2.064
-      },
-      "6": {
-        "file": "6",
-        "duration": 1.584
-      },
-      "7": {
-        "file": "7",
-        "duration": 1.104
-      },
-      "8": {
-        "file": "8",
-        "duration": 0.984
-      },
-      "9": {
-        "file": "9",
-        "duration": 0.696
-      },
-      "10": {
-        "file": "10",
-        "duration": 10.704
-      },
-      "11": {
-        "file": "11",
-        "duration": 21.816
-      },
-      "12": {
-        "file": "12",
-        "duration": 35.256
-      },
-      "13": {
-        "file": "13",
-        "duration": 23.016
-      },
-      "14": {
-        "file": "14",
-        "duration": 15.696
-      }
+      "0": 2.976,
+      "1": 8.904,
+      "2": 7.896,
+      "3": 55.536,
+      "4": 6.816,
+      "5": 2.064,
+      "6": 1.584,
+      "7": 1.104,
+      "8": 0.984,
+      "9": 0.696,
+      "10": 10.704,
+      "11": 21.816,
+      "12": 35.256,
+      "13": 23.016,
+      "finish": 15.696
     },
     "16:165": {
-      "0": {
-        "file": "0",
-        "duration": 4.224
-      },
-      "1": {
-        "file": "1",
-        "duration": 48.696
-      },
-      "2": {
-        "file": "2",
-        "duration": 1.704
-      },
-      "3": {
-        "file": "3",
-        "duration": 14.976
-      },
-      "4": {
-        "file": "4",
-        "duration": 10.296
-      },
-      "5": {
-        "file": "5",
-        "duration": 32.184
-      },
-      "6": {
-        "file": "6",
-        "duration": 22.224
-      }
+      "0": 4.224,
+      "1": 48.696,
+      "2": 1.704,
+      "3": 14.976,
+      "4": 10.296,
+      "5": 32.184,
+      "finish": 22.224
     },
     "16:200": {
-      "0": {
-        "file": "0",
-        "duration": 4.656
-      },
-      "1": {
-        "file": "1",
-        "duration": 10.536
-      }
+      "0": 4.656,
+      "finish": 10.536
     },
     "16:202": {
-      "0": {
-        "file": "0",
-        "duration": 2.904
-      },
-      "1": {
-        "file": "1",
-        "duration": 72.576
-      },
-      "2": {
-        "file": "2",
-        "duration": 43.776
-      },
-      "3": {
-        "file": "3",
-        "duration": 15.984
-      }
+      "0": 2.904,
+      "1": 72.576,
+      "2": 43.776,
+      "finish": 15.984
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "version": 0.88,
+  "version": 0.902,
   "presentation": "Lecture 10. Quantum",
   "slideDict": {
     "1:14": "BPP_with_circuits",
@@ -42,7 +42,8 @@
         "disabled": false,
         "keywords": [
           "BPP via probabilistic circuits"
-        ]
+        ],
+        "eventId": "0"
       },
       {
         "type": "show",
@@ -51,7 +52,8 @@
         "disabled": false,
         "keywords": [
           "BQP via quantum circuits"
-        ]
+        ],
+        "eventId": "1"
       },
       {
         "type": "child",
@@ -65,7 +67,8 @@
             "disabled": false,
             "keywords": [
               "Recall that a language L ⊆ Σ* is in the class BPP iff there is a randomised algorithm A such that:"
-            ]
+            ],
+            "eventId": "0"
           },
           {
             "type": "show",
@@ -74,7 +77,8 @@
             "disabled": false,
             "keywords": [
               "1. the running time of A is polynomial in input size, regardless of coin tosses"
-            ]
+            ],
+            "eventId": "1"
           },
           {
             "type": "show",
@@ -85,7 +89,8 @@
               "Prob [A(w) = L(w)] > 0.6",
               "instead of 0.6 we could have any number p > 0.5.",
               "2. for every input word w we have"
-            ]
+            ],
+            "eventId": "2"
           },
           {
             "type": "show",
@@ -94,7 +99,8 @@
             "disabled": false,
             "keywords": [
               "To prepare for the quantum variant BQP, we use circuits to describe BPP."
-            ]
+            ],
+            "eventId": "3"
           },
           {
             "type": "child",
@@ -114,7 +120,8 @@
                   "x4",
                   "A probabilistic circuit",
                   "a probabilistic gate, which has no inputs, and outputs 0 or 1 with equal probability"
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "show",
@@ -125,12 +132,14 @@
                   "it computes a function",
                   "here n = 5",
                   "a probability distribution over {0, 1} is p, q ≥ 0 with p + q = 1"
-                ]
+                ],
+                "eventId": "1"
               }
             ],
             "keywords": [
               "Probabilistic circuits"
-            ]
+            ],
+            "eventId": "4"
           },
           {
             "type": "show",
@@ -139,7 +148,8 @@
             "disabled": false,
             "keywords": [
               "Theorem. A language L ⊆ {0,1}* is in the class BPP iff there is a family of probabilistic circuits {Cn}n such that"
-            ]
+            ],
+            "eventId": "5"
           },
           {
             "type": "show",
@@ -148,7 +158,8 @@
             "disabled": false,
             "keywords": [
               "1. the circuit Cn has n input gates, one output gate, and can be computed by a deterministic algorithm in time poly(n);"
-            ]
+            ],
+            "eventId": "6"
           },
           {
             "type": "show",
@@ -158,7 +169,8 @@
             "keywords": [
               "2. for every word input w of length n,",
               "Prob [Cn(w) = L(w)] > 0.6"
-            ]
+            ],
+            "eventId": "7"
           },
           {
             "type": "child",
@@ -172,7 +184,8 @@
                 "disabled": false,
                 "keywords": [
                   "The inclusion circuits ⊆ BPP is immediate, so we focus on the converse inclusion."
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "show",
@@ -181,7 +194,8 @@
                 "disabled": false,
                 "keywords": [
                   "Consider a BPP algorithm, which is implemented by a Turing machine that runs in time p(n) and uses a coin tape."
-                ]
+                ],
+                "eventId": "1"
               },
               {
                 "type": "show",
@@ -193,7 +207,8 @@
                   "q",
                   "r",
                   "A computation can be visualised as a p(n) × p(n) grid"
-                ]
+                ],
+                "eventId": "2"
               },
               {
                 "type": "show",
@@ -202,7 +217,8 @@
                 "disabled": false,
                 "keywords": [
                   "for every cell of the grid, its contents can be represented by log(states × alphabet) bits"
-                ]
+                ],
+                "eventId": "3"
               },
               {
                 "type": "show",
@@ -211,7 +227,8 @@
                 "disabled": false,
                 "keywords": [
                   "The n-th circuit computes the cells of the computation (in chronological order), and then says if the accepting state is seen."
-                ]
+                ],
+                "eventId": "4"
               },
               {
                 "type": "show",
@@ -220,17 +237,20 @@
                 "disabled": false,
                 "keywords": [
                   "When the machine reads from the coin tape, a coin gate is used in the circuit."
-                ]
+                ],
+                "eventId": "5"
               }
             ],
             "keywords": [
               "Proof of BPP via circuits"
-            ]
+            ],
+            "eventId": "8"
           }
         ],
         "keywords": [
           "BPP with circuits"
-        ]
+        ],
+        "eventId": "2"
       },
       {
         "type": "child",
@@ -244,7 +264,8 @@
             "disabled": false,
             "keywords": [
               "The idea is behind quantum computation is that we allow probabilities which are complex numbers."
-            ]
+            ],
+            "eventId": "0"
           },
           {
             "type": "show",
@@ -253,7 +274,8 @@
             "disabled": false,
             "keywords": [
               "The double slit experiment"
-            ]
+            ],
+            "eventId": "1"
           },
           {
             "type": "child",
@@ -268,7 +290,8 @@
                 "keywords": [
                   "Feynman: Nobody understands quantum mechanics",
                   "I don’t know about nobody, but I don’t."
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "show",
@@ -278,7 +301,8 @@
                 "keywords": [
                   "Consider a system which has two possible states: [0> and [1>",
                   "memory states of a 3-bit computer"
-                ]
+                ],
+                "eventId": "1"
               },
               {
                 "type": "show",
@@ -287,7 +311,8 @@
                 "disabled": false,
                 "keywords": [
                   "Quantum physics says that it is ok to have a state like 0.6[0> + 0.8i[1>"
-                ]
+                ],
+                "eventId": "2"
               },
               {
                 "type": "show",
@@ -296,12 +321,14 @@
                 "disabled": false,
                 "keywords": [
                   "Quantum physics says that it is ok to have a state like 0.6[0> + 0.8i[1>"
-                ]
+                ],
+                "eventId": "3"
               }
             ],
             "keywords": [
               "Physical"
-            ]
+            ],
+            "eventId": "2"
           },
           {
             "type": "show",
@@ -310,7 +337,8 @@
             "disabled": false,
             "keywords": [
               "An intuitive description"
-            ]
+            ],
+            "eventId": "3"
           },
           {
             "type": "child",
@@ -324,7 +352,8 @@
                 "disabled": false,
                 "keywords": [
                   "Consider a probabilistic circuit:"
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "show",
@@ -336,7 +365,8 @@
                   "x3",
                   "x2",
                   "x4"
-                ]
+                ],
+                "eventId": "1"
               },
               {
                 "type": "show",
@@ -345,7 +375,8 @@
                 "disabled": false,
                 "keywords": [
                   "This circuit has layers, and each gate has fan-in at most 2."
-                ]
+                ],
+                "eventId": "2"
               },
               {
                 "type": "show",
@@ -354,7 +385,8 @@
                 "disabled": false,
                 "keywords": [
                   "These assumptions can be ensured with polynomial overhead."
-                ]
+                ],
+                "eventId": "3"
               },
               {
                 "type": "show",
@@ -365,7 +397,8 @@
                   "Every layer of this circuit, and also the entire circuit, can be seen as a transformation on probability distributions:",
                   "Dist {0,1}n ⟶",
                   "Dist {0,1}n"
-                ]
+                ],
+                "eventId": "4"
               },
               {
                 "type": "child",
@@ -379,7 +412,8 @@
                     "disabled": false,
                     "keywords": [
                       "A probability distribution on {0,1}n can be seen as a vector:"
-                    ]
+                    ],
+                    "eventId": "0"
                   },
                   {
                     "type": "show",
@@ -388,7 +422,8 @@
                     "disabled": false,
                     "keywords": [
                       "0.2 [010\\rangle + 0.5[011\\rangle + 0.3[111\\rangle"
-                    ]
+                    ],
+                    "eventId": "1"
                   },
                   {
                     "type": "show",
@@ -398,7 +433,8 @@
                     "keywords": [
                       "a basis vector, the number of such basis vectors is 2n",
                       "a basis vector, the number of such basis vectors is 2"
-                    ]
+                    ],
+                    "eventId": "2"
                   },
                   {
                     "type": "show",
@@ -407,12 +443,14 @@
                     "disabled": false,
                     "keywords": [
                       "A probability distribution corresponds to a vector that is stochastic: – all coefficients are ≥ 0 – the sum of coefficients is 1"
-                    ]
+                    ],
+                    "eventId": "3"
                   }
                 ],
                 "keywords": [
                   "Stochastic vectors"
-                ]
+                ],
+                "eventId": "5"
               },
               {
                 "type": "show",
@@ -421,7 +459,8 @@
                 "disabled": false,
                 "keywords": [
                   "A quantum circuit works in the same way, except that:"
-                ]
+                ],
+                "eventId": "6"
               },
               {
                 "type": "show",
@@ -430,7 +469,8 @@
                 "disabled": false,
                 "keywords": [
                   "(a) instead of probability distributions, we have “quantum distributions”"
-                ]
+                ],
+                "eventId": "7"
               },
               {
                 "type": "show",
@@ -439,7 +479,8 @@
                 "disabled": false,
                 "keywords": [
                   "0.6 i  [010\\rangle\n + 0.8  [011\\rangle"
-                ]
+                ],
+                "eventId": "8"
               },
               {
                 "type": "show",
@@ -448,7 +489,8 @@
                 "disabled": false,
                 "keywords": [
                   "0.6^2 + 0.8^2 = 1"
-                ]
+                ],
+                "eventId": "9"
               },
               {
                 "type": "show",
@@ -457,12 +499,14 @@
                 "disabled": false,
                 "keywords": [
                   "(b) the gates are reversible linear maps that preserve “quantum distributions”"
-                ]
+                ],
+                "eventId": "10"
               }
             ],
             "keywords": [
               "Quantum circuits intuition"
-            ]
+            ],
+            "eventId": "4"
           },
           {
             "type": "show",
@@ -471,7 +515,8 @@
             "disabled": false,
             "keywords": [
               "Some linear algebra"
-            ]
+            ],
+            "eventId": "5"
           },
           {
             "type": "child",
@@ -485,7 +530,8 @@
                 "disabled": false,
                 "keywords": [
                   "Linear algebra basics"
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "show",
@@ -494,7 +540,8 @@
                 "disabled": false,
                 "keywords": [
                   "We work with vector spaces over the complex numbers."
-                ]
+                ],
+                "eventId": "1"
               },
               {
                 "type": "child",
@@ -508,7 +555,8 @@
                     "disabled": false,
                     "keywords": [
                       "Complex numbers"
-                    ]
+                    ],
+                    "eventId": "0"
                   },
                   {
                     "type": "show",
@@ -517,7 +565,8 @@
                     "disabled": false,
                     "keywords": [
                       "A complex number is a number of the form"
-                    ]
+                    ],
+                    "eventId": "1"
                   },
                   {
                     "type": "show",
@@ -526,7 +575,8 @@
                     "disabled": false,
                     "keywords": [
                       "The conjugate of a complex number is"
-                    ]
+                    ],
+                    "eventId": "2"
                   },
                   {
                     "type": "show",
@@ -535,7 +585,8 @@
                     "disabled": false,
                     "keywords": [
                       "The norm of a complex number is"
-                    ]
+                    ],
+                    "eventId": "3"
                   },
                   {
                     "type": "show",
@@ -544,7 +595,8 @@
                     "disabled": false,
                     "keywords": [
                       "Complex vectors"
-                    ]
+                    ],
+                    "eventId": "4"
                   },
                   {
                     "type": "show",
@@ -553,7 +605,8 @@
                     "disabled": false,
                     "keywords": [
                       "A complex vector in is described by 2n real numbers."
-                    ]
+                    ],
+                    "eventId": "5"
                   },
                   {
                     "type": "show",
@@ -562,7 +615,8 @@
                     "disabled": false,
                     "keywords": [
                       "The inner product of two complex vectors is"
-                    ]
+                    ],
+                    "eventId": "6"
                   },
                   {
                     "type": "show",
@@ -572,7 +626,8 @@
                     "keywords": [
                       "The norm of a complex vector is the root of its inner product with itself:",
                       "The norm of a complex vector is its inner product with itself:"
-                    ]
+                    ],
+                    "eventId": "7"
                   },
                   {
                     "type": "show",
@@ -581,7 +636,8 @@
                     "disabled": false,
                     "keywords": [
                       "A complex vector with norm 1 is called unitary."
-                    ]
+                    ],
+                    "eventId": "8"
                   },
                   {
                     "type": "show",
@@ -590,7 +646,8 @@
                     "disabled": false,
                     "keywords": [
                       "like a stochastic vector, but we allow negative (or complex) coefficients, and we use the Euclidean norm"
-                    ]
+                    ],
+                    "eventId": "9"
                   },
                   {
                     "type": "show",
@@ -599,12 +656,14 @@
                     "disabled": false,
                     "keywords": [
                       "Two complex vectors are called orthogonal if their innner product is 0."
-                    ]
+                    ],
+                    "eventId": "10"
                   }
                 ],
                 "keywords": [
                   "Complex numbers"
-                ]
+                ],
+                "eventId": "2"
               },
               {
                 "type": "show",
@@ -614,7 +673,8 @@
                 "keywords": [
                   "think: X = {0, 1}n",
                   "Consider a set finite set X, and the vector space"
-                ]
+                ],
+                "eventId": "3"
               },
               {
                 "type": "show",
@@ -623,7 +683,8 @@
                 "disabled": false,
                 "keywords": [
                   "Instead of stochastic vectors and stochastic transformations, we have unitary vectors and unitary transformations"
-                ]
+                ],
+                "eventId": "4"
               },
               {
                 "type": "show",
@@ -632,7 +693,8 @@
                 "disabled": false,
                 "keywords": [
                   "Fact. The following conditions are equivalent for a linear map"
-                ]
+                ],
+                "eventId": "5"
               },
               {
                 "type": "show",
@@ -641,7 +703,8 @@
                 "disabled": false,
                 "keywords": [
                   "1. the input has the same norm as the output"
-                ]
+                ],
+                "eventId": "6"
               },
               {
                 "type": "show",
@@ -650,7 +713,8 @@
                 "disabled": false,
                 "keywords": [
                   "2. if the input has norm 1, then the output output has norm 1"
-                ]
+                ],
+                "eventId": "7"
               },
               {
                 "type": "show",
@@ -659,7 +723,8 @@
                 "disabled": false,
                 "keywords": [
                   "3. the columns of the corresponding matrix are an orthonormal basis"
-                ]
+                ],
+                "eventId": "8"
               },
               {
                 "type": "show",
@@ -668,7 +733,8 @@
                 "disabled": false,
                 "keywords": [
                   "4. the inverse of the corresponding matrix is its conjugate transpose."
-                ]
+                ],
+                "eventId": "9"
               },
               {
                 "type": "show",
@@ -677,7 +743,8 @@
                 "disabled": false,
                 "keywords": [
                   "5. the rows of the corresponding matrix are an orthonormal basis"
-                ]
+                ],
+                "eventId": "10"
               },
               {
                 "type": "show",
@@ -686,7 +753,8 @@
                 "disabled": false,
                 "keywords": [
                   "Such linear maps (or matrices) are called unitary"
-                ]
+                ],
+                "eventId": "11"
               },
               {
                 "type": "child",
@@ -702,7 +770,8 @@
                       "3. the columns of the corresponding matrix are an orthonormal basis",
                       "5. the rows of the corresponding matrix are an orthonormal basis",
                       "4. the inverse of the corresponding matrix is its conjugate transpose."
-                    ]
+                    ],
+                    "eventId": "0"
                   },
                   {
                     "type": "show",
@@ -712,7 +781,8 @@
                     "keywords": [
                       "A set of vectors is orthonormal if the vectors are unitary and pairwise orthogonal.",
                       "In other words:"
-                    ]
+                    ],
+                    "eventId": "1"
                   },
                   {
                     "type": "child",
@@ -737,7 +807,8 @@
                           "A matrix M",
                           "Conjugate transpose M",
                           "T"
-                        ]
+                        ],
+                        "eventId": "0"
                       },
                       {
                         "type": "show",
@@ -748,7 +819,8 @@
                           "If we multiply these two matrices, then the output matrix will store in cell (x, y) the inner product < row x of M, row y of M>",
                           "row x",
                           "column y in conjugate transpose = conjugate of row y in M"
-                        ]
+                        ],
+                        "eventId": "1"
                       },
                       {
                         "type": "show",
@@ -757,12 +829,14 @@
                         "disabled": false,
                         "keywords": [
                           "The output is the identity matrix iff rows are orthonormal"
-                        ]
+                        ],
+                        "eventId": "2"
                       }
                     ],
                     "keywords": [
                       "Conjugate transpose explained"
-                    ]
+                    ],
+                    "eventId": "2"
                   },
                   {
                     "type": "show",
@@ -771,7 +845,8 @@
                     "disabled": false,
                     "keywords": [
                       "Hence, the following conditions are equivalent:"
-                    ]
+                    ],
+                    "eventId": "3"
                   },
                   {
                     "type": "show",
@@ -780,7 +855,8 @@
                     "disabled": false,
                     "keywords": [
                       "the rows of M are an orthonormal basis"
-                    ]
+                    ],
+                    "eventId": "4"
                   },
                   {
                     "type": "show",
@@ -789,7 +865,8 @@
                     "disabled": false,
                     "keywords": [
                       "M \\overline{M^{\\mathsf T}} = I"
-                    ]
+                    ],
+                    "eventId": "5"
                   },
                   {
                     "type": "show",
@@ -798,7 +875,8 @@
                     "disabled": false,
                     "keywords": [
                       "apply conjugate transpose the previous equality"
-                    ]
+                    ],
+                    "eventId": "6"
                   },
                   {
                     "type": "show",
@@ -807,12 +885,14 @@
                     "disabled": false,
                     "keywords": [
                       "the columns of M are an orthonormal basis"
-                    ]
+                    ],
+                    "eventId": "7"
                   }
                 ],
                 "keywords": [
                   "Conjugate transpose conditions"
-                ]
+                ],
+                "eventId": "12"
               },
               {
                 "type": "child",
@@ -828,7 +908,8 @@
                       "1. the input has the same norm as the output",
                       "3. the columns of the corresponding matrix are an orthonormal basis",
                       "2. if the input has norm 1, then the output output has norm 1"
-                    ]
+                    ],
+                    "eventId": "0"
                   },
                   {
                     "type": "child",
@@ -857,12 +938,14 @@
                           "z",
                           "Multiplying a matrix by a vector gives a weighted sum of the matrix’s columns",
                           "="
-                        ]
+                        ],
+                        "eventId": "0"
                       }
                     ],
                     "keywords": [
                       "Matrix multiplication"
-                    ]
+                    ],
+                    "eventId": "1"
                   },
                   {
                     "type": "show",
@@ -871,7 +954,8 @@
                     "disabled": false,
                     "keywords": [
                       "Multiplying a matrix M by a vector v ∈ gives the output:"
-                    ]
+                    ],
+                    "eventId": "2"
                   },
                   {
                     "type": "show",
@@ -882,7 +966,8 @@
                       "The norm of M(v), i.e. the root of the inner product with itself, is:",
                       "because inner product is linear in each coordinate: <a + b, c> = <a, c> + <b, c>",
                       "The norm of M(v), i.e. its inner product with itself, is:"
-                    ]
+                    ],
+                    "eventId": "3"
                   },
                   {
                     "type": "show",
@@ -891,7 +976,8 @@
                     "disabled": false,
                     "keywords": [
                       "If the columns are orthonormal, then the output norm is the input norm."
-                    ]
+                    ],
+                    "eventId": "4"
                   },
                   {
                     "type": "show",
@@ -900,7 +986,8 @@
                     "disabled": false,
                     "keywords": [
                       "Conversely, if the columns are not orthonormal, then:"
-                    ]
+                    ],
+                    "eventId": "5"
                   },
                   {
                     "type": "show",
@@ -909,7 +996,8 @@
                     "disabled": false,
                     "keywords": [
                       "choose columns x ≠ y which have nozero inner product, and consider the input vector v that has 1 on coordinates x and y, and 0 otherwise."
-                    ]
+                    ],
+                    "eventId": "6"
                   },
                   {
                     "type": "show",
@@ -918,17 +1006,20 @@
                     "disabled": false,
                     "keywords": [
                       "output norm = input norm + <column x, column y>"
-                    ]
+                    ],
+                    "eventId": "7"
                   }
                 ],
                 "keywords": [
                   "Orthonormal basis and norms"
-                ]
+                ],
+                "eventId": "13"
               }
             ],
             "keywords": [
               "Linear algebra basics"
-            ]
+            ],
+            "eventId": "6"
           },
           {
             "type": "show",
@@ -937,7 +1028,8 @@
             "disabled": false,
             "keywords": [
               "Quantum circuits"
-            ]
+            ],
+            "eventId": "7"
           },
           {
             "type": "child",
@@ -952,7 +1044,8 @@
                 "keywords": [
                   "Definition of quantum circuits",
                   "Because quantum transformations must be reversible, number of input gates = number of output gates"
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "show",
@@ -967,7 +1060,8 @@
                   "x4",
                   "x5",
                   "H"
-                ]
+                ],
+                "eventId": "1"
               },
               {
                 "type": "child",
@@ -981,7 +1075,8 @@
                     "disabled": false,
                     "keywords": [
                       "Definition: An k-qubit gate is any unitary linear map"
-                    ]
+                    ],
+                    "eventId": "0"
                   },
                   {
                     "type": "child",
@@ -996,7 +1091,8 @@
                         "keywords": [
                           "The not gate is a 1-qubit gate",
                           "This is a permutation of the basis of , and hence it is unitary"
-                        ]
+                        ],
+                        "eventId": "0"
                       },
                       {
                         "type": "show",
@@ -1007,12 +1103,14 @@
                           "The corresponding matrix is",
                           "0",
                           "1"
-                        ]
+                        ],
+                        "eventId": "1"
                       }
                     ],
                     "keywords": [
                       "Not gate"
-                    ]
+                    ],
+                    "eventId": "1"
                   },
                   {
                     "type": "child",
@@ -1027,7 +1125,8 @@
                         "keywords": [
                           "The swap gate is a 2-qubit gate",
                           "This is a permutation of the basis of , and hence it is unitary"
-                        ]
+                        ],
+                        "eventId": "0"
                       },
                       {
                         "type": "show",
@@ -1038,12 +1137,14 @@
                           "The corresponding matrix is",
                           "1",
                           "0"
-                        ]
+                        ],
+                        "eventId": "1"
                       }
                     ],
                     "keywords": [
                       "Swap gate"
-                    ]
+                    ],
+                    "eventId": "2"
                   },
                   {
                     "type": "child",
@@ -1059,7 +1160,8 @@
                           "The Toffoli gate is a 3-qubit gate that simulates ∧ reversibly",
                           "This, again is a permutation of the basis",
                           "where"
-                        ]
+                        ],
+                        "eventId": "0"
                       },
                       {
                         "type": "show",
@@ -1068,7 +1170,8 @@
                         "disabled": false,
                         "keywords": [
                           "Toffoli simulates classical Boolean circuits"
-                        ]
+                        ],
+                        "eventId": "1"
                       },
                       {
                         "type": "child",
@@ -1082,7 +1185,8 @@
                             "disabled": false,
                             "keywords": [
                               "We can simulate every classical Boolean circuit using gates:"
-                            ]
+                            ],
+                            "eventId": "0"
                           },
                           {
                             "type": "show",
@@ -1095,7 +1199,8 @@
                               "c",
                               "c ⊕ (a ∧ b)",
                               "Toffoli"
-                            ]
+                            ],
+                            "eventId": "1"
                           },
                           {
                             "type": "show",
@@ -1107,7 +1212,8 @@
                               "b",
                               "b ⊕ a",
                               "CNOT"
-                            ]
+                            ],
+                            "eventId": "2"
                           },
                           {
                             "type": "show",
@@ -1118,7 +1224,8 @@
                               "a",
                               "¬ a",
                               "NOT"
-                            ]
+                            ],
+                            "eventId": "3"
                           },
                           {
                             "type": "show",
@@ -1130,7 +1237,8 @@
                               "x3",
                               "x2",
                               "Classical Boolean circuit"
-                            ]
+                            ],
+                            "eventId": "4"
                           },
                           {
                             "type": "show",
@@ -1146,7 +1254,8 @@
                               "x2",
                               "Its quantum simulation",
                               "For each gate of the circuit, we have an extra ancilla qubit, initialized to 0."
-                            ]
+                            ],
+                            "eventId": "5"
                           },
                           {
                             "type": "show",
@@ -1157,17 +1266,20 @@
                               "If the input vector is , then the output vector is",
                               "Assume the classical circuit has n inputs and l gates.",
                               "outputs of the gates"
-                            ]
+                            ],
+                            "eventId": "6"
                           }
                         ],
                         "keywords": [
                           "Simulate classical"
-                        ]
+                        ],
+                        "eventId": "2"
                       }
                     ],
                     "keywords": [
                       "Toffoli"
-                    ]
+                    ],
+                    "eventId": "3"
                   },
                   {
                     "type": "child",
@@ -1184,7 +1296,8 @@
                           "The Hadamard gate is a 1-qubit gate",
                           "This is not a permutation of the basis",
                           "orthogonal vectors of norm 1"
-                        ]
+                        ],
+                        "eventId": "0"
                       },
                       {
                         "type": "show",
@@ -1195,12 +1308,14 @@
                           "For every basis vector, the output of the Hadamard gate satisfies:",
                           "This is a quantum version of tossing a coin",
                           "norm of coefficient for = norm of coefficient for = 1/2"
-                        ]
+                        ],
+                        "eventId": "1"
                       }
                     ],
                     "keywords": [
                       "Hadamard"
-                    ]
+                    ],
+                    "eventId": "4"
                   },
                   {
                     "type": "show",
@@ -1209,7 +1324,8 @@
                     "disabled": false,
                     "keywords": [
                       "How do we put gates together?"
-                    ]
+                    ],
+                    "eventId": "5"
                   },
                   {
                     "type": "child",
@@ -1228,7 +1344,8 @@
                           "x4",
                           "x5",
                           "Consider a k-qubit gate inside an n-qubit circuit"
-                        ]
+                        ],
+                        "eventId": "0"
                       },
                       {
                         "type": "show",
@@ -1237,7 +1354,8 @@
                         "disabled": false,
                         "keywords": [
                           "The action of the k-qubit gate is extend to the n-qubit circuit:"
-                        ]
+                        ],
+                        "eventId": "1"
                       },
                       {
                         "type": "show",
@@ -1251,17 +1369,20 @@
                           "x2",
                           "x4",
                           "x5"
-                        ]
+                        ],
+                        "eventId": "2"
                       }
                     ],
                     "keywords": [
                       "Kronecker product"
-                    ]
+                    ],
+                    "eventId": "6"
                   }
                 ],
                 "keywords": [
                   "Gate"
-                ]
+                ],
+                "eventId": "2"
               },
               {
                 "type": "show",
@@ -1270,7 +1391,8 @@
                 "disabled": false,
                 "keywords": [
                   "Such a circuit computes a unitary linear map"
-                ]
+                ],
+                "eventId": "3"
               },
               {
                 "type": "show",
@@ -1279,7 +1401,8 @@
                 "disabled": false,
                 "keywords": [
                   "We can use observation to get a function of type"
-                ]
+                ],
+                "eventId": "4"
               },
               {
                 "type": "child",
@@ -1293,7 +1416,8 @@
                     "disabled": false,
                     "keywords": [
                       "Suppose that we have an n-qubit circuit, and a ditinguished qubit i ∈ {1, ..., n}"
-                    ]
+                    ],
+                    "eventId": "0"
                   },
                   {
                     "type": "show",
@@ -1303,7 +1427,8 @@
                     "keywords": [
                       "1. we view an input word as a complex vector",
                       "1. we view an input word as a complext vector"
-                    ]
+                    ],
+                    "eventId": "1"
                   },
                   {
                     "type": "show",
@@ -1312,7 +1437,8 @@
                     "disabled": false,
                     "keywords": [
                       "2. we apply the circuit, and get an output complex vector"
-                    ]
+                    ],
+                    "eventId": "2"
                   },
                   {
                     "type": "show",
@@ -1322,17 +1448,20 @@
                     "keywords": [
                       "3. the output is the probability that v has 1 on the i-th bit:",
                       "a nonzero real number"
-                    ]
+                    ],
+                    "eventId": "3"
                   }
                 ],
                 "keywords": [
                   "Testing"
-                ]
+                ],
+                "eventId": "5"
               }
             ],
             "keywords": [
               "Quantum circuits formally"
-            ]
+            ],
+            "eventId": "8"
           },
           {
             "type": "show",
@@ -1341,7 +1470,8 @@
             "disabled": false,
             "keywords": [
               "Definition of BQP"
-            ]
+            ],
+            "eventId": "9"
           },
           {
             "type": "child",
@@ -1357,7 +1487,8 @@
                   "all circuits are over some common finite set of gates",
                   "Definition. L ⊆ {0, 1}* is in BQP if there is a sequence of quantum circuits",
                   "bounded error quantum polynomial time"
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "show",
@@ -1366,7 +1497,8 @@
                 "disabled": false,
                 "keywords": [
                   "such that:"
-                ]
+                ],
+                "eventId": "1"
               },
               {
                 "type": "show",
@@ -1376,7 +1508,8 @@
                 "keywords": [
                   "the extra qubits are ancillas that will be initialized to 0",
                   "(a) the n-th circuit uses ≥ n qubits and be computed in deterministic time poly(n); and"
-                ]
+                ],
+                "eventId": "2"
               },
               {
                 "type": "show",
@@ -1386,7 +1519,8 @@
                 "keywords": [
                   "(b) if w ∈ {0, 1}* has length n, then",
                   "the input word w is padded with ancillas set to 0 so that its length is the number of qubits in the n-th circuit"
-                ]
+                ],
+                "eventId": "3"
               },
               {
                 "type": "show",
@@ -1395,7 +1529,8 @@
                 "disabled": false,
                 "keywords": [
                   "Theorem. BPP ⊆ BQP"
-                ]
+                ],
+                "eventId": "4"
               },
               {
                 "type": "child",
@@ -1411,7 +1546,8 @@
                       "We have already seen how to simulate a classical circuit with n inputs and l gates:",
                       "If the input vector is , then the output vector is",
                       "f (w) is the outputs of all gates"
-                    ]
+                    ],
+                    "eventId": "0"
                   },
                   {
                     "type": "show",
@@ -1420,7 +1556,8 @@
                     "disabled": false,
                     "keywords": [
                       "To simulate probabilistic circuitc, we need to generate random bits."
-                    ]
+                    ],
+                    "eventId": "1"
                   },
                   {
                     "type": "child",
@@ -1435,7 +1572,8 @@
                         "keywords": [
                           "H",
                           "Take a circuit with two Hadamard gates, and feed input vector"
-                        ]
+                        ],
+                        "eventId": "0"
                       },
                       {
                         "type": "show",
@@ -1444,7 +1582,8 @@
                         "disabled": false,
                         "keywords": [
                           "\\sqrt{1/2} \\cdot ([00 \\rangle + [10\\rangle)"
-                        ]
+                        ],
+                        "eventId": "1"
                       },
                       {
                         "type": "show",
@@ -1453,7 +1592,8 @@
                         "disabled": false,
                         "keywords": [
                           "\\underbrace{\\sqrt{1/2}\\cdot\n \\sqrt{1/2}}_{1/2} \\cdot \n([00 \\rangle + [10\\rangle + [01 \\rangle + [11\\rangle)"
-                        ]
+                        ],
+                        "eventId": "2"
                       },
                       {
                         "type": "show",
@@ -1463,7 +1603,8 @@
                         "keywords": [
                           "For a circuit with n Hadamard gates, we have",
                           "↦"
-                        ]
+                        ],
+                        "eventId": "3"
                       },
                       {
                         "type": "show",
@@ -1472,12 +1613,14 @@
                         "disabled": false,
                         "keywords": [
                           "the uniform proability distribution on {0, 1}ⁿ where each basis vector has norm 1/2ⁿ ."
-                        ]
+                        ],
+                        "eventId": "4"
                       }
                     ],
                     "keywords": [
                       "Many Hadamards"
-                    ]
+                    ],
+                    "eventId": "2"
                   },
                   {
                     "type": "show",
@@ -1487,7 +1630,8 @@
                     "keywords": [
                       "Suppose that the probabilistic circuit uses:",
                       "n inputs, m random bits, l gates"
-                    ]
+                    ],
+                    "eventId": "3"
                   },
                   {
                     "type": "show",
@@ -1497,7 +1641,8 @@
                     "keywords": [
                       "We can create a quantum circuit such that",
                       "↦"
-                    ]
+                    ],
+                    "eventId": "4"
                   },
                   {
                     "type": "show",
@@ -1506,22 +1651,26 @@
                     "disabled": false,
                     "keywords": [
                       "We then test the probability that the output vector has 1 on the bit corresponding to the output gate of the circuit."
-                    ]
+                    ],
+                    "eventId": "5"
                   }
                 ],
                 "keywords": [
                   "BPP ⊆ BQP"
-                ]
+                ],
+                "eventId": "5"
               }
             ],
             "keywords": [
               "BQP"
-            ]
+            ],
+            "eventId": "10"
           }
         ],
         "keywords": [
           "Quantum circuits"
-        ]
+        ],
+        "eventId": "3"
       }
     ],
     "keywords": [
@@ -1529,760 +1678,236 @@
       "Lecture 1. Turing machines and their resources",
       "bounded error quantum polynomial time",
       "First slide"
-    ]
+    ],
+    "eventId": "root"
   },
   "soundDict": {
     "1:5": {
-      "0": {
-        "file": "0",
-        "duration": 24.336
-      },
-      "1": {
-        "file": "1",
-        "duration": 25.824
-      },
-      "2": {
-        "file": "2",
-        "duration": 42.024
-      },
-      "3": {
-        "file": "3",
-        "duration": 5.424
-      },
-      "4": {
-        "file": "4",
-        "duration": 9.864
-      }
+      "0": 24.336,
+      "1": 25.824,
+      "2": 42.024,
+      "3": 5.424,
+      "finish": 9.864
     },
     "1:14": {
-      "0": {
-        "file": "0",
-        "duration": 6.024
-      },
-      "1": {
-        "file": "1",
-        "duration": 11.064
-      },
-      "2": {
-        "file": "2",
-        "duration": 7.176
-      },
-      "3": {
-        "file": "3",
-        "duration": 40.416
-      },
-      "4": {
-        "file": "4",
-        "duration": 13.536
-      },
-      "5": {
-        "file": "5",
-        "duration": 10.056
-      },
-      "6": {
-        "file": "6",
-        "duration": 29.064
-      },
-      "7": {
-        "file": "7",
-        "duration": 16.704
-      },
-      "8": {
-        "file": "8",
-        "duration": 17.184
-      },
-      "9": {
-        "file": "9",
-        "duration": 33.864
-      }
+      "0": 6.024,
+      "1": 11.064,
+      "2": 7.176,
+      "3": 40.416,
+      "4": 13.536,
+      "5": 10.056,
+      "6": 29.064,
+      "7": 16.704,
+      "8": 17.184,
+      "finish": 33.864
     },
     "1:36": {
-      "0": {
-        "file": "0",
-        "duration": 2.424
-      },
-      "1": {
-        "file": "1",
-        "duration": 29.616
-      },
-      "2": {
-        "file": "2",
-        "duration": 22.464
-      }
+      "0": 2.424,
+      "1": 29.616,
+      "finish": 22.464
     },
     "1:228": {
-      "0": {
-        "file": "0",
-        "duration": 21.864
-      },
-      "1": {
-        "file": "1",
-        "duration": 23.256
-      },
-      "2": {
-        "file": "2",
-        "duration": 10.656
-      },
-      "3": {
-        "file": "3",
-        "duration": 44.424
-      },
-      "4": {
-        "file": "4",
-        "duration": 17.064
-      },
-      "5": {
-        "file": "5",
-        "duration": 29.664
-      },
-      "6": {
-        "file": "6",
-        "duration": 8.424
-      }
+      "0": 21.864,
+      "1": 23.256,
+      "2": 10.656,
+      "3": 44.424,
+      "4": 17.064,
+      "5": 29.664,
+      "finish": 8.424
     },
     "1:1299": {
-      "0": {
-        "file": "0",
-        "duration": 1.224
-      },
-      "1": {
-        "file": "1",
-        "duration": 21.984
-      },
-      "2": {
-        "file": "2",
-        "duration": 13.776
-      },
-      "3": {
-        "file": "3",
-        "duration": 3.816
-      },
-      "4": {
-        "file": "4",
-        "duration": 2.976
-      },
-      "5": {
-        "file": "5",
-        "duration": 7.104
-      },
-      "6": {
-        "file": "6",
-        "duration": 10.056
-      },
-      "7": {
-        "file": "7",
-        "duration": 5.136
-      },
-      "8": {
-        "file": "8",
-        "duration": 2.256
-      },
-      "9": {
-        "file": "9",
-        "duration": 3.576
-      },
-      "10": {
-        "file": "10",
-        "duration": 0.984
-      },
-      "11": {
-        "file": "11",
-        "duration": 3.216
-      }
+      "0": 1.224,
+      "1": 21.984,
+      "2": 13.776,
+      "3": 3.816,
+      "4": 2.976,
+      "5": 7.104,
+      "6": 10.056,
+      "7": 5.136,
+      "8": 2.256,
+      "9": 3.576,
+      "10": 0.984,
+      "finish": 3.216
     },
     "71:596": {
-      "0": {
-        "file": "0",
-        "duration": 3.096
-      },
-      "1": {
-        "file": "1",
-        "duration": 24.264
-      },
-      "2": {
-        "file": "2",
-        "duration": 24.024
-      },
-      "3": {
-        "file": "3",
-        "duration": 30.984
-      },
-      "4": {
-        "file": "4",
-        "duration": 78.384
-      }
+      "0": 3.096,
+      "1": 24.264,
+      "2": 24.024,
+      "3": 30.984,
+      "finish": 78.384
     },
     "1:241": {
-      "0": {
-        "file": "0",
-        "duration": 9.576
-      },
-      "1": {
-        "file": "1",
-        "duration": 3.024
-      },
-      "2": {
-        "file": "2",
-        "duration": 34.416
-      },
-      "3": {
-        "file": "3",
-        "duration": 65.136
-      },
-      "4": {
-        "file": "4",
-        "duration": 3.696
-      },
-      "5": {
-        "file": "5",
-        "duration": 66.624
-      },
-      "6": {
-        "file": "6",
-        "duration": 2.736
-      },
-      "7": {
-        "file": "7",
-        "duration": 3.816
-      },
-      "8": {
-        "file": "8",
-        "duration": 13.704
-      },
-      "9": {
-        "file": "9",
-        "duration": 9.576
-      },
-      "10": {
-        "file": "10",
-        "duration": 19.176
-      },
-      "11": {
-        "file": "11",
-        "duration": 34.464
-      }
+      "0": 9.576,
+      "1": 3.024,
+      "2": 34.416,
+      "3": 65.136,
+      "4": 3.696,
+      "5": 66.624,
+      "6": 2.736,
+      "7": 3.816,
+      "8": 13.704,
+      "9": 9.576,
+      "10": 19.176,
+      "finish": 34.464
     },
     "1:1287": {
-      "0": {
-        "file": "0",
-        "duration": 11.376
-      },
-      "1": {
-        "file": "1",
-        "duration": 10.344
-      },
-      "2": {
-        "file": "2",
-        "duration": 16.704
-      },
-      "3": {
-        "file": "3",
-        "duration": 17.184
-      },
-      "4": {
-        "file": "4",
-        "duration": 17.016
-      }
+      "0": 11.376,
+      "1": 10.344,
+      "2": 16.704,
+      "3": 17.184,
+      "finish": 17.016
     },
     "1:531": {
-      "0": {
-        "file": "0",
-        "duration": 1.896
-      },
-      "1": {
-        "file": "1",
-        "duration": 6.936
-      },
-      "2": {
-        "file": "2",
-        "duration": 7.296
-      },
-      "3": {
-        "file": "3",
-        "duration": 10.584
-      },
-      "4": {
-        "file": "4",
-        "duration": 24.456
-      },
-      "5": {
-        "file": "5",
-        "duration": 27.936
-      },
-      "6": {
-        "file": "6",
-        "duration": 15.096
-      },
-      "7": {
-        "file": "7",
-        "duration": 6.936
-      },
-      "8": {
-        "file": "8",
-        "duration": 13.944
-      },
-      "9": {
-        "file": "9",
-        "duration": 15.624
-      },
-      "10": {
-        "file": "10",
-        "duration": 28.584
-      },
-      "11": {
-        "file": "11",
-        "duration": 5.136
-      },
-      "12": {
-        "file": "12",
-        "duration": 9.264
-      },
-      "13": {
-        "file": "13",
-        "duration": 4.704
-      },
-      "14": {
-        "file": "14",
-        "duration": 31.176
-      }
+      "0": 1.896,
+      "1": 6.936,
+      "2": 7.296,
+      "3": 10.584,
+      "4": 24.456,
+      "5": 27.936,
+      "6": 15.096,
+      "7": 6.936,
+      "8": 13.944,
+      "9": 15.624,
+      "10": 28.584,
+      "11": 5.136,
+      "12": 9.264,
+      "13": 4.704,
+      "finish": 31.176
     },
     "60:102": {
-      "0": {
-        "file": "0",
-        "duration": 3.864
-      },
-      "1": {
-        "file": "1",
-        "duration": 0.936
-      },
-      "2": {
-        "file": "2",
-        "duration": 19.656
-      },
-      "3": {
-        "file": "3",
-        "duration": 13.656
-      },
-      "4": {
-        "file": "4",
-        "duration": 37.344
-      },
-      "5": {
-        "file": "5",
-        "duration": 6.936
-      },
-      "6": {
-        "file": "6",
-        "duration": 15.336
-      },
-      "7": {
-        "file": "7",
-        "duration": 27.696
-      },
-      "8": {
-        "file": "8",
-        "duration": 26.016
-      },
-      "9": {
-        "file": "9",
-        "duration": 64.824
-      },
-      "10": {
-        "file": "10",
-        "duration": 9.816
-      },
-      "11": {
-        "file": "11",
-        "duration": 15.096
-      }
+      "0": 3.864,
+      "1": 0.936,
+      "2": 19.656,
+      "3": 13.656,
+      "4": 37.344,
+      "5": 6.936,
+      "6": 15.336,
+      "7": 27.696,
+      "8": 26.016,
+      "9": 64.824,
+      "10": 9.816,
+      "finish": 15.096
     },
     "1:875": {
-      "0": {
-        "file": "0",
-        "duration": 2.784
-      },
-      "1": {
-        "file": "1",
-        "duration": 7.656
-      },
-      "2": {
-        "file": "2",
-        "duration": 40.536
-      },
-      "3": {
-        "file": "3",
-        "duration": 19.944
-      },
-      "4": {
-        "file": "4",
-        "duration": 0.984
-      },
-      "5": {
-        "file": "5",
-        "duration": 3.384
-      },
-      "6": {
-        "file": "6",
-        "duration": 4.776
-      },
-      "7": {
-        "file": "7",
-        "duration": 27.576
-      },
-      "8": {
-        "file": "8",
-        "duration": 12.504
-      }
+      "0": 2.784,
+      "1": 7.656,
+      "2": 40.536,
+      "3": 19.944,
+      "4": 0.984,
+      "5": 3.384,
+      "6": 4.776,
+      "7": 27.576,
+      "finish": 12.504
     },
     "60:329": {
-      "0": {
-        "file": "0",
-        "duration": 1.224
-      },
-      "1": {
-        "file": "1",
-        "duration": 36.936
-      },
-      "2": {
-        "file": "2",
-        "duration": 62.184
-      },
-      "3": {
-        "file": "3",
-        "duration": 26.616
-      }
+      "0": 1.224,
+      "1": 36.936,
+      "2": 62.184,
+      "finish": 26.616
     },
     "1:558": {
-      "0": {
-        "file": "0",
-        "duration": 5.496
-      },
-      "1": {
-        "file": "1",
-        "duration": 4.824
-      },
-      "2": {
-        "file": "2",
-        "duration": 7.656
-      },
-      "3": {
-        "file": "3",
-        "duration": 4.176
-      },
-      "4": {
-        "file": "4",
-        "duration": 65.784
-      },
-      "5": {
-        "file": "5",
-        "duration": 16.896
-      },
-      "6": {
-        "file": "6",
-        "duration": 33.384
-      },
-      "7": {
-        "file": "7",
-        "duration": 25.344
-      },
-      "8": {
-        "file": "8",
-        "duration": 6.696
-      }
+      "0": 5.496,
+      "1": 4.824,
+      "2": 7.656,
+      "3": 4.176,
+      "4": 65.784,
+      "5": 16.896,
+      "6": 33.384,
+      "7": 25.344,
+      "finish": 6.696
     },
     "60:429": {
-      "0": {
-        "file": "0",
-        "duration": 1.224
-      },
-      "1": {
-        "file": "1",
-        "duration": 26.496
-      }
+      "0": 1.224,
+      "finish": 26.496
     },
     "1:1359": {
-      "0": {
-        "file": "0",
-        "duration": 3.696
-      },
-      "1": {
-        "file": "1",
-        "duration": 19.536
-      },
-      "2": {
-        "file": "2",
-        "duration": 18.696
-      },
-      "3": {
-        "file": "3",
-        "duration": 1.944
-      },
-      "4": {
-        "file": "4",
-        "duration": 22.056
-      },
-      "5": {
-        "file": "5",
-        "duration": 46.704
-      },
-      "6": {
-        "file": "6",
-        "duration": 29.064
-      }
+      "0": 3.696,
+      "1": 19.536,
+      "2": 18.696,
+      "3": 1.944,
+      "4": 22.056,
+      "5": 46.704,
+      "finish": 29.064
     },
     "1:1405": {
-      "0": {
-        "file": "0",
-        "duration": 2.784
-      },
-      "1": {
-        "file": "1",
-        "duration": 45.144
-      },
-      "2": {
-        "file": "2",
-        "duration": 3.576
-      },
-      "3": {
-        "file": "3",
-        "duration": 4.464
-      },
-      "4": {
-        "file": "4",
-        "duration": 12.264
-      },
-      "5": {
-        "file": "5",
-        "duration": 14.064
-      },
-      "6": {
-        "file": "6",
-        "duration": 41.016
-      },
-      "7": {
-        "file": "7",
-        "duration": 37.176
-      }
+      "0": 2.784,
+      "1": 45.144,
+      "2": 3.576,
+      "3": 4.464,
+      "4": 12.264,
+      "5": 14.064,
+      "6": 41.016,
+      "finish": 37.176
     },
     "61:52": {
-      "0": {
-        "file": "0",
-        "duration": 1.656
-      },
-      "1": {
-        "file": "1",
-        "duration": 54.936
-      },
-      "2": {
-        "file": "2",
-        "duration": 41.736
-      }
+      "0": 1.656,
+      "1": 54.936,
+      "finish": 41.736
     },
     "61:125": {
-      "0": {
-        "file": "0",
-        "duration": 2.304
-      },
-      "1": {
-        "file": "1",
-        "duration": 32.184
-      },
-      "2": {
-        "file": "2",
-        "duration": 35.184
-      }
+      "0": 2.304,
+      "1": 32.184,
+      "finish": 35.184
     },
     "61:292": {
-      "0": {
-        "file": "0",
-        "duration": 1.824
-      },
-      "1": {
-        "file": "1",
-        "duration": 108.456
-      },
-      "2": {
-        "file": "2",
-        "duration": 44.904
-      },
-      "3": {
-        "file": "3",
-        "duration": 1.536
-      }
+      "0": 1.824,
+      "1": 108.456,
+      "2": 44.904,
+      "finish": 1.536
     },
     "68:0": {
-      "0": {
-        "file": "0",
-        "duration": 2.184
-      },
-      "1": {
-        "file": "1",
-        "duration": 12.144
-      },
-      "2": {
-        "file": "2",
-        "duration": 6.264
-      },
-      "3": {
-        "file": "3",
-        "duration": 15.936
-      },
-      "4": {
-        "file": "4",
-        "duration": 12.456
-      },
-      "5": {
-        "file": "5",
-        "duration": 12.936
-      },
-      "6": {
-        "file": "6",
-        "duration": 136.896
-      },
-      "7": {
-        "file": "7",
-        "duration": 77.904
-      }
+      "0": 2.184,
+      "1": 12.144,
+      "2": 6.264,
+      "3": 15.936,
+      "4": 12.456,
+      "5": 12.936,
+      "6": 136.896,
+      "finish": 77.904
     },
     "61:534": {
-      "0": {
-        "file": "0",
-        "duration": 5.544
-      },
-      "1": {
-        "file": "1",
-        "duration": 92.136
-      },
-      "2": {
-        "file": "2",
-        "duration": 60.696
-      }
+      "0": 5.544,
+      "1": 92.136,
+      "finish": 60.696
     },
     "63:202": {
-      "0": {
-        "file": "0",
-        "duration": 2.136
-      },
-      "1": {
-        "file": "1",
-        "duration": 17.016
-      },
-      "2": {
-        "file": "2",
-        "duration": 25.776
-      },
-      "3": {
-        "file": "3",
-        "duration": 81.216
-      }
+      "0": 2.136,
+      "1": 17.016,
+      "2": 25.776,
+      "finish": 81.216
     },
     "65:0": {
-      "0": {
-        "file": "0",
-        "duration": 2.664
-      },
-      "1": {
-        "file": "1",
-        "duration": 24.744
-      },
-      "2": {
-        "file": "2",
-        "duration": 39.696
-      },
-      "3": {
-        "file": "3",
-        "duration": 40.704
-      },
-      "4": {
-        "file": "4",
-        "duration": 53.904
-      }
+      "0": 2.664,
+      "1": 24.744,
+      "2": 39.696,
+      "3": 40.704,
+      "finish": 53.904
     },
     "63:558": {
-      "0": {
-        "file": "0",
-        "duration": 2.616
-      },
-      "1": {
-        "file": "1",
-        "duration": 78.864
-      },
-      "2": {
-        "file": "2",
-        "duration": 3.696
-      },
-      "3": {
-        "file": "3",
-        "duration": 48.144
-      },
-      "4": {
-        "file": "4",
-        "duration": 81.576
-      },
-      "5": {
-        "file": "5",
-        "duration": 42.336
-      },
-      "6": {
-        "file": "6",
-        "duration": 11.304
-      }
+      "0": 2.616,
+      "1": 78.864,
+      "2": 3.696,
+      "3": 48.144,
+      "4": 81.576,
+      "5": 42.336,
+      "finish": 11.304
     },
     "1:1281": {
-      "0": {
-        "file": "0",
-        "duration": 2.784
-      },
-      "1": {
-        "file": "1",
-        "duration": 67.416
-      },
-      "2": {
-        "file": "2",
-        "duration": 9.744
-      },
-      "3": {
-        "file": "3",
-        "duration": 5.544
-      },
-      "4": {
-        "file": "4",
-        "duration": 6.936
-      },
-      "5": {
-        "file": "5",
-        "duration": 56.544
-      },
-      "6": {
-        "file": "6",
-        "duration": 46.824
-      }
+      "0": 2.784,
+      "1": 67.416,
+      "2": 9.744,
+      "3": 5.544,
+      "4": 6.936,
+      "5": 56.544,
+      "finish": 46.824
     },
     "70:347": {
-      "0": {
-        "file": "0",
-        "duration": 2.136
-      },
-      "1": {
-        "file": "1",
-        "duration": 22.584
-      },
-      "2": {
-        "file": "2",
-        "duration": 40.656
-      },
-      "3": {
-        "file": "3",
-        "duration": 44.304
-      },
-      "4": {
-        "file": "4",
-        "duration": 31.656
-      },
-      "5": {
-        "file": "5",
-        "duration": 32.376
-      }
+      "0": 2.136,
+      "1": 22.584,
+      "2": 40.656,
+      "3": 44.304,
+      "4": 31.656,
+      "finish": 32.376
     }
   }
 }

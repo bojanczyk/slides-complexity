@@ -1,5 +1,5 @@
 {
-  "version": 0.88,
+  "version": 0.902,
   "presentation": "Lecture 9. Parameterized complexity",
   "slideDict": {
     "1:2": "First_slide",
@@ -35,7 +35,8 @@
         "disabled": false,
         "keywords": [
           "Idea. So far, we measured the complexity of an algorithm as f (input size)?"
-        ]
+        ],
+        "eventId": "0"
       },
       {
         "type": "show",
@@ -44,7 +45,8 @@
         "disabled": false,
         "keywords": [
           "What if there were other parameters: f (input size, some other parameter)?"
-        ]
+        ],
+        "eventId": "1"
       },
       {
         "type": "show",
@@ -53,7 +55,8 @@
         "disabled": false,
         "keywords": [
           "graph size"
-        ]
+        ],
+        "eventId": "2"
       },
       {
         "type": "show",
@@ -62,7 +65,8 @@
         "disabled": false,
         "keywords": [
           "number of colours"
-        ]
+        ],
+        "eventId": "3"
       },
       {
         "type": "child",
@@ -78,7 +82,8 @@
               "A vertex cover for a graph is a set of vertices which is incident with every edge.",
               "not a vertex cover, because this edge is not covered",
               "a vertex cover"
-            ]
+            ],
+            "eventId": "0"
           },
           {
             "type": "show",
@@ -87,7 +92,8 @@
             "disabled": false,
             "keywords": [
               "The following problem is NP-complete: Input. A graph and a number k. Question. Is there a vertex cover of size ≤ k?"
-            ]
+            ],
+            "eventId": "1"
           },
           {
             "type": "child",
@@ -101,7 +107,8 @@
                 "disabled": false,
                 "keywords": [
                   "Proof. A reduction from 3-CNF-SAT"
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "child",
@@ -116,7 +123,8 @@
                     "keywords": [
                       "Consider an instance of 3-CNF-SAT",
                       "(¬a ∨ ¬b ∨ ¬c) ∧ (¬a ∨ b ∨ ¬c) ∧ (¬a ∨ ¬b ∨ c) ∧ (a ∨ b ∨ c)"
-                    ]
+                    ],
+                    "eventId": "0"
                   },
                   {
                     "type": "show",
@@ -130,7 +138,8 @@
                       "b",
                       "c",
                       "a"
-                    ]
+                    ],
+                    "eventId": "1"
                   },
                   {
                     "type": "show",
@@ -139,7 +148,8 @@
                     "disabled": false,
                     "keywords": [
                       "for every clause there is a triangle"
-                    ]
+                    ],
+                    "eventId": "2"
                   },
                   {
                     "type": "show",
@@ -153,7 +163,8 @@
                       "¬b",
                       "c",
                       "¬c"
-                    ]
+                    ],
+                    "eventId": "3"
                   },
                   {
                     "type": "show",
@@ -162,7 +173,8 @@
                     "disabled": false,
                     "keywords": [
                       "for every variable we create an edge"
-                    ]
+                    ],
+                    "eventId": "4"
                   },
                   {
                     "type": "show",
@@ -171,7 +183,8 @@
                     "disabled": false,
                     "keywords": [
                       "Group 10"
-                    ]
+                    ],
+                    "eventId": "5"
                   },
                   {
                     "type": "show",
@@ -180,7 +193,8 @@
                     "disabled": false,
                     "keywords": [
                       "edges connect appearances of a variable"
-                    ]
+                    ],
+                    "eventId": "6"
                   },
                   {
                     "type": "hide",
@@ -189,7 +203,8 @@
                     "disabled": false,
                     "keywords": [
                       "for every clause there is a triangle"
-                    ]
+                    ],
+                    "eventId": "7"
                   },
                   {
                     "type": "hide",
@@ -198,7 +213,8 @@
                     "disabled": false,
                     "keywords": [
                       "edges connect appearances of a variable"
-                    ]
+                    ],
+                    "eventId": "8"
                   },
                   {
                     "type": "hide",
@@ -207,7 +223,8 @@
                     "disabled": false,
                     "keywords": [
                       "for every variable we create an edge"
-                    ]
+                    ],
+                    "eventId": "9"
                   },
                   {
                     "type": "show",
@@ -218,7 +235,8 @@
                       "formula is satisfiable",
                       "graph has a vertex cover of size ≤ number of variables + 2(number of clauses)",
                       "iff"
-                    ]
+                    ],
+                    "eventId": "10"
                   },
                   {
                     "type": "show",
@@ -227,7 +245,8 @@
                     "disabled": false,
                     "keywords": [
                       "⟹"
-                    ]
+                    ],
+                    "eventId": "11"
                   },
                   {
                     "type": "show",
@@ -236,7 +255,8 @@
                     "disabled": false,
                     "keywords": [
                       "Take a satisfying assignment, and select for each variable the corresponding vertex in each blue edge."
-                    ]
+                    ],
+                    "eventId": "12"
                   },
                   {
                     "type": "show",
@@ -245,7 +265,8 @@
                     "disabled": false,
                     "keywords": [
                       "Group 13"
-                    ]
+                    ],
+                    "eventId": "13"
                   },
                   {
                     "type": "show",
@@ -254,7 +275,8 @@
                     "disabled": false,
                     "keywords": [
                       "In every triangle, some vertex has its red edge covered."
-                    ]
+                    ],
+                    "eventId": "14"
                   },
                   {
                     "type": "show",
@@ -263,7 +285,8 @@
                     "disabled": false,
                     "keywords": [
                       "Select the remaining two vertices."
-                    ]
+                    ],
+                    "eventId": "15"
                   },
                   {
                     "type": "hide",
@@ -272,7 +295,8 @@
                     "disabled": false,
                     "keywords": [
                       "Group 13"
-                    ]
+                    ],
+                    "eventId": "16"
                   },
                   {
                     "type": "show",
@@ -281,7 +305,8 @@
                     "disabled": false,
                     "keywords": [
                       "⟹"
-                    ]
+                    ],
+                    "eventId": "17"
                   },
                   {
                     "type": "show",
@@ -290,7 +315,8 @@
                     "disabled": false,
                     "keywords": [
                       "At least one vertex must be selected for each blue edge"
-                    ]
+                    ],
+                    "eventId": "18"
                   },
                   {
                     "type": "show",
@@ -299,7 +325,8 @@
                     "disabled": false,
                     "keywords": [
                       "At least two vertices must be selected for each triangle"
-                    ]
+                    ],
+                    "eventId": "19"
                   },
                   {
                     "type": "show",
@@ -308,7 +335,8 @@
                     "disabled": false,
                     "keywords": [
                       "A vertex cover of this size needs exactly: 1. one vertex per blue edge, 2. two vertices per black triangle"
-                    ]
+                    ],
+                    "eventId": "20"
                   },
                   {
                     "type": "show",
@@ -317,12 +345,14 @@
                     "disabled": false,
                     "keywords": [
                       "To be a cover, it needs to describe a satisfying assignment."
-                    ]
+                    ],
+                    "eventId": "21"
                   }
                 ],
                 "keywords": [
                   "NP completeness of vertex cover"
-                ]
+                ],
+                "eventId": "1"
               },
               {
                 "type": "show",
@@ -331,12 +361,14 @@
                 "disabled": false,
                 "keywords": [
                   "linear"
-                ]
+                ],
+                "eventId": "2"
               }
             ],
             "keywords": [
               "Vertex cover is NP complete"
-            ]
+            ],
+            "eventId": "2"
           },
           {
             "type": "show",
@@ -345,7 +377,8 @@
             "disabled": false,
             "keywords": [
               "What about fixed k?"
-            ]
+            ],
+            "eventId": "3"
           },
           {
             "type": "child",
@@ -362,7 +395,8 @@
                   "Running time:",
                   "(number of edges) × (number of vertices)",
                   "k"
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "show",
@@ -371,7 +405,8 @@
                 "disabled": false,
                 "keywords": [
                   "Polynomial for fixed k, but the polynomial and its degree depend on k"
-                ]
+                ],
+                "eventId": "1"
               },
               {
                 "type": "show",
@@ -383,7 +418,8 @@
                   "Running time:",
                   "2 × (number of edges)",
                   "k"
-                ]
+                ],
+                "eventId": "2"
               },
               {
                 "type": "show",
@@ -392,7 +428,8 @@
                 "disabled": false,
                 "keywords": [
                   "Polynomial for fixed k, and degree of polynomial does not depend on k"
-                ]
+                ],
+                "eventId": "3"
               },
               {
                 "type": "child",
@@ -406,7 +443,8 @@
                     "disabled": false,
                     "keywords": [
                       "An algorithm that runs in time"
-                    ]
+                    ],
+                    "eventId": "0"
                   },
                   {
                     "type": "show",
@@ -415,7 +453,8 @@
                     "disabled": false,
                     "keywords": [
                       "linear time for fixed k"
-                    ]
+                    ],
+                    "eventId": "1"
                   },
                   {
                     "type": "show",
@@ -427,7 +466,8 @@
                       "yes",
                       "no",
                       "During the algorithm, we will increase knowledge about the vertex cover"
-                    ]
+                    ],
+                    "eventId": "2"
                   },
                   {
                     "type": "show",
@@ -437,7 +477,8 @@
                     "keywords": [
                       "?",
                       "Initially, all vertices are undecided"
-                    ]
+                    ],
+                    "eventId": "3"
                   },
                   {
                     "type": "hide",
@@ -446,7 +487,8 @@
                     "disabled": false,
                     "keywords": [
                       "?"
-                    ]
+                    ],
+                    "eventId": "4"
                   },
                   {
                     "type": "show",
@@ -455,7 +497,8 @@
                     "disabled": false,
                     "keywords": [
                       "Recursive procedure"
-                    ]
+                    ],
+                    "eventId": "5"
                   },
                   {
                     "type": "show",
@@ -465,7 +508,8 @@
                     "keywords": [
                       "If k vertices are “yes” then stop.",
                       "with failure or success, depending on whether we have a cover)."
-                    ]
+                    ],
+                    "eventId": "6"
                   },
                   {
                     "type": "show",
@@ -475,7 +519,8 @@
                     "keywords": [
                       "Take the first undecided vertex v .",
                       "with respect to some fixed order on the vertices"
-                    ]
+                    ],
+                    "eventId": "7"
                   },
                   {
                     "type": "show",
@@ -484,7 +529,8 @@
                     "disabled": false,
                     "keywords": [
                       "If all neighbours of v are decided, make v “yes” if it has some “no” neighbour, and “no” otherwise. Try the next v."
-                    ]
+                    ],
+                    "eventId": "8"
                   },
                   {
                     "type": "show",
@@ -493,7 +539,8 @@
                     "disabled": false,
                     "keywords": [
                       "If all neighbours of v are decided, make v “yes” if it has some “no” neighbour, and “no” otherwise. Try the next v."
-                    ]
+                    ],
+                    "eventId": "9"
                   },
                   {
                     "type": "show",
@@ -502,7 +549,8 @@
                     "disabled": false,
                     "keywords": [
                       "Succeed if one of the following succeds:"
-                    ]
+                    ],
+                    "eventId": "10"
                   },
                   {
                     "type": "show",
@@ -511,7 +559,8 @@
                     "disabled": false,
                     "keywords": [
                       "1. set v to “yes”, and recurse"
-                    ]
+                    ],
+                    "eventId": "11"
                   },
                   {
                     "type": "show",
@@ -520,7 +569,8 @@
                     "disabled": false,
                     "keywords": [
                       "2. set v to “no”, set all of its undecided neighbours to “yes”, and recurse"
-                    ]
+                    ],
+                    "eventId": "12"
                   },
                   {
                     "type": "show",
@@ -529,12 +579,14 @@
                     "disabled": false,
                     "keywords": [
                       "The recursion tree is a binary tree of depth at most k"
-                    ]
+                    ],
+                    "eventId": "13"
                   }
                 ],
                 "keywords": [
                   "FPT for vertex cover"
-                ]
+                ],
+                "eventId": "4"
               },
               {
                 "type": "show",
@@ -543,7 +595,8 @@
                 "disabled": false,
                 "keywords": [
                   "Under the Exponential Time Hypothesis, algorithm 2 is optimal."
-                ]
+                ],
+                "eventId": "5"
               },
               {
                 "type": "child",
@@ -559,7 +612,8 @@
                       "Exponential Time Hypothesis",
                       "Optimality of Algorithm 2",
                       "⟹"
-                    ]
+                    ],
+                    "eventId": "0"
                   },
                   {
                     "type": "show",
@@ -571,7 +625,8 @@
                       "λ(number of clauses)",
                       "For some λ > 0, there is no algorithm for 3-CNF-SAT which works in time",
                       "eth"
-                    ]
+                    ],
+                    "eventId": "1"
                   },
                   {
                     "type": "show",
@@ -584,7 +639,8 @@
                       "× poly(number of vertices)",
                       "For some λ > 0, there is no algorithm for vertex cover which works in time",
                       "algo 1"
-                    ]
+                    ],
+                    "eventId": "2"
                   },
                   {
                     "type": "hide",
@@ -593,7 +649,8 @@
                     "disabled": false,
                     "keywords": [
                       "eth"
-                    ]
+                    ],
+                    "eventId": "3"
                   },
                   {
                     "type": "hide",
@@ -602,7 +659,8 @@
                     "disabled": false,
                     "keywords": [
                       "algo 1"
-                    ]
+                    ],
+                    "eventId": "4"
                   },
                   {
                     "type": "show",
@@ -618,7 +676,8 @@
                       "For every λ > 0, there is an algorithm for vertex cover which works in time",
                       "⟹",
                       "contrapositive"
-                    ]
+                    ],
+                    "eventId": "5"
                   },
                   {
                     "type": "show",
@@ -627,7 +686,8 @@
                     "disabled": false,
                     "keywords": [
                       "Proof. Our reduction from 3-CNF-SAT to vertex cover created an instance where both the number of vertices and cover size are ≤ 2(number of clauses)."
-                    ]
+                    ],
+                    "eventId": "6"
                   },
                   {
                     "type": "show",
@@ -639,12 +699,14 @@
                       "2λ(number of clauses)",
                       "× poly(number of clauses)",
                       "Using an alleged vertex cover algorithm for λ, we can solve 3-CNF-SAT in time"
-                    ]
+                    ],
+                    "eventId": "7"
                   }
                 ],
                 "keywords": [
                   "ETH Vertex cover"
-                ]
+                ],
+                "eventId": "6"
               },
               {
                 "type": "show",
@@ -653,7 +715,8 @@
                 "disabled": false,
                 "keywords": [
                   "This is an example of a fixed parameter tractable algorithm."
-                ]
+                ],
+                "eventId": "7"
               },
               {
                 "type": "child",
@@ -669,7 +732,8 @@
                       "Consider a computational problem, where each input has two associated numbers: size and parameter.",
                       "Fixed parameter tractable",
                       "Consider a computational problem, where each instance has two associated numbers: size and parameter."
-                    ]
+                    ],
+                    "eventId": "0"
                   },
                   {
                     "type": "show",
@@ -678,7 +742,8 @@
                     "disabled": false,
                     "keywords": [
                       "formally: L ⊆ Σ* × {1, 2, ...}"
-                    ]
+                    ],
+                    "eventId": "1"
                   },
                   {
                     "type": "show",
@@ -692,7 +757,8 @@
                       "problem",
                       "size",
                       "parameter"
-                    ]
+                    ],
+                    "eventId": "2"
                   },
                   {
                     "type": "show",
@@ -703,7 +769,8 @@
                       "Is a k-CNF formula satisfiable?",
                       "size of formula",
                       "size k of clauses"
-                    ]
+                    ],
+                    "eventId": "3"
                   },
                   {
                     "type": "show",
@@ -714,7 +781,8 @@
                       "Does a graph of size n have a vertex cover of size ≤ k?",
                       "size of graph",
                       "size k of vertex cover"
-                    ]
+                    ],
+                    "eventId": "4"
                   },
                   {
                     "type": "show",
@@ -725,7 +793,8 @@
                       "Does a graph of size n contain a clique of size ≤ k?",
                       "size of graph",
                       "size k of clique"
-                    ]
+                    ],
+                    "eventId": "5"
                   },
                   {
                     "type": "show",
@@ -738,7 +807,8 @@
                       "computable function",
                       "a polynomial",
                       "The problem is fixed parameter tractable if it can be solved in time"
-                    ]
+                    ],
+                    "eventId": "6"
                   },
                   {
                     "type": "show",
@@ -747,7 +817,8 @@
                     "disabled": false,
                     "keywords": [
                       "fpt?"
-                    ]
+                    ],
+                    "eventId": "7"
                   },
                   {
                     "type": "show",
@@ -757,7 +828,8 @@
                     "keywords": [
                       "no*",
                       "* assuming P ≠ NP"
-                    ]
+                    ],
+                    "eventId": "8"
                   },
                   {
                     "type": "show",
@@ -766,7 +838,8 @@
                     "disabled": false,
                     "keywords": [
                       "no*"
-                    ]
+                    ],
+                    "eventId": "9"
                   },
                   {
                     "type": "show",
@@ -775,7 +848,8 @@
                     "disabled": false,
                     "keywords": [
                       "yes"
-                    ]
+                    ],
+                    "eventId": "10"
                   },
                   {
                     "type": "show",
@@ -785,12 +859,14 @@
                     "keywords": [
                       "no**",
                       "** assuming a stronger conjecture"
-                    ]
+                    ],
+                    "eventId": "11"
                   }
                 ],
                 "keywords": [
                   "FPT"
-                ]
+                ],
+                "eventId": "8"
               },
               {
                 "type": "child",
@@ -804,7 +880,8 @@
                     "disabled": false,
                     "keywords": [
                       "Many hard problems are easy on graphs similar to trees."
-                    ]
+                    ],
+                    "eventId": "0"
                   },
                   {
                     "type": "show",
@@ -813,7 +890,8 @@
                     "disabled": false,
                     "keywords": [
                       "3-colourability"
-                    ]
+                    ],
+                    "eventId": "1"
                   },
                   {
                     "type": "show",
@@ -822,7 +900,8 @@
                     "disabled": false,
                     "keywords": [
                       "Hamiltonian path"
-                    ]
+                    ],
+                    "eventId": "2"
                   },
                   {
                     "type": "show",
@@ -831,7 +910,8 @@
                     "disabled": false,
                     "keywords": [
                       "Vertex cover"
-                    ]
+                    ],
+                    "eventId": "3"
                   },
                   {
                     "type": "show",
@@ -840,7 +920,8 @@
                     "disabled": false,
                     "keywords": [
                       "FPT when the parameter is treewidth"
-                    ]
+                    ],
+                    "eventId": "4"
                   },
                   {
                     "type": "child",
@@ -854,7 +935,8 @@
                         "disabled": false,
                         "keywords": [
                           "A graph with ports is a graph with distinguished distinguished vertices."
-                        ]
+                        ],
+                        "eventId": "0"
                       },
                       {
                         "type": "show",
@@ -863,7 +945,8 @@
                         "disabled": false,
                         "keywords": [
                           "ports"
-                        ]
+                        ],
+                        "eventId": "1"
                       },
                       {
                         "type": "show",
@@ -872,7 +955,8 @@
                         "disabled": false,
                         "keywords": [
                           "Definition. A graph has treewidth k ∈ {1,2, ...} if it can be constructed using the following operations, so that in every moment at most k+1 ports are used."
-                        ]
+                        ],
+                        "eventId": "2"
                       },
                       {
                         "type": "hide",
@@ -881,7 +965,8 @@
                         "disabled": false,
                         "keywords": [
                           "ports"
-                        ]
+                        ],
+                        "eventId": "3"
                       },
                       {
                         "type": "show",
@@ -891,7 +976,8 @@
                         "keywords": [
                           "Constant",
                           "We have a constant for every graph where all vertices are distinguished."
-                        ]
+                        ],
+                        "eventId": "4"
                       },
                       {
                         "type": "show",
@@ -901,7 +987,8 @@
                         "keywords": [
                           "Forget",
                           "Input: a graph with ports, and a chosen port"
-                        ]
+                        ],
+                        "eventId": "5"
                       },
                       {
                         "type": "show",
@@ -910,7 +997,8 @@
                         "disabled": false,
                         "keywords": [
                           "Output: the chosen port is no longer a port"
-                        ]
+                        ],
+                        "eventId": "6"
                       },
                       {
                         "type": "show",
@@ -921,7 +1009,8 @@
                           "Fuse",
                           "Input: two graphs with ports, and a partial bijection between the ports",
                           "bijection"
-                        ]
+                        ],
+                        "eventId": "7"
                       },
                       {
                         "type": "show",
@@ -930,7 +1019,8 @@
                         "disabled": false,
                         "keywords": [
                           "Output: the disjoint union, except that pairs from the bijection are fused"
-                        ]
+                        ],
+                        "eventId": "8"
                       },
                       {
                         "type": "child",
@@ -944,7 +1034,8 @@
                             "disabled": false,
                             "keywords": [
                               "The 8-cycle has treewidth 2, because it can be constructed using 3 ports."
-                            ]
+                            ],
+                            "eventId": "0"
                           },
                           {
                             "type": "show",
@@ -953,7 +1044,8 @@
                             "disabled": false,
                             "keywords": [
                               "Group 39"
-                            ]
+                            ],
+                            "eventId": "1"
                           },
                           {
                             "type": "show",
@@ -962,7 +1054,8 @@
                             "disabled": false,
                             "keywords": [
                               "Group 40"
-                            ]
+                            ],
+                            "eventId": "2"
                           },
                           {
                             "type": "show",
@@ -971,7 +1064,8 @@
                             "disabled": false,
                             "keywords": [
                               "Group 41"
-                            ]
+                            ],
+                            "eventId": "3"
                           },
                           {
                             "type": "show",
@@ -980,7 +1074,8 @@
                             "disabled": false,
                             "keywords": [
                               "Group 43"
-                            ]
+                            ],
+                            "eventId": "4"
                           },
                           {
                             "type": "show",
@@ -989,7 +1084,8 @@
                             "disabled": false,
                             "keywords": [
                               "Group 44"
-                            ]
+                            ],
+                            "eventId": "5"
                           },
                           {
                             "type": "show",
@@ -998,7 +1094,8 @@
                             "disabled": false,
                             "keywords": [
                               "Group 45"
-                            ]
+                            ],
+                            "eventId": "6"
                           },
                           {
                             "type": "show",
@@ -1007,7 +1104,8 @@
                             "disabled": false,
                             "keywords": [
                               "Group 46"
-                            ]
+                            ],
+                            "eventId": "7"
                           },
                           {
                             "type": "show",
@@ -1016,7 +1114,8 @@
                             "disabled": false,
                             "keywords": [
                               "Group 47"
-                            ]
+                            ],
+                            "eventId": "8"
                           },
                           {
                             "type": "show",
@@ -1025,7 +1124,8 @@
                             "disabled": false,
                             "keywords": [
                               "Group 48"
-                            ]
+                            ],
+                            "eventId": "9"
                           },
                           {
                             "type": "show",
@@ -1034,7 +1134,8 @@
                             "disabled": false,
                             "keywords": [
                               "Group 49"
-                            ]
+                            ],
+                            "eventId": "10"
                           },
                           {
                             "type": "show",
@@ -1043,7 +1144,8 @@
                             "disabled": false,
                             "keywords": [
                               "Group 50"
-                            ]
+                            ],
+                            "eventId": "11"
                           },
                           {
                             "type": "show",
@@ -1052,17 +1154,20 @@
                             "disabled": false,
                             "keywords": [
                               "All cycles have treewidth 2."
-                            ]
+                            ],
+                            "eventId": "12"
                           }
                         ],
                         "keywords": [
                           "A tree decomposition"
-                        ]
+                        ],
+                        "eventId": "9"
                       }
                     ],
                     "keywords": [
                       "Treewidth"
-                    ]
+                    ],
+                    "eventId": "5"
                   },
                   {
                     "type": "show",
@@ -1073,7 +1178,8 @@
                       "Theorem. 3-colourability can be solved in time",
                       "f (treewidth) × (number of vertices)",
                       "exponential"
-                    ]
+                    ],
+                    "eventId": "6"
                   },
                   {
                     "type": "show",
@@ -1082,7 +1188,8 @@
                     "disabled": false,
                     "keywords": [
                       "also linear in number of edges"
-                    ]
+                    ],
+                    "eventId": "7"
                   },
                   {
                     "type": "show",
@@ -1091,7 +1198,8 @@
                     "disabled": false,
                     "keywords": [
                       "Step 1. Compute the tree decomposition"
-                    ]
+                    ],
+                    "eventId": "8"
                   },
                   {
                     "type": "child",
@@ -1106,7 +1214,8 @@
                         "keywords": [
                           "Theorem. Bodlander Given k ∈ {1, 2, ...} and a graph, one can compute a width k tree decomposition, or say that one does not exist, in time",
                           "f (k) × (number of vertices)."
-                        ]
+                        ],
+                        "eventId": "0"
                       },
                       {
                         "type": "show",
@@ -1115,7 +1224,8 @@
                         "disabled": false,
                         "keywords": [
                           "exponential"
-                        ]
+                        ],
+                        "eventId": "1"
                       },
                       {
                         "type": "show",
@@ -1124,12 +1234,14 @@
                         "disabled": false,
                         "keywords": [
                           "for graphs of treewidth k, number of edges ≤ (k+1)2 × (number of vertices)"
-                        ]
+                        ],
+                        "eventId": "2"
                       }
                     ],
                     "keywords": [
                       "Bodlaender"
-                    ]
+                    ],
+                    "eventId": "9"
                   },
                   {
                     "type": "show",
@@ -1138,7 +1250,8 @@
                     "disabled": false,
                     "keywords": [
                       "Step 2. Check 3-colourability using a bottom-up pass on the tree decomposition."
-                    ]
+                    ],
+                    "eventId": "10"
                   },
                   {
                     "type": "child",
@@ -1152,7 +1265,8 @@
                         "disabled": false,
                         "keywords": [
                           "Group 51"
-                        ]
+                        ],
+                        "eventId": "0"
                       },
                       {
                         "type": "show",
@@ -1161,7 +1275,8 @@
                         "disabled": false,
                         "keywords": [
                           "Consider a node of the tree decomposition, which describes a graph with ports."
-                        ]
+                        ],
+                        "eventId": "1"
                       },
                       {
                         "type": "show",
@@ -1172,7 +1287,8 @@
                           "The signature of this node is the set of all colourings",
                           "λ : ports ⟶ {1, 2, 3}",
                           "which can be extended to a 3-colouring of the entire graph with ports."
-                        ]
+                        ],
+                        "eventId": "2"
                       },
                       {
                         "type": "show",
@@ -1181,7 +1297,8 @@
                         "disabled": false,
                         "keywords": [
                           "Fact. The signature of a node can be computed from the signatures of its children, in time"
-                        ]
+                        ],
+                        "eventId": "3"
                       },
                       {
                         "type": "show",
@@ -1190,7 +1307,8 @@
                         "disabled": false,
                         "keywords": [
                           "Constant: exhaustive search"
-                        ]
+                        ],
+                        "eventId": "4"
                       },
                       {
                         "type": "show",
@@ -1199,7 +1317,8 @@
                         "disabled": false,
                         "keywords": [
                           "Forget: restrict the signature to smaller set"
-                        ]
+                        ],
+                        "eventId": "5"
                       },
                       {
                         "type": "show",
@@ -1208,7 +1327,8 @@
                         "disabled": false,
                         "keywords": [
                           "Fusion: interserction of signatures"
-                        ]
+                        ],
+                        "eventId": "6"
                       },
                       {
                         "type": "show",
@@ -1218,7 +1338,8 @@
                         "keywords": [
                           "Corollary. The signature of the root node can be computed in time",
                           "(size of tree decomposition) ×"
-                        ]
+                        ],
+                        "eventId": "7"
                       },
                       {
                         "type": "show",
@@ -1227,7 +1348,8 @@
                         "disabled": false,
                         "keywords": [
                           "linear in the number of vertices"
-                        ]
+                        ],
+                        "eventId": "8"
                       },
                       {
                         "type": "show",
@@ -1236,12 +1358,14 @@
                         "disabled": false,
                         "keywords": [
                           "The graph is 3-colourable iff the signature of the root node is nonempty."
-                        ]
+                        ],
+                        "eventId": "9"
                       }
                     ],
                     "keywords": [
                       "Use tree decomposition"
-                    ]
+                    ],
+                    "eventId": "11"
                   },
                   {
                     "type": "show",
@@ -1250,12 +1374,14 @@
                     "disabled": false,
                     "keywords": [
                       "Theorem. Courcelle This proof works for every problem that can be formalised in monadic second-order logic."
-                    ]
+                    ],
+                    "eventId": "12"
                   }
                 ],
                 "keywords": [
                   "Treewidth"
-                ]
+                ],
+                "eventId": "9"
               },
               {
                 "type": "show",
@@ -1264,7 +1390,8 @@
                 "disabled": false,
                 "keywords": [
                   "This is an example of an XP algorithm."
-                ]
+                ],
+                "eventId": "10"
               },
               {
                 "type": "show",
@@ -1273,7 +1400,8 @@
                 "disabled": false,
                 "keywords": [
                   "Between these, there are other complexity classes of parameterised problems."
-                ]
+                ],
+                "eventId": "11"
               },
               {
                 "type": "child",
@@ -1288,7 +1416,8 @@
                     "keywords": [
                       "Problem 1. Given a graph, does it contain a clique of size k?",
                       "parameter"
-                    ]
+                    ],
+                    "eventId": "0"
                   },
                   {
                     "type": "show",
@@ -1297,7 +1426,8 @@
                     "disabled": false,
                     "keywords": [
                       "Conjecture: Problem 1 is not in FPT"
-                    ]
+                    ],
+                    "eventId": "1"
                   },
                   {
                     "type": "show",
@@ -1308,7 +1438,8 @@
                       "Problem 2. Given a nondeterministic Turing machine, does it have an accepting computation of length k?",
                       "parameter",
                       "Problem 2. Given k nondeterministic automata, is there some word accepted by all of them?"
-                    ]
+                    ],
+                    "eventId": "2"
                   },
                   {
                     "type": "show",
@@ -1317,7 +1448,8 @@
                     "disabled": false,
                     "keywords": [
                       "Lemma: If Problem 2 is FPT, then so is Problem 1."
-                    ]
+                    ],
+                    "eventId": "3"
                   },
                   {
                     "type": "child",
@@ -1331,7 +1463,8 @@
                         "disabled": false,
                         "keywords": [
                           "Given a graph, we want to know if it contains a clique of size k."
-                        ]
+                        ],
+                        "eventId": "0"
                       },
                       {
                         "type": "show",
@@ -1340,7 +1473,8 @@
                         "disabled": false,
                         "keywords": [
                           "We will define a Turing machine of size O(vertices3) such that:"
-                        ]
+                        ],
+                        "eventId": "1"
                       },
                       {
                         "type": "show",
@@ -1349,7 +1483,8 @@
                         "disabled": false,
                         "keywords": [
                           "The graph has a clique of size k"
-                        ]
+                        ],
+                        "eventId": "2"
                       },
                       {
                         "type": "show",
@@ -1358,7 +1493,8 @@
                         "disabled": false,
                         "keywords": [
                           "iff"
-                        ]
+                        ],
+                        "eventId": "3"
                       },
                       {
                         "type": "show",
@@ -1367,7 +1503,8 @@
                         "disabled": false,
                         "keywords": [
                           "The Turing machine has an accepting computation of length ≤ k3"
-                        ]
+                        ],
+                        "eventId": "4"
                       },
                       {
                         "type": "show",
@@ -1376,7 +1513,8 @@
                         "disabled": false,
                         "keywords": [
                           "We define k automata over the alphabet of vertices as follows."
-                        ]
+                        ],
+                        "eventId": "5"
                       },
                       {
                         "type": "show",
@@ -1385,7 +1523,8 @@
                         "disabled": false,
                         "keywords": [
                           "for every i < j ∈ {1,.., k}, the i-th and j-th letters in the input word describe an edge in the graph"
-                        ]
+                        ],
+                        "eventId": "6"
                       },
                       {
                         "type": "show",
@@ -1394,7 +1533,8 @@
                         "disabled": false,
                         "keywords": [
                           "time k3"
-                        ]
+                        ],
+                        "eventId": "7"
                       },
                       {
                         "type": "show",
@@ -1404,7 +1544,8 @@
                         "keywords": [
                           "If there would be an FPT algorithm for interesection of k automata, then the same would be true for k-clique.",
                           "f (k) × p(Turing machine size)"
-                        ]
+                        ],
+                        "eventId": "8"
                       },
                       {
                         "type": "show",
@@ -1413,7 +1554,8 @@
                         "disabled": false,
                         "keywords": [
                           "⟹"
-                        ]
+                        ],
+                        "eventId": "9"
                       },
                       {
                         "type": "show",
@@ -1423,7 +1565,8 @@
                         "keywords": [
                           "If there would be an FPT algorithm for interesection of k automata, then the same would be true for k-clique.",
                           "f (k3) × p(vertices3)"
-                        ]
+                        ],
+                        "eventId": "10"
                       },
                       {
                         "type": "show",
@@ -1432,7 +1575,8 @@
                         "disabled": false,
                         "keywords": [
                           "If there would be an FPT algorithm for interesection of k automata, then the same would be true for k-clique."
-                        ]
+                        ],
+                        "eventId": "11"
                       },
                       {
                         "type": "show",
@@ -1441,13 +1585,15 @@
                         "disabled": false,
                         "keywords": [
                           "If there would be an FPT algorithm for interesection of k automata, then the same would be true for k-clique."
-                        ]
+                        ],
+                        "eventId": "12"
                       }
                     ],
                     "keywords": [
                       "f (k) × p(Turing machine size)",
                       "From k-clique to automata"
-                    ]
+                    ],
+                    "eventId": "4"
                   },
                   {
                     "type": "show",
@@ -1458,7 +1604,8 @@
                       "An FPT reduction is a function from instances of Problem 1 to instances of Problem 2",
                       "instances of Problem 1",
                       "instances of Problem 2"
-                    ]
+                    ],
+                    "eventId": "5"
                   },
                   {
                     "type": "show",
@@ -1467,7 +1614,8 @@
                     "disabled": false,
                     "keywords": [
                       "It is designed so that if Problem 2 is in FPT, then so is Problem 1"
-                    ]
+                    ],
+                    "eventId": "6"
                   },
                   {
                     "type": "show",
@@ -1476,7 +1624,8 @@
                     "disabled": false,
                     "keywords": [
                       "(a) output parameter: depends (computably) on input parameter"
-                    ]
+                    ],
+                    "eventId": "7"
                   },
                   {
                     "type": "show",
@@ -1485,7 +1634,8 @@
                     "disabled": false,
                     "keywords": [
                       "(output parameter does not depend on instance)"
-                    ]
+                    ],
+                    "eventId": "8"
                   },
                   {
                     "type": "show",
@@ -1494,7 +1644,8 @@
                     "disabled": false,
                     "keywords": [
                       "(b) output size: FPT in terms of input size"
-                    ]
+                    ],
+                    "eventId": "9"
                   },
                   {
                     "type": "child",
@@ -1508,7 +1659,8 @@
                         "disabled": false,
                         "keywords": [
                           "Examples of FPT reductions"
-                        ]
+                        ],
+                        "eventId": "0"
                       },
                       {
                         "type": "show",
@@ -1519,7 +1671,8 @@
                           "Does a graph contain a clique of size k?",
                           "Does a Turing machine have an accepting run of length k?",
                           "Already shown: The Turing machine recognises the clique"
-                        ]
+                        ],
+                        "eventId": "1"
                       },
                       {
                         "type": "show",
@@ -1528,7 +1681,8 @@
                         "disabled": false,
                         "keywords": [
                           "Arrow 5"
-                        ]
+                        ],
+                        "eventId": "2"
                       },
                       {
                         "type": "child",
@@ -1542,7 +1696,8 @@
                             "disabled": false,
                             "keywords": [
                               "Suppose that we want to know if a nondeterministic Turing machine M has an accepting computation of length k."
-                            ]
+                            ],
+                            "eventId": "0"
                           },
                           {
                             "type": "show",
@@ -1551,7 +1706,8 @@
                             "disabled": false,
                             "keywords": [
                               "problem is equally hard for deterministic"
-                            ]
+                            ],
+                            "eventId": "1"
                           },
                           {
                             "type": "show",
@@ -1563,7 +1719,8 @@
                               "q",
                               "r",
                               "A computation of length k can be visualised as a k × k grid"
-                            ]
+                            ],
+                            "eventId": "2"
                           },
                           {
                             "type": "show",
@@ -1572,7 +1729,8 @@
                             "disabled": false,
                             "keywords": [
                               "The existence of such a computation can be rephrased as the existence of a a clique of size (k – 2) × (k – 1) inside a graph of size poly(M)"
-                            ]
+                            ],
+                            "eventId": "3"
                           },
                           {
                             "type": "child",
@@ -1590,7 +1748,8 @@
                                   "q",
                                   "p",
                                   "A window is information about a 3 × 2 rectangle inside the k × k grid, such that:"
-                                ]
+                                ],
+                                "eventId": "0"
                               },
                               {
                                 "type": "show",
@@ -1599,7 +1758,8 @@
                                 "disabled": false,
                                 "keywords": [
                                   "1. the window is consistent with the transition relation of the Turing machine"
-                                ]
+                                ],
+                                "eventId": "1"
                               },
                               {
                                 "type": "show",
@@ -1608,7 +1768,8 @@
                                 "disabled": false,
                                 "keywords": [
                                   "2. if the window covers top-left corner, then the initial state is used there"
-                                ]
+                                ],
+                                "eventId": "2"
                               },
                               {
                                 "type": "show",
@@ -1617,7 +1778,8 @@
                                 "disabled": false,
                                 "keywords": [
                                   "3. if the window covers a state in the last line, then that state is accepting"
-                                ]
+                                ],
+                                "eventId": "3"
                               },
                               {
                                 "type": "show",
@@ -1626,7 +1788,8 @@
                                 "disabled": false,
                                 "keywords": [
                                   "Graph of windows: vertices are windows, and an edge connects two windows if they are consistent (agree on the overlap)."
-                                ]
+                                ],
+                                "eventId": "4"
                               },
                               {
                                 "type": "show",
@@ -1635,7 +1798,8 @@
                                 "disabled": false,
                                 "keywords": [
                                   "consistent"
-                                ]
+                                ],
+                                "eventId": "5"
                               },
                               {
                                 "type": "show",
@@ -1644,7 +1808,8 @@
                                 "disabled": false,
                                 "keywords": [
                                   "not consistent"
-                                ]
+                                ],
+                                "eventId": "6"
                               },
                               {
                                 "type": "show",
@@ -1653,17 +1818,20 @@
                                 "disabled": false,
                                 "keywords": [
                                   "There is an accepting computation of length k iff The graph of windows contains a clique of size (k – 2) × (k – 1)"
-                                ]
+                                ],
+                                "eventId": "7"
                               }
                             ],
                             "keywords": [
                               "From Turing to clique 2"
-                            ]
+                            ],
+                            "eventId": "4"
                           }
                         ],
                         "keywords": [
                           "From Turing to clique"
-                        ]
+                        ],
+                        "eventId": "3"
                       },
                       {
                         "type": "show",
@@ -1673,7 +1841,8 @@
                         "keywords": [
                           "Does a graph have a vertex cover of size k?",
                           "The Turing machine recognises the vertex cover"
-                        ]
+                        ],
+                        "eventId": "4"
                       },
                       {
                         "type": "show",
@@ -1682,7 +1851,8 @@
                         "disabled": false,
                         "keywords": [
                           "FPT"
-                        ]
+                        ],
+                        "eventId": "5"
                       },
                       {
                         "type": "show",
@@ -1692,7 +1862,8 @@
                         "keywords": [
                           "Does a graph of treewidth k contain a Hamiltonian path?",
                           "solve the source problem in FPT, and create a yes/no instance of the target problem"
-                        ]
+                        ],
+                        "eventId": "6"
                       },
                       {
                         "type": "show",
@@ -1701,7 +1872,8 @@
                         "disabled": false,
                         "keywords": [
                           "W[1]"
-                        ]
+                        ],
+                        "eventId": "7"
                       },
                       {
                         "type": "show",
@@ -1710,7 +1882,8 @@
                         "disabled": false,
                         "keywords": [
                           "Does a circuit accept some input with exactly k ones?"
-                        ]
+                        ],
+                        "eventId": "8"
                       },
                       {
                         "type": "show",
@@ -1719,7 +1892,8 @@
                         "disabled": false,
                         "keywords": [
                           "Variables of the circuit are vertices"
-                        ]
+                        ],
+                        "eventId": "9"
                       },
                       {
                         "type": "show",
@@ -1728,859 +1902,274 @@
                         "disabled": false,
                         "keywords": [
                           "W[P]"
-                        ]
+                        ],
+                        "eventId": "10"
                       }
                     ],
                     "keywords": [
                       "FPT reductions"
-                    ]
+                    ],
+                    "eventId": "10"
                   }
                 ],
                 "keywords": [
                   "Clique"
-                ]
+                ],
+                "eventId": "12"
               }
             ],
             "keywords": [
               "fixed k"
-            ]
+            ],
+            "eventId": "4"
           }
         ],
         "keywords": [
           "Vertex cover"
-        ]
+        ],
+        "eventId": "4"
       }
     ],
     "keywords": [
       "Computational Complexity",
       "Lecture 1. Turing machines and their resources",
       "First slide"
-    ]
+    ],
+    "eventId": "root"
   },
   "soundDict": {
     "1:2": {
-      "0": {
-        "file": "0",
-        "duration": 6.936
-      },
-      "1": {
-        "file": "1",
-        "duration": 19.104
-      },
-      "2": {
-        "file": "2",
-        "duration": 33.216
-      },
-      "3": {
-        "file": "3",
-        "duration": 9.816
-      },
-      "4": {
-        "file": "4",
-        "duration": 37.224
-      },
-      "5": {
-        "file": "5",
-        "duration": 3.984
-      }
+      "0": 6.936,
+      "1": 19.104,
+      "2": 33.216,
+      "3": 9.816,
+      "4": 37.224,
+      "finish": 3.984
     },
     "1:6": {
-      "0": {
-        "file": "0",
-        "duration": 1.464
-      },
-      "1": {
-        "file": "1",
-        "duration": 34.824
-      },
-      "2": {
-        "file": "2",
-        "duration": 30.696
-      },
-      "3": {
-        "file": "3",
-        "duration": 15.264
-      },
-      "4": {
-        "file": "4",
-        "duration": 21.696
-      },
-      "5": {
-        "file": "5",
-        "duration": 2.376
-      }
+      "0": 1.464,
+      "1": 34.824,
+      "2": 30.696,
+      "3": 15.264,
+      "4": 21.696,
+      "finish": 2.376
     },
     "2:0": {
-      "0": {
-        "file": "0",
-        "duration": 2.976
-      },
-      "1": {
-        "file": "1",
-        "duration": 19.224
-      },
-      "2": {
-        "file": "2",
-        "duration": 9.936
-      },
-      "3": {
-        "file": "3",
-        "duration": 15.456
-      }
+      "0": 2.976,
+      "1": 19.224,
+      "2": 9.936,
+      "finish": 15.456
     },
     "7:96": {
-      "0": {
-        "file": "0",
-        "duration": 1.776
-      },
-      "1": {
-        "file": "1",
-        "duration": 17.016
-      },
-      "2": {
-        "file": "2",
-        "duration": 14.376
-      },
-      "3": {
-        "file": "3",
-        "duration": 1.656
-      },
-      "4": {
-        "file": "4",
-        "duration": 0.984
-      },
-      "5": {
-        "file": "5",
-        "duration": 14.976
-      },
-      "6": {
-        "file": "6",
-        "duration": 36.624
-      },
-      "7": {
-        "file": "7",
-        "duration": 1.536
-      },
-      "8": {
-        "file": "8",
-        "duration": 3.984
-      },
-      "9": {
-        "file": "9",
-        "duration": 0.576
-      },
-      "10": {
-        "file": "10",
-        "duration": 0.384
-      },
-      "11": {
-        "file": "11",
-        "duration": 15.624
-      },
-      "12": {
-        "file": "12",
-        "duration": 5.184
-      },
-      "13": {
-        "file": "13",
-        "duration": 9.864
-      },
-      "14": {
-        "file": "14",
-        "duration": 97.704
-      },
-      "15": {
-        "file": "15",
-        "duration": 3.744
-      },
-      "16": {
-        "file": "16",
-        "duration": 35.736
-      },
-      "17": {
-        "file": "17",
-        "duration": 2.016
-      },
-      "18": {
-        "file": "18",
-        "duration": 10.464
-      },
-      "19": {
-        "file": "19",
-        "duration": 10.464
-      },
-      "20": {
-        "file": "20",
-        "duration": 17.376
-      },
-      "21": {
-        "file": "21",
-        "duration": 30.744
-      },
-      "22": {
-        "file": "22",
-        "duration": 14.304
-      }
+      "0": 1.776,
+      "1": 17.016,
+      "2": 14.376,
+      "3": 1.656,
+      "4": 0.984,
+      "5": 14.976,
+      "6": 36.624,
+      "7": 1.536,
+      "8": 3.984,
+      "9": 0.576,
+      "10": 0.384,
+      "11": 15.624,
+      "12": 5.184,
+      "13": 9.864,
+      "14": 97.704,
+      "15": 3.744,
+      "16": 35.736,
+      "17": 2.016,
+      "18": 10.464,
+      "19": 10.464,
+      "20": 17.376,
+      "21": 30.744,
+      "finish": 14.304
     },
     "11:18": {
-      "0": {
-        "file": "0",
-        "duration": 1.344
-      },
-      "1": {
-        "file": "1",
-        "duration": 35.544
-      },
-      "2": {
-        "file": "2",
-        "duration": 24.816
-      },
-      "3": {
-        "file": "3",
-        "duration": 15.696
-      },
-      "4": {
-        "file": "4",
-        "duration": 50.256
-      },
-      "5": {
-        "file": "5",
-        "duration": 4.776
-      },
-      "6": {
-        "file": "6",
-        "duration": 14.976
-      },
-      "7": {
-        "file": "7",
-        "duration": 15.864
-      },
-      "8": {
-        "file": "8",
-        "duration": 28.176
-      },
-      "9": {
-        "file": "9",
-        "duration": 5.544
-      },
-      "10": {
-        "file": "10",
-        "duration": 23.184
-      },
-      "11": {
-        "file": "11",
-        "duration": 22.464
-      },
-      "12": {
-        "file": "12",
-        "duration": 21.384
-      },
-      "13": {
-        "file": "13",
-        "duration": 2.976
-      }
+      "0": 1.344,
+      "1": 35.544,
+      "2": 24.816,
+      "3": 15.696,
+      "4": 50.256,
+      "5": 4.776,
+      "6": 14.976,
+      "7": 15.864,
+      "8": 28.176,
+      "9": 5.544,
+      "10": 23.184,
+      "11": 22.464,
+      "12": 21.384,
+      "finish": 2.976
     },
     "11:25": {
-      "0": {
-        "file": "0",
-        "duration": 2.376
-      },
-      "1": {
-        "file": "1",
-        "duration": 1.536
-      },
-      "2": {
-        "file": "2",
-        "duration": 9.264
-      },
-      "3": {
-        "file": "3",
-        "duration": 28.224
-      },
-      "4": {
-        "file": "4",
-        "duration": 8.736
-      },
-      "5": {
-        "file": "5",
-        "duration": 0.936
-      },
-      "6": {
-        "file": "6",
-        "duration": 0.936
-      },
-      "7": {
-        "file": "7",
-        "duration": 24.024
-      },
-      "8": {
-        "file": "8",
-        "duration": 21.096
-      },
-      "9": {
-        "file": "9",
-        "duration": 26.976
-      },
-      "10": {
-        "file": "10",
-        "duration": 31.296
-      },
-      "11": {
-        "file": "11",
-        "duration": 14.016
-      },
-      "12": {
-        "file": "12",
-        "duration": 17.016
-      },
-      "13": {
-        "file": "13",
-        "duration": 8.784
-      },
-      "14": {
-        "file": "14",
-        "duration": 62.664
-      }
+      "0": 2.376,
+      "1": 1.536,
+      "2": 9.264,
+      "3": 28.224,
+      "4": 8.736,
+      "5": 0.936,
+      "6": 0.936,
+      "7": 24.024,
+      "8": 21.096,
+      "9": 26.976,
+      "10": 31.296,
+      "11": 14.016,
+      "12": 17.016,
+      "13": 8.784,
+      "finish": 62.664
     },
     "11:203": {
-      "0": {
-        "file": "0",
-        "duration": 5.064
-      },
-      "1": {
-        "file": "1",
-        "duration": 6.816
-      },
-      "2": {
-        "file": "2",
-        "duration": 45.144
-      },
-      "3": {
-        "file": "3",
-        "duration": 58.824
-      },
-      "4": {
-        "file": "4",
-        "duration": 0.504
-      },
-      "5": {
-        "file": "5",
-        "duration": 0.576
-      },
-      "6": {
-        "file": "6",
-        "duration": 19.656
-      },
-      "7": {
-        "file": "7",
-        "duration": 28.776
-      },
-      "8": {
-        "file": "8",
-        "duration": 40.704
-      }
+      "0": 5.064,
+      "1": 6.816,
+      "2": 45.144,
+      "3": 58.824,
+      "4": 0.504,
+      "5": 0.576,
+      "6": 19.656,
+      "7": 28.776,
+      "finish": 40.704
     },
     "11:160": {
-      "0": {
-        "file": "0",
-        "duration": 2.976
-      },
-      "1": {
-        "file": "1",
-        "duration": 34.296
-      },
-      "2": {
-        "file": "2",
-        "duration": 43.104
-      },
-      "3": {
-        "file": "3",
-        "duration": 24.096
-      },
-      "4": {
-        "file": "4",
-        "duration": 52.776
-      },
-      "5": {
-        "file": "5",
-        "duration": 12.336
-      },
-      "6": {
-        "file": "6",
-        "duration": 22.344
-      },
-      "7": {
-        "file": "7",
-        "duration": 36.384
-      },
-      "8": {
-        "file": "8",
-        "duration": 21.696
-      },
-      "9": {
-        "file": "9",
-        "duration": 15.456
-      },
-      "10": {
-        "file": "10",
-        "duration": 23.016
-      },
-      "11": {
-        "file": "11",
-        "duration": 6.936
-      },
-      "12": {
-        "file": "12",
-        "duration": 59.544
-      },
-      "13": {
-        "file": "13",
-        "duration": 1.896
-      }
+      "0": 2.976,
+      "1": 34.296,
+      "2": 43.104,
+      "3": 24.096,
+      "4": 52.776,
+      "5": 12.336,
+      "6": 22.344,
+      "7": 36.384,
+      "8": 21.696,
+      "9": 15.456,
+      "10": 23.016,
+      "11": 6.936,
+      "12": 59.544,
+      "finish": 1.896
     },
     "15:10": {
-      "0": {
-        "file": "0",
-        "duration": 8.064
-      },
-      "1": {
-        "file": "1",
-        "duration": 11.184
-      },
-      "2": {
-        "file": "2",
-        "duration": 8.376
-      },
-      "3": {
-        "file": "3",
-        "duration": 3.384
-      },
-      "4": {
-        "file": "4",
-        "duration": 8.256
-      },
-      "5": {
-        "file": "5",
-        "duration": 12.384
-      },
-      "6": {
-        "file": "6",
-        "duration": 17.016
-      },
-      "7": {
-        "file": "7",
-        "duration": 16.896
-      },
-      "8": {
-        "file": "8",
-        "duration": 19.824
-      },
-      "9": {
-        "file": "9",
-        "duration": 11.304
-      },
-      "10": {
-        "file": "10",
-        "duration": 18.984
-      },
-      "11": {
-        "file": "11",
-        "duration": 15.264
-      },
-      "12": {
-        "file": "12",
-        "duration": 32.184
-      },
-      "13": {
-        "file": "13",
-        "duration": 56.304
-      }
+      "0": 8.064,
+      "1": 11.184,
+      "2": 8.376,
+      "3": 3.384,
+      "4": 8.256,
+      "5": 12.384,
+      "6": 17.016,
+      "7": 16.896,
+      "8": 19.824,
+      "9": 11.304,
+      "10": 18.984,
+      "11": 15.264,
+      "12": 32.184,
+      "finish": 56.304
     },
     "15:18": {
-      "0": {
-        "file": "0",
-        "duration": 14.616
-      },
-      "1": {
-        "file": "1",
-        "duration": 4.464
-      },
-      "2": {
-        "file": "2",
-        "duration": 4.584
-      },
-      "3": {
-        "file": "3",
-        "duration": 21.096
-      },
-      "5": {
-        "file": "5",
-        "duration": 22.416
-      },
-      "6": {
-        "file": "6",
-        "duration": 15.264
-      },
-      "7": {
-        "file": "7",
-        "duration": 9.624
-      },
-      "8": {
-        "file": "8",
-        "duration": 40.824
-      },
-      "9": {
-        "file": "9",
-        "duration": 42.096
-      },
-      "10": {
-        "file": "10",
-        "duration": 73.344
-      }
+      "0": 14.616,
+      "1": 4.464,
+      "2": 4.584,
+      "3": 21.096,
+      "5": 22.416,
+      "6": 15.264,
+      "7": 9.624,
+      "8": 40.824,
+      "10": 73.344,
+      "finish": 42.096
     },
     "15:290": {
-      "0": {
-        "file": "0",
-        "duration": 3.144
-      },
-      "1": {
-        "file": "1",
-        "duration": 11.616
-      },
-      "2": {
-        "file": "2",
-        "duration": 11.544
-      },
-      "3": {
-        "file": "3",
-        "duration": 6.984
-      },
-      "4": {
-        "file": "4",
-        "duration": 16.704
-      },
-      "5": {
-        "file": "5",
-        "duration": 19.296
-      },
-      "6": {
-        "file": "6",
-        "duration": 9.624
-      },
-      "7": {
-        "file": "7",
-        "duration": 12.624
-      },
-      "8": {
-        "file": "8",
-        "duration": 3.264
-      },
-      "9": {
-        "file": "9",
-        "duration": 10.056
-      },
-      "10": {
-        "file": "10",
-        "duration": 7.584
-      },
-      "11": {
-        "file": "11",
-        "duration": 11.904
-      },
-      "12": {
-        "file": "12",
-        "duration": 13.176
-      },
-      "13": {
-        "file": "13",
-        "duration": 77.424
-      }
+      "0": 3.144,
+      "1": 11.616,
+      "2": 11.544,
+      "3": 6.984,
+      "4": 16.704,
+      "5": 19.296,
+      "6": 9.624,
+      "7": 12.624,
+      "8": 3.264,
+      "9": 10.056,
+      "10": 7.584,
+      "11": 11.904,
+      "12": 13.176,
+      "finish": 77.424
     },
     "21:0": {
-      "0": {
-        "file": "0",
-        "duration": 3.504
-      },
-      "1": {
-        "file": "1",
-        "duration": 39.336
-      },
-      "2": {
-        "file": "2",
-        "duration": 1.416
-      },
-      "3": {
-        "file": "3",
-        "duration": 62.976
-      }
+      "0": 3.504,
+      "1": 39.336,
+      "2": 1.416,
+      "finish": 62.976
     },
     "21:226": {
-      "0": {
-        "file": "0",
-        "duration": 2.136
-      },
-      "1": {
-        "file": "1",
-        "duration": 31.224
-      },
-      "2": {
-        "file": "2",
-        "duration": 9.504
-      },
-      "3": {
-        "file": "3",
-        "duration": 40.344
-      },
-      "4": {
-        "file": "4",
-        "duration": 38.736
-      },
-      "5": {
-        "file": "5",
-        "duration": 21.456
-      },
-      "6": {
-        "file": "6",
-        "duration": 45.216
-      },
-      "7": {
-        "file": "7",
-        "duration": 64.656
-      },
-      "8": {
-        "file": "8",
-        "duration": 15.936
-      },
-      "9": {
-        "file": "9",
-        "duration": 51.264
-      },
-      "10": {
-        "file": "10",
-        "duration": 58.056
-      }
+      "0": 2.136,
+      "1": 31.224,
+      "2": 9.504,
+      "3": 40.344,
+      "4": 38.736,
+      "5": 21.456,
+      "6": 45.216,
+      "7": 64.656,
+      "8": 15.936,
+      "9": 51.264,
+      "finish": 58.056
     },
     "13:31": {
-      "0": {
-        "file": "0",
-        "duration": 1.704
-      },
-      "1": {
-        "file": "1",
-        "duration": 16.704
-      },
-      "2": {
-        "file": "2",
-        "duration": 34.416
-      },
-      "3": {
-        "file": "3",
-        "duration": 32.424
-      },
-      "4": {
-        "file": "4",
-        "duration": 22.656
-      },
-      "5": {
-        "file": "5",
-        "duration": 3.456
-      },
-      "6": {
-        "file": "6",
-        "duration": 16.056
-      },
-      "7": {
-        "file": "7",
-        "duration": 15.024
-      },
-      "8": {
-        "file": "8",
-        "duration": 21.744
-      },
-      "9": {
-        "file": "9",
-        "duration": 13.296
-      },
-      "10": {
-        "file": "10",
-        "duration": 40.056
-      },
-      "11": {
-        "file": "11",
-        "duration": 8.496
-      }
+      "0": 1.704,
+      "1": 16.704,
+      "2": 34.416,
+      "3": 32.424,
+      "4": 22.656,
+      "5": 3.456,
+      "6": 16.056,
+      "7": 15.024,
+      "8": 21.744,
+      "9": 13.296,
+      "10": 40.056,
+      "finish": 8.496
     },
     "13:54": {
-      "0": {
-        "file": "0",
-        "duration": 3.096
-      },
-      "1": {
-        "file": "1",
-        "duration": 4.824
-      },
-      "2": {
-        "file": "2",
-        "duration": 18.816
-      },
-      "3": {
-        "file": "3",
-        "duration": 3.384
-      },
-      "4": {
-        "file": "4",
-        "duration": 1.296
-      },
-      "5": {
-        "file": "5",
-        "duration": 13.944
-      },
-      "6": {
-        "file": "6",
-        "duration": 21.864
-      },
-      "7": {
-        "file": "7",
-        "duration": 23.376
-      },
-      "8": {
-        "file": "8",
-        "duration": 8.856
-      },
-      "9": {
-        "file": "9",
-        "duration": 21.624
-      },
-      "10": {
-        "file": "10",
-        "duration": 5.256
-      },
-      "11": {
-        "file": "11",
-        "duration": 20.184
-      },
-      "12": {
-        "file": "12",
-        "duration": 2.664
-      },
-      "13": {
-        "file": "13",
-        "duration": 3.744
-      }
+      "0": 3.096,
+      "1": 4.824,
+      "2": 18.816,
+      "3": 3.384,
+      "4": 1.296,
+      "5": 13.944,
+      "6": 21.864,
+      "7": 23.376,
+      "8": 8.856,
+      "9": 21.624,
+      "10": 5.256,
+      "11": 20.184,
+      "12": 2.664,
+      "finish": 3.744
     },
     "25:2": {
-      "0": {
-        "file": "0",
-        "duration": 2.784
-      },
-      "1": {
-        "file": "1",
-        "duration": 1.536
-      },
-      "2": {
-        "file": "2",
-        "duration": 10.464
-      },
-      "3": {
-        "file": "3",
-        "duration": 13.416
-      },
-      "4": {
-        "file": "4",
-        "duration": 10.056
-      },
-      "5": {
-        "file": "5",
-        "duration": 23.856
-      },
-      "6": {
-        "file": "6",
-        "duration": 7.656
-      },
-      "7": {
-        "file": "7",
-        "duration": 59.016
-      },
-      "8": {
-        "file": "8",
-        "duration": 23.064
-      },
-      "9": {
-        "file": "9",
-        "duration": 16.104
-      },
-      "10": {
-        "file": "10",
-        "duration": 55.224
-      },
-      "11": {
-        "file": "11",
-        "duration": 41.304
-      }
+      "0": 2.784,
+      "1": 1.536,
+      "2": 10.464,
+      "3": 13.416,
+      "4": 10.056,
+      "5": 23.856,
+      "6": 7.656,
+      "7": 59.016,
+      "8": 23.064,
+      "9": 16.104,
+      "10": 55.224,
+      "finish": 41.304
     },
     "25:17": {
-      "0": {
-        "file": "0",
-        "duration": 5.976
-      },
-      "1": {
-        "file": "1",
-        "duration": 50.856
-      },
-      "2": {
-        "file": "2",
-        "duration": 4.536
-      },
-      "3": {
-        "file": "3",
-        "duration": 43.056
-      },
-      "4": {
-        "file": "4",
-        "duration": 39.984
-      },
-      "5": {
-        "file": "5",
-        "duration": 14.136
-      }
+      "0": 5.976,
+      "1": 50.856,
+      "2": 4.536,
+      "3": 43.056,
+      "4": 39.984,
+      "finish": 14.136
     },
     "26:128": {
-      "0": {
-        "file": "0",
-        "duration": 2.136
-      },
-      "1": {
-        "file": "1",
-        "duration": 47.064
-      },
-      "2": {
-        "file": "2",
-        "duration": 36.696
-      },
-      "3": {
-        "file": "3",
-        "duration": 14.856
-      },
-      "4": {
-        "file": "4",
-        "duration": 14.904
-      },
-      "5": {
-        "file": "5",
-        "duration": 24.384
-      },
-      "6": {
-        "file": "6",
-        "duration": 18.744
-      },
-      "7": {
-        "file": "7",
-        "duration": 15.936
-      },
-      "8": {
-        "file": "8",
-        "duration": 78.384
-      }
+      "0": 2.136,
+      "1": 47.064,
+      "2": 36.696,
+      "3": 14.856,
+      "4": 14.904,
+      "5": 24.384,
+      "6": 18.744,
+      "7": 15.936,
+      "finish": 78.384
     }
   }
 }

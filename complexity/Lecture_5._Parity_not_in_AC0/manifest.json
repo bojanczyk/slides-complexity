@@ -1,5 +1,5 @@
 {
-  "version": 0.88,
+  "version": 0.902,
   "presentation": "Lecture 5. Parity not in AC0",
   "slideDict": {
     "4:2": "4_2",
@@ -42,7 +42,8 @@
           "Ajtai 83, Furst Saxe Sipser 84",
           "{ w ∈ {true, false}* : even number of “false” letters}",
           "Theorem. The parity function"
-        ]
+        ],
+        "eventId": "0"
       },
       {
         "type": "show",
@@ -52,7 +53,8 @@
         "keywords": [
           "Corollary. Since parity is in NC1, it follows that AC0 ⊊ NC1",
           "circuits of polynomial size, logarithmic depth, and fan-in at most two"
-        ]
+        ],
+        "eventId": "1"
       },
       {
         "type": "child",
@@ -67,7 +69,8 @@
             "keywords": [
               "Lemma. The parity language is in NC1.",
               "Lemma. The language Parity ⊆ {true, false}* is in NC"
-            ]
+            ],
+            "eventId": "0"
           },
           {
             "type": "show",
@@ -76,7 +79,8 @@
             "disabled": false,
             "keywords": [
               "polynomial size circuits of logarithmic depth"
-            ]
+            ],
+            "eventId": "1"
           },
           {
             "type": "show",
@@ -89,7 +93,8 @@
               "y",
               "Proof. An xor gate",
               "is a shortcut for"
-            ]
+            ],
+            "eventId": "2"
           },
           {
             "type": "show",
@@ -98,7 +103,8 @@
             "disabled": false,
             "keywords": [
               "Use a balanced binary tree of xor gates."
-            ]
+            ],
+            "eventId": "3"
           },
           {
             "type": "show",
@@ -107,7 +113,8 @@
             "disabled": false,
             "keywords": [
               "+"
-            ]
+            ],
+            "eventId": "4"
           },
           {
             "type": "show",
@@ -116,7 +123,8 @@
             "disabled": false,
             "keywords": [
               "has logarithmic depth, because the tree is balanced"
-            ]
+            ],
+            "eventId": "5"
           },
           {
             "type": "show",
@@ -125,12 +133,14 @@
             "disabled": false,
             "keywords": [
               "in fact, every regular language"
-            ]
+            ],
+            "eventId": "6"
           }
         ],
         "keywords": [
           "Parity in NC1"
-        ]
+        ],
+        "eventId": "2"
       },
       {
         "type": "show",
@@ -139,7 +149,8 @@
         "disabled": false,
         "keywords": [
           "We will use polynomials in the 3-element field"
-        ]
+        ],
+        "eventId": "3"
       },
       {
         "type": "show",
@@ -148,7 +159,8 @@
         "disabled": false,
         "keywords": [
           "Razborow 87, Smolensky 87"
-        ]
+        ],
+        "eventId": "4"
       },
       {
         "type": "child",
@@ -162,7 +174,8 @@
             "disabled": false,
             "keywords": [
               "Consider the field"
-            ]
+            ],
+            "eventId": "0"
           },
           {
             "type": "show",
@@ -172,7 +185,8 @@
             "keywords": [
               "To compute functions",
               "we will use polynomials"
-            ]
+            ],
+            "eventId": "1"
           },
           {
             "type": "child",
@@ -186,7 +200,8 @@
                 "disabled": false,
                 "keywords": [
                   "$(x_1)^2 x_3 - 5x_2  + 2(x_3)^5 x_4 (x_7)^8$40"
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "show",
@@ -195,7 +210,8 @@
                 "disabled": false,
                 "keywords": [
                   "since we are working in 5 could be replaced by 2"
-                ]
+                ],
+                "eventId": "1"
               },
               {
                 "type": "show",
@@ -204,7 +220,8 @@
                 "disabled": false,
                 "keywords": [
                   "="
-                ]
+                ],
+                "eventId": "2"
               },
               {
                 "type": "show",
@@ -213,7 +230,8 @@
                 "disabled": false,
                 "keywords": [
                   "$(x_1)^2 x_3 + x_2  - (x_3)^2 x_4 (x_7)^2$40"
-                ]
+                ],
+                "eventId": "3"
               },
               {
                 "type": "show",
@@ -222,7 +240,8 @@
                 "disabled": false,
                 "keywords": [
                   "a monomial of degree 5"
-                ]
+                ],
+                "eventId": "4"
               },
               {
                 "type": "show",
@@ -231,7 +250,8 @@
                 "disabled": false,
                 "keywords": [
                   "a polynomial of degree 5"
-                ]
+                ],
+                "eventId": "5"
               },
               {
                 "type": "child",
@@ -245,7 +265,8 @@
                     "disabled": false,
                     "keywords": [
                       "Fact. Polynomials give all functions"
-                    ]
+                    ],
+                    "eventId": "0"
                   },
                   {
                     "type": "show",
@@ -255,7 +276,8 @@
                     "keywords": [
                       "Proof. Consider the polynomial",
                       "gives 1 if and 0 otherwise"
-                    ]
+                    ],
+                    "eventId": "1"
                   },
                   {
                     "type": "show",
@@ -264,7 +286,8 @@
                     "disabled": false,
                     "keywords": [
                       "It gives the function"
-                    ]
+                    ],
+                    "eventId": "2"
                   },
                   {
                     "type": "show",
@@ -273,7 +296,8 @@
                     "disabled": false,
                     "keywords": [
                       "the same idea works for any vector instead of (0, ... ,0)"
-                    ]
+                    ],
+                    "eventId": "3"
                   },
                   {
                     "type": "show",
@@ -282,17 +306,20 @@
                     "disabled": false,
                     "keywords": [
                       "By taking linear combinations of these polynomials, we can get every function."
-                    ]
+                    ],
+                    "eventId": "4"
                   }
                 ],
                 "keywords": [
                   "Every function"
-                ]
+                ],
+                "eventId": "6"
               }
             ],
             "keywords": [
               "Polynomials"
-            ]
+            ],
+            "eventId": "2"
           },
           {
             "type": "show",
@@ -303,7 +330,8 @@
               "false",
               "true",
               "not used"
-            ]
+            ],
+            "eventId": "3"
           },
           {
             "type": "child",
@@ -318,7 +346,8 @@
                 "keywords": [
                   "Definition. A Boolean function",
                   "is represented by a polynomial"
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "show",
@@ -327,12 +356,14 @@
                 "disabled": false,
                 "keywords": [
                   "if the following diagram commutes:"
-                ]
+                ],
+                "eventId": "1"
               }
             ],
             "keywords": [
               "Reperesenting Boolean functions"
-            ]
+            ],
+            "eventId": "4"
           },
           {
             "type": "show",
@@ -341,7 +372,8 @@
             "disabled": false,
             "keywords": [
               "The parity function is represented by the polynomial"
-            ]
+            ],
+            "eventId": "5"
           },
           {
             "type": "show",
@@ -350,7 +382,8 @@
             "disabled": false,
             "keywords": [
               "degree n"
-            ]
+            ],
+            "eventId": "6"
           },
           {
             "type": "show",
@@ -359,7 +392,8 @@
             "disabled": false,
             "keywords": [
               "Negation is represented by the polynomial"
-            ]
+            ],
+            "eventId": "7"
           },
           {
             "type": "show",
@@ -368,7 +402,8 @@
             "disabled": false,
             "keywords": [
               "degree 1"
-            ]
+            ],
+            "eventId": "8"
           },
           {
             "type": "show",
@@ -377,7 +412,8 @@
             "disabled": false,
             "keywords": [
               "What about disjunction ?"
-            ]
+            ],
+            "eventId": "9"
           },
           {
             "type": "child",
@@ -391,7 +427,8 @@
                 "disabled": false,
                 "keywords": [
                   "\\prod_{i \\in \\{1,\\ldots,n\\}} x_i - 1"
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "show",
@@ -400,7 +437,8 @@
                 "disabled": false,
                 "keywords": [
                   "Gives 1 if all variables are “false”, otherwise 0."
-                ]
+                ],
+                "eventId": "1"
               },
               {
                 "type": "show",
@@ -409,12 +447,14 @@
                 "disabled": false,
                 "keywords": [
                   "Disjunction is represented by the following polynomial of degree 2n"
-                ]
+                ],
+                "eventId": "2"
               }
             ],
             "keywords": [
               "Disjunction polynomial"
-            ]
+            ],
+            "eventId": "10"
           },
           {
             "type": "show",
@@ -423,7 +463,8 @@
             "disabled": false,
             "keywords": [
               "degree 2"
-            ]
+            ],
+            "eventId": "11"
           },
           {
             "type": "child",
@@ -437,7 +478,8 @@
                 "disabled": false,
                 "keywords": [
                   "A wrong proof which gives the right idea"
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "show",
@@ -447,7 +489,8 @@
                 "keywords": [
                   "Assume that for every n, disjunction is represented by some polynomial of degree ≤ 5.",
                   "not true!"
-                ]
+                ],
+                "eventId": "1"
               },
               {
                 "type": "show",
@@ -457,7 +500,8 @@
                 "keywords": [
                   "Then every circuit of depth at most d is represented by a polynomial of degree at most 5 .",
                   "d"
-                ]
+                ],
+                "eventId": "2"
               },
               {
                 "type": "child",
@@ -471,7 +515,8 @@
                     "disabled": false,
                     "keywords": [
                       "When composing polynomials, degrees get multiplied"
-                    ]
+                    ],
+                    "eventId": "0"
                   },
                   {
                     "type": "show",
@@ -481,12 +526,14 @@
                     "keywords": [
                       "Therefore, if every gate in a circuit of depth d is represented by a polynomial of degree 5, then the entire circuit is represented by a polynomial of degree 5 .",
                       "d"
-                    ]
+                    ],
+                    "eventId": "1"
                   }
                 ],
                 "keywords": [
                   "Degrees get multiplied"
-                ]
+                ],
+                "eventId": "3"
               },
               {
                 "type": "show",
@@ -496,7 +543,8 @@
                 "keywords": [
                   "In particular, if parity would be in AC0, then for every n there would be a polynomial of degree at most 5 , which would agree with on all inputs from .",
                   "d"
-                ]
+                ],
+                "eventId": "4"
               },
               {
                 "type": "show",
@@ -505,7 +553,8 @@
                 "disabled": false,
                 "keywords": [
                   "This cannot happen for counting reasons."
-                ]
+                ],
+                "eventId": "5"
               },
               {
                 "type": "show",
@@ -514,17 +563,20 @@
                 "disabled": false,
                 "keywords": [
                   "true: for a parameter t, one can find a polynomial of degree linear in t, which roughly represents disjunction of n arguments, in the sense that it gives wrong answers with probability exponentially small in t"
-                ]
+                ],
+                "eventId": "6"
               }
             ],
             "keywords": [
               "A wrong proof"
-            ]
+            ],
+            "eventId": "12"
           }
         ],
         "keywords": [
           "The three element field"
-        ]
+        ],
+        "eventId": "5"
       },
       {
         "type": "show",
@@ -533,7 +585,8 @@
         "disabled": false,
         "keywords": [
           "Proof."
-        ]
+        ],
+        "eventId": "6"
       },
       {
         "type": "child",
@@ -548,7 +601,8 @@
             "keywords": [
               "Suppose that parity is in AC0.",
               "such that:"
-            ]
+            ],
+            "eventId": "0"
           },
           {
             "type": "show",
@@ -557,7 +611,8 @@
             "disabled": false,
             "keywords": [
               "low degree: has degree at most"
-            ]
+            ],
+            "eventId": "1"
           },
           {
             "type": "show",
@@ -567,7 +622,8 @@
             "keywords": [
               "Prob",
               "approximately correct: the following probability tends to 1:"
-            ]
+            ],
+            "eventId": "2"
           },
           {
             "type": "show",
@@ -576,7 +632,8 @@
             "disabled": false,
             "keywords": [
               "represents the parity function"
-            ]
+            ],
+            "eventId": "3"
           },
           {
             "type": "show",
@@ -585,7 +642,8 @@
             "disabled": false,
             "keywords": [
               "Lemma 2 The conclusion of Lemma 1 cannot hold, and therefore parity ∉ AC0."
-            ]
+            ],
+            "eventId": "4"
           },
           {
             "type": "show",
@@ -594,7 +652,8 @@
             "disabled": false,
             "keywords": [
               "Take any function"
-            ]
+            ],
+            "eventId": "5"
           },
           {
             "type": "show",
@@ -604,7 +663,8 @@
             "keywords": [
               "where agrees with",
               "subset of"
-            ]
+            ],
+            "eventId": "6"
           },
           {
             "type": "show",
@@ -614,7 +674,8 @@
             "keywords": [
               "Choose a polynomial",
               "which (*) agrees with f on arguments from"
-            ]
+            ],
+            "eventId": "7"
           },
           {
             "type": "show",
@@ -623,7 +684,8 @@
             "disabled": false,
             "keywords": [
               "Without violating (*) we can:"
-            ]
+            ],
+            "eventId": "8"
           },
           {
             "type": "child",
@@ -637,7 +699,8 @@
                 "disabled": false,
                 "keywords": [
                   "If variables are taken from {-1, 1}, then"
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "show",
@@ -646,7 +709,8 @@
                 "disabled": false,
                 "keywords": [
                   "(x_1)^2 x_2 x_3 (x_4)^2 (x_5)^2"
-                ]
+                ],
+                "eventId": "1"
               },
               {
                 "type": "show",
@@ -655,7 +719,8 @@
                 "disabled": false,
                 "keywords": [
                   "Group 40"
-                ]
+                ],
+                "eventId": "2"
               },
               {
                 "type": "show",
@@ -664,7 +729,8 @@
                 "disabled": false,
                 "keywords": [
                   " = x_2 x_3 "
-                ]
+                ],
+                "eventId": "3"
               },
               {
                 "type": "show",
@@ -673,7 +739,8 @@
                 "disabled": false,
                 "keywords": [
                   "Therefore, in each monomial, each variable is used with power 0 or 1."
-                ]
+                ],
+                "eventId": "4"
               },
               {
                 "type": "show",
@@ -682,7 +749,8 @@
                 "disabled": false,
                 "keywords": [
                   "If more than half the variables in a monomial use power 1, then rewrite it as:"
-                ]
+                ],
+                "eventId": "5"
               },
               {
                 "type": "show",
@@ -693,7 +761,8 @@
                   "product of variables that have use power 0",
                   "(",
                   ")"
-                ]
+                ],
+                "eventId": "6"
               },
               {
                 "type": "show",
@@ -702,7 +771,8 @@
                 "disabled": false,
                 "keywords": [
                   "degree ≤ n / 2"
-                ]
+                ],
+                "eventId": "7"
               },
               {
                 "type": "show",
@@ -711,12 +781,14 @@
                 "disabled": false,
                 "keywords": [
                   "by Lemma 1, can be done with degree"
-                ]
+                ],
+                "eventId": "8"
               }
             ],
             "keywords": [
               "Sqrt "
-            ]
+            ],
+            "eventId": "9"
           },
           {
             "type": "child",
@@ -730,7 +802,8 @@
                 "disabled": false,
                 "keywords": [
                   "We have just shown: If parity is in AC0, then there exist"
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "show",
@@ -739,7 +812,8 @@
                 "disabled": false,
                 "keywords": [
                   "such that"
-                ]
+                ],
+                "eventId": "1"
               },
               {
                 "type": "show",
@@ -748,7 +822,8 @@
                 "disabled": false,
                 "keywords": [
                   "(a)"
-                ]
+                ],
+                "eventId": "2"
               },
               {
                 "type": "show",
@@ -759,7 +834,8 @@
                   "(b) for every function",
                   "there is a polynomial",
                   "which agrees with f on all arguments from and such that every monomial has no squares and degree at most"
-                ]
+                ],
+                "eventId": "3"
               },
               {
                 "type": "child",
@@ -773,7 +849,8 @@
                     "disabled": false,
                     "keywords": [
                       "Next: this is impossible, because there are more functions f than polynomials p, and hence parity is not in AC0"
-                    ]
+                    ],
+                    "eventId": "0"
                   },
                   {
                     "type": "child",
@@ -787,7 +864,8 @@
                         "disabled": false,
                         "keywords": [
                           "The number of functions"
-                        ]
+                        ],
+                        "eventId": "0"
                       },
                       {
                         "type": "show",
@@ -796,7 +874,8 @@
                         "disabled": false,
                         "keywords": [
                           "some number that tends to 1, as n tends to ∞"
-                        ]
+                        ],
+                        "eventId": "1"
                       },
                       {
                         "type": "show",
@@ -806,7 +885,8 @@
                         "keywords": [
                           "The number of polynomials",
                           "where every monomial is square-free and has degreee at most"
-                        ]
+                        ],
+                        "eventId": "2"
                       },
                       {
                         "type": "show",
@@ -816,7 +896,8 @@
                         "keywords": [
                           "number of possible monomials",
                           "probablity that a subset of {1, ..., n} has size at most"
-                        ]
+                        ],
+                        "eventId": "3"
                       },
                       {
                         "type": "show",
@@ -826,7 +907,8 @@
                         "keywords": [
                           "probability that a subset of {1, ..., n} has size at most",
                           "="
-                        ]
+                        ],
+                        "eventId": "4"
                       },
                       {
                         "type": "show",
@@ -835,7 +917,8 @@
                         "disabled": false,
                         "keywords": [
                           "this number has a limit (as n tends to ∞), which is less than 1."
-                        ]
+                        ],
+                        "eventId": "5"
                       },
                       {
                         "type": "show",
@@ -845,7 +928,8 @@
                         "keywords": [
                           "for large enough n",
                           ">"
-                        ]
+                        ],
+                        "eventId": "6"
                       },
                       {
                         "type": "child",
@@ -859,7 +943,8 @@
                             "disabled": false,
                             "keywords": [
                               "The central limit theorem says that if we choose numbers independently at random, then"
-                            ]
+                            ],
+                            "eventId": "0"
                           },
                           {
                             "type": "show",
@@ -868,27 +953,32 @@
                             "disabled": false,
                             "keywords": [
                               "a number that is not 0"
-                            ]
+                            ],
+                            "eventId": "1"
                           }
                         ],
                         "keywords": [
                           "Central limit Theorem"
-                        ]
+                        ],
+                        "eventId": "7"
                       }
                     ],
                     "keywords": [
                       "Not enough polynomials"
-                    ]
+                    ],
+                    "eventId": "1"
                   }
                 ],
                 "keywords": [
                   "This is impossible"
-                ]
+                ],
+                "eventId": "4"
               }
             ],
             "keywords": [
               "Every function can be approximated"
-            ]
+            ],
+            "eventId": "10"
           },
           {
             "type": "child",
@@ -905,7 +995,8 @@
                   "true: if the number of true inputs is ≠ 0 mod 3",
                   "false: otherwise",
                   "↦"
-                ]
+                ],
+                "eventId": "0"
               },
               {
                 "type": "child",
@@ -919,7 +1010,8 @@
                     "disabled": false,
                     "keywords": [
                       "number of true inputs mod 3"
-                    ]
+                    ],
+                    "eventId": "0"
                   },
                   {
                     "type": "show",
@@ -928,7 +1020,8 @@
                     "disabled": false,
                     "keywords": [
                       "true if input is ≠0, false if input is zero"
-                    ]
+                    ],
+                    "eventId": "1"
                   },
                   {
                     "type": "show",
@@ -937,12 +1030,14 @@
                     "disabled": false,
                     "keywords": [
                       "Composing these two, we get a polynomial of degree 4"
-                    ]
+                    ],
+                    "eventId": "2"
                   }
                 ],
                 "keywords": [
                   "Approximate disjunction"
-                ]
+                ],
+                "eventId": "1"
               },
               {
                 "type": "show",
@@ -951,7 +1046,8 @@
                 "disabled": false,
                 "keywords": [
                   "Consider a circuit with only ∨ and ¬ gates, and let t ∈ {1, 2, ...}."
-                ]
+                ],
+                "eventId": "2"
               },
               {
                 "type": "show",
@@ -960,7 +1056,8 @@
                 "disabled": false,
                 "keywords": [
                   "A t-approximation of this circuit is any circuit that can obtained by:"
-                ]
+                ],
+                "eventId": "3"
               },
               {
                 "type": "show",
@@ -969,7 +1066,8 @@
                 "disabled": false,
                 "keywords": [
                   "replacing each ∨ gate"
-                ]
+                ],
+                "eventId": "4"
               },
               {
                 "type": "show",
@@ -981,7 +1079,8 @@
                   "t approximate ∨ gates",
                   "any pattern of connections is allowed",
                   "one real ∨ gate"
-                ]
+                ],
+                "eventId": "5"
               },
               {
                 "type": "show",
@@ -990,7 +1089,8 @@
                 "disabled": false,
                 "keywords": [
                   "polynomial of degree 4"
-                ]
+                ],
+                "eventId": "6"
               },
               {
                 "type": "show",
@@ -999,7 +1099,8 @@
                 "disabled": false,
                 "keywords": [
                   "polynomial of degree t"
-                ]
+                ],
+                "eventId": "7"
               },
               {
                 "type": "show",
@@ -1008,7 +1109,8 @@
                 "disabled": false,
                 "keywords": [
                   "4t"
-                ]
+                ],
+                "eventId": "8"
               },
               {
                 "type": "show",
@@ -1017,7 +1119,8 @@
                 "disabled": false,
                 "keywords": [
                   "A t-approximation of this circuit is any circuit that can obtained by:"
-                ]
+                ],
+                "eventId": "9"
               },
               {
                 "type": "child",
@@ -1031,7 +1134,8 @@
                     "disabled": false,
                     "keywords": [
                       "Suppose that for every gate, we randomly select the t-approximation."
-                    ]
+                    ],
+                    "eventId": "0"
                   },
                   {
                     "type": "show",
@@ -1040,7 +1144,8 @@
                     "disabled": false,
                     "keywords": [
                       "(we randomly choose t subsets of its inputs)"
-                    ]
+                    ],
+                    "eventId": "1"
                   },
                   {
                     "type": "show",
@@ -1049,7 +1154,8 @@
                     "disabled": false,
                     "keywords": [
                       "Claim: with high probability, the t-approximation is correct"
-                    ]
+                    ],
+                    "eventId": "2"
                   },
                   {
                     "type": "show",
@@ -1059,7 +1165,8 @@
                     "keywords": [
                       "Let u be a gate, and let",
                       "be an input to the circuit."
-                    ]
+                    ],
+                    "eventId": "3"
                   },
                   {
                     "type": "show",
@@ -1072,7 +1179,8 @@
                       "(",
                       ")",
                       "randomly select a t-approximation D of the circuit C"
-                    ]
+                    ],
+                    "eventId": "4"
                   },
                   {
                     "type": "show",
@@ -1082,7 +1190,8 @@
                     "keywords": [
                       "≤",
                       "="
-                    ]
+                    ],
+                    "eventId": "5"
                   },
                   {
                     "type": "child",
@@ -1098,7 +1207,8 @@
                           "true",
                           "false",
                           "assume that the inputs are correct for this ∨ gate."
-                        ]
+                        ],
+                        "eventId": "0"
                       },
                       {
                         "type": "show",
@@ -1109,7 +1219,8 @@
                           "true",
                           "false",
                           "a randomly selected t-approximation"
-                        ]
+                        ],
+                        "eventId": "1"
                       },
                       {
                         "type": "show",
@@ -1118,7 +1229,8 @@
                         "disabled": false,
                         "keywords": [
                           "Y = inputs which are true"
-                        ]
+                        ],
+                        "eventId": "2"
                       },
                       {
                         "type": "show",
@@ -1128,7 +1240,8 @@
                         "keywords": [
                           "if we randomly select a subset X of inputs for this gate, then incorrect “false” output iff Y is nonempty and |X ∩ Y| is divisible by 3",
                           "if we randomly select a subset X of inputs for this gate, then incorrect “false” output iff |X ∩ Y| = 0 mod 3"
-                        ]
+                        ],
+                        "eventId": "3"
                       },
                       {
                         "type": "show",
@@ -1137,7 +1250,8 @@
                         "disabled": false,
                         "keywords": [
                           "Let Y be a finite. What is the probability of selecting a subset of Y which is nonempty and has size divisible by 3?"
-                        ]
+                        ],
+                        "eventId": "4"
                       },
                       {
                         "type": "show",
@@ -1146,12 +1260,14 @@
                         "disabled": false,
                         "keywords": [
                           "probability 1/3"
-                        ]
+                        ],
+                        "eventId": "5"
                       }
                     ],
                     "keywords": [
                       "Two thirds probability"
-                    ]
+                    ],
+                    "eventId": "6"
                   },
                   {
                     "type": "child",
@@ -1172,7 +1288,8 @@
                           "≤",
                           "randomly select a t-approximation D of the circuit C",
                           "(number of gates in C)"
-                        ]
+                        ],
+                        "eventId": "0"
                       },
                       {
                         "type": "show",
@@ -1188,7 +1305,8 @@
                           "randomly select",
                           "(number of gates in C)",
                           "Therefore, there exists a t-approximation D such that"
-                        ]
+                        ],
+                        "eventId": "1"
                       },
                       {
                         "type": "show",
@@ -1197,7 +1315,8 @@
                         "disabled": false,
                         "keywords": [
                           "if all rows in a matrix have average value < a, then some column has average value < a"
-                        ]
+                        ],
+                        "eventId": "2"
                       },
                       {
                         "type": "child",
@@ -1213,7 +1332,8 @@
                               "D corresponds to a polynomial of degree at most",
                               "depth of C",
                               "(4t)"
-                            ]
+                            ],
+                            "eventId": "0"
                           },
                           {
                             "type": "show",
@@ -1223,7 +1343,8 @@
                             "keywords": [
                               "D gives the wrong ansser with probability at most",
                               "(number of gates in C)"
-                            ]
+                            ],
+                            "eventId": "1"
                           },
                           {
                             "type": "show",
@@ -1232,7 +1353,8 @@
                             "disabled": false,
                             "keywords": [
                               "Group 8"
-                            ]
+                            ],
+                            "eventId": "2"
                           },
                           {
                             "type": "show",
@@ -1241,7 +1363,8 @@
                             "disabled": false,
                             "keywords": [
                               "Group 9"
-                            ]
+                            ],
+                            "eventId": "3"
                           },
                           {
                             "type": "show",
@@ -1251,682 +1374,239 @@
                             "keywords": [
                               "t =",
                               "depth of C"
-                            ]
+                            ],
+                            "eventId": "4"
                           }
                         ],
                         "keywords": [
                           "Get the square root"
-                        ]
+                        ],
+                        "eventId": "3"
                       }
                     ],
                     "keywords": [
                       "Rows columns"
-                    ]
+                    ],
+                    "eventId": "7"
                   }
                 ],
                 "keywords": [
                   "Probability of approximation"
-                ]
+                ],
+                "eventId": "10"
               }
             ],
             "keywords": [
               "Approximate gates"
-            ]
+            ],
+            "eventId": "11"
           }
         ],
         "keywords": [
           "If parity is in AC0, then it can be approximated "
-        ]
+        ],
+        "eventId": "7"
       }
     ],
     "keywords": [
       "Computational Complexity",
       "Lecture 1. Turing machines and their resources",
       "First slide"
-    ]
+    ],
+    "eventId": "root"
   },
   "soundDict": {
     "4:2": {
-      "0": {
-        "file": "0",
-        "duration": 9.456
-      },
-      "1": {
-        "file": "1",
-        "duration": 41.256
-      },
-      "2": {
-        "file": "2",
-        "duration": 58.824
-      },
-      "3": {
-        "file": "3",
-        "duration": 12.936
-      },
-      "4": {
-        "file": "4",
-        "duration": 14.904
-      },
-      "5": {
-        "file": "5",
-        "duration": 8.496
-      },
-      "6": {
-        "file": "6",
-        "duration": 1.104
-      },
-      "7": {
-        "file": "7",
-        "duration": 0.264
-      },
-      "8": {
-        "file": "8",
-        "duration": 6.624
-      }
+      "0": 9.456,
+      "1": 41.256,
+      "2": 58.824,
+      "3": 12.936,
+      "4": 14.904,
+      "5": 8.496,
+      "6": 1.104,
+      "7": 0.264,
+      "finish": 6.624
     },
     "19:729": {
-      "0": {
-        "file": "0",
-        "duration": 1.776
-      },
-      "1": {
-        "file": "1",
-        "duration": 12.144
-      },
-      "2": {
-        "file": "2",
-        "duration": 24.864
-      },
-      "3": {
-        "file": "3",
-        "duration": 7.656
-      },
-      "4": {
-        "file": "4",
-        "duration": 15.384
-      },
-      "5": {
-        "file": "5",
-        "duration": 11.784
-      },
-      "6": {
-        "file": "6",
-        "duration": 48.336
-      },
-      "7": {
-        "file": "7",
-        "duration": 3.144
-      },
-      "8": {
-        "file": "8",
-        "duration": 16.464
-      },
-      "9": {
-        "file": "9",
-        "duration": 3.624
-      },
-      "10": {
-        "file": "10",
-        "duration": 7.944
-      },
-      "11": {
-        "file": "11",
-        "duration": 2.544
-      },
-      "12": {
-        "file": "12",
-        "duration": 6.624
-      },
-      "13": {
-        "file": "13",
-        "duration": 9.336
-      }
+      "0": 1.776,
+      "1": 12.144,
+      "2": 24.864,
+      "3": 7.656,
+      "4": 15.384,
+      "5": 11.784,
+      "6": 48.336,
+      "7": 3.144,
+      "8": 16.464,
+      "9": 3.624,
+      "10": 7.944,
+      "11": 2.544,
+      "12": 6.624,
+      "finish": 9.336
     },
     "20:67": {
-      "0": {
-        "file": "0",
-        "duration": 3.216
-      },
-      "1": {
-        "file": "1",
-        "duration": 22.584
-      },
-      "2": {
-        "file": "2",
-        "duration": 44.904
-      },
-      "3": {
-        "file": "3",
-        "duration": 1.704
-      },
-      "4": {
-        "file": "4",
-        "duration": 4.944
-      },
-      "5": {
-        "file": "5",
-        "duration": 10.896
-      },
-      "6": {
-        "file": "6",
-        "duration": 35.784
-      },
-      "7": {
-        "file": "7",
-        "duration": 1.176
-      }
+      "0": 3.216,
+      "1": 22.584,
+      "2": 44.904,
+      "3": 1.704,
+      "4": 4.944,
+      "5": 10.896,
+      "6": 35.784,
+      "finish": 1.176
     },
     "20:232": {
-      "0": {
-        "file": "0",
-        "duration": 2.904
-      },
-      "1": {
-        "file": "1",
-        "duration": 16.416
-      },
-      "2": {
-        "file": "2",
-        "duration": 30.624
-      },
-      "3": {
-        "file": "3",
-        "duration": 12.024
-      },
-      "4": {
-        "file": "4",
-        "duration": 31.176
-      },
-      "5": {
-        "file": "5",
-        "duration": 15.096
-      }
+      "0": 2.904,
+      "1": 16.416,
+      "2": 30.624,
+      "3": 12.024,
+      "4": 31.176,
+      "finish": 15.096
     },
     "21:404": {
-      "0": {
-        "file": "0",
-        "duration": 1.416
-      },
-      "1": {
-        "file": "1",
-        "duration": 35.016
-      },
-      "2": {
-        "file": "2",
-        "duration": 30.984
-      }
+      "0": 1.416,
+      "1": 35.016,
+      "finish": 30.984
     },
     "144:2": {
-      "0": {
-        "file": "0",
-        "duration": 1.536
-      },
-      "1": {
-        "file": "1",
-        "duration": 7.824
-      },
-      "2": {
-        "file": "2",
-        "duration": 4.536
-      },
-      "3": {
-        "file": "3",
-        "duration": 37.344
-      },
-      "4": {
-        "file": "4",
-        "duration": 5.256
-      },
-      "5": {
-        "file": "5",
-        "duration": 11.376
-      },
-      "6": {
-        "file": "6",
-        "duration": 11.376
-      },
-      "7": {
-        "file": "7",
-        "duration": 25.176
-      }
+      "0": 1.536,
+      "1": 7.824,
+      "2": 4.536,
+      "3": 37.344,
+      "4": 5.256,
+      "5": 11.376,
+      "6": 11.376,
+      "finish": 25.176
     },
     "19:795": {
-      "0": {
-        "file": "0",
-        "duration": 16.416
-      },
-      "1": {
-        "file": "1",
-        "duration": 27.696
-      },
-      "2": {
-        "file": "2",
-        "duration": 11.544
-      },
-      "3": {
-        "file": "3",
-        "duration": 14.784
-      },
-      "4": {
-        "file": "4",
-        "duration": 34.824
-      },
-      "5": {
-        "file": "5",
-        "duration": 35.304
-      },
-      "6": {
-        "file": "6",
-        "duration": 27.144
-      },
-      "7": {
-        "file": "7",
-        "duration": 53.544
-      }
+      "0": 16.416,
+      "1": 27.696,
+      "2": 11.544,
+      "3": 14.784,
+      "4": 34.824,
+      "5": 35.304,
+      "6": 27.144,
+      "finish": 53.544
     },
     "20:4": {
-      "0": {
-        "file": "0",
-        "duration": 2.184
-      },
-      "1": {
-        "file": "1",
-        "duration": 11.016
-      },
-      "2": {
-        "file": "2",
-        "duration": 46.056
-      }
+      "0": 2.184,
+      "1": 11.016,
+      "finish": 46.056
     },
     "16:469": {
-      "0": {
-        "file": "0",
-        "duration": 0.984
-      },
-      "1": {
-        "file": "1",
-        "duration": 11.664
-      },
-      "2": {
-        "file": "2",
-        "duration": 8.976
-      },
-      "3": {
-        "file": "3",
-        "duration": 48.936
-      },
-      "4": {
-        "file": "4",
-        "duration": 2.256
-      },
-      "5": {
-        "file": "5",
-        "duration": 20.424
-      },
-      "6": {
-        "file": "6",
-        "duration": 20.256
-      },
-      "7": {
-        "file": "7",
-        "duration": 46.704
-      },
-      "8": {
-        "file": "8",
-        "duration": 15.024
-      },
-      "9": {
-        "file": "9",
-        "duration": 36.096
-      },
-      "10": {
-        "file": "10",
-        "duration": 3.096
-      },
-      "11": {
-        "file": "11",
-        "duration": 9.264
-      },
-      "12": {
-        "file": "12",
-        "duration": 13.224
-      }
+      "0": 0.984,
+      "1": 11.664,
+      "2": 8.976,
+      "3": 48.936,
+      "4": 2.256,
+      "5": 20.424,
+      "6": 20.256,
+      "7": 46.704,
+      "8": 15.024,
+      "9": 36.096,
+      "10": 3.096,
+      "11": 9.264,
+      "finish": 13.224
     },
     "16:411": {
-      "0": {
-        "file": "0",
-        "duration": 1.416
-      },
-      "1": {
-        "file": "1",
-        "duration": 80.304
-      },
-      "2": {
-        "file": "2",
-        "duration": 11.736
-      },
-      "3": {
-        "file": "3",
-        "duration": 47.856
-      },
-      "4": {
-        "file": "4",
-        "duration": 9.504
-      },
-      "5": {
-        "file": "5",
-        "duration": 7.464
-      },
-      "6": {
-        "file": "6",
-        "duration": 54.744
-      },
-      "7": {
-        "file": "7",
-        "duration": 26.184
-      },
-      "8": {
-        "file": "8",
-        "duration": 6.096
-      },
-      "9": {
-        "file": "9",
-        "duration": 17.664
-      },
-      "10": {
-        "file": "10",
-        "duration": 54.816
-      },
-      "11": {
-        "file": "11",
-        "duration": 3.456
-      }
+      "0": 1.416,
+      "1": 80.304,
+      "2": 11.736,
+      "3": 47.856,
+      "4": 9.504,
+      "5": 7.464,
+      "6": 54.744,
+      "7": 26.184,
+      "8": 6.096,
+      "9": 17.664,
+      "10": 54.816,
+      "finish": 3.456
     },
     "144:353": {
-      "0": {
-        "file": "0",
-        "duration": 3.384
-      },
-      "1": {
-        "file": "1",
-        "duration": 35.616
-      },
-      "2": {
-        "file": "2",
-        "duration": 27.984
-      },
-      "3": {
-        "file": "3",
-        "duration": 19.944
-      }
+      "0": 3.384,
+      "1": 35.616,
+      "2": 27.984,
+      "finish": 19.944
     },
     "19:3": {
-      "0": {
-        "file": "0",
-        "duration": 1.104
-      },
-      "1": {
-        "file": "1",
-        "duration": 4.704
-      },
-      "2": {
-        "file": "2",
-        "duration": 19.536
-      },
-      "3": {
-        "file": "3",
-        "duration": 11.496
-      },
-      "4": {
-        "file": "4",
-        "duration": 9.096
-      },
-      "5": {
-        "file": "5",
-        "duration": 53.016
-      },
-      "6": {
-        "file": "6",
-        "duration": 4.776
-      },
-      "7": {
-        "file": "7",
-        "duration": 1.824
-      },
-      "8": {
-        "file": "8",
-        "duration": 13.704
-      }
+      "0": 1.104,
+      "1": 4.704,
+      "2": 19.536,
+      "3": 11.496,
+      "4": 9.096,
+      "5": 53.016,
+      "6": 4.776,
+      "7": 1.824,
+      "finish": 13.704
     },
     "151:0": {
-      "0": {
-        "file": "0",
-        "duration": 4.896
-      },
-      "1": {
-        "file": "1",
-        "duration": 44.784
-      },
-      "2": {
-        "file": "2",
-        "duration": 12.144
-      },
-      "3": {
-        "file": "3",
-        "duration": 15.936
-      }
+      "0": 4.896,
+      "1": 44.784,
+      "2": 12.144,
+      "finish": 15.936
     },
     "150:25": {
-      "0": {
-        "file": "0",
-        "duration": 44.664
-      },
-      "1": {
-        "file": "1",
-        "duration": 12.984
-      },
-      "2": {
-        "file": "2",
-        "duration": 20.856
-      },
-      "3": {
-        "file": "3",
-        "duration": 9.936
-      },
-      "4": {
-        "file": "4",
-        "duration": 8.616
-      },
-      "5": {
-        "file": "5",
-        "duration": 12.456
-      },
-      "6": {
-        "file": "6",
-        "duration": 29.856
-      },
-      "7": {
-        "file": "7",
-        "duration": 49.536
-      },
-      "8": {
-        "file": "8",
-        "duration": 11.856
-      },
-      "9": {
-        "file": "9",
-        "duration": 59.976
-      }
+      "0": 44.664,
+      "1": 12.984,
+      "2": 20.856,
+      "3": 9.936,
+      "4": 8.616,
+      "5": 12.456,
+      "6": 29.856,
+      "7": 49.536,
+      "8": 11.856,
+      "finish": 59.976
     },
     "18:230": {
-      "0": {
-        "file": "0",
-        "duration": 1.896
-      },
-      "1": {
-        "file": "1",
-        "duration": 12.384
-      },
-      "2": {
-        "file": "2",
-        "duration": 9.816
-      },
-      "3": {
-        "file": "3",
-        "duration": 8.784
-      },
-      "4": {
-        "file": "4",
-        "duration": 43.944
-      },
-      "5": {
-        "file": "5",
-        "duration": 5.496
-      }
+      "0": 1.896,
+      "1": 12.384,
+      "2": 9.816,
+      "3": 8.784,
+      "4": 43.944,
+      "finish": 5.496
     },
     "18:258": {
-      "0": {
-        "file": "0",
-        "duration": 10.416
-      },
-      "1": {
-        "file": "1",
-        "duration": 16.056
-      },
-      "2": {
-        "file": "2",
-        "duration": 7.416
-      }
+      "0": 10.416,
+      "1": 16.056,
+      "finish": 7.416
     },
     "16:125": {
-      "0": {
-        "file": "0",
-        "duration": 1.416
-      },
-      "1": {
-        "file": "1",
-        "duration": 11.664
-      },
-      "2": {
-        "file": "2",
-        "duration": 26.376
-      },
-      "3": {
-        "file": "3",
-        "duration": 16.776
-      },
-      "4": {
-        "file": "4",
-        "duration": 14.544
-      },
-      "5": {
-        "file": "5",
-        "duration": 13.824
-      },
-      "6": {
-        "file": "6",
-        "duration": 18.216
-      },
-      "7": {
-        "file": "7",
-        "duration": 17.256
-      },
-      "8": {
-        "file": "8",
-        "duration": 8.016
-      }
+      "0": 1.416,
+      "1": 11.664,
+      "2": 26.376,
+      "3": 16.776,
+      "4": 14.544,
+      "5": 13.824,
+      "6": 18.216,
+      "7": 17.256,
+      "finish": 8.016
     },
     "16:253": {
-      "0": {
-        "file": "0",
-        "duration": 4.056
-      },
-      "1": {
-        "file": "1",
-        "duration": 12.744
-      },
-      "2": {
-        "file": "2",
-        "duration": 110.064
-      }
+      "0": 4.056,
+      "1": 12.744,
+      "finish": 110.064
     },
     "19:101": {
-      "0": {
-        "file": "0",
-        "duration": 4.176
-      },
-      "1": {
-        "file": "1",
-        "duration": 72.216
-      },
-      "2": {
-        "file": "2",
-        "duration": 38.304
-      },
-      "3": {
-        "file": "3",
-        "duration": 62.304
-      },
-      "4": {
-        "file": "4",
-        "duration": 4.056
-      }
+      "0": 4.176,
+      "1": 72.216,
+      "2": 38.304,
+      "3": 62.304,
+      "finish": 4.056
     },
     "151:120": {
-      "0": {
-        "file": "0",
-        "duration": 1.584
-      },
-      "1": {
-        "file": "1",
-        "duration": 14.304
-      },
-      "2": {
-        "file": "2",
-        "duration": 23.976
-      },
-      "3": {
-        "file": "3",
-        "duration": 4.464
-      },
-      "4": {
-        "file": "4",
-        "duration": 49.296
-      },
-      "5": {
-        "file": "5",
-        "duration": 81.624
-      },
-      "6": {
-        "file": "6",
-        "duration": 44.376
-      }
+      "0": 1.584,
+      "1": 14.304,
+      "2": 23.976,
+      "3": 4.464,
+      "4": 49.296,
+      "5": 81.624,
+      "finish": 44.376
     },
     "19:230": {
-      "0": {
-        "file": "0",
-        "duration": 21.504
-      },
-      "1": {
-        "file": "1",
-        "duration": 23.616
-      },
-      "2": {
-        "file": "2",
-        "duration": 22.416
-      },
-      "3": {
-        "file": "3",
-        "duration": 1.584
-      },
-      "4": {
-        "file": "4",
-        "duration": 0.984
-      },
-      "5": {
-        "file": "5",
-        "duration": 118.536
-      }
+      "0": 21.504,
+      "1": 23.616,
+      "2": 22.416,
+      "3": 1.584,
+      "4": 0.984,
+      "finish": 118.536
     }
   }
 }
