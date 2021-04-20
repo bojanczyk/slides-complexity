@@ -1,0 +1,1288 @@
+{
+  "version": 0.915,
+  "presentation": "Weighted monads",
+  "slideDict": {
+    "new_slide": "Algebras_for_weighted_languages",
+    "algebras_instead_of_weighted_automata": "algebras_instead_of_weighted_automata",
+    "algebras_over_a_field": "algebras_over_a_field",
+    "equivalence_with_algebras": "equivalence_with_algebras",
+    "classification_of_languages": "classification_of_languages",
+    "beyond_words": "beyond_words",
+    "monads": "monads",
+    "add_weights_via_distibutive_laws": "add_weights_via_distibutive_laws",
+    "weighted_automata": "weighted_automata_come_from_distributive_laws",
+    "using_a_distributive_law": "using_a_distributive_law",
+    "theorem_about_distributive_laws": "theorem_about_distributive_laws",
+    "theorem_about_distributive_laws,_2": "theorem_about_distributive_laws,_2",
+    "simple_monad": "examples_for_theorem",
+    "distributive_laws_explained": "finitary_monad"
+  },
+  "tree": {
+    "type": "child",
+    "name": "Algebras for weighted languages",
+    "id": "new_slide",
+    "merged": false,
+    "children": [
+      {
+        "type": "show",
+        "id": "Starting_point._Weighted_automata_via_algebras",
+        "name": "Starting point. Weighted automata via algebras",
+        "merged": false,
+        "keywords": [
+          "Starting point. Weighted automata via algebras"
+        ],
+        "eventId": "9",
+        "disabled": false
+      },
+      {
+        "type": "child",
+        "name": "algebras instead of weighted automata",
+        "id": "algebras_instead_of_weighted_automata",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Define._A_weighted_language_is_a_function_L___lin__CE_A3+__E2_86_92__E2_84_9A",
+            "name": "Define. A weighted language is a function L : lin Σ+ → ℚ",
+            "merged": false,
+            "keywords": [
+              "Define. A weighted language is a function L : lin Σ+ → ℚ",
+              "same thing as a function Σ* → ℚ"
+            ],
+            "eventId": "9",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "To_recognise_weighted_languages,_we_can_use_semigroups_instead_of_automata.",
+            "name": "To recognise weighted languages, we can use semigroups instead of automata.",
+            "merged": false,
+            "keywords": [
+              "To recognise weighted languages, we can use semigroups instead of automata."
+            ],
+            "eventId": "4",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "algebras over a field",
+            "id": "algebras_over_a_field",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Definition._A_weighted_semigroup_is_a_semigroup_S_equipped_with_a_vector_space_structure_such_that_x__E2_86_A6_xa_and_x__E2_86_A6_xa_are_linear_maps_S__E2_86_92_S_for_every_a__E2_88_88_S.",
+                "name": "Definition. A weighted semigroup is a semigroup S equipped with a vector space structure such that x ↦ xa and x ↦ xa are linear maps S → S for every a ∈ S.",
+                "merged": false,
+                "keywords": [
+                  "Definition. A weighted semigroup is a semigroup S equipped with a vector space structure such that x ↦ xa and x ↦ xa are linear maps S → S for every a ∈ S."
+                ],
+                "eventId": "2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "(also_known_as_an_algebra_over__E2_84_9A)",
+                "name": "(also known as an algebra over ℚ)",
+                "merged": false,
+                "keywords": [
+                  "(also known as an algebra over ℚ)"
+                ],
+                "eventId": "1",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Example_1._lin__CE_A3+_for_every_set__CE_A3",
+                "name": "Example 1. lin Σ+ for every set Σ",
+                "merged": false,
+                "keywords": [
+                  "Example 1. lin Σ+ for every set Σ"
+                ],
+                "eventId": "3",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Example_2._n__C3_97_n_matrices",
+                "name": "Example 2. n × n matrices",
+                "merged": false,
+                "keywords": [
+                  "Example 2. n × n matrices"
+                ],
+                "eventId": "4",
+                "disabled": false
+              }
+            ],
+            "keywords": [
+              "algebras over a field"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Fact._The_following_are_equivalent_for_L___lin__CE_A3+__E2_86_92__E2_84_9A",
+            "name": "Fact. The following are equivalent for L : lin Σ+ → ℚ",
+            "merged": false,
+            "keywords": [
+              "Fact. The following are equivalent for L : lin Σ+ → ℚ"
+            ],
+            "eventId": "5",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "recognised_by_a_weighted_automaton",
+            "name": "recognised by a weighted automaton",
+            "merged": false,
+            "keywords": [
+              "recognised by a weighted automaton"
+            ],
+            "eventId": "6",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "2._recognised_by_a_weighted_semigroup",
+            "name": "2. recognised by a weighted semigroup",
+            "merged": false,
+            "keywords": [
+              "2. recognised by a weighted monoid",
+              "of finite dimension",
+              "2. recognised by a weighted semigroup"
+            ],
+            "eventId": "7",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "is_both_a_linear_map_and_a_semigroup_homomorphism",
+            "name": "is both a linear map and a semigroup homomorphism",
+            "merged": false,
+            "keywords": [
+              "lin Σ*",
+              "ℚ",
+              "M",
+              "a linear map",
+              "is both a linear map and a monoid homomorphism",
+              "h",
+              "F",
+              "L",
+              "is both a linear map and a semigroup homomorphism"
+            ],
+            "eventId": "8",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "equivalence with algebras",
+            "id": "equivalence_with_algebras",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "1__E2_9F_B9_2._If_the_states_are_P,_then_h_maps_a_word_to_a_P__C3_97_P_matrix_which_describes_the_weights_of_possible_runs",
+                "name": "1 ⟹ 2. If the states are P, then h maps a word to a P × P matrix which describes the weights of possible runs",
+                "merged": false,
+                "keywords": [
+                  "1 ⟹ 2. If the states are P, then h maps a word to a P × P matrix which describes the weights of possible runs"
+                ],
+                "eventId": "1",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "1__E2_9F_B8_2._From_a_weighted_semigroup_S,_we_can_create_a_deterministic_automaton_with_states_S_such_that_for_every_input_letter_a__E2_88_88__CE_A3,_the_transition_function_s__E2_86_A6_sa_is_a_linear_map._Such_automata_are_the_same_as_weighted_automata.",
+                "name": "1 ⟸ 2. From a weighted semigroup S, we can create a deterministic automaton with states S such that for every input letter a ∈ Σ, the transition function s ↦ sa is a linear map. Such automata are the same as weighted automata.",
+                "merged": false,
+                "keywords": [
+                  "1 ⟸ 2. From a weighted semigroup S, we can create a deterministic automaton with states S such that for every input letter a ∈ Σ, the transition function s ↦ sa is a linear map. Such automata are the same as weighted automata."
+                ],
+                "eventId": "2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "The_weight_of_a_transition_p__E2_9F_B6_q_is_coordinate_q_of_the_monoid_element_p__E2_8B_85h(a)__E2_88_88_M.",
+                "name": "The weight of a transition p ⟶ q is coordinate q of the monoid element p ⋅h(a) ∈ M.",
+                "merged": false,
+                "keywords": [
+                  "The weight of a transition p ⟶ q is coordinate q of the monoid element p⋅h(a).",
+                  "a",
+                  "The weight of a transition p ⟶ q is coordinate q of the monoid element p ⋅h(a) ∈ M."
+                ],
+                "eventId": "3",
+                "disabled": false
+              }
+            ],
+            "keywords": [
+              "equivalence with algebras"
+            ],
+            "eventId": "2"
+          }
+        ],
+        "keywords": [
+          "algebras instead of weighted automata"
+        ],
+        "eventId": "6"
+      },
+      {
+        "type": "show",
+        "id": "Direction_1._Classification_of_languages",
+        "name": "Direction 1. Classification of languages",
+        "merged": false,
+        "keywords": [
+          "Direction 1. Classification of languages"
+        ],
+        "eventId": "10",
+        "disabled": false
+      },
+      {
+        "type": "show",
+        "id": "Direction_2._Beyond_words",
+        "name": "Direction 2. Beyond words",
+        "merged": false,
+        "keywords": [
+          "Direction 2. Beyond words"
+        ],
+        "eventId": "11",
+        "disabled": false
+      },
+      {
+        "type": "child",
+        "name": "classification of languages",
+        "id": "classification_of_languages",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Algebraic_language_theory_tries_to_prove_theorems_like_",
+            "name": "Algebraic language theory tries to prove theorems like:",
+            "merged": false,
+            "keywords": [
+              "Algebraic language theory tries to prove theorems like:"
+            ],
+            "eventId": "1",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Theorem.__5BSch_C3_BCtzenberger_5D_A_language_L__E2_8A_86__CE_A3+_is_star-free_if_and_only_if_its_syntactic_semigroup_is_aperiodic.",
+            "name": "Theorem. [Schützenberger] A language L ⊆ Σ+ is star-free if and only if its syntactic semigroup is aperiodic.",
+            "merged": false,
+            "keywords": [
+              "Theorem. [Schützenberger] A language L ⊆ Σ+ is star-free if and only if its syntactic semigroup is aperiodic."
+            ],
+            "eventId": "2",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Maybe_this_can_be_done_for_weighted_languages?",
+            "name": "Maybe this can be done for weighted languages?",
+            "merged": false,
+            "keywords": [
+              "Maybe this can be done for weighted languages?"
+            ],
+            "eventId": "3",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Some_promising_signs_",
+            "name": "Some promising signs:",
+            "merged": false,
+            "keywords": [
+              "Some promising signs:"
+            ],
+            "eventId": "4",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "syntactic_weighted_semigroups_exist;",
+            "name": "syntactic weighted semigroups exist;",
+            "merged": false,
+            "keywords": [
+              "syntactic weighted semigroups exist;"
+            ],
+            "eventId": "5",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "language_varieties_correspond_to_algebra_varieties;",
+            "name": "language varieties correspond to algebra varieties;",
+            "merged": false,
+            "keywords": [
+              "language varieties correspond to algebra varieties;"
+            ],
+            "eventId": "6",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "there_is_a_version_of_block_product_that_captures_concatenation_in_star-free_languages.",
+            "name": "there is a version of block product that captures concatenation in star-free languages.",
+            "merged": false,
+            "keywords": [
+              "there is a version of block product that captures concatenation in star-free languages."
+            ],
+            "eventId": "7",
+            "disabled": false
+          }
+        ],
+        "keywords": [
+          "classification of languages"
+        ],
+        "eventId": "7"
+      },
+      {
+        "type": "child",
+        "name": "beyond words",
+        "id": "beyond_words",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Algebraic_language_theory_can_be_extended_to_trees,_graphs,_infinite_words,_etc.",
+            "name": "Algebraic language theory can be extended to trees, graphs, infinite words, etc.",
+            "merged": false,
+            "keywords": [
+              "Algebraic language theory can be extended to trees, graphs, infinite words, etc."
+            ],
+            "eventId": "5",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Using_universal_algebra,_or_monads.",
+            "name": "Using universal algebra, or monads.",
+            "merged": false,
+            "keywords": [
+              "Using universal algebra, or monads."
+            ],
+            "eventId": "6",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "monads",
+            "id": "monads",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Monad_intuition.",
+                "name": "Monad intuition.",
+                "merged": false,
+                "keywords": [
+                  "Monad intuition."
+                ],
+                "eventId": "1",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Let_TX_=_X+",
+                "name": "Let TX = X+",
+                "merged": false,
+                "keywords": [
+                  "Let TX = X+"
+                ],
+                "eventId": "2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "This_would_also_work_if_TX_was_any_monad,_which_covers_examples_like__(1)_the_free_group,_(2)_finite_subsets_of_X,_or_(3)_linear_combinations_of_X,_or_(4)_linear_combinations_of_X+,_or_(5)_countable_total_orders_labelled_by_X,_etc.",
+                "name": "This would also work if TX was any monad, which covers examples like: (1) the free group, (2) finite subsets of X, or (3) linear combinations of X, or (4) linear combinations of X+, or (5) countable total orders labelled by X, etc.",
+                "merged": false,
+                "keywords": [
+                  "This would also work if TX was any monad, which covers examples like: (1) the free group, (2) finite subsets of X, or (3) linear combinations of X, or (4) linear combinations of X+, or (5) countable total orders labelled by X, etc."
+                ],
+                "eventId": "3",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "(1)_the_free_group,",
+                "name": "(1) the free group,",
+                "merged": false,
+                "keywords": [
+                  "(1) the free group,"
+                ],
+                "eventId": "7",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "or_(2)_finite_subsets_of_X,",
+                "name": "or (2) finite subsets of X,",
+                "merged": false,
+                "keywords": [
+                  "or (2) finite subsets of X,"
+                ],
+                "eventId": "9",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "or_(3)_linear_combinations_of_X,",
+                "name": "or (3) linear combinations of X,",
+                "merged": false,
+                "keywords": [
+                  "or (3) linear combinations of X,"
+                ],
+                "eventId": "10",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "or_(4)_linear_combinations_of_X+,",
+                "name": "or (4) linear combinations of X+,",
+                "merged": false,
+                "keywords": [
+                  "or (4) linear combinations of X+,"
+                ],
+                "eventId": "8",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Definition._A_semigroup_consists_of_an_underlying_set_S,_together_with_a_multiplication_operation__CE_BC___TS__E2_86_92_S_such_that_",
+                "name": "Definition. A semigroup consists of an underlying set S, together with a multiplication operation μ : TS → S such that:",
+                "merged": false,
+                "keywords": [
+                  "Definition. A monoid consists of an underlying set M, together with a multiplication operation μ : TM → M such that:",
+                  "Eilenberg-Moore algebra for T",
+                  "Definition. A semigroup consists of an underlying set S, together with a multiplication operation μ : TS → S such that:"
+                ],
+                "eventId": "4",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "free_multiplication",
+                "name": "free multiplication",
+                "merged": false,
+                "keywords": [
+                  "TTM",
+                  "TM",
+                  "M",
+                  "free multiplication",
+                  "μ",
+                  "Tμ"
+                ],
+                "eventId": "5",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "unit",
+                "name": "unit",
+                "merged": false,
+                "keywords": [
+                  "unit",
+                  "TM",
+                  "M",
+                  "μ",
+                  "id"
+                ],
+                "eventId": "6",
+                "disabled": false
+              }
+            ],
+            "keywords": [
+              "monads"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "If_a_structure_can_be_modelled_by_a_monad_then_",
+            "name": "If a structure can be modelled by a monad then:",
+            "merged": false,
+            "keywords": [
+              "If a structure can be modelled by a monad then:"
+            ],
+            "eventId": "7",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "there_is_a_notion_of__E2_80_9Csemigroup_E2_80_9D_there_are_syntactic_semigroups_there_are_variety_theorems_(Birkhoff,_Eilenberg,_Reiterman)",
+            "name": "there is a notion of “semigroup” there are syntactic semigroups there are variety theorems (Birkhoff, Eilenberg, Reiterman)",
+            "merged": false,
+            "keywords": [
+              "there is a notion of “semigroup” there are syntactic semigroups there are variety theorems (Birkhoff, Eilenberg, Reiterman)"
+            ],
+            "eventId": "8",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "To_add_weights,_we_use_distributive_laws",
+            "name": "To add weights, we use distributive laws",
+            "merged": false,
+            "keywords": [
+              "To add weights, we use distributive laws"
+            ],
+            "eventId": "9",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "add weights via distibutive laws",
+            "id": "add_weights_via_distibutive_laws",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Distributive_laws",
+                "name": "Distributive laws",
+                "merged": false,
+                "keywords": [
+                  "Distributive laws"
+                ],
+                "eventId": "3",
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "weighted automata come from distributive laws",
+                "id": "weighted_automata",
+                "merged": false,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "Weighted_languages_over_words_can_be_seen_as_coming_from_a_distributive_law_",
+                    "name": "Weighted languages over words can be seen as coming from a distributive law:",
+                    "merged": false,
+                    "keywords": [
+                      "Weighted languages over words can be seen as coming from a distributive law:",
+                      "15suss – 30suts – 30tuss + 60tuts",
+                      "(s – 2t)(3u)(s – 2t)(5s)",
+                      "lin(Σ*)",
+                      "(linΣ)*",
+                      "distribute"
+                    ],
+                    "eventId": "2",
+                    "disabled": false
+                  },
+                  {
+                    "type": "child",
+                    "name": "using a distributive law",
+                    "id": "using_a_distributive_law",
+                    "merged": false,
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "Suppose_that_we_are_given_",
+                        "name": "Suppose that we are given:",
+                        "merged": false,
+                        "keywords": [
+                          "Suppose that we are given:"
+                        ],
+                        "eventId": "1",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "an_input_alphabet__CE_A3_and_a_work_alphabet__CE_93",
+                        "name": "an input alphabet Σ and a work alphabet Γ",
+                        "merged": false,
+                        "keywords": [
+                          "an input alphabet Σ and a work alphabet Γ"
+                        ],
+                        "eventId": "2",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "a_regular_language_K__E2_8A_86__CE_93+_over_a_work_alphabet",
+                        "name": "a regular language K ⊆ Γ+ over a work alphabet",
+                        "merged": false,
+                        "keywords": [
+                          "a regular language K ⊆ Γ+ over a work alphabet"
+                        ],
+                        "eventId": "3",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "a_function__CE_A3__E2_86_92_lin__CE_93",
+                        "name": "a function Σ → lin Γ",
+                        "merged": false,
+                        "keywords": [
+                          "a function Σ → lin Γ"
+                        ],
+                        "eventId": "4",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "This_leads_to_a_weighted_language.",
+                        "name": "This leads to a weighted language.",
+                        "merged": false,
+                        "keywords": [
+                          "This leads to a weighted language."
+                        ],
+                        "eventId": "5",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "abac",
+                        "name": "abac",
+                        "merged": false,
+                        "keywords": [
+                          "abac",
+                          "Σ*",
+                          "∋"
+                        ],
+                        "eventId": "6",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "map_input_letters_to_linear_combinations_of_work_letters",
+                        "name": "map input letters to linear combinations of work letters",
+                        "merged": false,
+                        "keywords": [
+                          "map input letters to linear combinations of work letters"
+                        ],
+                        "eventId": "7",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "(s__E2_80_93_2t)(3u)(s__E2_80_93_2t)(5s)",
+                        "name": "(s – 2t)(3u)(s – 2t)(5s)",
+                        "merged": false,
+                        "keywords": [
+                          "(s – 2t)(3u)(s – 2t)(5s)",
+                          "(lin Γ)*",
+                          "∋"
+                        ],
+                        "eventId": "8",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "distribute",
+                        "name": "distribute",
+                        "merged": false,
+                        "keywords": [
+                          "distribute"
+                        ],
+                        "eventId": "9",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "15suss__E2_80_93_30suts__E2_80_93_30tuss_+_60tuts",
+                        "name": "15suss – 30suts – 30tuss + 60tuts",
+                        "merged": false,
+                        "keywords": [
+                          "15suss – 30suts – 30tuss + 60tuts",
+                          "lin Γ*",
+                          "∋"
+                        ],
+                        "eventId": "10",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "assign_1_to_words_from_K,_and_0_to_other_words",
+                        "name": "assign 1 to words from K, and 0 to other words",
+                        "merged": false,
+                        "keywords": [
+                          "assign 1 to words from K, and 0 to other words"
+                        ],
+                        "eventId": "11",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "15__E2_80_93_30",
+                        "name": "15 – 30",
+                        "merged": false,
+                        "keywords": [
+                          "15 – 30",
+                          "∋",
+                          "ℚ"
+                        ],
+                        "eventId": "12",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "This_model_is_equivalent_to_weighted_automata.",
+                        "name": "This model is equivalent to weighted automata.",
+                        "merged": false,
+                        "keywords": [
+                          "This model is equivalent to weighted automata."
+                        ],
+                        "eventId": "13",
+                        "disabled": false
+                      }
+                    ],
+                    "keywords": [
+                      "using a distributive law"
+                    ],
+                    "eventId": "1"
+                  }
+                ],
+                "keywords": [
+                  "weighted automata come from distributive laws"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "If_T_is_a_monad,_then_a_distributive_law_is_a_function",
+                "name": "If T is a monad, then a distributive law is a function",
+                "merged": false,
+                "keywords": [
+                  "lin(TΣ)",
+                  "T(linΣ)",
+                  "distribute",
+                  "If T is a monad, then a distributive law is a function",
+                  "which satisfies certain axioms."
+                ],
+                "eventId": "4",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "If_we_have_a_distributive_law,_then_(lin_T)_is_itself_a_monad,_and_has_its_own_algebraic_theory.",
+                "name": "If we have a distributive law, then (lin T) is itself a monad, and has its own algebraic theory.",
+                "merged": false,
+                "keywords": [
+                  "If we have a distributive law, then (lin T) is itself a monad, and has its own algebraic theory."
+                ],
+                "eventId": "5",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Example._If_T_CE_A3_=__CE_A3,_then_the_monad_(lin_T)_is__E2_80_9Clinear_combinations_of_words_E2_80_9D,_and_its_algebras_are_weighted_semigroups.",
+                "name": "Example. If TΣ = Σ, then the monad (lin T) is “linear combinations of words”, and its algebras are weighted semigroups.",
+                "merged": false,
+                "keywords": [
+                  "Example. If TΣ = Σ, then the monad (lin T) is “linear combinations of words”, and its algebras are weighted semigroups."
+                ],
+                "eventId": "6",
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "theorem about distributive laws",
+                "id": "theorem_about_distributive_laws",
+                "merged": false,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "Theorem._Consider_a_monad_T,_which__1._2._Then_there_is_a_distributive_law_(T_lin)__E2_9F_B9_(lin_T),_and_hence_(lin_T)_is_a_monad.",
+                    "name": "Theorem. Consider a monad T, which: 1. 2. Then there is a distributive law (T lin) ⟹ (lin T), and hence (lin T) is a monad.",
+                    "merged": false,
+                    "keywords": [
+                      "Theorem. Consider a monad T, which: 1. 2. Then there is a distributive law (T lin) ⟹ (lin T), and hence (lin T) is a monad."
+                    ],
+                    "eventId": "3",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "is_finitary",
+                    "name": "is finitary",
+                    "merged": false,
+                    "keywords": [
+                      "is finitary"
+                    ],
+                    "eventId": "4",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "all_equations_are_linear",
+                    "name": "all equations are linear",
+                    "merged": false,
+                    "keywords": [
+                      "all equations are linear"
+                    ],
+                    "eventId": "5",
+                    "disabled": false
+                  },
+                  {
+                    "type": "child",
+                    "name": "finitary monad",
+                    "id": "distributive_laws_explained",
+                    "merged": false,
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "A_finitary_monad_is_one_which_arises_this_way_",
+                        "name": "A finitary monad is one which arises this way:",
+                        "merged": false,
+                        "keywords": [
+                          "A finitary monad is one which arises this way:"
+                        ],
+                        "eventId": "1",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "we_have_a_signature,_consisting_of_function_symbols",
+                        "name": "we have a signature, consisting of function symbols",
+                        "merged": false,
+                        "keywords": [
+                          "we have a signature, consisting of function symbols"
+                        ],
+                        "eventId": "2",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "x_C2_B7y_of_arity_2",
+                        "name": "x·y of arity 2",
+                        "merged": false,
+                        "keywords": [
+                          "x·y of arity 2"
+                        ],
+                        "eventId": "3",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "1_of_arity_0",
+                        "name": "1 of arity 0",
+                        "merged": false,
+                        "keywords": [
+                          "1 of arity 0"
+                        ],
+                        "eventId": "4",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "we_have_a_(possibly_infinite)_set_of_equalities",
+                        "name": "we have a (possibly infinite) set of equalities",
+                        "merged": false,
+                        "keywords": [
+                          "we have a (possibly infinite) set of equalities"
+                        ],
+                        "eventId": "5",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "(x_C2_B7y)_C2_B7z_=_x_C2_B7(y_C2_B7z)",
+                        "name": "(x·y)·z = x·(y·z)",
+                        "merged": false,
+                        "keywords": [
+                          "(x·y)·z = x·(y·z)"
+                        ],
+                        "eventId": "6",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "x_C2_B71_=_x",
+                        "name": "x·1 = x",
+                        "merged": false,
+                        "keywords": [
+                          "x·1 = x"
+                        ],
+                        "eventId": "7",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "1_C2_B7x_=_x",
+                        "name": "1·x = x",
+                        "merged": false,
+                        "keywords": [
+                          "1·x = x"
+                        ],
+                        "eventId": "8",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "T_CE_A3_is_defined_to_be_terms_built_using_the_signature_and_variables_from__CE_A3,_modulo_the_equalities.",
+                        "name": "TΣ is defined to be terms built using the signature and variables from Σ, modulo the equalities.",
+                        "merged": false,
+                        "keywords": [
+                          "TΣ is defined to be terms built using the signature and variables from Σ, modulo the equalities."
+                        ],
+                        "eventId": "10",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "The_monad_structure,_i.e._free_multiplication_and_units_are_defined_in_the_natural_way.",
+                        "name": "The monad structure, i.e. free multiplication and units are defined in the natural way.",
+                        "merged": false,
+                        "keywords": [
+                          "The monad structure, i.e. free multiplication and units are defined in the natural way."
+                        ],
+                        "eventId": "13",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "x-1_of_arity_1",
+                        "name": "x-1 of arity 1",
+                        "merged": false,
+                        "keywords": [
+                          "x-1 of arity 1"
+                        ],
+                        "eventId": "14",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "xx-1_=_1",
+                        "name": "xx-1 = 1",
+                        "merged": false,
+                        "keywords": [
+                          "xx-1 = 1"
+                        ],
+                        "eventId": "15",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "x-1x_=_1",
+                        "name": "x-1x = 1",
+                        "merged": false,
+                        "keywords": [
+                          "x-1x = 1"
+                        ],
+                        "eventId": "16",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "linear,_i.e._each_variable_is_used_once_on_each_side",
+                        "name": "linear, i.e. each variable is used once on each side",
+                        "merged": false,
+                        "keywords": [
+                          "linear, i.e. each variable is used once on each side"
+                        ],
+                        "eventId": "9",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "not_linear",
+                        "name": "not linear",
+                        "merged": false,
+                        "keywords": [
+                          "not linear"
+                        ],
+                        "eventId": "17",
+                        "disabled": false
+                      }
+                    ],
+                    "keywords": [
+                      "finitary monad"
+                    ],
+                    "eventId": "2"
+                  },
+                  {
+                    "type": "show",
+                    "id": "This_distributive_law_is_unique_if_we_want_every_operation_in_the_signature_to_be_linear_in_every_coordinate.",
+                    "name": "This distributive law is unique if we want every operation in the signature to be linear in every coordinate.",
+                    "merged": false,
+                    "keywords": [
+                      "This distributive law is unique if we want every operation in the signature to be linear in every coordinate."
+                    ],
+                    "eventId": "6",
+                    "disabled": false
+                  },
+                  {
+                    "type": "child",
+                    "name": "theorem about distributive laws, 2",
+                    "id": "theorem_about_distributive_laws,_2",
+                    "merged": false,
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "For_weighted_languages_which_arise_through_this_monad,_we_have_",
+                        "name": "For weighted languages which arise through this monad, we have:",
+                        "merged": false,
+                        "keywords": [
+                          "For weighted languages which arise through this monad, we have:"
+                        ],
+                        "eventId": "2",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "all_the_usual_theorems_for_algebras,_including_syntactic_algebras_and_variety_theorems.",
+                        "name": "all the usual theorems for algebras, including syntactic algebras and variety theorems.",
+                        "merged": false,
+                        "keywords": [
+                          "all the usual theorems for algebras, including syntactic algebras and variety theorems."
+                        ],
+                        "eventId": "3",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "if_the_signature_for_the_monad_is_finite,_then_there_are_polynomial_time_algorithms_for_language_equivalence_and_minimisation",
+                        "name": "if the signature for the monad is finite, then there are polynomial time algorithms for language equivalence and minimisation",
+                        "merged": false,
+                        "keywords": [
+                          "if the signature for the monad is finite, then there are polynomial time algorithms for language equivalence and minimisation"
+                        ],
+                        "eventId": "4",
+                        "disabled": false
+                      },
+                      {
+                        "type": "child",
+                        "name": "examples for theorem",
+                        "id": "simple_monad",
+                        "merged": false,
+                        "children": [
+                          {
+                            "type": "show",
+                            "id": "Examples.",
+                            "name": "Examples.",
+                            "merged": false,
+                            "keywords": [
+                              "Examples."
+                            ],
+                            "eventId": "1",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "_CE_A3*",
+                            "name": "Σ*",
+                            "merged": false,
+                            "keywords": [
+                              "Σ*"
+                            ],
+                            "eventId": "6",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "_CE_A3+",
+                            "name": "Σ+",
+                            "merged": false,
+                            "keywords": [
+                              "Σ+"
+                            ],
+                            "eventId": "7",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "forest_algebra",
+                            "name": "forest algebra",
+                            "merged": false,
+                            "keywords": [
+                              "forest algebra"
+                            ],
+                            "eventId": "8",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "graphs_of_treewidth_at_most_k",
+                            "name": "graphs of treewidth at most k",
+                            "merged": false,
+                            "keywords": [
+                              "graphs of treewidth at most k"
+                            ],
+                            "eventId": "9",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "Nonexamples.",
+                            "name": "Nonexamples.",
+                            "merged": false,
+                            "keywords": [
+                              "Nonexamples."
+                            ],
+                            "eventId": "2",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "monads_for_infinite_words_not_finitary",
+                            "name": "monads for infinite words not finitary",
+                            "merged": false,
+                            "keywords": [
+                              "monads for infinite words not finitary"
+                            ],
+                            "eventId": "10",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "groups",
+                            "name": "groups",
+                            "merged": false,
+                            "keywords": [
+                              "groups"
+                            ],
+                            "eventId": "4",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "the_equation_x_C2_B7x-1_=_1_is_not_linear",
+                            "name": "the equation x·x-1 = 1 is not linear",
+                            "merged": false,
+                            "keywords": [
+                              "the equation x·x-1 = 1 is not linear"
+                            ],
+                            "eventId": "11",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "forest_algebra_modulo_bisimulation",
+                            "name": "forest algebra modulo bisimulation",
+                            "merged": false,
+                            "keywords": [
+                              "forest algebra modulo bisimulation"
+                            ],
+                            "eventId": "3",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "t_+_t_=_t_is_not_linear",
+                            "name": "t + t = t is not linear",
+                            "merged": false,
+                            "keywords": [
+                              "t + t = t is not linear"
+                            ],
+                            "eventId": "13",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "graphs_of_unbounded_treewidth",
+                            "name": "graphs of unbounded treewidth",
+                            "merged": false,
+                            "keywords": [
+                              "graphs of unbounded treewidth"
+                            ],
+                            "eventId": "5",
+                            "disabled": false
+                          },
+                          {
+                            "type": "show",
+                            "id": "infinite_signature",
+                            "name": "infinite signature",
+                            "merged": false,
+                            "keywords": [
+                              "infinite signature"
+                            ],
+                            "eventId": "12",
+                            "disabled": false
+                          }
+                        ],
+                        "keywords": [
+                          "examples for theorem"
+                        ],
+                        "eventId": "1"
+                      }
+                    ],
+                    "keywords": [
+                      "theorem about distributive laws, 2"
+                    ],
+                    "eventId": "1"
+                  }
+                ],
+                "keywords": [
+                  "theorem about distributive laws"
+                ],
+                "eventId": "2"
+              }
+            ],
+            "keywords": [
+              "add weights via distibutive laws"
+            ],
+            "eventId": "4"
+          }
+        ],
+        "keywords": [
+          "beyond words"
+        ],
+        "eventId": "8"
+      }
+    ],
+    "keywords": [
+      "Weighted languages via monads",
+      "Mikołaj Bojańczyk",
+      "Algebras for weighted languages"
+    ],
+    "eventId": "root"
+  },
+  "soundDict": {},
+  "live": [
+    {
+      "date": "Tue Apr 20 2021 13:30:04 GMT+0200 (Central European Summer Time)",
+      "dir": "live_recording0",
+      "steps": [
+        {
+          "step": {
+            "type": "overlays",
+            "slide": "new_slide",
+            "direction": 1,
+            "overlays": [
+              "9"
+            ]
+          },
+          "duration": 1.656
+        },
+        {
+          "step": {
+            "type": "zoom",
+            "source": "new_slide",
+            "target": "algebras_instead_of_weighted_automata"
+          },
+          "duration": 0.216
+        },
+        {
+          "step": {
+            "type": "overlays",
+            "slide": "algebras_instead_of_weighted_automata",
+            "direction": 1,
+            "overlays": [
+              "3"
+            ]
+          },
+          "duration": 1.176
+        },
+        {
+          "step": {
+            "type": "overlays",
+            "slide": "algebras_instead_of_weighted_automata",
+            "direction": -1,
+            "overlays": [
+              "3"
+            ]
+          },
+          "duration": 0.576
+        },
+        {
+          "step": {
+            "type": "last"
+          },
+          "duration": 0.624
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8" />
+	<title>Slide-figma viewer</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/png" href="favicon.png">
+
+
+</head>
+
+<body>
+	<!-- <img id='help-panel' src="img/help.svg"> -->
+
+	<div id='loader-text'>
+		Loading slides...
+	</div>
+	<div id='upper-panel' style='opacity:0'>
+		<div id="sketch-panel" class="noselect tool-panel">
+			<i id="sketch-red" class="material-icons selected">edit</i>
+			<i id="sketch-blue" class="material-icons">edit</i>
+			<i id="sketch-undo" class="material-icons disabled">undo</i>
+			<i id="sketch-redo" class="material-icons">redo</i>
+		</div>
+
+		<!-- the left panel, which rolls out, and has information about the slides -->
+		<div id="left-panel">
+			<!-- <i id="close-panel" class="material-icons">close</i> -->
+			<div id="made-using-slajdomat">
+			<img src='slajdomat-logo-blue.svg'> 
+			</div>
+			<div id='search-panel'>
+				<div id='search-box'>
+					<i class="material-icons">search</i>
+					<input type="input" id='search-input' placeholder='Search in presentation' />
+				</div>
+				<div id='search-results'>
+				</div>
+
+			</div>
+			<div id='slide-stack-container'>
+				<div id="slide-stack" class="slide-stack">
+				</div>
+			</div>
+			<!-- <div id="resizer">
+			</div> -->
+		</div>
+
+		<!-- the panel that contains the svg with the slides -->
+		<svg id="svg" opacity="0"></svg>
+
+
+
+
+		<!-- a pop-up text for alerts such as "file not found" -->
+		<div id="text-alert-box">
+			<div id="text-alert"> </div>
+			<div id="text-alert-background"></div>
+		</div>
+	</div>
+	<!-- contains the timeline slider, the current time, and the buttons for next/previous/play -->
+	<div id="progress-panel" style='opacity:0'>
+		<!-- the page counter in the lower right corner -->
+		<div id="progress-controls">
+			<i id="open-menu" class="material-icons">menu</i>
+			<i id="prev-event" class="material-icons">navigate_before</i>
+			<i id="play-button" class="material-icons ">play_arrow</i>
+			<i id="next-event" class="material-icons">navigate_next</i>
+			<span id='sound-speed'>×1</span>
+		</div>
+		<div id="progress-line">
+
+		</div>
+		<div id='page-count'>
+			<span id='time-elapsed'></span>
+			<span id="page-count-enumerator"></span>
+			<span id="page-count-denominator">loading...</span>
+		</div>
+	</div>
+
+
+
+
+	<script type="module" src="viewer.js"></script>
+
+
+
+
+</body>
+
+</html>
