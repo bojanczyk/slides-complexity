@@ -125,9 +125,10 @@
             "name": "Fact. The following are equivalent for L : lin Σ+ → ℚ",
             "merged": false,
             "keywords": [
-              "Fact. The following are equivalent for L : lin Σ+ → ℚ"
+              "Fact. The following are equivalent for L : lin Σ+ → ℚ",
+              "Reutenauer 1980"
             ],
-            "eventId": "5",
+            "eventId": "10",
             "disabled": false
           },
           {
@@ -329,6 +330,17 @@
               "there is a version of block product that captures concatenation in star-free languages."
             ],
             "eventId": "7",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "See_Reutenauer_1980.",
+            "name": "See Reutenauer 1980.",
+            "merged": false,
+            "keywords": [
+              "See Reutenauer 1980."
+            ],
+            "eventId": "8",
             "disabled": false
           }
         ],
