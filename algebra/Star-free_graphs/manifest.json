@@ -1,0 +1,1279 @@
+{
+  "version": 0.915,
+  "presentation": "Star-free graphs",
+  "slideDict": {
+    "new_slide": "first_slide",
+    "first-order_intro": "first-order_intro",
+    "table": "table",
+    "this_talk": "this_talk",
+    "star-free_expressions": "star-free_expressions",
+    "graphs_with_ports": "graphs_with_ports",
+    "treewidth_operations": "treewidth_operations",
+    "examples_of_star_free": "examples_of_star_free",
+    "first-order_logic_for_graphs": "first-order_logic_for_graphs",
+    "separator_logic_equals_star-free": "separator_logic_equals_star-free",
+    "star-free_to_logic": "star-free_to_logic",
+    "prime_factors": "prime_factors",
+    "compositionality": "compositionality",
+    "endgame": "endgame",
+    "closing_comments": "closing_comments",
+    "compositionality_of_fusion": "compositionality_of_fusion"
+  },
+  "tree": {
+    "type": "child",
+    "name": "first slide",
+    "id": "new_slide",
+    "merged": false,
+    "children": [
+      {
+        "type": "show",
+        "id": "Background",
+        "name": "Background",
+        "merged": false,
+        "keywords": [
+          "Background"
+        ],
+        "eventId": "4",
+        "disabled": false
+      },
+      {
+        "type": "child",
+        "name": "first-order intro",
+        "id": "first-order_intro",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "First-order_logic_for_words",
+            "name": "First-order logic for words",
+            "merged": false,
+            "keywords": [
+              "First-order logic for words",
+              "∀x ∃y x ≤ y ∧ a(y)",
+              "order on word positions",
+              "last position has label a"
+            ],
+            "eventId": "3",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Famous_theorem__Same_expressive_power_as_star-free_expressions,_or_aperiodic_monoids.",
+            "name": "Famous theorem: Same expressive power as star-free expressions, or aperiodic monoids.",
+            "merged": false,
+            "keywords": [
+              "Famous theorem: Same expressive power as star-free expressions, or aperiodic monoids.",
+              "Schützenberger 1965 • McNaughton Papert 1971"
+            ],
+            "eventId": "7",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "_E2_88_83x__E2_88_83y__E2_88_83z_E(x,_y)__E2_88_A7_E(y,_z)__E2_88_A7_E(x,_z)",
+            "name": "∃x ∃y ∃z E(x, y) ∧ E(y, z) ∧ E(x, z)",
+            "merged": false,
+            "keywords": [
+              "First-order logic for graphs",
+              "∃x ∃y ∃z E(x, y) ∧ E(y, z) ∧ E(x, z)",
+              "edge relation",
+              "contains a triangle"
+            ],
+            "eventId": "4",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Famous_theorem__For_every_nowhere_dense_class_of_graphs,_can_be_evaluated_in_almost_linear_time.",
+            "name": "Famous theorem: For every nowhere dense class of graphs, can be evaluated in almost linear time.",
+            "merged": false,
+            "keywords": [
+              "Famous theorem: For every nowhere dense class of graphs, can be evaluated in almost linear time.",
+              "... Grohe, Kreutzer, Siebertz 2017"
+            ],
+            "eventId": "6",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "table",
+            "id": "table",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Words",
+                "name": "Words",
+                "merged": false,
+                "keywords": [
+                  "Words"
+                ],
+                "eventId": "10",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Graphs",
+                "name": "Graphs",
+                "merged": false,
+                "keywords": [
+                  "Graphs"
+                ],
+                "eventId": "19",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Successor",
+                "name": "Successor",
+                "merged": false,
+                "keywords": [
+                  "Successor"
+                ],
+                "eventId": "2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Order",
+                "name": "Order",
+                "merged": false,
+                "keywords": [
+                  "Order"
+                ],
+                "eventId": "3",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "McNaughton_Papert_1971",
+                "name": "McNaughton Papert 1971",
+                "merged": false,
+                "keywords": [
+                  "star-free languages",
+                  "McNaughton Papert 1971"
+                ],
+                "eventId": "8",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "linear_temporal_logic",
+                "name": "linear temporal logic",
+                "merged": false,
+                "keywords": [
+                  "linear temporal logic",
+                  "Kamp 1968"
+                ],
+                "eventId": "20",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "aperiodic_semigroups",
+                "name": "aperiodic semigroups",
+                "merged": false,
+                "keywords": [
+                  "aperiodic semigroups",
+                  "Schützenberger 1965"
+                ],
+                "eventId": "6",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Gaifman_locality",
+                "name": "Gaifman locality",
+                "merged": false,
+                "keywords": [
+                  "Gaifman locality",
+                  "Gaifman 1982"
+                ],
+                "eventId": "32",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "almost_linear_algorithms",
+                "name": "almost linear algorithms",
+                "merged": false,
+                "keywords": [
+                  "almost linear algorithms"
+                ],
+                "eventId": "17",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "locally_threshold_testable_languages",
+                "name": "locally threshold testable languages",
+                "merged": false,
+                "keywords": [
+                  "locally threshold testable languages"
+                ],
+                "eventId": "29",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "a_class_of_semigroups",
+                "name": "a class of semigroups",
+                "merged": false,
+                "keywords": [
+                  "a class of semigroups",
+                  "Thérien Weiss 1985"
+                ],
+                "eventId": "26",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "This_talk",
+                "name": "This talk",
+                "merged": false,
+                "keywords": [
+                  "This talk"
+                ],
+                "eventId": "18",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Group_9",
+                "name": "Group 9",
+                "merged": false,
+                "keywords": [
+                  "Group 9"
+                ],
+                "eventId": "21",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Trees",
+                "name": "Trees",
+                "merged": false,
+                "keywords": [
+                  "Trees"
+                ],
+                "eventId": "33",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "locally_threshold_testable_tree_languages",
+                "name": "locally threshold testable tree languages",
+                "merged": false,
+                "keywords": [
+                  "locally threshold testable tree languages"
+                ],
+                "eventId": "30",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "a_class_of_tree_automata",
+                "name": "a class of tree automata",
+                "merged": false,
+                "keywords": [
+                  "a class of tree automata",
+                  "Benedikt Segoufin 2009"
+                ],
+                "eventId": "27",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "star-free_languages",
+                "name": "star-free languages",
+                "merged": false,
+                "keywords": [
+                  "star-free languages",
+                  "B. 2007"
+                ],
+                "eventId": "14",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "CTL*_temporal_logic",
+                "name": "CTL* temporal logic",
+                "merged": false,
+                "keywords": [
+                  "CTL* temporal logic",
+                  "Hafer Thomas 1987"
+                ],
+                "eventId": "11",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "??",
+                "name": "??",
+                "merged": false,
+                "keywords": [
+                  "??"
+                ],
+                "eventId": "34",
+                "disabled": false
+              }
+            ],
+            "keywords": [
+              "table"
+            ],
+            "eventId": "1"
+          }
+        ],
+        "keywords": [
+          "first-order intro"
+        ],
+        "eventId": "1"
+      },
+      {
+        "type": "show",
+        "id": "The_expressions_&_their_logic",
+        "name": "The expressions & their logic",
+        "merged": false,
+        "keywords": [
+          "The expressions & their logic"
+        ],
+        "eventId": "5",
+        "disabled": false
+      },
+      {
+        "type": "child",
+        "name": "this talk",
+        "id": "this_talk",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Star-free_expressions",
+            "name": "Star-free expressions",
+            "merged": false,
+            "keywords": [
+              "Star-free expressions"
+            ],
+            "eventId": "5",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Separator_logic",
+            "name": "Separator logic",
+            "merged": false,
+            "keywords": [
+              "Separator logic"
+            ],
+            "eventId": "7",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "star-free expressions",
+            "id": "star-free_expressions",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Definition._A_language_of_graphs_is_star-free_if_it_belongs_to_the_least_class_of_languages_in_the_hypergraph_monad_which_(a)_contains_all_finite_languages;_(b)_is_closed_under_Boolean_combinations;_(c)_is_closed_under_term_operations.",
+                "name": "Definition. A language of graphs is star-free if it belongs to the least class of languages in the hypergraph monad which (a) contains all finite languages; (b) is closed under Boolean combinations; (c) is closed under term operations.",
+                "merged": false,
+                "keywords": [
+                  "Definition. A language of graphs is star-free if it belongs to the least class of languages in the hypergraph monad which (a) contains all finite languages; (b) is closed under Boolean combinations; (c) is closed under term operations."
+                ],
+                "eventId": "4",
+                "disabled": false
+              },
+              {
+                "type": "hide",
+                "id": "Definition._A_language_of_graphs_is_star-free_if_it_belongs_to_the_least_class_of_languages_in_the_hypergraph_monad_which_(a)_contains_all_finite_languages;_(b)_is_closed_under_Boolean_combinations;_(c)_is_closed_under_term_operations.",
+                "name": "Definition. A language of graphs is star-free if it belongs to the least class of languages in the hypergraph monad which (a) contains all finite languages; (b) is closed under Boolean combinations; (c) is closed under term operations.",
+                "merged": false,
+                "keywords": [
+                  "Definition. A language of graphs is star-free if it belongs to the least class of languages in the hypergraph monad which (a) contains all finite languages; (b) is closed under Boolean combinations; (c) is closed under term operations."
+                ],
+                "eventId": "7",
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "graphs with ports",
+                "id": "graphs_with_ports",
+                "merged": false,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "Graphs_in_this_talk",
+                    "name": "Graphs in this talk",
+                    "merged": false,
+                    "keywords": [
+                      "Graphs in this talk",
+                      "1",
+                      "2"
+                    ],
+                    "eventId": "1",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "finite",
+                    "name": "finite",
+                    "merged": false,
+                    "keywords": [
+                      "finite"
+                    ],
+                    "eventId": "7",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "undirected",
+                    "name": "undirected",
+                    "merged": false,
+                    "keywords": [
+                      "undirected"
+                    ],
+                    "eventId": "3",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "with_ports",
+                    "name": "with ports",
+                    "merged": false,
+                    "keywords": [
+                      "with ports"
+                    ],
+                    "eventId": "5",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "vertex_coloured",
+                    "name": "vertex coloured",
+                    "merged": false,
+                    "keywords": [
+                      "vertex coloured"
+                    ],
+                    "eventId": "6",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "vertex_colours_are_used_to_compare_with_word_languages_over_non-unary_alphabets",
+                    "name": "vertex colours are used to compare with word languages over non-unary alphabets",
+                    "merged": false,
+                    "keywords": [
+                      "vertex colours are used to compare with word languages over non-unary alphabets"
+                    ],
+                    "eventId": "4",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "symmetric_edge_relation",
+                    "name": "symmetric edge relation",
+                    "merged": false,
+                    "keywords": [
+                      "V",
+                      "v1, ..., vk",
+                      "E ⊆ V × V",
+                      "λ : V ⟶ Σ",
+                      "vertices",
+                      "symmetric edge relation",
+                      "colouring",
+                      "distinct ports"
+                    ],
+                    "eventId": "2",
+                    "disabled": false
+                  }
+                ],
+                "keywords": [
+                  "graphs with ports"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "child",
+                "name": "treewidth operations",
+                "id": "treewidth_operations",
+                "merged": true,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "The_treewidth_operations",
+                    "name": "The treewidth operations",
+                    "merged": false,
+                    "keywords": [
+                      "The treewidth operations",
+                      "Courcelle 1990"
+                    ],
+                    "eventId": "7",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "forget_the_last_port_in_a_graph_of_arity_k+1",
+                    "name": "forget the last port in a graph of arity k+1",
+                    "merged": false,
+                    "keywords": [
+                      "input",
+                      "output",
+                      "forget the last port in a graph of arity k+1",
+                      "1",
+                      "2"
+                    ],
+                    "eventId": "1",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "permute_ports_according_to_a_permutation__CF_80_of__7B1,_...,_k_7D",
+                    "name": "permute ports according to a permutation π of {1, ..., k}",
+                    "merged": false,
+                    "keywords": [
+                      "input",
+                      "output",
+                      "1",
+                      "2",
+                      "3",
+                      "permute ports according to a permutation π of {1, ..., k}"
+                    ],
+                    "eventId": "3",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "fuse_two_graphs_of_arity_k",
+                    "name": "fuse two graphs of arity k",
+                    "merged": false,
+                    "keywords": [
+                      "input",
+                      "output",
+                      "fuse two graphs of arity k",
+                      "1",
+                      "2"
+                    ],
+                    "eventId": "6",
+                    "disabled": false
+                  }
+                ],
+                "keywords": [
+                  "treewidth operations"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Definition._A_graph_language_is_a_set_of_graphs_of_same_arity,_using_labels_from_a_fixed_finite_alphabet__CE_A3.",
+                "name": "Definition. A graph language is a set of graphs of same arity, using labels from a fixed finite alphabet Σ.",
+                "merged": false,
+                "keywords": [
+                  "Definition. A graph language is a set of graphs of same arity, using labels from a fixed finite alphabet Σ."
+                ],
+                "eventId": "5",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Definition._A_graph_language_is_star-free_if_it_can_be_generated_from_finite_graph_languages,_using_Boolean_combinations_and_the_treewidth_operations.",
+                "name": "Definition. A graph language is star-free if it can be generated from finite graph languages, using Boolean combinations and the treewidth operations.",
+                "merged": false,
+                "keywords": [
+                  "Definition. A graph language is star-free if it can be generated from finite graph languages, using Boolean combinations and the treewidth operations."
+                ],
+                "eventId": "6",
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "examples of star free",
+                "id": "examples_of_star_free",
+                "merged": false,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "Examples",
+                    "name": "Examples",
+                    "merged": false,
+                    "keywords": [
+                      "Examples"
+                    ],
+                    "eventId": "1",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "L_=_all_graphs_of_arity_0",
+                    "name": "L = all graphs of arity 0",
+                    "merged": false,
+                    "keywords": [
+                      "L = all graphs of arity 0"
+                    ],
+                    "eventId": "2",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "complement_of_the_empty_set",
+                    "name": "complement of the empty set",
+                    "merged": false,
+                    "keywords": [
+                      "complement of the empty set"
+                    ],
+                    "eventId": "3",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "K_=_disconnected_graphs_of_arity_0",
+                    "name": "K = disconnected graphs of arity 0",
+                    "merged": false,
+                    "keywords": [
+                      "K = disconnected graphs of arity 0"
+                    ],
+                    "eventId": "4",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "fusion_of_L_with_L",
+                    "name": "fusion of L with L",
+                    "merged": false,
+                    "keywords": [
+                      "fusion of L with L"
+                    ],
+                    "eventId": "5",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "M_=_connected_graphs_of_arity_0",
+                    "name": "M = connected graphs of arity 0",
+                    "merged": false,
+                    "keywords": [
+                      "M = connected graphs of arity 0"
+                    ],
+                    "eventId": "6",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "complement_of_K",
+                    "name": "complement of K",
+                    "merged": false,
+                    "keywords": [
+                      "complement of K"
+                    ],
+                    "eventId": "7",
+                    "disabled": false
+                  }
+                ],
+                "keywords": [
+                  "examples of star free"
+                ],
+                "eventId": "3"
+              }
+            ],
+            "keywords": [
+              "star-free expressions"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "child",
+            "name": "first-order logic for graphs",
+            "id": "first-order_logic_for_graphs",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Definition._Separator_logic_is_first-order_logic_on_graphs_with_the_following_predicates_",
+                "name": "Definition. Separator logic is first-order logic on graphs with the following predicates:",
+                "merged": false,
+                "keywords": [
+                  "Definition. Separator logic is first-order logic on graphs with the following predicates:"
+                ],
+                "eventId": "1",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "vertex_x_has_label_a",
+                "name": "vertex x has label a",
+                "merged": false,
+                "keywords": [
+                  "a(x)",
+                  "vertex x has label a"
+                ],
+                "eventId": "3",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "there_is_an_edge_from_x_to_y",
+                "name": "there is an edge from x to y",
+                "merged": false,
+                "keywords": [
+                  "there is an edge from x to y",
+                  "E(x, y)"
+                ],
+                "eventId": "4",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "for_k_=_0,_this_means_that_x_and_y_cannot_be_connected_by_a_path",
+                "name": "for k = 0, this means that x and y cannot be connected by a path",
+                "merged": false,
+                "keywords": [
+                  "every path from x to y must visit one of z1, ..., zk",
+                  "Sk(x, y, z1, ..., zk)",
+                  "for k = 0, this means that x and y cannot be connected by a path"
+                ],
+                "eventId": "5",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Independently_studied_by_Schraeder,_Siebertz_and_Vigny",
+                "name": "Independently studied by Schraeder, Siebertz and Vigny",
+                "merged": false,
+                "keywords": [
+                  "Independently studied by Schraeder, Siebertz and Vigny"
+                ],
+                "eventId": "6",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Example._A_graph_is_a_tree_if_it_is_connected,_and_every_vertex_is_a_separator.",
+                "name": "Example. A graph is a tree if it is connected, and every vertex is a separator.",
+                "merged": false,
+                "keywords": [
+                  "Example. A graph is a tree if it is connected, and every vertex is a separator."
+                ],
+                "eventId": "2",
+                "disabled": false
+              }
+            ],
+            "keywords": [
+              "first-order logic for graphs"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "A_formula_of_separator_logic_with_k_free_variables_defines_a_graph_language_of_arity_k",
+            "name": "A formula of separator logic with k free variables defines a graph language of arity k",
+            "merged": false,
+            "keywords": [
+              "A formula of separator logic with k free variables defines a graph language of arity k"
+            ],
+            "eventId": "6",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Theorem._Star-free_expressions_and_separator_logic_define_the_same_graph_languages.",
+            "name": "Theorem. Star-free expressions and separator logic define the same graph languages.",
+            "merged": false,
+            "keywords": [
+              "Theorem. Star-free expressions and separator logic define the same graph languages."
+            ],
+            "eventId": "4",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "separator logic equals star-free",
+            "id": "separator_logic_equals_star-free",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "separator_logic__E2_8A_86_star-free",
+                "name": "separator logic ⊆ star-free",
+                "merged": false,
+                "keywords": [
+                  "separator logic ⊆ star-free"
+                ],
+                "eventId": "2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "for_every_formula__CF_86(x1,_...,_xk)_we_write_an_equivalent_star-free_expression",
+                "name": "for every formula φ(x1, ..., xk) we write an equivalent star-free expression",
+                "merged": false,
+                "keywords": [
+                  "for every formula φ(x1, ..., xk) we write an equivalent star-free expression"
+                ],
+                "eventId": "3",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "_C2_AC__E2_88_A7__E2_88_A8_are_built_in",
+                "name": "¬ ∧ ∨ are built in",
+                "merged": false,
+                "keywords": [
+                  "¬ ∧ ∨ are built in"
+                ],
+                "eventId": "4",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "_E2_88_83_is_forget",
+                "name": "∃ is forget",
+                "merged": false,
+                "keywords": [
+                  "∃ is forget"
+                ],
+                "eventId": "5",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "atomic_formulas_...",
+                "name": "atomic formulas ...",
+                "merged": false,
+                "keywords": [
+                  "atomic formulas ..."
+                ],
+                "eventId": "6",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "star-free__E2_8A_86_separator_logic",
+                "name": "star-free ⊆ separator logic",
+                "merged": false,
+                "keywords": [
+                  "star-free ⊆ separator logic"
+                ],
+                "eventId": "7",
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "star-free to logic",
+                "id": "star-free_to_logic",
+                "merged": false,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "Languages_definable_in_separator_logic_contain_all_finite_languages,_are_closed_under_Boolean_combinations,_forgetting_and_permutations.",
+                    "name": "Languages definable in separator logic contain all finite languages, are closed under Boolean combinations, forgetting and permutations.",
+                    "merged": false,
+                    "keywords": [
+                      "Languages definable in separator logic contain all finite languages, are closed under Boolean combinations, forgetting and permutations."
+                    ],
+                    "eventId": "6",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "The_interesting_case_is_fusion_L1__E2_8A_95_L2",
+                    "name": "The interesting case is fusion L1 ⊕ L2",
+                    "merged": false,
+                    "keywords": [
+                      "The interesting case is fusion L1 ⊕ L2"
+                    ],
+                    "eventId": "9",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "We_want_to_say_that_a_graph_G_admits_a_decomposition",
+                    "name": "We want to say that a graph G admits a decomposition",
+                    "merged": false,
+                    "keywords": [
+                      "We want to say that a graph G admits a decomposition"
+                    ],
+                    "eventId": "7",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "G_=_G1__E2_8A_95_G2",
+                    "name": "G = G1 ⊕ G2",
+                    "merged": false,
+                    "keywords": [
+                      "G = G1 ⊕ G2"
+                    ],
+                    "eventId": "10",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "with_G1__E2_88_88_L1_and_G2__E2_88_88_L2",
+                    "name": "with G1 ∈ L1 and G2 ∈ L2",
+                    "merged": false,
+                    "keywords": [
+                      "with G1 ∈ L1 and G2 ∈ L2"
+                    ],
+                    "eventId": "13",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "looks_like_set_quantification",
+                    "name": "looks like set quantification",
+                    "merged": false,
+                    "keywords": [
+                      "looks like set quantification"
+                    ],
+                    "eventId": "11",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "the_prime_factors",
+                    "name": "the prime factors",
+                    "merged": false,
+                    "keywords": [
+                      "the prime factors"
+                    ],
+                    "eventId": "16",
+                    "disabled": false
+                  },
+                  {
+                    "type": "child",
+                    "name": "prime factors",
+                    "id": "prime_factors",
+                    "merged": false,
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "decomposition_of_a_graph_into_prime_factors",
+                        "name": "decomposition of a graph into prime factors",
+                        "merged": false,
+                        "keywords": [
+                          "1",
+                          "2",
+                          "⊕",
+                          "=",
+                          "decomposition of a graph into prime factors"
+                        ],
+                        "eventId": "1",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "a_prime_factor_is_the_subgraph_induced_by__the_ports_+_one_connected_component_after_removing_ports",
+                        "name": "a prime factor is the subgraph induced by: the ports + one connected component after removing ports",
+                        "merged": false,
+                        "keywords": [
+                          "a prime factor is the subgraph induced by: the ports + one connected component after removing ports"
+                        ],
+                        "eventId": "2",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "The_decomposition_into_prime_factors_is_unique_(up_to_reordering)",
+                        "name": "The decomposition into prime factors is unique (up to reordering)",
+                        "merged": false,
+                        "keywords": [
+                          "The decomposition into prime factors is unique (up to reordering)"
+                        ],
+                        "eventId": "3",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "Lemma._Let_m__E2_88_88__7B0,_1,_..._7D._If_a_graph_language_L_is_definable_in_separator_logic,_then_so_is__E2_80_9Cat_least_m_prime_factors_in_L_E2_80_9D.",
+                        "name": "Lemma. Let m ∈ {0, 1, ...}. If a graph language L is definable in separator logic, then so is “at least m prime factors in L”.",
+                        "merged": false,
+                        "keywords": [
+                          "Lemma. Let m ∈ {0, 1, ...}. If a graph language L is definable in separator logic, then so is “at least m prime factors in L”."
+                        ],
+                        "eventId": "4",
+                        "disabled": false
+                      }
+                    ],
+                    "keywords": [
+                      "prime factors"
+                    ],
+                    "eventId": "1"
+                  },
+                  {
+                    "type": "show",
+                    "id": "compositionality",
+                    "name": "compositionality",
+                    "merged": false,
+                    "keywords": [
+                      "compositionality"
+                    ],
+                    "eventId": "12",
+                    "disabled": false
+                  },
+                  {
+                    "type": "child",
+                    "name": "compositionality of fusion",
+                    "id": "compositionality_of_fusion",
+                    "merged": false,
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "Two_graphs_of_equal_arity_are_called_(l,_r)-equivalent_if_they_satisfy_the_same_formulas_of_separator_logic_that_have_quantifier_rank_at_most_r_use_separator_predicates_of_arity_at_most_l",
+                        "name": "Two graphs of equal arity are called (l, r)-equivalent if they satisfy the same formulas of separator logic that have quantifier rank at most r use separator predicates of arity at most l",
+                        "merged": false,
+                        "keywords": [
+                          "Two graphs of equal arity are called (l, r)-equivalent if they satisfy the same formulas of separator logic that have quantifier rank at most r use separator predicates of arity at most l"
+                        ],
+                        "eventId": "1",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "Compositionality._For_every_l,_r,_k__E2_88_88__7B0,_1,_..._7D,",
+                        "name": "Compositionality. For every l, r, k ∈ {0, 1, ...},",
+                        "merged": false,
+                        "keywords": [
+                          "Compositionality. For every l, r, k ∈ {0, 1, ...},",
+                          "fusion of graphs of arity k"
+                        ],
+                        "eventId": "2",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "Corollary._For_every_l,_r,_k__E2_88_88__7B0,_1,_..._7D,_the_graphs_of_arity_k_modulo_(l,_r)-equivalence,_equipped_with_fusion,_form_a_finite_commutative_aperiodic_semigroup.",
+                        "name": "Corollary. For every l, r, k ∈ {0, 1, ...}, the graphs of arity k modulo (l, r)-equivalence, equipped with fusion, form a finite commutative aperiodic semigroup.",
+                        "merged": false,
+                        "keywords": [
+                          "Corollary. For every l, r, k ∈ {0, 1, ...}, the graphs of arity k modulo (l, r)-equivalence, equipped with fusion, form a finite commutative aperiodic semigroup."
+                        ],
+                        "eventId": "3",
+                        "disabled": false
+                      }
+                    ],
+                    "keywords": [
+                      "compositionality of fusion"
+                    ],
+                    "eventId": "5"
+                  },
+                  {
+                    "type": "show",
+                    "id": "defining_fusion",
+                    "name": "defining fusion",
+                    "merged": false,
+                    "keywords": [
+                      "defining fusion"
+                    ],
+                    "eventId": "14",
+                    "disabled": false
+                  },
+                  {
+                    "type": "child",
+                    "name": "endgame",
+                    "id": "endgame",
+                    "merged": false,
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "We_want_to_define_the_fusion_L1__E2_8A_95_L2",
+                        "name": "We want to define the fusion L1 ⊕ L2",
+                        "merged": false,
+                        "keywords": [
+                          "We want to define the fusion L1 ⊕ L2"
+                        ],
+                        "eventId": "1",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "Suppose_that_each_of_L1_and_L2_is_definable_in_separator_logic,_using_formulas_of_quantifier_depth_r_and_separator_predicates_of_arity_at_most_l.",
+                        "name": "Suppose that each of L1 and L2 is definable in separator logic, using formulas of quantifier depth r and separator predicates of arity at most l.",
+                        "merged": false,
+                        "keywords": [
+                          "Suppose that each of L1 and L2 is definable in separator logic, using formulas of quantifier depth r and separator predicates of arity at most l."
+                        ],
+                        "eventId": "2",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "which_says_how_many_prime_factors_have_are_in_a_given_equivalence_class,_with_counting_up_to_threshold_m.",
+                        "name": "which says how many prime factors have are in a given equivalence class, with counting up to threshold m.",
+                        "merged": false,
+                        "keywords": [
+                          "For m ∈ {0, 1, ...}, the m-profile of a graph is the vector in",
+                          "{0, 1, ..., m, >m}",
+                          "(l, r)-equivalence classes",
+                          "which says how many prime factors have are in a given equivalence class, with counting up to threshold m."
+                        ],
+                        "eventId": "3",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "There_is_some_m,_such_that_membership_of_a_graph_in_L1,_L2_and_L1__E2_8A_95_L2_is_determined_by_the_m-profile.",
+                        "name": "There is some m, such that membership of a graph in L1, L2 and L1 ⊕ L2 is determined by the m-profile.",
+                        "merged": false,
+                        "keywords": [
+                          "There is some m, such that membership of a graph in L1, L2 and L1 ⊕ L2 is determined by the m-profile."
+                        ],
+                        "eventId": "4",
+                        "disabled": false
+                      },
+                      {
+                        "type": "show",
+                        "id": "The_m-profile_can_be_defined_in_separator_logic.",
+                        "name": "The m-profile can be defined in separator logic.",
+                        "merged": false,
+                        "keywords": [
+                          "The m-profile can be defined in separator logic."
+                        ],
+                        "eventId": "5",
+                        "disabled": false
+                      }
+                    ],
+                    "keywords": [
+                      "endgame"
+                    ],
+                    "eventId": "3"
+                  }
+                ],
+                "keywords": [
+                  "star-free to logic"
+                ],
+                "eventId": "1"
+              }
+            ],
+            "keywords": [
+              "separator logic equals star-free"
+            ],
+            "eventId": "3"
+          }
+        ],
+        "keywords": [
+          "this talk"
+        ],
+        "eventId": "2"
+      },
+      {
+        "type": "show",
+        "id": "Closing_comments",
+        "name": "Closing comments",
+        "merged": false,
+        "keywords": [
+          "Closing comments"
+        ],
+        "eventId": "6",
+        "disabled": false
+      },
+      {
+        "type": "child",
+        "name": "closing comments",
+        "id": "closing_comments",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "What_is_the_point_of_all_this?",
+            "name": "What is the point of all this?",
+            "merged": false,
+            "keywords": [
+              "What is the point of all this?"
+            ],
+            "eventId": "1",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Efficient_evaluation_on_sparse_graphs",
+            "name": "Efficient evaluation on sparse graphs",
+            "merged": false,
+            "keywords": [
+              "Efficient evaluation on sparse graphs"
+            ],
+            "eventId": "2",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Works_easily_for_Sk(x,_y,_z1,_...,_zk)_with_k__E2_88_88__7B0,_1_7D,_but_is_not_FPT_for_k_=_2_on_certain_classes_of_bounded_expansion.",
+            "name": "Works easily for Sk(x, y, z1, ..., zk) with k ∈ {0, 1}, but is not FPT for k = 2 on certain classes of bounded expansion.",
+            "merged": false,
+            "keywords": [
+              "Works easily for Sk(x, y, z1, ..., zk) with k ∈ {0, 1}, but is not FPT for k = 2 on certain classes of bounded expansion."
+            ],
+            "eventId": "3",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "An_algebraic_theory",
+            "name": "An algebraic theory",
+            "merged": false,
+            "keywords": [
+              "An algebraic theory"
+            ],
+            "eventId": "4",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Given_a_regular_language_of_graphs,_decide_if_it_can_be_defined_in_separator_logic.",
+            "name": "Given a regular language of graphs, decide if it can be defined in separator logic.",
+            "merged": false,
+            "keywords": [
+              "Given a regular language of graphs, decide if it can be defined in separator logic."
+            ],
+            "eventId": "5",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Undecidable_in_general,_but_could_be_decidable_for_bounded_treewidth_or_pathwidth.",
+            "name": "Undecidable in general, but could be decidable for bounded treewidth or pathwidth.",
+            "merged": false,
+            "keywords": [
+              "Undecidable in general, but could be decidable for bounded treewidth or pathwidth."
+            ],
+            "eventId": "6",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "an_important_open_problem_for_treewidth_1",
+            "name": "an important open problem for treewidth 1",
+            "merged": false,
+            "keywords": [
+              "an important open problem for treewidth 1"
+            ],
+            "eventId": "7",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "looks_doable,_using_aperiodicity",
+            "name": "looks doable, using aperiodicity",
+            "merged": false,
+            "keywords": [
+              "looks doable, using aperiodicity"
+            ],
+            "eventId": "8",
+            "disabled": false
+          }
+        ],
+        "keywords": [
+          "closing comments"
+        ],
+        "eventId": "3"
+      }
+    ],
+    "keywords": [
+      "Star-free expressions for graphs",
+      "Mikołaj Bojańczyk",
+      "first slide"
+    ],
+    "eventId": "root"
+  },
+  "soundDict": {}
+}

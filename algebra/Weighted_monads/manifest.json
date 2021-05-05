@@ -125,10 +125,9 @@
             "name": "Fact. The following are equivalent for L : lin Σ+ → ℚ",
             "merged": false,
             "keywords": [
-              "Fact. The following are equivalent for L : lin Σ+ → ℚ",
-              "Reutenauer 1980"
+              "Fact. The following are equivalent for L : lin Σ+ → ℚ"
             ],
-            "eventId": "10",
+            "eventId": "5",
             "disabled": false
           },
           {
@@ -330,17 +329,6 @@
               "there is a version of block product that captures concatenation in star-free languages."
             ],
             "eventId": "7",
-            "disabled": false
-          },
-          {
-            "type": "show",
-            "id": "See_Reutenauer_1980.",
-            "name": "See Reutenauer 1980.",
-            "merged": false,
-            "keywords": [
-              "See Reutenauer 1980."
-            ],
-            "eventId": "8",
             "disabled": false
           }
         ],
@@ -1241,60 +1229,14 @@
     ],
     "eventId": "root"
   },
-  "soundDict": {},
-  "live": [
-    {
-      "date": "Tue Apr 20 2021 13:30:04 GMT+0200 (Central European Summer Time)",
-      "dir": "live_recording0",
-      "steps": [
-        {
-          "step": {
-            "type": "overlays",
-            "slide": "new_slide",
-            "direction": 1,
-            "overlays": [
-              "9"
-            ]
-          },
-          "duration": 1.656
-        },
-        {
-          "step": {
-            "type": "zoom",
-            "source": "new_slide",
-            "target": "algebras_instead_of_weighted_automata"
-          },
-          "duration": 0.216
-        },
-        {
-          "step": {
-            "type": "overlays",
-            "slide": "algebras_instead_of_weighted_automata",
-            "direction": 1,
-            "overlays": [
-              "3"
-            ]
-          },
-          "duration": 1.176
-        },
-        {
-          "step": {
-            "type": "overlays",
-            "slide": "algebras_instead_of_weighted_automata",
-            "direction": -1,
-            "overlays": [
-              "3"
-            ]
-          },
-          "duration": 0.576
-        },
-        {
-          "step": {
-            "type": "last"
-          },
-          "duration": 0.624
-        }
-      ]
+  "soundDict": {
+    "new_slide": {
+      "6": 1.656,
+      "9": 1.104
+    },
+    "algebras_instead_of_weighted_automata": {
+      "4": 0.744,
+      "9": 0.624
     }
-  ]
+  }
 }
