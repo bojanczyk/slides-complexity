@@ -24,7 +24,8 @@
     "free_multiplication_on_hypergraphs": "free_multiplication_on_hypergraphs",
     "mso_=_reco": "mso_=_reco",
     "cmso_vs_mso": "cmso_vs_mso",
-    "star_free_expressions": "star_free_expressions"
+    "star_free_expressions": "star_free_expressions",
+    "profinite_monad": "profinite_monad"
   },
   "tree": {
     "type": "child",
@@ -1131,6 +1132,65 @@
                   "Examples of monads and their algebras, part 3"
                 ],
                 "eventId": "3"
+              },
+              {
+                "type": "child",
+                "name": "profinite monad",
+                "id": "profinite_monad",
+                "merged": true,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "a_profinite_object_in_T_CE_A3_is_a_family_of_nonempty_recognisable_languages_L__E2_8A_86_T_CE_A3_that__is_closed_under_intersection;_and_contains_every_recognisable_language,_or_its_complement.",
+                    "name": "a profinite object in TΣ is a family of nonempty recognisable languages L ⊆ TΣ that: is closed under intersection; and contains every recognisable language, or its complement.",
+                    "merged": false,
+                    "keywords": [
+                      "If T is a monad, then so is:",
+                      "TΣ = profinite objects in TΣ",
+                      "a profinite object in TΣ is a family of nonempty recognisable languages L ⊆ TΣ that: is closed under intersection; and contains every recognisable language, or its complement.",
+                      "Profinite monads"
+                    ],
+                    "eventId": "1",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "In_particular,_there_are_meaningful_algebras_for_T.",
+                    "name": "In particular, there are meaningful algebras for T.",
+                    "merged": false,
+                    "keywords": [
+                      "In particular, there are meaningful algebras for T."
+                    ],
+                    "eventId": "2",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "Example._The_profinite_monad_corresponding_to_T_CE_A3_=__CE_A3*",
+                    "name": "Example. The profinite monad corresponding to TΣ = Σ*",
+                    "merged": false,
+                    "keywords": [
+                      "Example. The profinite monad corresponding to TΣ = Σ*"
+                    ],
+                    "eventId": "3",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "Here_finite_algebras_can_recognise_undecidable_languages,_which_arise_in_the_study_of_the_logic_MSO+U.",
+                    "name": "Here finite algebras can recognise undecidable languages, which arise in the study of the logic MSO+U.",
+                    "merged": false,
+                    "keywords": [
+                      "Here finite algebras can recognise undecidable languages, which arise in the study of the logic MSO+U."
+                    ],
+                    "eventId": "4",
+                    "disabled": false
+                  }
+                ],
+                "keywords": [
+                  "profinite monad"
+                ],
+                "eventId": "19"
               }
             ],
             "keywords": [
