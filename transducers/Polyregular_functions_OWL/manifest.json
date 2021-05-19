@@ -1,0 +1,682 @@
+{
+  "version": 0.915,
+  "presentation": "Polyregular functions OWL",
+  "slideDict": {
+    "new_slide": "first_slide",
+    "regular_functions": "regular_functions",
+    "Shepherdson": "Shepherdson",
+    "Courcelle": "Courcelle",
+    "Alur": "Alur",
+    "regfun": "regular_list_functions",
+    "prime_regular_list_functions": "prime_regular_list_functions",
+    "polyregular_functions": "polyregular_functions",
+    "polyregular_functions_functional": "polyregular_functions_functional",
+    "later_work": "later_work"
+  },
+  "tree": {
+    "type": "child",
+    "name": "first slide",
+    "id": "new_slide",
+    "merged": false,
+    "children": [
+      {
+        "type": "show",
+        "id": "String-to-string_transducers_are_functions_of_type__CE_A3*__E2_86_92__CE_93*_which_are_recognised_by_finite_state_devices.",
+        "name": "String-to-string transducers are functions of type Σ* → Γ* which are recognised by finite state devices.",
+        "merged": false,
+        "keywords": [
+          "String-to-string transducers are functions of type Σ* → Γ* which are recognised by finite state devices."
+        ],
+        "eventId": "5",
+        "disabled": false
+      },
+      {
+        "type": "show",
+        "id": "what_is_a_finite_state_device?",
+        "name": "what is a finite state device?",
+        "merged": false,
+        "keywords": [
+          "what is a finite state device?"
+        ],
+        "eventId": "7",
+        "disabled": false
+      },
+      {
+        "type": "show",
+        "id": "Regular_functions",
+        "name": "Regular functions",
+        "merged": false,
+        "keywords": [
+          "Regular functions"
+        ],
+        "eventId": "6",
+        "disabled": false
+      },
+      {
+        "type": "child",
+        "name": "regular functions",
+        "id": "regular_functions",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "123__E2_86_A6_123321",
+            "name": "123 ↦ 123321",
+            "merged": false,
+            "keywords": [
+              "123 ↦ 123321"
+            ],
+            "eventId": "5",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Copy_the_word_in_a_left-to-right_pass,_followed_by_a_right-to-left_pass.",
+            "name": "Copy the word in a left-to-right pass, followed by a right-to-left pass.",
+            "merged": false,
+            "keywords": [
+              "Two-way deterministic automata with output",
+              "Copy the word in a left-to-right pass, followed by a right-to-left pass.",
+              "Shepherdson 1958"
+            ],
+            "eventId": "3",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "Shepherdson",
+            "id": "Shepherdson",
+            "merged": false,
+            "children": [],
+            "keywords": [
+              "Shepherdson"
+            ],
+            "eventId": "9"
+          },
+          {
+            "type": "show",
+            "id": "Every_position_of_the_output_is_either_a_first_copy_of_some_input_position,_or_a_second_copy._All_first_copies_are_before_all_second_copies;_the_first_copies_are_ordered_increasingly,_the_second_copies_decreasingly.",
+            "name": "Every position of the output is either a first copy of some input position, or a second copy. All first copies are before all second copies; the first copies are ordered increasingly, the second copies decreasingly.",
+            "merged": false,
+            "keywords": [
+              "Monadic second-order transductions",
+              "Every position of the output is either a first copy of some input position, or a second copy. All first copies are before all second copies; the first copies are ordered increasingly, the second copies decreasingly.",
+              "Courcelle, Engelfriet"
+            ],
+            "eventId": "6",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "Courcelle",
+            "id": "Courcelle",
+            "merged": false,
+            "children": [],
+            "keywords": [
+              "Courcelle"
+            ],
+            "eventId": "10"
+          },
+          {
+            "type": "show",
+            "id": "Shown_equivalent_by_Engelfriet_and_Hoogeboom_2001",
+            "name": "Shown equivalent by Engelfriet and Hoogeboom 2001",
+            "merged": false,
+            "keywords": [
+              "Shown equivalent by Engelfriet and Hoogeboom 2001"
+            ],
+            "eventId": "7",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "After_reading_a_word_w,_the_first_register_stores_w,_while_the_second_register_stores_the_reverse_of_w.",
+            "name": "After reading a word w, the first register stores w, while the second register stores the reverse of w.",
+            "merged": false,
+            "keywords": [
+              "Streaming string transducers",
+              "After reading a word w, the first register stores w, while the second register stores the reverse of w.",
+              "Alur and Černý 2011"
+            ],
+            "eventId": "2",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "Alur",
+            "id": "Alur",
+            "merged": false,
+            "children": [],
+            "keywords": [
+              "Alur"
+            ],
+            "eventId": "11"
+          },
+          {
+            "type": "show",
+            "id": "Also__regular_expressions_Krohn-Rhodes",
+            "name": "Also: regular expressions Krohn-Rhodes",
+            "merged": false,
+            "keywords": [
+              "Also: regular expressions Krohn-Rhodes"
+            ],
+            "eventId": "8",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "B.,_Krishna,_Daviaud_2018",
+            "name": "B., Krishna, Daviaud 2018",
+            "merged": false,
+            "keywords": [
+              "Regular list functions",
+              "B., Krishna, Daviaud 2018"
+            ],
+            "eventId": "4",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "regular list functions",
+            "id": "regfun",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "every_finite_set__7C__CF_84_+__CF_84__7C__CF_84__C3_97__CF_84__7C__CF_84*",
+                "name": "every finite set | τ + τ | τ × τ | τ*",
+                "merged": false,
+                "keywords": [
+                  "Datatypes",
+                  "every finite set | τ + τ | τ × τ | τ*"
+                ],
+                "eventId": "3",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Prime_functions",
+                "name": "Prime functions",
+                "merged": false,
+                "keywords": [
+                  "Prime functions"
+                ],
+                "eventId": "2",
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "prime regular list functions",
+                "id": "prime_regular_list_functions",
+                "merged": false,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "every_constant_function",
+                    "name": "every constant function",
+                    "merged": false,
+                    "keywords": [
+                      "every constant function"
+                    ],
+                    "eventId": "1",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "inductive_definition_of_lists",
+                    "name": "inductive definition of lists",
+                    "merged": false,
+                    "keywords": [
+                      "τ* ↔︎ 1 + τ*",
+                      "inductive definition of lists"
+                    ],
+                    "eventId": "2",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "_CF_84__C3_97_(_CF_831_+__CF_832)__E2_86_92_(_CF_84__C3_97__CF_831)_+_(_CF_84__C3_97__CF_832)",
+                    "name": "τ × (σ1 + σ2) → (τ × σ1) + (τ × σ2)",
+                    "merged": false,
+                    "keywords": [
+                      "τ × (σ1 + σ2) → (τ × σ1) + (τ × σ2)",
+                      "distribute"
+                    ],
+                    "eventId": "4",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "co-projection",
+                    "name": "co-projection",
+                    "merged": false,
+                    "keywords": [
+                      "τi → τ1 + τ2",
+                      "co-projection"
+                    ],
+                    "eventId": "3",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "_CF_841__C3_97__CF_842__E2_86_92__CF_84i",
+                    "name": "τ1 × τ2 → τi",
+                    "merged": false,
+                    "keywords": [
+                      "τ1 × τ2 → τi",
+                      "projection"
+                    ],
+                    "eventId": "9",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "_CF_84*__E2_86_92__CF_84*",
+                    "name": "τ* → τ*",
+                    "merged": false,
+                    "keywords": [
+                      "τ* → τ*",
+                      "reverse"
+                    ],
+                    "eventId": "5",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "_CF_84**__E2_86_92__CF_84*",
+                    "name": "τ** → τ*",
+                    "merged": false,
+                    "keywords": [
+                      "τ** → τ*",
+                      "concat"
+                    ],
+                    "eventId": "6",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "(_CF_84_+__CF_83)*__E2_86_92_(_CF_84*_+__CF_83*)*",
+                    "name": "(τ + σ)* → (τ* + σ*)*",
+                    "merged": false,
+                    "keywords": [
+                      "(τ + σ)* → (τ* + σ*)*",
+                      "block"
+                    ],
+                    "eventId": "7",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "_5B1,2,a,b,3,c,d,e,4,5,6_5D__E2_86_A6__5B_5B1,2_5D,_5Ba,b_5D,_5B3_5D,_5Bc,d,e_5D,_5B4,5,6_5D_5D",
+                    "name": "[1,2,a,b,3,c,d,e,4,5,6] ↦ [[1,2],[a,b],[3],[c,d,e],[4,5,6]]",
+                    "merged": false,
+                    "keywords": [
+                      "[1,2,a,b,3,c,d,e,4,5,6] ↦ [[1,2],[a,b],[3],[c,d,e],[4,5,6]]"
+                    ],
+                    "eventId": "8",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "group_product_when__CF_84_is_a_finite_group",
+                    "name": "group product when τ is a finite group",
+                    "merged": false,
+                    "keywords": [
+                      "τ* → τ*",
+                      "group product when τ is a finite group"
+                    ],
+                    "eventId": "10",
+                    "disabled": false
+                  }
+                ],
+                "keywords": [
+                  "prime regular list functions"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Combinators",
+                "name": "Combinators",
+                "merged": false,
+                "keywords": [
+                  "Combinators"
+                ],
+                "eventId": "6",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "_CF_841__E2_86_92__CF_83__CF_842__E2_86_92__CF_83",
+                "name": "τ1 → σ τ2 → σ",
+                "merged": false,
+                "keywords": [
+                  "τ1 + τ2 → σ",
+                  "τ1 → σ τ2 → σ"
+                ],
+                "eventId": "5",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "_CF_84__E2_86_92__CF_831__CF_84__E2_86_92__CF_832",
+                "name": "τ → σ1 τ → σ2",
+                "merged": false,
+                "keywords": [
+                  "τ → σ1 × σ2",
+                  "τ → σ1 τ → σ2"
+                ],
+                "eventId": "7",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "_CF_841__E2_86_92__CF_842__CF_842__E2_86_92__CF_843",
+                "name": "τ1 → τ2 τ2 → τ3",
+                "merged": false,
+                "keywords": [
+                  "τ1 → τ3",
+                  "τ1 → τ2 τ2 → τ3"
+                ],
+                "eventId": "4",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "_CF_84*__E2_86_92__CF_83*",
+                "name": "τ* → σ*",
+                "merged": false,
+                "keywords": [
+                  "τ* → σ*",
+                  "τ → σ"
+                ],
+                "eventId": "8",
+                "disabled": false
+              }
+            ],
+            "keywords": [
+              "regular list functions"
+            ],
+            "eventId": "1"
+          }
+        ],
+        "keywords": [
+          "regular functions"
+        ],
+        "eventId": "1"
+      },
+      {
+        "type": "show",
+        "id": "Polyregular__functions",
+        "name": "Polyregular  functions",
+        "merged": false,
+        "keywords": [
+          "Polyregular functions",
+          "⊆",
+          "Polyregular  functions"
+        ],
+        "eventId": "9",
+        "disabled": false
+      },
+      {
+        "type": "child",
+        "name": "polyregular functions",
+        "id": "polyregular_functions",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "1234__E2_86_A6_4321432434",
+            "name": "1234 ↦ 4321432434",
+            "merged": false,
+            "keywords": [
+              "1234 ↦ 4321432434"
+            ],
+            "eventId": "2",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Two-way_deterministic_automata_with_output_and_k_pebbles",
+            "name": "Two-way deterministic automata with output and k pebbles",
+            "merged": false,
+            "keywords": [
+              "Two-way deterministic automata with output and k pebbles",
+              "Milo, Suciu and Vianu 2003"
+            ],
+            "eventId": "3",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "for_x_in_first_to_last_for_y_in_last_to_first_if_x__E2_89_A4_y_then_if_a(x)_then_output_a_if_b(x)_then_output_b",
+            "name": "for x in first to last for y in last to first if x ≤ y then if a(x) then output a if b(x) then output b",
+            "merged": false,
+            "keywords": [
+              "For transducers",
+              "for x in first to last for y in last to first if x ≤ y then if a(x) then output a if b(x) then output b"
+            ],
+            "eventId": "6",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Every_position_of_the_output_corresponds_to_a_pair_(x,_y)_of_input_positions_such_that_x__E2_89_A4_y._There_is_a_formula_which_describes_the_order_on_such_pairs__(x,_y)__E2_89_BC_(x_E2_80_99,_y_E2_80_99)",
+            "name": "Every position of the output corresponds to a pair (x, y) of input positions such that x ≤ y. There is a formula which describes the order on such pairs: (x, y) ≼ (x’, y’)",
+            "merged": false,
+            "keywords": [
+              "Every position of the output corresponds to a pair (x, y) of input positions such that x ≤ y. There is a formula which describes the order on such pairs: (x, y) ≼ (x’, y’)",
+              "Monadic second-order interpretations"
+            ],
+            "eventId": "5",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Least_class_of_functions_which_contains_all_regular_functions,_is_closed_under_composition,_and_contains_1234__E2_86_A6_1234_1234_1234_1234",
+            "name": "Least class of functions which contains all regular functions, is closed under composition, and contains 1234 ↦ 1234 1234 1234 1234",
+            "merged": false,
+            "keywords": [
+              "Least class of functions which contains all regular functions, is closed under composition, and contains 1234 ↦ 1234 1234 1234 1234",
+              "Krohn-Rhodes"
+            ],
+            "eventId": "11",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Functional_programs",
+            "name": "Functional programs",
+            "merged": false,
+            "keywords": [
+              "Functional programs"
+            ],
+            "eventId": "10",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "polyregular functions functional",
+            "id": "polyregular_functions_functional",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Use_simply_typed__CE_BB-calculus_with_the_datatypes",
+                "name": "Use simply typed λ-calculus with the datatypes",
+                "merged": false,
+                "keywords": [
+                  "Use simply typed λ-calculus with the datatypes",
+                  "every finite set | τ + τ | τ × τ | τ*,"
+                ],
+                "eventId": "5",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "the_prime_functions_from_the_regular_list_functions,",
+                "name": "the prime functions from the regular list functions,",
+                "merged": false,
+                "keywords": [
+                  "the prime functions from the regular list functions,"
+                ],
+                "eventId": "6",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "_5B1,2,3_5D__E2_86_A6__5B(_5B_5D,_5B1,2,3_5D),(_5B1_5D,_5B2,3_5D),(_5B1,2_5D,_5B_5D),(_5B1,2,3_5D,_5B_5D)_5D",
+                "name": "[1,2,3] ↦ [([],[1,2,3]),([1],[2,3]),([1,2],[]),([1,2,3],[])]",
+                "merged": false,
+                "keywords": [
+                  "[1,2,3] ↦ [([],[1,2,3]),([1],[2,3]),([1,2],[]),([1,2,3],[])]",
+                  "and the following split function:"
+                ],
+                "eventId": "7",
+                "disabled": false
+              }
+            ],
+            "keywords": [
+              "polyregular functions functional"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "easy_1",
+            "name": "easy 1",
+            "merged": false,
+            "keywords": [
+              "easy 1"
+            ],
+            "eventId": "20",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Group_2",
+            "name": "Group 2",
+            "merged": false,
+            "keywords": [
+              "Group 2"
+            ],
+            "eventId": "18",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Group_1",
+            "name": "Group 1",
+            "merged": false,
+            "keywords": [
+              "Group 1"
+            ],
+            "eventId": "17",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "compositionality",
+            "name": "compositionality",
+            "merged": false,
+            "keywords": [
+              "compositionality",
+              "Lhote Kiefer 2019"
+            ],
+            "eventId": "7",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "_CE_B2-reduction",
+            "name": "β-reduction",
+            "merged": false,
+            "keywords": [
+              "β-reduction"
+            ],
+            "eventId": "8",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "factorization_forests",
+            "name": "factorization forests",
+            "merged": false,
+            "keywords": [
+              "factorization forests"
+            ],
+            "eventId": "9",
+            "disabled": false
+          }
+        ],
+        "keywords": [
+          "polyregular functions"
+        ],
+        "eventId": "2"
+      },
+      {
+        "type": "child",
+        "name": "later work",
+        "id": "later_work",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Open_problem__Is_equivalence_decidable?",
+            "name": "Open problem: Is equivalence decidable?",
+            "merged": false,
+            "keywords": [
+              "Open problem: Is equivalence decidable?"
+            ],
+            "eventId": "3",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Ga_C3_ABtan_Dou_C3_A9neau-Tabot__Decidable_for_one-letter_output_alphabets.",
+            "name": "Gaëtan Douéneau-Tabot: Decidable for one-letter output alphabets.",
+            "merged": false,
+            "keywords": [
+              "Gaëtan Douéneau-Tabot: Decidable for one-letter output alphabets."
+            ],
+            "eventId": "4",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Lhote_2019_Polyregular__E2_88_A7_linear_size_increase__E2_9F_BA_regular",
+            "name": "Lhote 2019 Polyregular ∧ linear size increase ⟺ regular",
+            "merged": false,
+            "keywords": [
+              "Lhote 2019 Polyregular ∧ linear size increase ⟺ regular"
+            ],
+            "eventId": "1",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Le_CC_82_Tha_CC_80nh_Du_CC_83ng_(Tito)_Nguy_C3_AA_CC_83n,_Pierre_Pradic_2021_Comparison_free_polyregular__E2_9F_BA_a_linear_type__CE_BB-calculus",
+            "name": "Lê Thành Dũng (Tito) Nguyễn, Pierre Pradic 2021 Comparison free polyregular ⟺ a linear type λ-calculus",
+            "merged": false,
+            "keywords": [
+              "Lê Thành Dũng (Tito) Nguyễn, Pierre Pradic 2021 Comparison free polyregular ⟺ a linear type λ-calculus"
+            ],
+            "eventId": "2",
+            "disabled": false
+          }
+        ],
+        "keywords": [
+          "later work"
+        ],
+        "eventId": "3"
+      }
+    ],
+    "keywords": [
+      "Polyregular functions",
+      "Mikołaj Bojańczyk • Warsaw",
+      "first slide"
+    ],
+    "eventId": "root"
+  },
+  "soundDict": {}
+}
