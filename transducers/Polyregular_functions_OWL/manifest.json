@@ -227,7 +227,7 @@
                     "name": "inductive definition of lists",
                     "merged": false,
                     "keywords": [
-                      "τ* ↔︎ 1 + τ*",
+                      "τ* ↔︎ 1 + (τ × τ*)",
                       "inductive definition of lists"
                     ],
                     "eventId": "2",
