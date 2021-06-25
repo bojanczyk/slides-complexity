@@ -346,6 +346,17 @@
                   },
                   {
                     "type": "show",
+                    "id": "A_profinite_word_is_described_by_giving_the_regular_languages_to_which__E2_80_9Cit_belongs_E2_80_9D.",
+                    "name": "A profinite word is described by giving the regular languages to which “it belongs”.",
+                    "merged": false,
+                    "keywords": [
+                      "A profinite word is described by giving the regular languages to which “it belongs”."
+                    ],
+                    "eventId": "11",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
                     "id": "Example_languages_of_profinite_words",
                     "name": "Example languages of profinite words",
                     "merged": false,
@@ -1828,5 +1839,12 @@
     ],
     "eventId": "root"
   },
-  "soundDict": {}
+  "soundDict": {},
+  "live": [
+    {
+      "date": "Fri Jun 25 2021 16:51:03 GMT+0200 (Central European Summer Time)",
+      "dir": "live_recording0",
+      "steps": []
+    }
+  ]
 }
