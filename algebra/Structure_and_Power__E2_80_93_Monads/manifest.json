@@ -1,0 +1,1832 @@
+{
+  "version": 0.915,
+  "presentation": "Structure and Power – Monads",
+  "slideDict": {
+    "new_slide": "new_slide",
+    "recognizable_languages": "recognizable_languages",
+    "monads": "examples_of_structures",
+    "profinite_words": "profinite_words",
+    "monads2": "monads",
+    "universal_algebra_bad": "universal_algebra_bad",
+    "eilenberg-moore_algebras": "eilenberg-moore_algebras",
+    "profinite_words,_2": "profinite_words,_2",
+    "weighted_words": "weighted_words",
+    "shuffle_words": "shuffle_words",
+    "some_theorems": "some_theorems",
+    "graph_monads": "graph_monads",
+    "graph_monads,_2": "graph_monads,_2",
+    "star-free": "star-free",
+    "infinite_trees": "infinite_trees",
+    "anti-regular": "anti-regular",
+    "conclusion": "conclusion"
+  },
+  "tree": {
+    "type": "child",
+    "name": "new slide",
+    "id": "new_slide",
+    "merged": false,
+    "children": [
+      {
+        "type": "show",
+        "id": "Inspiration",
+        "name": "Inspiration",
+        "merged": false,
+        "keywords": [
+          "Inspiration"
+        ],
+        "eventId": "9",
+        "disabled": false
+      },
+      {
+        "type": "child",
+        "name": "recognizable languages",
+        "id": "recognizable_languages",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "recognized_by_a_finite_state_device,_e.g._an_automaton_or_monoid",
+            "name": "recognized by a finite state device, e.g. an automaton or monoid",
+            "merged": false,
+            "keywords": [
+              "Two central theorems about recognizable languages (and logic).",
+              "recognized by a finite state device, e.g. an automaton or monoid"
+            ],
+            "eventId": "2",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Theorem__5BB_C3_BCchi_Elgot_Trakthenbrot_~1958_5D._A_language_L__E2_8A_86__CE_A3*_is_recognized_by_a_finite_monoid_if_and_only_if_it_can_be_defined_in_monadic_second-order_logic.",
+            "name": "Theorem [Büchi Elgot Trakthenbrot ~1958]. A language L ⊆ Σ* is recognized by a finite monoid if and only if it can be defined in monadic second-order logic.",
+            "merged": false,
+            "keywords": [
+              "Theorem [Büchi Elgot Trakthenbrot ~1958]. A language L ⊆ Σ* is recognized by a finite monoid if and only if it can be defined in monadic second-order logic."
+            ],
+            "eventId": "3",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Theorem__5BSch_C3_BCtzenberger_1965_5D_A_language_L__E2_8A_86__CE_A3*_is_recognized_by_a_finite_monoid_without_non-trivial_groups_if_and_only_if_it_can_be_defined_first-order_logic.",
+            "name": "Theorem [Schützenberger 1965] A language L ⊆ Σ* is recognized by a finite monoid without non-trivial groups if and only if it can be defined first-order logic.",
+            "merged": false,
+            "keywords": [
+              "Theorem [Schützenberger 1965] A language L ⊆ Σ* is recognized by a finite monoid without non-trivial groups if and only if it can be defined first-order logic."
+            ],
+            "eventId": "4",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "works_also_for__(buchi)",
+            "name": "works also for: (buchi)",
+            "merged": false,
+            "keywords": [
+              "works also for: (buchi)"
+            ],
+            "eventId": "13",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "_CF_89-words_and_some_(but_not_all)_of_their_extensions",
+            "name": "ω-words and some (but not all) of their extensions",
+            "merged": false,
+            "keywords": [
+              "ω-words and some (but not all) of their extensions"
+            ],
+            "eventId": "6",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "finite_and_infinite_trees",
+            "name": "finite and infinite trees",
+            "merged": false,
+            "keywords": [
+              "finite and infinite trees"
+            ],
+            "eventId": "7",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "graphs_of_bounded_treewidth",
+            "name": "graphs of bounded treewidth",
+            "merged": false,
+            "keywords": [
+              "graphs of bounded treewidth"
+            ],
+            "eventId": "8",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "works_also_for__(schutz)",
+            "name": "works also for: (schutz)",
+            "merged": false,
+            "keywords": [
+              "works also for: (schutz)"
+            ],
+            "eventId": "14",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "other_classes_of_languages_of_finite_words,_e.g._those_definable_using__E2_88_80*_E2_88_83*_first-order_formulas",
+            "name": "other classes of languages of finite words, e.g. those definable using ∀*∃* first-order formulas",
+            "merged": false,
+            "keywords": [
+              "other classes of languages of finite words, e.g. those definable using ∀*∃* first-order formulas"
+            ],
+            "eventId": "10",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "for_some_languages_over__CF_89-words_and_their_extensions",
+            "name": "for some languages over ω-words and their extensions",
+            "merged": false,
+            "keywords": [
+              "for some languages over ω-words and their extensions"
+            ],
+            "eventId": "11",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "for_some_tree_languages,_but_first-order_logic_for_trees_is_an_open_problem",
+            "name": "for some tree languages, but first-order logic for trees is an open problem",
+            "merged": false,
+            "keywords": [
+              "for some tree languages, but first-order logic for trees is an open problem"
+            ],
+            "eventId": "12",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "There_are_enough_examples_to_ask_questions_like_",
+            "name": "There are enough examples to ask questions like:",
+            "merged": false,
+            "keywords": [
+              "There are enough examples to ask questions like:"
+            ],
+            "eventId": "15",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Which_languages_are_recognizable?",
+            "name": "Which languages are recognizable?",
+            "merged": false,
+            "keywords": [
+              "Which languages are recognizable?"
+            ],
+            "eventId": "16",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Which_ones_are_definable_in_logic?",
+            "name": "Which ones are definable in logic?",
+            "merged": false,
+            "keywords": [
+              "Which ones are definable in logic?"
+            ],
+            "eventId": "17",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "examples of structures",
+            "id": "monads",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "What_is_a_recognizable_language_of_type__7B1,_2,_..._7D__E2_86_92__CE_A3_?",
+                "name": "What is a recognizable language of type {1, 2, ...} → Σ ?",
+                "merged": false,
+                "keywords": [
+                  "What is a recognizable language of type {1, 2, ...} → Σ ?"
+                ],
+                "eventId": "2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Those_recognized_by_a_nondeterministic_B_C3_BCchi_automata.",
+                "name": "Those recognized by a nondeterministic Büchi automata.",
+                "merged": false,
+                "keywords": [
+                  "Those recognized by a nondeterministic Büchi automata."
+                ],
+                "eventId": "3",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "What_is_a_recognizable_language_of_words_of_type__E2_84_9A__E2_86_92__CE_A3_?",
+                "name": "What is a recognizable language of words of type ℚ → Σ ?",
+                "merged": false,
+                "keywords": [
+                  "What is a recognizable language of words of type ℚ → Σ ?"
+                ],
+                "eventId": "4",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "No_appropriate_automaton_model_is_known,_but_monoids_are_known.",
+                "name": "No appropriate automaton model is known, but monoids are known.",
+                "merged": false,
+                "keywords": [
+                  "No appropriate automaton model is known, but monoids are known."
+                ],
+                "eventId": "5",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "What_is_a_recognizable_language_of_graphs_?",
+                "name": "What is a recognizable language of graphs ?",
+                "merged": false,
+                "keywords": [
+                  "What is a recognizable language of graphs ?"
+                ],
+                "eventId": "6",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "No_appropriate_automaton_model_is_known,_but_monoids_are_known._(graphs)",
+                "name": "No appropriate automaton model is known, but monoids are known. (graphs)",
+                "merged": false,
+                "keywords": [
+                  "No appropriate automaton model is known, but monoids are known. (graphs)"
+                ],
+                "eventId": "10",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "What_is_a_recognizable_language_of_trees__7B0,1_7D*__E2_86_92__CE_A3_?",
+                "name": "What is a recognizable language of trees {0,1}* → Σ ?",
+                "merged": false,
+                "keywords": [
+                  "What is a recognizable language of trees {0,1}* → Σ ?"
+                ],
+                "eventId": "8",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "The_automata_are_nondeterministic_Rabin_tree_automata._Monoids_are_not_known.",
+                "name": "The automata are nondeterministic Rabin tree automata. Monoids are not known.",
+                "merged": false,
+                "keywords": [
+                  "The automata are nondeterministic Rabin tree automata. Monoids are not known."
+                ],
+                "eventId": "9",
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "profinite words",
+                "id": "profinite_words",
+                "merged": false,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "Example__profinite_words",
+                    "name": "Example: profinite words",
+                    "merged": false,
+                    "keywords": [
+                      "Example: profinite words"
+                    ],
+                    "eventId": "1",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "number_of_states_in_the_smallest_DFA_that_accepts_one_of_the_words,_but_rejects_the_other",
+                    "name": "number of states in the smallest DFA that accepts one of the words, but rejects the other",
+                    "merged": false,
+                    "keywords": [
+                      "Define the automaton distance between two words in Σ* to be",
+                      "1",
+                      "number of states in the smallest DFA that accepts one of the words, but rejects the other"
+                    ],
+                    "eventId": "2",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "Every_sequence_of_words_contains_a_Cauchy_sub-sequence.",
+                    "name": "Every sequence of words contains a Cauchy sub-sequence.",
+                    "merged": false,
+                    "keywords": [
+                      "Every sequence of words contains a Cauchy sub-sequence."
+                    ],
+                    "eventId": "3",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "Definition._A_profinite_word_is_a_Cauchy_sequence,_modulo_having_the_same_limit.",
+                    "name": "Definition. A profinite word is a Cauchy sequence, modulo having the same limit.",
+                    "merged": false,
+                    "keywords": [
+                      "Definition. A profinite word is a Cauchy sequence, modulo having the same limit."
+                    ],
+                    "eventId": "4",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "Example_languages_of_profinite_words",
+                    "name": "Example languages of profinite words",
+                    "merged": false,
+                    "keywords": [
+                      "Example languages of profinite words"
+                    ],
+                    "eventId": "5",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "Profinite_words_which_have_length_at_least_5.",
+                    "name": "Profinite words which have length at least 5.",
+                    "merged": false,
+                    "keywords": [
+                      "Profinite words which have length at least 5."
+                    ],
+                    "eventId": "6",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "Profinite_words_which,_for_every_n__E2_88_88__7B1,_2,_..._7D,_have_length_at_least_n.",
+                    "name": "Profinite words which, for every n ∈ {1, 2, ...}, have length at least n.",
+                    "merged": false,
+                    "keywords": [
+                      "Profinite words which, for every n ∈ {1, 2, ...}, have length at least n."
+                    ],
+                    "eventId": "10",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "Profinite_words_which_contain_a_palindrome.",
+                    "name": "Profinite words which contain a palindrome.",
+                    "merged": false,
+                    "keywords": [
+                      "Profinite words which contain a palindrome."
+                    ],
+                    "eventId": "8",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "Which_ones_are_recognizable?",
+                    "name": "Which ones are recognizable?",
+                    "merged": false,
+                    "keywords": [
+                      "Which ones are recognizable?"
+                    ],
+                    "eventId": "9",
+                    "disabled": false
+                  }
+                ],
+                "keywords": [
+                  "profinite words"
+                ],
+                "eventId": "1"
+              }
+            ],
+            "keywords": [
+              "examples of structures"
+            ],
+            "eventId": "1"
+          }
+        ],
+        "keywords": [
+          "recognizable languages"
+        ],
+        "eventId": "1"
+      },
+      {
+        "type": "show",
+        "id": "Monads",
+        "name": "Monads",
+        "merged": false,
+        "keywords": [
+          "Monads"
+        ],
+        "eventId": "11",
+        "disabled": false
+      },
+      {
+        "type": "child",
+        "name": "monads",
+        "id": "monads2",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Recognizable_languages_using_monads_",
+            "name": "Recognizable languages using monads:",
+            "merged": false,
+            "keywords": [
+              "Recognizable languages using monads:"
+            ],
+            "eventId": "6",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "universal algebra bad",
+            "id": "universal_algebra_bad",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Definition._A_monad_(in_the_category_of_sets)_consists_of_",
+                "name": "Definition. A monad (in the category of sets) consists of:",
+                "merged": false,
+                "keywords": [
+                  "Definition. A monad (in the category of sets) consists of:"
+                ],
+                "eventId": "1",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "for_every_set_X,_a_set_T(X)",
+                "name": "for every set X, a set T(X)",
+                "merged": false,
+                "keywords": [
+                  "for every set X, a set T(X)"
+                ],
+                "eventId": "2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Example._T(X)_=_X+",
+                "name": "Example. T(X) = X+",
+                "merged": false,
+                "keywords": [
+                  "Example. T(X) = X+"
+                ],
+                "eventId": "7",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "2._for_every_function_f___X__E2_86_92_Y,_a_function_T(f_)___T(X)__E2_86_92_T(Y)",
+                "name": "2. for every function f : X → Y, a function T(f ) : T(X) → T(Y)",
+                "merged": false,
+                "keywords": [
+                  "2. for every function f : X → Y, a function T(f ) : T(X) → T(Y)"
+                ],
+                "eventId": "3",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "T(f_)_applies_f_to_each_letter",
+                "name": "T(f ) applies f to each letter",
+                "merged": false,
+                "keywords": [
+                  "T(f ) applies f to each letter"
+                ],
+                "eventId": "8",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "3._for_every_set_X,_a_function_unit___X__E2_86_92_T(X)",
+                "name": "3. for every set X, a function unit : X → T(X)",
+                "merged": false,
+                "keywords": [
+                  "3. for every set X, a function unit : X → T(X)"
+                ],
+                "eventId": "4",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "a__E2_86_A6__5Ba_5D",
+                "name": "a ↦ [a]",
+                "merged": false,
+                "keywords": [
+                  "a ↦ [a]"
+                ],
+                "eventId": "9",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "4._for_every_set_X,_a_function__CE_BC___T(T(X))__E2_86_92_T(X)",
+                "name": "4. for every set X, a function μ : T(T(X)) → T(X)",
+                "merged": false,
+                "keywords": [
+                  "4. for every set X, a function μ : T(T(X)) → T(X)"
+                ],
+                "eventId": "5",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "string_concatenation",
+                "name": "string concatenation",
+                "merged": false,
+                "keywords": [
+                  "string concatenation"
+                ],
+                "eventId": "10",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "subject_to_some_axioms...",
+                "name": "subject to some axioms...",
+                "merged": false,
+                "keywords": [
+                  "subject to some axioms..."
+                ],
+                "eventId": "6",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Example._T(X)_=_powerset_of_X",
+                "name": "Example. T(X) = powerset of X",
+                "merged": false,
+                "keywords": [
+                  "Example. T(X) = powerset of X"
+                ],
+                "eventId": "11",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "image_under_f",
+                "name": "image under f",
+                "merged": false,
+                "keywords": [
+                  "image under f"
+                ],
+                "eventId": "12",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "a__E2_86_A6__7Ba__7D",
+                "name": "a ↦ {a }",
+                "merged": false,
+                "keywords": [
+                  "a ↦ {a }"
+                ],
+                "eventId": "13",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "set_union",
+                "name": "set union",
+                "merged": false,
+                "keywords": [
+                  "set union"
+                ],
+                "eventId": "14",
+                "disabled": false
+              }
+            ],
+            "keywords": [
+              "universal algebra bad"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Find_a_monad_T_for_your_structure_(words,_trees,_graphs,_...)",
+            "name": "Find a monad T for your structure (words, trees, graphs, ...)",
+            "merged": false,
+            "keywords": [
+              "Find a monad T for your structure (words, trees, graphs, ...)"
+            ],
+            "eventId": "8",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "2._A_language_is_a_subset_L__E2_8A_86_T_CE_A3",
+            "name": "2. A language is a subset L ⊆ TΣ",
+            "merged": false,
+            "keywords": [
+              "2. A language is a subset L ⊆ TΣ"
+            ],
+            "eventId": "10",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "3._To_recognize_languages,_use_finite_Eilenberg-Moore_algebras",
+            "name": "3. To recognize languages, use finite Eilenberg-Moore algebras",
+            "merged": false,
+            "keywords": [
+              "3. To recognize languages, use finite Eilenberg-Moore algebras"
+            ],
+            "eventId": "12",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "eilenberg-moore algebras",
+            "id": "eilenberg-moore_algebras",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Definition_of_an_Eilenberg",
+                "name": "Definition of an Eilenberg",
+                "merged": false,
+                "keywords": [
+                  "Definition. Fix a monad T. An Eilenberg-Moore algebra consists of:",
+                  "an underlying set A a multiplication operation μ : TA → A",
+                  "Definition of an Eilenberg"
+                ],
+                "eventId": "1",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Definition_of_Eilenberg_Moore",
+                "name": "Definition of Eilenberg Moore",
+                "merged": false,
+                "keywords": [
+                  "Definition of Eilenberg Moore"
+                ],
+                "eventId": "2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "free_multiplication",
+                "name": "free multiplication",
+                "merged": false,
+                "keywords": [
+                  "TTA",
+                  "TA",
+                  "A",
+                  "free multiplication",
+                  "μ",
+                  "Tμ"
+                ],
+                "eventId": "3",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "unit",
+                "name": "unit",
+                "merged": false,
+                "keywords": [
+                  "unit",
+                  "TA",
+                  "A",
+                  "μ",
+                  "id"
+                ],
+                "eventId": "4",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Examples.",
+                "name": "Examples.",
+                "merged": false,
+                "keywords": [
+                  "Examples."
+                ],
+                "eventId": "5",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "If_TA_=_A+,_then_an_algebra_is_a_semigroup.",
+                "name": "If TA = A+, then an algebra is a semigroup.",
+                "merged": false,
+                "keywords": [
+                  "If TA = A+, then an algebra is a semigroup."
+                ],
+                "eventId": "6",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "If_TA_=_A*,_then_an_algebra_is_a_monoid.",
+                "name": "If TA = A*, then an algebra is a monoid.",
+                "merged": false,
+                "keywords": [
+                  "If TA = A*, then an algebra is a monoid."
+                ],
+                "eventId": "7",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "If_TA_is_the_free_group_on_A,_then_an_algebra_is_a_group.",
+                "name": "If TA is the free group on A, then an algebra is a group.",
+                "merged": false,
+                "keywords": [
+                  "If TA is the free group on A, then an algebra is a group."
+                ],
+                "eventId": "8",
+                "disabled": false
+              }
+            ],
+            "keywords": [
+              "eilenberg-moore algebras"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Contrasted_with_recognizable_languages_using_universal_algebra",
+            "name": "Contrasted with recognizable languages using universal algebra",
+            "merged": false,
+            "keywords": [
+              "Contrasted with recognizable languages using universal algebra"
+            ],
+            "eventId": "7",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Find_operations_and_axioms,_e.g._binary_concatenation_and_associativity_(ab)c=a(bc)",
+            "name": "Find operations and axioms, e.g. binary concatenation and associativity (ab)c=a(bc)",
+            "merged": false,
+            "keywords": [
+              "Find operations and axioms, e.g. binary concatenation and associativity (ab)c=a(bc)"
+            ],
+            "eventId": "9",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "A_language_is_a_subset_of_the_free_algebra_(terms_modulo_axioms).",
+            "name": "A language is a subset of the free algebra (terms modulo axioms).",
+            "merged": false,
+            "keywords": [
+              "A language is a subset of the free algebra (terms modulo axioms)."
+            ],
+            "eventId": "11",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "To_recognize_languages,_use_finite_algebras.",
+            "name": "To recognize languages, use finite algebras.",
+            "merged": false,
+            "keywords": [
+              "To recognize languages, use finite algebras."
+            ],
+            "eventId": "13",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Some_examples",
+            "name": "Some examples",
+            "merged": false,
+            "keywords": [
+              "Some examples"
+            ],
+            "eventId": "14",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "shuffle words",
+            "id": "shuffle_words",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Example__countable_words",
+                "name": "Example: countable words",
+                "merged": false,
+                "keywords": [
+                  "Example: countable words"
+                ],
+                "eventId": "2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "T_CE_A3_=_countable_linear_orders_labelled_by__CE_A3,_modulo_isomorphism.",
+                "name": "TΣ = countable linear orders labelled by Σ, modulo isomorphism.",
+                "merged": false,
+                "keywords": [
+                  "TΣ = countable linear orders labelled by Σ, modulo isomorphism."
+                ],
+                "eventId": "3",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Examples_of_such_labelled_orders__aaa..._and_...aaa",
+                "name": "Examples of such labelled orders: aaa... and ...aaa",
+                "merged": false,
+                "keywords": [
+                  "Examples of such labelled orders: aaa... and ...aaa"
+                ],
+                "eventId": "4",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Also__shuffle(a,_b)_=_the_word__E2_84_9A__E2_86_92__7Ba,_b_7D_where_both_a_and_b_are_dense.",
+                "name": "Also: shuffle(a, b) = the word ℚ → {a, b} where both a and b are dense.",
+                "merged": false,
+                "keywords": [
+                  "Also: shuffle(a, b) = the word ℚ → {a, b} where both a and b are dense.",
+                  "unique modulo isomorphism"
+                ],
+                "eventId": "5",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "A_language_L__E2_8A_86_T_CE_A3_is_definable_in_mso_if_and_only_if_it_is_recognisable_",
+                "name": "A language L ⊆ TΣ is definable in mso if and only if it is recognisable:",
+                "merged": false,
+                "keywords": [
+                  "Theorem [Shelah 1975 + Carton, Colcombet, Puppis 2011]",
+                  "A language L ⊆ TΣ is definable in mso if and only if it is recognisable:",
+                  "TΣ",
+                  "A",
+                  "{yes, no}",
+                  "L",
+                  "homomorphism of Eilenberg-Moore algebras",
+                  "finite algebra",
+                  "any function"
+                ],
+                "eventId": "6",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Also,_if_A_is_a_finite_algebra,_then_its_multiplication__CE_BC___TA__E2_86_92_A_is_uniquely_determined_by_its_values_on_the_following_words_",
+                "name": "Also, if A is a finite algebra, then its multiplication μ : TA → A is uniquely determined by its values on the following words:",
+                "merged": false,
+                "keywords": [
+                  "Also, if A is a finite algebra, then its multiplication μ : TA → A is uniquely determined by its values on the following words:",
+                  "ab",
+                  "aaa...",
+                  "...aaa",
+                  "shuffle(B)",
+                  "for a, b ∈ A and B ⊆ A"
+                ],
+                "eventId": "7",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Theorem__5BShelah_1975_5D_MSO_is_undecidable_over_(_E2_84_9D,__3C)",
+                "name": "Theorem [Shelah 1975] MSO is undecidable over (ℝ, <)",
+                "merged": false,
+                "keywords": [
+                  "Theorem [Shelah 1975] MSO is undecidable over (ℝ, <)"
+                ],
+                "eventId": "1",
+                "disabled": false
+              }
+            ],
+            "keywords": [
+              "shuffle words"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "child",
+            "name": "weighted words",
+            "id": "weighted_words",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "Example__weighted_automata",
+                "name": "Example: weighted automata",
+                "merged": false,
+                "keywords": [
+                  "Example: weighted automata"
+                ],
+                "eventId": "1",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Consider_the_monad_TX_=_lin_X*",
+                "name": "Consider the monad TX = lin X*",
+                "merged": false,
+                "keywords": [
+                  "Consider the monad TX = lin X*"
+                ],
+                "eventId": "2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "60xyx__E2_80_93_40yyyx__E2_80_93_60xyx_+_30xx__E2_80_93_24yyx_+_12yx",
+                "name": "60xyx – 40yyyx – 60xyx + 30xx – 24yyx + 12yx",
+                "merged": false,
+                "keywords": [
+                  "4(3xy – 2yyy)(5x) – 3(10x + 4y)(2yx – x)",
+                  "60xyx – 40yyyx – 60xyx + 30xx – 24yyx + 12yx",
+                  "↦",
+                  "free multiplication",
+                  "∈ TTX",
+                  "∈ TX"
+                ],
+                "eventId": "3",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "An_algebra_for_this_monad_is_a_vector_space,_equipped_with_a_monoid_operation_that_is_linear_in_each_coordinate.",
+                "name": "An algebra for this monad is a vector space, equipped with a monoid operation that is linear in each coordinate.",
+                "merged": false,
+                "keywords": [
+                  "An algebra for this monad is a vector space, equipped with a monoid operation that is linear in each coordinate."
+                ],
+                "eventId": "6",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Weighted_languages_are_exactly_those_of_the_form",
+                "name": "Weighted languages are exactly those of the form",
+                "merged": false,
+                "keywords": [
+                  "Languages recognized by weighted automata are exactly these:",
+                  "TΣ",
+                  "A",
+                  "field",
+                  "L",
+                  "homomorphism of Eilenberg-Moore algebras",
+                  "algebra of finite dimension",
+                  "linear map",
+                  "Weighted languages are exactly those of the form"
+                ],
+                "eventId": "5",
+                "disabled": false
+              }
+            ],
+            "keywords": [
+              "weighted words"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "child",
+            "name": "profinite words, 2",
+            "id": "profinite_words,_2",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "Example__profinite_words,_continued",
+                "name": "Example: profinite words, continued",
+                "merged": false,
+                "keywords": [
+                  "Example: profinite words, continued"
+                ],
+                "eventId": "1",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Consider_the_monad_TX_=_profinite_words_over_alphabet_X",
+                "name": "Consider the monad TX = profinite words over alphabet X",
+                "merged": false,
+                "keywords": [
+                  "Consider the monad TX = profinite words over alphabet X"
+                ],
+                "eventId": "2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "There_is_a_meaningful_free_multiplication_TTX__E2_86_92_TX",
+                "name": "There is a meaningful free multiplication TTX → TX",
+                "merged": false,
+                "keywords": [
+                  "There is a meaningful free multiplication TTX → TX"
+                ],
+                "eventId": "3",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "A_profinite_word_is_uniquely_described_by_the_regular_languages_which_contain_it.",
+                "name": "A profinite word is uniquely described by the regular languages which contain it.",
+                "merged": false,
+                "keywords": [
+                  "A profinite word is uniquely described by the regular languages which contain it."
+                ],
+                "eventId": "4",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Suppose_that_we_want_to_know_if_a_word_in_TTX_has_even_length_after_flattening,",
+                "name": "Suppose that we want to know if a word in TTX has even length after flattening,",
+                "merged": false,
+                "keywords": [
+                  "Suppose that we want to know if a word in TTX has even length after flattening,"
+                ],
+                "eventId": "5",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "It_is_enough_to_know_if_there_is_an_even_number_of_letters,_which_are_words_in_TX,_that_have_odd_length.",
+                "name": "It is enough to know if there is an even number of letters, which are words in TX, that have odd length.",
+                "merged": false,
+                "keywords": [
+                  "It is enough to know if there is an even number of letters, which are words in TX, that have odd length."
+                ],
+                "eventId": "6",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Trivial_example_of_an_algebra_for_T",
+                "name": "Trivial example of an algebra for T",
+                "merged": false,
+                "keywords": [
+                  "Trivial example of an algebra for T"
+                ],
+                "eventId": "7",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Every_finite_monoid__the_monoid_operation__CE_BC___A*__E2_86_92_A_extends_to_an_operation_of_type_TA__E2_86_92_A,_which_gives_an_algebra_for_T.",
+                "name": "Every finite monoid: the monoid operation μ : A* → A extends to an operation of type TA → A, which gives an algebra for T.",
+                "merged": false,
+                "keywords": [
+                  "Every finite monoid: the monoid operation μ : A* → A extends to an operation of type TA → A, which gives an algebra for T."
+                ],
+                "eventId": "8",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Nontrivial_example_example_of_an_algebra_for_T",
+                "name": "Nontrivial example example of an algebra for T",
+                "merged": false,
+                "keywords": [
+                  "Nontrivial example example of an algebra for T"
+                ],
+                "eventId": "9",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "The_underlying_set_is_A_=__7B_CE_B5,_+,__E2_88_9E_7D.",
+                "name": "The underlying set is A = {ε, +, ∞}.",
+                "merged": false,
+                "keywords": [
+                  "The underlying set is A = {ε, +, ∞}."
+                ],
+                "eventId": "10",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "The_multiplication_operation__CE_BC___TA__E2_86_92_A_is_defined_by_",
+                "name": "The multiplication operation μ : TA → A is defined by:",
+                "merged": false,
+                "keywords": [
+                  "The multiplication operation μ : TA → A is defined by:"
+                ],
+                "eventId": "11",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "only__CE_B5_appears",
+                "name": "only ε appears",
+                "merged": false,
+                "keywords": [
+                  "only ε appears",
+                  "ε"
+                ],
+                "eventId": "12",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "_E2_88_9E_does_not_appear,_and_+_appears_at_least_once.",
+                "name": "∞ does not appear, and + appears at least once.",
+                "merged": false,
+                "keywords": [
+                  "∞ does not appear, and + appears at least once.",
+                  "+"
+                ],
+                "eventId": "13",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "otherwise,_i.e.__E2_88_9E_appears_at_least_once,_or_+_appears_infinitely_often",
+                "name": "otherwise, i.e. ∞ appears at least once, or + appears infinitely often",
+                "merged": false,
+                "keywords": [
+                  "otherwise, i.e. ∞ appears at least once, or + appears infinitely often",
+                  "∞"
+                ],
+                "eventId": "14",
+                "disabled": false
+              }
+            ],
+            "keywords": [
+              "profinite words, 2"
+            ],
+            "eventId": "5"
+          }
+        ],
+        "keywords": [
+          "monads"
+        ],
+        "eventId": "3"
+      },
+      {
+        "type": "show",
+        "id": "Some_theorems",
+        "name": "Some theorems",
+        "merged": false,
+        "keywords": [
+          "Some theorems"
+        ],
+        "eventId": "12",
+        "disabled": false
+      },
+      {
+        "type": "child",
+        "name": "some theorems",
+        "id": "some_theorems",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "The_following_are_equivalent_for_every_monad_T_in_the_category_of_sets.",
+            "name": "The following are equivalent for every monad T in the category of sets.",
+            "merged": false,
+            "keywords": [
+              "Theorem [B., Plotkin]",
+              "The following are equivalent for every monad T in the category of sets."
+            ],
+            "eventId": "1",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Every_w__E2_88_88_TX_uses_finitely_many_letters_from_X",
+            "name": "Every w ∈ TX uses finitely many letters from X",
+            "merged": false,
+            "keywords": [
+              "T is finitary",
+              "Every w ∈ TX uses finitely many letters from X"
+            ],
+            "eventId": "2",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "For_every_language,_there_a_homorphism_that_recognizes_it,_and_which_is_refined_by_every_other_recognizing_homomorphism.",
+            "name": "For every language, there a homorphism that recognizes it, and which is refined by every other recognizing homomorphism.",
+            "merged": false,
+            "keywords": [
+              "T has syntactic homomorphisms",
+              "For every language, there a homorphism that recognizes it, and which is refined by every other recognizing homomorphism."
+            ],
+            "eventId": "3",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Other_theorems",
+            "name": "Other theorems",
+            "merged": false,
+            "keywords": [
+              "Other theorems"
+            ],
+            "eventId": "4",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Eilenberg_variety_theorem__good_classes_of_recognizable_languages_correspond_to_good_classes_of_finite_algebras.",
+            "name": "Eilenberg variety theorem: good classes of recognizable languages correspond to good classes of finite algebras.",
+            "merged": false,
+            "keywords": [
+              "Eilenberg variety theorem: good classes of recognizable languages correspond to good classes of finite algebras."
+            ],
+            "eventId": "5",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Birkhof_variety_theorem__good_classes_of_(not_necessarily_finite)_algebras_can_be_defined_using_equations.",
+            "name": "Birkhof variety theorem: good classes of (not necessarily finite) algebras can be defined using equations.",
+            "merged": false,
+            "keywords": [
+              "Birkhof variety theorem: good classes of (not necessarily finite) algebras can be defined using equations."
+            ],
+            "eventId": "6",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Reiterman_theorem__good_classes_of_finite_algebras_can_be_defined_using_profinite_equations.",
+            "name": "Reiterman theorem: good classes of finite algebras can be defined using profinite equations.",
+            "merged": false,
+            "keywords": [
+              "Reiterman theorem: good classes of finite algebras can be defined using profinite equations."
+            ],
+            "eventId": "7",
+            "disabled": false
+          }
+        ],
+        "keywords": [
+          "some theorems"
+        ],
+        "eventId": "4"
+      },
+      {
+        "type": "show",
+        "id": "Example__graphs",
+        "name": "Example: graphs",
+        "merged": false,
+        "keywords": [
+          "Example: graphs"
+        ],
+        "eventId": "8",
+        "disabled": false
+      },
+      {
+        "type": "show",
+        "id": "Example__infinite_trees",
+        "name": "Example: infinite trees",
+        "merged": false,
+        "keywords": [
+          "Example: infinite trees"
+        ],
+        "eventId": "10",
+        "disabled": false
+      },
+      {
+        "type": "child",
+        "name": "graph monads",
+        "id": "graph_monads",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Example__graphs",
+            "name": "Example: graphs",
+            "merged": false,
+            "keywords": [
+              "Example: graphs"
+            ],
+            "eventId": "2",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "We_want_to_substitute_graphs_into_other_graphs._To_do_this,_we_consider_a_monad_in_the_category_of_ranked_sets.",
+            "name": "We want to substitute graphs into other graphs. To do this, we consider a monad in the category of ranked sets.",
+            "merged": false,
+            "keywords": [
+              "We want to substitute graphs into other graphs. To do this, we consider a monad in the category of ranked sets.",
+              "each element of a set has an arity in {0, 1, ...}"
+            ],
+            "eventId": "3",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "For_a_ranked_set__CE_A3,_define_T_CE_A3_to_be_the_following_ranked_set__an_element_of_arity_n__E2_88_88__7B0,_1,_..._7D_is_a_relational_structure_over_vocabulary__CE_A3,_with_n_distinguished_elements.",
+            "name": "For a ranked set Σ, define TΣ to be the following ranked set: an element of arity n ∈ {0, 1, ...} is a relational structure over vocabulary Σ, with n distinguished elements.",
+            "merged": false,
+            "keywords": [
+              "For a ranked set Σ, define TΣ to be the following ranked set: an element of arity n ∈ {0, 1, ...} is a relational structure over vocabulary Σ, with n distinguished elements.",
+              "a",
+              "b",
+              "1",
+              "2",
+              "3"
+            ],
+            "eventId": "8",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "If__CE_A3_has_just_one_element,_of_arity_2,_then_T_CE_A3_is_directed_graphs_with_distinguished_vertices",
+            "name": "If Σ has just one element, of arity 2, then TΣ is directed graphs with distinguished vertices",
+            "merged": false,
+            "keywords": [
+              "If Σ has just one element, of arity 2, then TΣ is directed graphs with distinguished vertices"
+            ],
+            "eventId": "5",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Theorem__5BCourcelle_1990_and_B.,_Pilipczuk_2016_5D_If_L_has_bounded_treewidth,_then_it_is_definable_in_counting_mso_if_and_only_if_it_is_recognized_by_a_homomorphism_into_an_algebra_that_is_finite_on_every_arity.",
+            "name": "Theorem [Courcelle 1990 and B., Pilipczuk 2016] If L has bounded treewidth, then it is definable in counting mso if and only if it is recognized by a homomorphism into an algebra that is finite on every arity.",
+            "merged": false,
+            "keywords": [
+              "Theorem [Courcelle 1990 and B., Pilipczuk 2016] If L has bounded treewidth, then it is definable in counting mso if and only if it is recognized by a homomorphism into an algebra that is finite on every arity."
+            ],
+            "eventId": "6",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "graph monads, 2",
+            "id": "graph_monads,_2",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Theorem__5BB.,_5D_Mso_without_counting_corresponds_to_algebras_that_avoid_groups_in_some_way.",
+                "name": "Theorem [B.,] Mso without counting corresponds to algebras that avoid groups in some way.",
+                "merged": false,
+                "keywords": [
+                  "Theorem [B.,] Mso without counting corresponds to algebras that avoid groups in some way."
+                ],
+                "eventId": "2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "What_about_star-free_languages?",
+                "name": "What about star-free languages?",
+                "merged": false,
+                "keywords": [
+                  "What about star-free languages?"
+                ],
+                "eventId": "3",
+                "disabled": false
+              },
+              {
+                "type": "child",
+                "name": "star-free",
+                "id": "star-free",
+                "merged": false,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "A_word_language_L__E2_8A_86__CE_A3*_is_star-free_if_it_can_be_generated_from_finite_languages_using_Boolean_combinations_and_concatenation_L_C2_B7K.",
+                    "name": "A word language L ⊆ Σ* is star-free if it can be generated from finite languages using Boolean combinations and concatenation L·K.",
+                    "merged": false,
+                    "keywords": [
+                      "A word language L ⊆ Σ* is star-free if it can be generated from finite languages using Boolean combinations and concatenation L·K."
+                    ],
+                    "eventId": "1",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "Theorem__5BMcNaughton,_Papert_1971_5D_A_language_L__E2_8A_86__CE_A3*_is_star-free_iff_it_is_definable_in_first-order_logic.",
+                    "name": "Theorem [McNaughton, Papert 1971] A language L ⊆ Σ* is star-free iff it is definable in first-order logic.",
+                    "merged": false,
+                    "keywords": [
+                      "Theorem [McNaughton, Papert 1971] A language L ⊆ Σ* is star-free iff it is definable in first-order logic."
+                    ],
+                    "eventId": "2",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "What_is_L_C2_B7K_in_an_abstract_monad?",
+                    "name": "What is L·K in an abstract monad?",
+                    "merged": false,
+                    "keywords": [
+                      "What is L·K in an abstract monad?"
+                    ],
+                    "eventId": "3",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "View_the_word_xy_as_a_binary_operation_on__CE_A3*,_and_apply_it_to_L__C3_97_K.",
+                    "name": "View the word xy as a binary operation on Σ*, and apply it to L × K.",
+                    "merged": false,
+                    "keywords": [
+                      "View the word xy as a binary operation on Σ*, and apply it to L × K."
+                    ],
+                    "eventId": "4",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "This_makes_sense_in_abstract_monads,_although_we_need_be_able_to_say_that_no_variable_is_used_twice.",
+                    "name": "This makes sense in abstract monads, although we need be able to say that no variable is used twice.",
+                    "merged": false,
+                    "keywords": [
+                      "This makes sense in abstract monads, although we need be able to say that no variable is used twice."
+                    ],
+                    "eventId": "5",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "Theorem__5BB._5D_A_language_in_the_graph_monad_is_star-free_iff_it_is_definable_in_first-order_logic_with_separator_predicates._(Assumes_undirected_graphs)",
+                    "name": "Theorem [B.] A language in the graph monad is star-free iff it is definable in first-order logic with separator predicates. (Assumes undirected graphs)",
+                    "merged": false,
+                    "keywords": [
+                      "Theorem [B.] A language in the graph monad is star-free iff it is definable in first-order logic with separator predicates. (Assumes undirected graphs)"
+                    ],
+                    "eventId": "6",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "Also,_for_bounded_pathwidth_these_languages_are_exactly_those_that_are_recognized_by_algebras_that_avoid_groups_in_some_way.",
+                    "name": "Also, for bounded pathwidth these languages are exactly those that are recognized by algebras that avoid groups in some way.",
+                    "merged": false,
+                    "keywords": [
+                      "Also, for bounded pathwidth these languages are exactly those that are recognized by algebras that avoid groups in some way."
+                    ],
+                    "eventId": "7",
+                    "disabled": false
+                  },
+                  {
+                    "type": "show",
+                    "id": "for_bounded_treewidth_we_know_very_little,_even_for_trees",
+                    "name": "for bounded treewidth we know very little, even for trees",
+                    "merged": false,
+                    "keywords": [
+                      "for bounded treewidth we know very little, even for trees"
+                    ],
+                    "eventId": "8",
+                    "disabled": false
+                  }
+                ],
+                "keywords": [
+                  "star-free"
+                ],
+                "eventId": "1"
+              }
+            ],
+            "keywords": [
+              "graph monads, 2"
+            ],
+            "eventId": "1"
+          }
+        ],
+        "keywords": [
+          "graph monads"
+        ],
+        "eventId": "5"
+      },
+      {
+        "type": "child",
+        "name": "infinite trees",
+        "id": "infinite_trees",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Open_question_Describe_the_algebras_that_correspond_to_mso_on_infinite_trees.",
+            "name": "Open question Describe the algebras that correspond to mso on infinite trees.",
+            "merged": false,
+            "keywords": [
+              "Open question Describe the algebras that correspond to mso on infinite trees."
+            ],
+            "eventId": "2",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "A_natural_monad_is_infinite_terms.",
+            "name": "A natural monad is infinite terms.",
+            "merged": false,
+            "keywords": [
+              "A natural monad is infinite terms."
+            ],
+            "eventId": "3",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "If__CE_A3_is_a_ranked_alphabet,_then_an_n-ary_element_of_T_CE_A3_is_a_possibly_infinite_tree_built_using__CE_A3_and_variables__7B1,...,_n_7D.",
+            "name": "If Σ is a ranked alphabet, then an n-ary element of TΣ is a possibly infinite tree built using Σ and variables {1,..., n}.",
+            "merged": false,
+            "keywords": [
+              "If Σ is a ranked alphabet, then an n-ary element of TΣ is a possibly infinite tree built using Σ and variables {1,..., n}.",
+              "a",
+              "b",
+              "1",
+              "2"
+            ],
+            "eventId": "11",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "The_monad_operation_TT_CE_A3__E2_86_92_T_CE_A3_replaces_letters_with_trees",
+            "name": "The monad operation TTΣ → TΣ replaces letters with trees",
+            "merged": false,
+            "keywords": [
+              "The monad operation TTΣ → TΣ replaces letters with trees"
+            ],
+            "eventId": "5",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "If_a_tree_language_L__E2_8A_86_T_CE_A3_is_regular,_then_it_is_recognized_by_an_algebra_that_is_finite_on_every_arity.",
+            "name": "If a tree language L ⊆ TΣ is regular, then it is recognized by an algebra that is finite on every arity.",
+            "merged": false,
+            "keywords": [
+              "If a tree language L ⊆ TΣ is regular, then it is recognized by an algebra that is finite on every arity.",
+              "L has arity 0, and is definable in mso"
+            ],
+            "eventId": "12",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "The_converse_is_not_true__5BB.,_Klin_2019_5D",
+            "name": "The converse is not true [B., Klin 2019]",
+            "merged": false,
+            "keywords": [
+              "The converse is not true [B., Klin 2019]"
+            ],
+            "eventId": "8",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "anti-regular",
+            "id": "anti-regular",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "By_Rabin_E2_80_99s_theorem,_every_mso_definable_tree_language_contains_at_least_one_tree_that_is_regular,_i.e._has_finitely_many_subtrees.",
+                "name": "By Rabin’s theorem, every mso definable tree language contains at least one tree that is regular, i.e. has finitely many subtrees.",
+                "merged": false,
+                "keywords": [
+                  "By Rabin’s theorem, every mso definable tree language contains at least one tree that is regular, i.e. has finitely many subtrees."
+                ],
+                "eventId": "1",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "A_tree_is_anti-regular_if_every_two_nodes_have_different_subtrees.",
+                "name": "A tree is anti-regular if every two nodes have different subtrees.",
+                "merged": false,
+                "keywords": [
+                  "A tree is anti-regular if every two nodes have different subtrees."
+                ],
+                "eventId": "2",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "Example__randomly_choose_the_labels_in_a_complete_binary_tree",
+                "name": "Example: randomly choose the labels in a complete binary tree",
+                "merged": false,
+                "keywords": [
+                  "Example: randomly choose the labels in a complete binary tree"
+                ],
+                "eventId": "3",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "The_following_language_is_recogized_by_an_algebra_that_is_finite_on_every_arity_",
+                "name": "The following language is recogized by an algebra that is finite on every arity:",
+                "merged": false,
+                "keywords": [
+                  "The following language is recogized by an algebra that is finite on every arity:"
+                ],
+                "eventId": "4",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "L_=_trees_where_every_node_has_some_sub-tree_that_is_anti-regular",
+                "name": "L = trees where every node has some sub-tree that is anti-regular",
+                "merged": false,
+                "keywords": [
+                  "L = trees where every node has some sub-tree that is anti-regular"
+                ],
+                "eventId": "5",
+                "disabled": false
+              },
+              {
+                "type": "show",
+                "id": "This_language_is_nonempty,_and_yet_it_contains_no_regular_trees,_and_therefore_it_is_not_definable_in_mso.",
+                "name": "This language is nonempty, and yet it contains no regular trees, and therefore it is not definable in mso.",
+                "merged": false,
+                "keywords": [
+                  "This language is nonempty, and yet it contains no regular trees, and therefore it is not definable in mso."
+                ],
+                "eventId": "6",
+                "disabled": false
+              }
+            ],
+            "keywords": [
+              "anti-regular"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Larger_question__what_is_a_finite_algebra?",
+            "name": "Larger question: what is a finite algebra?",
+            "merged": false,
+            "keywords": [
+              "Larger question: what is a finite algebra?"
+            ],
+            "eventId": "9",
+            "disabled": false
+          }
+        ],
+        "keywords": [
+          "a",
+          "b",
+          "1",
+          "2",
+          "infinite trees"
+        ],
+        "eventId": "6"
+      },
+      {
+        "type": "show",
+        "id": "Conclusion",
+        "name": "Conclusion",
+        "merged": false,
+        "keywords": [
+          "Conclusion"
+        ],
+        "eventId": "13",
+        "disabled": false
+      },
+      {
+        "type": "child",
+        "name": "conclusion",
+        "id": "conclusion",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Monads_are_a_good_notation_to_speak_about_recognizable_languages,_especially_in_nontrivial_cases_(infinitary_monads,_extra_structure_on_the_underlying_set_in_an_algebra).",
+            "name": "Monads are a good notation to speak about recognizable languages, especially in nontrivial cases (infinitary monads, extra structure on the underlying set in an algebra).",
+            "merged": false,
+            "keywords": [
+              "Monads are a good notation to speak about recognizable languages, especially in nontrivial cases (infinitary monads, extra structure on the underlying set in an algebra)."
+            ],
+            "eventId": "1",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Screenshot_2021-06-25_at_15.23_1",
+            "name": "Screenshot 2021-06-25 at 15.23 1",
+            "merged": false,
+            "keywords": [
+              "Screenshot 2021-06-25 at 15.23 1"
+            ],
+            "eventId": "11",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "They_help_to_identify_the_important_questions.",
+            "name": "They help to identify the important questions.",
+            "merged": false,
+            "keywords": [
+              "They help to identify the important questions."
+            ],
+            "eventId": "2",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "Ongoing_work",
+            "name": "Ongoing work",
+            "merged": false,
+            "keywords": [
+              "Ongoing work"
+            ],
+            "eventId": "7",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "_E2_80_93_graphs_of_bounded_cliquewidth",
+            "name": "– graphs of bounded cliquewidth",
+            "merged": false,
+            "keywords": [
+              "– graphs of bounded cliquewidth"
+            ],
+            "eventId": "3",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "_E2_80_93_matroids_of_bounded_rankwidth",
+            "name": "– matroids of bounded rankwidth",
+            "merged": false,
+            "keywords": [
+              "– matroids of bounded rankwidth"
+            ],
+            "eventId": "4",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "successful_for_path_decompositions",
+            "name": "successful for path decompositions",
+            "merged": false,
+            "keywords": [
+              "successful for path decompositions"
+            ],
+            "eventId": "8",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "_5BB.,_Grohe,_Pilipczuk_2018_5D",
+            "name": "[B., Grohe, Pilipczuk 2018]",
+            "merged": false,
+            "keywords": [
+              "[B., Grohe, Pilipczuk 2018]"
+            ],
+            "eventId": "9",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "_5BB.,_Geniet,_ongoing_5D",
+            "name": "[B., Geniet, ongoing]",
+            "merged": false,
+            "keywords": [
+              "[B., Geniet, ongoing]"
+            ],
+            "eventId": "10",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "_E2_80_93_understand_infinite_trees",
+            "name": "– understand infinite trees",
+            "merged": false,
+            "keywords": [
+              "– understand infinite trees"
+            ],
+            "eventId": "5",
+            "disabled": false
+          },
+          {
+            "type": "show",
+            "id": "_E2_80_93_understand_the_algebra_of_first-order_logic,_beyond_words",
+            "name": "– understand the algebra of first-order logic, beyond words",
+            "merged": false,
+            "keywords": [
+              "– understand the algebra of first-order logic, beyond words"
+            ],
+            "eventId": "6",
+            "disabled": false
+          }
+        ],
+        "keywords": [
+          "conclusion"
+        ],
+        "eventId": "7"
+      }
+    ],
+    "keywords": [
+      "Recognizable languages over monads",
+      "Mikołaj Bojańczyk, Warsaw",
+      "new slide"
+    ],
+    "eventId": "root"
+  },
+  "soundDict": {}
+}
