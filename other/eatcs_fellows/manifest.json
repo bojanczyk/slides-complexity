@@ -1,0 +1,172 @@
+{
+  "version": 0.92,
+  "presentation": "eatcs fellows",
+  "slideDict": {
+    "alur": "alur",
+    "new_slide": "new_slide",
+    "aceto": "aceto",
+    "peleg": "peleg",
+    "sangiorgi": "sangiorgi",
+    "saurabh": "saurabh",
+    "khuller": "khuller"
+  },
+  "tree": {
+    "type": "child",
+    "name": "new slide",
+    "id": "new_slide",
+    "merged": false,
+    "children": [
+      {
+        "type": "child",
+        "name": "aceto",
+        "id": "aceto",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "for_fundamental_contributions_to_concurrency_theory,_and_outstanding_merits_for_the_community_of_theoretical_computer_science,_in_particular_as_an_inspiring_president_of_EATCS",
+            "name": "for fundamental contributions to concurrency theory, and outstanding merits for the community of theoretical computer science, in particular as an inspiring president of EATCS",
+            "merged": false,
+            "keywords": [
+              "Luca Aceto",
+              "for fundamental contributions to concurrency theory, and outstanding merits for the community of theoretical computer science, in particular as an inspiring president of EATCS"
+            ],
+            "eventId": "1",
+            "disabled": false
+          }
+        ],
+        "keywords": [
+          "aceto"
+        ],
+        "eventId": "2"
+      },
+      {
+        "type": "child",
+        "name": "alur",
+        "id": "alur",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "for_fundamental_contributions_to_the_theory_of_verification,_especially_of_timed_and_hybrid,_concurrent_and_multi-agent,_and_hierarchical_and_recursive_systems",
+            "name": "for fundamental contributions to the theory of verification, especially of timed and hybrid, concurrent and multi-agent, and hierarchical and recursive systems",
+            "merged": false,
+            "keywords": [
+              "Rajeev Alur",
+              "for fundamental contributions to the theory of verification, especially of timed and hybrid, concurrent and multi-agent, and hierarchical and recursive systems"
+            ],
+            "eventId": "1",
+            "disabled": false
+          }
+        ],
+        "keywords": [
+          "alur"
+        ],
+        "eventId": "1"
+      },
+      {
+        "type": "child",
+        "name": "khuller",
+        "id": "khuller",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "for_fundamental_contributions_to_combinatorial_approximation_algorithms__E2_80_93_specifically_for_work_in_graph_algorithms_and_scheduling,_and_for_mentoring_and_building_community",
+            "name": "for fundamental contributions to combinatorial approximation algorithms – specifically for work in graph algorithms and scheduling, and for mentoring and building community",
+            "merged": false,
+            "keywords": [
+              "Samir Khuller",
+              "for fundamental contributions to combinatorial approximation algorithms – specifically for work in graph algorithms and scheduling, and for mentoring and building community"
+            ],
+            "eventId": "1",
+            "disabled": false
+          }
+        ],
+        "keywords": [
+          "khuller"
+        ],
+        "eventId": "6"
+      },
+      {
+        "type": "child",
+        "name": "peleg",
+        "id": "peleg",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "for_fundamental_contributions_to_the_areas_of_distributed_graph_algorithms,_wireless_networks,_robotics_and_social_networks,_and_longstanding_support_for_the_development_of_theoretical_computer_science_in_Europe",
+            "name": "for fundamental contributions to the areas of distributed graph algorithms, wireless networks, robotics and social networks, and longstanding support for the development of theoretical computer science in Europe",
+            "merged": false,
+            "keywords": [
+              "David Peleg",
+              "for fundamental contributions to the areas of distributed graph algorithms, wireless networks, robotics and social networks, and longstanding support for the development of theoretical computer science in Europe"
+            ],
+            "eventId": "1",
+            "disabled": false
+          }
+        ],
+        "keywords": [
+          "peleg"
+        ],
+        "eventId": "3"
+      },
+      {
+        "type": "child",
+        "name": "sangiorgi",
+        "id": "sangiorgi",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "for_fundamental_contributions_to_concurrency_and_the_foundations_of_programming_languages,_contributing_notably_to_the__CF_80-calculus_and_to_coinduction-based_proofs",
+            "name": "for fundamental contributions to concurrency and the foundations of programming languages, contributing notably to the π-calculus and to coinduction-based proofs",
+            "merged": false,
+            "keywords": [
+              "Davide Sangiorgi",
+              "for fundamental contributions to concurrency and the foundations of programming languages, contributing notably to the π-calculus and to coinduction-based proofs"
+            ],
+            "eventId": "1",
+            "disabled": false
+          }
+        ],
+        "keywords": [
+          "sangiorgi"
+        ],
+        "eventId": "4"
+      },
+      {
+        "type": "child",
+        "name": "saurabh",
+        "id": "saurabh",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "for_fundamental_contributions_to_algorithms,_including_parameterized_algorithms_and_kernelization",
+            "name": "for fundamental contributions to algorithms, including parameterized algorithms and kernelization",
+            "merged": false,
+            "keywords": [
+              "Saket Saurabh",
+              "for fundamental contributions to algorithms, including parameterized algorithms and kernelization"
+            ],
+            "eventId": "1",
+            "disabled": false
+          }
+        ],
+        "keywords": [
+          "saurabh"
+        ],
+        "eventId": "5"
+      }
+    ],
+    "keywords": [
+      "EATCS Fellows 2021",
+      "Selection committee: Christel Baier • Mikołaj Bojańczyk • Mariangiola Dezani • Josep Diaz • Giuseppe Italiano",
+      "new slide"
+    ],
+    "eventId": "root"
+  },
+  "soundDict": {}
+}
